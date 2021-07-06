@@ -1,0 +1,7 @@
+之所以安装ElasticSearch 1.4.1，是因为《ElasticSearch实战》这本书使用的是该版本的ElasticSearch，在启动的过程中，我发现了该版本的ElasticSearch会闪退。
+
+我目前没有定位该问题，但是我发现如果我配置了JAVA_HOME，然后去启动我最新版的ElasticSearch，也会闪退，我估计大概率是因为JAVA_HOME导致的闪退，但是我现在没有证据。
+
+20210615后续：
+
+该问题在Linux上并不会复现。

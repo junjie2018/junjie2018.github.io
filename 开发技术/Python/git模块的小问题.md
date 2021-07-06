@@ -1,0 +1,5 @@
+我准备换pygit为GitPython，但是我导入git包后找不到用不了git.Repo，我已经在PyCharm的Inspector中去掉了pygit、gitdb，这些可能影响到我的模块，并开了一个新的项目去测试GitPython，发现是正常的。
+
+我按住ctrl后，点击git模块，在项目定位到了一个名为git的目录，我感觉这个我的情况不符合，所以我删掉了GitPython，又重新引入，然后按住ctrl后，点击git模块，这此进来的一个git.py文件，这个比较符合我的情况。
+
+可能是之前导入模块的时候，相互影响了吧。
