@@ -1,9 +1,0 @@
-之前学习Thymeleaf时，对其include和fragment影响深刻，其功能大致描述如下，我们在一个文件中定义多个fragment，然后在另一份文件中通过include指令，应用这份文件中的fragment。
-
-我非常喜欢这种方式，因为这种方式很适合模板代码的管理，模板代码中有很多时候实现一个功能的代码分散在Controller、Service、Mapper层，如果支持这种fragment，则我们可以将这些fragment写到同一个文件中，然后再不同层的模板代码中引用这些fragment代码，很可惜FreeMarker的include指令并不支持fragment。所以我决定自己实现该功能。
-
-这个功能我实现了两版，两版都是通过自定义指令实现的。区别是第一版在自定义指令回调中寻找模板内容，而第二版在SpringBoot项目启动时，扫描相关的目录，加载所有的模板内容到缓存中，然后在自定义指令的回调中从缓存中获取模板内容，然后渲染到页面中。
-
-相关的实现，在我的工具包代码中。
-
-[junjie2018/AutoTools](https://github.com/junjie2018/AutoTools)
