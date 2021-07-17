@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SnakeYaml on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/snakeyaml/</link>
+    <description>Recent content in SnakeYaml on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/snakeyaml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>snakeyaml驼峰与下滑线转化.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/snakeyaml/snakeyaml%E9%A9%BC%E5%B3%B0%E4%B8%8E%E4%B8%8B%E6%BB%91%E7%BA%BF%E8%BD%AC%E5%8C%96/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/snakeyaml/snakeyaml%E9%A9%BC%E5%B3%B0%E4%B8%8E%E4%B8%8B%E6%BB%91%E7%BA%BF%E8%BD%AC%E5%8C%96/</guid>
+        <description>我的需求是这样的，我需要序列化一个对象成yaml文档，序列化时要求驼峰转下划线，且保持字段声明顺序。我原本计划通过自定义snakeyaml的</description>
+      </item>
+      
+      <item>
+        <title>snakyaml序列化时，类必须为public.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/snakeyaml/snakyaml%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E7%B1%BB%E5%BF%85%E9%A1%BB%E4%B8%BApublic/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/snakeyaml/snakyaml%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E7%B1%BB%E5%BF%85%E9%A1%BB%E4%B8%BApublic/</guid>
+        <description>我的代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 @Data @NoArgsConstructor public class TableRoot { private String tblName; private String tblDesc; private List&amp;lt;ColumnRoot&amp;gt; columns; public TableRoot(String tblName, String tblDesc) { this.tblName = tblName; this.tblDesc = tblDesc; this.columns = new ArrayList&amp;lt;&amp;gt;(); } @Data @SuppressWarnings(&amp;#34;WeakerAccess&amp;#34;) private static class ColumnRoot</description>
+      </item>
+      
+    
+  </channel>
+</rss>

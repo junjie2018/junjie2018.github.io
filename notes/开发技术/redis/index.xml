@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redis on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/</link>
+    <description>Recent content in Redis on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>在SpringBoot中配置Redis.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%9C%A8springboot%E4%B8%AD%E9%85%8D%E7%BD%AEredis/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%9C%A8springboot%E4%B8%AD%E9%85%8D%E7%BD%AEredis/</guid>
+        <description>操作步骤 引入依赖 1 2 3 4 5 6 7 8 9 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-data-redis&amp;lt;/artifactId&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.commons&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;commons-pool2&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.6.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; 准备配置文件 1 2 3 4 5 6 7 8 9 10 11 12 spring:redis:database:12host:192.168.75.62port:6379timeout:60slettuce:pool:max-active:100max-idle:100min-idle:50max-wait:6000 准备配置类 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20</description>
+      </item>
+      
+      <item>
+        <title>在SpringBoot中配置了Redis连接池后链接失败的问题.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%9C%A8springboot%E4%B8%AD%E9%85%8D%E7%BD%AE%E4%BA%86redis%E8%BF%9E%E6%8E%A5%E6%B1%A0%E5%90%8E%E9%93%BE%E6%8E%A5%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%9C%A8springboot%E4%B8%AD%E9%85%8D%E7%BD%AE%E4%BA%86redis%E8%BF%9E%E6%8E%A5%E6%B1%A0%E5%90%8E%E9%93%BE%E6%8E%A5%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>问题描述 描述如下 java.lang.IllegalStateException: Failed to load ApplicationContext at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) at org.junit.runners.ParentRunner.run(ParentRunner.java:363) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) at org.junit.runner.JUnitCore.run(JUnitCore.java:137) at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with</description>
+      </item>
+      
+      <item>
+        <title>将Redis安装在CentOS 7上.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A/</guid>
+        <description>操作步骤 从官网下载源码包 yum install -y gcc mkdir -p ~/software/redis &amp;amp;&amp;amp; cd ~/software/redis wget http://download.redis.io/releases/redis-5.0.8.tar.gz?_ga=2.113561735.1252722932.1596592540-1218236159.1596592540 mv redis-5.0.8.tar.gz* redis-5.0.8.tar.gz # 不知道行不行 解压并编译安装 1 2 3 4 5 6 7 8 # yum install -y gcc tar -zxvf redis-5.0.8.tar.gz cd redis-5.0.8 make make install PREFIX=/usr/local/redis 设置环境变量 1</description>
+      </item>
+      
+    
+  </channel>
+</rss>

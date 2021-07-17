@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jenkins on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/jenkins/</link>
+    <description>Recent content in Jenkins on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>流水线相关的资料.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/jenkins/%E6%B5%81%E6%B0%B4%E7%BA%BF%E7%9B%B8%E5%85%B3%E7%9A%84%E8%B5%84%E6%96%99/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/jenkins/%E6%B5%81%E6%B0%B4%E7%BA%BF%E7%9B%B8%E5%85%B3%E7%9A%84%E8%B5%84%E6%96%99/</guid>
+        <description>以前用到的，但是忘记使用场景了，想记录下来。 参考资料 Pipeline Steps Reference</description>
+      </item>
+      
+      <item>
+        <title>解决Jenkins下载插件慢.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/jenkins/%E8%A7%A3%E5%86%B3jenkins%E4%B8%8B%E8%BD%BD%E6%8F%92%E4%BB%B6%E6%85%A2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/jenkins/%E8%A7%A3%E5%86%B3jenkins%E4%B8%8B%E8%BD%BD%E6%8F%92%E4%BB%B6%E6%85%A2/</guid>
+        <description>解决步骤 修改插件源为： https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json 修改updates/default.json文件： updates.jenkins-ci.org/download修改</description>
+      </item>
+      
+    
+  </channel>
+</rss>

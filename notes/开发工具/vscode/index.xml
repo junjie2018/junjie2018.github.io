@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VSCode on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/</link>
+    <description>Recent content in VSCode on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>alt&#43;f快捷键不好使了.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/alt&#43;f%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8D%E5%A5%BD%E4%BD%BF%E4%BA%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/alt&#43;f%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8D%E5%A5%BD%E4%BD%BF%E4%BA%86/</guid>
+        <description>我公司和家里的电脑上同时配置了alt + f快捷键，用来快速打开文件在资源浏览器中的位置。在公司的电脑上我可以在任意打开的文件，或者目录树中任意</description>
+      </item>
+      
+      <item>
+        <title>vs code同时处理多行.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E5%90%8C%E6%97%B6%E5%A4%84%E7%90%86%E5%A4%9A%E8%A1%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E5%90%8C%E6%97%B6%E5%A4%84%E7%90%86%E5%A4%9A%E8%A1%8C/</guid>
+        <description>3种场景： alt+鼠标左键（光标点中一行算一行） alt+鼠标左键拖动（多次）（每次拖动选中一块内容） shift+alt+鼠标左键拖动（光标同</description>
+      </item>
+      
+      <item>
+        <title>VS Code开启和关闭全屏.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E5%BC%80%E5%90%AF%E5%92%8C%E5%85%B3%E9%97%AD%E5%85%A8%E5%B1%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E5%BC%80%E5%90%AF%E5%92%8C%E5%85%B3%E9%97%AD%E5%85%A8%E5%B1%8F/</guid>
+        <description>不小心误触了键盘，打开了VS Code的全屏，我不是很需要这个功能，简单查了一下，F11键快速打开或关闭全屏。</description>
+      </item>
+      
+    
+  </channel>
+</rss>

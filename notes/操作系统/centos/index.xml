@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CentOS on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/</link>
+    <description>Recent content in CentOS on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>CentOS 8安装VirtualBox和Vagrant，并配置Vagrant.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-8%E5%AE%89%E8%A3%85virtualbox%E5%92%8Cvagrant%E5%B9%B6%E9%85%8D%E7%BD%AEvagrant/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-8%E5%AE%89%E8%A3%85virtualbox%E5%92%8Cvagrant%E5%B9%B6%E9%85%8D%E7%BD%AEvagrant/</guid>
+        <description>安装VirtualBox和Vagrant VirutalBox和Vagrant安装方式有很多，我比较推荐的是下载rpm包的方式安装。这样的Vi</description>
+      </item>
+      
+      <item>
+        <title>CentOS 8常用软件代理设置.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-8%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-8%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</guid>
+        <description>关于代理的问题，现在已经让我非常的头疼了，我计划还是研究一下软路由，尽量让我的工具机流量全部走外网。另外，我可能还需要升级一下我搭梯子的能力</description>
+      </item>
+      
+      <item>
+        <title>CentOS 8拨号上网.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-8%E6%8B%A8%E5%8F%B7%E4%B8%8A%E7%BD%91/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-8%E6%8B%A8%E5%8F%B7%E4%B8%8A%E7%BD%91/</guid>
+        <description>操作步骤 指令如下 nmcli conn add con-name pppoe-home type pppoe ifname enp2s0 username 13022052202D396 password 123456 nmcli conn up pppoe-home nmcli conn modify pppoe-home con-name pppoe nmcli conn add con-name enp5s0 ifname enp4s0 type ethernet 我以前一直没有注意到，使用拨号上网的时候，竟然会多出来个这么</description>
+      </item>
+      
+      <item>
+        <title>CentOS 8配置软件源.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-8%E9%85%8D%E7%BD%AE%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-8%E9%85%8D%E7%BD%AE%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+        <description>我一直以为CentOS在下载软件是会就近选择软件源，但是我今天更新软件时发现速度很慢，所以干脆一不做二不休，直接将软件源替换为国内的。 操作步</description>
+      </item>
+      
+      <item>
+        <title>CentOS yum设置代理.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-yum%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-yum%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</guid>
+        <description>vim /etc/yum.conf proxy=http://192.168.13.113:1080</description>
+      </item>
+      
+      <item>
+        <title>CentOS修改主机名称.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E4%BF%AE%E6%94%B9%E4%B8%BB%E6%9C%BA%E5%90%8D%E7%A7%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E4%BF%AE%E6%94%B9%E4%B8%BB%E6%9C%BA%E5%90%8D%E7%A7%B0/</guid>
+        <description>这个是我目前找到的最优雅的方式了，需要重启后生效（重启后命令提示符前的主机名也会改变）： hostnamectl set-hostname kerrydb 参考资料 Centos 7修改hostname浅析</description>
+      </item>
+      
+      <item>
+        <title>CentOS关闭防火墙.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%85%B3%E9%97%AD%E9%98%B2%E7%81%AB%E5%A2%99/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%85%B3%E9%97%AD%E9%98%B2%E7%81%AB%E5%A2%99/</guid>
+        <description>这是一个非常简单的指令，但是我总是拼不对，干脆记下来算了。 systemctl stop firewalld systemctl disable firewalld 20210502后续： 我今天才知道firewalld和iptables</description>
+      </item>
+      
+      <item>
+        <title>CentOS升级内核到5.12.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</guid>
+        <description>操作步骤 常用指令 uanme -a # 查看当前内核版本 cat /etc/redhat-release # 查看当前系统版本 rpm -qa | grep kernel # 查看已安装的内核 yum repolist # 查看yum当前配置了哪些源 安装elrepo仓库</description>
+      </item>
+      
+      <item>
+        <title>CentOS和Window查看网卡是百兆还是千兆.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%92%8Cwindow%E6%9F%A5%E7%9C%8B%E7%BD%91%E5%8D%A1%E6%98%AF%E7%99%BE%E5%85%86%E8%BF%98%E6%98%AF%E5%8D%83%E5%85%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%92%8Cwindow%E6%9F%A5%E7%9C%8B%E7%BD%91%E5%8D%A1%E6%98%AF%E7%99%BE%E5%85%86%E8%BF%98%E6%98%AF%E5%8D%83%E5%85%86/</guid>
+        <description>参考资料 Linux查看网卡是千兆还是万兆网卡 查看网卡是百兆还是千兆</description>
+      </item>
+      
+      <item>
+        <title>CentOS快速配置多台机器为静态地址.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</guid>
+        <description>指令如下，这是我目前找到的最优雅，最快速的方法： nmcli connection modify eth0 \ ipv4.addresses 192.168.27.15/24 \ ipv4.dns 192.168.27.22 \ ipv4.method manual \ ipv4.gateway 192.168.27.22 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify eth0 \ ipv4.addresses 172.20.11.206/24 \ ipv4.dns 172.20.11.210 \ ipv4.method manual \ ipv4.gateway 172.20.11.210 \ connection.autoconnect yes nmcli c up eth0</description>
+      </item>
+      
+      <item>
+        <title>CentOS添加默认路由.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E6%B7%BB%E5%8A%A0%E9%BB%98%E8%AE%A4%E8%B7%AF%E7%94%B1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E6%B7%BB%E5%8A%A0%E9%BB%98%E8%AE%A4%E8%B7%AF%E7%94%B1/</guid>
+        <description>事情的起因是这样的，我发现我Vagrant的虚拟机都会有两张网卡，经过分析我发现第一张网卡是用于nat，第二张网卡是用于我设置的host_o</description>
+      </item>
+      
+      <item>
+        <title>CentOS禁用网卡.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E7%A6%81%E7%94%A8%E7%BD%91%E5%8D%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E7%A6%81%E7%94%A8%E7%BD%91%E5%8D%A1/</guid>
+        <description>我使用的是ip link set enp0s3 up，效果非常好。另外ifdown enp0s8指令不好使，文档里也说了，ifdown不支持以enp打头的网卡，这个坑被我</description>
+      </item>
+      
+      <item>
+        <title>CentOS编译R8125网卡驱动.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E7%BC%96%E8%AF%91r8125%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E7%BC%96%E8%AF%91r8125%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8/</guid>
+        <description>我现在最后悔的事情就是买软路由的时候选了R8125 2.5G网卡，这个网卡是在是太折腾人了。CentOS、PVE上都需要手动的编译安装驱动，E</description>
+      </item>
+      
+      <item>
+        <title>CentOS设置时区.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA/</guid>
+        <description>我开发的点外卖提醒机器人，在半夜提醒点外卖了，我的定时脚本如下： 30,32,35 11 * * 1-6 /root/Software/launch/dist/launch 45,50 17 * * 1-6 /root/Software/launch/dist/launch 我定时任务肯定是没有任何问题的，所以感觉是服务器时间</description>
+      </item>
+      
+      <item>
+        <title>CentOS设置静态ip（已废弃）.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip%E5%B7%B2%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip%E5%B7%B2%E5%BA%9F%E5%BC%83/</guid>
+        <description>CentOS 8版本 在/etc/sysconfig/network-scripts下，找到你需要配置的网卡配置文件，打开编辑： TYPE=Ethernet PROXY_METHOD=none BROWSER_ONLY=no BOOTPROTO=static #修改：将dhcp</description>
+      </item>
+      
+      <item>
+        <title>CentOS设置默认启动项.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%90%AF%E5%8A%A8%E9%A1%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%90%AF%E5%8A%A8%E9%A1%B9/</guid>
+        <description>这个不整理了，照着教程做，什么问题都没有遇到。 参考资料 CentOS 8.x 和 RHEL 8.x 更改默认启动项</description>
+      </item>
+      
+      <item>
+        <title>CentOS踢掉一个用户.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E8%B8%A2%E6%8E%89%E4%B8%80%E4%B8%AA%E7%94%A8%E6%88%B7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E8%B8%A2%E6%8E%89%E4%B8%80%E4%B8%AA%E7%94%A8%E6%88%B7/</guid>
+        <description>我之前管理VPS时也遇到这样的需求了，整理一下： pkill -kill -t pts/0 参考资料 linux下踢掉一个用户（心跳包解决ssh断开连接）</description>
+      </item>
+      
+      <item>
+        <title>安装CentOS 8（推荐）.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%AE%89%E8%A3%85centos-8%E6%8E%A8%E8%8D%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%AE%89%E8%A3%85centos-8%E6%8E%A8%E8%8D%90/</guid>
+        <description>操作步骤 下载CentOS 8 dvd的镜像文件（可以避免安装时的网络需求） 使用Win32DiskImager制作U盘启动盘（目前这是事最少的方案</description>
+      </item>
+      
+      <item>
+        <title>安装CentOS 8，使用Ultraiso制作U盘启动（不推荐）.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%AE%89%E8%A3%85centos-8%E4%BD%BF%E7%94%A8ultraiso%E5%88%B6%E4%BD%9Cu%E7%9B%98%E5%90%AF%E5%8A%A8%E4%B8%8D%E6%8E%A8%E8%8D%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%AE%89%E8%A3%85centos-8%E4%BD%BF%E7%94%A8ultraiso%E5%88%B6%E4%BD%9Cu%E7%9B%98%E5%90%AF%E5%8A%A8%E4%B8%8D%E6%8E%A8%E8%8D%90/</guid>
+        <description>因为之前使用Ubuntu系统的时候，总是会遇到一些奇奇怪怪的问题，而且这些问题并不是很好查到资料（Ubuntu更新的太快了，网上的教程往往落</description>
+      </item>
+      
+      <item>
+        <title>将CentOS配置成路由器问题收集.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B0%86centos%E9%85%8D%E7%BD%AE%E6%88%90%E8%B7%AF%E7%94%B1%E5%99%A8%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B0%86centos%E9%85%8D%E7%BD%AE%E6%88%90%E8%B7%AF%E7%94%B1%E5%99%A8%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/</guid>
+        <description>之前的实验中，我发现了如下的问题： 没有相应的ifcfg，我手动copy的（已解决） 有很多时候执行nmcli c reload并不会让/etc/s</description>
+      </item>
+      
+      <item>
+        <title>记录CentOS拨号上网时的一个奇怪的问题.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E8%AE%B0%E5%BD%95centos%E6%8B%A8%E5%8F%B7%E4%B8%8A%E7%BD%91%E6%97%B6%E7%9A%84%E4%B8%80%E4%B8%AA%E5%A5%87%E6%80%AA%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E8%AE%B0%E5%BD%95centos%E6%8B%A8%E5%8F%B7%E4%B8%8A%E7%BD%91%E6%97%B6%E7%9A%84%E4%B8%80%E4%B8%AA%E5%A5%87%E6%80%AA%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>CentOS拨号上网时导致的无法通过192.168.31.217进行ssh的问题。我的解决方案非常的暴力，我拆掉了J4125上的USB网卡，</description>
+      </item>
+      
+    
+  </channel>
+</rss>

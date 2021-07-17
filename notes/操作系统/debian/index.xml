@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debian on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/</link>
+    <description>Recent content in Debian on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Curl Not Found.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/curl-not-found/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/curl-not-found/</guid>
+        <description>操作步骤 运行如下指令： apt install -y curl</description>
+      </item>
+      
+      <item>
+        <title>Debian删除和新建分区.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E5%88%A0%E9%99%A4%E5%92%8C%E6%96%B0%E5%BB%BA%E5%88%86%E5%8C%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E5%88%A0%E9%99%A4%E5%92%8C%E6%96%B0%E5%BB%BA%E5%88%86%E5%8C%BA/</guid>
+        <description>授人以鱼不如授人以渔，使用如下操作，可以看到fdisk支持的命令集： fdisk m 删除分区 删除分区的指令如下（核心思路就是使用使用d）： fdisk d 2 d 分区 参</description>
+      </item>
+      
+      <item>
+        <title>Debian更换软件源.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+        <description>操作步骤 替换/etc/apt/sources.list文件为如下内容： # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian-security</description>
+      </item>
+      
+      <item>
+        <title>Debian系统关机.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E7%B3%BB%E7%BB%9F%E5%85%B3%E6%9C%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E7%B3%BB%E7%BB%9F%E5%85%B3%E6%9C%BA/</guid>
+        <description>操作步骤 执行如下指令： 1 2 3 4 systemctl poweroff systemctl reboot</description>
+      </item>
+      
+      <item>
+        <title>如何找到U盘设备名（未实践）.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0u%E7%9B%98%E8%AE%BE%E5%A4%87%E5%90%8D%E6%9C%AA%E5%AE%9E%E8%B7%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0u%E7%9B%98%E8%AE%BE%E5%A4%87%E5%90%8D%E6%9C%AA%E5%AE%9E%E8%B7%B5/</guid>
+        <description>之前有被这个问题困惑过，今天看书的时候，遇到了相关的资料，故记载下来。 可以比较U盘插入计算机前后dmesg命令输出的最后一行内容，也可以用l</description>
+      </item>
+      
+    
+  </channel>
+</rss>

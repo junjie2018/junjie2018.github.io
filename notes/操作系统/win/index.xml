@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Win on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/</link>
+    <description>Recent content in Win on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>bat脚本后台启动程序.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/bat%E8%84%9A%E6%9C%AC%E5%90%8E%E5%8F%B0%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/bat%E8%84%9A%E6%9C%AC%E5%90%8E%E5%8F%B0%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F/</guid>
+        <description>我以为这个是一个比较简单的工作，像Linux中调用一下nohup就好了，但是没想到方案中有很多代码我都不太懂： 1 2 3 4 5 6 7 @echo off if &amp;#34;%1&amp;#34; == &amp;#34;h&amp;#34; goto begin</description>
+      </item>
+      
+      <item>
+        <title>Cygwin上安装curl.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/cygwin%E4%B8%8A%E5%AE%89%E8%A3%85curl/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/cygwin%E4%B8%8A%E5%AE%89%E8%A3%85curl/</guid>
+        <description>截图如下： 核心需要注意的是，需要在skip上点一下，直到点出版本号。 参考资料 Windows 下如何在cygwin上安装curl？</description>
+      </item>
+      
+      <item>
+        <title>Excel常用操作.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/excel%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/excel%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</guid>
+        <description>合并单元格 之前的版本中，一直是右键，然后选择合并单元格，最近用的版本貌似不支持这种方法了。 锁定单元格 需求产生于我们开发，需要在代码中模拟单元</description>
+      </item>
+      
+      <item>
+        <title>PanDownlaod配置代理.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/pandownlaod%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/pandownlaod%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/</guid>
+        <description>PanDownlaod我一直当做http下载器使用，使用浏览器默认的下载器，总是可能出现断流的情况，而且浏览器里下载，断流的话需要全部重新下</description>
+      </item>
+      
+      <item>
+        <title>Win 10查看mac地址.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win-10%E6%9F%A5%E7%9C%8Bmac%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win-10%E6%9F%A5%E7%9C%8Bmac%E5%9C%B0%E5%9D%80/</guid>
+        <description>指令如下： ipconfig /all</description>
+      </item>
+      
+      <item>
+        <title>win10右下角图表显示.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E5%8F%B3%E4%B8%8B%E8%A7%92%E5%9B%BE%E8%A1%A8%E6%98%BE%E7%A4%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E5%8F%B3%E4%B8%8B%E8%A7%92%E5%9B%BE%E8%A1%A8%E6%98%BE%E7%A4%BA/</guid>
+        <description>懒的整理，这种东西就是十年半个月用不到一次： https://jingyan.baidu.com/article/e73e26c01bc1c364acb6a734.html</description>
+      </item>
+      
+      <item>
+        <title>Win10开启远程桌面.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E5%BC%80%E5%90%AF%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E5%BC%80%E5%90%AF%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/</guid>
+        <description>另外需要说一下，win家庭版不支持远程桌面，打消这个念头吧。 参考资料 win10怎么开启远程桌面</description>
+      </item>
+      
+      <item>
+        <title>win10打开telnet服务.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%89%93%E5%BC%80telnet%E6%9C%8D%E5%8A%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%89%93%E5%BC%80telnet%E6%9C%8D%E5%8A%A1/</guid>
+        <description>打开控制面板，搜索程序，选择启用或者关闭Window功能： 选择Telnet客户端，点击确定： 参考资料 在windows10下面打开TELNET</description>
+      </item>
+      
+      <item>
+        <title>Win10查看关机事件.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%9F%A5%E7%9C%8B%E5%85%B3%E6%9C%BA%E4%BA%8B%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%9F%A5%E7%9C%8B%E5%85%B3%E6%9C%BA%E4%BA%8B%E4%BB%B6/</guid>
+        <description>用的少，但是又不得不用，截图如下： 20210630后续: 额，没想到这个东东我用的挺多的，我老是忘记打卡。</description>
+      </item>
+      
+      <item>
+        <title>win10查看局域网中ip.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%9F%A5%E7%9C%8B%E5%B1%80%E5%9F%9F%E7%BD%91%E4%B8%ADip/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%9F%A5%E7%9C%8B%E5%B1%80%E5%9F%9F%E7%BD%91%E4%B8%ADip/</guid>
+        <description>我将家庭内部网络切换成了172.20.11网段，避免内网穿透时与其他网络环境中的网段冲突。切换后我需要知道我网络中的所有新Ip地址，故找到了</description>
+      </item>
+      
+      <item>
+        <title>win10查看活动的网络连接.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%9F%A5%E7%9C%8B%E6%B4%BB%E5%8A%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%9F%A5%E7%9C%8B%E6%B4%BB%E5%8A%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5/</guid>
+        <description>netstat -ano | findstr &amp;ldquo;192.168.13.113&amp;rdquo; 一个指令多种使用场景。 参考资料 Windows 下查看网络连接</description>
+      </item>
+      
+      <item>
+        <title>win10查看目录树.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%9F%A5%E7%9C%8B%E7%9B%AE%E5%BD%95%E6%A0%91/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%9F%A5%E7%9C%8B%E7%9B%AE%E5%BD%95%E6%A0%91/</guid>
+        <description>指令如下： tree /F 如果不要/F的话，则只显示目录。</description>
+      </item>
+      
+      <item>
+        <title>win10查看端口占用情况.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%9F%A5%E7%9C%8B%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E6%9F%A5%E7%9C%8B%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/</guid>
+        <description>和Linux需求一致，有时候服务启动起来了，需要检查是否正在监听着： netstat -aon | findstr &amp;quot;9050&amp;quot; 参考资料 windows下查看端口监听情况</description>
+      </item>
+      
+      <item>
+        <title>Win10路由表常用操作（待完善）.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E8%B7%AF%E7%94%B1%E8%A1%A8%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%BE%85%E5%AE%8C%E5%96%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E8%B7%AF%E7%94%B1%E8%A1%A8%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%BE%85%E5%AE%8C%E5%96%84/</guid>
+        <description>route print route delete 192.168.31.1 mask 255.255.255.0</description>
+      </item>
+      
+      <item>
+        <title>win版本的curl设置代理及请求头.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E7%89%88%E6%9C%AC%E7%9A%84curl%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86%E5%8F%8A%E8%AF%B7%E6%B1%82%E5%A4%B4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E7%89%88%E6%9C%AC%E7%9A%84curl%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86%E5%8F%8A%E8%AF%B7%E6%B1%82%E5%A4%B4/</guid>
+        <description>测试自己接口用的，我使用的指令如下： curl --proxy socks5h://192.168.27.15:12345 -H token:1374675177769156610:web:8085e1bc1d7b3325cae1bcd6684f853b http://dyf/dyf/field</description>
+      </item>
+      
+      <item>
+        <title>删除hiberfil.sys.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%88%A0%E9%99%A4hiberfil.sys/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%88%A0%E9%99%A4hiberfil.sys/</guid>
+        <description>C盘炸了，只剩下3G了，我基本不在C盘装任何东西，经同时提示发现是hiberfil.sys、pagefile.sys、swapfile.sy</description>
+      </item>
+      
+      <item>
+        <title>微软输入法已禁用但是还是可以切换出来.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%BE%AE%E8%BD%AF%E8%BE%93%E5%85%A5%E6%B3%95%E5%B7%B2%E7%A6%81%E7%94%A8%E4%BD%86%E6%98%AF%E8%BF%98%E6%98%AF%E5%8F%AF%E4%BB%A5%E5%88%87%E6%8D%A2%E5%87%BA%E6%9D%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%BE%AE%E8%BD%AF%E8%BE%93%E5%85%A5%E6%B3%95%E5%B7%B2%E7%A6%81%E7%94%A8%E4%BD%86%E6%98%AF%E8%BF%98%E6%98%AF%E5%8F%AF%E4%BB%A5%E5%88%87%E6%8D%A2%E5%87%BA%E6%9D%A5/</guid>
+        <description>问题描述 系统更新前，在语言选项中删除了微软输入法，但是系统更新后，微软输入法又被系统自动添加进来了。且这个时候去输入法选项中看的时候，是没有</description>
+      </item>
+      
+      <item>
+        <title>快速用VSCode打开一个文件夹.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%BF%AB%E9%80%9F%E7%94%A8vscode%E6%89%93%E5%BC%80%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%BF%AB%E9%80%9F%E7%94%A8vscode%E6%89%93%E5%BC%80%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
+        <description>我之前用VS Code打开一个文件夹，需要先打开这个文件夹，然后右键选择使用VS Code打开，感觉操作步骤还挺多的。所以我开发了下面的小脚本，</description>
+      </item>
+      
+      <item>
+        <title>查看Windows的版本和版本号.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E6%9F%A5%E7%9C%8Bwindows%E7%9A%84%E7%89%88%E6%9C%AC%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E6%9F%A5%E7%9C%8Bwindows%E7%9A%84%E7%89%88%E6%9C%AC%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
+        <description>开始 &amp;gt; 设置 &amp;gt; 系统 &amp;gt; 关于 参考资料 我运行的是哪个 Windows 操作系统版本？</description>
+      </item>
+      
+      <item>
+        <title>绝望的Win10锁屏与解决方案.</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E7%BB%9D%E6%9C%9B%E7%9A%84win10%E9%94%81%E5%B1%8F%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E7%BB%9D%E6%9C%9B%E7%9A%84win10%E9%94%81%E5%B1%8F%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+        <description>公司电脑锁屏后，重登时都会出现与工作站失去信任关系的问题，解决该问题必须重启机器。运维同事帮我解决了很多次，都没有效果，非常绝望。更绝望的是</description>
+      </item>
+      
+    
+  </channel>
+</rss>

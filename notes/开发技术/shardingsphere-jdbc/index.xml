@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ShardingSphere-Jdbc on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/shardingsphere-jdbc/</link>
+    <description>Recent content in ShardingSphere-Jdbc on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/shardingsphere-jdbc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>jdbcUrl is required with driverClassName.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/shardingsphere-jdbc/jdbcurl-is-required-with-driverclassname/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/shardingsphere-jdbc/jdbcurl-is-required-with-driverclassname/</guid>
+        <description>问题描述 在配置ShardingSphere-Jdbc时，按照官网官网最新配置，遇到了jdbcUrl is required with driverClassName异常 解</description>
+      </item>
+      
+      <item>
+        <title>ShardingSphere-Jdbc研究日志.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/shardingsphere-jdbc/shardingsphere-jdbc%E7%A0%94%E7%A9%B6%E6%97%A5%E5%BF%97/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/shardingsphere-jdbc/shardingsphere-jdbc%E7%A0%94%E7%A9%B6%E6%97%A5%E5%BF%97/</guid>
+        <description>ShardingSphere-Jdbc研究告一段落，目前总结的配置文件和增加的类已经基本能够满足我们的业务需求。而且我已经对我使用到的每个技</description>
+      </item>
+      
+    
+  </channel>
+</rss>

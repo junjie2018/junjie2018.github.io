@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NodePPT on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/nodeppt/</link>
+    <description>Recent content in NodePPT on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/nodeppt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>快速使用NodePPT的指令.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/nodeppt/%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8nodeppt%E7%9A%84%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/nodeppt/%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8nodeppt%E7%9A%84%E6%8C%87%E4%BB%A4/</guid>
+        <description>快速使用的指令如下： nodeppt new slide.md nodeppt serve slide.md nodeppt build slide.md 有意思的是，使用了nodeppt serve指令后，可以实时的编辑并渲染ppt。 Demo代码如下： 1 2 3</description>
+      </item>
+      
+    
+  </channel>
+</rss>

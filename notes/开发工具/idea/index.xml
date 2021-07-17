@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IDEA on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/</link>
+    <description>Recent content in IDEA on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Idea与Maven集成的问题.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%B8%8Emaven%E9%9B%86%E6%88%90%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%B8%8Emaven%E9%9B%86%E6%88%90%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>这个问题的核心原因在于Idea版本和Maven版本不兼容。这篇文章整理的太晚了，好多细节信息没有记录下来。先这样吧，知道版本不兼容问题可能会</description>
+      </item>
+      
+      <item>
+        <title>Idea中Git的使用.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%B8%ADgit%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%B8%ADgit%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>我其实一致没有系统深入的学习Git，但是现在新工作已经对我这方面能力提出了要求，我先从Idea中Git的使用下手，然后陆续学习更高级的Git</description>
+      </item>
+      
+      <item>
+        <title>Idea中进行分屏显示代码.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%B8%AD%E8%BF%9B%E8%A1%8C%E5%88%86%E5%B1%8F%E6%98%BE%E7%A4%BA%E4%BB%A3%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%B8%AD%E8%BF%9B%E8%A1%8C%E5%88%86%E5%B1%8F%E6%98%BE%E7%A4%BA%E4%BB%A3%E7%A0%81/</guid>
+        <description>有时候习惯了VSCode的小图标，在Idea中会不自觉的去找分屏的小图标：</description>
+      </item>
+      
+      <item>
+        <title>IDEA修改编码方式.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%BF%AE%E6%94%B9%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%BF%AE%E6%94%B9%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F/</guid>
+        <description>操作步骤 Setting &amp;gt; Editor &amp;gt; File Encodings 或者直接搜索File Encodings，将三处都修改为UTF-8。</description>
+      </item>
+      
+      <item>
+        <title>Idea关闭粘贴代码时的自动缩进.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E5%85%B3%E9%97%AD%E7%B2%98%E8%B4%B4%E4%BB%A3%E7%A0%81%E6%97%B6%E7%9A%84%E8%87%AA%E5%8A%A8%E7%BC%A9%E8%BF%9B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E5%85%B3%E9%97%AD%E7%B2%98%E8%B4%B4%E4%BB%A3%E7%A0%81%E6%97%B6%E7%9A%84%E8%87%AA%E5%8A%A8%E7%BC%A9%E8%BF%9B/</guid>
+        <description>操作如图： 开发模板代码时，很有必要关闭这个自动格式化。 参考资料 IntelliJ IDEA粘贴多行代码时，总是自动缩进</description>
+      </item>
+      
+      <item>
+        <title>Idea内存不足的问题.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>该方法可以一劳永逸的解决问题，我家用电脑上就是使用的这个方案。 参考资料 IntelliJ IDEA 修改内存大小，使得idea运行更流畅。</description>
+      </item>
+      
+      <item>
+        <title>Idea在目录树中查看当前打开文件.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E5%9C%A8%E7%9B%AE%E5%BD%95%E6%A0%91%E4%B8%AD%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E5%9C%A8%E7%9B%AE%E5%BD%95%E6%A0%91%E4%B8%AD%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6/</guid>
+        <description>如图，我想在目录树中快速定位我当前打开的文件： 只需要按如下按钮即可： 我常用这个功能来找到源码，然后复制一份源码，在源码上进行一些微调。因为我</description>
+      </item>
+      
+      <item>
+        <title>Idea开启部分代码格式化.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E5%BC%80%E5%90%AF%E9%83%A8%E5%88%86%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E5%BC%80%E5%90%AF%E9%83%A8%E5%88%86%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96/</guid>
+        <description>操作步骤 File &amp;gt; Settings &amp;gt; Editor &amp;gt; CodeStyle 编写代码 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 // @formatter:on this.sagaDefinition = step() .withCompensation( orderService.reject, CreateOrderSagaState::makeRejectOrderCommand) .step() .invokeParticipant( consumerService.validateOrder,</description>
+      </item>
+      
+      <item>
+        <title>Idea报错：Compilation failed：internal java compiler error.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%8A%A5%E9%94%99compilation-failedinternal-java-compiler-error/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%8A%A5%E9%94%99compilation-failedinternal-java-compiler-error/</guid>
+        <description>操作步骤 解决该问题需要检查三处的配置，如下图所示： 参考教程 Error:java: Compilation failed: internal java compiler error 解决办法</description>
+      </item>
+      
+      <item>
+        <title>Idea搜索jar包中的类.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%90%9C%E7%B4%A2jar%E5%8C%85%E4%B8%AD%E7%9A%84%E7%B1%BB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%90%9C%E7%B4%A2jar%E5%8C%85%E4%B8%AD%E7%9A%84%E7%B1%BB/</guid>
+        <description>操作步骤 按两下Shift 输入需要搜索的类 参考资料 IDEA中快速搜索Jar包里面的内容</description>
+      </item>
+      
+      <item>
+        <title>Idea查看启动程序时的终端指令.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%9F%A5%E7%9C%8B%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F%E6%97%B6%E7%9A%84%E7%BB%88%E7%AB%AF%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%9F%A5%E7%9C%8B%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F%E6%97%B6%E7%9A%84%E7%BB%88%E7%AB%AF%E6%8C%87%E4%BB%A4/</guid>
+        <description>偶然间发现的，如图省略部分是可以点击的，点击后就可以查看终端运行的指令：</description>
+      </item>
+      
+      <item>
+        <title>Idea查看调用栈.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%9F%A5%E7%9C%8B%E8%B0%83%E7%94%A8%E6%A0%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%9F%A5%E7%9C%8B%E8%B0%83%E7%94%A8%E6%A0%88/</guid>
+        <description>记录一下，最近阅读源码的需求非常的多，有了这种技术，切面、动态代理的实现都可以轻松的查阅到，非常的舒服。</description>
+      </item>
+      
+      <item>
+        <title>IDEA生成JavaDoc文档时显示：编码GBK的不可映射字符.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E7%94%9F%E6%88%90javadoc%E6%96%87%E6%A1%A3%E6%97%B6%E6%98%BE%E7%A4%BA%E7%BC%96%E7%A0%81gbk%E7%9A%84%E4%B8%8D%E5%8F%AF%E6%98%A0%E5%B0%84%E5%AD%97%E7%AC%A6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E7%94%9F%E6%88%90javadoc%E6%96%87%E6%A1%A3%E6%97%B6%E6%98%BE%E7%A4%BA%E7%BC%96%E7%A0%81gbk%E7%9A%84%E4%B8%8D%E5%8F%AF%E6%98%A0%E5%B0%84%E5%AD%97%E7%AC%A6/</guid>
+        <description>操作步骤 打开：Tools -&amp;gt; Generate JavaDoc other command line arguments栏里输入： -encoding utf-8 -charset utf-8</description>
+      </item>
+      
+      <item>
+        <title>Idea目录树中隐藏某个文件或文件夹.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E7%9B%AE%E5%BD%95%E6%A0%91%E4%B8%AD%E9%9A%90%E8%97%8F%E6%9F%90%E4%B8%AA%E6%96%87%E4%BB%B6%E6%88%96%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E7%9B%AE%E5%BD%95%E6%A0%91%E4%B8%AD%E9%9A%90%E8%97%8F%E6%9F%90%E4%B8%AA%E6%96%87%E4%BB%B6%E6%88%96%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
+        <description>如图可以进行调整：</description>
+      </item>
+      
+      <item>
+        <title>Idea自动下载Maven依赖源码.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%87%AA%E5%8A%A8%E4%B8%8B%E8%BD%BDmaven%E4%BE%9D%E8%B5%96%E6%BA%90%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%87%AA%E5%8A%A8%E4%B8%8B%E8%BD%BDmaven%E4%BE%9D%E8%B5%96%E6%BA%90%E7%A0%81/</guid>
+        <description>配置如下： 我感觉配置并没有生效，后来我手动点击了一下下载：</description>
+      </item>
+      
+      <item>
+        <title>Idea警告：Untrusted Server&#39;s certificate.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%AD%A6%E5%91%8Auntrusted-servers-certificate/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%AD%A6%E5%91%8Auntrusted-servers-certificate/</guid>
+        <description>操作步骤 勾选如下配置： File &amp;gt; Settings &amp;gt; Tools &amp;gt; Server Certificates &amp;gt; Accept non-trusted certificates automatically</description>
+      </item>
+      
+      <item>
+        <title>Idea配置PG数据源时的currentSchema参数.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E9%85%8D%E7%BD%AEpg%E6%95%B0%E6%8D%AE%E6%BA%90%E6%97%B6%E7%9A%84currentschema%E5%8F%82%E6%95%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E9%85%8D%E7%BD%AEpg%E6%95%B0%E6%8D%AE%E6%BA%90%E6%97%B6%E7%9A%84currentschema%E5%8F%82%E6%95%B0/</guid>
+        <description>配好PG数据源后，可以愉快的在mapper.xml文件中使用文本格式化快捷键了，但是我发现字段显示为红色，且提示该字段不存在。我猜想是PG的</description>
+      </item>
+      
+      <item>
+        <title>Idea配置模板.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF/</guid>
+        <description>操作步骤 配置步骤如下所示，如果需要使用高级功能，可以查阅相关手册 图中绿色区域为编辑器中使用该目标时需要输入的内容</description>
+      </item>
+      
+      <item>
+        <title>No tests were found.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/no-tests-were-found/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/no-tests-were-found/</guid>
+        <description>这个错误发生的非常让人哭笑不得，现象就是运行测试时如论如何都无法正确的运行，总是显示No tests were found。 最后检查代码发现，是因为编写了如下的</description>
+      </item>
+      
+      <item>
+        <title>为Idea配置内存不足导致的问题.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E4%B8%BAidea%E9%85%8D%E7%BD%AE%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3%E5%AF%BC%E8%87%B4%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E4%B8%BAidea%E9%85%8D%E7%BD%AE%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3%E5%AF%BC%E8%87%B4%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>问题描述 # # There is insufficient memory for the Java Runtime Environment to continue. # Native memory allocation (malloc) failed to allocate 949216 bytes for Chunk::new # An error report file with more information is saved as: # D:\Project\dyf\hs_err_pid20632.log [thread 15576 also had an error] # # Compiler replay data is saved as: # D:\Project\dyf\replay_pid20632.log Disconnected from the target VM, address: &#39;127.0.0.1:63994&#39;, transport: &#39;socket&#39; Process finished with</description>
+      </item>
+      
+      <item>
+        <title>因为引入了错误的类，导致main方法无运行按钮.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%9B%A0%E4%B8%BA%E5%BC%95%E5%85%A5%E4%BA%86%E9%94%99%E8%AF%AF%E7%9A%84%E7%B1%BB%E5%AF%BC%E8%87%B4main%E6%96%B9%E6%B3%95%E6%97%A0%E8%BF%90%E8%A1%8C%E6%8C%89%E9%92%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%9B%A0%E4%B8%BA%E5%BC%95%E5%85%A5%E4%BA%86%E9%94%99%E8%AF%AF%E7%9A%84%E7%B1%BB%E5%AF%BC%E8%87%B4main%E6%96%B9%E6%B3%95%E6%97%A0%E8%BF%90%E8%A1%8C%E6%8C%89%E9%92%AE/</guid>
+        <description>如图，我Idea编辑器中无运行按钮： 当我注释掉一个类后，运行按钮恢复了： 很奇怪的现象，之前没有注意到存在这个问题。</description>
+      </item>
+      
+      <item>
+        <title>在Idea中搜索jar包中的内容.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%9C%A8idea%E4%B8%AD%E6%90%9C%E7%B4%A2jar%E5%8C%85%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%9C%A8idea%E4%B8%AD%E6%90%9C%E7%B4%A2jar%E5%8C%85%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9/</guid>
+        <description>核心就两点： 搜索json、md等文件中的内容，可以直接搜索 搜索编译后的字节码中的内容，需要先下载源码（参考我Idea分类下另外的笔记） 参考资</description>
+      </item>
+      
+      <item>
+        <title>如何为Idea设置代理.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%A6%82%E4%BD%95%E4%B8%BAidea%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%A6%82%E4%BD%95%E4%B8%BAidea%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</guid>
+        <description>配置如下：</description>
+      </item>
+      
+      <item>
+        <title>如何查看Idea日志.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8Bidea%E6%97%A5%E5%BF%97/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8Bidea%E6%97%A5%E5%BF%97/</guid>
+        <description>这个需求基本操作一次就不会忘记了，哈哈，还是整理一下吧。</description>
+      </item>
+      
+      <item>
+        <title>配置错误setting.xml文件，导致的一个奇怪的现象.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E9%85%8D%E7%BD%AE%E9%94%99%E8%AF%AFsetting.xml%E6%96%87%E4%BB%B6%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%B8%AA%E5%A5%87%E6%80%AA%E7%9A%84%E7%8E%B0%E8%B1%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E9%85%8D%E7%BD%AE%E9%94%99%E8%AF%AFsetting.xml%E6%96%87%E4%BB%B6%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%B8%AA%E5%A5%87%E6%80%AA%E7%9A%84%E7%8E%B0%E8%B1%A1/</guid>
+        <description>我从源码导入了一个Maven项目，因为我默认的Maven配置中使用的是setting.xml文件，但是我没有这份配置文件（我的文件为sett</description>
+      </item>
+      
+    
+  </channel>
+</rss>

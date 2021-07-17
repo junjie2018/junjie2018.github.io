@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>集成MyBatis-Plus到SpringBoot及对Idea的配置 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/</link>
+    <description>Recent content in 集成MyBatis-Plus到SpringBoot及对Idea的配置 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>00.本次实验想达成的目标.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/00.%E6%9C%AC%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%83%B3%E8%BE%BE%E6%88%90%E7%9A%84%E7%9B%AE%E6%A0%87/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/00.%E6%9C%AC%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%83%B3%E8%BE%BE%E6%88%90%E7%9A%84%E7%9B%AE%E6%A0%87/</guid>
+        <description>按优先级整理： 实现UserMapper.java中定义的方法与UserMapper.xml中的sql实现间的相互跳转。 目前是无法实现这个效果</description>
+      </item>
+      
+      <item>
+        <title>01.配置MyBatis-Plus测试环境.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/01.%E9%85%8D%E7%BD%AEmybatis-plus%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/01.%E9%85%8D%E7%BD%AEmybatis-plus%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83/</guid>
+        <description>本次实验我准备使用H2数据库，虽然我现在有足够多的脚本快速启动一个MySQL、PG，但是这毕竟会增加我下次启动该项目时的时间成本。H2数据库</description>
+      </item>
+      
+      <item>
+        <title>02.实现Mapper.java与Mapper.xml中方法的跳转.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/02.%E5%AE%9E%E7%8E%B0mapper.java%E4%B8%8Emapper.xml%E4%B8%AD%E6%96%B9%E6%B3%95%E7%9A%84%E8%B7%B3%E8%BD%AC/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/02.%E5%AE%9E%E7%8E%B0mapper.java%E4%B8%8Emapper.xml%E4%B8%AD%E6%96%B9%E6%B3%95%E7%9A%84%E8%B7%B3%E8%BD%AC/</guid>
+        <description>Idea安装Free MyBatis Plugin插件即可 参考资料 idea中生成mapper xml文件，快速从代码跳转到mapper及从mapper返回代码</description>
+      </item>
+      
+      <item>
+        <title>03.实现mapper.xml文件的格式化及去除黄色警告.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/03.%E5%AE%9E%E7%8E%B0mapper.xml%E6%96%87%E4%BB%B6%E7%9A%84%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%8F%8A%E5%8E%BB%E9%99%A4%E9%BB%84%E8%89%B2%E8%AD%A6%E5%91%8A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/03.%E5%AE%9E%E7%8E%B0mapper.xml%E6%96%87%E4%BB%B6%E7%9A%84%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%8F%8A%E5%8E%BB%E9%99%A4%E9%BB%84%E8%89%B2%E8%AD%A6%E5%91%8A/</guid>
+        <description>如图打开数据源视图 如图添加一个H2数据源 直接将application.yml中的url填写到URL处，界面会发生变化，将用户名改为和appl</description>
+      </item>
+      
+    
+  </channel>
+</rss>

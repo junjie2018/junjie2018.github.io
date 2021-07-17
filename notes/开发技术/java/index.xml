@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/</link>
+    <description>Recent content in Java on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Array、Set、List互转的问题.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/arraysetlist%E4%BA%92%E8%BD%AC%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/arraysetlist%E4%BA%92%E8%BD%AC%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>打算下次再使用的时候系统整理一下这些知识，目前的话我总是在需要的时候才查找这些资料，查找后又没有整理，所以下次用的时候还需要查，非常的不方便</description>
+      </item>
+      
+      <item>
+        <title>Hutool工具的研究（待完成）.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/hutool%E5%B7%A5%E5%85%B7%E7%9A%84%E7%A0%94%E7%A9%B6%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/hutool%E5%B7%A5%E5%85%B7%E7%9A%84%E7%A0%94%E7%A9%B6%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
+        <description>Hutool v5.6.3</description>
+      </item>
+      
+      <item>
+        <title>java不能指定枚举的ordinal值.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E4%B8%8D%E8%83%BD%E6%8C%87%E5%AE%9A%E6%9E%9A%E4%B8%BE%E7%9A%84ordinal%E5%80%BC/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E4%B8%8D%E8%83%BD%E6%8C%87%E5%AE%9A%E6%9E%9A%E4%B8%BE%E7%9A%84ordinal%E5%80%BC/</guid>
+        <description>防止以后又蹦出这种想法，现在先断了这个念想。怎么理解这个问题了，在C、C++中，我们定义枚举的时候，可以指定枚举项的值，相同的需求在jdk8</description>
+      </item>
+      
+      <item>
+        <title>Java中将整个文本读取到字符串中.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E4%B8%AD%E5%B0%86%E6%95%B4%E4%B8%AA%E6%96%87%E6%9C%AC%E8%AF%BB%E5%8F%96%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E4%B8%AD%E5%B0%86%E6%95%B4%E4%B8%AA%E6%96%87%E6%9C%AC%E8%AF%BB%E5%8F%96%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD/</guid>
+        <description>python中有个readLines的api，这个api可以一次性的将整个文件的文本读取到一个字符串中，我理所当然的认为java中也有类似的</description>
+      </item>
+      
+      <item>
+        <title>java中的交集、并集、差集.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E4%B8%AD%E7%9A%84%E4%BA%A4%E9%9B%86%E5%B9%B6%E9%9B%86%E5%B7%AE%E9%9B%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E4%B8%AD%E7%9A%84%E4%BA%A4%E9%9B%86%E5%B9%B6%E9%9B%86%E5%B7%AE%E9%9B%86/</guid>
+        <description>案例代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 Set&amp;lt;String&amp;gt; set1 = new HashSet&amp;lt;&amp;gt;(); Set&amp;lt;String&amp;gt; set2 = new HashSet&amp;lt;&amp;gt;(); # 交集 set1.retailAll(set2); # 差集 set.removeAll(set2); # 并集 set1.addAll(set2); 在项目中应用的代码一： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17</description>
+      </item>
+      
+      <item>
+        <title>java反射中如何判断是否是静态方法及静态方法调用.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E5%8F%8D%E5%B0%84%E4%B8%AD%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E6%98%AF%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E5%8F%8A%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E5%8F%8D%E5%B0%84%E4%B8%AD%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E6%98%AF%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E5%8F%8A%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8/</guid>
+        <description>判断是否是静态方法的代码如下： 1 2 3 4 5 Method method = 类.getMethod(相关参数); int modifiers = getModifiers(); Modifier.isStatic(modifiers ) 调用静态方法的代码如下： 1 2 3 4 5 6 7 8 9 10 11</description>
+      </item>
+      
+      <item>
+        <title>Java浅拷贝深拷贝工具测试.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E6%B5%85%E6%8B%B7%E8%B4%9D%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%B7%A5%E5%85%B7%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E6%B5%85%E6%8B%B7%E8%B4%9D%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%B7%A5%E5%85%B7%E6%B5%8B%E8%AF%95/</guid>
+        <description>我确实有深拷贝的需求，我之前的方案是实现了一个静态工具类，在工具类中通过FastJson序列化和反序列化实现深拷贝（我主要用在工具类中，性能</description>
+      </item>
+      
+      <item>
+        <title>Java读取properties文件中的内容，并将它们封装到JavaBean中.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E8%AF%BB%E5%8F%96properties%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9%E5%B9%B6%E5%B0%86%E5%AE%83%E4%BB%AC%E5%B0%81%E8%A3%85%E5%88%B0javabean%E4%B8%AD/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E8%AF%BB%E5%8F%96properties%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9%E5%B9%B6%E5%B0%86%E5%AE%83%E4%BB%AC%E5%B0%81%E8%A3%85%E5%88%B0javabean%E4%B8%AD/</guid>
+        <description>代码如下： 1 2 3 4 5 6 7 8 9 10 11 Properties properties = new Properties(); properties.load(new FileInputStream(&amp;#34;src\\main\\resources\\tmp3.properties&amp;#34;)); Enumeration enumeration = properties.propertyNames(); while (enumeration.hasMoreElements()) { String key = (String) enumeration.nextElement(); String value = properties.getProperty(key); System.out.println(key); System.out.println(value); } 写法很糟糕，而且中文还乱码了。 参考资料 了解自动配置原理</description>
+      </item>
+      
+      <item>
+        <title>junit5不支持构造函数注入.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/junit5%E4%B8%8D%E6%94%AF%E6%8C%81%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E6%B3%A8%E5%85%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/junit5%E4%B8%8D%E6%94%AF%E6%8C%81%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E6%B3%A8%E5%85%A5/</guid>
+        <description>问题是这样的，我在写测试类的时候使用了Lombok的RequiredArgsConstructor注解，结果一直有如下报错： org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [org.springframework.web.client.RestTemplate arg0]</description>
+      </item>
+      
+      <item>
+        <title>StringReader非常利于测试文件.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/stringreader%E9%9D%9E%E5%B8%B8%E5%88%A9%E4%BA%8E%E6%B5%8B%E8%AF%95%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/stringreader%E9%9D%9E%E5%B8%B8%E5%88%A9%E4%BA%8E%E6%B5%8B%E8%AF%95%E6%96%87%E4%BB%B6/</guid>
+        <description>写Demo时，StringReader可以让你不用新开一份文件，而是直接通过String实现相同的效果： Reader reader = new StringReader(&amp;quot;hhhhhh&amp;quot;); 参考资料 String 、InputSt</description>
+      </item>
+      
+      <item>
+        <title>StringUtils去除文本首位空白.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/stringutils%E5%8E%BB%E9%99%A4%E6%96%87%E6%9C%AC%E9%A6%96%E4%BD%8D%E7%A9%BA%E7%99%BD/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/stringutils%E5%8E%BB%E9%99%A4%E6%96%87%E6%9C%AC%E9%A6%96%E4%BD%8D%E7%A9%BA%E7%99%BD/</guid>
+        <description>StringUtils.trim()仅去除控制字符，且字符编码需要小于32 StringUtils.strip()可以去除\t\r\n等 Str</description>
+      </item>
+      
+      <item>
+        <title>代码开发常用依赖.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E4%BB%A3%E7%A0%81%E5%BC%80%E5%8F%91%E5%B8%B8%E7%94%A8%E4%BE%9D%E8%B5%96/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E4%BB%A3%E7%A0%81%E5%BC%80%E5%8F%91%E5%B8%B8%E7%94%A8%E4%BE%9D%E8%B5%96/</guid>
+        <description>这些依赖高频率的使用在我写Demo时： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.projectlombok&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;lombok&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.18.20&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;provided&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.commons&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;commons-lang3&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.12.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-configuration-processor&amp;lt;/artifactId&amp;gt; &amp;lt;optional&amp;gt;true&amp;lt;/optional&amp;gt; &amp;lt;/dependency&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>使用java正则时需要注意的地方.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E4%BD%BF%E7%94%A8java%E6%AD%A3%E5%88%99%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E4%BD%BF%E7%94%A8java%E6%AD%A3%E5%88%99%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/</guid>
+        <description>这块核心在于要调用一下matches或者find才能获取group中的值，我目前没有系统化的去研究这些Java中的正则，未来会系统研究一下。</description>
+      </item>
+      
+      <item>
+        <title>利用反射填充VO对象.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%88%A9%E7%94%A8%E5%8F%8D%E5%B0%84%E5%A1%AB%E5%85%85vo%E5%AF%B9%E8%B1%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%88%A9%E7%94%A8%E5%8F%8D%E5%B0%84%E5%A1%AB%E5%85%85vo%E5%AF%B9%E8%B1%A1/</guid>
+        <description>应用场景是这样的。我秉承的信念是，入库时每个字段都是需要被精细控制，所以我往往需要写一大堆setXXX方法，该工具就可以我快速生成这些代码：</description>
+      </item>
+      
+      <item>
+        <title>利用反射生成请求体.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%88%A9%E7%94%A8%E5%8F%8D%E5%B0%84%E7%94%9F%E6%88%90%E8%AF%B7%E6%B1%82%E4%BD%93/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%88%A9%E7%94%A8%E5%8F%8D%E5%B0%84%E7%94%9F%E6%88%90%E8%AF%B7%E6%B1%82%E4%BD%93/</guid>
+        <description>应用场景是这样的，你已经定义好的Request接受前端传递的参数，现在你需要测试下你的接口，你需要快速的生成一个可以被当前Request接受</description>
+      </item>
+      
+      <item>
+        <title>如何区分？extends T与？ super T.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%A6%82%E4%BD%95%E5%8C%BA%E5%88%86extends-t%E4%B8%8E-super-t/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%A6%82%E4%BD%95%E5%8C%BA%E5%88%86extends-t%E4%B8%8E-super-t/</guid>
+        <description>&amp;lt;? extends T&amp;gt; 表示类型的上界，也就是说，参数化的类型可能是T或者T的子类型。例如下面的写法都是合法的赋值语句： ~~~ java Listlist = new ArrayList(); Listlist = new ArrayList(); Listlist = new ArrayList(); ~~~ ### 读数据</description>
+      </item>
+      
+      <item>
+        <title>定位Java在Linux上AES加密失败的问题.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%AE%9A%E4%BD%8Djava%E5%9C%A8linux%E4%B8%8Aaes%E5%8A%A0%E5%AF%86%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%AE%9A%E4%BD%8Djava%E5%9C%A8linux%E4%B8%8Aaes%E5%8A%A0%E5%AF%86%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>问题描述 我们通过切面编程，自动为进入controller的参数进行aes加密，然而这个接口在window上表现正常，在Linux系统上表现异</description>
+      </item>
+      
+      <item>
+        <title>将List转变成逗号分隔符的字符串.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%B0%86list%E8%BD%AC%E5%8F%98%E6%88%90%E9%80%97%E5%8F%B7%E5%88%86%E9%9A%94%E7%AC%A6%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%B0%86list%E8%BD%AC%E5%8F%98%E6%88%90%E9%80%97%E5%8F%B7%E5%88%86%E9%9A%94%E7%AC%A6%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
+        <description>我记得我之前用的并不是这个方案，但是我又找不到之前的资料了，先用下这个方案先。代码如下： 1 2 3 4 List&amp;lt;String&amp;gt; cities = Arrays.asList(&amp;#34;Milan&amp;#34;, &amp;#34;London&amp;#34;, &amp;#34;New York&amp;#34;, &amp;#34;San Francisco&amp;#34;); String citiesCommaSeparated = String.join(&amp;#34;,&amp;#34;, cities); 参考资料 Java</description>
+      </item>
+      
+      <item>
+        <title>静态泛型方法.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E9%9D%99%E6%80%81%E6%B3%9B%E5%9E%8B%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E9%9D%99%E6%80%81%E6%B3%9B%E5%9E%8B%E6%96%B9%E6%B3%95/</guid>
+        <description>好久不写泛型代码，突然会想不起来怎么写了，所以记录一下。最近开发了一个工具方法，代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25</description>
+      </item>
+      
+    
+  </channel>
+</rss>

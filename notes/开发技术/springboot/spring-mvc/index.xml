@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring MVC on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/</link>
+    <description>Recent content in Spring MVC on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Servlet和Filter的区别.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/servlet%E5%92%8Cfilter%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/servlet%E5%92%8Cfilter%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+        <description>Strust2是基于Filter实现的，而SpringMVC是Servlet的扩展。我很好奇Filter和Servlet究竟有什么区别，查了</description>
+      </item>
+      
+      <item>
+        <title>Spring配置Spring MVC.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring%E9%85%8D%E7%BD%AEspring-mvc/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring%E9%85%8D%E7%BD%AEspring-mvc/</guid>
+        <description>我对Spring的接触是直接从SpringBoot开始的，直接导致我没有接触一些原理层的东西，比如我们引入了starter-web后，Spr</description>
+      </item>
+      
+      <item>
+        <title>WebApplicationContext是什么.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/webapplicationcontext%E6%98%AF%E4%BB%80%E4%B9%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/webapplicationcontext%E6%98%AF%E4%BB%80%E4%B9%88/</guid>
+        <description>WebApplicationContext继承自ApplicationContext，它提供了一些web应用经常需要用到的特性。WebApp</description>
+      </item>
+      
+      <item>
+        <title>WebApplicationInitializer接口.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/webapplicationinitializer%E6%8E%A5%E5%8F%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/webapplicationinitializer%E6%8E%A5%E5%8F%A3/</guid>
+        <description>目前先整理一下这部分资料，以后要深入学习的。 WebApplicationInitializer是Spring MVC提供的一个接口，它会查找你</description>
+      </item>
+      
+      <item>
+        <title>引入spring-boot-starter-tomcat时做了什么.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%95%E5%85%A5spring-boot-starter-tomcat%E6%97%B6%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%95%E5%85%A5spring-boot-starter-tomcat%E6%97%B6%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88/</guid>
+        <description>引入如下依赖： 1 2 3 4 5 6 7 8 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-tomcat&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.3.4.RELEASE&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;compile&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; SpringBoot做了如下工作： 自动配置好SpringMVC 引入SpringMVC全套组件 自动配</description>
+      </item>
+      
+      <item>
+        <title>更多的了解DispatcherServlet.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E6%9B%B4%E5%A4%9A%E7%9A%84%E4%BA%86%E8%A7%A3dispatcherservlet/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E6%9B%B4%E5%A4%9A%E7%9A%84%E4%BA%86%E8%A7%A3dispatcherservlet/</guid>
+        <description>DipatcherServlet使用默认的Bean处理请求 Spring的DispatcherServlet使用了内置在WebApplicat</description>
+      </item>
+      
+    
+  </channel>
+</rss>

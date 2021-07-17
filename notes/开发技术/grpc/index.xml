@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GRpc on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/grpc/</link>
+    <description>Recent content in GRpc on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/grpc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>GRpc与我们的项目.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/grpc/grpc%E4%B8%8E%E6%88%91%E4%BB%AC%E7%9A%84%E9%A1%B9%E7%9B%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/grpc/grpc%E4%B8%8E%E6%88%91%E4%BB%AC%E7%9A%84%E9%A1%B9%E7%9B%AE/</guid>
+        <description>今天第一次接触GRpc，之前有做游戏开发时用的ProtoBuf，对这个东西印象很好，GRpc的底层貌似就是ProtoBuf。 大概说下我做了哪</description>
+      </item>
+      
+      <item>
+        <title>GRpc问题记录：两个版本的服务同时存在.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/grpc/grpc%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E4%B8%A4%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%90%8C%E6%97%B6%E5%AD%98%E5%9C%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/grpc/grpc%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E4%B8%A4%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%90%8C%E6%97%B6%E5%AD%98%E5%9C%A8/</guid>
+        <description>因为需要更换为新Service，所以导致项目中新旧同时存在，项目启动的时候没有任何问题，但是我用grpcui去连接的时候，报了如下的错误： Failed</description>
+      </item>
+      
+    
+  </channel>
+</rss>

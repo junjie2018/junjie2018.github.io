@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/</link>
+    <description>Recent content in Python on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>CentOS安装Python 3.x.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/centos%E5%AE%89%E8%A3%85python-3.x/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/centos%E5%AE%89%E8%A3%85python-3.x/</guid>
+        <description>CentOS安装Python实际上有更简单的方法，就是通过yum安装，但是这种方法安装的版本和我win机器的版本不一致，所以我选择了用源码安</description>
+      </item>
+      
+      <item>
+        <title>git模块的小问题.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/git%E6%A8%A1%E5%9D%97%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/git%E6%A8%A1%E5%9D%97%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/</guid>
+        <description>我准备换pygit为GitPython，但是我导入git包后找不到用不了git.Repo，我已经在PyCharm的Inspector中去掉了</description>
+      </item>
+      
+      <item>
+        <title>No module named &#39;_ctypes&#39;.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/no-module-named-_ctypes/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/no-module-named-_ctypes/</guid>
+        <description>在CentOS上自行编译python3后，安装依赖时出现了如下问题： [root@base launch]# pip3 install pyinstaller Collecting pyinstaller Downloading pyinstaller-4.3.tar.gz (3.7 MB) |████████████████████████</description>
+      </item>
+      
+      <item>
+        <title>oss2代理设置问题.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/oss2%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/oss2%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE%E9%97%AE%E9%A2%98/</guid>
+        <description>我觉得我遇到的这个问题属于PyCharm的BUG！！！通过oss2推送图片到阿里云OSS时，因为网络环境的问题，我需要设置代理，我在网上找到</description>
+      </item>
+      
+      <item>
+        <title>pip3拉oss2包时报错.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pip3%E6%8B%89oss2%E5%8C%85%E6%97%B6%E6%8A%A5%E9%94%99/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pip3%E6%8B%89oss2%E5%8C%85%E6%97%B6%E6%8A%A5%E9%94%99/</guid>
+        <description>问题描述 我在CentOS上通过自己编译的Python的pip工具下载oss2模块时，出现如下报错： [root@localhost ~]# pip3 install oss2 Collecting oss2 Using cached oss2-2.14.0.tar.gz (224 kB) ERROR: Command errored out with exit status 1: command:</description>
+      </item>
+      
+      <item>
+        <title>pip3设置国内源.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pip3%E8%AE%BE%E7%BD%AE%E5%9B%BD%E5%86%85%E6%BA%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pip3%E8%AE%BE%E7%BD%AE%E5%9B%BD%E5%86%85%E6%BA%90/</guid>
+        <description>操作步骤 指令如下 1 2 3 4 5 6 7 8 9 mkdir -p ~/.pip sudo tee ~/.pip/pip.conf &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; sudo tee [global] index-url = https://mirrors.aliyun.com/pypi/simple EOF</description>
+      </item>
+      
+      <item>
+        <title>pip查看某个库的版本号.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pip%E6%9F%A5%E7%9C%8B%E6%9F%90%E4%B8%AA%E5%BA%93%E7%9A%84%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pip%E6%9F%A5%E7%9C%8B%E6%9F%90%E4%B8%AA%E5%BA%93%E7%9A%84%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
+        <description>用于精细化定位问题，及修复问题： pip list pip freeze pip show module_name 参考资料 如何查看python包的版本号?</description>
+      </item>
+      
+      <item>
+        <title>Pycharm设置sdk.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pycharm%E8%AE%BE%E7%BD%AEsdk/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pycharm%E8%AE%BE%E7%BD%AEsdk/</guid>
+        <description>截图如下： 第三张图中，需要选到本地的一个exe文件。</description>
+      </item>
+      
+      <item>
+        <title>Python计算md5（更新版）.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/python%E8%AE%A1%E7%AE%97md5%E6%9B%B4%E6%96%B0%E7%89%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/python%E8%AE%A1%E7%AE%97md5%E6%9B%B4%E6%96%B0%E7%89%88/</guid>
+        <description>我之前使用的方式是一行一行的读取文件，然后调用update方法，需要写好多行代码，下面的写法更简洁一些： 1 2 3 4 5 6 7 8 import hashlib fd=open(&amp;#34;1.jpg&amp;#34;,&amp;#34;r&amp;#34;) fcont=fd.read() fmd5=hashlib.md5(fcont) print fmd5.hexdigest() #get 32 value</description>
+      </item>
+      
+      <item>
+        <title>win10设置pip3代理.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/win10%E8%AE%BE%E7%BD%AEpip3%E4%BB%A3%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/win10%E8%AE%BE%E7%BD%AEpip3%E4%BB%A3%E7%90%86/</guid>
+        <description>这个解决方案是我看教程的时候自己猜出来的，我没有找到很清晰的描述这个问题的解决方案。解决方法如下： pip config set global.proxy http://127.0.0.1:1080 我在整理笔记时发现，我之前解决过</description>
+      </item>
+      
+      <item>
+        <title>不计划对GitPython等技术进行研究.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E4%B8%8D%E8%AE%A1%E5%88%92%E5%AF%B9gitpython%E7%AD%89%E6%8A%80%E6%9C%AF%E8%BF%9B%E8%A1%8C%E7%A0%94%E7%A9%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E4%B8%8D%E8%AE%A1%E5%88%92%E5%AF%B9gitpython%E7%AD%89%E6%8A%80%E6%9C%AF%E8%BF%9B%E8%A1%8C%E7%A0%94%E7%A9%B6/</guid>
+        <description>之前有考虑研究GitPython、PyGit，然后在python脚本中操作Git仓库，但是最近在使用的过程中发现相关资料有点少，而且运行的时</description>
+      </item>
+      
+      <item>
+        <title>从json文件生成java对象的小工具.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E4%BB%8Ejson%E6%96%87%E4%BB%B6%E7%94%9F%E6%88%90java%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E4%BB%8Ejson%E6%96%87%E4%BB%B6%E7%94%9F%E6%88%90java%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7/</guid>
+        <description>20210420后续： 实际上我有点不想用Python去开发一些小工具了，Python好久不摸，API忘得太快了，Ide又给不到什么有用的信息</description>
+      </item>
+      
+      <item>
+        <title>使用自编译Python时执行pyinstaller时遇到的问题.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E4%BD%BF%E7%94%A8%E8%87%AA%E7%BC%96%E8%AF%91python%E6%97%B6%E6%89%A7%E8%A1%8Cpyinstaller%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E4%BD%BF%E7%94%A8%E8%87%AA%E7%BC%96%E8%AF%91python%E6%97%B6%E6%89%A7%E8%A1%8Cpyinstaller%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>我在使用自编译的python3执行pyinstaller时遇到了如下问题： [root@base launch]# pyinstaller -F launch.py 31 INFO: PyInstaller: 4.3 31 INFO: Python: 3.8.9 62 INFO: Platform: Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.17 62 INFO: wrote /root/Software/launch/launch.spec 63 INFO: UPX is not available. 64 INFO: Extending PYTHONPATH with paths</description>
+      </item>
+      
+      <item>
+        <title>将Python脚本打包成可执行文件.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E5%B0%86python%E8%84%9A%E6%9C%AC%E6%89%93%E5%8C%85%E6%88%90%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E5%B0%86python%E8%84%9A%E6%9C%AC%E6%89%93%E5%8C%85%E6%88%90%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/</guid>
+        <description>还不错，打包出来后只有6M多一点，哈哈，虽然我只写了几行代码。 20210628后续： 该工具还可以将脚本打包成Linux可执行的文件，记录一下</description>
+      </item>
+      
+      <item>
+        <title>报错Non-ASCII character in file.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%8A%A5%E9%94%99non-ascii-character-in-file/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%8A%A5%E9%94%99non-ascii-character-in-file/</guid>
+        <description>报错如下： SyntaxError: Non-ASCII character &#39;\xe2&#39; in file 我选择的解决方式是从调用python3而不是python，我系统里存在两个版本的python3，经常用错这个东西。其他</description>
+      </item>
+      
+      <item>
+        <title>读写文件时wb和rb写错导致的问题.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6%E6%97%B6wb%E5%92%8Crb%E5%86%99%E9%94%99%E5%AF%BC%E8%87%B4%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6%E6%97%B6wb%E5%92%8Crb%E5%86%99%E9%94%99%E5%AF%BC%E8%87%B4%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>完成往我OSS推送图片的脚本后，我发现了一个问题，我的本地的图片打不开了。检查代理时发现最有可能导致该问题的就是如下代码： 本应该是读的代码，</description>
+      </item>
+      
+      <item>
+        <title>资料整理.</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <description>好久没有用Python写脚本了，感觉API都不太熟悉了，完成脚本后，舍不得关闭网页，整理一份看看自己都查了哪些资料（我罗列的都是我用到的）：</description>
+      </item>
+      
+    
+  </channel>
+</rss>
