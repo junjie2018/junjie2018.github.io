@@ -14,24 +14,6 @@
     
       
       <item>
-        <title>@AutoConfigurationPackage注解的意义</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/autoconfigurationpackage%E6%B3%A8%E8%A7%A3%E7%9A%84%E6%84%8F%E4%B9%89/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/autoconfigurationpackage%E6%B3%A8%E8%A7%A3%E7%9A%84%E6%84%8F%E4%B9%89/</guid>
-        <description>AutoConfigurationPackage注解代码如下： 1 2 3 4 @Import(AutoConfigurationPackages.Registrar.class) public @interface AutoConfigurationPackage {} 这个注解的功能是： 利用Register给容器导入一系列组件 将</description>
-      </item>
-      
-      <item>
-        <title>@Bean配置时一段经典的源码</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/bean%E9%85%8D%E7%BD%AE%E6%97%B6%E4%B8%80%E6%AE%B5%E7%BB%8F%E5%85%B8%E7%9A%84%E6%BA%90%E7%A0%81/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/bean%E9%85%8D%E7%BD%AE%E6%97%B6%E4%B8%80%E6%AE%B5%E7%BB%8F%E5%85%B8%E7%9A%84%E6%BA%90%E7%A0%81/</guid>
-        <description>如下代码： 1 2 3 4 5 6 7 8 @Bean @ConditionalOnBean(MultipartResolver.class) @ConditionalOnMissingBean(name = DispatcherServlet.MULTIPART_RESOLVER_BEAN_NAME) public MultipartResolver multipartResolver(MultipartResolver resolver) { return resolver; } 这段配置的含义是这样的，如果容器中有dispatcherServlet的bean，容器中</description>
-      </item>
-      
-      <item>
         <title>Actuator</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/actuator/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -47,6 +29,51 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/</guid>
         <description></description>
+      </item>
+      
+      <item>
+        <title>Spring</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Spring MVC</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Validation</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>@AutoConfigurationPackage注解的意义</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/autoconfigurationpackage%E6%B3%A8%E8%A7%A3%E7%9A%84%E6%84%8F%E4%B9%89/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/autoconfigurationpackage%E6%B3%A8%E8%A7%A3%E7%9A%84%E6%84%8F%E4%B9%89/</guid>
+        <description>AutoConfigurationPackage注解代码如下： 1 2 3 4 @Import(AutoConfigurationPackages.Registrar.class) public @interface AutoConfigurationPackage {} 这个注解的功能是： 利用Register给容器导入一系列组件 将</description>
+      </item>
+      
+      <item>
+        <title>@Bean配置时一段经典的源码</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/bean%E9%85%8D%E7%BD%AE%E6%97%B6%E4%B8%80%E6%AE%B5%E7%BB%8F%E5%85%B8%E7%9A%84%E6%BA%90%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/bean%E9%85%8D%E7%BD%AE%E6%97%B6%E4%B8%80%E6%AE%B5%E7%BB%8F%E5%85%B8%E7%9A%84%E6%BA%90%E7%A0%81/</guid>
+        <description>如下代码： 1 2 3 4 5 6 7 8 @Bean @ConditionalOnBean(MultipartResolver.class) @ConditionalOnMissingBean(name = DispatcherServlet.MULTIPART_RESOLVER_BEAN_NAME) public MultipartResolver multipartResolver(MultipartResolver resolver) { return resolver; } 这段配置的含义是这样的，如果容器中有dispatcherServlet的bean，容器中</description>
       </item>
       
       <item>
@@ -74,24 +101,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/method-has-too-many-body-parameters/</guid>
         <description>问题描述 报错如下： Caused by: java.lang.IllegalStateException: Method has too many Body parameters: public abstract void com.sdstc.authcenter.client.UserConfigClient.updateUserListConfig(java.lang.String,com.sdstc.authcenter.request.UpdateListConfigRequest) at feign.Util.checkState(Util.java:127) ~[feign-core-10.1.0.jar:?] at feign.Contract$BaseContract.parseAndValidateMetadata(Contract.java:117) ~[feign-core-10.1.0.jar:?] at org.springframework.cloud.openfeign.support.SpringMvcContract.parseAndValidateMetadata(SpringMvcContract.java:188) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE] at feign.Contract$BaseContract.parseAndValidatateMetadata(Contract.java:66) ~[feign-core-10.1.0.jar:?] at feign.ReflectiveFeign$ParseHandlersByName.apply(ReflectiveFeign.java:154) ~[feign-core-10.1.0.jar:?] at feign.ReflectiveFeign.newInstance(ReflectiveFeign.java:52) ~[feign-core-10.1.0.jar:?] at feign.Feign$Builder.target(Feign.java:251) ~[feign-core-10.1.0.jar:?] at org.springframework.cloud.openfeign.HystrixTargeter.target(HystrixTargeter.java:36) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE] at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:284) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE] at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:247) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE] at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE] at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE] at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1818) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE] at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE] at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]</description>
-      </item>
-      
-      <item>
-        <title>Spring</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>Spring MVC</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/</guid>
-        <description></description>
       </item>
       
       <item>
@@ -146,15 +155,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/starter%E7%9A%84%E5%91%BD%E5%90%8D%E4%B9%A0%E6%83%AF/</guid>
         <description>官方的starter命名：spring-boot-starter-* 第三方的starter命名：*-spring-boot-starter M</description>
-      </item>
-      
-      <item>
-        <title>Validation</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/</guid>
-        <description></description>
       </item>
       
       <item>

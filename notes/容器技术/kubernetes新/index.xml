@@ -14,6 +14,15 @@
     
       
       <item>
+        <title>KT Connect</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>CentOS 7搭建Kubernetes</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/centos-7%E6%90%AD%E5%BB%BAkubernetes/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,15 +47,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/harbor%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E7%BC%93%E5%AD%98/</guid>
         <description>目前这个方式适用的场景有点窄，只用为Docker Hub和同Harbor仓库进行代理缓存。先观望着吧。 参考资料 使用harbor代理缓存dock</description>
-      </item>
-      
-      <item>
-        <title>KT Connect</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/</guid>
-        <description></description>
       </item>
       
       <item>
