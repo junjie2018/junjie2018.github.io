@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/</link>
+    <description>Recent content in Ubuntu on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Ubunt 18.04关闭和开启图形界面</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubunt-18.04%E5%85%B3%E9%97%AD%E5%92%8C%E5%BC%80%E5%90%AF%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubunt-18.04%E5%85%B3%E9%97%AD%E5%92%8C%E5%BC%80%E5%90%AF%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2/</guid>
+        <description>操作步骤 关闭用户图形界面，使用tty登录 sudo systemctl set-default multi-user.target sudo reboot 开启用户图形界面 sudo systemctl set-default graphical.target sudo reboot 参考资料 Ubuntu18.04 关闭和开启图形界面</description>
+      </item>
+      
+      <item>
+        <title>Ubuntu 18.04使用802.1x协议登录网络</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu-18.04%E4%BD%BF%E7%94%A8802.1x%E5%8D%8F%E8%AE%AE%E7%99%BB%E5%BD%95%E7%BD%91%E7%BB%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu-18.04%E4%BD%BF%E7%94%A8802.1x%E5%8D%8F%E8%AE%AE%E7%99%BB%E5%BD%95%E7%BD%91%E7%BB%9C/</guid>
+        <description>该教程为我工具机在公司访问网络用到的 操作步骤 代码如下： 1 2 3 4 5 6 7 nmcli con edit CONNECTION_NAME nmcli&amp;gt; set ipv4.method auto nmcli&amp;gt; set 802-1x.eap peap nmcli&amp;gt; set 802-1x.identity sadegh.k@atu.com nmcli&amp;gt; set 802-1x.phase2-auth mschapv2 nmcli&amp;gt; save nmcli&amp;gt; quit 参考教程 Ubuntu 18.04终端</description>
+      </item>
+      
+      <item>
+        <title>Ubuntu 18.04永久替换resolve.conf文件的方法</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu-18.04%E6%B0%B8%E4%B9%85%E6%9B%BF%E6%8D%A2resolve.conf%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu-18.04%E6%B0%B8%E4%B9%85%E6%9B%BF%E6%8D%A2resolve.conf%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+        <description>处理步骤 三台虚拟机上运行如下指令 1 2 3 4 5 6 7 sudo tee -a /etc/resolvconf/resolv.conf.d/head &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; nameserver 172.17.30.1 nameserver 114.114.114.114 nameserver 114.114.115.115 EOF 重启所有虚拟机 相关教程 Kubernetes中的Pod无法访问外网-Ub</description>
+      </item>
+      
+      <item>
+        <title>Ubuntu 18.04配置静态地址</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu-18.04%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu-18.04%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</guid>
+        <description>操作步骤 编辑/etc/netplan/01-network-manager-all.yaml（你的机器上可能不是这个文件名，也有可能有多个文</description>
+      </item>
+      
+      <item>
+        <title>Ubuntu 20.04网络调整</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu-20.04%E7%BD%91%E7%BB%9C%E8%B0%83%E6%95%B4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu-20.04%E7%BD%91%E7%BB%9C%E8%B0%83%E6%95%B4/</guid>
+        <description>我使用的方法 禁用ssytemd-resolved（不用犹豫，这东西占用我53号端口，是肯定不行的） sudo systemctl disable systemd-resolved sudo systemctl stop systemd-resolved 修改/etc/Networ</description>
+      </item>
+      
+      <item>
+        <title>Ubuntu18.04装OpenJDK 7</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu18.04%E8%A3%85openjdk-7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu18.04%E8%A3%85openjdk-7/</guid>
+        <description>操作步骤 https://jdk.java.net/java-se-ri/7下载openJDK 7安装包 解压，设置环境变量 1 2 3 4 5 6 7 8 9 tar -zxvf</description>
+      </item>
+      
+      <item>
+        <title>Ubuntu中的environment文件</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu%E4%B8%AD%E7%9A%84environment%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu%E4%B8%AD%E7%9A%84environment%E6%96%87%E4%BB%B6/</guid>
+        <description>最近按照教程配置了一份environment文件，在里面配置了代理，发现apt、curl都可以使用代理了，之前的方案是使用all_proxy</description>
+      </item>
+      
+      <item>
+        <title>Ubuntu安装并配置OpenSSH</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu%E5%AE%89%E8%A3%85%E5%B9%B6%E9%85%8D%E7%BD%AEopenssh/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu%E5%AE%89%E8%A3%85%E5%B9%B6%E9%85%8D%E7%BD%AEopenssh/</guid>
+        <description>操作步骤 安装openssh服务端 sudo apt-get install openssh-server 编辑配置文件/etc/ssh/sshd_config改PermitRootLogin为yes # Authentication: LoginGraceTime 120</description>
+      </item>
+      
+      <item>
+        <title>Ubuntu设置systemd-resolved</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu%E8%AE%BE%E7%BD%AEsystemd-resolved/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu%E8%AE%BE%E7%BD%AEsystemd-resolved/</guid>
+        <description>sudo systemctl disable systemd-resolved sudo systemctl stop systemd-resolved sudo systemctl enable systemd-resolved sudo systemctl start systemd-resolved</description>
+      </item>
+      
+      <item>
+        <title>Windows查看路由信息</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/windows%E6%9F%A5%E7%9C%8B%E8%B7%AF%E7%94%B1%E4%BF%A1%E6%81%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/windows%E6%9F%A5%E7%9C%8B%E8%B7%AF%E7%94%B1%E4%BF%A1%E6%81%AF/</guid>
+        <description>操作步骤 指令如下 route print route print | findstr &amp;quot;172&amp;quot; route delete 172.17.0.0 route add 172.17.0.0 MASK 255.255.0.0 172.17.30.1 route add 172.17.0.0 MASK 255.255.0.0 10.8.0.1 route delete 172.17.0.0 route add 172.17.0.0 MASK 255.255.0.0 172.17.0.1</description>
+      </item>
+      
+    
+  </channel>
+</rss>

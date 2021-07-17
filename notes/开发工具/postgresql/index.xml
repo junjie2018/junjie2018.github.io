@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PostgreSQL on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/</link>
+    <description>Recent content in PostgreSQL on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>jsonb中如何key为空字符串怎么办</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/jsonb%E4%B8%AD%E5%A6%82%E4%BD%95key%E4%B8%BA%E7%A9%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%80%8E%E4%B9%88%E5%8A%9E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/jsonb%E4%B8%AD%E5%A6%82%E4%BD%95key%E4%B8%BA%E7%A9%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%80%8E%E4%B9%88%E5%8A%9E/</guid>
+        <description>问题描述 因为我们客户端在上传数据时没有进行输入检查（服务端也没有检查），导致我们数据库t_material_info表中插入了一些错误数据。</description>
+      </item>
+      
+      <item>
+        <title>PostgreSQL配置显示SQL执行记录</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/postgresql%E9%85%8D%E7%BD%AE%E6%98%BE%E7%A4%BAsql%E6%89%A7%E8%A1%8C%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/postgresql%E9%85%8D%E7%BD%AE%E6%98%BE%E7%A4%BAsql%E6%89%A7%E8%A1%8C%E8%AE%B0%E5%BD%95/</guid>
+        <description>使用场景是我配置了日志输出，配置了P6spy，但是依旧有些执行记录无法查看。 使用的配置文件如下： # ----------------------------- # PostgreSQL configuration file # ----------------------------- # # This file consists of lines of the form: # # name =</description>
+      </item>
+      
+      <item>
+        <title>用一张表中的数据去更新另一张表</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E7%94%A8%E4%B8%80%E5%BC%A0%E8%A1%A8%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%8E%BB%E6%9B%B4%E6%96%B0%E5%8F%A6%E4%B8%80%E5%BC%A0%E8%A1%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E7%94%A8%E4%B8%80%E5%BC%A0%E8%A1%A8%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%8E%BB%E6%9B%B4%E6%96%B0%E5%8F%A6%E4%B8%80%E5%BC%A0%E8%A1%A8/</guid>
+        <description>需求产生于我们有两张表，一张表A中的数据为量一张表B中数据的复制品，结果B表结构增加了一些字段，A表未增加这些字段，最后导致接口数据不一致，</description>
+      </item>
+      
+      <item>
+        <title>记录一个大佬的Blog</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%AA%E5%A4%A7%E4%BD%AC%E7%9A%84blog/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%AA%E5%A4%A7%E4%BD%AC%E7%9A%84blog/</guid>
+        <description>Digoal.Zhou&amp;rsquo;s Blog 我暂时没有条件研究这个技术，环境还没有搭好，最近时间也安排的比较满。</description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logging on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/</link>
+    <description>Recent content in Logging on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>动态调整日志等级</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E5%8A%A8%E6%80%81%E8%B0%83%E6%95%B4%E6%97%A5%E5%BF%97%E7%AD%89%E7%BA%A7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E5%8A%A8%E6%80%81%E8%B0%83%E6%95%B4%E6%97%A5%E5%BF%97%E7%AD%89%E7%BA%A7/</guid>
+        <description>当我感觉我有动态调整日志等级的需求时，我发现SpringBoot Actuator天然支持这种功能，进一步研究，我发现了SpringBoot A</description>
+      </item>
+      
+      <item>
+        <title>日志输出的一些事</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B/</guid>
+        <description>我肯定会划分一段时间去解决日志相关的问题，但是现阶段该问题该优先级并没有那么高，我先记录下我遇到的问题，未来系统学习的时候再解决这些问题。 在</description>
+      </item>
+      
+    
+  </channel>
+</rss>

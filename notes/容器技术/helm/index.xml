@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Helm on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/</link>
+    <description>Recent content in Helm on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Helm安装Chart前修改配置文件</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/helm%E5%AE%89%E8%A3%85chart%E5%89%8D%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/helm%E5%AE%89%E8%A3%85chart%E5%89%8D%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</guid>
+        <description>简单指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 # 展示可配置项 helm show values bitnami/wordpress # 使用指定文件覆盖默认配置 echo &amp;#39;{mariadb.auth.database: user0db, mariadb.auth.username: user0}&amp;#39; &amp;gt; values.yaml helm install -f values.yaml bitnami/wordpress --generate-name # 查看指定release</description>
+      </item>
+      
+      <item>
+        <title>Helm常用指令</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/helm%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/helm%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</guid>
+        <description>从Artifact Hub中、repo中搜索chart 1 2 3 4 5 6 7 8 # 从hub中 helm search hub wordpress # 从repo中 helm repo add brigade https://brigadecore.github.io/charts helm search repo brigade 安装chart 1 2 3</description>
+      </item>
+      
+      <item>
+        <title>安装Helm</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%AE%89%E8%A3%85helm/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%AE%89%E8%A3%85helm/</guid>
+        <description>下载二进制文件，并解压二进制文件 tar -zxvf helm-v3.5.4-linux-amd64.tar.gz 将二进制文件移动$PATH目录下 mv linux-amd64/helm /usr/local/bin/helm Helm常用指令 添加一个chart仓库，并查看charts列表 helm</description>
+      </item>
+      
+    
+  </channel>
+</rss>
