@@ -618,6 +618,15 @@
       </item>
       
       <item>
+        <title>Fastjson全局配置的一些事情</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/fastjson/fastjson%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B%E6%83%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/fastjson/fastjson%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B%E6%83%85/</guid>
+        <description>最近又想将项目中的LocalDateTime序列化和反序列化统一起来，所以需要对Fastjson进行全局化配置，Fastjson全局化配置并</description>
+      </item>
+      
+      <item>
         <title>FastJSON判断json字符串是array还是object</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/fastjson/fastjson%E5%88%A4%E6%96%ADjson%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%98%AFarray%E8%BF%98%E6%98%AFobject/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -996,6 +1005,15 @@
       </item>
       
       <item>
+        <title>Idea从application.yml配置项跳转到配置项对应的Properties类</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%BB%8Eapplication.yml%E9%85%8D%E7%BD%AE%E9%A1%B9%E8%B7%B3%E8%BD%AC%E5%88%B0%E9%85%8D%E7%BD%AE%E9%A1%B9%E5%AF%B9%E5%BA%94%E7%9A%84properties%E7%B1%BB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%BB%8Eapplication.yml%E9%85%8D%E7%BD%AE%E9%A1%B9%E8%B7%B3%E8%BD%AC%E5%88%B0%E9%85%8D%E7%BD%AE%E9%A1%B9%E5%AF%B9%E5%BA%94%E7%9A%84properties%E7%B1%BB/</guid>
+        <description>需求是这样的，我需要查看datasource的username被哪个Properties类接受了，只需按住ctrl键，然后按这个配置即可。 我</description>
+      </item>
+      
+      <item>
         <title>IDEA修改编码方式</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%BF%AE%E6%94%B9%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1056,6 +1074,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%90%9C%E7%B4%A2jar%E5%8C%85%E4%B8%AD%E7%9A%84%E7%B1%BB/</guid>
         <description>操作步骤 按两下Shift 输入需要搜索的类 参考资料 IDEA中快速搜索Jar包里面的内容</description>
+      </item>
+      
+      <item>
+        <title>Idea断点时的一个小问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%96%AD%E7%82%B9%E6%97%B6%E7%9A%84%E4%B8%80%E4%B8%AA%E5%B0%8F%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%96%AD%E7%82%B9%E6%97%B6%E7%9A%84%E4%B8%80%E4%B8%AA%E5%B0%8F%E9%97%AE%E9%A2%98/</guid>
+        <description>今天在看SpringBoot源码时，在如下代码出进行了断点，结果断点没有生效，代码直接运行到后面了。此处代码我当时只断点了一处，我以为该处代</description>
       </item>
       
       <item>
@@ -1209,6 +1236,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E8%AF%BB%E5%8F%96properties%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9%E5%B9%B6%E5%B0%86%E5%AE%83%E4%BB%AC%E5%B0%81%E8%A3%85%E5%88%B0javabean%E4%B8%AD/</guid>
         <description>代码如下： 1 2 3 4 5 6 7 8 9 10 11 Properties properties = new Properties(); properties.load(new FileInputStream(&amp;#34;src\\main\\resources\\tmp3.properties&amp;#34;)); Enumeration enumeration = properties.propertyNames(); while (enumeration.hasMoreElements()) { String key = (String) enumeration.nextElement(); String value = properties.getProperty(key); System.out.println(key); System.out.println(value); } 写法很糟糕，而且中文还乱码了。 参考资料 了解自动配置原理</description>
+      </item>
+      
+      <item>
+        <title>JdbcTemplate查看当前链接的时区</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/jdbctemplate/jdbctemplate%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E9%93%BE%E6%8E%A5%E7%9A%84%E6%97%B6%E5%8C%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/jdbctemplate/jdbctemplate%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E9%93%BE%E6%8E%A5%E7%9A%84%E6%97%B6%E5%8C%BA/</guid>
+        <description>做实验的时候，利用jdbcTemplate开发了一个简单的方法，用于查看当前链接的时区，感觉还不错，就简单整理一下： 1 2 3 4 5 6 7 8 9 10 11 12</description>
       </item>
       
       <item>
@@ -1407,6 +1443,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/fastjson/localdatetime%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E6%A0%BC%E5%BC%8F%E9%97%AE%E9%A2%98/</guid>
         <description>最近服务的消费者提出了新的需求，要求我们的时间字段的格式都必须为时间戳，我原本以为是一个简单的问题，结果发现Fastjson在处理Local</description>
+      </item>
+      
+      <item>
+        <title>Lombok与Idea版本不兼容</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/lombok%E4%B8%8Eidea%E7%89%88%E6%9C%AC%E4%B8%8D%E5%85%BC%E5%AE%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/lombok%E4%B8%8Eidea%E7%89%88%E6%9C%AC%E4%B8%8D%E5%85%BC%E5%AE%B9/</guid>
+        <description>上周把Idea升级到了最新版，结果启动项目时出现了如下错误： 我最后修复该问题的方案是放弃我自己进行lombok版本管理，让SpringBoo</description>
       </item>
       
       <item>
@@ -1632,6 +1677,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/pandownlaod%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/</guid>
         <description>PanDownlaod我一直当做http下载器使用，使用浏览器默认的下载器，总是可能出现断流的情况，而且浏览器里下载，断流的话需要全部重新下</description>
+      </item>
+      
+      <item>
+        <title>PG查看并设置当前session的时区</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/pg%E6%9F%A5%E7%9C%8B%E5%B9%B6%E8%AE%BE%E7%BD%AE%E5%BD%93%E5%89%8Dsession%E7%9A%84%E6%97%B6%E5%8C%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/pg%E6%9F%A5%E7%9C%8B%E5%B9%B6%E8%AE%BE%E7%BD%AE%E5%BD%93%E5%89%8Dsession%E7%9A%84%E6%97%B6%E5%8C%BA/</guid>
+        <description>用的比较少，但是做实验中这些指令比较重要。 1 2 3 4 5 6 7 8 # 查看时区 show time zone # 设置时区 set time zone &amp;#39;PRC&amp;#39;; # 相当于+08时区 set time zone &amp;#39;GMT&amp;#39;; # 相当于+00时区 参考</description>
       </item>
       
       <item>
@@ -1968,6 +2022,15 @@
       </item>
       
       <item>
+        <title>SpringBoot修改默认的时区</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E6%97%B6%E5%8C%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E6%97%B6%E5%8C%BA/</guid>
+        <description>代码如下： 1 2 3 4 5 6 @PostConstruct void setDefaultTimezone() { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); } 需要注意的是如下的写法并不会生效： 1 2 3 4 5 6 public static void main(String[] args) { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); SpringApplication.run(MybatisApplication.class, args); } 参考资料 springboot项目设置时区</description>
+      </item>
+      
+      <item>
         <title>SpringBoot容器初始化后执行回调</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E5%AE%B9%E5%99%A8%E5%88%9D%E5%A7%8B%E5%8C%96%E5%90%8E%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2091,6 +2154,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip%E6%8C%87%E4%BB%A4/tar%E5%9C%A8%E8%A7%A3%E5%8E%8B%E6%97%B6%E4%B8%8D%E6%94%AF%E6%8C%81%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95/</guid>
         <description>tar不支持创建目录 tar使用-C参数时，如果目录不存在，是没有办法创建的，不要在徒劳的去寻找解压并创建目录的方法了，我感觉我已经尝试做这件</description>
+      </item>
+      
+      <item>
+        <title>timestamptz类型的研究</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/timestamptz%E7%B1%BB%E5%9E%8B%E7%9A%84%E7%A0%94%E7%A9%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/timestamptz%E7%B1%BB%E5%9E%8B%E7%9A%84%E7%A0%94%E7%A9%B6/</guid>
+        <description>对timestamptz的研究，是为了项目内部时间戳的统一。统一时间戳可以有如下好处： 统一的认知层次，大家都清晰的知道，前端、后端、数据库中</description>
       </item>
       
       <item>
@@ -2550,6 +2622,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E4%BB%A3%E7%A0%81%E5%BC%80%E5%8F%91%E5%B8%B8%E7%94%A8%E4%BE%9D%E8%B5%96/</guid>
         <description>这些依赖高频率的使用在我写Demo时： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.projectlombok&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;lombok&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.18.20&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;provided&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.commons&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;commons-lang3&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.12.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-configuration-processor&amp;lt;/artifactId&amp;gt; &amp;lt;optional&amp;gt;true&amp;lt;/optional&amp;gt; &amp;lt;/dependency&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>优化项目中LocalDateTime类型的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E4%BC%98%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%ADlocaldatetime%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E4%BC%98%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%ADlocaldatetime%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>本次优化的目标： Request、Response中不需要标注JSONField，序列化和反序列化时可自动完成Long类型到LocalDate</description>
       </item>
       
       <item>

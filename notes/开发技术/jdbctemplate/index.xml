@@ -14,6 +14,15 @@
     
       
       <item>
+        <title>JdbcTemplate查看当前链接的时区</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/jdbctemplate/jdbctemplate%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E9%93%BE%E6%8E%A5%E7%9A%84%E6%97%B6%E5%8C%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/jdbctemplate/jdbctemplate%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E9%93%BE%E6%8E%A5%E7%9A%84%E6%97%B6%E5%8C%BA/</guid>
+        <description>做实验的时候，利用jdbcTemplate开发了一个简单的方法，用于查看当前链接的时区，感觉还不错，就简单整理一下： 1 2 3 4 5 6 7 8 9 10 11 12</description>
+      </item>
+      
+      <item>
         <title>JdbcTemplate获取表的元数据</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/jdbctemplate/jdbctemplate%E8%8E%B7%E5%8F%96%E8%A1%A8%E7%9A%84%E5%85%83%E6%95%B0%E6%8D%AE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -104,6 +104,15 @@
       </item>
       
       <item>
+        <title>SpringBoot修改默认的时区</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E6%97%B6%E5%8C%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E6%97%B6%E5%8C%BA/</guid>
+        <description>代码如下： 1 2 3 4 5 6 @PostConstruct void setDefaultTimezone() { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); } 需要注意的是如下的写法并不会生效： 1 2 3 4 5 6 public static void main(String[] args) { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); SpringApplication.run(MybatisApplication.class, args); } 参考资料 springboot项目设置时区</description>
+      </item>
+      
+      <item>
         <title>SpringBoot容器初始化后执行回调</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E5%AE%B9%E5%99%A8%E5%88%9D%E5%A7%8B%E5%8C%96%E5%90%8E%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -173,6 +182,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E4%BB%8E%E8%AF%B7%E6%B1%82%E5%88%B0%E5%85%A5%E5%BA%93%E9%83%BD%E4%BD%BF%E7%94%A8%E6%9E%9A%E4%B8%BE/</guid>
         <description>核心的目标是，用户传递的某个字段的值，在@RequestBody转换后，自动转换成枚举，因为枚举是全局的，所以可以直接赋值给entity的相</description>
+      </item>
+      
+      <item>
+        <title>优化项目中LocalDateTime类型的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E4%BC%98%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%ADlocaldatetime%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E4%BC%98%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%ADlocaldatetime%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>本次优化的目标： Request、Response中不需要标注JSONField，序列化和反序列化时可自动完成Long类型到LocalDate</description>
       </item>
       
       <item>
