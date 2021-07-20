@@ -32,6 +32,15 @@
       </item>
       
       <item>
+        <title>postgresql的驱动配置</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/postgresql%E7%9A%84%E9%A9%B1%E5%8A%A8%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/postgresql%E7%9A%84%E9%A9%B1%E5%8A%A8%E9%85%8D%E7%BD%AE/</guid>
+        <description>写在application.yml配置文件中的：org.postgresql.Driver 不记录一下，总是忘记，每次忘记再搜索，很麻烦。</description>
+      </item>
+      
+      <item>
         <title>PostgreSQL配置显示SQL执行记录</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/postgresql%E9%85%8D%E7%BD%AE%E6%98%BE%E7%A4%BAsql%E6%89%A7%E8%A1%8C%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

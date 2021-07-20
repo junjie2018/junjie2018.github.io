@@ -1437,6 +1437,15 @@
       </item>
       
       <item>
+        <title>LocalDateTime与时间戳互相转换</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/localdatetime%E4%B8%8E%E6%97%B6%E9%97%B4%E6%88%B3%E4%BA%92%E7%9B%B8%E8%BD%AC%E6%8D%A2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/localdatetime%E4%B8%8E%E6%97%B6%E9%97%B4%E6%88%B3%E4%BA%92%E7%9B%B8%E8%BD%AC%E6%8D%A2/</guid>
+        <description>这是我使用在我们项目中的一个方案，我挺喜欢这个方案的： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 // LocalDateTime到时间戳 ZoneId systemDefaultZoneId = ZoneId.systemDefault(); ZoneOffset offset =</description>
+      </item>
+      
+      <item>
         <title>LocalDateTime序列化时格式问题</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/fastjson/localdatetime%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E6%A0%BC%E5%BC%8F%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1581,6 +1590,15 @@
       </item>
       
       <item>
+        <title>MyBatis配置打印日志信息</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E9%85%8D%E7%BD%AE%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E4%BF%A1%E6%81%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E9%85%8D%E7%BD%AE%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E4%BF%A1%E6%81%AF/</guid>
+        <description>在application.yml配置中增加如下配置： 1 2 3 4 5 mybatis-plus:configuration:log-impl:org.apache.ibatis.logging.stdout.StdOutImpl 参考资料 mybatisPlus配置控制台打印sql语句</description>
+      </item>
+      
+      <item>
         <title>Navicat Premium 12看不到PostgreSQL创建的表</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/navicat/navicat-premium-12%E7%9C%8B%E4%B8%8D%E5%88%B0postgresql%E5%88%9B%E5%BB%BA%E7%9A%84%E8%A1%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1722,6 +1740,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/pom.xml%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84relativepath/</guid>
         <description>今天用官方源初始化一个SpringBoot项目时发现parent标签下有一个relativePath标签，简单查询了一下，有如下解释： 查找顺</description>
+      </item>
+      
+      <item>
+        <title>postgresql的驱动配置</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/postgresql%E7%9A%84%E9%A9%B1%E5%8A%A8%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/postgresql%E7%9A%84%E9%A9%B1%E5%8A%A8%E9%85%8D%E7%BD%AE/</guid>
+        <description>写在application.yml配置文件中的：org.postgresql.Driver 不记录一下，总是忘记，每次忘记再搜索，很麻烦。</description>
       </item>
       
       <item>
@@ -2027,7 +2054,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E6%97%B6%E5%8C%BA/</guid>
-        <description>代码如下： 1 2 3 4 5 6 @PostConstruct void setDefaultTimezone() { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); } 需要注意的是如下的写法并不会生效： 1 2 3 4 5 6 public static void main(String[] args) { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); SpringApplication.run(MybatisApplication.class, args); } 参考资料 springboot项目设置时区</description>
+        <description>代码如下： 1 2 3 4 5 6 @PostConstruct void setDefaultTimezone() { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); } 需要注意的是如下的写法并不会生效： 1 2 3 4 5 6 public static void main(String[] args) { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); SpringApplication.run(MybatisApplication.class, args); } 查看当前实例的时区，可用如下代码： 1 2 3</description>
       </item>
       
       <item>
@@ -2436,6 +2463,15 @@
       </item>
       
       <item>
+        <title>win上进入非C盘的文件夹</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E4%B8%8A%E8%BF%9B%E5%85%A5%E9%9D%9Ec%E7%9B%98%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E4%B8%8A%E8%BF%9B%E5%85%A5%E9%9D%9Ec%E7%9B%98%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
+        <description>如下代码可直接进入非C盘的目录： 1 2 3 cd /D D:\Blogs 如不不用/D参数，则该指令无法正常进入该目录。 参考资料 bat文件直接进入某个盘符目录</description>
+      </item>
+      
+      <item>
         <title>win版本的curl设置代理及请求头</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E7%89%88%E6%9C%AC%E7%9A%84curl%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86%E5%8F%8A%E8%AF%B7%E6%B1%82%E5%A4%B4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2559,6 +2595,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E4%B8%BAroot%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AEkubectl/</guid>
         <description>说明 这不是一个优雅的方案，只是为了临时用一下 我感觉阿里云也是用的这个方案，但是可能它用的层次更高一些，我只是简单的照搬 操作步骤 master 切换到roo</description>
+      </item>
+      
+      <item>
+        <title>为什么要使用LocalDateTime</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8localdatetime/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8localdatetime/</guid>
+        <description>核心原因在于Date、SimpleDateFormat等是非线程安全的，而LocalDataTime是线程安全的。 参考资料 为什么建议使用你L</description>
       </item>
       
       <item>

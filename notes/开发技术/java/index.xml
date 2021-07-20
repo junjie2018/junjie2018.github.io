@@ -95,6 +95,15 @@
       </item>
       
       <item>
+        <title>LocalDateTime与时间戳互相转换</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/localdatetime%E4%B8%8E%E6%97%B6%E9%97%B4%E6%88%B3%E4%BA%92%E7%9B%B8%E8%BD%AC%E6%8D%A2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/localdatetime%E4%B8%8E%E6%97%B6%E9%97%B4%E6%88%B3%E4%BA%92%E7%9B%B8%E8%BD%AC%E6%8D%A2/</guid>
+        <description>这是我使用在我们项目中的一个方案，我挺喜欢这个方案的： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 // LocalDateTime到时间戳 ZoneId systemDefaultZoneId = ZoneId.systemDefault(); ZoneOffset offset =</description>
+      </item>
+      
+      <item>
         <title>StringReader非常利于测试文件</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/stringreader%E9%9D%9E%E5%B8%B8%E5%88%A9%E4%BA%8E%E6%B5%8B%E8%AF%95%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -113,6 +113,15 @@
       </item>
       
       <item>
+        <title>MyBatis配置打印日志信息</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E9%85%8D%E7%BD%AE%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E4%BF%A1%E6%81%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E9%85%8D%E7%BD%AE%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E4%BF%A1%E6%81%AF/</guid>
+        <description>在application.yml配置中增加如下配置： 1 2 3 4 5 mybatis-plus:configuration:log-impl:org.apache.ibatis.logging.stdout.StdOutImpl 参考资料 mybatisPlus配置控制台打印sql语句</description>
+      </item>
+      
+      <item>
         <title>Property &#39;sqlSessionFactory&#39; or &#39;sqlSessionTemplate&#39; are required</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/property-sqlsessionfactory-or-sqlsessiontemplate-are-required/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -109,7 +109,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E6%97%B6%E5%8C%BA/</guid>
-        <description>代码如下： 1 2 3 4 5 6 @PostConstruct void setDefaultTimezone() { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); } 需要注意的是如下的写法并不会生效： 1 2 3 4 5 6 public static void main(String[] args) { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); SpringApplication.run(MybatisApplication.class, args); } 参考资料 springboot项目设置时区</description>
+        <description>代码如下： 1 2 3 4 5 6 @PostConstruct void setDefaultTimezone() { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); } 需要注意的是如下的写法并不会生效： 1 2 3 4 5 6 public static void main(String[] args) { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); SpringApplication.run(MybatisApplication.class, args); } 查看当前实例的时区，可用如下代码： 1 2 3</description>
       </item>
       
       <item>
@@ -164,6 +164,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/starter%E7%9A%84%E5%91%BD%E5%90%8D%E4%B9%A0%E6%83%AF/</guid>
         <description>官方的starter命名：spring-boot-starter-* 第三方的starter命名：*-spring-boot-starter M</description>
+      </item>
+      
+      <item>
+        <title>为什么要使用LocalDateTime</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8localdatetime/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8localdatetime/</guid>
+        <description>核心原因在于Date、SimpleDateFormat等是非线程安全的，而LocalDataTime是线程安全的。 参考资料 为什么建议使用你L</description>
       </item>
       
       <item>

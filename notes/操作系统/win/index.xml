@@ -140,6 +140,15 @@
       </item>
       
       <item>
+        <title>win上进入非C盘的文件夹</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E4%B8%8A%E8%BF%9B%E5%85%A5%E9%9D%9Ec%E7%9B%98%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E4%B8%8A%E8%BF%9B%E5%85%A5%E9%9D%9Ec%E7%9B%98%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
+        <description>如下代码可直接进入非C盘的目录： 1 2 3 cd /D D:\Blogs 如不不用/D参数，则该指令无法正常进入该目录。 参考资料 bat文件直接进入某个盘符目录</description>
+      </item>
+      
+      <item>
         <title>win版本的curl设置代理及请求头</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E7%89%88%E6%9C%AC%E7%9A%84curl%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86%E5%8F%8A%E8%AF%B7%E6%B1%82%E5%A4%B4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
