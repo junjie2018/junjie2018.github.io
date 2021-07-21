@@ -23,6 +23,15 @@
       </item>
       
       <item>
+        <title>spring-boot-configuration-processor包与构建插件的配置</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/spring-boot-configuration-processor%E5%8C%85%E4%B8%8E%E6%9E%84%E5%BB%BA%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/spring-boot-configuration-processor%E5%8C%85%E4%B8%8E%E6%9E%84%E5%BB%BA%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/</guid>
+        <description>为了编写配置方便，我们引入了如下的jar包： 1 2 3 4 5 6 7 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-configuration-processor&amp;lt;/artifactId&amp;gt; &amp;lt;optional&amp;gt;true&amp;lt;/optional&amp;gt; &amp;lt;/dependency&amp;gt; 如果进行如上配置，则该jar包会打入我们最终可运行的jar包中，这样会浪</description>
+      </item>
+      
+      <item>
         <title>spring.main.allow-bean-definition-overriding配置</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/spring.main.allow-bean-definition-overriding%E9%85%8D%E7%BD%AE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

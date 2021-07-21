@@ -503,6 +503,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/dependencymanager%E4%B8%AD%E7%9A%84import-scope/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/depmod-not-found/</loc>
   </url>
   
@@ -1183,6 +1187,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/spring-boot-configuration-processor%E5%8C%85%E4%B8%8E%E6%9E%84%E5%BB%BA%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/spring.main.allow-bean-definition-overriding%E9%85%8D%E7%BD%AE/</loc>
   </url>
   
@@ -1408,6 +1416,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%B8%80%E4%B8%AA%E8%A0%A2%E9%97%AE%E9%A2%98/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E4%B8%80%E6%AE%B5%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%A0%81%E4%B8%8E%E8%BF%99%E6%A0%B7%E9%85%8D%E7%BD%AE%E7%9A%84%E5%8E%9F%E5%9B%A0/</loc>
   </url>
   
   <url>
