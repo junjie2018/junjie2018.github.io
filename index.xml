@@ -2787,6 +2787,15 @@
       </item>
       
       <item>
+        <title>修复Zoc主题自动展开问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/%E4%BF%AE%E5%A4%8Dzoc%E4%B8%BB%E9%A2%98%E8%87%AA%E5%8A%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/%E4%BF%AE%E5%A4%8Dzoc%E4%B8%BB%E9%A2%98%E8%87%AA%E5%8A%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</guid>
+        <description>我笔记中git和github文件夹，总是默认处于展开状态，我简单分析了一下，可能是作者直接从当前URL中进行分词，然后寻找目录结构，查看哪些</description>
+      </item>
+      
+      <item>
         <title>修复节点为NotReady的问题</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E5%A4%8D%E8%8A%82%E7%82%B9%E4%B8%BAnotready%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
