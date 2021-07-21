@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LocalDateTime on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/</link>
+    <description>Recent content in LocalDateTime on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>LocalDateTime与timestamptz</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/</guid>
+        <description>这份笔记来自对另一份笔记的拆分，这篇笔记偏重于LocalDateTime，为了方便查阅，所以我移动到了另一篇笔记中。 项目目前对对timest</description>
+      </item>
+      
+      <item>
+        <title>LocalDateTime序列化时格式问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E6%A0%BC%E5%BC%8F%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E6%A0%BC%E5%BC%8F%E9%97%AE%E9%A2%98/</guid>
+        <description>最近服务的消费者提出了新的需求，要求我们的时间字段的格式都必须为时间戳，我原本以为是一个简单的问题，结果发现Fastjson在处理Local</description>
+      </item>
+      
+      <item>
+        <title>为什么要使用LocalDateTime</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8localdatetime/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8localdatetime/</guid>
+        <description>核心原因在于Date、SimpleDateFormat等是非线程安全的，而LocalDataTime是线程安全的。 参考资料 为什么建议使用你L</description>
+      </item>
+      
+      <item>
+        <title>优化项目中LocalDateTime类型的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%BC%98%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%ADlocaldatetime%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%BC%98%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%ADlocaldatetime%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>本次优化的目标： Request、Response中不需要标注JSONField，序列化和反序列化时可自动完成Long类型到LocalDate</description>
+      </item>
+      
+      <item>
+        <title>用于LocalDateTime的Codec</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E7%94%A8%E4%BA%8Elocaldatetime%E7%9A%84codec/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E7%94%A8%E4%BA%8Elocaldatetime%E7%9A%84codec/</guid>
+        <description>代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 package com.sdstc.pdm.common.codec; import com.alibaba.fastjson.parser.DefaultJSONParser; import com.alibaba.fastjson.parser.deserializer.ObjectDeserializer; import com.alibaba.fastjson.serializer.JSONSerializer; import com.alibaba.fastjson.serializer.ObjectSerializer; import java.io.IOException; import java.lang.reflect.Type; import java.time.LocalDateTime; import java.time.ZoneOffset; public class</description>
+      </item>
+      
+    
+  </channel>
+</rss>
