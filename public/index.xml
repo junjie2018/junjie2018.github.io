@@ -3156,6 +3156,15 @@
       </item>
       
       <item>
+        <title>如何理解NIO（同步非阻塞模型）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/</guid>
+        <description>Java NIO（同步不阻塞）：服务器实现模式为一个线程处理多个请求（链接），即客户端发送的连接请求会注册到多路复用器上，多路复用器轮询连接有IO请</description>
+      </item>
+      
+      <item>
         <title>安装CentOS 8（推荐）</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%AE%89%E8%A3%85centos-8%E6%8E%A8%E8%8D%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
