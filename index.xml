@@ -699,39 +699,156 @@
       </item>
       
       <item>
-        <title>GitBook安装插件</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/gitbook%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/</link>
+        <title>Git Bash换成中文（待整理）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-bash%E6%8D%A2%E6%88%90%E4%B8%AD%E6%96%87%E5%BE%85%E6%95%B4%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/gitbook%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-bash%E6%8D%A2%E6%88%90%E4%B8%AD%E6%96%87%E5%BE%85%E6%95%B4%E7%90%86/</guid>
+        <description>打开Git Bash，执行如下指令： git config --global core.quotepath false 按如下截图操作： 参考资料 git 显示中文和解决中文乱码</description>
+      </item>
+      
+      <item>
+        <title>Git Clone到当前目录</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-clone%E5%88%B0%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-clone%E5%88%B0%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95/</guid>
+        <description>该技术在做Docker镜像的时候非常好使。 git clone git@github.com.user/my-project.git . 参考资料 git clone如何克隆到当前目录</description>
+      </item>
+      
+      <item>
+        <title>git commit后撤销该commit</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-commit%E5%90%8E%E6%92%A4%E9%94%80%E8%AF%A5commit/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-commit%E5%90%8E%E6%92%A4%E9%94%80%E8%AF%A5commit/</guid>
+        <description>执行如下指令： git reset --soft HEAD^ 这个是在push到远程分支前有效的，如果已经push到远程分支了，需要参考我另一篇笔记。 该撤销会保存文件~~~ 参考教程</description>
+      </item>
+      
+      <item>
+        <title>GitBook安装插件</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/gitbook%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/gitbook%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/</guid>
         <description>参考我的配置文件： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 { &amp;#34;plugins&amp;#34;: [ &amp;#34;-search&amp;#34;, &amp;#34;-lunr&amp;#34;, &amp;#34;-sharing&amp;#34;, &amp;#34;-livereload&amp;#34;, &amp;#34;-font-settings&amp;#34;, &amp;#34;lightbox&amp;#34;, &amp;#34;expandable-chapters&amp;#34;, &amp;#34;chapter-fold&amp;#34;, &amp;#34;github&amp;#34;, &amp;#34;splitter&amp;#34;, &amp;#34;back-to-top-button&amp;#34;, &amp;#34;code&amp;#34;, &amp;#34;hide-element&amp;#34;, &amp;#34;custom-favicon&amp;#34; ], &amp;#34;pluginsConfig&amp;#34;: { &amp;#34;code&amp;#34;: { &amp;#34;copyButtons&amp;#34;: true }, &amp;#34;github&amp;#34;: { &amp;#34;url&amp;#34;: &amp;#34;https://github.com/junjie2018&amp;#34;</description>
       </item>
       
       <item>
         <title>Gitbook显示版本号</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/gitbook%E6%98%BE%E7%A4%BA%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/gitbook%E6%98%BE%E7%A4%BA%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/gitbook%E6%98%BE%E7%A4%BA%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/gitbook%E6%98%BE%E7%A4%BA%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
         <description>试出来的： gitbook --version gitbook current</description>
       </item>
       
       <item>
         <title>GitBook生成静态html文件</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/gitbook%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81html%E6%96%87%E4%BB%B6/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/gitbook%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81html%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/gitbook%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81html%E6%96%87%E4%BB%B6/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/gitbook%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81html%E6%96%87%E4%BB%B6/</guid>
         <description>指令如下： 1 2 3 4 5 cd ~ mkdir -p Blogs/output gitbook build Blogs Blogs/output 参考资料 输出为静态网站</description>
       </item>
       
       <item>
         <title>GitHub Actions开发时的一点小心得</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/github-actions%E5%BC%80%E5%8F%91%E6%97%B6%E7%9A%84%E4%B8%80%E7%82%B9%E5%B0%8F%E5%BF%83%E5%BE%97/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/github-actions%E5%BC%80%E5%8F%91%E6%97%B6%E7%9A%84%E4%B8%80%E7%82%B9%E5%B0%8F%E5%BF%83%E5%BE%97/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/github-actions%E5%BC%80%E5%8F%91%E6%97%B6%E7%9A%84%E4%B8%80%E7%82%B9%E5%B0%8F%E5%BF%83%E5%BE%97/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/github-actions%E5%BC%80%E5%8F%91%E6%97%B6%E7%9A%84%E4%B8%80%E7%82%B9%E5%B0%8F%E5%BF%83%E5%BE%97/</guid>
         <description>在开发GitHub Actions时，我其实挺建议在脚本里写清楚各个步骤执行的指令，及指令执行后的结果的，因为这样更有利于排除错误，举一个简单</description>
+      </item>
+      
+      <item>
+        <title>GitHub推送代码失败</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/github%E6%8E%A8%E9%80%81%E4%BB%A3%E7%A0%81%E5%A4%B1%E8%B4%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/github%E6%8E%A8%E9%80%81%E4%BB%A3%E7%A0%81%E5%A4%B1%E8%B4%A5/</guid>
+        <description>问题描述 向GitHub仓库推送代码时，先后出现了如下错误： 1 2 3 4 git push -u origin main fatal: unable to access &amp;#39;https://github.com/junjie2018/blogs.git/&amp;#39;: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054 1 2 3 4 git push -u origin main fatal: unable to access &amp;#39;https://github.com/junjie2018/blogs.git/&amp;#39;: Failed to connect to github.com port 443: Timed</description>
+      </item>
+      
+      <item>
+        <title>GitHub的Pull Requst</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/github%E7%9A%84pull-requst/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/github%E7%9A%84pull-requst/</guid>
+        <description>我fork了一个仓库，做了一些自己的修改，然后发起一个Pull Request，希望该仓库的原作者看到我的修改，然后决定是否采用这些修改。这个</description>
+      </item>
+      
+      <item>
+        <title>gitpython模块中代理无法正常使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/gitpython%E6%A8%A1%E5%9D%97%E4%B8%AD%E4%BB%A3%E7%90%86%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/gitpython%E6%A8%A1%E5%9D%97%E4%B8%AD%E4%BB%A3%E7%90%86%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8/</guid>
+        <description>问题描述 考虑到最近GitHub经常无法正常使用，而我在开发博客脚本需要从GitHub上拉取推送代码，所以我打算在代码中使用代理，我的代码如下</description>
+      </item>
+      
+      <item>
+        <title>Git切换到远程分支</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%88%87%E6%8D%A2%E5%88%B0%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%88%87%E6%8D%A2%E5%88%B0%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF/</guid>
+        <description>我的需求是这样的，同事将代码提交到自己的分支上了，我需要查看他的代码，所以我需要切换到他的分支上，然后查看代码，我使用命令行操作git。 我之</description>
+      </item>
+      
+      <item>
+        <title>Git取消对文件的追踪</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%8F%96%E6%B6%88%E5%AF%B9%E6%96%87%E4%BB%B6%E7%9A%84%E8%BF%BD%E8%B8%AA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%8F%96%E6%B6%88%E5%AF%B9%E6%96%87%E4%BB%B6%E7%9A%84%E8%BF%BD%E8%B8%AA/</guid>
+        <description>操作步骤 指令如下 1 2 3 4 # 删除xxx.txt的跟踪，并保留在本地 git rm --cached xxx.txt</description>
+      </item>
+      
+      <item>
+        <title>Git回退远程分支</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%9B%9E%E9%80%80%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%9B%9E%E9%80%80%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF/</guid>
+        <description>适用场景：在Uat或生产环境等分支不经常变更的场景，为了定位问题，增加了许多无用的代码，并提交到分支上了。待问题解决后，需要删除这些代码，建</description>
+      </item>
+      
+      <item>
+        <title>Git客户端修改远程仓库地址</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80/</guid>
+        <description>操作步骤 指令如下 git remote set-url origin https://github.com/junjie2018/out_of_memory.git</description>
+      </item>
+      
+      <item>
+        <title>Git客户端修改默认的编辑器</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E7%BC%96%E8%BE%91%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E7%BC%96%E8%BE%91%E5%99%A8/</guid>
+        <description>操作步骤 指令如下 1 2 3 git config --global core.editor vim 使用场景比较窄，但是当你需要的时候，你又必须去设置。 相关教程 修改git默认的编辑器</description>
+      </item>
+      
+      <item>
+        <title>Git客户端配置https免密</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AEhttps%E5%85%8D%E5%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AEhttps%E5%85%8D%E5%AF%86/</guid>
+        <description>操作步骤 指令如下： 1 2 3 4 5 6 7 git config --global credential.helper store sudo tee ~/.git-credentials &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; https://user:password@gitee.com EOF 这个在只能走https协议的场景下非常好使，但是要记得将自己的账号设置成需要邮箱或手机</description>
+      </item>
+      
+      <item>
+        <title>Git客户端配置代理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/</guid>
+        <description>操作步骤 指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 # 全局 git config --global http.proxy &amp;#39;http://192.168.13.59:1080&amp;#39; git config --global https.proxy &amp;#39;http://192.168.13.59:1080&amp;#39; git config --global http.proxy &amp;#39;http://127.0.0.1:1080&amp;#39; git config --global https.proxy &amp;#39;http://127.0.0.1:1080&amp;#39; git config --global http.proxy &amp;#39;socks5://127.0.0.1:1080&amp;#39; git config --global https.proxy</description>
       </item>
       
       <item>
@@ -741,6 +858,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/git%E6%A8%A1%E5%9D%97%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/</guid>
         <description>我准备换pygit为GitPython，但是我导入git包后找不到用不了git.Repo，我已经在PyCharm的Inspector中去掉了</description>
+      </item>
+      
+      <item>
+        <title>Git清除未跟踪的文件和文件夹</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E6%B8%85%E9%99%A4%E6%9C%AA%E8%B7%9F%E8%B8%AA%E7%9A%84%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E6%B8%85%E9%99%A4%E6%9C%AA%E8%B7%9F%E8%B8%AA%E7%9A%84%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
+        <description>操作步骤 指令如下 1 2 3 4 5 6 7 8 # 删除untracker files git clean -f # 连untracked的目录一起删除 git clean -fd</description>
+      </item>
+      
+      <item>
+        <title>Git设置提交时的用户名和账号</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E8%AE%BE%E7%BD%AE%E6%8F%90%E4%BA%A4%E6%97%B6%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E8%B4%A6%E5%8F%B7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E8%AE%BE%E7%BD%AE%E6%8F%90%E4%BA%A4%E6%97%B6%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E8%B4%A6%E5%8F%B7/</guid>
+        <description>代码如下： git config --global user.name 小桀 git config --global user.email 812797569@qq.com</description>
       </item>
       
       <item>
@@ -799,10 +934,10 @@
       
       <item>
         <title>hide-element插件冲突的问题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/hide-element%E6%8F%92%E4%BB%B6%E5%86%B2%E7%AA%81%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/hide-element%E6%8F%92%E4%BB%B6%E5%86%B2%E7%AA%81%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/hide-element%E6%8F%92%E4%BB%B6%E5%86%B2%E7%AA%81%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/hide-element%E6%8F%92%E4%BB%B6%E5%86%B2%E7%AA%81%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>如下插件配置： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 { &amp;#34;plugins&amp;#34;: [ &amp;#34;-search&amp;#34;, &amp;#34;-sharing&amp;#34;, &amp;#34;-livereload&amp;#34;, &amp;#34;-font-settings&amp;#34;, &amp;#34;lightbox&amp;#34;, &amp;#34;expandable-chapters&amp;#34;, &amp;#34;github&amp;#34;, &amp;#34;splitter&amp;#34;, &amp;#34;back-to-top-button&amp;#34;, &amp;#34;code&amp;#34;, &amp;#34;hide-element&amp;#34;, &amp;#34;custom-favicon&amp;#34; ], &amp;#34;pluginsConfig&amp;#34;: { &amp;#34;code&amp;#34;: { &amp;#34;copyButtons&amp;#34;: true }, &amp;#34;github&amp;#34;: { &amp;#34;url&amp;#34;: &amp;#34;https://github.com/junjie2018&amp;#34; }, &amp;#34;hide-element&amp;#34;: { &amp;#34;elements&amp;#34;: [&amp;#34;.gitbook-link&amp;#34;,&amp;#34;chapter&amp;#34;] },</description>
       </item>
       
@@ -2373,6 +2508,15 @@
       </item>
       
       <item>
+        <title>workdir参数导致docker启动时无法找到脚本</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/workdir%E5%8F%82%E6%95%B0%E5%AF%BC%E8%87%B4docker%E5%90%AF%E5%8A%A8%E6%97%B6%E6%97%A0%E6%B3%95%E6%89%BE%E5%88%B0%E8%84%9A%E6%9C%AC/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/workdir%E5%8F%82%E6%95%B0%E5%AF%BC%E8%87%B4docker%E5%90%AF%E5%8A%A8%E6%97%B6%E6%97%A0%E6%B3%95%E6%89%BE%E5%88%B0%E8%84%9A%E6%9C%AC/</guid>
+        <description>我在本地测试Dockerfile时，习惯性的将ENTRYPOINT写成如下形式： 1 2 3 ENTRYPOINT [&amp;#34;./entrypoint.sh&amp;#34;] 但是如果这样写，在GitHub Actions中将会</description>
+      </item>
+      
+      <item>
         <title>XShell不小心变透明了</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/xshell/xshell%E4%B8%8D%E5%B0%8F%E5%BF%83%E5%8F%98%E9%80%8F%E6%98%8E%E4%BA%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2679,6 +2823,15 @@
       </item>
       
       <item>
+        <title>创建Docker Action</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/%E5%88%9B%E5%BB%BAdocker-action/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/%E5%88%9B%E5%BB%BAdocker-action/</guid>
+        <description>我选择的是将自己创建的Actions和源码放在一起，因为这些Actions使用的复用性挺低的，放在一起避免了创建另一个仓库，非常舒服： 目录结</description>
+      </item>
+      
+      <item>
         <title>初始化项目的时候指定使用yaml格式的配置文件</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/%E5%88%9D%E5%A7%8B%E5%8C%96%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%97%B6%E5%80%99%E6%8C%87%E5%AE%9A%E4%BD%BF%E7%94%A8yaml%E6%A0%BC%E5%BC%8F%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2694,6 +2847,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%88%A0%E9%99%A4hiberfil.sys/</guid>
         <description>C盘炸了，只剩下3G了，我基本不在C盘装任何东西，经同时提示发现是hiberfil.sys、pagefile.sys、swapfile.sy</description>
+      </item>
+      
+      <item>
+        <title>判断工作区是否干净</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E5%88%A4%E6%96%AD%E5%B7%A5%E4%BD%9C%E5%8C%BA%E6%98%AF%E5%90%A6%E5%B9%B2%E5%87%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E5%88%A4%E6%96%AD%E5%B7%A5%E4%BD%9C%E5%8C%BA%E6%98%AF%E5%90%A6%E5%B9%B2%E5%87%80/</guid>
+        <description>这项技术用于开发一些自动化脚本： 1 2 3 4 5 6 7 if [ -z &amp;#34;$(git status --porcelain)&amp;#34; ]; then # Working directory clean else # Uncommitted changes fi 参考资料 从脚本确定Git工作目录是否干净 这篇文章中还有一些其</description>
       </item>
       
       <item>
@@ -2752,10 +2914,10 @@
       
       <item>
         <title>升级Node到V14后，gitbook-cli无法正常运行</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/%E5%8D%87%E7%BA%A7node%E5%88%B0v14%E5%90%8Egitbook-cli%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E5%8D%87%E7%BA%A7node%E5%88%B0v14%E5%90%8Egitbook-cli%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/%E5%8D%87%E7%BA%A7node%E5%88%B0v14%E5%90%8Egitbook-cli%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E5%8D%87%E7%BA%A7node%E5%88%B0v14%E5%90%8Egitbook-cli%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C/</guid>
         <description>报错如下（这个报错不是我场景中的报错）： Installing GitBook 3.2.3 /home/travis/.nvm/versions/node/v12.18.3/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js:287 if (cb) cb.apply(this, arguments) ^ TypeError: cb.apply is not a function at /home/travis/.nvm/versions/node/v12.18.3/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js:287:18 at FSReqCallback.oncomplete (fs.js:169:5) The command &amp;quot;gitbook install&amp;quot; failed and exited with 1 during . 我采用的方案： cd /usr/lib/node_modules/gitbook-cli npm i graceful-fs@4.1.4 --save cd /usr/lib/node_modules/gitbook-cli/node_modules/npm npm i graceful-fs@4.1.4 --save</description>
       </item>
       
@@ -2815,11 +2977,20 @@
       
       <item>
         <title>因为没有执行git init导致折叠插件不生效</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/%E5%9B%A0%E4%B8%BA%E6%B2%A1%E6%9C%89%E6%89%A7%E8%A1%8Cgit-init%E5%AF%BC%E8%87%B4%E6%8A%98%E5%8F%A0%E6%8F%92%E4%BB%B6%E4%B8%8D%E7%94%9F%E6%95%88/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E5%9B%A0%E4%B8%BA%E6%B2%A1%E6%9C%89%E6%89%A7%E8%A1%8Cgit-init%E5%AF%BC%E8%87%B4%E6%8A%98%E5%8F%A0%E6%8F%92%E4%BB%B6%E4%B8%8D%E7%94%9F%E6%95%88/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/%E5%9B%A0%E4%B8%BA%E6%B2%A1%E6%9C%89%E6%89%A7%E8%A1%8Cgit-init%E5%AF%BC%E8%87%B4%E6%8A%98%E5%8F%A0%E6%8F%92%E4%BB%B6%E4%B8%8D%E7%94%9F%E6%95%88/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E5%9B%A0%E4%B8%BA%E6%B2%A1%E6%9C%89%E6%89%A7%E8%A1%8Cgit-init%E5%AF%BC%E8%87%B4%E6%8A%98%E5%8F%A0%E6%8F%92%E4%BB%B6%E4%B8%8D%E7%94%9F%E6%95%88/</guid>
         <description>因为我的脚本会生成SUMMARY.md和Reademe.md，所以我一致认为gitbook init操作是没有意义的（其实我至今仍然认为这个操</description>
+      </item>
+      
+      <item>
+        <title>因缺少权限导致无法推送代码</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E5%9B%A0%E7%BC%BA%E5%B0%91%E6%9D%83%E9%99%90%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95%E6%8E%A8%E9%80%81%E4%BB%A3%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E5%9B%A0%E7%BC%BA%E5%B0%91%E6%9D%83%E9%99%90%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95%E6%8E%A8%E9%80%81%E4%BB%A3%E7%A0%81/</guid>
+        <description>今天我在某个分组下创建了一个项目，向这个项目推送代码时始终报错。我没有在第一时间联想到是权限的问题导致的错误，从而导致我花费了大量的时间来解</description>
       </item>
       
       <item>
@@ -3085,10 +3256,10 @@
       
       <item>
         <title>对GitBook不满意的地方</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/%E5%AF%B9gitbook%E4%B8%8D%E6%BB%A1%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E5%AF%B9gitbook%E4%B8%8D%E6%BB%A1%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/%E5%AF%B9gitbook%E4%B8%8D%E6%BB%A1%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E5%AF%B9gitbook%E4%B8%8D%E6%BB%A1%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/</guid>
         <description>我目前通过GitBook发布的笔记大约有300多篇，执行gitbook build的时间大约需要5分钟作用，我觉得这个真的是一个让人无法接受的</description>
       </item>
       
@@ -3283,10 +3454,10 @@
       
       <item>
         <title>搭建GitBook</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/%E6%90%AD%E5%BB%BAgitbook/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E6%90%AD%E5%BB%BAgitbook/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/gitbook/%E6%90%AD%E5%BB%BAgitbook/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E6%90%AD%E5%BB%BAgitbook/</guid>
         <description>指令如下： 1 2 3 4 5 6 7 npm install gitbook-cli -g # 进入一个新文件夹后 gitbook init gitbook serve 参考教程 如何用gitbook搭建自己的文档整合平台</description>
       </item>
       
@@ -3315,6 +3486,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E6%9B%B4%E5%A4%9A%E7%9A%84%E4%BA%86%E8%A7%A3dispatcherservlet/</guid>
         <description>DipatcherServlet使用默认的Bean处理请求 Spring的DispatcherServlet使用了内置在WebApplicat</description>
+      </item>
+      
+      <item>
+        <title>查文件误删</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E6%9F%A5%E6%96%87%E4%BB%B6%E8%AF%AF%E5%88%A0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E6%9F%A5%E6%96%87%E4%BB%B6%E8%AF%AF%E5%88%A0/</guid>
+        <description>事情是这样的，我们dev环境发现一些接口不可用，这个问题追溯到源码，发现一份源码文件被删除了。我对这种问题非常敏感，因为我常常使用Idea的</description>
       </item>
       
       <item>
@@ -3459,6 +3639,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E5%BE%85%E5%AE%8C%E6%88%90/%E7%A0%94%E7%A9%B6%E4%B8%80%E4%B8%8Bsed%E6%8C%87%E4%BB%A4%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
         <description></description>
+      </item>
+      
+      <item>
+        <title>简单使用GitHub Actions</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8github-actions/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8github-actions/</guid>
+        <description>如下为实验目录及文件： 其中gihub-actions-demo.yml内容如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 name:GitHub Actions Demoon:[push]jobs:Explore-GitHub-Actions:runs-on:ubuntu-lateststeps:- run:echo &amp;#34;🎉 The</description>
       </item>
       
       <item>
@@ -3657,6 +3846,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
         <description>好久没有用Python写脚本了，感觉API都不太熟悉了，完成脚本后，舍不得关闭网页，整理一份看看自己都查了哪些资料（我罗列的都是我用到的）：</description>
+      </item>
+      
+      <item>
+        <title>通过GitHub Actions实现博客自动化部署的方案</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/%E9%80%9A%E8%BF%87github-actions%E5%AE%9E%E7%8E%B0%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E7%9A%84%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/%E9%80%9A%E8%BF%87github-actions%E5%AE%9E%E7%8E%B0%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E7%9A%84%E6%96%B9%E6%A1%88/</guid>
+        <description>我核心想实现的是：自动的完成笔记源文件到Gitbook源文件到Gitbook编译后文件推送到github仓库的工作。 该工作如果手动完成，有如</description>
       </item>
       
       <item>

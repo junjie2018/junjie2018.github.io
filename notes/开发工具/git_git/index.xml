@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git_Git on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/</link>
+    <description>Recent content in Git_Git on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Git Bash换成中文（待整理）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-bash%E6%8D%A2%E6%88%90%E4%B8%AD%E6%96%87%E5%BE%85%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-bash%E6%8D%A2%E6%88%90%E4%B8%AD%E6%96%87%E5%BE%85%E6%95%B4%E7%90%86/</guid>
+        <description>打开Git Bash，执行如下指令： git config --global core.quotepath false 按如下截图操作： 参考资料 git 显示中文和解决中文乱码</description>
+      </item>
+      
+      <item>
+        <title>Git Clone到当前目录</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-clone%E5%88%B0%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-clone%E5%88%B0%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95/</guid>
+        <description>该技术在做Docker镜像的时候非常好使。 git clone git@github.com.user/my-project.git . 参考资料 git clone如何克隆到当前目录</description>
+      </item>
+      
+      <item>
+        <title>git commit后撤销该commit</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-commit%E5%90%8E%E6%92%A4%E9%94%80%E8%AF%A5commit/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git-commit%E5%90%8E%E6%92%A4%E9%94%80%E8%AF%A5commit/</guid>
+        <description>执行如下指令： git reset --soft HEAD^ 这个是在push到远程分支前有效的，如果已经push到远程分支了，需要参考我另一篇笔记。 该撤销会保存文件~~~ 参考教程</description>
+      </item>
+      
+      <item>
+        <title>GitHub推送代码失败</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/github%E6%8E%A8%E9%80%81%E4%BB%A3%E7%A0%81%E5%A4%B1%E8%B4%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/github%E6%8E%A8%E9%80%81%E4%BB%A3%E7%A0%81%E5%A4%B1%E8%B4%A5/</guid>
+        <description>问题描述 向GitHub仓库推送代码时，先后出现了如下错误： 1 2 3 4 git push -u origin main fatal: unable to access &amp;#39;https://github.com/junjie2018/blogs.git/&amp;#39;: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054 1 2 3 4 git push -u origin main fatal: unable to access &amp;#39;https://github.com/junjie2018/blogs.git/&amp;#39;: Failed to connect to github.com port 443: Timed</description>
+      </item>
+      
+      <item>
+        <title>gitpython模块中代理无法正常使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/gitpython%E6%A8%A1%E5%9D%97%E4%B8%AD%E4%BB%A3%E7%90%86%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/gitpython%E6%A8%A1%E5%9D%97%E4%B8%AD%E4%BB%A3%E7%90%86%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8/</guid>
+        <description>问题描述 考虑到最近GitHub经常无法正常使用，而我在开发博客脚本需要从GitHub上拉取推送代码，所以我打算在代码中使用代理，我的代码如下</description>
+      </item>
+      
+      <item>
+        <title>Git切换到远程分支</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%88%87%E6%8D%A2%E5%88%B0%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%88%87%E6%8D%A2%E5%88%B0%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF/</guid>
+        <description>我的需求是这样的，同事将代码提交到自己的分支上了，我需要查看他的代码，所以我需要切换到他的分支上，然后查看代码，我使用命令行操作git。 我之</description>
+      </item>
+      
+      <item>
+        <title>Git取消对文件的追踪</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%8F%96%E6%B6%88%E5%AF%B9%E6%96%87%E4%BB%B6%E7%9A%84%E8%BF%BD%E8%B8%AA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%8F%96%E6%B6%88%E5%AF%B9%E6%96%87%E4%BB%B6%E7%9A%84%E8%BF%BD%E8%B8%AA/</guid>
+        <description>操作步骤 指令如下 1 2 3 4 # 删除xxx.txt的跟踪，并保留在本地 git rm --cached xxx.txt</description>
+      </item>
+      
+      <item>
+        <title>Git回退远程分支</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%9B%9E%E9%80%80%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%9B%9E%E9%80%80%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF/</guid>
+        <description>适用场景：在Uat或生产环境等分支不经常变更的场景，为了定位问题，增加了许多无用的代码，并提交到分支上了。待问题解决后，需要删除这些代码，建</description>
+      </item>
+      
+      <item>
+        <title>Git客户端修改远程仓库地址</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80/</guid>
+        <description>操作步骤 指令如下 git remote set-url origin https://github.com/junjie2018/out_of_memory.git</description>
+      </item>
+      
+      <item>
+        <title>Git客户端修改默认的编辑器</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E7%BC%96%E8%BE%91%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E7%BC%96%E8%BE%91%E5%99%A8/</guid>
+        <description>操作步骤 指令如下 1 2 3 git config --global core.editor vim 使用场景比较窄，但是当你需要的时候，你又必须去设置。 相关教程 修改git默认的编辑器</description>
+      </item>
+      
+      <item>
+        <title>Git客户端配置https免密</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AEhttps%E5%85%8D%E5%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AEhttps%E5%85%8D%E5%AF%86/</guid>
+        <description>操作步骤 指令如下： 1 2 3 4 5 6 7 git config --global credential.helper store sudo tee ~/.git-credentials &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; https://user:password@gitee.com EOF 这个在只能走https协议的场景下非常好使，但是要记得将自己的账号设置成需要邮箱或手机</description>
+      </item>
+      
+      <item>
+        <title>Git客户端配置代理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/</guid>
+        <description>操作步骤 指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 # 全局 git config --global http.proxy &amp;#39;http://192.168.13.59:1080&amp;#39; git config --global https.proxy &amp;#39;http://192.168.13.59:1080&amp;#39; git config --global http.proxy &amp;#39;http://127.0.0.1:1080&amp;#39; git config --global https.proxy &amp;#39;http://127.0.0.1:1080&amp;#39; git config --global http.proxy &amp;#39;socks5://127.0.0.1:1080&amp;#39; git config --global https.proxy</description>
+      </item>
+      
+      <item>
+        <title>Git清除未跟踪的文件和文件夹</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E6%B8%85%E9%99%A4%E6%9C%AA%E8%B7%9F%E8%B8%AA%E7%9A%84%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E6%B8%85%E9%99%A4%E6%9C%AA%E8%B7%9F%E8%B8%AA%E7%9A%84%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
+        <description>操作步骤 指令如下 1 2 3 4 5 6 7 8 # 删除untracker files git clean -f # 连untracked的目录一起删除 git clean -fd</description>
+      </item>
+      
+      <item>
+        <title>Git设置提交时的用户名和账号</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E8%AE%BE%E7%BD%AE%E6%8F%90%E4%BA%A4%E6%97%B6%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E8%B4%A6%E5%8F%B7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E8%AE%BE%E7%BD%AE%E6%8F%90%E4%BA%A4%E6%97%B6%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E8%B4%A6%E5%8F%B7/</guid>
+        <description>代码如下： git config --global user.name 小桀 git config --global user.email 812797569@qq.com</description>
+      </item>
+      
+      <item>
+        <title>判断工作区是否干净</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E5%88%A4%E6%96%AD%E5%B7%A5%E4%BD%9C%E5%8C%BA%E6%98%AF%E5%90%A6%E5%B9%B2%E5%87%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E5%88%A4%E6%96%AD%E5%B7%A5%E4%BD%9C%E5%8C%BA%E6%98%AF%E5%90%A6%E5%B9%B2%E5%87%80/</guid>
+        <description>这项技术用于开发一些自动化脚本： 1 2 3 4 5 6 7 if [ -z &amp;#34;$(git status --porcelain)&amp;#34; ]; then # Working directory clean else # Uncommitted changes fi 参考资料 从脚本确定Git工作目录是否干净 这篇文章中还有一些其</description>
+      </item>
+      
+      <item>
+        <title>因缺少权限导致无法推送代码</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E5%9B%A0%E7%BC%BA%E5%B0%91%E6%9D%83%E9%99%90%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95%E6%8E%A8%E9%80%81%E4%BB%A3%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E5%9B%A0%E7%BC%BA%E5%B0%91%E6%9D%83%E9%99%90%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95%E6%8E%A8%E9%80%81%E4%BB%A3%E7%A0%81/</guid>
+        <description>今天我在某个分组下创建了一个项目，向这个项目推送代码时始终报错。我没有在第一时间联想到是权限的问题导致的错误，从而导致我花费了大量的时间来解</description>
+      </item>
+      
+      <item>
+        <title>查文件误删</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E6%9F%A5%E6%96%87%E4%BB%B6%E8%AF%AF%E5%88%A0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/%E6%9F%A5%E6%96%87%E4%BB%B6%E8%AF%AF%E5%88%A0/</guid>
+        <description>事情是这样的，我们dev环境发现一些接口不可用，这个问题追溯到源码，发现一份源码文件被删除了。我对这种问题非常敏感，因为我常常使用Idea的</description>
+      </item>
+      
+    
+  </channel>
+</rss>
