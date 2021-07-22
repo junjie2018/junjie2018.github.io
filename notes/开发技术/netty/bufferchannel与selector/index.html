@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>如何理解NIO（同步非阻塞模型） – 小桀的笔记本</title>
+    <title>Buffer、Channel与Selector – 小桀的笔记本</title>
     
 
 
@@ -27,7 +27,7 @@
     
     var baseurl = JSON.parse("\"http://junjie2018.github.io\"");
     
-    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/\"");
+    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1084,14 +1084,14 @@
 
 
 <meta property="og:site_name" content="小桀的笔记本">
-<meta property="og:title" content="如何理解NIO（同步非阻塞模型）">
-<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/">
+<meta property="og:title" content="Buffer、Channel与Selector">
+<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/">
 <meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.85.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/">
+<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1115,11 +1115,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "如何理解NIO（同步非阻塞模型）",
+    "headline": "Buffer、Channel与Selector",
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
-    "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/",
-    "description": "Java NIO（同步不阻塞）：服务器实现模式为一个线程处理多个请求（链接），即客户端发送的连接请求会注册到多路复用器上，多路复用器轮询连接有IO请",
+    "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/",
+    "description": "理解同步不阻塞模型 Java NIO（同步不阻塞）：服务器实现模式为一个线程处理多个请求（链接），即客户端发送的连接请求会注册到多路复用器上，多路复用",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -1168,7 +1168,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      如何理解NIO（同步非阻塞模型）
+      Buffer、Channel与Selector
     
   </h6>
   <ul>
@@ -1198,7 +1198,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -1225,7 +1225,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -1369,7 +1369,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -1409,7 +1409,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -1465,7 +1465,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -1609,7 +1609,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -1636,7 +1636,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -1796,7 +1796,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -1823,7 +1823,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -1879,7 +1879,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -1943,7 +1943,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -1991,7 +1991,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -2159,7 +2159,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -2263,7 +2263,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -2335,7 +2335,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -2431,7 +2431,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -2687,7 +2687,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -2735,7 +2735,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -2783,7 +2783,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -2810,7 +2810,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -2959,7 +2959,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3007,7 +3007,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3047,7 +3047,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3119,7 +3119,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3159,7 +3159,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3215,7 +3215,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3303,7 +3303,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3423,7 +3423,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3463,7 +3463,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3503,7 +3503,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3559,7 +3559,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3618,7 +3618,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3645,7 +3645,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3693,7 +3693,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3773,7 +3773,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3845,7 +3845,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -3893,7 +3893,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4085,7 +4085,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4173,7 +4173,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4213,7 +4213,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/localdatetime/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/localdatetime/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4285,7 +4285,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4333,7 +4333,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4360,7 +4360,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4573,13 +4573,13 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list active" data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/" class="menu__title active" data-depth="1">如何理解NIO（同步非阻塞模型）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/" class="menu__title active" data-depth="1">Buffer、Channel与Selector</a>
         </li>
       
     
@@ -4613,7 +4613,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4789,7 +4789,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4829,7 +4829,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4885,7 +4885,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4949,7 +4949,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -4997,7 +4997,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -5045,7 +5045,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -5072,7 +5072,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -5136,7 +5136,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -5232,7 +5232,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -5392,7 +5392,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -5472,7 +5472,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -5712,7 +5712,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -5739,7 +5739,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -5779,7 +5779,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -5979,7 +5979,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -6051,7 +6051,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -6078,7 +6078,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -6118,7 +6118,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -6166,7 +6166,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -6214,7 +6214,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -6403,7 +6403,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -6523,7 +6523,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -6635,7 +6635,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -6835,7 +6835,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -7109,7 +7109,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">如何理解NIO（同步非阻塞模型）</h2>
+        <h2 class="title">Buffer、Channel与Selector</h2>
       </div>
     </div>
   </div>
@@ -7161,7 +7161,7 @@
   
   <li  class="is-active" >
     
-      <span>如何理解NIO（同步非阻塞模型）</span>
+      <span>Buffer、Channel与Selector</span>
     
   </li>
   
@@ -7203,7 +7203,7 @@
         <div class="menu">
   <h6 class="menu__label">
     
-      如何理解NIO（同步非阻塞模型）
+      Buffer、Channel与Selector
     
   </h6>
   <ul>
@@ -7233,7 +7233,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -7260,7 +7260,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -7404,7 +7404,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -7444,7 +7444,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -7500,7 +7500,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -7644,7 +7644,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -7671,7 +7671,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -7831,7 +7831,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -7858,7 +7858,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -7914,7 +7914,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -7978,7 +7978,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -8026,7 +8026,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -8194,7 +8194,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -8298,7 +8298,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -8370,7 +8370,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -8466,7 +8466,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -8722,7 +8722,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -8770,7 +8770,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -8818,7 +8818,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -8845,7 +8845,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -8994,7 +8994,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9042,7 +9042,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9082,7 +9082,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9154,7 +9154,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9194,7 +9194,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9250,7 +9250,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9338,7 +9338,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9458,7 +9458,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9498,7 +9498,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9538,7 +9538,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9594,7 +9594,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9653,7 +9653,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9680,7 +9680,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9728,7 +9728,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9808,7 +9808,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9880,7 +9880,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -9928,7 +9928,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -10120,7 +10120,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -10208,7 +10208,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -10248,7 +10248,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/localdatetime/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/localdatetime/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -10320,7 +10320,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -10368,7 +10368,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -10395,7 +10395,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -10608,13 +10608,13 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list active" data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/" class="menu__title active" data-depth="1">如何理解NIO（同步非阻塞模型）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/" class="menu__title active" data-depth="1">Buffer、Channel与Selector</a>
         </li>
       
     
@@ -10648,7 +10648,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -10824,7 +10824,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -10864,7 +10864,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -10920,7 +10920,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -10984,7 +10984,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -11032,7 +11032,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -11080,7 +11080,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -11107,7 +11107,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -11171,7 +11171,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -11267,7 +11267,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -11427,7 +11427,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -11507,7 +11507,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -11747,7 +11747,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -11774,7 +11774,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -11814,7 +11814,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -12014,7 +12014,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -12086,7 +12086,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -12113,7 +12113,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -12153,7 +12153,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -12201,7 +12201,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -12249,7 +12249,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -12438,7 +12438,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -12558,7 +12558,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -12670,7 +12670,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -12870,7 +12870,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/>
     
       
         
@@ -12917,11 +12917,553 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <p>Java NIO（同步不阻塞）：服务器实现模式为一个线程处理多个请求（链接），即客户端发送的连接请求会注册到多路复用器上，多路复用器轮询连接有IO请求就进行处理。</p>
+    <h2 id="理解同步不阻塞模型">理解同步不阻塞模型</h2>
+<p>Java NIO（同步不阻塞）：服务器实现模式为一个线程处理多个请求（链接），即客户端发送的连接请求会注册到多路复用器上，多路复用器轮询连接有IO请求就进行处理。</p>
 <p><p class="md__image">
-  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2021-07-20-20-26-58.png" alt="2021-07-20-20-26-58"  />
+  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2021-07-22-10-04-33.png" alt="2021-07-22-10-04-33"  />
 </p></p>
 <p>应该就是c++的epoll模式的java实现吧。</p>
+<p>NIO有如下知识点：</p>
+<ol>
+<li>
+<p>NIO相关类都被放在了java.nio包及子包下，并且对原java.io包中的很多类进行改写。</p>
+</li>
+<li>
+<p>NIO有三大核心部分：Channel、Buffer、Selector</p>
+</li>
+<li>
+<p>NIO是面向缓冲区的，或者面向块编程的。数据读取到一个它稍后处理的缓冲区，需要时可在缓冲区中前后移动，<strong>这就增加了处理过程中的灵活性，使用它可以提供非阻塞式的高伸缩网络</strong>。</p>
+</li>
+<li>
+<p>Java NIO的非阻塞模式，是一个线程从某通道发送请求读取数据，但是它仅能得到目前可用的数据，如果目前没有数据可用时，就什么都不会获取，而不是保持线程阻塞，所以直至数据变的可以读取之前，该线程可以继续做其他的事情。非阻塞写也是如此，一个线程请求写入一些数据到某通道，但不需要等它完全写入（写到了Buffer里），这个线程同时可以去做别的事情。</p>
+</li>
+<li>
+<p>通俗理解：NIO是可以做到用一个线程来处理多个操作。假设有10000个请求过来，根据实际情况，可以分配50或者100个线程来处理。不像BIO那样，非得分配10000个。</p>
+</li>
+<li>
+<p>HTTP2.0使用了多路复用的技术，做到同一个链接并发处理多个请求，并且并发请求的数量比HTTP1.1大了好几个数量级。</p>
+</li>
+</ol>
+<h2 id="nio与bio的比较">NIO与BIO的比较</h2>
+<ol>
+<li>
+<p>BIO以流的方式处理数据，而NIO以块的方式处理数据块，块IO的效率比流IO高很多</p>
+</li>
+<li>
+<p>BIO是阻塞的，NIO是非阻塞的</p>
+</li>
+<li>
+<p>BIO基于字节流和字符流进行操作，而NIO基于Channel和Buffer进行操作，数据总是从通道读取到缓冲区中，或者从缓冲区写入到通道中。Selector用于监听多个通道的事件（比如链接请求、数据到达等），因此使用单个线程就可以监听多个客户端通道。</p>
+</li>
+</ol>
+<h2 id="selectchannelbuffer关系">Select、Channel、Buffer关系</h2>
+<p>三者关系如下：</p>
+<ol>
+<li>
+<p>每个Channel都会对应一个Buffer</p>
+</li>
+<li>
+<p>Selector对应一个线程，一个线程对应多个Channel</p>
+</li>
+<li>
+<p>可以多个Channel注册到同一个Selector中</p>
+</li>
+<li>
+<p>程序切换到哪个Channel是由事件决定的，Event就是一个重要的概念</p>
+</li>
+<li>
+<p>Selector会根据不同的事件，在各个通道上切换</p>
+</li>
+<li>
+<p>Buffer就是一个内存块，底层是有一个数组</p>
+</li>
+<li>
+<p>数据的读取写入是通过Buffer，这个和BIO不一样，BIO中要么是数据流要么是输出流，不能双向，但是NIO的Buffer是可以读也可以写的，需要通过flip方法切换。</p>
+</li>
+<li>
+<p>Channel是双向的，可以返回底层操作系统的情况，比如Linux底层的操作系统通道就是双向的</p>
+</li>
+</ol>
+<h2 id="缓冲区">缓冲区</h2>
+<p>缓冲区（Buffer）：缓冲区本质上是一个可以读写数据的内存块，可以理解成一个容器对象（含数组），该对象提供了一组方法，可以轻松地使用内存块。缓冲区对象内置了一些机制，能够跟踪和记录缓冲区的状态的变化情况。Channel提供从文件、网络读取数据的渠道，但是读取和写入的数据都必须经由Buffer。</p>
+<h2 id="buffer类及其子类">Buffer类及其子类</h2>
+<ol>
+<li>
+<p>在NIO中，Buffer是一个顶层父类，它是一个抽象类，常用的Buffer子类如下：</p>
+<ul>
+<li>ByteBuffer</li>
+<li>ShortBuffer</li>
+<li>CharBuffer</li>
+<li>IntBuffer</li>
+<li>LongBuffer</li>
+<li>DoubleBuffer</li>
+<li>FloatBuffer</li>
+</ul>
+</li>
+</ol>
+<p>IntBuffer的一个简单的案例如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">IntBuffer</span> <span class="n">intBuffer</span> <span class="o">=</span> <span class="n">IntBuffer</span><span class="o">.</span><span class="na">allocate</span><span class="o">(</span><span class="n">5</span><span class="o">);</span>
+
+        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">intBuffer</span><span class="o">.</span><span class="na">capacity</span><span class="o">();</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+            <span class="n">intBuffer</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+        <span class="o">}</span>
+
+        <span class="n">intBuffer</span><span class="o">.</span><span class="na">flip</span><span class="o">();</span>
+
+        <span class="k">while</span> <span class="o">(</span><span class="n">intBuffer</span><span class="o">.</span><span class="na">hasRemaining</span><span class="o">())</span> <span class="o">{</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">intBuffer</span><span class="o">.</span><span class="na">get</span><span class="o">());</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>Buffer类定义了所有的缓冲区都具有的四个属性来提供关于其所包含的数据元素的信息。</li>
+</ol>
+<p><p class="md__image">
+  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2021-07-22-10-29-48.png" alt="2021-07-22-10-29-48"  />
+</p></p>
+<p>属性的含义如下：</p>
+<ul>
+<li>Capacity：可以容纳的最大数据量，在缓冲区创建时被设定并且不能改变</li>
+<li>Limit：表示缓冲区的当前终点，不能会缓冲区超过Limit的位置进行读写操作，且Limit可以被修改</li>
+<li>Position：下一个要被读或写的元素的索引，每次读写缓冲区数据都会改变此值，为下次读写做准备</li>
+<li>Mark：标记</li>
+</ul>
+<ol start="3">
+<li>Buffer中常用的方法</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="c1">// capacity、position、limit的设置与获取
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="kt">int</span> <span class="nf">capacity</span><span class="o">();</span>
+<span class="kd">public</span> <span class="kd">final</span> <span class="kt">int</span> <span class="nf">position</span><span class="o">();</span>
+<span class="kd">public</span> <span class="kd">final</span> <span class="n">Buffer</span> <span class="nf">position</span><span class="o">(</span><span class="kt">int</span> <span class="n">newPosition</span><span class="o">);</span>
+<span class="kd">public</span> <span class="kd">final</span> <span class="kt">int</span> <span class="nf">limit</span><span class="o">();</span>
+<span class="kd">public</span> <span class="kd">final</span> <span class="n">Buffer</span> <span class="nf">limit</span><span class="o">(</span><span class="kt">int</span> <span class="n">newLimit</span><span class="o">);</span>
+
+<span class="c1">// 在当前的位置设置标记
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="n">Buffer</span> <span class="nf">mark</span><span class="o">();</span>
+
+<span class="c1">// 将当前的位置设置为标记的位置
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="n">Buffer</span> <span class="nf">reset</span><span class="o">();</span>
+
+<span class="c1">// 清除当前Buffer，即将各个标记恢复到初始状态，但是数据并没有真正擦除
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="n">Buffer</span> <span class="nf">clear</span><span class="o">();</span>
+
+<span class="c1">// 翻转当前Buffer
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="n">Buffer</span> <span class="nf">flip</span><span class="o">();</span>
+
+<span class="c1">// 将position设置为0并丢弃mark
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="n">Buffer</span> <span class="nf">rewind</span><span class="o">();</span>
+
+<span class="c1">// 返回当前Buffer当前还有多少元素可读
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="kt">int</span> <span class="nf">remaining</span><span class="o">();</span>
+
+<span class="c1">// 判断当前Buffer是否有元素可读
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="kt">boolean</span> <span class="nf">hasRemaining</span><span class="o">();</span>
+
+<span class="c1">// 判断当前Buffer是否为只读缓冲区
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">boolean</span> <span class="nf">isReadOnly</span><span class="o">();</span>
+
+<span class="c1">// 判断当前Buffer是否具有可访问的底层实现数组
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">boolean</span> <span class="nf">hasArray</span><span class="o">();</span>
+
+<span class="c1">// 返回当前Buffer的底层实现数组
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="n">Object</span> <span class="nf">array</span><span class="o">();</span>
+
+<span class="c1">// 返回当前Buffer的底层实现数组中第一个缓冲区元素的偏移量
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">int</span> <span class="nf">arrayOffset</span><span class="o">();</span>
+
+<span class="c1">// 判断是否为直接缓冲区
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">boolean</span> <span class="nf">isDirect</span><span class="o">();</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>ByteBuffer中最常用的方法：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="c1">// 创建直接缓冲区
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">static</span> <span class="n">ByteBuffer</span> <span class="nf">allocateDirect</span><span class="o">(</span><span class="kt">int</span> <span class="n">capacity</span><span class="o">);</span>
+
+<span class="c1">// 设置缓冲区的初始容量
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">static</span> <span class="n">ByteBuffer</span> <span class="nf">allocate</span><span class="o">(</span><span class="kt">int</span> <span class="n">capacity</span><span class="o">);</span>
+
+<span class="c1">// 把一个数组放到缓冲区中使用
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">static</span> <span class="n">ByteBuffer</span> <span class="nf">wrap</span><span class="o">(</span><span class="kt">byte</span><span class="o">[]</span> <span class="n">array</span><span class="o">,</span> <span class="kt">int</span> <span class="n">offset</span><span class="o">,</span> <span class="kt">int</span> <span class="n">length</span><span class="o">);</span>
+
+<span class="c1">// 构造初始化位置offset和上界length的缓冲区
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">static</span> <span class="n">ByteBuffer</span> <span class="nf">wrap</span><span class="o">(</span><span class="kt">byte</span><span class="o">[]</span> <span class="n">array</span><span class="o">);</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="channel相关知识">Channel相关知识</h2>
+<p>Channel的基础知识：</p>
+<ol>
+<li>
+<p>NIO的Channel类似于流，但是有如下区别：</p>
+<ul>
+<li>Channel可以同时进行读写，而流只能读或者只能写</li>
+<li>Channel可以实现异步读写数据</li>
+<li>Channel可以从缓冲区读数据，也可以写数据到缓冲区</li>
+</ul>
+</li>
+<li>
+<p>常用的Channel类有：FileChannel、DatagramChannel、ServerSocketChannel、SockerChannel。</p>
+</li>
+<li>
+<p>FileChannel用于文件的数据读写，DatagramChannel用于UDP的数据读写，ServerSocketChannel和SocketChannel用于TCP的数据读写。</p>
+</li>
+</ol>
+<h3 id="理解serversocketchannel与socketchannel">理解ServerSocketChannel与SocketChannel</h3>
+<p>如下：</p>
+<p><p class="md__image">
+  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2021-07-22-10-52-48.png" alt="2021-07-22-10-52-48"  />
+</p></p>
+<h3 id="filechannel案例">FileChannel案例：</h3>
+<p>FileChannel写案例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">FileOutputStream</span> <span class="n">fos</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FileOutputStream</span><span class="o">(</span><span class="s">&#34;tmp.txt&#34;</span><span class="o">);</span>
+
+<span class="n">ByteBuffer</span> <span class="n">byteBuffer</span> <span class="o">=</span> <span class="n">ByteBuffer</span><span class="o">.</span><span class="na">allocate</span><span class="o">(</span><span class="n">1024</span><span class="o">);</span>
+<span class="n">byteBuffer</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="s">&#34;Hello, World!&#34;</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">));</span>
+<span class="n">byteBuffer</span><span class="o">.</span><span class="na">flip</span><span class="o">();</span>
+
+<span class="n">fos</span><span class="o">.</span><span class="na">getChannel</span><span class="o">().</span><span class="na">write</span><span class="o">(</span><span class="n">byteBuffer</span><span class="o">);</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>FileChannel读案例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">File</span> <span class="n">file</span> <span class="o">=</span> <span class="k">new</span> <span class="n">File</span><span class="o">(</span><span class="s">&#34;tmp.txt&#34;</span><span class="o">);</span>
+<span class="n">FileInputStream</span> <span class="n">fis</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FileInputStream</span><span class="o">(</span><span class="n">file</span><span class="o">);</span>
+
+<span class="n">ByteBuffer</span> <span class="n">byteBuffer</span> <span class="o">=</span> <span class="n">ByteBuffer</span><span class="o">.</span><span class="na">allocate</span><span class="o">((</span><span class="kt">int</span><span class="o">)</span> <span class="n">file</span><span class="o">.</span><span class="na">length</span><span class="o">());</span>
+
+<span class="n">fis</span><span class="o">.</span><span class="na">getChannel</span><span class="o">().</span><span class="na">read</span><span class="o">(</span><span class="n">byteBuffer</span><span class="o">);</span>
+
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="k">new</span> <span class="n">String</span><span class="o">(</span><span class="n">byteBuffer</span><span class="o">.</span><span class="na">array</span><span class="o">()));</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>FileChannel复制文件的案例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">File</span> <span class="n">file</span> <span class="o">=</span> <span class="k">new</span> <span class="n">File</span><span class="o">(</span><span class="s">&#34;tmp.txt&#34;</span><span class="o">);</span>
+<span class="n">FileInputStream</span> <span class="n">fis</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FileInputStream</span><span class="o">(</span><span class="n">file</span><span class="o">);</span>
+<span class="n">FileOutputStream</span> <span class="n">fos</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FileOutputStream</span><span class="o">(</span><span class="s">&#34;tmp_copy.txt&#34;</span><span class="o">);</span>
+
+<span class="c1">// 方案一
+</span><span class="c1">// ByteBuffer byteBuffer = ByteBuffer.allocate((int) file.length());
+</span><span class="c1">// fis.getChannel().read(byteBuffer);
+</span><span class="c1">// byteBuffer.flip();
+</span><span class="c1"></span>
+<span class="c1">// fos.getChannel().write(byteBuffer);
+</span><span class="c1"></span>
+<span class="c1">// 方案二
+</span><span class="c1"></span><span class="n">ByteBuffer</span> <span class="n">byteBuffer</span> <span class="o">=</span> <span class="n">ByteBuffer</span><span class="o">.</span><span class="na">allocate</span><span class="o">(</span><span class="n">4096</span><span class="o">);</span>
+<span class="k">while</span> <span class="o">(</span><span class="kc">true</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">byteBuffer</span><span class="o">.</span><span class="na">clear</span><span class="o">();</span>
+    <span class="kt">int</span> <span class="n">read</span> <span class="o">=</span> <span class="n">fis</span><span class="o">.</span><span class="na">getChannel</span><span class="o">().</span><span class="na">read</span><span class="o">(</span><span class="n">byteBuffer</span><span class="o">);</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">read</span> <span class="o">==</span> <span class="o">-</span><span class="n">1</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">break</span><span class="o">;</span>
+    <span class="o">}</span>
+    <span class="n">byteBuffer</span><span class="o">.</span><span class="na">flip</span><span class="o">();</span>
+    <span class="n">fos</span><span class="o">.</span><span class="na">getChannel</span><span class="o">().</span><span class="na">write</span><span class="o">(</span><span class="n">byteBuffer</span><span class="o">);</span>
+<span class="o">}</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>FileChannel使用transformTo、transformFrom进行复制：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">File</span> <span class="n">file</span> <span class="o">=</span> <span class="k">new</span> <span class="n">File</span><span class="o">(</span><span class="s">&#34;tmp.txt&#34;</span><span class="o">);</span>
+<span class="n">FileInputStream</span> <span class="n">fis</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FileInputStream</span><span class="o">(</span><span class="n">file</span><span class="o">);</span>
+<span class="n">FileOutputStream</span> <span class="n">fos</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FileOutputStream</span><span class="o">(</span><span class="s">&#34;tmp_copy3.txt&#34;</span><span class="o">);</span>
+
+<span class="c1">// fis.getChannel().transferTo(0, file.length(), fos.getChannel());
+</span><span class="c1"></span><span class="n">fos</span><span class="o">.</span><span class="na">getChannel</span><span class="o">().</span><span class="na">transferFrom</span><span class="o">(</span><span class="n">fis</span><span class="o">.</span><span class="na">getChannel</span><span class="o">(),</span> <span class="n">0</span><span class="o">,</span> <span class="n">file</span><span class="o">.</span><span class="na">length</span><span class="o">());</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="buffer和channel的注意事项和细节">Buffer和Channel的注意事项和细节</h2>
+<ol>
+<li>ByteBuffer支持类型化的put和get，put放入什么类型，get就应该使用相应的数据类型来取出，否则可能有BufferUnderflowException异常</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">ByteBuffer</span> <span class="n">buffer</span> <span class="o">=</span> <span class="n">ByteBuffer</span><span class="o">.</span><span class="na">allocate</span><span class="o">(</span><span class="n">64</span><span class="o">);</span>
+
+<span class="n">buffer</span><span class="o">.</span><span class="na">putInt</span><span class="o">(</span><span class="n">100</span><span class="o">);</span>
+<span class="n">buffer</span><span class="o">.</span><span class="na">putLong</span><span class="o">(</span><span class="n">100</span><span class="o">);</span>
+<span class="n">buffer</span><span class="o">.</span><span class="na">putChar</span><span class="o">(</span><span class="sc">&#39;你&#39;</span><span class="o">);</span>
+<span class="n">buffer</span><span class="o">.</span><span class="na">putShort</span><span class="o">((</span><span class="kt">short</span><span class="o">)</span> <span class="n">100</span><span class="o">);</span>
+
+<span class="n">buffer</span><span class="o">.</span><span class="na">flip</span><span class="o">();</span>
+
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">buffer</span><span class="o">.</span><span class="na">getInt</span><span class="o">());</span>
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">buffer</span><span class="o">.</span><span class="na">getLong</span><span class="o">());</span>
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">buffer</span><span class="o">.</span><span class="na">getChar</span><span class="o">());</span>
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">buffer</span><span class="o">.</span><span class="na">getShort</span><span class="o">());</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>可以将一个普通的Buffer转成只读的Buffer</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">ByteBuffer</span> <span class="n">buffer</span> <span class="o">=</span> <span class="n">ByteBuffer</span><span class="o">.</span><span class="na">allocate</span><span class="o">(</span><span class="n">64</span><span class="o">);</span>
+
+<span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">64</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+    <span class="n">buffer</span><span class="o">.</span><span class="na">put</span><span class="o">((</span><span class="kt">byte</span><span class="o">)</span> <span class="n">i</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="n">buffer</span><span class="o">.</span><span class="na">flip</span><span class="o">();</span>
+
+<span class="n">ByteBuffer</span> <span class="n">byteBuffer</span> <span class="o">=</span> <span class="n">buffer</span><span class="o">.</span><span class="na">asReadOnlyBuffer</span><span class="o">();</span>
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">byteBuffer</span><span class="o">.</span><span class="na">getClass</span><span class="o">());</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>NIO还提供了MappedByteBuffer，可以让文件直接在内存（堆外的内存中进行修改），而如何同步到文件由NIO来完成。（实验还没有成功！！！）</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">RandomAccessFile</span> <span class="n">raf</span> <span class="o">=</span> <span class="k">new</span> <span class="n">RandomAccessFile</span><span class="o">(</span><span class="s">&#34;tmp.txt&#34;</span><span class="o">,</span> <span class="s">&#34;rw&#34;</span><span class="o">);</span>
+<span class="n">FileChannel</span> <span class="n">channel</span> <span class="o">=</span> <span class="n">raf</span><span class="o">.</span><span class="na">getChannel</span><span class="o">();</span>
+
+<span class="cm">/*
+</span><span class="cm">    参数一：FileChannel.MapMode.READ_WRITE，使用读写模式
+</span><span class="cm">    参数二：0：可以直接修改的起始位置
+</span><span class="cm">    参数三：5：映射到内存的大小（单位字节）
+</span><span class="cm">    */</span>
+<span class="n">MappedByteBuffer</span> <span class="n">mbf</span> <span class="o">=</span> <span class="n">channel</span><span class="o">.</span><span class="na">map</span><span class="o">(</span><span class="n">FileChannel</span><span class="o">.</span><span class="na">MapMode</span><span class="o">.</span><span class="na">READ_WRITE</span><span class="o">,</span> <span class="n">0</span><span class="o">,</span> <span class="n">5</span><span class="o">);</span>
+
+<span class="n">mbf</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">0</span><span class="o">,</span> <span class="o">(</span><span class="kt">byte</span><span class="o">)</span> <span class="sc">&#39;H&#39;</span><span class="o">);</span>
+<span class="n">mbf</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">1</span><span class="o">,</span> <span class="o">(</span><span class="kt">byte</span><span class="o">)</span> <span class="sc">&#39;H&#39;</span><span class="o">);</span>
+<span class="n">mbf</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">2</span><span class="o">,</span> <span class="o">(</span><span class="kt">byte</span><span class="o">)</span> <span class="sc">&#39;H&#39;</span><span class="o">);</span>
+<span class="n">mbf</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">3</span><span class="o">,</span> <span class="o">(</span><span class="kt">byte</span><span class="o">)</span> <span class="sc">&#39;H&#39;</span><span class="o">);</span>
+<span class="n">mbf</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">4</span><span class="o">,</span> <span class="o">(</span><span class="kt">byte</span><span class="o">)</span> <span class="sc">&#39;H&#39;</span><span class="o">);</span>
+
+<span class="n">channel</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+<span class="n">raf</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>NIO还支持通过多个Buffer（即Buffer数组）完成读写操作，即Scattering和Gatering（还没有接触到这个）</li>
+</ol>
 
   </article>
 </div>
@@ -12935,7 +13477,22 @@
         <div class="toc">
   <h6 class="toc__label"></h6>
   <div class="toc__body">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#理解同步不阻塞模型">理解同步不阻塞模型</a></li>
+    <li><a href="#nio与bio的比较">NIO与BIO的比较</a></li>
+    <li><a href="#selectchannelbuffer关系">Select、Channel、Buffer关系</a></li>
+    <li><a href="#缓冲区">缓冲区</a></li>
+    <li><a href="#buffer类及其子类">Buffer类及其子类</a></li>
+    <li><a href="#channel相关知识">Channel相关知识</a>
+      <ul>
+        <li><a href="#理解serversocketchannel与socketchannel">理解ServerSocketChannel与SocketChannel</a></li>
+        <li><a href="#filechannel案例">FileChannel案例：</a></li>
+      </ul>
+    </li>
+    <li><a href="#buffer和channel的注意事项和细节">Buffer和Channel的注意事项和细节</a></li>
+  </ul>
+</nav>
   </div>
 </div>
       

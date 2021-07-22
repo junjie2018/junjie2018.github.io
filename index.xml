@@ -258,6 +258,15 @@
       </item>
       
       <item>
+        <title>Buffer、Channel与Selector</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/</guid>
+        <description>理解同步不阻塞模型 Java NIO（同步不阻塞）：服务器实现模式为一个线程处理多个请求（链接），即客户端发送的连接请求会注册到多路复用器上，多路复用</description>
+      </item>
+      
+      <item>
         <title>CentOS 7搭建Kubernetes</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/centos-7%E6%90%AD%E5%BB%BAkubernetes/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3207,15 +3216,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3maven-profile%E4%B8%8Espringboot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
         <description>我昨天一直在思考Maven Profile与SpringBoot配置文件的关系，想知道Maven Profile中的配置是如何传递给Spring</description>
-      </item>
-      
-      <item>
-        <title>如何理解NIO（同步非阻塞模型）</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3nio%E5%90%8C%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E6%A8%A1%E5%9E%8B/</guid>
-        <description>Java NIO（同步不阻塞）：服务器实现模式为一个线程处理多个请求（链接），即客户端发送的连接请求会注册到多路复用器上，多路复用器轮询连接有IO请</description>
       </item>
       
       <item>
