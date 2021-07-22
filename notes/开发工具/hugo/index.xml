@@ -41,11 +41,11 @@
       </item>
       
       <item>
-        <title>ZDoc主题直接抖动的问题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/zdoc%E4%B8%BB%E9%A2%98%E7%9B%B4%E6%8E%A5%E6%8A%96%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <title>ZDoc主题抖动的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/zdoc%E4%B8%BB%E9%A2%98%E6%8A%96%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/zdoc%E4%B8%BB%E9%A2%98%E7%9B%B4%E6%8E%A5%E6%8A%96%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/zdoc%E4%B8%BB%E9%A2%98%E6%8A%96%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>当目录过程，展开的时候超过了一屏的高度时，页面会出现抖动的情况，抖动的原因是因为超过一屏时浏览器右侧会出现滚动条，该滚动条影响了屏幕的宽度，</description>
       </item>
       

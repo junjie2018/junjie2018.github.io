@@ -23,6 +23,15 @@
       </item>
       
       <item>
+        <title>application.yml中的一些语法细节</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/application.yml%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%AD%E6%B3%95%E7%BB%86%E8%8A%82/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/application.yml%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%AD%E6%B3%95%E7%BB%86%E8%8A%82/</guid>
+        <description>我在开发代码生成工具时，大量使用了application.yml进行配置，这次看课程的时候，又看到了相关的知识点，发现有一些细节我自己之前也</description>
+      </item>
+      
+      <item>
         <title>spring-boot-configuration-processor包与构建插件的配置</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/spring-boot-configuration-processor%E5%8C%85%E4%B8%8E%E6%9E%84%E5%BB%BA%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
