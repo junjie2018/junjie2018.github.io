@@ -1158,6 +1158,15 @@
       </item>
       
       <item>
+        <title>Idea自动导包的时候忽略一些类</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%87%AA%E5%8A%A8%E5%AF%BC%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E5%BF%BD%E7%95%A5%E4%B8%80%E4%BA%9B%E7%B1%BB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%87%AA%E5%8A%A8%E5%AF%BC%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E5%BF%BD%E7%95%A5%E4%B8%80%E4%BA%9B%E7%B1%BB/</guid>
+        <description>最近String总是被自动导入成com.sun.org.apache.xpath.internal.operations.String，这个</description>
+      </item>
+      
+      <item>
         <title>Idea警告：Untrusted Server&#39;s certificate</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%AD%A6%E5%91%8Auntrusted-servers-certificate/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

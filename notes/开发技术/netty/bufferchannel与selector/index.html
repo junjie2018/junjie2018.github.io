@@ -2573,6 +2573,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%87%AA%E5%8A%A8%E5%AF%BC%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E5%BF%BD%E7%95%A5%E4%B8%80%E4%BA%9B%E7%B1%BB/" class="menu__title " data-depth="1">Idea自动导包的时候忽略一些类</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%AD%A6%E5%91%8Auntrusted-servers-certificate/" class="menu__title " data-depth="1">Idea警告：Untrusted Server&#39;s certificate</a>
         </li>
       
@@ -8624,6 +8632,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%87%AA%E5%8A%A8%E5%AF%BC%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E5%BF%BD%E7%95%A5%E4%B8%80%E4%BA%9B%E7%B1%BB/" class="menu__title " data-depth="1">Idea自动导包的时候忽略一些类</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%AD%A6%E5%91%8Auntrusted-servers-certificate/" class="menu__title " data-depth="1">Idea警告：Untrusted Server&#39;s certificate</a>
         </li>
       
@@ -13444,8 +13460,8 @@
 
 </code></pre></td></tr></table>
 </div>
-</div><ol start="3">
-<li>NIO还提供了MappedByteBuffer，可以让文件直接在内存（堆外的内存中进行修改），而如何同步到文件由NIO来完成。（实验还没有成功！！！）</li>
+</div><ol>
+<li>NIO还提供了MappedByteBuffer，可以让文件直接在内存（堆外的内存中进行修改），而如何同步到文件由NIO来完成。（实验中需要避免Idea的缓存对时间结果的观察）</li>
 </ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -13493,8 +13509,312 @@
 
 </code></pre></td></tr></table>
 </div>
+</div><ol>
+<li>NIO还支持通过多个Buffer（即Buffer数组）完成读写操作，即Scattering和Gatering（实验的过程中，因为Telnet配置的问题，体验并不是太好）</li>
+</ol>
+<ul>
+<li>Scattering：将数据写入到buffer时，可以采用buffer数组，依次写入</li>
+<li>Gathering：从buffer读取数据时，可以采用buffer数组，依次读取</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">InetSocketAddress</span> <span class="n">inetSocketAddress</span> <span class="o">=</span> <span class="k">new</span> <span class="n">InetSocketAddress</span><span class="o">(</span><span class="n">7000</span><span class="o">);</span>
+
+<span class="n">ServerSocketChannel</span> <span class="n">serverSocketChannel</span> <span class="o">=</span> <span class="n">ServerSocketChannel</span><span class="o">.</span><span class="na">open</span><span class="o">();</span>
+<span class="n">serverSocketChannel</span><span class="o">.</span><span class="na">socket</span><span class="o">().</span><span class="na">bind</span><span class="o">(</span><span class="n">inetSocketAddress</span><span class="o">);</span>
+
+<span class="n">ByteBuffer</span><span class="o">[]</span> <span class="n">byteBuffers</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ByteBuffer</span><span class="o">[]{</span>
+        <span class="n">ByteBuffer</span><span class="o">.</span><span class="na">allocate</span><span class="o">(</span><span class="n">5</span><span class="o">),</span>
+        <span class="n">ByteBuffer</span><span class="o">.</span><span class="na">allocate</span><span class="o">(</span><span class="n">3</span><span class="o">)};</span>
+
+<span class="n">SocketChannel</span> <span class="n">socketChannel</span> <span class="o">=</span> <span class="n">serverSocketChannel</span><span class="o">.</span><span class="na">accept</span><span class="o">();</span>
+
+<span class="c1">// 客户端只发行8个字节（协商）
+</span><span class="c1"></span><span class="kt">int</span> <span class="n">messageLength</span> <span class="o">=</span> <span class="n">8</span><span class="o">;</span>
+<span class="k">while</span> <span class="o">(</span><span class="kc">true</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// 读取数据
+</span><span class="c1"></span>    <span class="kt">int</span> <span class="n">byteRead</span> <span class="o">=</span> <span class="n">0</span><span class="o">;</span>
+    <span class="k">while</span> <span class="o">(</span><span class="n">byteRead</span> <span class="o">&lt;</span> <span class="n">messageLength</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kt">long</span> <span class="n">bytes</span> <span class="o">=</span> <span class="n">socketChannel</span><span class="o">.</span><span class="na">read</span><span class="o">(</span><span class="n">byteBuffers</span><span class="o">);</span>
+        <span class="n">byteRead</span> <span class="o">+=</span> <span class="n">bytes</span><span class="o">;</span>
+        <span class="n">Arrays</span><span class="o">.</span><span class="na">asList</span><span class="o">(</span><span class="n">byteBuffers</span><span class="o">).</span><span class="na">forEach</span><span class="o">(</span><span class="n">buffer</span> <span class="o">-&gt;</span> <span class="o">{</span>
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printf</span><span class="o">(</span><span class="s">&#34;position=%4d, limit=%4d%n&#34;</span><span class="o">,</span> <span class="n">buffer</span><span class="o">.</span><span class="na">position</span><span class="o">(),</span> <span class="n">buffer</span><span class="o">.</span><span class="na">limit</span><span class="o">());</span>
+        <span class="o">});</span>
+    <span class="o">}</span>
+
+    <span class="n">Arrays</span><span class="o">.</span><span class="na">asList</span><span class="o">(</span><span class="n">byteBuffers</span><span class="o">).</span><span class="na">forEach</span><span class="o">(</span><span class="n">Buffer</span><span class="o">::</span><span class="n">flip</span><span class="o">);</span>
+
+    <span class="c1">// 回显数据
+</span><span class="c1"></span>    <span class="kt">long</span> <span class="n">byteWrite</span> <span class="o">=</span> <span class="n">0</span><span class="o">;</span>
+    <span class="k">while</span> <span class="o">(</span><span class="n">byteWrite</span> <span class="o">&lt;</span> <span class="n">messageLength</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kt">long</span> <span class="n">bytes</span> <span class="o">=</span> <span class="n">socketChannel</span><span class="o">.</span><span class="na">write</span><span class="o">(</span><span class="n">byteBuffers</span><span class="o">);</span>
+        <span class="n">byteWrite</span> <span class="o">+=</span> <span class="n">bytes</span><span class="o">;</span>
+    <span class="o">}</span>
+
+
+    <span class="n">Arrays</span><span class="o">.</span><span class="na">asList</span><span class="o">(</span><span class="n">byteBuffers</span><span class="o">).</span><span class="na">forEach</span><span class="o">(</span><span class="n">Buffer</span><span class="o">::</span><span class="n">clear</span><span class="o">);</span>
+<span class="o">}</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="selector">Selector</h2>
+<ol>
+<li>
+<p>Netty的IO线程NioEventLoop聚合了Selector，可以同时并发处理成百上千个客户端连接。</p>
+</li>
+<li>
+<p>Selector中的方法：</p>
+</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="c1">// 得到一个选择器对象
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">static</span> <span class="n">Selector</span> <span class="nf">open</span><span class="o">();</span>
+
+
+<span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">int</span> <span class="nf">selectNow</span><span class="o">()</span> <span class="kd">throws</span> <span class="n">IOException</span><span class="o">;</span>
+
+<span class="c1">// 监控所有注册的通道，当其中有IO操作可以进行时，将对应的SelectionKey加入到内部集合中并返回
+</span><span class="c1">// 参数用来设置超时时间
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">int</span> <span class="nf">select</span><span class="o">()</span> <span class="kd">throws</span> <span class="n">IOException</span><span class="o">;</span>
+<span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">int</span> <span class="nf">select</span><span class="o">(</span><span class="kt">long</span> <span class="n">timeout</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">IOException</span><span class="o">;</span>
+
+<span class="c1">// 从内部集合中得到所有的SelectionKey
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="n">Set</span><span class="o">&lt;</span><span class="n">SelectionKey</span><span class="o">&gt;</span> <span class="nf">selectedKeys</span><span class="o">();</span>
+
+<span class="c1">// 唤醒Selector（不知道用于什么场景）
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="n">Selector</span> <span class="nf">wakeup</span><span class="o">();</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>SelectionKey中的方法：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="c1">// 得到与之关联的Selector
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="n">Selector</span> <span class="nf">selector</span><span class="o">();</span>
+
+<span class="c1">// 得到与之关联的Channel
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="n">SelectableChannel</span> <span class="nf">channel</span><span class="o">();</span>
+
+<span class="c1">// 设置或改变监听事件
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">int</span> <span class="nf">interestOps</span><span class="o">();</span>
+<span class="kd">public</span> <span class="kd">abstract</span> <span class="n">SelectionKey</span> <span class="nf">interestOps</span><span class="o">(</span><span class="kt">int</span> <span class="n">ops</span><span class="o">);</span>
+
+<span class="c1">// 是否可以accept、read、write
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="kt">boolean</span> <span class="nf">isAcceptable</span><span class="o">();</span>
+<span class="kd">public</span> <span class="kd">final</span> <span class="kt">boolean</span> <span class="nf">isReadable</span><span class="o">();</span>
+<span class="kd">public</span> <span class="kd">final</span> <span class="kt">boolean</span> <span class="nf">isWritable</span><span class="o">();</span>
+
+</code></pre></td></tr></table>
+</div>
 </div><ol start="4">
-<li>NIO还支持通过多个Buffer（即Buffer数组）完成读写操作，即Scattering和Gatering（还没有接触到这个）</li>
+<li>ServerSocketChannel中的方法：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="c1">// 得到一个ServerSocketChannel通道
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">static</span> <span class="n">ServerSocketChannel</span> <span class="nf">open</span><span class="o">();</span>
+
+<span class="c1">// 设置服务器端口号
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="n">ServerSocketChannel</span> <span class="nf">bind</span><span class="o">(</span><span class="n">SocketAddress</span> <span class="n">local</span><span class="o">);</span>
+<span class="kd">public</span> <span class="kd">abstract</span> <span class="n">ServerSocketChannel</span> <span class="nf">bind</span><span class="o">(</span><span class="n">SocketAddress</span> <span class="n">local</span><span class="o">,</span> <span class="kt">int</span> <span class="n">backlog</span><span class="o">);</span>
+
+<span class="c1">// 接受一个链接，返回达标这个链接的通道对象
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="n">SocketChannel</span> <span class="nf">accept</span><span class="o">();</span>
+
+<span class="c1">// 设置阻塞或非阻塞模式，取值false表示采用非阻塞模式
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="n">SelectableChannel</span> <span class="nf">configureBlocking</span><span class="o">(</span><span class="kt">boolean</span> <span class="n">block</span><span class="o">);</span>
+
+<span class="c1">// 注册一个选择器并设置监听事件
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">final</span> <span class="n">SelectionKey</span> <span class="nf">register</span><span class="o">(</span><span class="n">Selector</span> <span class="n">sel</span><span class="o">,</span> <span class="kt">int</span> <span class="n">ops</span><span class="o">,</span> <span class="n">Object</span> <span class="n">att</span><span class="o">);</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><ol start="5">
+<li>SocketChannel中的方法：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="c1">// 链接服务器
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">boolean</span> <span class="nf">connect</span><span class="o">(</span><span class="n">SocketAddress</span> <span class="n">remote</span><span class="o">);</span>
+
+<span class="c1">// 如果connect方法链接失败，接下来就要通过该方法完成链接操作（不明所以）
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">boolean</span> <span class="nf">finishConnect</span><span class="o">();</span>
+
+<span class="c1">// 从通道读数据
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">int</span> <span class="nf">read</span><span class="o">(</span><span class="n">ByteBuffer</span> <span class="n">dst</span><span class="o">);</span>
+<span class="kd">public</span> <span class="kd">final</span> <span class="kt">long</span> <span class="nf">read</span><span class="o">(</span><span class="n">ByteBuffer</span><span class="o">[]</span> <span class="n">dsts</span><span class="o">);</span>
+<span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">long</span> <span class="nf">read</span><span class="o">(</span><span class="n">ByteBuffer</span><span class="o">[]</span> <span class="n">dsts</span><span class="o">,</span> <span class="kt">int</span> <span class="n">offset</span><span class="o">,</span> <span class="kt">int</span> <span class="n">length</span><span class="o">);</span>
+
+<span class="c1">// 往通道写数据
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">int</span> <span class="nf">write</span><span class="o">(</span><span class="n">ByteBuffer</span> <span class="n">src</span><span class="o">);</span>
+<span class="kd">public</span> <span class="kd">final</span> <span class="kt">long</span> <span class="nf">write</span><span class="o">(</span><span class="n">ByteBuffer</span><span class="o">[]</span> <span class="n">srcs</span><span class="o">);</span>
+<span class="kd">public</span> <span class="kd">abstract</span> <span class="kt">long</span> <span class="nf">write</span><span class="o">(</span><span class="n">ByteBuffer</span><span class="o">[]</span> <span class="n">srcs</span><span class="o">,</span> <span class="kt">int</span> <span class="n">offset</span><span class="o">,</span> <span class="kt">int</span> <span class="n">length</span><span class="o">);</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><ol start="6">
+<li>
+<p>Selector、SelectionKey、ServerSocketChannel、SocketChannel关系梳理：</p>
+<ul>
+<li>
+<p>当客户端连接时，会通过ServerSocketChannel得到SocketChannel</p>
+</li>
+<li>
+<p>将socketChannel注册到Selector上，register(Selector selector,int ops)，一个selector上可以注册多个SocketChannel</p>
+</li>
+<li>
+<p>注册后返回一个SelectionKey，会和该Selector关联（集合）</p>
+</li>
+<li>
+<p>Selector进行监听select方法，返回有事件发生的通道的个数</p>
+</li>
+<li>
+<p>进一步得到个SelectionKey（有事件发生）</p>
+</li>
+<li>
+<p>在通过SelectionKey反向获取SocketChannel（channel方法）</p>
+</li>
+<li>
+<p>可以通过得到的channel，完成业务处理</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="aio简介">AIO简介</h2>
+<ol>
+<li>
+<p>在IO编程中，常用的两种模式：Reactor和Proactor，Java的NIO就是Reactor，当有事件触发时，服务端得到通知，进行相应的处理。</p>
+</li>
+<li>
+<p>AIO引入异步通道的概念，采用了Proactor模式，简化了程序编写，有效的请求才启动线程，它的特点是先有操作系统完成后才通知服务端程序启动线程去处理，一般适用于链接数较多且连接时间较长的应用。</p>
+</li>
+<li>
+<p>AIO还没有广泛的应用，Netty也是基于NIO而不是AIO。</p>
+</li>
 </ol>
 
   </article>
@@ -13523,6 +13843,8 @@
       </ul>
     </li>
     <li><a href="#buffer和channel的注意事项和细节">Buffer和Channel的注意事项和细节</a></li>
+    <li><a href="#selector">Selector</a></li>
+    <li><a href="#aio简介">AIO简介</a></li>
   </ul>
 </nav>
   </div>
