@@ -23,20 +23,11 @@
       </item>
       
       <item>
-        <title>SpringBoot自动配置为我们做了什么</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E4%B8%BA%E6%88%91%E4%BB%AC%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88/</link>
+        <title>Spring MVC对请求参数处理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring-mvc%E5%AF%B9%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0%E5%A4%84%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E4%B8%BA%E6%88%91%E4%BB%AC%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88/</guid>
-        <description>在加入SpringBoot的Web的starter后，自动配置类做了如下工作： 内容协商解析器和BeanName视图解析器 静态资料（包括web</description>
-      </item>
-      
-      <item>
-        <title>SpringBoot请求参数处理</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/springboot%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0%E5%A4%84%E7%90%86/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/springboot%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0%E5%A4%84%E7%90%86/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring-mvc%E5%AF%B9%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0%E5%A4%84%E7%90%86/</guid>
         <description>表单支持Delete、PUT参数 为了让表单支持DELETE、PUT等参数，我们需要配置HiddenHttpMethodFilter，配置了该</description>
       </item>
       
@@ -83,6 +74,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E6%9B%B4%E5%A4%9A%E7%9A%84%E4%BA%86%E8%A7%A3dispatcherservlet/</guid>
         <description>DipatcherServlet使用默认的Bean处理请求 Spring的DispatcherServlet使用了内置在WebApplicat</description>
+      </item>
+      
+      <item>
+        <title>配置MVC时SpringBoot为我们配置了什么</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E9%85%8D%E7%BD%AEmvc%E6%97%B6springboot%E4%B8%BA%E6%88%91%E4%BB%AC%E9%85%8D%E7%BD%AE%E4%BA%86%E4%BB%80%E4%B9%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E9%85%8D%E7%BD%AEmvc%E6%97%B6springboot%E4%B8%BA%E6%88%91%E4%BB%AC%E9%85%8D%E7%BD%AE%E4%BA%86%E4%BB%80%E4%B9%88/</guid>
+        <description>在加入SpringBoot的Web的starter后，自动配置类做了如下工作： 内容协商解析器和BeanName视图解析器 静态资料（包括web</description>
       </item>
       
     

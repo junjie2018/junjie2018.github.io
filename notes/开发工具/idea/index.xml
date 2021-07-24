@@ -185,6 +185,15 @@
       </item>
       
       <item>
+        <title>Idea运行多个类实例并行及SporingBoot实例并行</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%BF%90%E8%A1%8C%E5%A4%9A%E4%B8%AA%E7%B1%BB%E5%AE%9E%E4%BE%8B%E5%B9%B6%E8%A1%8C%E5%8F%8Asporingboot%E5%AE%9E%E4%BE%8B%E5%B9%B6%E8%A1%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%BF%90%E8%A1%8C%E5%A4%9A%E4%B8%AA%E7%B1%BB%E5%AE%9E%E4%BE%8B%E5%B9%B6%E8%A1%8C%E5%8F%8Asporingboot%E5%AE%9E%E4%BE%8B%E5%B9%B6%E8%A1%8C/</guid>
+        <description>SpringBoot实例并行比较简单，如下图所示： 类实例并行，如下图所示（和SpringBoot不一样，我也是第一次遇到）：</description>
+      </item>
+      
+      <item>
         <title>Idea配置PG数据源时的currentSchema参数</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E9%85%8D%E7%BD%AEpg%E6%95%B0%E6%8D%AE%E6%BA%90%E6%97%B6%E7%9A%84currentschema%E5%8F%82%E6%95%B0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
