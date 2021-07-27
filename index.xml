@@ -1662,6 +1662,15 @@
       </item>
       
       <item>
+        <title>Netty的基础知识</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+        <description>Netty对NIO进行的封装 设计优雅：适用于各种传输类型的统一（API阻塞和非阻塞Socket）；基于灵活可扩展的事件模型，可以清晰地分离关</description>
+      </item>
+      
+      <item>
         <title>No convert for xxx with preset Content-Type &#39;null&#39;</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/actuator/no-convert-for-xxx-with-preset-content-type-null/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1920,6 +1929,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/property-sqlsessionfactory-or-sqlsessiontemplate-are-required/</guid>
         <description>SpringBoot集成MyBatis-Plus后，启动时报如下错误： org.springframework.beans.factory.BeanCreationException: Error creating bean with name &#39;userMapper&#39; defined in file [D:\Project\Mybatis\target\classes\fun\junjie\mybatis\mapper\UserMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Property &#39;sqlSessionFactory&#39; or &#39;sqlSessionTemplate&#39; are required at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]</description>
+      </item>
+      
+      <item>
+        <title>Protobuf生成的实体作为JSON.toJSON的参数时会无限循环</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E7%94%9F%E6%88%90%E7%9A%84%E5%AE%9E%E4%BD%93%E4%BD%9C%E4%B8%BAjson.tojson%E7%9A%84%E5%8F%82%E6%95%B0%E6%97%B6%E4%BC%9A%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E7%94%9F%E6%88%90%E7%9A%84%E5%AE%9E%E4%BD%93%E4%BD%9C%E4%B8%BAjson.tojson%E7%9A%84%E5%8F%82%E6%95%B0%E6%97%B6%E4%BC%9A%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF/</guid>
+        <description>如下代码，会无限循环，知道堆栈移除： 1 2 3 4 5 6 7 StudentPOJO.Student item = StudentPOJO.Student.newBuilder() .setId(1) .setName(&amp;#34;100&amp;#34;) .build(); Object o = JSON.toJSON(item); 我使用的jar包版本分别为： 1 2 3 4 5 6 7 8 9 10 11 12 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.google.protobuf&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;protobuf-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.17.3&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.alibaba&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;fastjson&amp;lt;/artifactId&amp;gt;</description>
       </item>
       
       <item>
@@ -2262,15 +2280,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/timestamptz%E7%B1%BB%E5%9E%8B%E7%9A%84%E7%A0%94%E7%A9%B6/</guid>
         <description>对timestamptz的研究，是为了项目内部时间戳的统一。统一时间戳可以有如下好处： 统一的认知层次，大家都清晰的知道，前端、后端、数据库中</description>
-      </item>
-      
-      <item>
-        <title>tmp</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/tmp/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/tmp/</guid>
-        <description>Netty对NIO进行的封装 设计优雅：适用于各种传输类型的统一（API阻塞和非阻塞Socket）；基于灵活可扩展的事件模型，可以清晰地分离关</description>
       </item>
       
       <item>
@@ -3705,6 +3714,15 @@
       </item>
       
       <item>
+        <title>简单的使用protobuf及使用过程中遇到的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/%E7%AE%80%E5%8D%95%E7%9A%84%E4%BD%BF%E7%94%A8protobuf%E5%8F%8A%E4%BD%BF%E7%94%A8%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/%E7%AE%80%E5%8D%95%E7%9A%84%E4%BD%BF%E7%94%A8protobuf%E5%8F%8A%E4%BD%BF%E7%94%A8%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>如下，我准备的协议文件： 1 2 3 4 5 6 7 8 9 10 11 12 13 // 协议的版本 syntax = &amp;#34;proto3&amp;#34;;// 生成的外部类名，同时也是文件名 option java_outer_classname = &amp;#34;StudentPOJO&amp;#34;;// 会在StudentPOJO外部类生</description>
+      </item>
+      
+      <item>
         <title>组合约束</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/%E7%BB%84%E5%90%88%E7%BA%A6%E6%9D%9F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3926,7 +3944,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%85%8D%E7%BD%AEidea%E5%88%9D%E5%A7%8B%E5%8C%96springboot%E9%A1%B9%E7%9B%AE%E6%97%B6%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8C%E7%9A%84%E6%BA%90/</guid>
-        <description>Idea初始化项目时使用阿里的源： https://start.aliyun.com/ 该怎么用，懂得都懂，:)</description>
+        <description>Idea初始化项目时使用阿里的源： https://start.aliyun.com/ 该怎么用，懂得都懂，:) 默认的是： https://start.spring.io</description>
       </item>
       
       <item>

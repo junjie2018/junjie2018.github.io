@@ -208,7 +208,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%85%8D%E7%BD%AEidea%E5%88%9D%E5%A7%8B%E5%8C%96springboot%E9%A1%B9%E7%9B%AE%E6%97%B6%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8C%E7%9A%84%E6%BA%90/</guid>
-        <description>Idea初始化项目时使用阿里的源： https://start.aliyun.com/ 该怎么用，懂得都懂，:)</description>
+        <description>Idea初始化项目时使用阿里的源： https://start.aliyun.com/ 该怎么用，懂得都懂，:) 默认的是： https://start.spring.io</description>
       </item>
       
       <item>
