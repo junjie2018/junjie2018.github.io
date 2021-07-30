@@ -31,6 +31,15 @@
         <description>我肯定会划分一段时间去解决日志相关的问题，但是现阶段该问题该优先级并没有那么高，我先记录下我遇到的问题，未来系统学习的时候再解决这些问题。 在</description>
       </item>
       
+      <item>
+        <title>配置slf4j&#43;log4j2</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E9%85%8D%E7%BD%AEslf4j&#43;log4j2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E9%85%8D%E7%BD%AEslf4j&#43;log4j2/</guid>
+        <description>之前使用SpringBoot，都是自动帮我配置好的，难得有机会自己配置一下，资料整理如下： 添加依赖如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18</description>
+      </item>
+      
     
   </channel>
 </rss>

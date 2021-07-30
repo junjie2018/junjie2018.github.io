@@ -23,12 +23,12 @@
       </item>
       
       <item>
-        <title>Netty&#43;ProtoBuf小框架</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty&#43;protobuf%E5%B0%8F%E6%A1%86%E6%9E%B6/</link>
+        <title>LengthFieldBasedFrameDecoder学习</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/lengthfieldbasedframedecoder%E5%AD%A6%E4%B9%A0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty&#43;protobuf%E5%B0%8F%E6%A1%86%E6%9E%B6/</guid>
-        <description></description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/lengthfieldbasedframedecoder%E5%AD%A6%E4%B9%A0/</guid>
+        <description>我之前学习Netty的课程时出现了LengthFieldBasedFrameDecoder解码器，当时我只想了解学习这门技术，所以很多技术点</description>
       </item>
       
       <item>
