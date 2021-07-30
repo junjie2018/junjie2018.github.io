@@ -1662,6 +1662,33 @@
       </item>
       
       <item>
+        <title>Netty&#43;ProtoBuf小框架</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty&#43;protobuf%E5%B0%8F%E6%A1%86%E6%9E%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty&#43;protobuf%E5%B0%8F%E6%A1%86%E6%9E%B6/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Netty服务端启动过程分析</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E5%88%86%E6%9E%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E5%88%86%E6%9E%90/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Netty理解pipeline实验设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%90%86%E8%A7%A3pipeline%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%90%86%E8%A7%A3pipeline%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/</guid>
+        <description>我目前正处于Netty的学习过程中，所学的知识并没有覆盖到我接下来要进行的实验，但是为了更好的理解pipeline，我设计了如下的实验： 准备</description>
+      </item>
+      
+      <item>
         <title>Netty的基础知识</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1932,12 +1959,30 @@
       </item>
       
       <item>
+        <title>Protobuf枚举类型的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E6%9E%9A%E4%B8%BE%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E6%9E%9A%E4%B8%BE%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>简单的实验 proto如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 syntax = &amp;#34;proto3&amp;#34;;message SearchRequest3 { enum Corpus{ UNIVERSAL = 0; WEB = 1; IMAGES = 2; LOCAL = 3; NEWS = 4; PRODUCTS = 5; VIDEO = 6; } string query = 1; int32 page_number =</description>
+      </item>
+      
+      <item>
         <title>Protobuf生成的实体作为JSON.toJSON的参数时会无限循环</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E7%94%9F%E6%88%90%E7%9A%84%E5%AE%9E%E4%BD%93%E4%BD%9C%E4%B8%BAjson.tojson%E7%9A%84%E5%8F%82%E6%95%B0%E6%97%B6%E4%BC%9A%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E7%94%9F%E6%88%90%E7%9A%84%E5%AE%9E%E4%BD%93%E4%BD%9C%E4%B8%BAjson.tojson%E7%9A%84%E5%8F%82%E6%95%B0%E6%97%B6%E4%BC%9A%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF/</guid>
         <description>如下代码，会无限循环，知道堆栈移除： 1 2 3 4 5 6 7 StudentPOJO.Student item = StudentPOJO.Student.newBuilder() .setId(1) .setName(&amp;#34;100&amp;#34;) .build(); Object o = JSON.toJSON(item); 我使用的jar包版本分别为： 1 2 3 4 5 6 7 8 9 10 11 12 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.google.protobuf&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;protobuf-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.17.3&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.alibaba&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;fastjson&amp;lt;/artifactId&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>Protobuf的基础知识</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+        <description>ProtoBuf的字段编号 消息定义中的每个字段都有一个唯一的编号。这些字段编号用于在消息二进制格式中标识您的字段，一旦您的消息类型被使用，就</description>
       </item>
       
       <item>
@@ -2010,6 +2055,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4/</guid>
         <description>安装Rancher 执行如下指令 docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged rancher/rancher:latest 导入集群 首先在Cluster选项卡下选择Add Cluster。因为我已经配置过了，这个按钮</description>
+      </item>
+      
+      <item>
+        <title>reserved的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/reserved%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/reserved%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>使用如下代码： 1 2 3 4 5 6 7 8 9 10 11 syntax = &amp;#34;proto3&amp;#34;;message SearchRequest2 { reserved 1, 2; reserved &amp;#34;result_per_page&amp;#34;; string query = 1; repeated int32 page_number = 2; repeated int32 result_per_page = 3;} 编辑器会报错，且无法正常编译： 小结 需要思考一下，如何在实</description>
       </item>
       
       <item>
@@ -2634,6 +2688,15 @@
       </item>
       
       <item>
+        <title>一个骚气的小工具，查看方法调用轨迹</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E4%B8%80%E4%B8%AA%E9%AA%9A%E6%B0%94%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7%E6%9F%A5%E7%9C%8B%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8%E8%BD%A8%E8%BF%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E4%B8%80%E4%B8%AA%E9%AA%9A%E6%B0%94%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7%E6%9F%A5%E7%9C%8B%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8%E8%BD%A8%E8%BF%B9/</guid>
+        <description>最近在学习Netty，为了更好的查看方法调用顺序，开发了如下小工具： 1 2 3 4 5 6 7 8 9 10 11 public class CommonUtils { public static void logCalling() { StackTraceElement[] mStacks = Thread.currentThread().getStackTrace(); if (mStacks.length &amp;gt;= 3) { System.out.printf(&amp;#34;Calling: %s.%s()\n&amp;#34;, mStacks[2].getClassName(), mStacks[2].getMethodName()); } } }</description>
+      </item>
+      
+      <item>
         <title>一段插件配置代码与这样配置的原因</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E4%B8%80%E6%AE%B5%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%A0%81%E4%B8%8E%E8%BF%99%E6%A0%B7%E9%85%8D%E7%BD%AE%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2703,6 +2766,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8localdatetime/</guid>
         <description>核心原因在于Date、SimpleDateFormat等是非线程安全的，而LocalDataTime是线程安全的。 参考资料 为什么建议使用你L</description>
+      </item>
+      
+      <item>
+        <title>为已存在的表删除、增加一个字段</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%BA%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A1%A8%E5%88%A0%E9%99%A4%E5%A2%9E%E5%8A%A0%E4%B8%80%E4%B8%AA%E5%AD%97%E6%AE%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%BA%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A1%A8%E5%88%A0%E9%99%A4%E5%A2%9E%E5%8A%A0%E4%B8%80%E4%B8%AA%E5%AD%97%E6%AE%B5/</guid>
+        <description>增加脚本如下： 1 2 3 4 5 ALTERTABLEt_company_package_manageADDCOLUMNaudit_opinionva</description>
       </item>
       
       <item>
@@ -3090,6 +3162,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/docker/%E5%9C%A8centos%E4%B8%AD%E5%AE%89%E8%A3%85docker/</guid>
         <description>20210504: 该方案在CentOS 7和CentOS 8上均可用 使用Ubuntu时，一直是直接在网上找一篇教程来使用，这次求稳去官方找了篇文档，进行操作，我</description>
+      </item>
+      
+      <item>
+        <title>在Idea中打造比较舒服的Protobuf开发环境</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/%E5%9C%A8idea%E4%B8%AD%E6%89%93%E9%80%A0%E6%AF%94%E8%BE%83%E8%88%92%E6%9C%8D%E7%9A%84protobuf%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/%E5%9C%A8idea%E4%B8%AD%E6%89%93%E9%80%A0%E6%AF%94%E8%BE%83%E8%88%92%E6%9C%8D%E7%9A%84protobuf%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
+        <description>安装Protobuf语法高亮插件 插件使用：Protobuf Support，安装重启后即可实现语法高亮。 配置Maven插件 首先，proto文件</description>
       </item>
       
       <item>
@@ -3651,6 +3732,24 @@
       </item>
       
       <item>
+        <title>理解Singular和repeated</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/%E7%90%86%E8%A7%A3singular%E5%92%8Crepeated/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/%E7%90%86%E8%A7%A3singular%E5%92%8Crepeated/</guid>
+        <description>消息字段可以是一下之一： singular：消息类型中只能拥有零个或一个此字段，这是proto3语法默认的字段规则 repeated：消息类型中</description>
+      </item>
+      
+      <item>
+        <title>理解拦截器</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%90%86%E8%A7%A3%E6%8B%A6%E6%88%AA%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%90%86%E8%A7%A3%E6%8B%A6%E6%88%AA%E5%99%A8/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>用一张表中的数据去更新另一张表</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E7%94%A8%E4%B8%80%E5%BC%A0%E8%A1%A8%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%8E%BB%E6%9B%B4%E6%96%B0%E5%8F%A6%E4%B8%80%E5%BC%A0%E8%A1%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3909,6 +4008,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/%E8%AF%BB%E5%8F%96application.yml%E7%9A%84%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E5%88%B0bean/</guid>
         <description>添加依赖： 1 2 3 4 5 6 7 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-configuration-processor&amp;lt;/artifactId&amp;gt; &amp;lt;optional&amp;gt;true&amp;lt;/optional&amp;gt; &amp;lt;/dependency&amp;gt; 开发application.yml: 1 2 3 4 5 6 7 8 9 project-config:template-di</description>
+      </item>
+      
+      <item>
+        <title>谷歌翻译当前的网页</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E8%B0%B7%E6%AD%8C%E7%BF%BB%E8%AF%91%E5%BD%93%E5%89%8D%E7%9A%84%E7%BD%91%E9%A1%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E8%B0%B7%E6%AD%8C%E7%BF%BB%E8%AF%91%E5%BD%93%E5%89%8D%E7%9A%84%E7%BD%91%E9%A1%B5/</guid>
+        <description>用这种方案目前没有翻过车，使用浏览器地址栏的翻译按钮，可能会翻车（翻译的时候，需要关闭代理）： 之前用过Edge的翻译功能，翻译效果并不是太好</description>
       </item>
       
       <item>

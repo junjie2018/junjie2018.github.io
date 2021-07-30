@@ -40,6 +40,15 @@
         <description>之前没有发现Chrome导出书签的时候默认不支持导出某个文件夹，只能将全部的书签到导出来。解决方案是新创建一个Chrome账户，然后将需要导</description>
       </item>
       
+      <item>
+        <title>谷歌翻译当前的网页</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E8%B0%B7%E6%AD%8C%E7%BF%BB%E8%AF%91%E5%BD%93%E5%89%8D%E7%9A%84%E7%BD%91%E9%A1%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E8%B0%B7%E6%AD%8C%E7%BF%BB%E8%AF%91%E5%BD%93%E5%89%8D%E7%9A%84%E7%BD%91%E9%A1%B5/</guid>
+        <description>用这种方案目前没有翻过车，使用浏览器地址栏的翻译按钮，可能会翻车（翻译的时候，需要关闭代理）： 之前用过Edge的翻译功能，翻译效果并不是太好</description>
+      </item>
+      
     
   </channel>
 </rss>

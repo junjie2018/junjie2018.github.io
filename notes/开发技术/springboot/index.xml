@@ -194,6 +194,15 @@
       </item>
       
       <item>
+        <title>理解拦截器</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%90%86%E8%A7%A3%E6%8B%A6%E6%88%AA%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%90%86%E8%A7%A3%E6%8B%A6%E6%88%AA%E5%99%A8/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>缺乏父依赖，导致项目报Redis链接错误</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%BC%BA%E4%B9%8F%E7%88%B6%E4%BE%9D%E8%B5%96%E5%AF%BC%E8%87%B4%E9%A1%B9%E7%9B%AE%E6%8A%A5redis%E9%93%BE%E6%8E%A5%E9%94%99%E8%AF%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

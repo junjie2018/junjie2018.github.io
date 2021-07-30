@@ -14,12 +14,57 @@
     
       
       <item>
+        <title>Protobuf枚举类型的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E6%9E%9A%E4%B8%BE%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E6%9E%9A%E4%B8%BE%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>简单的实验 proto如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 syntax = &amp;#34;proto3&amp;#34;;message SearchRequest3 { enum Corpus{ UNIVERSAL = 0; WEB = 1; IMAGES = 2; LOCAL = 3; NEWS = 4; PRODUCTS = 5; VIDEO = 6; } string query = 1; int32 page_number =</description>
+      </item>
+      
+      <item>
         <title>Protobuf生成的实体作为JSON.toJSON的参数时会无限循环</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E7%94%9F%E6%88%90%E7%9A%84%E5%AE%9E%E4%BD%93%E4%BD%9C%E4%B8%BAjson.tojson%E7%9A%84%E5%8F%82%E6%95%B0%E6%97%B6%E4%BC%9A%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E7%94%9F%E6%88%90%E7%9A%84%E5%AE%9E%E4%BD%93%E4%BD%9C%E4%B8%BAjson.tojson%E7%9A%84%E5%8F%82%E6%95%B0%E6%97%B6%E4%BC%9A%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF/</guid>
         <description>如下代码，会无限循环，知道堆栈移除： 1 2 3 4 5 6 7 StudentPOJO.Student item = StudentPOJO.Student.newBuilder() .setId(1) .setName(&amp;#34;100&amp;#34;) .build(); Object o = JSON.toJSON(item); 我使用的jar包版本分别为： 1 2 3 4 5 6 7 8 9 10 11 12 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.google.protobuf&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;protobuf-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.17.3&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.alibaba&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;fastjson&amp;lt;/artifactId&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>Protobuf的基础知识</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/protobuf%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+        <description>ProtoBuf的字段编号 消息定义中的每个字段都有一个唯一的编号。这些字段编号用于在消息二进制格式中标识您的字段，一旦您的消息类型被使用，就</description>
+      </item>
+      
+      <item>
+        <title>reserved的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/reserved%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/reserved%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>使用如下代码： 1 2 3 4 5 6 7 8 9 10 11 syntax = &amp;#34;proto3&amp;#34;;message SearchRequest2 { reserved 1, 2; reserved &amp;#34;result_per_page&amp;#34;; string query = 1; repeated int32 page_number = 2; repeated int32 result_per_page = 3;} 编辑器会报错，且无法正常编译： 小结 需要思考一下，如何在实</description>
+      </item>
+      
+      <item>
+        <title>在Idea中打造比较舒服的Protobuf开发环境</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/%E5%9C%A8idea%E4%B8%AD%E6%89%93%E9%80%A0%E6%AF%94%E8%BE%83%E8%88%92%E6%9C%8D%E7%9A%84protobuf%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/%E5%9C%A8idea%E4%B8%AD%E6%89%93%E9%80%A0%E6%AF%94%E8%BE%83%E8%88%92%E6%9C%8D%E7%9A%84protobuf%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
+        <description>安装Protobuf语法高亮插件 插件使用：Protobuf Support，安装重启后即可实现语法高亮。 配置Maven插件 首先，proto文件</description>
+      </item>
+      
+      <item>
+        <title>理解Singular和repeated</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/%E7%90%86%E8%A7%A3singular%E5%92%8Crepeated/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/protobuf/%E7%90%86%E8%A7%A3singular%E5%92%8Crepeated/</guid>
+        <description>消息字段可以是一下之一： singular：消息类型中只能拥有零个或一个此字段，这是proto3语法默认的字段规则 repeated：消息类型中</description>
       </item>
       
       <item>
