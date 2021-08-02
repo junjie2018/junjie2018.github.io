@@ -23,6 +23,15 @@
       </item>
       
       <item>
+        <title>Spring MVC如何上传文件</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring-mvc%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring-mvc%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/</guid>
+        <description>代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 @Slf4j @RestController public class FileUploadController { @PostMapping(&amp;#34;/upload&amp;#34;) private ResponseVo upload( @RequestPart(&amp;#34;file&amp;#34;) MultipartFile file, @RequestPart(&amp;#34;files&amp;#34;) MultipartFile[] files) throws IOException { log.info(&amp;#34;</description>
+      </item>
+      
+      <item>
         <title>Spring MVC对请求参数处理</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring-mvc%E5%AF%B9%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0%E5%A4%84%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -56,6 +65,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/webapplicationinitializer%E6%8E%A5%E5%8F%A3/</guid>
         <description>目前先整理一下这部分资料，以后要深入学习的。 WebApplicationInitializer是Spring MVC提供的一个接口，它会查找你</description>
+      </item>
+      
+      <item>
+        <title>开发自己的ErrorController</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84errorcontroller/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84errorcontroller/</guid>
+        <description>这部分我还没有系统研究，所以只能写一个Demo，我之所以注意到这个问题，是因为我们项目中，如果遇到404错误，会返回一个空的请求体，这使我在</description>
+      </item>
+      
+      <item>
+        <title>开发自己的Interceptor</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/</guid>
+        <description>拦截器代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 @Slf4j public class MyInterceptor implements HandlerInterceptor { @Override public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception { log.info(&amp;#34;preHandle Running&amp;#34;); return true; } @Override public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception { log.info(&amp;#34;postHandle Running&amp;#34;); } @Override</description>
       </item>
       
       <item>

@@ -14,21 +14,21 @@
     
       
       <item>
-        <title>EasyExcel填充模板（待完成）</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <title>EasyExcel填充模板</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
-        <description></description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF/</guid>
+        <description>需求的产生是这样的，客户提供了一份Excel模板文件，需要我们用数据库中的数据进行填充，要求我们填充后生成的Excel文件和模板基本一致。我</description>
       </item>
       
       <item>
-        <title>EasyExcel实现锁定表头（待完成）</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <title>EasyExcel实现锁定表头</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
-        <description></description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4/</guid>
+        <description>我开发的相应Handler如下，因为这部分需求比较久远了，具体的就不整理了： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32</description>
       </item>
       
     

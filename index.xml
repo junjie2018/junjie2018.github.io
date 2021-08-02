@@ -132,6 +132,15 @@
       </item>
       
       <item>
+        <title>@Repository和@Mapper的差别</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/repository%E5%92%8Cmapper%E7%9A%84%E5%B7%AE%E5%88%AB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/repository%E5%92%8Cmapper%E7%9A%84%E5%B7%AE%E5%88%AB/</guid>
+        <description>我尝试使用@Repository代替@Mapper，结果发现应用根本就无法启动起来。这个问题我之前实验中貌似不存在，在我SpringBoot</description>
+      </item>
+      
+      <item>
         <title>@Scope与@Lazy注解</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/scope%E4%B8%8Elazy%E6%B3%A8%E8%A7%A3/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -582,21 +591,21 @@
       </item>
       
       <item>
-        <title>EasyExcel填充模板（待完成）</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <title>EasyExcel填充模板</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
-        <description></description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF/</guid>
+        <description>需求的产生是这样的，客户提供了一份Excel模板文件，需要我们用数据库中的数据进行填充，要求我们填充后生成的Excel文件和模板基本一致。我</description>
       </item>
       
       <item>
-        <title>EasyExcel实现锁定表头（待完成）</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <title>EasyExcel实现锁定表头</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
-        <description></description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4/</guid>
+        <description>我开发的相应Handler如下，因为这部分需求比较久远了，具体的就不整理了： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32</description>
       </item>
       
       <item>
@@ -1491,30 +1500,12 @@
       </item>
       
       <item>
-        <title>LocalDateTime与timestamptz</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/</guid>
-        <description>这份笔记来自对另一份笔记的拆分，这篇笔记偏重于LocalDateTime，为了方便查阅，所以我移动到了另一篇笔记中。 项目目前对对timest</description>
-      </item>
-      
-      <item>
         <title>LocalDateTime与时间戳互相转换</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/localdatetime%E4%B8%8E%E6%97%B6%E9%97%B4%E6%88%B3%E4%BA%92%E7%9B%B8%E8%BD%AC%E6%8D%A2/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/localdatetime%E4%B8%8E%E6%97%B6%E9%97%B4%E6%88%B3%E4%BA%92%E7%9B%B8%E8%BD%AC%E6%8D%A2/</guid>
         <description>这是我使用在我们项目中的一个方案，我挺喜欢这个方案的： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 // LocalDateTime到时间戳 ZoneId systemDefaultZoneId = ZoneId.systemDefault(); ZoneOffset offset =</description>
-      </item>
-      
-      <item>
-        <title>LocalDateTime序列化时格式问题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E6%A0%BC%E5%BC%8F%E9%97%AE%E9%A2%98/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E6%A0%BC%E5%BC%8F%E9%97%AE%E9%A2%98/</guid>
-        <description>最近服务的消费者提出了新的需求，要求我们的时间字段的格式都必须为时间戳，我原本以为是一个简单的问题，结果发现Fastjson在处理Local</description>
       </item>
       
       <item>
@@ -2157,6 +2148,15 @@
       </item>
       
       <item>
+        <title>Spring MVC如何上传文件</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring-mvc%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring-mvc%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/</guid>
+        <description>代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 @Slf4j @RestController public class FileUploadController { @PostMapping(&amp;#34;/upload&amp;#34;) private ResponseVo upload( @RequestPart(&amp;#34;file&amp;#34;) MultipartFile file, @RequestPart(&amp;#34;files&amp;#34;) MultipartFile[] files) throws IOException { log.info(&amp;#34;</description>
+      </item>
+      
+      <item>
         <title>Spring MVC对请求参数处理</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring-mvc%E5%AF%B9%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0%E5%A4%84%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2760,15 +2760,6 @@
       </item>
       
       <item>
-        <title>为什么要使用LocalDateTime</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8localdatetime/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8localdatetime/</guid>
-        <description>核心原因在于Date、SimpleDateFormat等是非线程安全的，而LocalDataTime是线程安全的。 参考资料 为什么建议使用你L</description>
-      </item>
-      
-      <item>
         <title>为已存在的表删除、增加一个字段</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%BA%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A1%A8%E5%88%A0%E9%99%A4%E5%A2%9E%E5%8A%A0%E4%B8%80%E4%B8%AA%E5%AD%97%E6%AE%B5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2838,15 +2829,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E4%BB%A3%E7%A0%81%E5%BC%80%E5%8F%91%E5%B8%B8%E7%94%A8%E4%BE%9D%E8%B5%96/</guid>
         <description>这些依赖高频率的使用在我写Demo时： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.projectlombok&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;lombok&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.18.20&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;provided&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.commons&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;commons-lang3&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.12.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-configuration-processor&amp;lt;/artifactId&amp;gt; &amp;lt;optional&amp;gt;true&amp;lt;/optional&amp;gt; &amp;lt;/dependency&amp;gt;</description>
-      </item>
-      
-      <item>
-        <title>优化项目中LocalDateTime类型的应用</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%BC%98%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%ADlocaldatetime%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%BC%98%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%ADlocaldatetime%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
-        <description>本次优化的目标： Request、Response中不需要标注JSONField，序列化和反序列化时可自动完成Long类型到LocalDate</description>
       </item>
       
       <item>
@@ -3534,6 +3516,24 @@
       </item>
       
       <item>
+        <title>开发自己的ErrorController</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84errorcontroller/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84errorcontroller/</guid>
+        <description>这部分我还没有系统研究，所以只能写一个Demo，我之所以注意到这个问题，是因为我们项目中，如果遇到404错误，会返回一个空的请求体，这使我在</description>
+      </item>
+      
+      <item>
+        <title>开发自己的Interceptor</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/</guid>
+        <description>拦截器代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 @Slf4j public class MyInterceptor implements HandlerInterceptor { @Override public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception { log.info(&amp;#34;preHandle Running&amp;#34;); return true; } @Override public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception { log.info(&amp;#34;postHandle Running&amp;#34;); } @Override</description>
+      </item>
+      
+      <item>
         <title>引入spring-boot-starter-tomcat时做了什么</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%95%E5%85%A5spring-boot-starter-tomcat%E6%97%B6%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3750,15 +3750,6 @@
       </item>
       
       <item>
-        <title>理解拦截器</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%90%86%E8%A7%A3%E6%8B%A6%E6%88%AA%E5%99%A8/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%90%86%E8%A7%A3%E6%8B%A6%E6%88%AA%E5%99%A8/</guid>
-        <description></description>
-      </item>
-      
-      <item>
         <title>用一张表中的数据去更新另一张表</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E7%94%A8%E4%B8%80%E5%BC%A0%E8%A1%A8%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%8E%BB%E6%9B%B4%E6%96%B0%E5%8F%A6%E4%B8%80%E5%BC%A0%E8%A1%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3774,15 +3765,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%94%A8%E4%BA%8Ek8s%E9%9B%86%E7%BE%A4%E7%9A%84%E6%A8%A1%E6%9D%BF%E9%85%8D%E7%BD%AE%E5%8F%8A%E5%AF%B9%E7%94%9F%E6%88%90%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%B0%83%E6%95%B4/</guid>
         <description>对模板的配置 我在模板上执行了如下指令（凭记忆回忆的）： 配置下网络环境（我在配置模板机时，网络环境还没有搭起来，所以只能走全局代理的方式了） #</description>
-      </item>
-      
-      <item>
-        <title>用于LocalDateTime的Codec</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E7%94%A8%E4%BA%8Elocaldatetime%E7%9A%84codec/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E7%94%A8%E4%BA%8Elocaldatetime%E7%9A%84codec/</guid>
-        <description>代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 package com.sdstc.pdm.common.codec; import com.alibaba.fastjson.parser.DefaultJSONParser; import com.alibaba.fastjson.parser.deserializer.ObjectDeserializer; import com.alibaba.fastjson.serializer.JSONSerializer; import com.alibaba.fastjson.serializer.ObjectSerializer; import java.io.IOException; import java.lang.reflect.Type; import java.time.LocalDateTime; import java.time.ZoneOffset; public class</description>
       </item>
       
       <item>

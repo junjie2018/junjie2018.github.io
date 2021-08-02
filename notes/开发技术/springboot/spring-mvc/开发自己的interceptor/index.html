@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LocalDateTime与timestamptz – 小桀的笔记本</title>
+    <title>开发自己的Interceptor – 小桀的笔记本</title>
     
 
 
@@ -27,7 +27,7 @@
     
     var baseurl = JSON.parse("\"http://junjie2018.github.io\"");
     
-    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/\"");
+    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1084,14 +1084,14 @@
 
 
 <meta property="og:site_name" content="小桀的笔记本">
-<meta property="og:title" content="LocalDateTime与timestamptz">
-<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/">
+<meta property="og:title" content="开发自己的Interceptor">
+<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/">
 <meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.85.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/">
+<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1115,11 +1115,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "LocalDateTime与timestamptz",
+    "headline": "开发自己的Interceptor",
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
-    "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/",
-    "description": "这份笔记来自对另一份笔记的拆分，这篇笔记偏重于LocalDateTime，为了方便查阅，所以我移动到了另一篇笔记中。 项目目前对对timest",
+    "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/",
+    "description": "拦截器代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 @Slf4j public class MyInterceptor implements HandlerInterceptor { @Override public boolean …",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -1168,7 +1168,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      LocalDateTime与timestamptz
+      开发自己的Interceptor
     
   </h6>
   <ul>
@@ -1198,7 +1198,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -1225,7 +1225,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -1369,7 +1369,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -1409,7 +1409,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -1465,7 +1465,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -1609,7 +1609,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -1636,7 +1636,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -1796,7 +1796,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -1823,7 +1823,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -1887,7 +1887,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -1951,7 +1951,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -1999,7 +1999,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -2167,7 +2167,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -2271,7 +2271,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -2343,7 +2343,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -2439,7 +2439,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -2711,7 +2711,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -2759,7 +2759,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -2807,7 +2807,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -2834,7 +2834,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -2991,7 +2991,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3039,7 +3039,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3079,7 +3079,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3151,7 +3151,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3191,7 +3191,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3247,7 +3247,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3343,7 +3343,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3463,7 +3463,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3503,7 +3503,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3543,7 +3543,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3599,7 +3599,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3658,7 +3658,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3685,13 +3685,13 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF%E5%BE%85%E5%AE%8C%E6%88%90/" class="menu__title " data-depth="1">EasyExcel填充模板（待完成）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF/" class="menu__title " data-depth="1">EasyExcel填充模板</a>
         </li>
       
     
@@ -3699,7 +3699,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4%E5%BE%85%E5%AE%8C%E6%88%90/" class="menu__title " data-depth="1">EasyExcel实现锁定表头（待完成）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4/" class="menu__title " data-depth="1">EasyExcel实现锁定表头</a>
         </li>
       
     
@@ -3733,7 +3733,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3813,7 +3813,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3885,7 +3885,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -3933,7 +3933,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -4133,7 +4133,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -4221,85 +4221,13 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/kafka/%E6%B6%88%E8%B4%B9%E7%A1%AE%E8%AE%A4%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="1">消费确认失败的问题</a>
-        </li>
-      
-    
-  </ul>
-  
-
-      
-    
-      
-        
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/">
-    <span class="menu__title--collapse-text">
-      LocalDateTime
-    </span>
-    <span class="menu__title--icon down">
-      
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
-      
-    </span>
-  </li>
-  <ul class="menu__list active" data-data=/localdatetime/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/" class="menu__title active" data-depth="1">LocalDateTime与timestamptz</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E6%A0%BC%E5%BC%8F%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="1">LocalDateTime序列化时格式问题</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8localdatetime/" class="menu__title " data-depth="1">为什么要使用LocalDateTime</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%BC%98%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%ADlocaldatetime%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/" class="menu__title " data-depth="1">优化项目中LocalDateTime类型的应用</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E7%94%A8%E4%BA%8Elocaldatetime%E7%9A%84codec/" class="menu__title " data-depth="1">用于LocalDateTime的Codec</a>
         </li>
       
     
@@ -4333,7 +4261,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -4389,7 +4317,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -4416,7 +4344,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -4453,6 +4381,14 @@
   </ul>
   
 
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/repository%E5%92%8Cmapper%E7%9A%84%E5%B7%AE%E5%88%AB/" class="menu__title " data-depth="1">@Repository和@Mapper的差别</a>
+        </li>
       
     
       
@@ -4629,7 +4565,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -4701,7 +4637,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -4789,7 +4725,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -4965,7 +4901,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5005,7 +4941,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5061,7 +4997,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5125,7 +5061,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5173,7 +5109,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5211,17 +5147,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/">
+  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/">
     <span class="menu__title--collapse-text">
       SpringBoot
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list active" data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5248,7 +5184,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5312,7 +5248,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5398,17 +5334,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
     <span class="menu__title--collapse-text">
       Spring
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list active" data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5558,23 +5494,31 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/">
     <span class="menu__title--collapse-text">
       Spring MVC
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list active" data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/servlet%E5%92%8Cfilter%E7%9A%84%E5%8C%BA%E5%88%AB/" class="menu__title " data-depth="2">Servlet和Filter的区别</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring-mvc%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/" class="menu__title " data-depth="2">Spring MVC如何上传文件</a>
         </li>
       
     
@@ -5607,6 +5551,22 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/webapplicationinitializer%E6%8E%A5%E5%8F%A3/" class="menu__title " data-depth="2">WebApplicationInitializer接口</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84errorcontroller/" class="menu__title " data-depth="2">开发自己的ErrorController</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/" class="menu__title active" data-depth="2">开发自己的Interceptor</a>
         </li>
       
     
@@ -5664,7 +5624,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5851,14 +5811,6 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%90%86%E8%A7%A3%E6%8B%A6%E6%88%AA%E5%99%A8/" class="menu__title " data-depth="1">理解拦截器</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%BC%BA%E4%B9%8F%E7%88%B6%E4%BE%9D%E8%B5%96%E5%AF%BC%E8%87%B4%E9%A1%B9%E7%9B%AE%E6%8A%A5redis%E9%93%BE%E6%8E%A5%E9%94%99%E8%AF%AF/" class="menu__title " data-depth="1">缺乏父依赖，导致项目报Redis链接错误</a>
         </li>
       
@@ -5912,7 +5864,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5939,7 +5891,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -5979,7 +5931,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -6179,7 +6131,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -6251,7 +6203,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -6278,7 +6230,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -6318,7 +6270,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -6366,7 +6318,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -6414,7 +6366,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -6603,7 +6555,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -6723,7 +6675,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -6835,7 +6787,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -7035,7 +6987,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -7309,7 +7261,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">LocalDateTime与timestamptz</h2>
+        <h2 class="title">开发自己的Interceptor</h2>
       </div>
     </div>
   </div>
@@ -7322,6 +7274,8 @@
   
   <ol>
     
+  
+  
   
   
   
@@ -7354,14 +7308,21 @@
   
   <li >
     
-      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/" class="capitalize">LocalDateTime</a>
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/" class="capitalize">SpringBoot</a>
+    
+  </li>
+  
+  
+  <li >
+    
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/" class="capitalize">Spring MVC</a>
     
   </li>
   
   
   <li  class="is-active" >
     
-      <span>LocalDateTime与timestamptz</span>
+      <span>开发自己的Interceptor</span>
     
   </li>
   
@@ -7403,7 +7364,7 @@
         <div class="menu">
   <h6 class="menu__label">
     
-      LocalDateTime与timestamptz
+      开发自己的Interceptor
     
   </h6>
   <ul>
@@ -7433,7 +7394,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -7460,7 +7421,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -7604,7 +7565,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -7644,7 +7605,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -7700,7 +7661,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -7844,7 +7805,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -7871,7 +7832,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -8031,7 +7992,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -8058,7 +8019,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -8122,7 +8083,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -8186,7 +8147,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -8234,7 +8195,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -8402,7 +8363,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -8506,7 +8467,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -8578,7 +8539,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -8674,7 +8635,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -8946,7 +8907,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -8994,7 +8955,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9042,7 +9003,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9069,7 +9030,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9226,7 +9187,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9274,7 +9235,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9314,7 +9275,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9386,7 +9347,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9426,7 +9387,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9482,7 +9443,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9578,7 +9539,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9698,7 +9659,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9738,7 +9699,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9778,7 +9739,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9834,7 +9795,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9893,7 +9854,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -9920,13 +9881,13 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF%E5%BE%85%E5%AE%8C%E6%88%90/" class="menu__title " data-depth="1">EasyExcel填充模板（待完成）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%A1%AB%E5%85%85%E6%A8%A1%E6%9D%BF/" class="menu__title " data-depth="1">EasyExcel填充模板</a>
         </li>
       
     
@@ -9934,7 +9895,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4%E5%BE%85%E5%AE%8C%E6%88%90/" class="menu__title " data-depth="1">EasyExcel实现锁定表头（待完成）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4/" class="menu__title " data-depth="1">EasyExcel实现锁定表头</a>
         </li>
       
     
@@ -9968,7 +9929,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -10048,7 +10009,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -10120,7 +10081,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -10168,7 +10129,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -10368,7 +10329,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -10456,85 +10417,13 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/kafka/%E6%B6%88%E8%B4%B9%E7%A1%AE%E8%AE%A4%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="1">消费确认失败的问题</a>
-        </li>
-      
-    
-  </ul>
-  
-
-      
-    
-      
-        
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/">
-    <span class="menu__title--collapse-text">
-      LocalDateTime
-    </span>
-    <span class="menu__title--icon down">
-      
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
-      
-    </span>
-  </li>
-  <ul class="menu__list active" data-data=/localdatetime/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/" class="menu__title active" data-depth="1">LocalDateTime与timestamptz</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E6%A0%BC%E5%BC%8F%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="1">LocalDateTime序列化时格式问题</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8localdatetime/" class="menu__title " data-depth="1">为什么要使用LocalDateTime</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E4%BC%98%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%ADlocaldatetime%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%94%E7%94%A8/" class="menu__title " data-depth="1">优化项目中LocalDateTime类型的应用</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/%E7%94%A8%E4%BA%8Elocaldatetime%E7%9A%84codec/" class="menu__title " data-depth="1">用于LocalDateTime的Codec</a>
         </li>
       
     
@@ -10568,7 +10457,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -10624,7 +10513,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -10651,7 +10540,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -10688,6 +10577,14 @@
   </ul>
   
 
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/repository%E5%92%8Cmapper%E7%9A%84%E5%B7%AE%E5%88%AB/" class="menu__title " data-depth="1">@Repository和@Mapper的差别</a>
+        </li>
       
     
       
@@ -10864,7 +10761,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -10936,7 +10833,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -11024,7 +10921,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -11200,7 +11097,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -11240,7 +11137,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -11296,7 +11193,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -11360,7 +11257,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -11408,7 +11305,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -11446,17 +11343,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/">
+  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/">
     <span class="menu__title--collapse-text">
       SpringBoot
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list active" data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -11483,7 +11380,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -11547,7 +11444,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -11633,17 +11530,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
     <span class="menu__title--collapse-text">
       Spring
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list active" data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -11793,23 +11690,31 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/">
     <span class="menu__title--collapse-text">
       Spring MVC
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list active" data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/servlet%E5%92%8Cfilter%E7%9A%84%E5%8C%BA%E5%88%AB/" class="menu__title " data-depth="2">Servlet和Filter的区别</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/spring-mvc%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/" class="menu__title " data-depth="2">Spring MVC如何上传文件</a>
         </li>
       
     
@@ -11842,6 +11747,22 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/webapplicationinitializer%E6%8E%A5%E5%8F%A3/" class="menu__title " data-depth="2">WebApplicationInitializer接口</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84errorcontroller/" class="menu__title " data-depth="2">开发自己的ErrorController</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/" class="menu__title active" data-depth="2">开发自己的Interceptor</a>
         </li>
       
     
@@ -11899,7 +11820,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -12086,14 +12007,6 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%90%86%E8%A7%A3%E6%8B%A6%E6%88%AA%E5%99%A8/" class="menu__title " data-depth="1">理解拦截器</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%BC%BA%E4%B9%8F%E7%88%B6%E4%BE%9D%E8%B5%96%E5%AF%BC%E8%87%B4%E9%A1%B9%E7%9B%AE%E6%8A%A5redis%E9%93%BE%E6%8E%A5%E9%94%99%E8%AF%AF/" class="menu__title " data-depth="1">缺乏父依赖，导致项目报Redis链接错误</a>
         </li>
       
@@ -12147,7 +12060,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -12174,7 +12087,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -12214,7 +12127,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -12414,7 +12327,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -12486,7 +12399,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -12513,7 +12426,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -12553,7 +12466,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -12601,7 +12514,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -12649,7 +12562,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -12838,7 +12751,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -12958,7 +12871,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -13070,7 +12983,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -13270,7 +13183,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E4%B8%8Etimestamptz/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84interceptor/>
     
       
         
@@ -13317,28 +13230,7 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <p>这份笔记来自对另一份笔记的拆分，这篇笔记偏重于LocalDateTime，为了方便查阅，所以我移动到了另一篇笔记中。</p>
-<h2 id="项目目前对对timestamptz的应用">项目目前对对timestamptz的应用</h2>
-<p>首先对着我们库执行<code>show timezone</code>得到的结果为GMT。GMT表明了我们数据库服务设计的初心：我们中美服务器的数据库都统一使用一个时区。结合我们的实践，现在我产生了如下几个问题：</p>
-<ol>
-<li>
-<p>向表中插入一条当前系统的时间，然后再去查表中的记录，这个时候的时间是什么呢（我期待的是做过转换的GMT时间）</p>
-</li>
-<li>
-<p>当我们的项目链接到数据库时，此时的链接的时区是什么，也是GMT么？</p>
-</li>
-<li>
-<p>我们用于接受timestamptz的LocalDateTime类型，有什么特殊的地方么，在插入和查询结果时。</p>
-</li>
-<li>
-<p>我们的Java服务实例的时区对整个时间戳有什么影响么，要求我们的Java实例必须设置正确的时区吗？</p>
-</li>
-<li>
-<p>到底如何和前端配置，前端的意思是我们可以给一个+00的时间戳，但是我们又使用了LocalDateTime，LocalDateTime在反序列化时貌似自动完成了+08运算。</p>
-</li>
-</ol>
-<h3 id="第一个问题">第一个问题</h3>
-<p>如下实验：</p>
+    <p>拦截器代码如下：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -13358,37 +13250,101 @@
 </span><span class="lnt">15
 </span><span class="lnt">16
 </span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">
-CREATE TABLE timestamp_demo <span class="o">(</span>ts TIMESTAMP, tstz TIMESTAMPTZ<span class="o">)</span><span class="p">;</span>
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="nd">@Slf4j</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">MyInterceptor</span> <span class="kd">implements</span> <span class="n">HandlerInterceptor</span> <span class="o">{</span>
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">preHandle</span><span class="o">(</span><span class="n">HttpServletRequest</span> <span class="n">request</span><span class="o">,</span> <span class="n">HttpServletResponse</span> <span class="n">response</span><span class="o">,</span> <span class="n">Object</span> <span class="n">handler</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+        <span class="n">log</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">&#34;preHandle Running&#34;</span><span class="o">);</span>
+        <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+    <span class="o">}</span>
 
-INSERT INTO timestamp_demo <span class="o">(</span>ts, tstz<span class="o">)</span>
-VALUES
- <span class="o">(</span>
- <span class="s1">&#39;2021-07-19 11:00:00-00&#39;</span>,
- <span class="s1">&#39;2021-07-19 11:00:00-00&#39;</span>
- <span class="o">)</span><span class="p">;</span>
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">postHandle</span><span class="o">(</span><span class="n">HttpServletRequest</span> <span class="n">request</span><span class="o">,</span> <span class="n">HttpServletResponse</span> <span class="n">response</span><span class="o">,</span> <span class="n">Object</span> <span class="n">handler</span><span class="o">,</span> <span class="n">ModelAndView</span> <span class="n">modelAndView</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+        <span class="n">log</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">&#34;postHandle Running&#34;</span><span class="o">);</span>
+    <span class="o">}</span>
 
-INSERT INTO timestamp_demo <span class="o">(</span>ts, tstz<span class="o">)</span>
-VALUES
- <span class="o">(</span>
- now<span class="o">()</span>,
- now<span class="o">()</span>
- <span class="o">)</span><span class="p">;</span>
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">afterCompletion</span><span class="o">(</span><span class="n">HttpServletRequest</span> <span class="n">request</span><span class="o">,</span> <span class="n">HttpServletResponse</span> <span class="n">response</span><span class="o">,</span> <span class="n">Object</span> <span class="n">handler</span><span class="o">,</span> <span class="n">Exception</span> <span class="n">ex</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+        <span class="n">log</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">&#34;afterCompletion Running&#34;</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
 
 </code></pre></td></tr></table>
 </div>
-</div><p>最后查看数据库中的数据：</p>
+</div><p>配置拦截器的代码如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="nd">@Configuration</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">WebConfig</span> <span class="kd">implements</span> <span class="n">WebMvcConfigurer</span> <span class="o">{</span>
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">addInterceptors</span><span class="o">(</span><span class="n">InterceptorRegistry</span> <span class="n">registry</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">registry</span><span class="o">.</span><span class="na">addInterceptor</span><span class="o">(</span><span class="k">new</span> <span class="n">MyInterceptor</span><span class="o">())</span>
+                <span class="o">.</span><span class="na">addPathPatterns</span><span class="o">(</span><span class="s">&#34;/**&#34;</span><span class="o">)</span>
+                <span class="o">.</span><span class="na">excludePathPatterns</span><span class="o">(</span><span class="s">&#34;/&#34;</span><span class="o">,</span> <span class="s">&#34;/login&#34;</span><span class="o">,</span> <span class="s">&#34;/css/**&#34;</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>遇到的问题：</p>
+<ol>
+<li>WebConfig类上忘记<code>@Configuration</code>，导致配置的拦截器不生效。</li>
+</ol>
+<h2 id="拦截器原理">拦截器原理</h2>
+<ol>
+<li>根据当前请求，找到<code>HandlerExecutionChain</code>（可以处理请求的handler以及handler的所有拦截器）</li>
+</ol>
 <p><p class="md__image">
-  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2021-07-19-11-01-12.png" alt="2021-07-19-11-01-12"  />
+  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2021-08-02-09-38-51.png" alt="2021-08-02-09-38-51"  />
 </p></p>
-<p>我发现当我使用字符串的进行timestamptz类型插入的时候，timestamptz类型的字段没有按照我的现象根据我操作系统当前所在的时区（链接、用户所在的时区），将时间转换成GMT时间。按照MySQL的经验，<code>show timezone</code>或许得到的就是当前链接（即session）的时区，那么这个现象是可以理解的：我在GMT的时区里插入任何数据，都不需要进行转换。</p>
-<p>我现在手动切换当前session时区到PRC，我先执行了一次select语句，我发现timestamp的数据没有任何变化，timestamptz类型的数据按照设计完成了+8运算。</p>
+<ol start="2">
+<li>
+<p>先来顺序执行 所有拦截器的 preHandle方法</p>
+<ul>
+<li>如果当前拦截器prehandler返回为true。则执行下一个拦截器的preHandle</li>
+<li>如果当前拦截器返回为false。直接倒序执行所有已经执行了的拦截器的afterCompletion</li>
+<li>如果任何一个拦截器返回false。直接跳出不执行目标方法</li>
+</ul>
+</li>
+<li>
+<p>所有拦截器都返回true。执行目标方法</p>
+</li>
+<li>
+<p>倒序执行所有拦截器的postHandle方法。</p>
+</li>
+<li>
+<p>前面的步骤有任何异常都会直接倒序触发afterCompletion</p>
+</li>
+<li>
+<p>页面成功渲染完成以后，也会倒序触发afterCompletion</p>
+</li>
+</ol>
 <p><p class="md__image">
-  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2021-07-19-11-18-14.png" alt="2021-07-19-11-18-14"  />
+  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2021-07-28-20-30-22.png" alt="2021-07-28-20-30-22"  />
 </p></p>
-<p>实验到这儿，我才发现了一些问题，我在插入数据的时候，已经带上了时区~~~，秒后面的+00和-00其实就是时区信息，我一直没有意识到这个问题，不过好在该细节对前面我作出来的分析并没有任何影响，我前面的分析都是正确的。此时我将当前链接的时区设置为PRC，然后用如下代码进行插入实验，最终插入数据库的数据确实完成了PRC时区到GMT时区（即UTC时间）转换，非常的开心。</p>
+<h2 id="拦截器的应用">拦截器的应用</h2>
+<h3 id="userinfointerceptor">UserInfoInterceptor</h3>
+<p>这个拦截器是用于拦截token信息的，我现在逐行研究该拦截器的实现：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -13396,27 +13352,74 @@ VALUES
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">
-INSERT INTO timestamp_demo <span class="o">(</span>ts, tstz<span class="o">)</span>
-VALUES
- <span class="o">(</span>
- <span class="s1">&#39;2021-07-19 11:00:00&#39;</span>,
- <span class="s1">&#39;2021-07-19 11:00:00&#39;</span>
- <span class="o">)</span><span class="p">;</span>
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="k">if</span> <span class="o">(</span><span class="n">response</span><span class="o">.</span><span class="na">getStatus</span><span class="o">()</span> <span class="o">==</span> <span class="n">HttpServletResponse</span><span class="o">.</span><span class="na">SC_NOT_FOUND</span><span class="o">)</span> <span class="o">{</span>
+   <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+<span class="o">}</span>
 
 </code></pre></td></tr></table>
 </div>
-</div><p><p class="md__image">
-  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2021-07-19-11-24-48.png" alt="2021-07-19-11-24-48"  />
-</p></p>
-<p>发现数据没有像我想象的一样转换成GMT时间。看了上面的资料，我认为可能是因为我用户或者我链接的所在的时区影响了数据库出数据（自动帮我完成了时区的缓存）。</p>
-<h3 id="第二个问题">第二个问题</h3>
-<p>我用如下代码，查看了当前数据库的链接，发现数据库的链接的时区为：Asia/Shanghai。</p>
+</div><p>这行代码是想处理404错误，目前的实现方案会导致调用接口时如果接口不存在，则返回空请求体。我建议是实现ErrorController解决该问题。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="c1">// 如果不是映射到方法直接通过
+</span><span class="c1"></span><span class="k">if</span> <span class="o">(!(</span><span class="n">object</span> <span class="k">instanceof</span> <span class="n">HandlerMethod</span><span class="o">))</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+<span class="o">}</span>
+
+<span class="k">if</span> <span class="o">(</span><span class="n">request</span><span class="o">.</span><span class="na">getRequestURI</span><span class="o">().</span><span class="na">contains</span><span class="o">(</span><span class="s">&#34;/internal/&#34;</span><span class="o">))</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+<span class="o">}</span>
+
+
+</code></pre></td></tr></table>
+</div>
+</div><p>我不知道这两行代码的含义，我不确定在什么情况下不是映射到方法。而且，在我看来，我们应该在拦截器处时，排除掉静态资源的URL。同样的对于<code>/internal</code>资源，我们可以在配置拦截器时排除掉。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="c1">//检查是否有passtoken注释，有则跳过认证
+</span><span class="c1"></span><span class="n">HandlerMethod</span> <span class="n">handlerMethod</span> <span class="o">=</span> <span class="o">(</span><span class="n">HandlerMethod</span><span class="o">)</span> <span class="n">object</span><span class="o">;</span>
+<span class="n">Method</span> <span class="n">method</span> <span class="o">=</span> <span class="n">handlerMethod</span><span class="o">.</span><span class="na">getMethod</span><span class="o">();</span>
+<span class="k">if</span> <span class="o">(</span><span class="n">method</span><span class="o">.</span><span class="na">isAnnotationPresent</span><span class="o">(</span><span class="n">PassToken</span><span class="o">.</span><span class="na">class</span><span class="o">))</span> <span class="o">{</span>
+    <span class="n">PassToken</span> <span class="n">passToken</span> <span class="o">=</span> <span class="n">method</span><span class="o">.</span><span class="na">getAnnotation</span><span class="o">(</span><span class="n">PassToken</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">passToken</span><span class="o">.</span><span class="na">required</span><span class="o">())</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>这一段代码是说，如果我们的方法被<code>@PassToken</code>注解了，则直接放行。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -13431,58 +13434,82 @@ VALUES
 </span><span class="lnt">10
 </span><span class="lnt">11
 </span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-java" data-lang="java">
-<span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span> <span class="n">timezones</span> <span class="o">=</span> <span class="n">jdbcTemplate</span><span class="o">.</span><span class="na">query</span><span class="o">(</span>
-        <span class="s">&#34;show time zone&#34;</span><span class="o">,</span>
-        <span class="k">new</span> <span class="n">RowMapper</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;()</span> <span class="o">{</span>
-            <span class="nd">@Override</span>
-            <span class="kd">public</span> <span class="n">String</span> <span class="nf">mapRow</span><span class="o">(</span><span class="n">ResultSet</span> <span class="n">rs</span><span class="o">,</span> <span class="kt">int</span> <span class="n">rowNum</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">SQLException</span> <span class="o">{</span>
-                <span class="k">return</span> <span class="n">rs</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="n">1</span><span class="o">);</span>
-            <span class="o">}</span>
-        <span class="o">});</span>
+<span class="n">String</span> <span class="n">userJson</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="na">getHeader</span><span class="o">(</span><span class="s">&#34;user&#34;</span><span class="o">);</span>
+<span class="n">JSONObject</span> <span class="n">user</span><span class="o">;</span>
 
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">timezones</span><span class="o">);</span>
+<span class="k">if</span> <span class="o">(</span><span class="n">StringUtils</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">(</span><span class="n">userJson</span><span class="o">))</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">StringUtils</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">(</span><span class="n">request</span><span class="o">.</span><span class="na">getHeader</span><span class="o">(</span><span class="n">APICons</span><span class="o">.</span><span class="na">TOKEN</span><span class="o">)))</span> <span class="o">{</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="n">TokenNotFoundException</span><span class="o">(</span><span class="s">&#34;token required&#34;</span><span class="o">);</span>
+    <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+        <span class="n">user</span> <span class="o">=</span> <span class="n">apiUtils</span><span class="o">.</span><span class="na">currentUser</span><span class="o">();</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">user</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">throw</span> <span class="k">new</span> <span class="n">PermissionException</span><span class="o">(</span><span class="s">&#34;not authorized&#34;</span><span class="o">);</span>
+        <span class="o">}</span>
+
+    <span class="o">}</span>
+<span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+    <span class="k">try</span> <span class="o">{</span>
+        <span class="n">userJson</span> <span class="o">=</span> <span class="n">URLDecoder</span><span class="o">.</span><span class="na">decode</span><span class="o">(</span><span class="n">userJson</span><span class="o">,</span> <span class="s">&#34;utf-8&#34;</span><span class="o">);</span>
+        <span class="n">user</span> <span class="o">=</span> <span class="n">JSONObject</span><span class="o">.</span><span class="na">parseObject</span><span class="o">(</span><span class="n">userJson</span><span class="o">);</span>
+    <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">UnsupportedEncodingException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="n">ValidateException</span><span class="o">(</span><span class="s">&#34;user info not validate&#34;</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="n">request</span><span class="o">.</span><span class="na">setAttribute</span><span class="o">(</span><span class="n">APICons</span><span class="o">.</span><span class="na">REQUEST_USER</span><span class="o">,</span> <span class="n">user</span><span class="o">);</span>
+<span class="n">request</span><span class="o">.</span><span class="na">setAttribute</span><span class="o">(</span><span class="n">APICons</span><span class="o">.</span><span class="na">REQUEST_USER_ID</span><span class="o">,</span> <span class="n">user</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="s">&#34;id&#34;</span><span class="o">));</span>
+<span class="n">request</span><span class="o">.</span><span class="na">setAttribute</span><span class="o">(</span><span class="n">APICons</span><span class="o">.</span><span class="na">REQUEST_COMPANY_ID</span><span class="o">,</span> <span class="n">user</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="s">&#34;companyId&#34;</span><span class="o">));</span>
 
 </code></pre></td></tr></table>
 </div>
-</div><p>这个结果是比较出乎我的意料的，因为我们数据库的请求url上并没有配置时区，我现在不知道这个时区数据是从何而来的。最后我查找资料，成功的将SpringBoot实例的时区更换为了GMT，相关笔记我整理在了SpringBoot分类下。</p>
-<p>我仅仅只是处于技术探索的目的进行SpringBoot时区的调整，实践中该技术貌似没有太大的需求。</p>
-<h3 id="第三个问题">第三个问题</h3>
-<p>在写入的时候，在我们自定义的typeHandler中，LocalDateTime类型的参数被转换成了Timestamp类型的对象。这个然后这个timestamp对象由pg自己的驱动器了进行处理（我想pg自己的驱动器类应该很清楚知道pg数据库支持的类型，所以可以很好的根据数据库中的类型处理这个timestamp对象，我之所以作出这个判断，是因为我在开发库上做实验，而开发库没有开启sql日志）</p>
-<p>在读出数据的时候，在我们自定义的typeHandler中，pg的数据库交给我们一个Timestamp类型的对象，然后我们将这个timestamp对象转换成LocalDateTime对象。整个过程平平无奇，并没有涉及到过于底层的东西（最底层的东西都被PG的驱动器类自己处理了）。</p>
-<h3 id="第四个问题">第四个问题</h3>
-<p>SpringBoot实例所设置的时区，对时间戳影响很大。我们在程序内部是很少使用时间戳概念的，我们使用的都是Date、Time、DateTime之类的概念（我们不会拿时间戳做运算，但是我们会拿DateTime等做运算）。我之前没有意识到这个问题，其实Date、Time、DateTime之类的概念都蕴含了时区的概念，也就是说，我们只能说某某时区的Date、Time和DateTime，而不能脱离时区谈论这些概念。</p>
-<p>因此，从这些对象转换成时间戳的时候，运算过程一定是带上了时区的。举个例子，一个时间<code>2021-07-19 16:00:00</code>转换成时间戳，如果单纯的计算秒数，我们实际上是假设了这个时间是零时区的。但是我们目前处于+8时区，所以在计算秒数的时候，需要先将这个时间减去8小时，然后再计算秒数。</p>
-<p>SpringBoot实例应该会根据系统当前的时区，来设置整个实例的时区，同时，这个时区会用于与pg数据建立链接（即我们的链接的session和SpringBoot的时区是一致的）。</p>
-<h3 id="第五个问题">第五个问题</h3>
-<p>综上，产生这个问题的原因在我们项目中在讲LocalDateTime转换成时间戳的时传递了错误的ZoneOffset，我们硬编码了一个+8的值。当项目跑在国内的环境中时，这个问题的印象是比较小的，当我们的项目跑在国外的环境中时，这个问题时灾难的，因为此时的LocalDateTime中记录的时区并不是+8时区，但是强行按照了+8时区进行时间戳转换，所以算出来的数据是错误的。</p>
-<p>此时如下编码，即可解决这个问题：</p>
+</div><p>接下来，我们尝试从Header中获取User信息，如果获取的用户信息为空，我们尝试获取Token信息，如果Token信息也为空，则我们抛出异常。如果Token信息不为框，则我们用Token从Redis中获取用户的信息；如果获取的用户信息不为空，则我们直接解析Token的信息。</p>
+<p>最后将解析的信息塞到Attributes中，完美收工。</p>
+<p>最后，对该拦截器的配置如下，配置的项过于粗糙，导致我们需要在拦截器中进行假设。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-java" data-lang="java">
-<span class="n">LocalDateTime</span> <span class="n">localDateTime</span> <span class="o">=</span> <span class="n">LocalDateTime</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="n">2021</span><span class="o">,</span> <span class="n">7</span><span class="o">,</span> <span class="n">19</span><span class="o">,</span> <span class="n">15</span><span class="o">,</span> <span class="n">0</span><span class="o">,</span> <span class="n">0</span><span class="o">);</span>
-
-<span class="n">ZoneId</span> <span class="n">systemDefaultZoneId</span> <span class="o">=</span> <span class="n">ZoneId</span><span class="o">.</span><span class="na">systemDefault</span><span class="o">();</span>
-<span class="n">ZoneOffset</span> <span class="n">offset</span> <span class="o">=</span> <span class="n">systemDefaultZoneId</span><span class="o">.</span><span class="na">getRules</span><span class="o">().</span><span class="na">getOffset</span><span class="o">(</span><span class="n">localDateTime</span><span class="o">);</span>
-
-<span class="n">localDateTime</span><span class="o">.</span><span class="na">toInstant</span><span class="o">(</span><span class="n">offset</span><span class="o">).</span><span class="na">toEpochMilli</span><span class="o">();</span>
+<span class="n">registry</span><span class="o">.</span><span class="na">addInterceptor</span><span class="o">(</span><span class="n">userInfoInterceptor</span><span class="o">).</span><span class="na">addPathPatterns</span><span class="o">(</span><span class="s">&#34;/**&#34;</span><span class="o">).</span><span class="na">order</span><span class="o">(</span><span class="n">3</span><span class="o">);</span>
 
 </code></pre></td></tr></table>
 </div>
-</div><p>这段代码中，我们应用当前系统所在的时区来转换LocalDateTime对象，是符合需求的。</p>
+</div><h2 id="requestinfoforwardinterceptor">RequestInfoForwardInterceptor</h2>
+<p>该拦截器是为了让我们的所有返回体带上我们的trace code，核心代码如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">response</span><span class="o">.</span><span class="na">setHeader</span><span class="o">(</span><span class="n">APICons</span><span class="o">.</span><span class="na">TRACKING_CODE</span><span class="o">,</span> <span class="n">request</span><span class="o">.</span><span class="na">getHeader</span><span class="o">(</span><span class="n">APICons</span><span class="o">.</span><span class="na">TRACKING_CODE</span><span class="o">));</span>
 
+</code></pre></td></tr></table>
+</div>
+</div>
   </article>
 </div>
       
@@ -13490,10 +13517,17 @@ VALUES
 <nav class="pagination-single">
   
     
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84errorcontroller/" title="开发自己的ErrorController" class="pagination-single__left">
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
+        </div>
+        <div class="pagination-single__right-title">开发自己的ErrorController</div>
+      </a>
+    
     <div class="grow"></div>
     
-      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/localdatetime/localdatetime%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E6%A0%BC%E5%BC%8F%E9%97%AE%E9%A2%98/" title="LocalDateTime序列化时格式问题" class="pagination-single__right">
-        <div class="pagination-single__left-title">LocalDateTime序列化时格式问题</div>
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E5%BC%95%E5%85%A5spring-boot-starter-tomcat%E6%97%B6%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88/" title="引入spring-boot-starter-tomcat时做了什么" class="pagination-single__right">
+        <div class="pagination-single__left-title">引入spring-boot-starter-tomcat时做了什么</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -13513,15 +13547,13 @@ VALUES
   <div class="toc__body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#项目目前对对timestamptz的应用">项目目前对对timestamptz的应用</a>
+    <li><a href="#拦截器原理">拦截器原理</a></li>
+    <li><a href="#拦截器的应用">拦截器的应用</a>
       <ul>
-        <li><a href="#第一个问题">第一个问题</a></li>
-        <li><a href="#第二个问题">第二个问题</a></li>
-        <li><a href="#第三个问题">第三个问题</a></li>
-        <li><a href="#第四个问题">第四个问题</a></li>
-        <li><a href="#第五个问题">第五个问题</a></li>
+        <li><a href="#userinfointerceptor">UserInfoInterceptor</a></li>
       </ul>
     </li>
+    <li><a href="#requestinfoforwardinterceptor">RequestInfoForwardInterceptor</a></li>
   </ul>
 </nav>
   </div>

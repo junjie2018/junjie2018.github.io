@@ -23,6 +23,15 @@
       </item>
       
       <item>
+        <title>@Repository和@Mapper的差别</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/repository%E5%92%8Cmapper%E7%9A%84%E5%B7%AE%E5%88%AB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/repository%E5%92%8Cmapper%E7%9A%84%E5%B7%AE%E5%88%AB/</guid>
+        <description>我尝试使用@Repository代替@Mapper，结果发现应用根本就无法启动起来。这个问题我之前实验中貌似不存在，在我SpringBoot</description>
+      </item>
+      
+      <item>
         <title>@Select中特殊字符导致的错误</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/select%E4%B8%AD%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E5%AF%BC%E8%87%B4%E7%9A%84%E9%94%99%E8%AF%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
