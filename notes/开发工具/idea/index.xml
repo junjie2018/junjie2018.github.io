@@ -140,6 +140,15 @@
       </item>
       
       <item>
+        <title>Idea添加多Module项目</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%B7%BB%E5%8A%A0%E5%A4%9Amodule%E9%A1%B9%E7%9B%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E6%B7%BB%E5%8A%A0%E5%A4%9Amodule%E9%A1%B9%E7%9B%AE/</guid>
+        <description>我们有多个Maven项目需要进行同时编辑，所以我决定使用Idea的多Module技术进行管理。我之前使用多Module是在新建项目的场景下，</description>
+      </item>
+      
+      <item>
         <title>IDEA生成JavaDoc文档时显示：编码GBK的不可映射字符</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E7%94%9F%E6%88%90javadoc%E6%96%87%E6%A1%A3%E6%97%B6%E6%98%BE%E7%A4%BA%E7%BC%96%E7%A0%81gbk%E7%9A%84%E4%B8%8D%E5%8F%AF%E6%98%A0%E5%B0%84%E5%AD%97%E7%AC%A6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
