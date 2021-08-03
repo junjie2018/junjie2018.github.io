@@ -104,6 +104,15 @@
       </item>
       
       <item>
+        <title>PrintWriter用法案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/printwriter%E7%94%A8%E6%B3%95%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/printwriter%E7%94%A8%E6%B3%95%E6%A1%88%E4%BE%8B/</guid>
+        <description>这个东西用的比较少，今天看书时遇到了，整理一下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 public static void main(String[] args) throws IOException { ServerSocket serverSocket = new ServerSocket(7000); Socket clientSocket = serverSocket.accept(); BufferedReader br = new BufferedReader(new InputStreamReader(clientSocket.getInputStream())); PrintWriter pw = new PrintWriter(clientSocket.getOutputStream(),</description>
+      </item>
+      
+      <item>
         <title>StringReader非常利于测试文件</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/stringreader%E9%9D%9E%E5%B8%B8%E5%88%A9%E4%BA%8E%E6%B5%8B%E8%AF%95%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

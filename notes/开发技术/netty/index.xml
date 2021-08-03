@@ -23,6 +23,15 @@
       </item>
       
       <item>
+        <title>ChannelHandler中不处理异常会发生什么</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</guid>
+        <description>每个Channel都拥有一个与之相关联的ChannelPipeline，其持有一个channelHandler的实例链。在默认的情况下，Ch</description>
+      </item>
+      
+      <item>
         <title>LengthFieldBasedFrameDecoder学习</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/lengthfieldbasedframedecoder%E5%AD%A6%E4%B9%A0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -56,6 +65,42 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
         <description>Netty对NIO进行的封装 设计优雅：适用于各种传输类型的统一（API阻塞和非阻塞Socket）；基于灵活可扩展的事件模型，可以清晰地分离关</description>
+      </item>
+      
+      <item>
+        <title>使用SimpleChannelInBoundHandler还是ChannelInBoundHandler</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</guid>
+        <description>在Echo的案例中，为什么服务端使用的是ChannelInboundHandlerAdapter，而客户端使用的是SimpleChannel</description>
+      </item>
+      
+      <item>
+        <title>理解Channel、EventLoop的关系</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
+        <description>Channel 基本的IO操作（bind、connect、read、write、accept）依赖于底层网络传输所提供的原语。在基于Java的网络编程中，</description>
+      </item>
+      
+      <item>
+        <title>理解Netty中的事件与ChannelHandler</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</guid>
+        <description>Netty使用不同的事件来通知我们状态的改变或者操作的状态，这使得我们能够基于已经发生的事件来触发适当的动作，这些动作可能有： 记录日志 数据转</description>
+      </item>
+      
+      <item>
+        <title>理解Netty中的回调与Future</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/</guid>
+        <description>回调 回调理解起来很简单，在Netty中，如下即是回调： 1 2 3 4 5 6 7 8 public class ConnectHandler extends ChannelInboundHandlerAdapter { @Override public void channelActive(ChannelHandlerContext ctx) throws Exception { System.out.println(&amp;#34;Client &amp;#34; + ctx.channel().remoteAddress() + &amp;#34; connected.&amp;#34;); } } Netty在内部使用了回</description>
       </item>
       
     

@@ -475,6 +475,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/constraintvalidator%E4%B8%AD%E8%B0%83%E7%94%A8addmessageparameter%E6%96%B9%E6%B3%95/</loc>
   </url>
   
@@ -1143,6 +1147,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/printwriter%E7%94%A8%E6%B3%95%E6%A1%88%E4%BE%8B/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/promox-ve-6.3%E8%A3%85realtek-8125-2.5g%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8/</loc>
   </url>
   
@@ -1567,6 +1575,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E4%BD%BF%E7%94%A8%E4%BA%86slf4j%E6%B3%A8%E8%A7%A3%E4%BD%86%E6%98%AF%E6%B2%A1%E6%9C%89%E5%BC%95%E5%85%A5slf4j-api%E5%8C%85/</loc>
   </url>
   
@@ -1939,11 +1951,23 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/%E7%90%86%E8%A7%A3hugo%E4%B8%AD%E7%9A%84single.html%E5%92%8Clist.html/</loc>
   </url>
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E7%90%86%E8%A7%A3kt-connect%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/</loc>
   </url>
   
   <url>

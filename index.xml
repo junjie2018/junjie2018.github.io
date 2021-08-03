@@ -447,6 +447,15 @@
       </item>
       
       <item>
+        <title>ChannelHandler中不处理异常会发生什么</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</guid>
+        <description>每个Channel都拥有一个与之相关联的ChannelPipeline，其持有一个channelHandler的实例链。在默认的情况下，Ch</description>
+      </item>
+      
+      <item>
         <title>ConstraintValidator中调用addMessageParameter方法</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/constraintvalidator%E4%B8%AD%E8%B0%83%E7%94%A8addmessageparameter%E6%96%B9%E6%B3%95/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1950,6 +1959,15 @@
       </item>
       
       <item>
+        <title>PrintWriter用法案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/printwriter%E7%94%A8%E6%B3%95%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/printwriter%E7%94%A8%E6%B3%95%E6%A1%88%E4%BE%8B/</guid>
+        <description>这个东西用的比较少，今天看书时遇到了，整理一下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 public static void main(String[] args) throws IOException { ServerSocket serverSocket = new ServerSocket(7000); Socket clientSocket = serverSocket.accept(); BufferedReader br = new BufferedReader(new InputStreamReader(clientSocket.getInputStream())); PrintWriter pw = new PrintWriter(clientSocket.getOutputStream(),</description>
+      </item>
+      
+      <item>
         <title>Promox VE 6.3装Realtek 8125 2.5G网卡驱动</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/promox-ve-6.3%E8%A3%85realtek-8125-2.5g%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2904,6 +2922,15 @@
       </item>
       
       <item>
+        <title>使用SimpleChannelInBoundHandler还是ChannelInBoundHandler</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</guid>
+        <description>在Echo的案例中，为什么服务端使用的是ChannelInboundHandlerAdapter，而客户端使用的是SimpleChannel</description>
+      </item>
+      
+      <item>
         <title>使用了@Slf4j注解，但是没有引入slf4j-api包</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E4%BD%BF%E7%94%A8%E4%BA%86slf4j%E6%B3%A8%E8%A7%A3%E4%BD%86%E6%98%AF%E6%B2%A1%E6%9C%89%E5%BC%95%E5%85%A5slf4j-api%E5%8C%85/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3741,6 +3768,15 @@
       </item>
       
       <item>
+        <title>理解Channel、EventLoop的关系</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
+        <description>Channel 基本的IO操作（bind、connect、read、write、accept）依赖于底层网络传输所提供的原语。在基于Java的网络编程中，</description>
+      </item>
+      
+      <item>
         <title>理解Hugo中的single.html和list.html</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/%E7%90%86%E8%A7%A3hugo%E4%B8%AD%E7%9A%84single.html%E5%92%8Clist.html/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3756,6 +3792,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E7%90%86%E8%A7%A3kt-connect%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C/</guid>
         <description>我一直以为KT Connect命令行工具有一定的玄学因素，参数只是位置放错了，就无法正常的运行，后来才发现是自己理解错了。 如图：KT Conne</description>
+      </item>
+      
+      <item>
+        <title>理解Netty中的事件与ChannelHandler</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</guid>
+        <description>Netty使用不同的事件来通知我们状态的改变或者操作的状态，这使得我们能够基于已经发生的事件来触发适当的动作，这些动作可能有： 记录日志 数据转</description>
+      </item>
+      
+      <item>
+        <title>理解Netty中的回调与Future</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/</guid>
+        <description>回调 回调理解起来很简单，在Netty中，如下即是回调： 1 2 3 4 5 6 7 8 public class ConnectHandler extends ChannelInboundHandlerAdapter { @Override public void channelActive(ChannelHandlerContext ctx) throws Exception { System.out.println(&amp;#34;Client &amp;#34; + ctx.channel().remoteAddress() + &amp;#34; connected.&amp;#34;); } } Netty在内部使用了回</description>
       </item>
       
       <item>
