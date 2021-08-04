@@ -4651,6 +4651,22 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bootstrap/" class="menu__title " data-depth="1">理解Bootstrap</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bytebuf/" class="menu__title " data-depth="1">理解ByteBuf</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/" class="menu__title " data-depth="1">理解Channel、EventLoop的关系</a>
         </li>
       
@@ -4668,6 +4684,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/" class="menu__title " data-depth="1">理解Netty中的回调与Future</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3selectionkey/" class="menu__title " data-depth="1">理解SelectionKey</a>
         </li>
       
     
@@ -10902,6 +10926,22 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bootstrap/" class="menu__title " data-depth="1">理解Bootstrap</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bytebuf/" class="menu__title " data-depth="1">理解ByteBuf</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/" class="menu__title " data-depth="1">理解Channel、EventLoop的关系</a>
         </li>
       
@@ -10919,6 +10959,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/" class="menu__title " data-depth="1">理解Netty中的回调与Future</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3selectionkey/" class="menu__title " data-depth="1">理解SelectionKey</a>
         </li>
       
     
@@ -13377,6 +13425,20 @@
 <li>安排进一步的动作</li>
 </ol>
 <p>EventLoop本身只由一个线程驱动，其处理了一个Channel的所有IO事件，并且在该Eventloop的整个生命周期内都不会改变。</p>
+<p>使得事件流经过ChannelPipeline是ChannelHandler的工作，它们是在应用程序的初始化或者引导阶段被安排的。这些对象接受事件、执行它们所实现的处理逻辑，并将数据传递给链中的下一个ChannelHandler。</p>
+<p>当ChannelHandler被添加到ChannelPipeline时，它将会被分配一个ChannelHandlerContext，其代表了ChannelHandler和ChannelPipeline之间的绑定。虽然这个对象可以被用于获取底层的Channel，但是它主要还是被用于写出数据。</p>
+<p>在Netty中，有两种发送消息的方式。可以直接写到Channel中，也可以写到和ChannelHandler相关联的ChannelHandlerContext对象中。前一种方式会导致消息从ChannelPipeline的尾端开始流动，而后者将导致消息从ChannelPipeline中的下一个ChannelHandler开始流动（擦，我不知道这个下一个该如何理解，如果入站时写，会调用链中的下一个入站ChannelHandler么）。</p>
+<p>ChannelHandler的典型用途包括：</p>
+<ol>
+<li>将数据从一种格式转换成另一种格式（好理解）</li>
+<li>提供异常的通知（好理解）</li>
+<li>提供Channel变为活动或者非活动的通知（通知到开发人员）</li>
+<li>提供当Cahnnel注册到EventLoop或者从EventLoop注销时的通知（通知到开发人员）</li>
+<li>提供有关用户自定义事件的通知（目前未接触）</li>
+</ol>
+<p>可以根据需要通过添加或者移除ChannelHandler实例来修改ChannelPipeline。通过利用Netty的这项能力可以构建出高度灵活的应用程序。例如，每当STARTTLS协议被请求时，你可以简单地通过想ChannelPipeline添加一个适当的ChannelHandler来按需支持STARTTLS。</p>
+<p>（我在想该技术另一个层面的应用：我们在应用程序和服务端协商后再初始化ChannelPipeline，这样就可以按需加载ChannelHandler，我觉得这个想法非常非常的棒）</p>
+<p>Netty提供了一种额外的传输，可以将一组ChannelHandler作为帮助器类嵌入到其他的ChannelHandler内部，通过这种方式，可以扩展一个ChannelHandler的功能（不是很理解这个在讲什么）。Embedded传输的关键是一个被称为EmbeddedChannel的具体的Channel实现。</p>
 
   </article>
 </div>

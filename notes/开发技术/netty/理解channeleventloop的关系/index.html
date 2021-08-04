@@ -4651,6 +4651,22 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bootstrap/" class="menu__title " data-depth="1">理解Bootstrap</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bytebuf/" class="menu__title " data-depth="1">理解ByteBuf</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/" class="menu__title active" data-depth="1">理解Channel、EventLoop的关系</a>
         </li>
       
@@ -4668,6 +4684,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/" class="menu__title " data-depth="1">理解Netty中的回调与Future</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3selectionkey/" class="menu__title " data-depth="1">理解SelectionKey</a>
         </li>
       
     
@@ -10902,6 +10926,22 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bootstrap/" class="menu__title " data-depth="1">理解Bootstrap</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bytebuf/" class="menu__title " data-depth="1">理解ByteBuf</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/" class="menu__title active" data-depth="1">理解Channel、EventLoop的关系</a>
         </li>
       
@@ -10919,6 +10959,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/" class="menu__title " data-depth="1">理解Netty中的回调与Future</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3selectionkey/" class="menu__title " data-depth="1">理解SelectionKey</a>
         </li>
       
     
@@ -13360,6 +13408,35 @@
 <li>NioSocketChannel</li>
 </ul>
 <p>（这部分内容接触的比较少，还不是很理解）</p>
+<p>每个Channel都将会被分配一个ChannelPipeline和ChannelConfig。ChannelConfig包含了该Channel的所有配置设置，并且支持热更新。由于特定的传输类型可能具有独特的设置，所以它可能会实现一个ChannelConfig的子类型（我是第一次接触ChannelConfig）。</p>
+<p>Channel的其他方法：</p>
+<ul>
+<li>
+<p>eventLoop：返回分配给Channel的EventLoop（不知道怎么利用这个）</p>
+</li>
+<li>
+<p>pipeline：返回分配给Channel的ChannelPipeline</p>
+</li>
+<li>
+<p>isActive：如果Channel是活动的，则返回true。活动的意义可能依赖于底层的传输。例如一个Socket传输一旦链接到了远程节点便是活动的，而一个Datagram传输一点被打开便是活动的</p>
+</li>
+<li>
+<p>localAddress：返回本地的SockerAddress</p>
+</li>
+<li>
+<p>remoteAddress：返回远程的SockerAddress</p>
+</li>
+<li>
+<p>write：将数据写到远程节点。这个数据将被传递给ChannelPipeline，并且排队知道它被冲刷</p>
+</li>
+<li>
+<p>flush：将之前已写的数据冲刷到底层传输，如一个Socket</p>
+</li>
+<li>
+<p>writeAndFlush：等同于调用write()并接着调用flush()</p>
+</li>
+</ul>
+<p>Netty的Channel实现是线程安全的，因此可以存储一个到Channel的引用，并且每当需要向远程节点写数据时，都可以使用它，即使当时很多线程都在使用它。</p>
 <h2 id="eventloop">EventLoop</h2>
 <p>Channel、EventLoop、Thread以及EventLoopGroup的关系：</p>
 <ol>
@@ -13389,11 +13466,11 @@
 <nav class="pagination-single">
   
     
-      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/" title="使用SimpleChannelInBoundHandler还是ChannelInBoundHandler" class="pagination-single__left">
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bytebuf/" title="理解ByteBuf" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__right-title">使用SimpleChannelInBoundHandler还是ChannelInBoundHandler</div>
+        <div class="pagination-single__right-title">理解ByteBuf</div>
       </a>
     
     <div class="grow"></div>
