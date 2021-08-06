@@ -2526,6 +2526,15 @@
       </item>
       
       <item>
+        <title>Win 10使用KT Connect（稳定版）（待完成）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/win-10%E4%BD%BF%E7%94%A8kt-connect%E7%A8%B3%E5%AE%9A%E7%89%88%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/win-10%E4%BD%BF%E7%94%A8kt-connect%E7%A8%B3%E5%AE%9A%E7%89%88%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
+        <description>这是总结目前遇到问题总结出来的方案。这个方案主要分为三层，</description>
+      </item>
+      
+      <item>
         <title>Win 10查看mac地址</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win-10%E6%9F%A5%E7%9C%8Bmac%E5%9C%B0%E5%9D%80/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2913,20 +2922,20 @@
       </item>
       
       <item>
-        <title>使用KT Connect快速版</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E4%BD%BF%E7%94%A8kt-connect%E5%BF%AB%E9%80%9F%E7%89%88/</link>
+        <title>使用KT Connect（探索版）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E4%BD%BF%E7%94%A8kt-connect%E6%8E%A2%E7%B4%A2%E7%89%88/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E4%BD%BF%E7%94%A8kt-connect%E5%BF%AB%E9%80%9F%E7%89%88/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E4%BD%BF%E7%94%A8kt-connect%E6%8E%A2%E7%B4%A2%E7%89%88/</guid>
         <description>这是一篇整理笔记，我很久前就开始使用这个技术了，但是一直没有整理。最近同事需要用，所以我简单整理一下，笔记中需要用到的资料我暂时去整理下载地</description>
       </item>
       
       <item>
         <title>使用SimpleChannelInBoundHandler还是ChannelInBoundHandler</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</guid>
         <description>在Echo的案例中，为什么服务端使用的是ChannelInboundHandlerAdapter，而客户端使用的是SimpleChannel</description>
       </item>
       
@@ -3769,28 +3778,28 @@
       
       <item>
         <title>理解Bootstrap</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bootstrap/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3bootstrap/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bootstrap/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3bootstrap/</guid>
         <description>Boostrap为应用程序的网络层配置提供了容器（这个理解角度很新颖），这涉及到将一个进程绑定到某个指定的端口，或者将一个进程连接到另一个运</description>
       </item>
       
       <item>
         <title>理解ByteBuf</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bytebuf/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3bytebuf/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bytebuf/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3bytebuf/</guid>
         <description>Netty的数据处理API通过两个组件暴露ByteBuf、ByteBufHolder。ByteBuf有如下优点： 它可以被用户自定义的缓冲区类</description>
       </item>
       
       <item>
         <title>理解Channel、EventLoop的关系</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
         <description>Channel 基本的IO操作（bind、connect、read、write、accept）依赖于底层网络传输所提供的原语。在基于Java的网络编程中，</description>
       </item>
       
@@ -3814,28 +3823,28 @@
       
       <item>
         <title>理解Netty中的事件与ChannelHandler</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</guid>
         <description>Netty使用不同的事件来通知我们状态的改变或者操作的状态，这使得我们能够基于已经发生的事件来触发适当的动作，这些动作可能有： 记录日志 数据转</description>
       </item>
       
       <item>
         <title>理解Netty中的回调与Future</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/</guid>
         <description>回调 回调理解起来很简单，在Netty中，如下即是回调： 1 2 3 4 5 6 7 8 public class ConnectHandler extends ChannelInboundHandlerAdapter { @Override public void channelActive(ChannelHandlerContext ctx) throws Exception { System.out.println(&amp;#34;Client &amp;#34; + ctx.channel().remoteAddress() + &amp;#34; connected.&amp;#34;); } } Netty在内部使用了回</description>
       </item>
       
       <item>
         <title>理解SelectionKey</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3selectionkey/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3selectionkey/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3selectionkey/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3selectionkey/</guid>
         <description>选择器背后的基本概念是充当一个注册表，在那里可以请求在Channel的状态发生变化时得到通知。可能的状态变化有： 新的Channel已被接受并</description>
       </item>
       

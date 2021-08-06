@@ -151,6 +151,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/</loc>
   </url>
   
@@ -1399,6 +1403,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/win-10%E4%BD%BF%E7%94%A8kt-connect%E7%A8%B3%E5%AE%9A%E7%89%88%E5%BE%85%E5%AE%8C%E6%88%90/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win-10%E6%9F%A5%E7%9C%8Bmac%E5%9C%B0%E5%9D%80/</loc>
   </url>
   
@@ -1571,11 +1579,11 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E4%BD%BF%E7%94%A8kt-connect%E5%BF%AB%E9%80%9F%E7%89%88/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E4%BD%BF%E7%94%A8kt-connect%E6%8E%A2%E7%B4%A2%E7%89%88/</loc>
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</loc>
   </url>
   
   <url>
@@ -1951,15 +1959,15 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bootstrap/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3bootstrap/</loc>
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3bytebuf/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3bytebuf/</loc>
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3channeleventloop%E7%9A%84%E5%85%B3%E7%B3%BB/</loc>
   </url>
   
   <url>
@@ -1971,15 +1979,15 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</loc>
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E5%9B%9E%E8%B0%83%E4%B8%8Efuture/</loc>
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3selectionkey/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3selectionkey/</loc>
   </url>
   
   <url>
