@@ -465,6 +465,15 @@
       </item>
       
       <item>
+        <title>ConfigurationProperties注解在方法上</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E6%B3%A8%E8%A7%A3%E5%9C%A8%E6%96%B9%E6%B3%95%E4%B8%8A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E6%B3%A8%E8%A7%A3%E5%9C%A8%E6%96%B9%E6%B3%95%E4%B8%8A/</guid>
+        <description>今天遇到如下需求：我需要将如下application.yml配置读取到相应的Properties配置文件中： 1 2 3 4 5 6 7 8 9 templates:- template:&amp;#34;${beanClass}.ftl&amp;#34;module:${project.modules.server}packet:${packages.service}packets-to-import:- ${packages.request}- ${packages.response} 这个非</description>
+      </item>
+      
+      <item>
         <title>ConstraintValidator中调用addMessageParameter方法</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/constraintvalidator%E4%B8%AD%E8%B0%83%E7%94%A8addmessageparameter%E6%96%B9%E6%B3%95/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

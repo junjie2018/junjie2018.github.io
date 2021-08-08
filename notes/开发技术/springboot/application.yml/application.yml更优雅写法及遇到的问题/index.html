@@ -5414,6 +5414,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E6%B3%A8%E8%A7%A3%E5%9C%A8%E6%96%B9%E6%B3%95%E4%B8%8A/" class="menu__title " data-depth="2">ConfigurationProperties注解在方法上</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/spring-boot-configuration-processor%E5%8C%85%E4%B8%8E%E6%9E%84%E5%BB%BA%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/" class="menu__title " data-depth="2">spring-boot-configuration-processor包与构建插件的配置</a>
         </li>
       
@@ -11754,6 +11762,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E6%B3%A8%E8%A7%A3%E5%9C%A8%E6%96%B9%E6%B3%95%E4%B8%8A/" class="menu__title " data-depth="2">ConfigurationProperties注解在方法上</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/spring-boot-configuration-processor%E5%8C%85%E4%B8%8E%E6%9E%84%E5%BB%BA%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/" class="menu__title " data-depth="2">spring-boot-configuration-processor包与构建插件的配置</a>
         </li>
       
@@ -13793,6 +13809,7 @@
 </div><p>后续：</p>
 <p>一顿分析猛如虎，最后发现根本就不是分析的情况，只因为我的templates文件时空的，Idea没有给我拷贝到target目录下，而Spring的Resource类是判断二进制文件的目录是否存在templates文件夹。</p>
 <p>我为什么会分析错呢？？？因为我第一次猜测是Path只能接受文件，所以我在template目录下创建了一个文件，然后进行测试，发现Path确实能正确的接受，所以我认为Path能接受文件。然后我觉得很奇怪，不可能说只能接受文件不能接受目录，所以我分析是因为我少了最后的分号，这个时候我没有删除这个文件就进行了测试，发现确实可以，所以我认为就是因为少了分号。此时我没有再删除这个文件进行二次测试就下结论了。擦</p>
+<p>我找了一圈没有找到很好的方案解决这个问题（我不想再引入一些复杂的东西导致我Maven插件配置的乱七八糟），考虑到这个问题会在启动阶段暴露，所以我们知道有这个问题就好了，尽量不要在resources创建空文件夹，然后在application.yml中配置这个文件夹。</p>
 
   </article>
 </div>
@@ -13810,8 +13827,8 @@
     
     <div class="grow"></div>
     
-      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/spring-boot-configuration-processor%E5%8C%85%E4%B8%8E%E6%9E%84%E5%BB%BA%E6%8F%92%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE/" title="spring-boot-configuration-processor包与构建插件的配置" class="pagination-single__right">
-        <div class="pagination-single__left-title">spring-boot-configuration-processor包与构建插件的配置</div>
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E6%B3%A8%E8%A7%A3%E5%9C%A8%E6%96%B9%E6%B3%95%E4%B8%8A/" title="ConfigurationProperties注解在方法上" class="pagination-single__right">
+        <div class="pagination-single__left-title">ConfigurationProperties注解在方法上</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
