@@ -68,6 +68,15 @@
       </item>
       
       <item>
+        <title>查看hibernate对校验注解的实现</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/%E6%9F%A5%E7%9C%8Bhibernate%E5%AF%B9%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/%E6%9F%A5%E7%9C%8Bhibernate%E5%AF%B9%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
+        <description>主要是为了方便抄一份，原本的实现无法满足我们的框架： org.hibernate.validator:hibernate-validator:6.0.18.Final 在org.hibernate.validator.internal.constrain</description>
+      </item>
+      
+      <item>
         <title>组合约束</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/%E7%BB%84%E5%90%88%E7%BA%A6%E6%9D%9F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

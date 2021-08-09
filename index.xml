@@ -465,6 +465,15 @@
       </item>
       
       <item>
+        <title>Channel和ChannelPipeline</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channel%E5%92%8Cchannelpipeline/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channel%E5%92%8Cchannelpipeline/</guid>
+        <description>Channel的声明周期 Channel的生命周期分为如下状态： ChannelUnregistered：Channel被创建还未注册到Even</description>
+      </item>
+      
+      <item>
         <title>ConfigurationProperties注解在方法上</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E6%B3%A8%E8%A7%A3%E5%9C%A8%E6%96%B9%E6%B3%95%E4%B8%8A/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3741,6 +3750,15 @@
       </item>
       
       <item>
+        <title>查看hibernate对校验注解的实现</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/%E6%9F%A5%E7%9C%8Bhibernate%E5%AF%B9%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/%E6%9F%A5%E7%9C%8Bhibernate%E5%AF%B9%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
+        <description>主要是为了方便抄一份，原本的实现无法满足我们的框架： org.hibernate.validator:hibernate-validator:6.0.18.Final 在org.hibernate.validator.internal.constrain</description>
+      </item>
+      
+      <item>
         <title>查看Windows的版本和版本号</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E6%9F%A5%E7%9C%8Bwindows%E7%9A%84%E7%89%88%E6%9C%AC%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4065,11 +4083,11 @@
       </item>
       
       <item>
-        <title>记录一次奇怪的Maven Bug</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84maven-bug/</link>
+        <title>记录一次奇怪的Bug</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84bug/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84maven-bug/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84bug/</guid>
         <description>实际上我不知道这个Bug是数据Idea还是Maven的，Bug是这样的：我Idea中的一个模块A依赖了另一个模块B，但是A中B依赖始终报红，</description>
       </item>
       

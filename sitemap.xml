@@ -487,6 +487,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channel%E5%92%8Cchannelpipeline/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E6%B3%A8%E8%A7%A3%E5%9C%A8%E6%96%B9%E6%B3%95%E4%B8%8A/</loc>
   </url>
   
@@ -1943,6 +1947,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/%E6%9F%A5%E7%9C%8Bhibernate%E5%AF%B9%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3%E7%9A%84%E5%AE%9E%E7%8E%B0/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E6%9F%A5%E7%9C%8Bwindows%E7%9A%84%E7%89%88%E6%9C%AC%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%B7/</loc>
   </url>
   
@@ -2087,7 +2095,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84maven-bug/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84bug/</loc>
   </url>
   
   <url>

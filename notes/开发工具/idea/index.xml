@@ -284,6 +284,15 @@
       </item>
       
       <item>
+        <title>记录一次奇怪的Bug</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84bug/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84bug/</guid>
+        <description>实际上我不知道这个Bug是数据Idea还是Maven的，Bug是这样的：我Idea中的一个模块A依赖了另一个模块B，但是A中B依赖始终报红，</description>
+      </item>
+      
+      <item>
         <title>配置错误setting.xml文件，导致的一个奇怪的现象</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E9%85%8D%E7%BD%AE%E9%94%99%E8%AF%AFsetting.xml%E6%96%87%E4%BB%B6%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%B8%AA%E5%A5%87%E6%80%AA%E7%9A%84%E7%8E%B0%E8%B1%A1/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
