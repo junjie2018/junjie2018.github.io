@@ -13668,6 +13668,256 @@
 </div>
 </div><p>这个利用了ConfigurationProperties可以放在方法上，为什么说解决这个问题是靠想象力呢，我查了很多资料，没有找到相关需求的解决方案，所以我自己观察<code>@ConfigurationProperties</code>，发现它可以注解到方法上，所以我就大胆尝试并查找了一些资料，解决了这个需求。</p>
 <p>为什么不在application.yml中再加一个字段呢？因为我有强迫症！</p>
+<h2 id="优化与遇到的问题">优化与遇到的问题</h2>
+<p>我想将上面的代码优化成下面的写法：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="nd">@Data</span>
+<span class="nd">@NoArgsConstructor</span>
+<span class="nd">@AllArgsConstructor</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">TemplatesProperties</span> <span class="o">{</span>
+
+    <span class="kd">private</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Template</span><span class="o">&gt;</span> <span class="n">templates</span><span class="o">;</span>
+
+    <span class="nd">@Data</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">Template</span> <span class="o">{</span>
+
+        <span class="cm">/**
+</span><span class="cm">         * 模板文件
+</span><span class="cm">         */</span>
+        <span class="kd">private</span> <span class="n">String</span> <span class="n">template</span><span class="o">;</span>
+
+        <span class="cm">/**
+</span><span class="cm">         * 当前模板所属的模块
+</span><span class="cm">         */</span>
+        <span class="kd">private</span> <span class="n">String</span> <span class="n">module</span><span class="o">;</span>
+
+        <span class="cm">/**
+</span><span class="cm">         * 当前模板生成的类所属的包
+</span><span class="cm">         */</span>
+        <span class="kd">private</span> <span class="n">String</span> <span class="n">packet</span><span class="o">;</span>
+
+        <span class="cm">/**
+</span><span class="cm">         * 当前模板生成的类额外需要导入的包
+</span><span class="cm">         */</span>
+        <span class="kd">private</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span> <span class="n">packetsToImport</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="nd">@Configuration</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">TemplatesPropertiesInternalConfiguration</span> <span class="o">{</span>
+
+        <span class="nd">@Bean</span>
+        <span class="nd">@ConfigurationProperties</span><span class="o">(</span><span class="n">prefix</span> <span class="o">=</span> <span class="s">&#34;templates&#34;</span><span class="o">)</span>
+        <span class="kd">public</span> <span class="n">TemplatesProperties</span> <span class="nf">templates</span><span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Template</span><span class="o">&gt;</span> <span class="n">templates</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">return</span> <span class="k">new</span> <span class="n">TemplatesProperties</span><span class="o">(</span><span class="n">templates</span><span class="o">);</span>
+        <span class="o">}</span>
+
+    <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>但是我发现此时获取的templates是一个长度为零的数组，同时Idea提示无法注入templates，我对这个问题产生了兴趣，于是还原代码进行测试，我有如下收获：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="nd">@Override</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setApplicationContext</span><span class="o">(</span><span class="n">ApplicationContext</span> <span class="n">applicationContext</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">BeansException</span> <span class="o">{</span>
+    <span class="c1">//noinspection unchecked
+</span><span class="c1"></span>    <span class="n">tables</span> <span class="o">=</span> <span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Table</span><span class="o">&gt;)</span> <span class="n">applicationContext</span><span class="o">.</span><span class="na">getBean</span><span class="o">(</span><span class="s">&#34;tables&#34;</span><span class="o">);</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;&#34;</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="nd">@Configuration</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">TablePropertiesConfiguration</span> <span class="o">{</span>
+
+    <span class="nd">@Bean</span>
+    <span class="nd">@ConfigurationProperties</span><span class="o">(</span><span class="n">prefix</span> <span class="o">=</span> <span class="s">&#34;tables&#34;</span><span class="o">)</span>
+    <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Table</span><span class="o">&gt;</span> <span class="nf">tables</span><span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Table</span><span class="o">&gt;</span> <span class="n">tables</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="n">tables</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>上面这段代码的调用时序为：</p>
+<ol>
+<li><code>tables = (List&lt;Table&gt;) applicationContext.getBean(&quot;tables&quot;);</code></li>
+<li><code>return tables;</code></li>
+<li><code>System.out.println(&quot;&quot;);</code></li>
+</ol>
+<p>（我没有从上面的调用时序收获到任何有意思的东西，只是觉得有趣而已）</p>
+<p>此时<code>return tables;</code>返回的是一个疮毒为0的tables，所以说，我一顿操作猛如虎，最后发现对<code>@ConfigurationProperties</code>用于方法上理解是错误的。加了<code>@ConfigurationProperties</code>并不是说此时方法注入的Bean的属性是从配置文件中获取的，而是说此时<code>@Bean</code>方法返回的东东是从配置文件获取的，所以正确的优化方法只能是下面的这种写法：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="nd">@Data</span>
+<span class="nd">@Component</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">TableProperties</span> <span class="kd">implements</span> <span class="n">ApplicationContextAware</span> <span class="o">{</span>
+
+    <span class="kd">private</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Table</span><span class="o">&gt;</span> <span class="n">tables</span><span class="o">;</span>
+
+
+    <span class="nd">@Data</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">Table</span> <span class="o">{</span>
+
+        <span class="cm">/**
+</span><span class="cm">         * 表逻辑名称
+</span><span class="cm">         */</span>
+        <span class="kd">private</span> <span class="n">String</span> <span class="n">logicName</span><span class="o">;</span>
+
+        <span class="cm">/**
+</span><span class="cm">         * 对应的实体名称
+</span><span class="cm">         */</span>
+        <span class="kd">private</span> <span class="n">String</span> <span class="n">entityName</span><span class="o">;</span>
+
+        <span class="cm">/**
+</span><span class="cm">         * 不需要生成的模板
+</span><span class="cm">         */</span>
+        <span class="kd">private</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span> <span class="n">templatesExclude</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setApplicationContext</span><span class="o">(</span><span class="n">ApplicationContext</span> <span class="n">applicationContext</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">BeansException</span> <span class="o">{</span>
+        <span class="c1">//noinspection unchecked
+</span><span class="c1"></span>        <span class="n">tables</span> <span class="o">=</span> <span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Table</span><span class="o">&gt;)</span> <span class="n">applicationContext</span><span class="o">.</span><span class="na">getBean</span><span class="o">(</span><span class="s">&#34;tables&#34;</span><span class="o">);</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;&#34;</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="nd">@Configuration</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">TablePropertiesConfiguration</span> <span class="o">{</span>
+
+        <span class="nd">@Bean</span>
+        <span class="nd">@ConfigurationProperties</span><span class="o">(</span><span class="n">prefix</span> <span class="o">=</span> <span class="s">&#34;tables&#34;</span><span class="o">)</span>
+        <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Table</span><span class="o">&gt;</span> <span class="nf">tables</span><span class="o">()</span> <span class="o">{</span>
+            <span class="k">return</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;(</span><span class="n">0</span><span class="o">);</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+
+<span class="o">}</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>相对一开始的写法，省去了<code>@Bean</code>方法的方法参数，虽然只是小小的一点改动，但代表着对<code>@ConfigurationProperties</code>更正确的理解。</p>
+<h2 id="参考资料">参考资料</h2>
+<ol>
+<li><a href="https://blog.csdn.net/wo541075754/article/details/104575745" target="_blank">Spring Boot中注解@ConfigurationProperties的三种使用场景</a></li>
+</ol>
 
   </article>
 </div>
@@ -13704,7 +13954,12 @@
         <div class="toc">
   <h6 class="toc__label"></h6>
   <div class="toc__body">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#优化与遇到的问题">优化与遇到的问题</a></li>
+    <li><a href="#参考资料">参考资料</a></li>
+  </ul>
+</nav>
   </div>
 </div>
       
