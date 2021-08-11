@@ -41,6 +41,15 @@
       </item>
       
       <item>
+        <title>EasyYapi配置以支持自定义的校验注解</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</guid>
+        <description>我自己开发了一条校验注解，可以省去配置message字段，我需要EasyYapi也支持这套注解，配置如下： # 参数配置 param.required=@com.sdstc.csc.common.validation.JNotBlank param.required=@com.sdstc.csc.common.validation.JNotNull # 字段配置 field.required=@com.sdstc.csc.common.validation.JNotBlank field.required=@com.sdstc.csc.common.validation.JNotNull 参考资</description>
+      </item>
+      
+      <item>
         <title>yapi默认账号密码</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/yapi%E9%BB%98%E8%AE%A4%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

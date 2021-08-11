@@ -672,6 +672,15 @@
       </item>
       
       <item>
+        <title>EasyYapi配置以支持自定义的校验注解</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</guid>
+        <description>我自己开发了一条校验注解，可以省去配置message字段，我需要EasyYapi也支持这套注解，配置如下： # 参数配置 param.required=@com.sdstc.csc.common.validation.JNotBlank param.required=@com.sdstc.csc.common.validation.JNotNull # 字段配置 field.required=@com.sdstc.csc.common.validation.JNotBlank field.required=@com.sdstc.csc.common.validation.JNotNull 参考资</description>
+      </item>
+      
+      <item>
         <title>ElasticSearch 1.4.1闪退问题记录</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/elasticsearch/elasticsearch-1.4.1%E9%97%AA%E9%80%80%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1335,6 +1344,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E6%B5%85%E6%8B%B7%E8%B4%9D%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%B7%A5%E5%85%B7%E6%B5%8B%E8%AF%95/</guid>
         <description>我确实有深拷贝的需求，我之前的方案是实现了一个静态工具类，在工具类中通过FastJson序列化和反序列化实现深拷贝（我主要用在工具类中，性能</description>
+      </item>
+      
+      <item>
+        <title>Java状态机</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E7%8A%B6%E6%80%81%E6%9C%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E7%8A%B6%E6%80%81%E6%9C%BA/</guid>
+        <description>最近有如下需求，我想用状态机实现该需求： 最后实现上，我用了比较简单的方案，就简单的使用方法代替各个Action，以后遇到更复杂的需求再深入研</description>
       </item>
       
       <item>
@@ -3963,6 +3981,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/%E7%BB%84%E5%90%88%E7%BA%A6%E6%9D%9F/</guid>
         <description>代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 @Max(150) @Min(0) @Target({METHOD, FIELD, ANNOTATION_TYPE, CONSTRUCTOR, PARAMETER, TYPE_USE}) @Retention(RUNTIME) @Documented @Constraint(validatedBy = {}) public @interface JAge { @OverridesAttribute(constraint = Max.class, name = &amp;#34;message&amp;#34;) @OverridesAttribute(constraint = Min.class, name = &amp;#34;message&amp;#34;) String message() default &amp;#34;年龄超出范围&amp;#34</description>
+      </item>
+      
+      <item>
+        <title>给字段取名时需要注意的一些细节</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E7%BB%99%E5%AD%97%E6%AE%B5%E5%8F%96%E5%90%8D%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E7%BB%99%E5%AD%97%E6%AE%B5%E5%8F%96%E5%90%8D%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/</guid>
+        <description>我搞了一个picture_3d的字段，结果在插入数据的时候报错，报的错误是picture3d字段不存在，我使用TableField注解暂时解</description>
       </item>
       
       <item>

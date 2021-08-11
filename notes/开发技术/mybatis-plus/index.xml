@@ -185,6 +185,15 @@
       </item>
       
       <item>
+        <title>给字段取名时需要注意的一些细节</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E7%BB%99%E5%AD%97%E6%AE%B5%E5%8F%96%E5%90%8D%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E7%BB%99%E5%AD%97%E6%AE%B5%E5%8F%96%E5%90%8D%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/</guid>
+        <description>我搞了一个picture_3d的字段，结果在插入数据的时候报错，报的错误是picture3d字段不存在，我使用TableField注解暂时解</description>
+      </item>
+      
+      <item>
         <title>针对JSONObject、JSONArray的typeHandler</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%92%88%E5%AF%B9jsonobjectjsonarray%E7%9A%84typehandler/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
