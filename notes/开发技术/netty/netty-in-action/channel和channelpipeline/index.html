@@ -4662,7 +4662,31 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/boostrap/" class="menu__title " data-depth="2">Boostrap</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channelhanlercontext%E8%B0%83%E7%94%A8%E5%86%99%E6%96%B9%E6%B3%95%E6%B6%88%E6%81%AF%E7%9A%84%E8%B5%B0%E5%90%91/" class="menu__title " data-depth="2">ChannelHanlerContext调用写方法消息的走向</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channel%E5%92%8Cchannelpipeline/" class="menu__title active" data-depth="2">Channel和ChannelPipeline</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/eventloop/" class="menu__title " data-depth="2">EventLoop</a>
         </li>
       
     
@@ -11050,7 +11074,31 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/boostrap/" class="menu__title " data-depth="2">Boostrap</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channelhanlercontext%E8%B0%83%E7%94%A8%E5%86%99%E6%96%B9%E6%B3%95%E6%B6%88%E6%81%AF%E7%9A%84%E8%B5%B0%E5%90%91/" class="menu__title " data-depth="2">ChannelHanlerContext调用写方法消息的走向</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channel%E5%92%8Cchannelpipeline/" class="menu__title active" data-depth="2">Channel和ChannelPipeline</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/eventloop/" class="menu__title " data-depth="2">EventLoop</a>
         </li>
       
     
@@ -13822,6 +13870,161 @@ connect：同样的，不是很好理解这个API</p>
   <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2021-08-10-18-11-18.png" alt="2021-08-10-18-11-18"  />
 </p></p>
 <p>从图中可以看到，第二个ChannelHandler调用了write后，消息并不是往左走，而是往右走，这个和我的理解是有冲突的。</p>
+<p>（这部分书中的内容有问题，在当前分类下可以找到我实验的代码）</p>
+<h2 id="高级用法">高级用法</h2>
+<p>可以缓存ChannelHandlerContext的引用以供稍后使用，这可能会发生在任何的ChannelHandler方法之外，甚至来自不同的线程。</p>
+<p>一个ChannelHandler可以属于多个ChannelPipeline，所以它们可以绑定到多个ChannelHandlerContext实例。用于这种用法的ChannelHandlr必须要使用@Shareable注解，否则，试图将它添加到多个ChannelPipeline时将会触发异常。</p>
+<p>在多个ChannelPipeline中安装同一个ChannleHandler的一个常见的原因是用于收集跨越多个Channel的统计信息。</p>
+<h2 id="异常处理">异常处理</h2>
+<h3 id="处理出站异常">处理出站异常</h3>
+<p>用于处理出站操作中的正常完成以及异常的选项，都基于以下的通知机制：</p>
+<ol>
+<li>
+<p>每个出站操作都将返回一个ChannelFuture。注册到ChannelFuture的ChannelFutureListener将在操作完成时被通知该操作是成功了还是出错了。</p>
+</li>
+<li>
+<p>几乎所有的ChannelOutboundHandler上的方法都会传入一个ChannelPromise的实例，作为ChannelFuture的子类，ChannelPromise也可以被分配用于异步通知的监听器。但是ChannelPromise还具有立即通知的可写方法：</p>
+</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">ChannelPromise</span> <span class="nf">setSuccess</span><span class="o">();</span>
+<span class="n">ChannelPromise</span> <span class="nf">setFailure</span><span class="o">(</span><span class="n">Throwable</span> <span class="n">cause</span><span class="o">);</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>如下代码使用这种方式来添加ChannelFutureListener：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">ChannelFuture</span> <span class="n">future</span> <span class="o">=</span> <span class="n">channel</span><span class="o">.</span><span class="na">write</span><span class="o">(</span><span class="n">someMessage</span><span class="o">);</span>
+<span class="n">future</span><span class="o">.</span><span class="na">addListener</span><span class="o">(</span><span class="k">new</span> <span class="n">ChannelFutureListener</span><span class="o">()</span> <span class="o">{</span>
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">operationComplete</span><span class="o">(</span><span class="n">ChannelFuture</span> <span class="n">f</span><span class="o">){</span>
+        <span class="k">if</span><span class="o">(!</span><span class="n">f</span><span class="o">.</span><span class="na">isSuccess</span><span class="o">()){</span>
+            <span class="n">f</span><span class="o">.</span><span class="na">cause</span><span class="o">().</span><span class="na">printStackTrace</span><span class="o">();</span>
+            <span class="n">f</span><span class="o">.</span><span class="na">channel</span><span class="o">().</span><span class="na">close</span><span class="o">();</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">})</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>第二种方式是将ChannelFutureListener添加到即将作为参数传递给ChannelOutboundHandler的方法的ChannelPromise（这是说ChannelPromise即将作为参数传递给ChannelOutboundHandler）：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">OutboundExceptionHandler</span> <span class="kd">extends</span> <span class="n">ChannelOutboundHandlerAdatapter</span> <span class="o">{</span>
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">write</span><span class="o">(</span><span class="n">ChannelHandlerContext</span> <span class="n">ctx</span><span class="o">,</span> <span class="n">Object</span> <span class="n">msg</span><span class="o">,</span> <span class="n">ChannelPromise</span> <span class="n">promise</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">promise</span><span class="o">.</span><span class="na">addListener</span><span class="o">(</span><span class="k">new</span> <span class="n">ChannelFutureListener</span><span class="o">()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">operationComplete</span><span class="o">(</span><span class="n">ChannelFuture</span> <span class="n">f</span><span class="o">)</span> <span class="o">{</span>
+                <span class="k">if</span><span class="o">(!</span><span class="n">f</span><span class="o">.</span><span class="na">isSuccess</span><span class="o">())</span> <span class="o">{</span>
+                    <span class="n">f</span><span class="o">.</span><span class="na">cause</span><span class="o">().</span><span class="na">printStackTrace</span><span class="o">();</span>
+                    <span class="n">f</span><span class="o">.</span><span class="na">channel</span><span class="o">().</span><span class="na">close</span><span class="o">();</span>
+                <span class="o">}</span>
+            <span class="o">}</span>
+        <span class="o">})</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="谈谈我自己的理解">谈谈我自己的理解</h3>
+<h4 id="wirte继承方法中的promise和write中返回的channelfuture">wirte继承方法中的promise和write中返回的ChannelFuture</h4>
+<p>A(ChannelOutboundHandler) -&gt; B(ChannelInboundHandler)</p>
+<p>如图所示的pipeline，如果我在B的中调用write，得到一个ChannelFuture，我认为这个ChannelFuture和我在A的write方法中得到的ChannelPromise是同一个对象，我的验证代码如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">ch</span><span class="o">.</span><span class="na">pipeline</span><span class="o">()</span>
+        <span class="o">.</span><span class="na">addLast</span><span class="o">(</span><span class="k">new</span> <span class="n">ChannelOutboundHandlerAdapter</span><span class="o">()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">write</span><span class="o">(</span><span class="n">ChannelHandlerContext</span> <span class="n">ctx</span><span class="o">,</span> <span class="n">Object</span> <span class="n">msg</span><span class="o">,</span> <span class="n">ChannelPromise</span> <span class="n">promise</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+                <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Running 1&#34;</span><span class="o">);</span>
+                <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">promise</span><span class="o">);</span>
+            <span class="o">}</span>
+        <span class="o">})</span>
+        <span class="o">.</span><span class="na">addLast</span><span class="o">(</span><span class="k">new</span> <span class="n">ChannelInboundHandlerAdapter</span><span class="o">()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">channelRead</span><span class="o">(</span><span class="n">ChannelHandlerContext</span> <span class="n">ctx</span><span class="o">,</span> <span class="n">Object</span> <span class="n">msg</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+                <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Running 2&#34;</span><span class="o">);</span>
+                <span class="n">ChannelFuture</span> <span class="n">writeChannelFuture</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="na">write</span><span class="o">(</span><span class="n">msg</span><span class="o">);</span>
+                <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">writeChannelFuture</span><span class="o">);</span>
+            <span class="o">}</span>
+        <span class="o">});</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>输出的结果如下，和我假设的一致：</p>
+<pre><code>
+Running 2
+Running 1
+DefaultChannelPromise@7c903a86(incomplete)
+DefaultChannelPromise@7c903a86(incomplete)
+
+</code></pre><h4 id="什么时候用channelfuture什么时候用channelpromise">什么时候用ChannelFuture什么时候用ChannelPromise</h4>
+<p>从目前学习到的知识总结出这样的结论，如果在ChannelInboundHandler之类的Handler中直接写数据，此时要回调则使用ChannelFuture，如果在ChannelOutboundHandler之类的Handler中实现write之类的方法，则使用ChannelPromise。</p>
 
   </article>
 </div>
@@ -13830,10 +14033,17 @@ connect：同样的，不是很好理解这个API</p>
 <nav class="pagination-single">
   
     
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channelhanlercontext%E8%B0%83%E7%94%A8%E5%86%99%E6%96%B9%E6%B3%95%E6%B6%88%E6%81%AF%E7%9A%84%E8%B5%B0%E5%90%91/" title="ChannelHanlerContext调用写方法消息的走向" class="pagination-single__left">
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
+        </div>
+        <div class="pagination-single__right-title">ChannelHanlerContext调用写方法消息的走向</div>
+      </a>
+    
     <div class="grow"></div>
     
-      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/" title="使用SimpleChannelInBoundHandler还是ChannelInBoundHandler" class="pagination-single__right">
-        <div class="pagination-single__left-title">使用SimpleChannelInBoundHandler还是ChannelInBoundHandler</div>
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/eventloop/" title="EventLoop" class="pagination-single__right">
+        <div class="pagination-single__left-title">EventLoop</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -13876,6 +14086,18 @@ connect：同样的，不是很好理解这个API</p>
     <li><a href="#从某个特定的channelhandler开始处理">从某个特定的ChannelHandler开始处理</a>
       <ul>
         <li><a href="#一些奇怪的理解">一些奇怪的理解</a></li>
+      </ul>
+    </li>
+    <li><a href="#高级用法">高级用法</a></li>
+    <li><a href="#异常处理">异常处理</a>
+      <ul>
+        <li><a href="#处理出站异常">处理出站异常</a></li>
+        <li><a href="#谈谈我自己的理解">谈谈我自己的理解</a>
+          <ul>
+            <li><a href="#wirte继承方法中的promise和write中返回的channelfuture">wirte继承方法中的promise和write中返回的ChannelFuture</a></li>
+            <li><a href="#什么时候用channelfuture什么时候用channelpromise">什么时候用ChannelFuture什么时候用ChannelPromise</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>

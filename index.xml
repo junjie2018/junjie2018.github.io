@@ -276,6 +276,15 @@
       </item>
       
       <item>
+        <title>Boostrap</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/boostrap/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/boostrap/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>Buffer、Channel与Selector</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -462,6 +471,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</guid>
         <description>每个Channel都拥有一个与之相关联的ChannelPipeline，其持有一个channelHandler的实例链。在默认的情况下，Ch</description>
+      </item>
+      
+      <item>
+        <title>ChannelHanlerContext调用写方法消息的走向</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channelhanlercontext%E8%B0%83%E7%94%A8%E5%86%99%E6%96%B9%E6%B3%95%E6%B6%88%E6%81%AF%E7%9A%84%E8%B5%B0%E5%90%91/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channelhanlercontext%E8%B0%83%E7%94%A8%E5%86%99%E6%96%B9%E6%B3%95%E6%B6%88%E6%81%AF%E7%9A%84%E8%B5%B0%E5%90%91/</guid>
+        <description>我在阅读Netty实战的时候有这样一段描述： 我觉得这段话和这张图描述的并不够严谨，因为在我的实验中，前后是要看是入站还是出站数据的，如果是入</description>
       </item>
       
       <item>
@@ -687,6 +705,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/elasticsearch/elasticsearch-1.4.1%E9%97%AA%E9%80%80%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/</guid>
         <description>之所以安装ElasticSearch 1.4.1，是因为《ElasticSearch实战》这本书使用的是该版本的ElasticSearch，在</description>
+      </item>
+      
+      <item>
+        <title>EventLoop</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/eventloop/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/eventloop/</guid>
+        <description>任务调度 ScheduledExecutorService的实现具有局限性，作为线程池的管理的一部分，将会有额外的线程创建。如果有大量任务被紧</description>
       </item>
       
       <item>

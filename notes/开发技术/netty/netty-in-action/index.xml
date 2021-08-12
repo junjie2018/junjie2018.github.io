@@ -14,12 +14,39 @@
     
       
       <item>
+        <title>Boostrap</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/boostrap/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/boostrap/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>ChannelHanlerContext调用写方法消息的走向</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channelhanlercontext%E8%B0%83%E7%94%A8%E5%86%99%E6%96%B9%E6%B3%95%E6%B6%88%E6%81%AF%E7%9A%84%E8%B5%B0%E5%90%91/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channelhanlercontext%E8%B0%83%E7%94%A8%E5%86%99%E6%96%B9%E6%B3%95%E6%B6%88%E6%81%AF%E7%9A%84%E8%B5%B0%E5%90%91/</guid>
+        <description>我在阅读Netty实战的时候有这样一段描述： 我觉得这段话和这张图描述的并不够严谨，因为在我的实验中，前后是要看是入站还是出站数据的，如果是入</description>
+      </item>
+      
+      <item>
         <title>Channel和ChannelPipeline</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channel%E5%92%8Cchannelpipeline/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channel%E5%92%8Cchannelpipeline/</guid>
         <description>Channel的声明周期 Channel的生命周期分为如下状态： ChannelUnregistered：Channel被创建还未注册到Even</description>
+      </item>
+      
+      <item>
+        <title>EventLoop</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/eventloop/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/eventloop/</guid>
+        <description>任务调度 ScheduledExecutorService的实现具有局限性，作为线程池的管理的一部分，将会有额外的线程创建。如果有大量任务被紧</description>
       </item>
       
       <item>

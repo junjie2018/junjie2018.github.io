@@ -403,6 +403,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/boostrap/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/</loc>
   </url>
   
@@ -484,6 +488,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channelhanlercontext%E8%B0%83%E7%94%A8%E5%86%99%E6%96%B9%E6%B3%95%E6%B6%88%E6%81%AF%E7%9A%84%E8%B5%B0%E5%90%91/</loc>
   </url>
   
   <url>
@@ -584,6 +592,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/elasticsearch/elasticsearch-1.4.1%E9%97%AA%E9%80%80%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/eventloop/</loc>
   </url>
   
   <url>
