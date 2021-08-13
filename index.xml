@@ -4043,7 +4043,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%BC%96%E8%A7%A3%E7%A0%81%E5%99%A8/</guid>
-        <description></description>
+        <description>decode和decodeLast 由于不可能知道远程节点是否会一次性地发送一个完整的消息，所以ByteToMessageDecoder会对入</description>
       </item>
       
       <item>

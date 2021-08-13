@@ -1119,7 +1119,7 @@
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
     "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%BC%96%E8%A7%A3%E7%A0%81%E5%99%A8/",
-    "description": ,
+    "description": "decode和decodeLast 由于不可能知道远程节点是否会一次性地发送一个完整的消息，所以ByteToMessageDecoder会对入",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -13694,7 +13694,74 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
+    <h2 id="decode和decodelast">decode和decodeLast</h2>
+<p>由于不可能知道远程节点是否会一次性地发送一个完整的消息，所以ByteToMessageDecoder会对入站数据进行缓冲，直到它准备好处理。</p>
+<ul>
+<li>decode：decode方法被调用时将会传入一个包含了传入数据的ByteBuf，以及一个用来添加解码消息的List。对这个方法的调用将会重复进行，直到确定没有新的元素被添加到该List，或者该ByteBuf中没有更多可读取的字节时为止。然后，如果该List不为空，那么它的内容将会被传递给ChannelPipeline中的下一个ChannelInboundHandler。</li>
+</ul>
+<p>我对ByteToMessageDecoder的实现有一些自己的想法：ByteToMessageDecoder实现了ChannelInboundHandler，在read方法中，调用decode方法（此时方法是抽象的），调用完成后，可能需要将ByteBuf中已经读取的数据给清理一下（我自己猜的，我认为这个ByteBuf可能需要复用），然后判断out的长度，如果大于零，则通过ctx调用下一个handler的读取方法。（简单看了下源码，大致思路是一致的）</p>
+<p>上面的分析的问题是，我不知道如何在ChannelInboundHandler的read方法中实现多次复用一个ByteBuf，可以实现这个效果么。我意识到一个问题，在decode方法中，不一定能将所有的字节给处理了，那么没有被处理的字节应该被放在哪呢。</p>
+<ul>
+<li>decodeLast：默认实现只是简单地调用了decode方法。当Channel变成非活动时，这个方法会被调用一次。可以重写该方法以提供特殊的处理。</li>
+</ul>
+<h2 id="编解码中的引用计数">编解码中的引用计数</h2>
+<p>对于编码器和解码器来说，其过程是相当的简单：一旦消息被编码或者解码，它就会被ReferenceCountUtil.release(message)调用自动释放，如果需要保留引用以便稍后使用，可以调用ReferenchCountUtil.retain(message)方法，这将会增加引用技术，从而防止该消息被释放。</p>
+<h2 id="replayingdecoder">ReplayingDecoder</h2>
+<p>ReplayingDecoder扩展了ByteToMessageDecoder类，可以不必调用readableBytes方法。它通过使用一个自定义的ByteBuf实现——ReplayingDecoderByteBuf，包装传入的ByteBuf实现了这一点，其将在内部执行该调用。</p>
+<p>额，如果是封装在ByteBuf里，那发现长度不足该怎么处理了，直接返回的话是返回到调用方法啊，不能退出Decoder，我看了源码，有点可怕：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="nd">@Override</span>
+<span class="kd">public</span> <span class="kt">int</span> <span class="nf">readInt</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">checkReadableBytes</span><span class="o">(</span><span class="n">4</span><span class="o">);</span>
+    <span class="k">return</span> <span class="n">buffer</span><span class="o">.</span><span class="na">readInt</span><span class="o">();</span>
+<span class="o">}</span>
+
+<span class="kd">private</span> <span class="kt">void</span> <span class="nf">checkReadableBytes</span><span class="o">(</span><span class="kt">int</span> <span class="n">readableBytes</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">buffer</span><span class="o">.</span><span class="na">readableBytes</span><span class="o">()</span> <span class="o">&lt;</span> <span class="n">readableBytes</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">throw</span> <span class="n">REPLAY</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>利用异常控制程序的流转，这个性能损失还是蛮大的，我还是不要使用这个类了。</p>
+<p>ReplayingDecoderByteBuf注意事项：</p>
+<ol>
+<li>并不是所有的ByteBuf操作都被支持，如果调用了不被支持的方法， 将会抛出异常</li>
+<li>ReplayingDecoder稍慢于ByteToMessageDecoder</li>
+</ol>
+<h2 id="combinedchannelduplexhandler">CombinedChannelDuplexHandler</h2>
+<p>CombinedChannelDuplexHandler充当了ChannelInboundHandler和ChannelOutboundHandler的容器。通过提供分别继承了解码器类和编码器类的类型，我们可以实现一个编解码器，而又不必直接扩展抽象的编解码器类。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="kd">public</span> <span class="kd">class</span> 
+
+</code></pre></td></tr></table>
+</div>
+</div>
   </article>
 </div>
       
@@ -13723,7 +13790,14 @@
         <div class="toc">
   <h6 class="toc__label"></h6>
   <div class="toc__body">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#decode和decodelast">decode和decodeLast</a></li>
+    <li><a href="#编解码中的引用计数">编解码中的引用计数</a></li>
+    <li><a href="#replayingdecoder">ReplayingDecoder</a></li>
+    <li><a href="#combinedchannelduplexhandler">CombinedChannelDuplexHandler</a></li>
+  </ul>
+</nav>
   </div>
 </div>
       
