@@ -1119,7 +1119,7 @@
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
     "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/boostrap/",
-    "description": ,
+    "description": "Bootstrap option方法：设置ChannelOption，其将被应用到每个新创建的Channel的ChannelConfig。这些选项将会通过bi",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -4702,6 +4702,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/" class="menu__title " data-depth="2">单元测试</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3bootstrap/" class="menu__title " data-depth="2">理解Bootstrap</a>
         </li>
       
@@ -4743,6 +4751,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3selectionkey/" class="menu__title " data-depth="2">理解SelectionKey</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%BC%96%E8%A7%A3%E7%A0%81%E5%99%A8/" class="menu__title " data-depth="2">编解码器</a>
         </li>
       
     
@@ -11114,6 +11130,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/" class="menu__title " data-depth="2">单元测试</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3bootstrap/" class="menu__title " data-depth="2">理解Bootstrap</a>
         </li>
       
@@ -11155,6 +11179,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3selectionkey/" class="menu__title " data-depth="2">理解SelectionKey</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%BC%96%E8%A7%A3%E7%A0%81%E5%99%A8/" class="menu__title " data-depth="2">编解码器</a>
         </li>
       
     
@@ -13662,7 +13694,189 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
+    <h2 id="bootstrap">Bootstrap</h2>
+<ul>
+<li>
+<p>option方法：设置ChannelOption，其将被应用到每个新创建的Channel的ChannelConfig。这些选项将会通过bind()或者connect()方法设置到Channel，不管哪个先被调用。不管哪个先被调用。这个方法在Channel已经被创建后再调用不会有任何的效果。支持的ChannelOption取决于使用的Channel类型。</p>
+</li>
+<li>
+<p>attr方法：指定新创建的Channel的属性值。这些属性值是通过bind()或者connect()方法设置到Channel的，具体取决于谁最先被调用。这个方法在Channel被创建后将不会有任何效果。</p>
+</li>
+</ul>
+<h2 id="serverbootstrap">ServerBootstrap</h2>
+<ul>
+<li>option</li>
+<li>childOption</li>
+<li>attr</li>
+<li>childAttr</li>
+<li>handler</li>
+<li>childHandler</li>
+</ul>
+<h2 id="从channel中引导客户端">从Channel中引导客户端</h2>
+<p>（大致就是服务端的ChannelHandler需要建立一个建立一个Bootstra与另一个服务器链接）</p>
+<p>假设服务器正在处理一个客户端的请求，这个请求需要服务器充当第三方系统的客户端。当一个应用程序（如一个代理服务器）必须要和组织现有的系统（如Web服务或者数据库）集成时，就可能发生这种情况。在这种情况下，将需要从已经被接受的子Channel中引导一个客户端Channel。</p>
+<p>可以创建新的Bootstrap实例，但是这不是最高效的解决方案，因为它要求你为每个新创建的客户端Channel定义另一个EventLoop。这会产生额外的线程，以及在已被接受的子Channel和护短端Channel之间交换数据时不可避免的上下文切换（可以理解这部分）。</p>
+<p>一个更好的解决方法是：通过将已被接受的子Channel的EventLoop传递给Bootstrap的group()方法来共享该EventLoop。因为分配给EventLoop的所有Channel都使用同一个线程，所以这避免了额外的线程创建，以及上下文切换。</p>
+<p>（可以，比较容易理解）</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">BootstrapUtils</span><span class="o">.</span><span class="na">runServer</span><span class="o">(</span><span class="k">new</span> <span class="n">SimpleChannelInboundHandler</span><span class="o">&lt;</span><span class="n">ByteBuf</span><span class="o">&gt;()</span> <span class="o">{</span>
+
+    <span class="n">ChannelFuture</span> <span class="n">connectChannel</span><span class="o">;</span>
+
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">channelActive</span><span class="o">(</span><span class="n">ChannelHandlerContext</span> <span class="n">ctx</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+        <span class="n">Bootstrap</span> <span class="n">bootstrap</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Bootstrap</span><span class="o">()</span>
+                <span class="o">.</span><span class="na">group</span><span class="o">(</span><span class="n">ctx</span><span class="o">.</span><span class="na">channel</span><span class="o">().</span><span class="na">eventLoop</span><span class="o">())</span>
+                <span class="o">.</span><span class="na">channel</span><span class="o">(</span><span class="n">NioSocketChannel</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+                <span class="o">.</span><span class="na">handler</span><span class="o">(</span><span class="k">new</span> <span class="n">SimpleChannelInboundHandler</span><span class="o">&lt;</span><span class="n">ByteBuf</span><span class="o">&gt;()</span> <span class="o">{</span>
+                    <span class="nd">@Override</span>
+                    <span class="kd">protected</span> <span class="kt">void</span> <span class="nf">channelRead0</span><span class="o">(</span><span class="n">ChannelHandlerContext</span> <span class="n">ctx</span><span class="o">,</span> <span class="n">ByteBuf</span> <span class="n">msg</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+                        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Received data&#34;</span><span class="o">);</span>
+                    <span class="o">}</span>
+                <span class="o">});</span>
+        <span class="n">bootstrap</span><span class="o">.</span><span class="na">connect</span><span class="o">(</span><span class="k">new</span> <span class="n">InetSocketAddress</span><span class="o">(</span><span class="s">&#34;www.baidu.com&#34;</span><span class="o">,</span> <span class="n">80</span><span class="o">));</span>
+    <span class="o">}</span>
+
+    <span class="nd">@Override</span>
+    <span class="kd">protected</span> <span class="kt">void</span> <span class="nf">channelRead0</span><span class="o">(</span><span class="n">ChannelHandlerContext</span> <span class="n">ctx</span><span class="o">,</span> <span class="n">ByteBuf</span> <span class="n">msg</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">connectChannel</span><span class="o">.</span><span class="na">isDone</span><span class="o">())</span> <span class="o">{</span>
+            <span class="c1">// do something with the data
+</span><span class="c1"></span>        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">});</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>编写Netty应用程序的一个一般准则：尽可能地重用EventLoop，以减少线程创建所带来的开销。</p>
+<h2 id="channeloption与attribute">ChannelOption与Attribute</h2>
+<p>可用的ChannelOption包括了底层连接的详细信息，如keep-alive、超时属性、缓冲设置。</p>
+<p>Netty应用程序通常与组织的专有软件集成在一起，而像Channel这样的组件可能甚至会在正常的Netty生命周期之外被使用。在某些常用的属性和数据不可用时，Netty提供了属性抽象（一个由Channel和引导类提供的集合）以及属性Key抽象（一个用于插入和获取属性值的泛型类）。使用这些工具，便可以安全地将任何类型的数据项与客户端和服务端Channel（包含ServerChannel的子Channel）相关联了。</p>
+<p>（不太理解）</p>
+<p>考虑一个用户跟踪用户和Channel质检的关系的服务器应用程序。这可以通过将用户id存储为Channel的一个属性来完成。类似的技术可以被用来基于用户的id将消息路由给用户，或者关闭活动较少的Channel。</p>
+<p>（不是太理解，我为什么不用userId到Channel的Map呢？）</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="kd">final</span> <span class="n">AttributeKey</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">id</span> <span class="o">=</span> <span class="n">AttributeKey</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="s">&#34;ID&#34;</span><span class="o">);</span>
+
+<span class="n">Bootstrap</span> <span class="n">bootstrap</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Bootstrap</span><span class="o">()</span>
+        <span class="o">.</span><span class="na">group</span><span class="o">(</span><span class="k">new</span> <span class="n">NioEventLoopGroup</span><span class="o">())</span>
+        <span class="o">.</span><span class="na">channel</span><span class="o">(</span><span class="n">NioSocketChannel</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+        <span class="o">.</span><span class="na">handler</span><span class="o">(</span><span class="k">new</span> <span class="n">SimpleChannelInboundHandler</span><span class="o">&lt;</span><span class="n">ByteBuf</span><span class="o">&gt;()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">channelRegistered</span><span class="o">(</span><span class="n">ChannelHandlerContext</span> <span class="n">ctx</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+                <span class="n">Integer</span> <span class="n">integer</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="na">channel</span><span class="o">().</span><span class="na">attr</span><span class="o">(</span><span class="n">id</span><span class="o">).</span><span class="na">get</span><span class="o">();</span>
+                <span class="c1">// do something
+</span><span class="c1"></span>            <span class="o">}</span>
+
+            <span class="nd">@Override</span>
+            <span class="kd">protected</span> <span class="kt">void</span> <span class="nf">channelRead0</span><span class="o">(</span><span class="n">ChannelHandlerContext</span> <span class="n">ctx</span><span class="o">,</span> <span class="n">ByteBuf</span> <span class="n">msg</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+                <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Received data&#34;</span><span class="o">);</span>
+            <span class="o">}</span>
+        <span class="o">})</span>
+        <span class="o">.</span><span class="na">option</span><span class="o">(</span><span class="n">ChannelOption</span><span class="o">.</span><span class="na">SO_KEEPALIVE</span><span class="o">,</span> <span class="kc">true</span><span class="o">)</span>
+        <span class="o">.</span><span class="na">option</span><span class="o">(</span><span class="n">ChannelOption</span><span class="o">.</span><span class="na">CONNECT_TIMEOUT_MILLIS</span><span class="o">,</span> <span class="n">5000</span><span class="o">)</span>
+        <span class="o">.</span><span class="na">attr</span><span class="o">(</span><span class="n">id</span><span class="o">,</span> <span class="n">123456</span><span class="o">);</span>
+
+<span class="n">bootstrap</span><span class="o">.</span><span class="na">connect</span><span class="o">().</span><span class="na">syncUninterruptibly</span><span class="o">();</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="引导数据报">引导数据报</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">Bootstrap</span> <span class="n">bootstrap</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Bootstrap</span><span class="o">()</span>
+        <span class="o">.</span><span class="na">group</span><span class="o">(</span><span class="k">new</span> <span class="n">OioEventLoopGroup</span><span class="o">())</span>
+        <span class="o">.</span><span class="na">channel</span><span class="o">(</span><span class="n">OioDatagramChannel</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+        <span class="o">.</span><span class="na">handler</span><span class="o">(</span><span class="k">new</span> <span class="n">SimpleChannelInboundHandler</span><span class="o">&lt;</span><span class="n">DatagramPacket</span><span class="o">&gt;()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">protected</span> <span class="kt">void</span> <span class="nf">channelRead0</span><span class="o">(</span><span class="n">ChannelHandlerContext</span> <span class="n">ctx</span><span class="o">,</span> <span class="n">DatagramPacket</span> <span class="n">msg</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+                <span class="c1">// do something
+</span><span class="c1"></span>            <span class="o">}</span>
+        <span class="o">});</span>
+
+<span class="n">bootstrap</span><span class="o">.</span><span class="na">bind</span><span class="o">().</span><span class="na">addListener</span><span class="o">((</span><span class="n">ChannelFutureListener</span><span class="o">)</span> <span class="n">future</span> <span class="o">-&gt;</span> <span class="o">{</span>
+
+<span class="o">});</span>
+
+</code></pre></td></tr></table>
+</div>
+</div>
   </article>
 </div>
       
@@ -13691,7 +13905,15 @@
         <div class="toc">
   <h6 class="toc__label"></h6>
   <div class="toc__body">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#bootstrap">Bootstrap</a></li>
+    <li><a href="#serverbootstrap">ServerBootstrap</a></li>
+    <li><a href="#从channel中引导客户端">从Channel中引导客户端</a></li>
+    <li><a href="#channeloption与attribute">ChannelOption与Attribute</a></li>
+    <li><a href="#引导数据报">引导数据报</a></li>
+  </ul>
+</nav>
   </div>
 </div>
       

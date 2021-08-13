@@ -19,7 +19,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/boostrap/</guid>
-        <description></description>
+        <description>Bootstrap option方法：设置ChannelOption，其将被应用到每个新创建的Channel的ChannelConfig。这些选项将会通过bi</description>
       </item>
       
       <item>
@@ -56,6 +56,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E4%BD%BF%E7%94%A8simplechannelinboundhandler%E8%BF%98%E6%98%AFchannelinboundhandler/</guid>
         <description>在Echo的案例中，为什么服务端使用的是ChannelInboundHandlerAdapter，而客户端使用的是SimpleChannel</description>
+      </item>
+      
+      <item>
+        <title>单元测试</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</guid>
+        <description>writeInbound：将入站消息写到EmbeddedChannel中。如果可以通过readInbound()方法从EmbeddedChn</description>
       </item>
       
       <item>
@@ -110,6 +119,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3selectionkey/</guid>
         <description>选择器背后的基本概念是充当一个注册表，在那里可以请求在Channel的状态发生变化时得到通知。可能的状态变化有： 新的Channel已被接受并</description>
+      </item>
+      
+      <item>
+        <title>编解码器</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%BC%96%E8%A7%A3%E7%A0%81%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%BC%96%E8%A7%A3%E7%A0%81%E5%99%A8/</guid>
+        <description></description>
       </item>
       
     
