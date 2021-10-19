@@ -14,6 +14,33 @@
     
       
       <item>
+        <title>Chrome导出Curl指令</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/chrome%E5%AF%BC%E5%87%BAcurl%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/chrome%E5%AF%BC%E5%87%BAcurl%E6%8C%87%E4%BB%A4/</guid>
+        <description>这个功能和Postman的导入功能结合在一起使用，前端、后端、测试联调时，非常的方便，过程如截图： Copy All As Curl，会将当前Network中的</description>
+      </item>
+      
+      <item>
+        <title>Chrome查看密码的技巧</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/chrome%E6%9F%A5%E7%9C%8B%E5%AF%86%E7%A0%81%E7%9A%84%E6%8A%80%E5%B7%A7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/chrome%E6%9F%A5%E7%9C%8B%E5%AF%86%E7%A0%81%E7%9A%84%E6%8A%80%E5%B7%A7/</guid>
+        <description>这个技巧不是在任何时间都好用的，相比于在密码管理器中查看密码，该方式最大的好处比较简单。 方法如下： 使用密码填充工具填充密码后，对这密码框右键</description>
+      </item>
+      
+      <item>
+        <title>地址栏显示http或者https</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E5%9C%B0%E5%9D%80%E6%A0%8F%E6%98%BE%E7%A4%BAhttp%E6%88%96%E8%80%85https/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E5%9C%B0%E5%9D%80%E6%A0%8F%E6%98%BE%E7%A4%BAhttp%E6%88%96%E8%80%85https/</guid>
+        <description>安装插件：Suspicious Site Reporter</description>
+      </item>
+      
+      <item>
         <title>多个无痕窗口共用一套Cookie</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E5%A4%9A%E4%B8%AA%E6%97%A0%E7%97%95%E7%AA%97%E5%8F%A3%E5%85%B1%E7%94%A8%E4%B8%80%E5%A5%97cookie/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

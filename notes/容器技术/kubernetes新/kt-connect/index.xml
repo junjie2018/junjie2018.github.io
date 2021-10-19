@@ -14,6 +14,15 @@
     
       
       <item>
+        <title>http协议的代理和Socks5协议的代理</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/http%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BB%A3%E7%90%86%E5%92%8Csocks5%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BB%A3%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/http%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BB%A3%E7%90%86%E5%92%8Csocks5%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BB%A3%E7%90%86/</guid>
+        <description>这个问题只能算作是记录，我目前也不知道具体产生的原因。我知道curl指令默认情况下不会通过socks5解析域名，所以测试的时候我需要使用so</description>
+      </item>
+      
+      <item>
         <title>Win 10使用KT Connect（稳定版）（待完成）</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/win-10%E4%BD%BF%E7%94%A8kt-connect%E7%A8%B3%E5%AE%9A%E7%89%88%E5%BE%85%E5%AE%8C%E6%88%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

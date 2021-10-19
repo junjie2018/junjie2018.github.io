@@ -23,6 +23,15 @@
       </item>
       
       <item>
+        <title>将指定日志输出到指定文件</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E5%B0%86%E6%8C%87%E5%AE%9A%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA%E5%88%B0%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E5%B0%86%E6%8C%87%E5%AE%9A%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA%E5%88%B0%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6/</guid>
+        <description>需求就是要将某个类中的日志输出到某个文件中，配置和代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40</description>
+      </item>
+      
+      <item>
         <title>日志输出的一些事</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

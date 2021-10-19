@@ -104,6 +104,15 @@
       </item>
       
       <item>
+        <title>报错：connect was refused</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%8A%A5%E9%94%99connect-was-refused/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%8A%A5%E9%94%99connect-was-refused/</guid>
+        <description>报错如下： The connection to the server localhost:8080 was refused - did you specify the right host or port? 是因为我忘记执行如下代码： mkdir -p $HOME/.kube sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config sudo chown $(id -u):$(id -g) $HOME/.kube/config 参考资料 The connection to the server localhost:8080 was refused - did you specify the right host or port?</description>
+      </item>
+      
+      <item>
         <title>用于K8S集群的模板配置及对生成的虚拟机的调整</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%94%A8%E4%BA%8Ek8s%E9%9B%86%E7%BE%A4%E7%9A%84%E6%A8%A1%E6%9D%BF%E9%85%8D%E7%BD%AE%E5%8F%8A%E5%AF%B9%E7%94%9F%E6%88%90%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%B0%83%E6%95%B4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Netty In Action on 小桀的笔记本</title>
+    <title>《Netty In Action》 on 小桀的笔记本</title>
     <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/</link>
-    <description>Recent content in Netty In Action on 小桀的笔记本</description>
+    <description>Recent content in 《Netty In Action》 on 小桀的笔记本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
@@ -59,12 +59,30 @@
       </item>
       
       <item>
+        <title>写大型数据</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%86%99%E5%A4%A7%E5%9E%8B%E6%95%B0%E6%8D%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%86%99%E5%A4%A7%E5%9E%8B%E6%95%B0%E6%8D%AE/</guid>
+        <description>网络存在饱和的可能性，如何在异步框架中高效地写大块数据是一个特殊的问题。由于写操作是非阻塞的，所以即使没有写出所有的数据，写操作也会在完成时</description>
+      </item>
+      
+      <item>
         <title>单元测试</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</guid>
         <description>writeInbound：将入站消息写到EmbeddedChannel中。如果可以通过readInbound()方法从EmbeddedChn</description>
+      </item>
+      
+      <item>
+        <title>对WebSocket的支持</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%AF%B9websocket%E7%9A%84%E6%94%AF%E6%8C%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%AF%B9websocket%E7%9A%84%E6%94%AF%E6%8C%81/</guid>
+        <description>要想应用程序对WebSocket支持，需要将适当的客户端或者服务端WebSocket ChannelHandler添加到ChannelPipe</description>
       </item>
       
       <item>
@@ -119,6 +137,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3selectionkey/</guid>
         <description>选择器背后的基本概念是充当一个注册表，在那里可以请求在Channel的状态发生变化时得到通知。可能的状态变化有： 新的Channel已被接受并</description>
+      </item>
+      
+      <item>
+        <title>空闲的连接和超时</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%A9%BA%E9%97%B2%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%92%8C%E8%B6%85%E6%97%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%A9%BA%E9%97%B2%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%92%8C%E8%B6%85%E6%97%B6/</guid>
+        <description>检测空闲链接及超时对于及时释放资源来说是至关重要的。 IdleStateHandler：当链接空闲时间太长时，将会触发一个IdleStateE</description>
       </item>
       
       <item>

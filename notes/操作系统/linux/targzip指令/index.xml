@@ -41,6 +41,15 @@
       </item>
       
       <item>
+        <title>解压.tar格式的文件</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip%E6%8C%87%E4%BB%A4/%E8%A7%A3%E5%8E%8B.tar%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip%E6%8C%87%E4%BB%A4/%E8%A7%A3%E5%8E%8B.tar%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%87%E4%BB%B6/</guid>
+        <description>1 2 3 tar -xvf filename.tar 还有一些指令没有消化，先将参考资料罗列下来。 参考资料 tar文件是什么？怎么解压？</description>
+      </item>
+      
+      <item>
         <title>解压tar.xz文件</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip%E6%8C%87%E4%BB%A4/%E8%A7%A3%E5%8E%8Btar.xz%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

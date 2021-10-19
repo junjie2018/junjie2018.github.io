@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Disruptor on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/</link>
+    <description>Recent content in Disruptor on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>复杂场景下使用RingBuffer</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/%E5%A4%8D%E6%9D%82%E5%9C%BA%E6%99%AF%E4%B8%8B%E4%BD%BF%E7%94%A8ringbuffer/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/%E5%A4%8D%E6%9D%82%E5%9C%BA%E6%99%AF%E4%B8%8B%E4%BD%BF%E7%94%A8ringbuffer/</guid>
+        <description>（实验失败了，而且找不到相关的资料，很挫败） 菱形 六边形</description>
+      </item>
+      
+      <item>
+        <title>理解Distuptor原理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/%E7%90%86%E8%A7%A3distuptor%E5%8E%9F%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/%E7%90%86%E8%A7%A3distuptor%E5%8E%9F%E7%90%86/</guid>
+        <description>Java内置队列 基于数组线程安全的队列，比较典型的是ArrayBlockingQueue，它主要是通过加锁的方式来保证线程安全；基于链表的线</description>
+      </item>
+      
+    
+  </channel>
+</rss>

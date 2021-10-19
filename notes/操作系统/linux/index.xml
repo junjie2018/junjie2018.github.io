@@ -50,12 +50,30 @@
       </item>
       
       <item>
+        <title>虚拟网络</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>Linux常用操作</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</guid>
         <description>md5 指令如下： md5sum 文件名 参考资料 Linux下对文件进行md5校验命令 Shell 变量 Shell —— 变量的声明和使用</description>
+      </item>
+      
+      <item>
+        <title>Linux查看所有的环境变量</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+        <description>指令如下： env</description>
       </item>
       
       <item>
@@ -86,6 +104,15 @@
       </item>
       
       <item>
+        <title>rdate指令的使用</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/rdate%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/rdate%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>这个纯粹是用来玩的。用Netty开发了一个简单的时间服务，然后想用rdate去访问这个服务： rdate -p 192.168.28.118 # 输出 rdate: [192.168.28.118] Sat Aug 21 04:03:48 2021 Netty核心代码如下</description>
+      </item>
+      
+      <item>
         <title>rm指令在移除的时候排除一些文件</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/rm%E6%8C%87%E4%BB%A4%E5%9C%A8%E7%A7%BB%E9%99%A4%E7%9A%84%E6%97%B6%E5%80%99%E6%8E%92%E9%99%A4%E4%B8%80%E4%BA%9B%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -110,6 +137,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/socks%E5%8D%8F%E8%AE%AE%E8%BD%AChttp%E5%8D%8F%E8%AE%AE/</guid>
         <description>我的工具监听的是socks协议，socks协议的dns请求仍然会通过原来的网络进行解析，而我们的工具中只能指定socks5://不能指定so</description>
+      </item>
+      
+      <item>
+        <title>xshell退出时关闭了通过nohup启动的应用</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/xshell%E9%80%80%E5%87%BA%E6%97%B6%E5%85%B3%E9%97%AD%E4%BA%86%E9%80%9A%E8%BF%87nohup%E5%90%AF%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/xshell%E9%80%80%E5%87%BA%E6%97%B6%E5%85%B3%E9%97%AD%E4%BA%86%E9%80%9A%E8%BF%87nohup%E5%90%AF%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>我也是第一次遇到这种情况，我拿一台虚拟机帮同事开KT Connect的代码，并开启了一个端口转发，如下代码所示： nohup ktctl --namespace=dev connect --method=socks5 --dump2hosts &amp;gt; ktctl.log 2&amp;gt;&amp;amp;1 &amp;amp; nohup polipo -c /opt/polipo/config &amp;gt;</description>
       </item>
       
       <item>
@@ -158,6 +194,15 @@
       </item>
       
       <item>
+        <title>查看当前使用的Shell</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E4%BD%BF%E7%94%A8%E7%9A%84shell/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E4%BD%BF%E7%94%A8%E7%9A%84shell/</guid>
+        <description>代码如下： 1 2 3 echo $SHELL</description>
+      </item>
+      
+      <item>
         <title>测试udp数据报是否可以正常传递</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E6%B5%8B%E8%AF%95udp%E6%95%B0%E6%8D%AE%E6%8A%A5%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E6%AD%A3%E5%B8%B8%E4%BC%A0%E9%80%92/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -167,12 +212,30 @@
       </item>
       
       <item>
+        <title>让Shell阻塞一会</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A9shell%E9%98%BB%E5%A1%9E%E4%B8%80%E4%BC%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A9shell%E9%98%BB%E5%A1%9E%E4%B8%80%E4%BC%9A/</guid>
+        <description>代码如下，单位为秒： 1 2 3 sleep 50 这个指令其实很强大，但是我没有深入研究。</description>
+      </item>
+      
+      <item>
         <title>设置VIM缩进为4个空格</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%BE%E7%BD%AEvim%E7%BC%A9%E8%BF%9B%E4%B8%BA4%E4%B8%AA%E7%A9%BA%E6%A0%BC/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%BE%E7%BD%AEvim%E7%BC%A9%E8%BF%9B%E4%B8%BA4%E4%B8%AA%E7%A9%BA%E6%A0%BC/</guid>
         <description>拷贝配置文件到家目录： 1 2 3 4 5 6 7 # ubuntu cp /etc/vim/vimrc ~/.vimrc # centos cp /etc/vimrc ~/.vimrc 编辑该配置文件，增加如下内容 set tabstop=4 参考资料 Linux下设置vim的缩进为4个空格</description>
+      </item>
+      
+      <item>
+        <title>通过CoreDNS配置一个DNS服务器</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E9%80%9A%E8%BF%87coredns%E9%85%8D%E7%BD%AE%E4%B8%80%E4%B8%AAdns%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E9%80%9A%E8%BF%87coredns%E9%85%8D%E7%BD%AE%E4%B8%80%E4%B8%AAdns%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+        <description>参考资料如下，我已经成功配置出来了，但是我其实不需要这个服务： centos7快速安装coreDns</description>
       </item>
       
     

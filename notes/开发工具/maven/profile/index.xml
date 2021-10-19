@@ -23,6 +23,24 @@
       </item>
       
       <item>
+        <title>Maven的一项技术及这项技术的现实意义</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/maven%E7%9A%84%E4%B8%80%E9%A1%B9%E6%8A%80%E6%9C%AF%E5%8F%8A%E8%BF%99%E9%A1%B9%E6%8A%80%E6%9C%AF%E7%9A%84%E7%8E%B0%E5%AE%9E%E6%84%8F%E4%B9%89/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/maven%E7%9A%84%E4%B8%80%E9%A1%B9%E6%8A%80%E6%9C%AF%E5%8F%8A%E8%BF%99%E9%A1%B9%E6%8A%80%E6%9C%AF%E7%9A%84%E7%8E%B0%E5%AE%9E%E6%84%8F%E4%B9%89/</guid>
+        <description>先声明一下，我觉得下面的技术在实践过程中并没有太大的意义，只是碰巧看到了，所以就整理一下。 如下，我们可以如下配置pom.xml文件： 1 2 3 4</description>
+      </item>
+      
+      <item>
+        <title>Profile配置在实践中使用起来很舒服</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/profile%E9%85%8D%E7%BD%AE%E5%9C%A8%E5%AE%9E%E8%B7%B5%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%B5%B7%E6%9D%A5%E5%BE%88%E8%88%92%E6%9C%8D/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/profile%E9%85%8D%E7%BD%AE%E5%9C%A8%E5%AE%9E%E8%B7%B5%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%B5%B7%E6%9D%A5%E5%BE%88%E8%88%92%E6%9C%8D/</guid>
+        <description>我之前启动服务时使用不同的配置使用的profiles.profiles.active，但是我最近发现这个配置的不便之处，我的每个测试类都需要</description>
+      </item>
+      
+      <item>
         <title>如何理解Maven Profile与SpringBoot配置文件的关系</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3maven-profile%E4%B8%8Espringboot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -23,6 +23,15 @@
       </item>
       
       <item>
+        <title>@ConfigurationProperties的一种写法（待验证）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E7%9A%84%E4%B8%80%E7%A7%8D%E5%86%99%E6%B3%95%E5%BE%85%E9%AA%8C%E8%AF%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E7%9A%84%E4%B8%80%E7%A7%8D%E5%86%99%E6%B3%95%E5%BE%85%E9%AA%8C%E8%AF%81/</guid>
+        <description>如下代码： 1 2 3 4 5 6 7 8 9 @Bean @ConfigurationProperties(&amp;#34;spring.datasource&amp;#34;) public DataSource dataSource(){ return new DruidDataSource(); } 这种写法会让返回的DataSource Bean与spring.datasource下的配置一一</description>
+      </item>
+      
+      <item>
         <title>application.yml中的一些语法细节</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/application.yml%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%AD%E6%B3%95%E7%BB%86%E8%8A%82/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

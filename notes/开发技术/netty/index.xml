@@ -14,7 +14,7 @@
     
       
       <item>
-        <title>Netty In Action</title>
+        <title>《Netty In Action》</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
@@ -23,57 +23,120 @@
       </item>
       
       <item>
-        <title>Buffer、Channel与Selector</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/</link>
+        <title>《Netty用户手册》</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/</guid>
-        <description>理解同步不阻塞模型 Java NIO（同步不阻塞）：服务器实现模式为一个线程处理多个请求（链接），即客户端发送的连接请求会注册到多路复用器上，多路复用</description>
-      </item>
-      
-      <item>
-        <title>ChannelHandler中不处理异常会发生什么</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</guid>
-        <description>每个Channel都拥有一个与之相关联的ChannelPipeline，其持有一个channelHandler的实例链。在默认的情况下，Ch</description>
-      </item>
-      
-      <item>
-        <title>LengthFieldBasedFrameDecoder学习</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/lengthfieldbasedframedecoder%E5%AD%A6%E4%B9%A0/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/lengthfieldbasedframedecoder%E5%AD%A6%E4%B9%A0/</guid>
-        <description>我之前学习Netty的课程时出现了LengthFieldBasedFrameDecoder解码器，当时我只想了解学习这门技术，所以很多技术点</description>
-      </item>
-      
-      <item>
-        <title>Netty服务端启动过程分析</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E5%88%86%E6%9E%90/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E5%88%86%E6%9E%90/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/</guid>
         <description></description>
       </item>
       
       <item>
-        <title>Netty理解pipeline实验设计</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%90%86%E8%A7%A3pipeline%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/</link>
+        <title>《尚硅谷Netty》</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%90%86%E8%A7%A3pipeline%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/</guid>
-        <description>我目前正处于Netty的学习过程中，所学的知识并没有覆盖到我接下来要进行的实验，但是为了更好的理解pipeline，我设计了如下的实验： 准备</description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/</guid>
+        <description></description>
       </item>
       
       <item>
-        <title>Netty的基础知识</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+        <title>技术点研究</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
-        <description>Netty对NIO进行的封装 设计优雅：适用于各种传输类型的统一（API阻塞和非阻塞Socket）；基于灵活可扩展的事件模型，可以清晰地分离关</description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>@Skip注解</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/skip%E6%B3%A8%E8%A7%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/skip%E6%B3%A8%E8%A7%A3/</guid>
+        <description>@Skip注释用在ChannelHandler的实现类的方法上，程序运行的过程中，如果某个handler实现中的方法被@Skip注释了，则此</description>
+      </item>
+      
+      <item>
+        <title>bindFuture中的channel</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bindfuture%E4%B8%AD%E7%9A%84channel/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bindfuture%E4%B8%AD%E7%9A%84channel/</guid>
+        <description>今天在看一个Netty框架的源码时，看到了如下的代码： 1 2 3 4 5 6 Channel channel = serverBootstrap.bind() .sync() .channel(); ALL_CHANNELS.add(serverChannel); ALL_CHANNELS变量的作用是收集所有的Channel</description>
+      </item>
+      
+      <item>
+        <title>ChannelHandlerAdapter与@Sharable</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandleradapter%E4%B8%8Esharable/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandleradapter%E4%B8%8Esharable/</guid>
+        <description>Sharable的应用案例 先直观感受一下该注解的影响： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 public static class Handler extends SimpleChannelInboundHandler&amp;lt;String&amp;gt; { @Override protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception { System.out.println(msg); } } public static void</description>
+      </item>
+      
+      <item>
+        <title>flush行为控制</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/flush%E8%A1%8C%E4%B8%BA%E6%8E%A7%E5%88%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/flush%E8%A1%8C%E4%B8%BA%E6%8E%A7%E5%88%B6/</guid>
+        <description>flush操作负责将ByteBuffer消息写入到SocketChannel中发送给对方。write和flush的作用概括如下： write：</description>
+      </item>
+      
+      <item>
+        <title>Netty分配池化的堆外内存的细节</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E5%88%86%E9%85%8D%E6%B1%A0%E5%8C%96%E7%9A%84%E5%A0%86%E5%A4%96%E5%86%85%E5%AD%98%E7%9A%84%E7%BB%86%E8%8A%82/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E5%88%86%E9%85%8D%E6%B1%A0%E5%8C%96%E7%9A%84%E5%A0%86%E5%A4%96%E5%86%85%E5%AD%98%E7%9A%84%E7%BB%86%E8%8A%82/</guid>
+        <description>PooledByteBufAllocator是netty分配池化内存的操作入口。</description>
+      </item>
+      
+      <item>
+        <title>关于BuffByte研究</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%85%B3%E4%BA%8Ebuffbyte%E7%A0%94%E7%A9%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%85%B3%E4%BA%8Ebuffbyte%E7%A0%94%E7%A9%B6/</guid>
+        <description>透明零拷贝 这个零拷贝和我理解的零拷贝其实是两个东西。这个强调的是ByteBuf之间可以通过零拷贝而获取到一个新的ByteBuf，而我理解的零</description>
+      </item>
+      
+      <item>
+        <title>换一个角度理解Netty的异步</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8D%A2%E4%B8%80%E4%B8%AA%E8%A7%92%E5%BA%A6%E7%90%86%E8%A7%A3netty%E7%9A%84%E5%BC%82%E6%AD%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8D%A2%E4%B8%80%E4%B8%AA%E8%A7%92%E5%BA%A6%E7%90%86%E8%A7%A3netty%E7%9A%84%E5%BC%82%E6%AD%A5/</guid>
+        <description>Netty之所以说是异步阻塞网络框架时因为通过NioSocketChannel的write系列方法向连接里面写入数据的时候是非阻塞的（这个地</description>
+      </item>
+      
+      <item>
+        <title>理解FastThreadLocal</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3fastthreadlocal/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3fastthreadlocal/</guid>
+        <description>今天看Netty源码，遇到如下一个东东： 1 2 3 4 5 6 7 8 9 10 private static final FastThreadLocal&amp;lt;CodecOutputLists&amp;gt; CODEC_OUTPUT_LISTS_POOL = new FastThreadLocal&amp;lt;CodecOutputLists&amp;gt;() { @Override protected CodecOutputLists initialValue() throws Exception { // 16 CodecOutputList per Thread are cached. return new CodecOutputLists(16); } }; 这使我产生了对FastT</description>
+      </item>
+      
+      <item>
+        <title>研究ChannelInitializer实现</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%A0%94%E7%A9%B6channelinitializer%E5%AE%9E%E7%8E%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%A0%94%E7%A9%B6channelinitializer%E5%AE%9E%E7%8E%B0/</guid>
+        <description>这是Pipeline的第一个ChannelHandler，有一定的研究价值。ChannelHandler继承了ChannelInboundH</description>
+      </item>
+      
+      <item>
+        <title>非线程安全的Room在什么情况下可以存在</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E9%9D%9E%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84room%E5%9C%A8%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E5%8F%AF%E4%BB%A5%E5%AD%98%E5%9C%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E9%9D%9E%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84room%E5%9C%A8%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E5%8F%AF%E4%BB%A5%E5%AD%98%E5%9C%A8/</guid>
+        <description>Room可以是非线程安全的，只要将它相关的所有Channel都注册到同一个EventLoop即可。因为在一个EventLoop中永远是单线程</description>
       </item>
       
     

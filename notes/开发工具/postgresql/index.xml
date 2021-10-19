@@ -50,6 +50,15 @@
       </item>
       
       <item>
+        <title>timestamptz查询结果用时间戳显示</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/timestamptz%E6%9F%A5%E8%AF%A2%E7%BB%93%E6%9E%9C%E7%94%A8%E6%97%B6%E9%97%B4%E6%88%B3%E6%98%BE%E7%A4%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/timestamptz%E6%9F%A5%E8%AF%A2%E7%BB%93%E6%9E%9C%E7%94%A8%E6%97%B6%E9%97%B4%E6%88%B3%E6%98%BE%E7%A4%BA/</guid>
+        <description>这个方案目前还有很多问题，我个人认为是因为我还有很多细节处没有参透，所以结果很怪异。 先说明一下我的需求，当我开发了一个分页接口，我需要测试其</description>
+      </item>
+      
+      <item>
         <title>timestamptz类型的研究</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/timestamptz%E7%B1%BB%E5%9E%8B%E7%9A%84%E7%A0%94%E7%A9%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -59,12 +68,12 @@
       </item>
       
       <item>
-        <title>为已存在的表删除、增加一个字段</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%BA%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A1%A8%E5%88%A0%E9%99%A4%E5%A2%9E%E5%8A%A0%E4%B8%80%E4%B8%AA%E5%AD%97%E6%AE%B5/</link>
+        <title>为已存在的表删除、增加、修改一个字段</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%BA%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A1%A8%E5%88%A0%E9%99%A4%E5%A2%9E%E5%8A%A0%E4%BF%AE%E6%94%B9%E4%B8%80%E4%B8%AA%E5%AD%97%E6%AE%B5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%BA%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A1%A8%E5%88%A0%E9%99%A4%E5%A2%9E%E5%8A%A0%E4%B8%80%E4%B8%AA%E5%AD%97%E6%AE%B5/</guid>
-        <description>增加脚本如下： 1 2 3 4 5 ALTERTABLEt_company_package_manageADDCOLUMNaudit_opinionva</description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%BA%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A1%A8%E5%88%A0%E9%99%A4%E5%A2%9E%E5%8A%A0%E4%BF%AE%E6%94%B9%E4%B8%80%E4%B8%AA%E5%AD%97%E6%AE%B5/</guid>
+        <description>增加字段 1 2 3 4 5 ALTERTABLEt_company_package_manageADDCOLUMNaudit_opinionvarch</description>
       </item>
       
       <item>

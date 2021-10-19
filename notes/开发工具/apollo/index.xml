@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apollo on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/apollo/</link>
+    <description>Recent content in Apollo on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/apollo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>SpringBoot项目配置apollo访问地址</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/apollo/springboot%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AEapollo%E8%AE%BF%E9%97%AE%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/apollo/springboot%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AEapollo%E8%AE%BF%E9%97%AE%E5%9C%B0%E5%9D%80/</guid>
+        <description>我没有系统的学习Apollo，仅记录一下我在开发中遇到的问题，如下，我们在sit环境中的配置文件如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 apollo:bootstrap:enabled:truenamespaces:application,mybatis-plus,datasource,redis,spring,ossapp:id:srmspring:main:allow-bean-definition-overriding:true 如果在本地</description>
+      </item>
+      
+      <item>
+        <title>因为配置文件中少些一个namespace，到时配置项不生效</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/apollo/%E5%9B%A0%E4%B8%BA%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%91%E4%BA%9B%E4%B8%80%E4%B8%AAnamespace%E5%88%B0%E6%97%B6%E9%85%8D%E7%BD%AE%E9%A1%B9%E4%B8%8D%E7%94%9F%E6%95%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/apollo/%E5%9B%A0%E4%B8%BA%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%91%E4%BA%9B%E4%B8%80%E4%B8%AAnamespace%E5%88%B0%E6%97%B6%E9%85%8D%E7%BD%AE%E9%A1%B9%E4%B8%8D%E7%94%9F%E6%95%88/</guid>
+        <description>如图，我在Apollo中配置了该namespace，但是在SpringBoot的配置文件中没有忘记配置该项，结果导致zookeeper的配置</description>
+      </item>
+      
+    
+  </channel>
+</rss>

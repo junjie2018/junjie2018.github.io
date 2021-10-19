@@ -31,6 +31,15 @@
         <description>我开发的相应Handler如下，因为这部分需求比较久远了，具体的就不整理了： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32</description>
       </item>
       
+      <item>
+        <title>资料整理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <description>因为短时间可能不会研究这方面的东西了，所以将之前收集的资料整理一下： EasyExcel为单个Cell设置样式 JAVA操作Excel表格部分不</description>
+      </item>
+      
     
   </channel>
 </rss>

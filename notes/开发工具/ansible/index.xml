@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ansible on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/</link>
+    <description>Recent content in Ansible on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>安装Ansible</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%AE%89%E8%A3%85ansible/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%AE%89%E8%A3%85ansible/</guid>
+        <description>控制节点 用pip安装Ansible pip install paramiko PyYAML Jinja2 httplib2 six --user ansible python -m pip install --user ansible 我不知道这样调用的是pip还是pip3，但是我看日志，好像是用Python3</description>
+      </item>
+      
+      <item>
+        <title>安装Ansible（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%AE%89%E8%A3%85ansible%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%AE%89%E8%A3%85ansible%E5%BA%9F%E5%BC%83/</guid>
+        <description>我执行了如下指令： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 git clone git://github.com/ansible/ansible.git --recursive cd ./ansible # 使用Bash source ./hacking/env-setup # 安装pip（参考python分类下笔记） # 安装Pyth</description>
+      </item>
+      
+    
+  </channel>
+</rss>

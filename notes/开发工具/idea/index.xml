@@ -32,6 +32,15 @@
       </item>
       
       <item>
+        <title>Idea中查看类层次结构</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%B8%AD%E6%9F%A5%E7%9C%8B%E7%B1%BB%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%B8%AD%E6%9F%A5%E7%9C%8B%E7%B1%BB%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84/</guid>
+        <description>之前看源码时频繁用到的技术，最近这段时间看源码比较少，先收藏一下，未来用到了再整理。 参考资料 idea查看类层次结构图</description>
+      </item>
+      
+      <item>
         <title>Idea中进行分屏显示代码</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%B8%AD%E8%BF%9B%E8%A1%8C%E5%88%86%E5%B1%8F%E6%98%BE%E7%A4%BA%E4%BB%A3%E7%A0%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -253,7 +262,16 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%9B%A0%E4%B8%BA%E5%BC%95%E5%85%A5%E4%BA%86%E9%94%99%E8%AF%AF%E7%9A%84%E7%B1%BB%E5%AF%BC%E8%87%B4main%E6%96%B9%E6%B3%95%E6%97%A0%E8%BF%90%E8%A1%8C%E6%8C%89%E9%92%AE/</guid>
-        <description>如图，我Idea编辑器中无运行按钮： 当我注释掉一个类后，运行按钮恢复了： 很奇怪的现象，之前没有注意到存在这个问题。</description>
+        <description>如图，我Idea编辑器中无运行按钮： 当我注释掉一个类后，运行按钮恢复了： 很奇怪的现象，之前没有注意到存在这个问题。 参考资料 关于引入com.s</description>
+      </item>
+      
+      <item>
+        <title>因写错包名，导致的一些奇奇怪怪的错误</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%9B%A0%E5%86%99%E9%94%99%E5%8C%85%E5%90%8D%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA%E7%9A%84%E9%94%99%E8%AF%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%9B%A0%E5%86%99%E9%94%99%E5%8C%85%E5%90%8D%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA%E7%9A%84%E9%94%99%E8%AF%AF/</guid>
+        <description>实际上我不知道这个Bug是数据Idea还是Maven的，Bug是这样的：我Idea中的一个模块A依赖了另一个模块B，但是A中B依赖始终报红，</description>
       </item>
       
       <item>
@@ -281,15 +299,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8Bidea%E6%97%A5%E5%BF%97/</guid>
         <description>这个需求基本操作一次就不会忘记了，哈哈，还是整理一下吧。</description>
-      </item>
-      
-      <item>
-        <title>记录一次奇怪的Bug</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84bug/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84bug/</guid>
-        <description>实际上我不知道这个Bug是数据Idea还是Maven的，Bug是这样的：我Idea中的一个模块A依赖了另一个模块B，但是A中B依赖始终报红，</description>
       </item>
       
       <item>

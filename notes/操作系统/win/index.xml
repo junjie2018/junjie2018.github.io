@@ -64,7 +64,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E5%8F%B3%E4%B8%8B%E8%A7%92%E5%9B%BE%E8%A1%A8%E6%98%BE%E7%A4%BA/</guid>
-        <description>懒的整理，这种东西就是十年半个月用不到一次： https://jingyan.baidu.com/article/e73e26c01bc1c364acb6a734.html</description>
+        <description>懒的整理，这种东西就是十年半个月用不到一次： https://jingyan.baidu.com/article/e73e26c01bc1c364acb6a734.html 20210928后续： windows图标经常莫名其妙的缩回去，没想到这个教程使用频率这么高。 2</description>
       </item>
       
       <item>
@@ -140,12 +140,39 @@
       </item>
       
       <item>
+        <title>Windows卸载安全助手</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/windows%E5%8D%B8%E8%BD%BD%E5%AE%89%E5%85%A8%E5%8A%A9%E6%89%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/windows%E5%8D%B8%E8%BD%BD%E5%AE%89%E5%85%A8%E5%8A%A9%E6%89%8B/</guid>
+        <description>越来越讨厌Windows系统了！！！ 20211011实践 实践中，我是通过火绒剑关闭相关进程的。关闭进程后，文件夹才可以删除，我直接用git b</description>
+      </item>
+      
+      <item>
+        <title>Windows杀死一个进程</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/windows%E6%9D%80%E6%AD%BB%E4%B8%80%E4%B8%AA%E8%BF%9B%E7%A8%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/windows%E6%9D%80%E6%AD%BB%E4%B8%80%E4%B8%AA%E8%BF%9B%E7%A8%8B/</guid>
+        <description>这个指令之前查过，给忘记了，现在整理一下： tskill pid</description>
+      </item>
+      
+      <item>
         <title>win上进入非C盘的文件夹</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E4%B8%8A%E8%BF%9B%E5%85%A5%E9%9D%9Ec%E7%9B%98%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E4%B8%8A%E8%BF%9B%E5%85%A5%E9%9D%9Ec%E7%9B%98%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
         <description>如下代码可直接进入非C盘的目录： 1 2 3 cd /D D:\Blogs 如不不用/D参数，则该指令无法正常进入该目录。 参考资料 bat文件直接进入某个盘符目录</description>
+      </item>
+      
+      <item>
+        <title>win查看所有的环境变量</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+        <description>使用指令如下： set Java中查看所有环境变量，使用如下代码： 1 2 3 4 5 public static void main(String[] args) { Map&amp;lt;String, String&amp;gt; getenv = System.getenv(); }</description>
       </item>
       
       <item>
@@ -158,12 +185,30 @@
       </item>
       
       <item>
+        <title>下载Win10镜像</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%B8%8B%E8%BD%BDwin10%E9%95%9C%E5%83%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%B8%8B%E8%BD%BDwin10%E9%95%9C%E5%83%8F/</guid>
+        <description>这个方案并不直观，步骤如下： 进入官网下载页面 按F12，设置成手机模式，然后刷新页面 完成两个多选框后，会弹出选择32位还是64位的页面 我遇到的</description>
+      </item>
+      
+      <item>
         <title>删除hiberfil.sys</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%88%A0%E9%99%A4hiberfil.sys/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%88%A0%E9%99%A4hiberfil.sys/</guid>
         <description>C盘炸了，只剩下3G了，我基本不在C盘装任何东西，经同时提示发现是hiberfil.sys、pagefile.sys、swapfile.sy</description>
+      </item>
+      
+      <item>
+        <title>常用的命令</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%B8%B8%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%B8%B8%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4/</guid>
+        <description>regedit 打开注册表 mstsc 打开远程桌面 control 打开控制面板 msconfig 可以用来设置引导，从而进入安全模式。</description>
       </item>
       
       <item>
@@ -191,6 +236,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E6%9F%A5%E7%9C%8Bwindows%E7%9A%84%E7%89%88%E6%9C%AC%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
         <description>开始 &amp;gt; 设置 &amp;gt; 系统 &amp;gt; 关于 参考资料 我运行的是哪个 Windows 操作系统版本？</description>
+      </item>
+      
+      <item>
+        <title>查看XShell密码</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E6%9F%A5%E7%9C%8Bxshell%E5%AF%86%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E6%9F%A5%E7%9C%8Bxshell%E5%AF%86%E7%A0%81/</guid>
+        <description>很久前建的虚拟机，突然要用一下，忘记密码了，但是密码保存在了XShell中，我使用了AsteriskPassword.exe查看密码。 我用的</description>
       </item>
       
       <item>

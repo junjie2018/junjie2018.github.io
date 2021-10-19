@@ -14,6 +14,15 @@
     
       
       <item>
+        <title>CentOS7中安装pip</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/centos7%E4%B8%AD%E5%AE%89%E8%A3%85pip/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/centos7%E4%B8%AD%E5%AE%89%E8%A3%85pip/</guid>
+        <description>使用yum install python-pip安装的pip甚至没有办法执行pip install --upgrade pip，这就导致这个版本的pip没有办法做任何事。最终找到下面的方案安</description>
+      </item>
+      
+      <item>
         <title>CentOS安装Python 3.x</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/centos%E5%AE%89%E8%A3%85python-3.x/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -64,7 +73,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pip3%E8%AE%BE%E7%BD%AE%E5%9B%BD%E5%86%85%E6%BA%90/</guid>
-        <description>操作步骤 指令如下 1 2 3 4 5 6 7 8 9 mkdir -p ~/.pip sudo tee ~/.pip/pip.conf &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; sudo tee [global] index-url = https://mirrors.aliyun.com/pypi/simple EOF</description>
+        <description>操作步骤 指令如下 1 2 3 4 5 6 7 8 mkdir -p ~/.pip sudo tee ~/.pip/pip.conf &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; [global] index-url = https://mirrors.aliyun.com/pypi/simple EOF</description>
       </item>
       
       <item>
@@ -83,6 +92,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pycharm%E8%AE%BE%E7%BD%AEsdk/</guid>
         <description>截图如下： 第三张图中，需要选到本地的一个exe文件。</description>
+      </item>
+      
+      <item>
+        <title>Pycharm远程调试</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pycharm%E8%BF%9C%E7%A8%8B%E8%B0%83%E8%AF%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pycharm%E8%BF%9C%E7%A8%8B%E8%B0%83%E8%AF%95/</guid>
+        <description>一个字：非常爽。之前需要每次编辑完后，删除shell已有的问题件，然后将新的文件拖到shell中，然后手动执行，现在不需要这样做了，大大提升</description>
+      </item>
+      
+      <item>
+        <title>Python.h找不到</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/python.h%E6%89%BE%E4%B8%8D%E5%88%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/python.h%E6%89%BE%E4%B8%8D%E5%88%B0/</guid>
+        <description>我执行的指令如下： yum search python | grep devel yum install python3-devel.x86_64 参考资料 解决Python.h找不到问题</description>
       </item>
       
       <item>
@@ -128,6 +155,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E4%BB%8Ejson%E6%96%87%E4%BB%B6%E7%94%9F%E6%88%90java%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7/</guid>
         <description>20210420后续： 实际上我有点不想用Python去开发一些小工具了，Python好久不摸，API忘得太快了，Ide又给不到什么有用的信息</description>
+      </item>
+      
+      <item>
+        <title>使用Anaconda遇到的一些问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E4%BD%BF%E7%94%A8anaconda%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E4%BD%BF%E7%94%A8anaconda%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</guid>
+        <description>安装Anaconda的时候，我只修改了一些安装路径，其他选项都操持了默认。结果完成安装后，我发现我输入conda --version没有任何反</description>
       </item>
       
       <item>

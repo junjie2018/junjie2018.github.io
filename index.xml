@@ -96,6 +96,24 @@
       </item>
       
       <item>
+        <title>@ConfigurationProperties的一种写法（待验证）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E7%9A%84%E4%B8%80%E7%A7%8D%E5%86%99%E6%B3%95%E5%BE%85%E9%AA%8C%E8%AF%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E7%9A%84%E4%B8%80%E7%A7%8D%E5%86%99%E6%B3%95%E5%BE%85%E9%AA%8C%E8%AF%81/</guid>
+        <description>如下代码： 1 2 3 4 5 6 7 8 9 @Bean @ConfigurationProperties(&amp;#34;spring.datasource&amp;#34;) public DataSource dataSource(){ return new DruidDataSource(); } 这种写法会让返回的DataSource Bean与spring.datasource下的配置一一</description>
+      </item>
+      
+      <item>
+        <title>@EnableFeignClients中没有配置backPackages，导致找不到客户端</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/enablefeignclients%E4%B8%AD%E6%B2%A1%E6%9C%89%E9%85%8D%E7%BD%AEbackpackages%E5%AF%BC%E8%87%B4%E6%89%BE%E4%B8%8D%E5%88%B0%E5%AE%A2%E6%88%B7%E7%AB%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/enablefeignclients%E4%B8%AD%E6%B2%A1%E6%9C%89%E9%85%8D%E7%BD%AEbackpackages%E5%AF%BC%E8%87%B4%E6%89%BE%E4%B8%8D%E5%88%B0%E5%AE%A2%E6%88%B7%E7%AB%AF/</guid>
+        <description>我的客户端放在com.sdstc.auth.client下，我代码的包结构如下： 默认情况下，我需要将我的启动类放在com.sdstc下才能够</description>
+      </item>
+      
+      <item>
         <title>@ImportResource导入一个bean.xml文件</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/importresource%E5%AF%BC%E5%85%A5%E4%B8%80%E4%B8%AAbean.xml%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -156,6 +174,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/select%E4%B8%AD%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E5%AF%BC%E8%87%B4%E7%9A%84%E9%94%99%E8%AF%AF/</guid>
         <description>该问题由同事定位并修复，我在一旁参观了整个过程。我们的代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 @Select(&amp;#34;&amp;lt;script&amp;gt;&amp;#34; + &amp;#34; SELECT * FROM t_user where is_delete = 0&amp;#34; + &amp;#34;</description>
+      </item>
+      
+      <item>
+        <title>@Skip注解</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/skip%E6%B3%A8%E8%A7%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/skip%E6%B3%A8%E8%A7%A3/</guid>
+        <description>@Skip注释用在ChannelHandler的实现类的方法上，程序运行的过程中，如果某个handler实现中的方法被@Skip注释了，则此</description>
+      </item>
+      
+      <item>
+        <title>@TableField处理表中不存在的字段</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/tablefield%E5%A4%84%E7%90%86%E8%A1%A8%E4%B8%AD%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%AD%97%E6%AE%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/tablefield%E5%A4%84%E7%90%86%E8%A1%A8%E4%B8%AD%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%AD%97%E6%AE%B5/</guid>
+        <description>代码如下： 1 2 3 @TableField(exist = false) 开发一些Demo时用到了这个技术，记录一下。 参考资料 mybatis怎么忽略映射字段</description>
       </item>
       
       <item>
@@ -267,6 +303,15 @@
       </item>
       
       <item>
+        <title>bindFuture中的channel</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bindfuture%E4%B8%AD%E7%9A%84channel/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bindfuture%E4%B8%AD%E7%9A%84channel/</guid>
+        <description>今天在看一个Netty框架的源码时，看到了如下的代码： 1 2 3 4 5 6 Channel channel = serverBootstrap.bind() .sync() .channel(); ALL_CHANNELS.add(serverChannel); ALL_CHANNELS变量的作用是收集所有的Channel</description>
+      </item>
+      
+      <item>
         <title>BookMenuBoundle简单配置的实验</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/bookmenuboundle%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -286,11 +331,20 @@
       
       <item>
         <title>Buffer、Channel与Selector</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/bufferchannel%E4%B8%8Eselector/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/bufferchannel%E4%B8%8Eselector/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/bufferchannel%E4%B8%8Eselector/</guid>
         <description>理解同步不阻塞模型 Java NIO（同步不阻塞）：服务器实现模式为一个线程处理多个请求（链接），即客户端发送的连接请求会注册到多路复用器上，多路复用</description>
+      </item>
+      
+      <item>
+        <title>CAS相关资料整理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/cas%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/cas%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <description>官网</description>
       </item>
       
       <item>
@@ -348,6 +402,24 @@
       </item>
       
       <item>
+        <title>Centos7 YUM提示语法错误</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7-yum%E6%8F%90%E7%A4%BA%E8%AF%AD%E6%B3%95%E9%94%99%E8%AF%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7-yum%E6%8F%90%E7%A4%BA%E8%AF%AD%E6%B3%95%E9%94%99%E8%AF%AF/</guid>
+        <description>其实就是因为我将python的软连接换成了python3.6，改回来就好了。 参考资料 解决 CentOS 7 使用 yum 命令提示语法错误</description>
+      </item>
+      
+      <item>
+        <title>CentOS7中安装pip</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/centos7%E4%B8%AD%E5%AE%89%E8%A3%85pip/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/centos7%E4%B8%AD%E5%AE%89%E8%A3%85pip/</guid>
+        <description>使用yum install python-pip安装的pip甚至没有办法执行pip install --upgrade pip，这就导致这个版本的pip没有办法做任何事。最终找到下面的方案安</description>
+      </item>
+      
+      <item>
         <title>CentOS修改主机名称</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E4%BF%AE%E6%94%B9%E4%B8%BB%E6%9C%BA%E5%90%8D%E7%A7%B0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -398,7 +470,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</guid>
-        <description>指令如下，这是我目前找到的最优雅，最快速的方法： nmcli connection modify eth0 \ ipv4.addresses 192.168.27.15/24 \ ipv4.dns 192.168.27.22 \ ipv4.method manual \ ipv4.gateway 192.168.27.22 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify eth0 \ ipv4.addresses 172.20.11.206/24 \ ipv4.dns 172.20.11.210 \ ipv4.method manual \ ipv4.gateway 172.20.11.210 \ connection.autoconnect yes nmcli c up eth0</description>
+        <description>指令如下，这是我目前找到的最优雅，最快速的方法： nmcli connection modify eth0 \ ipv4.addresses 192.168.27.139/24 \ ipv4.dns 192.168.27.22 \ ipv4.method manual \ ipv4.gateway 192.168.27.22 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify eth0 \ ipv4.addresses 192.168.27.139/24 \ ipv4.dns 192.168.20.21 \ ipv4.method manual \ ipv4.gateway 192.168.27.1 \ connection.autoconnect yes nmcli c up eth0</description>
       </item>
       
       <item>
@@ -465,11 +537,20 @@
       </item>
       
       <item>
-        <title>ChannelHandler中不处理异常会发生什么</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</link>
+        <title>ChannelHandlerAdapter与@Sharable</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandleradapter%E4%B8%8Esharable/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/channelhandleradapter%E4%B8%8Esharable/</guid>
+        <description>Sharable的应用案例 先直观感受一下该注解的影响： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 public static class Handler extends SimpleChannelInboundHandler&amp;lt;String&amp;gt; { @Override protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception { System.out.println(msg); } } public static void</description>
+      </item>
+      
+      <item>
+        <title>ChannelHandler中不处理异常会发生什么</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/channelhandler%E4%B8%AD%E4%B8%8D%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8%E4%BC%9A%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88/</guid>
         <description>每个Channel都拥有一个与之相关联的ChannelPipeline，其持有一个channelHandler的实例链。在默认的情况下，Ch</description>
       </item>
       
@@ -489,6 +570,42 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channel%E5%92%8Cchannelpipeline/</guid>
         <description>Channel的声明周期 Channel的生命周期分为如下状态： ChannelUnregistered：Channel被创建还未注册到Even</description>
+      </item>
+      
+      <item>
+        <title>Chrome导出Curl指令</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/chrome%E5%AF%BC%E5%87%BAcurl%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/chrome%E5%AF%BC%E5%87%BAcurl%E6%8C%87%E4%BB%A4/</guid>
+        <description>这个功能和Postman的导入功能结合在一起使用，前端、后端、测试联调时，非常的方便，过程如截图： Copy All As Curl，会将当前Network中的</description>
+      </item>
+      
+      <item>
+        <title>Chrome查看密码的技巧</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/chrome%E6%9F%A5%E7%9C%8B%E5%AF%86%E7%A0%81%E7%9A%84%E6%8A%80%E5%B7%A7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/chrome%E6%9F%A5%E7%9C%8B%E5%AF%86%E7%A0%81%E7%9A%84%E6%8A%80%E5%B7%A7/</guid>
+        <description>这个技巧不是在任何时间都好用的，相比于在密码管理器中查看密码，该方式最大的好处比较简单。 方法如下： 使用密码填充工具填充密码后，对这密码框右键</description>
+      </item>
+      
+      <item>
+        <title>Collections.newSetFromMap</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/collections.newsetfrommap/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/collections.newsetfrommap/</guid>
+        <description>在看Netty源码时，遇到如下一段代码： 1 2 3 4 private final Set&amp;lt;ChannelHandlerContext&amp;gt; initMap = Collections.newSetFromMap( new ConcurrentHashMap&amp;lt;ChannelHandlerContext, Boolean&amp;gt;()); 扒了一下该方法底层源码看了一下，如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18</description>
+      </item>
+      
+      <item>
+        <title>CollectionUtils判断集合是否为空</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/collectionutils%E5%88%A4%E6%96%AD%E9%9B%86%E5%90%88%E6%98%AF%E5%90%A6%E4%B8%BA%E7%A9%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/collectionutils%E5%88%A4%E6%96%AD%E9%9B%86%E5%90%88%E6%98%AF%E5%90%A6%E4%B8%BA%E7%A9%BA/</guid>
+        <description>这个算是写法的一种优化，之前的写法不太优雅： 1 2 3 4 5 6 7 8 9 CollectionUtils.isEmpty(null); // true CollectionUtils.isEmpty(new ArrayList()); // true CollectionUtils.isEmpty({a,b}); // false CollectionUtils.isNotEmpty(null); // false CollectionUtils.isNotEmpty(new ArrayList());// false CollectionUtils.isNotEmpty({a,b}); // true</description>
       </item>
       
       <item>
@@ -561,6 +678,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/cygwin%E4%B8%8A%E5%AE%89%E8%A3%85curl/</guid>
         <description>截图如下： 核心需要注意的是，需要在skip上点一下，直到点出版本号。 参考资料 Windows 下如何在cygwin上安装curl？</description>
+      </item>
+      
+      <item>
+        <title>DataGrip设置时区为上海</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/h2-and-datagrip/datagrip%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA%E4%B8%BA%E4%B8%8A%E6%B5%B7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/h2-and-datagrip/datagrip%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA%E4%B8%BA%E4%B8%8A%E6%B5%B7/</guid>
+        <description>比较简单，我直接截图了： 需要断开已有的数据库，然后重新链接。 参考资料 DataGrip设置时区</description>
       </item>
       
       <item>
@@ -753,6 +879,33 @@
       </item>
       
       <item>
+        <title>Feign客户端的返回值和Controller的返回值之间没有强约束</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/feign%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC%E5%92%8Ccontroller%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC%E4%B9%8B%E9%97%B4%E6%B2%A1%E6%9C%89%E5%BC%BA%E7%BA%A6%E6%9D%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/feign%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC%E5%92%8Ccontroller%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC%E4%B9%8B%E9%97%B4%E6%B2%A1%E6%9C%89%E5%BC%BA%E7%BA%A6%E6%9D%9F/</guid>
+        <description>事情是这样的，我用entity包下的Company开发了一个Controller，但是我FeignClient返回的是response包下C</description>
+      </item>
+      
+      <item>
+        <title>Feign抛出了异常，及异常的处理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/feign%E6%8A%9B%E5%87%BA%E4%BA%86%E5%BC%82%E5%B8%B8%E5%8F%8A%E5%BC%82%E5%B8%B8%E7%9A%84%E5%A4%84%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/feign%E6%8A%9B%E5%87%BA%E4%BA%86%E5%BC%82%E5%B8%B8%E5%8F%8A%E5%BC%82%E5%B8%B8%E7%9A%84%E5%A4%84%E7%90%86/</guid>
+        <description>如下代码为我们框架中自己开发的Decoder： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 @Slf4j public class FeignDecoder extends SpringDecoder { public FeignDecoder(ObjectFactory&amp;lt;HttpMessageConverters&amp;gt; messageConverters) { super(messageConverters); } @Override public Object decode(final Response response, Type type) throws</description>
+      </item>
+      
+      <item>
+        <title>flush行为控制</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/flush%E8%A1%8C%E4%B8%BA%E6%8E%A7%E5%88%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/flush%E8%A1%8C%E4%B8%BA%E6%8E%A7%E5%88%B6/</guid>
+        <description>flush操作负责将ByteBuffer消息写入到SocketChannel中发送给对方。write和flush的作用概括如下： write：</description>
+      </item>
+      
+      <item>
         <title>FreeMarker中的数据类型</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/freemarker/freemarker%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -825,6 +978,15 @@
       </item>
       
       <item>
+        <title>Git Hub Token的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/git-hub-token%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/git-hub-token%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>一代版本一代神，又得开始研究GitHub Token相关的技术了。 命令行使用 git clone https://github.com/username/repo.git Username: your_username Password: your_token 在CentOS系统上，这个东西是不会缓存的，非常的不</description>
+      </item>
+      
+      <item>
         <title>GitBook安装插件</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/gitbook%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -867,6 +1029,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/github%E6%8E%A8%E9%80%81%E4%BB%A3%E7%A0%81%E5%A4%B1%E8%B4%A5/</guid>
         <description>问题描述 向GitHub仓库推送代码时，先后出现了如下错误： 1 2 3 4 git push -u origin main fatal: unable to access &amp;#39;https://github.com/junjie2018/blogs.git/&amp;#39;: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054 1 2 3 4 git push -u origin main fatal: unable to access &amp;#39;https://github.com/junjie2018/blogs.git/&amp;#39;: Failed to connect to github.com port 443: Timed</description>
+      </item>
+      
+      <item>
+        <title>GitHub生成Token</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/github%E7%94%9F%E6%88%90token/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/github%E7%94%9F%E6%88%90token/</guid>
+        <description>过程比较简单，直接截图了：</description>
       </item>
       
       <item>
@@ -948,6 +1119,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/</guid>
         <description>操作步骤 指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 # 全局 git config --global http.proxy &amp;#39;http://192.168.13.59:1080&amp;#39; git config --global https.proxy &amp;#39;http://192.168.13.59:1080&amp;#39; git config --global http.proxy &amp;#39;http://127.0.0.1:1080&amp;#39; git config --global https.proxy &amp;#39;http://127.0.0.1:1080&amp;#39; git config --global http.proxy &amp;#39;socks5://127.0.0.1:1080&amp;#39; git config --global https.proxy</description>
+      </item>
+      
+      <item>
+        <title>Git拉取代码时报错</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E6%8B%89%E5%8F%96%E4%BB%A3%E7%A0%81%E6%97%B6%E6%8A%A5%E9%94%99/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E6%8B%89%E5%8F%96%E4%BB%A3%E7%A0%81%E6%97%B6%E6%8A%A5%E9%94%99/</guid>
+        <description>错误如下： error: RPC failed; curl 56 GnuTLS recv error (-9) 解决方法： apt-get install gnutls-bin git config --global http.sslVerify false git config --global http.postBuffer 1048576000 参考方案 解决git clone 完成后提示&amp;rsquo;error: RPC failed; curl 56 GnuTLS recv error (-9)&#39;</description>
       </item>
       
       <item>
@@ -1059,6 +1239,15 @@
       </item>
       
       <item>
+        <title>http协议的代理和Socks5协议的代理</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/http%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BB%A3%E7%90%86%E5%92%8Csocks5%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BB%A3%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/http%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BB%A3%E7%90%86%E5%92%8Csocks5%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BB%A3%E7%90%86/</guid>
+        <description>这个问题只能算作是记录，我目前也不知道具体产生的原因。我知道curl指令默认情况下不会通过socks5解析域名，所以测试的时候我需要使用so</description>
+      </item>
+      
+      <item>
         <title>Hugo输出静态文件</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/hugo%E8%BE%93%E5%87%BA%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1110,6 +1299,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/idea%E4%B8%AD%E6%97%A0%E6%B3%95%E8%B7%B3%E8%BD%AC%E5%88%B0spring-boot-starter-parent%E6%BA%90%E7%A0%81%E4%BA%86/</guid>
         <description>想看一下spring-boot-starter-parent的源码，看看版本裁决时用了哪些变量，但是发现Idea无法调整到这些源码，这就很奇</description>
+      </item>
+      
+      <item>
+        <title>Idea中查看类层次结构</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%B8%AD%E6%9F%A5%E7%9C%8B%E7%B1%BB%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E4%B8%AD%E6%9F%A5%E7%9C%8B%E7%B1%BB%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84/</guid>
+        <description>之前看源码时频繁用到的技术，最近这段时间看源码比较少，先收藏一下，未来用到了再整理。 参考资料 idea查看类层次结构图</description>
       </item>
       
       <item>
@@ -1365,6 +1563,15 @@
       </item>
       
       <item>
+        <title>Java查看内存地址</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E6%9F%A5%E7%9C%8B%E5%86%85%E5%AD%98%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E6%9F%A5%E7%9C%8B%E5%86%85%E5%AD%98%E5%9C%B0%E5%9D%80/</guid>
+        <description>之前一直使用的是hashCode，但是在使用一个框架的时候发现hashCode方法被重写了，根本没有参考意义，所以找到了如下的方法： 1 2 3 System.out.println(System.identityHashCode(obj));</description>
+      </item>
+      
+      <item>
         <title>Java浅拷贝深拷贝工具测试</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/java%E6%B5%85%E6%8B%B7%E8%B4%9D%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%B7%A5%E5%85%B7%E6%B5%8B%E8%AF%95/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1546,10 +1753,10 @@
       
       <item>
         <title>LengthFieldBasedFrameDecoder学习</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/lengthfieldbasedframedecoder%E5%AD%A6%E4%B9%A0/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/lengthfieldbasedframedecoder%E5%AD%A6%E4%B9%A0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/lengthfieldbasedframedecoder%E5%AD%A6%E4%B9%A0/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/lengthfieldbasedframedecoder%E5%AD%A6%E4%B9%A0/</guid>
         <description>我之前学习Netty的课程时出现了LengthFieldBasedFrameDecoder解码器，当时我只想了解学习这门技术，所以很多技术点</description>
       </item>
       
@@ -1569,6 +1776,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</guid>
         <description>md5 指令如下： md5sum 文件名 参考资料 Linux下对文件进行md5校验命令 Shell 变量 Shell —— 变量的声明和使用</description>
+      </item>
+      
+      <item>
+        <title>Linux查看所有的环境变量</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+        <description>指令如下： env</description>
       </item>
       
       <item>
@@ -1662,6 +1878,33 @@
       </item>
       
       <item>
+        <title>Maven的一项技术及这项技术的现实意义</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/maven%E7%9A%84%E4%B8%80%E9%A1%B9%E6%8A%80%E6%9C%AF%E5%8F%8A%E8%BF%99%E9%A1%B9%E6%8A%80%E6%9C%AF%E7%9A%84%E7%8E%B0%E5%AE%9E%E6%84%8F%E4%B9%89/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/maven%E7%9A%84%E4%B8%80%E9%A1%B9%E6%8A%80%E6%9C%AF%E5%8F%8A%E8%BF%99%E9%A1%B9%E6%8A%80%E6%9C%AF%E7%9A%84%E7%8E%B0%E5%AE%9E%E6%84%8F%E4%B9%89/</guid>
+        <description>先声明一下，我觉得下面的技术在实践过程中并没有太大的意义，只是碰巧看到了，所以就整理一下。 如下，我们可以如下配置pom.xml文件： 1 2 3 4</description>
+      </item>
+      
+      <item>
+        <title>Maven配置源码打包</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/maven%E9%85%8D%E7%BD%AE%E6%BA%90%E7%A0%81%E6%89%93%E5%8C%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/maven%E9%85%8D%E7%BD%AE%E6%BA%90%E7%A0%81%E6%89%93%E5%8C%85/</guid>
+        <description>配置代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 &amp;lt;build&amp;gt; &amp;lt;plugins&amp;gt; &amp;lt;plugin&amp;gt; &amp;lt;groupId&amp;gt;org.apache.maven.plugins&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;maven-source-plugin&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.2.1&amp;lt;/version&amp;gt; &amp;lt;configuration&amp;gt; &amp;lt;attach&amp;gt;true&amp;lt;/attach&amp;gt; &amp;lt;/configuration&amp;gt; &amp;lt;executions&amp;gt; &amp;lt;execution&amp;gt; &amp;lt;phase&amp;gt;compile&amp;lt;/phase&amp;gt; &amp;lt;goals&amp;gt; &amp;lt;goal&amp;gt;jar&amp;lt;/goal&amp;gt; &amp;lt;/goals&amp;gt; &amp;lt;/execution&amp;gt; &amp;lt;/executions&amp;gt; &amp;lt;/plugin&amp;gt; &amp;lt;/plugins&amp;gt; &amp;lt;/build&amp;gt; 我直接将这个配置在了根目录，最近用Mave</description>
+      </item>
+      
+      <item>
+        <title>Maven配置生成的jar包名称</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/maven%E9%85%8D%E7%BD%AE%E7%94%9F%E6%88%90%E7%9A%84jar%E5%8C%85%E5%90%8D%E7%A7%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/maven%E9%85%8D%E7%BD%AE%E7%94%9F%E6%88%90%E7%9A%84jar%E5%8C%85%E5%90%8D%E7%A7%B0/</guid>
+        <description>流水线中，通过Maven构建项目之后，无法找到构建后的jar包，和同事讨论后得知，我们项目中规定了构建后的jar包的名称，所以在Maven中</description>
+      </item>
+      
+      <item>
         <title>Method has too many Body parameters</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/method-has-too-many-body-parameters/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1743,6 +1986,15 @@
       </item>
       
       <item>
+        <title>MyBatis框架限制Page查询最大只能查500条</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E6%A1%86%E6%9E%B6%E9%99%90%E5%88%B6page%E6%9F%A5%E8%AF%A2%E6%9C%80%E5%A4%A7%E5%8F%AA%E8%83%BD%E6%9F%A5500%E6%9D%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E6%A1%86%E6%9E%B6%E9%99%90%E5%88%B6page%E6%9F%A5%E8%AF%A2%E6%9C%80%E5%A4%A7%E5%8F%AA%E8%83%BD%E6%9F%A5500%E6%9D%A1/</guid>
+        <description>今天想小小满足一下前端的一个超大JSON的需求，结果发现MyBatis限制了分页查询时最大查询条数为500条，即使传入limit为10000</description>
+      </item>
+      
+      <item>
         <title>MyBatis配置打印日志信息</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E9%85%8D%E7%BD%AE%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E4%BF%A1%E6%81%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1761,29 +2013,38 @@
       </item>
       
       <item>
-        <title>Netty服务端启动过程分析</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E5%88%86%E6%9E%90/</link>
+        <title>Netty分配池化的堆外内存的细节</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E5%88%86%E9%85%8D%E6%B1%A0%E5%8C%96%E7%9A%84%E5%A0%86%E5%A4%96%E5%86%85%E5%AD%98%E7%9A%84%E7%BB%86%E8%8A%82/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E5%88%86%E6%9E%90/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E5%88%86%E9%85%8D%E6%B1%A0%E5%8C%96%E7%9A%84%E5%A0%86%E5%A4%96%E5%86%85%E5%AD%98%E7%9A%84%E7%BB%86%E8%8A%82/</guid>
+        <description>PooledByteBufAllocator是netty分配池化内存的操作入口。</description>
+      </item>
+      
+      <item>
+        <title>Netty服务端启动过程分析</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/netty%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E5%88%86%E6%9E%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/netty%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E5%88%86%E6%9E%90/</guid>
         <description></description>
       </item>
       
       <item>
         <title>Netty理解pipeline实验设计</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%90%86%E8%A7%A3pipeline%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/netty%E7%90%86%E8%A7%A3pipeline%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%90%86%E8%A7%A3pipeline%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/netty%E7%90%86%E8%A7%A3pipeline%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/</guid>
         <description>我目前正处于Netty的学习过程中，所学的知识并没有覆盖到我接下来要进行的实验，但是为了更好的理解pipeline，我设计了如下的实验： 准备</description>
       </item>
       
       <item>
         <title>Netty的基础知识</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/netty%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/netty%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
         <description>Netty对NIO进行的封装 设计优雅：适用于各种传输类型的统一（API阻塞和非阻塞Socket）；基于灵活可扩展的事件模型，可以清晰地分离关</description>
       </item>
       
@@ -1851,6 +2112,42 @@
       </item>
       
       <item>
+        <title>OAuth2 Demo开发整理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2-demo%E5%BC%80%E5%8F%91%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2-demo%E5%BC%80%E5%8F%91%E6%95%B4%E7%90%86/</guid>
+        <description>客户端 任意一个接口A，这个接口模拟用户没有登录（授权）的情况，将用户重定向到OAuth授权服务器，进行登录（授权）。接口A需要记录下自己传递</description>
+      </item>
+      
+      <item>
+        <title>OAuth2的Endpoint</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E7%9A%84endpoint/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E7%9A%84endpoint/</guid>
+        <description>OAuth2有三个重要的Endpoint，其中授权Endpoint、Token Endpoint节点在授权服务器中，还有一个可选的重定向End</description>
+      </item>
+      
+      <item>
+        <title>OAuth2资源整理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/</guid>
+        <description>GitHub OAuth应用注册页</description>
+      </item>
+      
+      <item>
+        <title>OAuth授权方式及使用场景</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth%E6%8E%88%E6%9D%83%E6%96%B9%E5%BC%8F%E5%8F%8A%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth%E6%8E%88%E6%9D%83%E6%96%B9%E5%BC%8F%E5%8F%8A%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF/</guid>
+        <description>如下为一份粗略的授权方式及适用场景： 授权码（Authorisation Code）：适用于具有后端的传统Web应用程序以及原生（移动或桌面）应</description>
+      </item>
+      
+      <item>
         <title>oss2代理设置问题</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/oss2%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1901,7 +2198,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pip3%E8%AE%BE%E7%BD%AE%E5%9B%BD%E5%86%85%E6%BA%90/</guid>
-        <description>操作步骤 指令如下 1 2 3 4 5 6 7 8 9 mkdir -p ~/.pip sudo tee ~/.pip/pip.conf &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; sudo tee [global] index-url = https://mirrors.aliyun.com/pypi/simple EOF</description>
+        <description>操作步骤 指令如下 1 2 3 4 5 6 7 8 mkdir -p ~/.pip sudo tee ~/.pip/pip.conf &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; [global] index-url = https://mirrors.aliyun.com/pypi/simple EOF</description>
       </item>
       
       <item>
@@ -1973,7 +2270,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E5%AF%BC%E5%87%BAcurl%E6%8C%87%E4%BB%A4/</guid>
-        <description>应用场景不用多说吧，只是可惜了，导出来的curl在windows上执行不了。 这个code按钮还是有很多东西可以研究的，我之后研究下： 参考资料</description>
+        <description>应用场景不用多说吧，只是可惜了，导出来的curl在windows上执行不了。 这个code按钮还是有很多东西可以研究的，我之后研究下： 2021</description>
       </item>
       
       <item>
@@ -2001,6 +2298,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E7%9A%84%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/</guid>
         <description>我把这路径记一记，因为我感觉我随时要去整它，Postman好几个版本在我公司电脑上老是出问题，糟心。 C:\Users\wujj\AppData\Local\Postman</description>
+      </item>
+      
+      <item>
+        <title>Postman的导入功能</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E7%9A%84%E5%AF%BC%E5%85%A5%E5%8A%9F%E8%83%BD/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E7%9A%84%E5%AF%BC%E5%85%A5%E5%8A%9F%E8%83%BD/</guid>
+        <description>这个功能结合Chrome的Copy As Curl使用，非常的赞：</description>
       </item>
       
       <item>
@@ -2040,12 +2346,21 @@
       </item>
       
       <item>
+        <title>Profile配置在实践中使用起来很舒服</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/profile%E9%85%8D%E7%BD%AE%E5%9C%A8%E5%AE%9E%E8%B7%B5%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%B5%B7%E6%9D%A5%E5%BE%88%E8%88%92%E6%9C%8D/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/profile%E9%85%8D%E7%BD%AE%E5%9C%A8%E5%AE%9E%E8%B7%B5%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%B5%B7%E6%9D%A5%E5%BE%88%E8%88%92%E6%9C%8D/</guid>
+        <description>我之前启动服务时使用不同的配置使用的profiles.profiles.active，但是我最近发现这个配置的不便之处，我的每个测试类都需要</description>
+      </item>
+      
+      <item>
         <title>Promox VE 6.3装Realtek 8125 2.5G网卡驱动</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/promox-ve-6.3%E8%A3%85realtek-8125-2.5g%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/promox-ve-6.3%E8%A3%85realtek-8125-2.5g%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8/</guid>
-        <description>操作步骤 准备编译工具 apt update &amp;amp;&amp;amp; apt install pve-headers-$(uname -r) build-essential 从如下地址下载驱动源码 https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software 解压并编译 tar xvf r8125-9.004.01.tar cd r8125-9.004.01 make 安装驱动 cd src mkdir -p /lib/modules/5.4.78-2-pve/kernel/drivers/net/ethernet/realtek/ install -m 644 -o root r8125.ko /lib/modules/5.4.78-2-pve/kernel/drivers/net/ethernet/realtek/ /sbin/depmod `uname -r` /sbin/modprobe r8125 检验安装结果并重</description>
+        <description>操作步骤 准备编译工具 apt update &amp;amp;&amp;amp; apt install pve-headers-$(uname -r) build-essential 从如下地址下载驱动源码 https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software 解压并编译 tar xvf r8125-9.004.01.tar cd r8125-9.004.01 make 安装驱动 cd src mkdir -p /lib/modules/5.4.78-2-pve/kernel/drivers/net/ethernet/realtek/ install -m 644 -o root r8125.ko /lib/modules/5.4.78-2-pve/kernel/drivers/net/ethernet/realtek/ # 20211011 mkdir -p /lib/modules/5.11.22-5-pve/kernel/drivers/net/ethernet/realtek/ install -m 644 -o root r8125.ko /lib/modules/5.11.22-5-pve/kernel/drivers/net/ethernet/realtek/ /sbin/depmod</description>
       </item>
       
       <item>
@@ -2103,6 +2418,33 @@
       </item>
       
       <item>
+        <title>PVE与R8125网卡</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%B8%8Er8125%E7%BD%91%E5%8D%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%B8%8Er8125%E7%BD%91%E5%8D%A1/</guid>
+        <description>R8125这张网卡，真的可以把我折磨的死去活来的，我甚至都考虑换一个I210网卡的机子了，不过今天可能真的一劳永逸的解决这个问题了。 之前将C</description>
+      </item>
+      
+      <item>
+        <title>PVE从6.x升级到7.x</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%BB%8E6.x%E5%8D%87%E7%BA%A7%E5%88%B07.x/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%BB%8E6.x%E5%8D%87%E7%BA%A7%E5%88%B07.x/</guid>
+        <description>我本意是不想升级的，但是我编译R8125的驱动时下载不到相应的headers，所以只好升级PVE到7.x。 整个过程让我无法理解的是，我按照官</description>
+      </item>
+      
+      <item>
+        <title>PVE使用xterm.js</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%BD%BF%E7%94%A8xterm.js/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%BD%BF%E7%94%A8xterm.js/</guid>
+        <description>已知xterm.js是个好东西，支持copy和paste，但是配置起来太麻烦了，性价比太低，所以我不想搞。资料如下： Serial Terminal PVE 5.1 設定 KVM 虛擬機能夠</description>
+      </item>
+      
+      <item>
         <title>PVE修改Ubuntu虚拟机的硬盘大小</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%BF%AE%E6%94%B9ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E7%A1%AC%E7%9B%98%E5%A4%A7%E5%B0%8F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2130,12 +2472,39 @@
       </item>
       
       <item>
+        <title>PVE网卡直通</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E7%BD%91%E5%8D%A1%E7%9B%B4%E9%80%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E7%BD%91%E5%8D%A1%E7%9B%B4%E9%80%9A/</guid>
+        <description>实际上，我现在不需要这个技术了，甚至在研究这个技术时，我悟出了一个人生道理：最优解不一定是最适合的解。 BIOS层面的东西我不讲了，因为我老早</description>
+      </item>
+      
+      <item>
         <title>Pycharm设置sdk</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pycharm%E8%AE%BE%E7%BD%AEsdk/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pycharm%E8%AE%BE%E7%BD%AEsdk/</guid>
         <description>截图如下： 第三张图中，需要选到本地的一个exe文件。</description>
+      </item>
+      
+      <item>
+        <title>Pycharm远程调试</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pycharm%E8%BF%9C%E7%A8%8B%E8%B0%83%E8%AF%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/pycharm%E8%BF%9C%E7%A8%8B%E8%B0%83%E8%AF%95/</guid>
+        <description>一个字：非常爽。之前需要每次编辑完后，删除shell已有的问题件，然后将新的文件拖到shell中，然后手动执行，现在不需要这样做了，大大提升</description>
+      </item>
+      
+      <item>
+        <title>Python.h找不到</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/python.h%E6%89%BE%E4%B8%8D%E5%88%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/python.h%E6%89%BE%E4%B8%8D%E5%88%B0/</guid>
+        <description>我执行的指令如下： yum search python | grep devel yum install python3-devel.x86_64 参考资料 解决Python.h找不到问题</description>
       </item>
       
       <item>
@@ -2154,6 +2523,33 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4/</guid>
         <description>安装Rancher 执行如下指令 docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged rancher/rancher:latest 导入集群 首先在Cluster选项卡下选择Add Cluster。因为我已经配置过了，这个按钮</description>
+      </item>
+      
+      <item>
+        <title>rdate指令的使用</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/rdate%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/rdate%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>这个纯粹是用来玩的。用Netty开发了一个简单的时间服务，然后想用rdate去访问这个服务： rdate -p 192.168.28.118 # 输出 rdate: [192.168.28.118] Sat Aug 21 04:03:48 2021 Netty核心代码如下</description>
+      </item>
+      
+      <item>
+        <title>recursive参数</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/recursive%E5%8F%82%E6%95%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/recursive%E5%8F%82%E6%95%B0/</guid>
+        <description>&amp;ndash;recursive用于选款克隆git子项目： git clone git://github.com/ansible/ansible.git --recursive</description>
+      </item>
+      
+      <item>
+        <title>RequestParam缺少参数，导致FeignClient注入失败</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/requestparam%E7%BC%BA%E5%B0%91%E5%8F%82%E6%95%B0%E5%AF%BC%E8%87%B4feignclient%E6%B3%A8%E5%85%A5%E5%A4%B1%E8%B4%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/requestparam%E7%BC%BA%E5%B0%91%E5%8F%82%E6%95%B0%E5%AF%BC%E8%87%B4feignclient%E6%B3%A8%E5%85%A5%E5%A4%B1%E8%B4%A5/</guid>
+        <description>今天我在Feign Client中增加了如下的代码： 1 2 3 4 5 6 7 /** * 全量获取材料平台供应商列表（SRM） */ @GetMapping(&amp;#34;getSupplierById&amp;#34;) SupplierResponse getSupplierById(@RequestParam String supplierId); 结果本地安装后，会导致依</description>
       </item>
       
       <item>
@@ -2301,12 +2697,30 @@
       </item>
       
       <item>
+        <title>SpringBoot依赖版本被覆盖</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E4%BE%9D%E8%B5%96%E7%89%88%E6%9C%AC%E8%A2%AB%E8%A6%86%E7%9B%96/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E4%BE%9D%E8%B5%96%E7%89%88%E6%9C%AC%E8%A2%AB%E8%A6%86%E7%9B%96/</guid>
+        <description>因为开发需求，引入了如下一些包： 1 2 3 4 5 6 7 8 9 &amp;lt;dependencies&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.sdstc.starter&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;elasticjob-spring-boot-starter&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.0.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;/dependencies&amp;gt; 结果项目无法正常启动，报如下错误： *************************** APPLICATION FAILED TO START *************************** Description: An attempt was made to call a method that does not exist. The attempt</description>
+      </item>
+      
+      <item>
         <title>SpringBoot修改默认的时区</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E6%97%B6%E5%8C%BA/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E7%9A%84%E6%97%B6%E5%8C%BA/</guid>
         <description>代码如下： 1 2 3 4 5 6 @PostConstruct void setDefaultTimezone() { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); } 需要注意的是如下的写法并不会生效： 1 2 3 4 5 6 public static void main(String[] args) { TimeZone.setDefault(TimeZone.getTimeZone(&amp;#34;GMT&amp;#34;)); SpringApplication.run(MybatisApplication.class, args); } 查看当前实例的时区，可用如下代码： 1 2 3</description>
+      </item>
+      
+      <item>
+        <title>SpringBoot在代码中获取profiles信息</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E5%9C%A8%E4%BB%A3%E7%A0%81%E4%B8%AD%E8%8E%B7%E5%8F%96profiles%E4%BF%A1%E6%81%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springboot%E5%9C%A8%E4%BB%A3%E7%A0%81%E4%B8%AD%E8%8E%B7%E5%8F%96profiles%E4%BF%A1%E6%81%AF/</guid>
+        <description>方案都挺不优雅的，尤其是在激活多个profiles时，先收集一下，下次用的时候再整理吧。 参考资料 SpringBoot获取当前运行环境三种方式</description>
       </item>
       
       <item>
@@ -2346,12 +2760,30 @@
       </item>
       
       <item>
+        <title>SpringBoot项目配置apollo访问地址</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/apollo/springboot%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AEapollo%E8%AE%BF%E9%97%AE%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/apollo/springboot%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AEapollo%E8%AE%BF%E9%97%AE%E5%9C%B0%E5%9D%80/</guid>
+        <description>我没有系统的学习Apollo，仅记录一下我在开发中遇到的问题，如下，我们在sit环境中的配置文件如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 apollo:bootstrap:enabled:truenamespaces:application,mybatis-plus,datasource,redis,spring,ossapp:id:srmspring:main:allow-bean-definition-overriding:true 如果在本地</description>
+      </item>
+      
+      <item>
         <title>SpringCloud使用Feign方案</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springcloud%E4%BD%BF%E7%94%A8feign%E6%96%B9%E6%A1%88/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/springcloud%E4%BD%BF%E7%94%A8feign%E6%96%B9%E6%A1%88/</guid>
         <description>操作步骤 如图两个项目mmp-wuid和mmp-member-brand项目 mmp-wuid项目下有如下module，其中admin、api、</description>
+      </item>
+      
+      <item>
+        <title>Spring与OAuth授权服务器</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/spring%E4%B8%8Eoauth%E6%8E%88%E6%9D%83%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/spring%E4%B8%8Eoauth%E6%8E%88%E6%9D%83%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+        <description>Spring团队原本不打算支持OAuth授权服务器，因为他们认OAuth授权服务器并不是一个高频的需求，但是因为社区中有大量的人提出了该需求</description>
       </item>
       
       <item>
@@ -2436,6 +2868,15 @@
       </item>
       
       <item>
+        <title>timestamptz查询结果用时间戳显示</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/timestamptz%E6%9F%A5%E8%AF%A2%E7%BB%93%E6%9E%9C%E7%94%A8%E6%97%B6%E9%97%B4%E6%88%B3%E6%98%BE%E7%A4%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/timestamptz%E6%9F%A5%E8%AF%A2%E7%BB%93%E6%9E%9C%E7%94%A8%E6%97%B6%E9%97%B4%E6%88%B3%E6%98%BE%E7%A4%BA/</guid>
+        <description>这个方案目前还有很多问题，我个人认为是因为我还有很多细节处没有参透，所以结果很怪异。 先说明一下我的需求，当我开发了一个分页接口，我需要测试其</description>
+      </item>
+      
+      <item>
         <title>timestamptz类型的研究</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/timestamptz%E7%B1%BB%E5%9E%8B%E7%9A%84%E7%A0%94%E7%A9%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2495,7 +2936,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu-18.04%E6%B0%B8%E4%B9%85%E6%9B%BF%E6%8D%A2resolve.conf%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
-        <description>处理步骤 三台虚拟机上运行如下指令 1 2 3 4 5 6 7 sudo tee -a /etc/resolvconf/resolv.conf.d/head &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; nameserver 172.17.30.1 nameserver 114.114.114.114 nameserver 114.114.115.115 EOF 重启所有虚拟机 相关教程 Kubernetes中的Pod无法访问外网-Ub</description>
+        <description>处理步骤 三台虚拟机上运行如下指令 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 sudo tee -a /etc/resolvconf/resolv.conf.d/head &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; nameserver 172.17.30.1 nameserver 114.114.114.114 nameserver 114.114.115.115 EOF sudo tee -a /etc/resolvconf/resolv.conf.d/head &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; nameserver 192.168.31.1 nameserver 8.8.8.8 EOF 重启所有虚拟机 相关教程 Kubern</description>
       </item>
       
       <item>
@@ -2621,7 +3062,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win10%E5%8F%B3%E4%B8%8B%E8%A7%92%E5%9B%BE%E8%A1%A8%E6%98%BE%E7%A4%BA/</guid>
-        <description>懒的整理，这种东西就是十年半个月用不到一次： https://jingyan.baidu.com/article/e73e26c01bc1c364acb6a734.html</description>
+        <description>懒的整理，这种东西就是十年半个月用不到一次： https://jingyan.baidu.com/article/e73e26c01bc1c364acb6a734.html 20210928后续： windows图标经常莫名其妙的缩回去，没想到这个教程使用频率这么高。 2</description>
       </item>
       
       <item>
@@ -2706,12 +3147,30 @@
       </item>
       
       <item>
+        <title>Windows卸载安全助手</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/windows%E5%8D%B8%E8%BD%BD%E5%AE%89%E5%85%A8%E5%8A%A9%E6%89%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/windows%E5%8D%B8%E8%BD%BD%E5%AE%89%E5%85%A8%E5%8A%A9%E6%89%8B/</guid>
+        <description>越来越讨厌Windows系统了！！！ 20211011实践 实践中，我是通过火绒剑关闭相关进程的。关闭进程后，文件夹才可以删除，我直接用git b</description>
+      </item>
+      
+      <item>
         <title>Windows安装ElasticSearch</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/elasticsearch/windows%E5%AE%89%E8%A3%85elasticsearch/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/elasticsearch/windows%E5%AE%89%E8%A3%85elasticsearch/</guid>
         <description>Windows安装ElasticSearch，用于学习环境 下载二进制文件，解压后进入bin目录 使用管理员身份运行elasticsearch.</description>
+      </item>
+      
+      <item>
+        <title>Windows杀死一个进程</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/windows%E6%9D%80%E6%AD%BB%E4%B8%80%E4%B8%AA%E8%BF%9B%E7%A8%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/windows%E6%9D%80%E6%AD%BB%E4%B8%80%E4%B8%AA%E8%BF%9B%E7%A8%8B/</guid>
+        <description>这个指令之前查过，给忘记了，现在整理一下： tskill pid</description>
       </item>
       
       <item>
@@ -2730,6 +3189,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E4%B8%8A%E8%BF%9B%E5%85%A5%E9%9D%9Ec%E7%9B%98%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B9/</guid>
         <description>如下代码可直接进入非C盘的目录： 1 2 3 cd /D D:\Blogs 如不不用/D参数，则该指令无法正常进入该目录。 参考资料 bat文件直接进入某个盘符目录</description>
+      </item>
+      
+      <item>
+        <title>win查看所有的环境变量</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/win%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+        <description>使用指令如下： set Java中查看所有环境变量，使用如下代码： 1 2 3 4 5 public static void main(String[] args) { Map&amp;lt;String, String&amp;gt; getenv = System.getenv(); }</description>
       </item>
       
       <item>
@@ -2769,6 +3237,15 @@
       </item>
       
       <item>
+        <title>xshell退出时关闭了通过nohup启动的应用</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/xshell%E9%80%80%E5%87%BA%E6%97%B6%E5%85%B3%E9%97%AD%E4%BA%86%E9%80%9A%E8%BF%87nohup%E5%90%AF%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/xshell%E9%80%80%E5%87%BA%E6%97%B6%E5%85%B3%E9%97%AD%E4%BA%86%E9%80%9A%E8%BF%87nohup%E5%90%AF%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>我也是第一次遇到这种情况，我拿一台虚拟机帮同事开KT Connect的代码，并开启了一个端口转发，如下代码所示： nohup ktctl --namespace=dev connect --method=socks5 --dump2hosts &amp;gt; ktctl.log 2&amp;gt;&amp;amp;1 &amp;amp; nohup polipo -c /opt/polipo/config &amp;gt;</description>
+      </item>
+      
+      <item>
         <title>XShell隧道技术的利用</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/xshell/xshell%E9%9A%A7%E9%81%93%E6%8A%80%E6%9C%AF%E7%9A%84%E5%88%A9%E7%94%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2796,6 +3273,15 @@
       </item>
       
       <item>
+        <title>【笔记】CSRF攻击</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%AC%94%E8%AE%B0csrf%E6%94%BB%E5%87%BB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%AC%94%E8%AE%B0csrf%E6%94%BB%E5%87%BB/</guid>
+        <description>恶意应用软件让浏览器向已完成身份认证的网站发起请求，执行有害的操作，这就是CSRF。这是怎么发生的呢？记住主要的一点，浏览器可以向任何源发送</description>
+      </item>
+      
+      <item>
         <title>一个蠢问题</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%B8%80%E4%B8%AA%E8%A0%A2%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2814,12 +3300,48 @@
       </item>
       
       <item>
+        <title>一些小的知识点</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/%E4%B8%80%E4%BA%9B%E5%B0%8F%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/%E4%B8%80%E4%BA%9B%E5%B0%8F%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9/</guid>
+        <description>写入时自动释放Buffer 如下代码： 1 2 3 4 5 6 7 8 9 10 public class DiscardServerHandler extends ChannelInboundHandlerAdapter { @Override public void channelRead(ChannelHandlerContext ctx, Object msg) { ctx.write(msg); ctx.flush(); } } 此处在ChannelInboundHandler</description>
+      </item>
+      
+      <item>
         <title>一段插件配置代码与这样配置的原因</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E4%B8%80%E6%AE%B5%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%A0%81%E4%B8%8E%E8%BF%99%E6%A0%B7%E9%85%8D%E7%BD%AE%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E4%B8%80%E6%AE%B5%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%A0%81%E4%B8%8E%E8%BF%99%E6%A0%B7%E9%85%8D%E7%BD%AE%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
         <description>今天在整理框架的时候，看到了一段很奇怪的maven插件配置代码，如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 &amp;lt;plugin&amp;gt; &amp;lt;groupId&amp;gt;org.apache.maven.plugins&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;maven-jar-plugin&amp;lt;/artifactId&amp;gt; &amp;lt;executions&amp;gt; &amp;lt;execution&amp;gt; &amp;lt;phase&amp;gt;package&amp;lt;/phase&amp;gt; &amp;lt;goals&amp;gt; &amp;lt;goal&amp;gt;jar&amp;lt;/goal&amp;gt; &amp;lt;/goals&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>一键清理掉所有无用的Collection</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/%E4%B8%80%E9%94%AE%E6%B8%85%E7%90%86%E6%8E%89%E6%89%80%E6%9C%89%E6%97%A0%E7%94%A8%E7%9A%84collection/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/%E4%B8%80%E9%94%AE%E6%B8%85%E7%90%86%E6%8E%89%E6%89%80%E6%9C%89%E6%97%A0%E7%94%A8%E7%9A%84collection/</guid>
+        <description>实际上我没有找到这样的功能，所以使用Postman的Api，自己开发了一个Python脚本，脚本内容如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17</description>
+      </item>
+      
+      <item>
+        <title>下载Win10镜像</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%B8%8B%E8%BD%BDwin10%E9%95%9C%E5%83%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%B8%8B%E8%BD%BDwin10%E9%95%9C%E5%83%8F/</guid>
+        <description>这个方案并不直观，步骤如下： 进入官网下载页面 按F12，设置成手机模式，然后刷新页面 完成两个多选框后，会弹出选择32位还是64位的页面 我遇到的</description>
+      </item>
+      
+      <item>
+        <title>不开启feign客户端，就无法使用oss签名功能</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E4%B8%8D%E5%BC%80%E5%90%AFfeign%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%B0%B1%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8oss%E7%AD%BE%E5%90%8D%E5%8A%9F%E8%83%BD/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E4%B8%8D%E5%BC%80%E5%90%AFfeign%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%B0%B1%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8oss%E7%AD%BE%E5%90%8D%E5%8A%9F%E8%83%BD/</guid>
+        <description>其实这个问题不值得记录，但是实在是太巧合了，我刚修复好这个问题，另一个同事也遇到了，所以我就直接告诉他怎么修复了，他解决这个问题所花费的时间</description>
       </item>
       
       <item>
@@ -2877,12 +3399,30 @@
       </item>
       
       <item>
-        <title>为已存在的表删除、增加一个字段</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%BA%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A1%A8%E5%88%A0%E9%99%A4%E5%A2%9E%E5%8A%A0%E4%B8%80%E4%B8%AA%E5%AD%97%E6%AE%B5/</link>
+        <title>为Yum指定Python2</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E4%B8%BAyum%E6%8C%87%E5%AE%9Apython2/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%BA%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A1%A8%E5%88%A0%E9%99%A4%E5%A2%9E%E5%8A%A0%E4%B8%80%E4%B8%AA%E5%AD%97%E6%AE%B5/</guid>
-        <description>增加脚本如下： 1 2 3 4 5 ALTERTABLEt_company_package_manageADDCOLUMNaudit_opinionva</description>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E4%B8%BAyum%E6%8C%87%E5%AE%9Apython2/</guid>
+        <description>我使用频率较高的是Python3，但是Yum工具又必须使用Python2打开，所以我不得不频繁的切换Python软连接的指向。 我尝试过将/u</description>
+      </item>
+      
+      <item>
+        <title>为什么决定学习H2及DataGrip</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/h2-and-datagrip/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%B3%E5%AE%9A%E5%AD%A6%E4%B9%A0h2%E5%8F%8Adatagrip/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/h2-and-datagrip/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%B3%E5%AE%9A%E5%AD%A6%E4%B9%A0h2%E5%8F%8Adatagrip/</guid>
+        <description>在写Demo时，一旦引入第三方组件，再次启动该Demo的动力就会减少80%，尤其是数据库之类的第三方组件，所以我决定好好研究一下H2数据库。</description>
+      </item>
+      
+      <item>
+        <title>为已存在的表删除、增加、修改一个字段</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%BA%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A1%A8%E5%88%A0%E9%99%A4%E5%A2%9E%E5%8A%A0%E4%BF%AE%E6%94%B9%E4%B8%80%E4%B8%AA%E5%AD%97%E6%AE%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%BA%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A1%A8%E5%88%A0%E9%99%A4%E5%A2%9E%E5%8A%A0%E4%BF%AE%E6%94%B9%E4%B8%80%E4%B8%AA%E5%AD%97%E6%AE%B5/</guid>
+        <description>增加字段 1 2 3 4 5 ALTERTABLEt_company_package_manageADDCOLUMNaudit_opinionvarch</description>
       </item>
       
       <item>
@@ -2958,6 +3498,15 @@
       </item>
       
       <item>
+        <title>使用Anaconda遇到的一些问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E4%BD%BF%E7%94%A8anaconda%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E4%BD%BF%E7%94%A8anaconda%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</guid>
+        <description>安装Anaconda的时候，我只修改了一些安装路径，其他选项都操持了默认。结果完成安装后，我发现我输入conda --version没有任何反</description>
+      </item>
+      
+      <item>
         <title>使用Docker快速启动一个RabbitMQ实例</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/docker/%E4%BD%BF%E7%94%A8docker%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8%E4%B8%80%E4%B8%AArabbitmq%E5%AE%9E%E4%BE%8B/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2994,12 +3543,30 @@
       </item>
       
       <item>
+        <title>使用keytool生成秘钥对</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/%E4%BD%BF%E7%94%A8keytool%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5%E5%AF%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/%E4%BD%BF%E7%94%A8keytool%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5%E5%AF%B9/</guid>
+        <description>keytool工具位于%JAVA_HOME%/bin，我之前从来没有意识到过这个工具的存在，最近在进行CAS相关的实验，发现了这个工具。按照</description>
+      </item>
+      
+      <item>
         <title>使用KT Connect（探索版）</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E4%BD%BF%E7%94%A8kt-connect%E6%8E%A2%E7%B4%A2%E7%89%88/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E4%BD%BF%E7%94%A8kt-connect%E6%8E%A2%E7%B4%A2%E7%89%88/</guid>
         <description>这是一篇整理笔记，我很久前就开始使用这个技术了，但是一直没有整理。最近同事需要用，所以我简单整理一下，笔记中需要用到的资料我暂时去整理下载地</description>
+      </item>
+      
+      <item>
+        <title>使用redisson的锁</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%BD%BF%E7%94%A8redisson%E7%9A%84%E9%94%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%BD%BF%E7%94%A8redisson%E7%9A%84%E9%94%81/</guid>
+        <description>我们一个使用量非常小的小系统，不知道抽什么疯，突然出现了几起并发插入的问题，插入时上锁，好像只能上表锁，表锁会影响其他用户的使用，所以打算用</description>
       </item>
       
       <item>
@@ -3057,6 +3624,15 @@
       </item>
       
       <item>
+        <title>关于BuffByte研究</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%85%B3%E4%BA%8Ebuffbyte%E7%A0%94%E7%A9%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%85%B3%E4%BA%8Ebuffbyte%E7%A0%94%E7%A9%B6/</guid>
+        <description>透明零拷贝 这个零拷贝和我理解的零拷贝其实是两个东西。这个强调的是ByteBuf之间可以通过零拷贝而获取到一个新的ByteBuf，而我理解的零</description>
+      </item>
+      
+      <item>
         <title>关于scoat的问题</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Escoat%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3075,12 +3651,30 @@
       </item>
       
       <item>
+        <title>写大型数据</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%86%99%E5%A4%A7%E5%9E%8B%E6%95%B0%E6%8D%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%86%99%E5%A4%A7%E5%9E%8B%E6%95%B0%E6%8D%AE/</guid>
+        <description>网络存在饱和的可能性，如何在异步框架中高效地写大块数据是一个特殊的问题。由于写操作是非阻塞的，所以即使没有写出所有的数据，写操作也会在完成时</description>
+      </item>
+      
+      <item>
         <title>准备必要的二进制文件</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E5%87%86%E5%A4%87%E5%BF%85%E8%A6%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/%E5%87%86%E5%A4%87%E5%BF%85%E8%A6%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%96%87%E4%BB%B6/</guid>
         <description>下载地址如下： alibaba/kt-connect 在 Linux 系统中安装并设置 kubectl</description>
+      </item>
+      
+      <item>
+        <title>分页0和1的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%88%86%E9%A1%B50%E5%92%8C1%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%88%86%E9%A1%B50%E5%92%8C1%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>我始终记得我们之前做分页的时候是从零开始的，但是这个可能是我的错觉，因为我本身不是分页接口的消费者，所以我也不知道我开发的接口在被怎么传参（</description>
       </item>
       
       <item>
@@ -3093,12 +3687,30 @@
       </item>
       
       <item>
+        <title>创建自己的tap、tun设备</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84taptun%E8%AE%BE%E5%A4%87/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84taptun%E8%AE%BE%E5%A4%87/</guid>
+        <description>tunctl 安装tunctl工具 1 2 3 4 5 6 7 8 9 10 11 12 tee /etc/yum.repos.d/nux-misc.repo &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; [nux-misc] name=Nux Misc baseurl=http://li.nux.ro/download/nux/misc/el7/x86_64/ enabled=0 gpgcheck=1 gpgkey=http://li.nux.ro/download/nux/RPM-GPG-KEY-nux.ro EOF yum --enablerepo=nux-misc install tunctl tunctl [OPTIONS] [ -u owner ] [ -g group ] [ -t device-name ] t：指定要创建的tap、tun设备名</description>
+      </item>
+      
+      <item>
         <title>初始化项目的时候指定使用yaml格式的配置文件</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/%E5%88%9D%E5%A7%8B%E5%8C%96%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%97%B6%E5%80%99%E6%8C%87%E5%AE%9A%E4%BD%BF%E7%94%A8yaml%E6%A0%BC%E5%BC%8F%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/%E5%88%9D%E5%A7%8B%E5%8C%96%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%97%B6%E5%80%99%E6%8C%87%E5%AE%9A%E4%BD%BF%E7%94%A8yaml%E6%A0%BC%E5%BC%8F%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</guid>
         <description>命令如下：</description>
+      </item>
+      
+      <item>
+        <title>初次体验JWT</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/jwt/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8Cjwt/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/jwt/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8Cjwt/</guid>
+        <description>我按教程简单的体验了一下JWT，我没有走完整的JWT流程，只走了一下加密部分，我的代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</description>
       </item>
       
       <item>
@@ -3237,12 +3849,39 @@
       </item>
       
       <item>
+        <title>因为relativePath导致项目内依赖失败</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E5%9B%A0%E4%B8%BArelativepath%E5%AF%BC%E8%87%B4%E9%A1%B9%E7%9B%AE%E5%86%85%E4%BE%9D%E8%B5%96%E5%A4%B1%E8%B4%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E5%9B%A0%E4%B8%BArelativepath%E5%AF%BC%E8%87%B4%E9%A1%B9%E7%9B%AE%E5%86%85%E4%BE%9D%E8%B5%96%E5%A4%B1%E8%B4%A5/</guid>
+        <description>其实我之前研究过&amp;lt;relativePath/&amp;gt;，这个标签貌似是说从库中去寻找依赖，但是我当时理解的并不是很深入，知道我今天踩了这</description>
+      </item>
+      
+      <item>
+        <title>因为使用了SNAPSHOT，导致无法deploy</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E5%9B%A0%E4%B8%BA%E4%BD%BF%E7%94%A8%E4%BA%86snapshot%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95deploy/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E5%9B%A0%E4%B8%BA%E4%BD%BF%E7%94%A8%E4%BA%86snapshot%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95deploy/</guid>
+        <description>不知道是什么时候开始的，SNAPSHOT无法deploy到我们的仓库里，我使用如下代码将SNAPSHOT更改为了Release版本： mvn versions:set -DnewVersion=1.1.0 参</description>
+      </item>
+      
+      <item>
         <title>因为引入了错误的类，导致main方法无运行按钮</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%9B%A0%E4%B8%BA%E5%BC%95%E5%85%A5%E4%BA%86%E9%94%99%E8%AF%AF%E7%9A%84%E7%B1%BB%E5%AF%BC%E8%87%B4main%E6%96%B9%E6%B3%95%E6%97%A0%E8%BF%90%E8%A1%8C%E6%8C%89%E9%92%AE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%9B%A0%E4%B8%BA%E5%BC%95%E5%85%A5%E4%BA%86%E9%94%99%E8%AF%AF%E7%9A%84%E7%B1%BB%E5%AF%BC%E8%87%B4main%E6%96%B9%E6%B3%95%E6%97%A0%E8%BF%90%E8%A1%8C%E6%8C%89%E9%92%AE/</guid>
-        <description>如图，我Idea编辑器中无运行按钮： 当我注释掉一个类后，运行按钮恢复了： 很奇怪的现象，之前没有注意到存在这个问题。</description>
+        <description>如图，我Idea编辑器中无运行按钮： 当我注释掉一个类后，运行按钮恢复了： 很奇怪的现象，之前没有注意到存在这个问题。 参考资料 关于引入com.s</description>
+      </item>
+      
+      <item>
+        <title>因为没有写Version，导致Idea无法正常导入依赖</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E5%9B%A0%E4%B8%BA%E6%B2%A1%E6%9C%89%E5%86%99version%E5%AF%BC%E8%87%B4idea%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E5%AF%BC%E5%85%A5%E4%BE%9D%E8%B5%96/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E5%9B%A0%E4%B8%BA%E6%B2%A1%E6%9C%89%E5%86%99version%E5%AF%BC%E8%87%B4idea%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E5%AF%BC%E5%85%A5%E4%BE%9D%E8%B5%96/</guid>
+        <description>现象如下，每次右键reimport后，在右侧的maven选项卡中都看不到相应的依赖： 这个问题非常的难查，因为Idea没有报任何错误，我最后打</description>
       </item>
       
       <item>
@@ -3252,6 +3891,33 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E5%9B%A0%E4%B8%BA%E6%B2%A1%E6%9C%89%E6%89%A7%E8%A1%8Cgit-init%E5%AF%BC%E8%87%B4%E6%8A%98%E5%8F%A0%E6%8F%92%E4%BB%B6%E4%B8%8D%E7%94%9F%E6%95%88/</guid>
         <description>因为我的脚本会生成SUMMARY.md和Reademe.md，所以我一致认为gitbook init操作是没有意义的（其实我至今仍然认为这个操</description>
+      </item>
+      
+      <item>
+        <title>因为进行了换行，导致data.sql中的脚本无法执行</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/h2-and-datagrip/%E5%9B%A0%E4%B8%BA%E8%BF%9B%E8%A1%8C%E4%BA%86%E6%8D%A2%E8%A1%8C%E5%AF%BC%E8%87%B4data.sql%E4%B8%AD%E7%9A%84%E8%84%9A%E6%9C%AC%E6%97%A0%E6%B3%95%E6%89%A7%E8%A1%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/h2-and-datagrip/%E5%9B%A0%E4%B8%BA%E8%BF%9B%E8%A1%8C%E4%BA%86%E6%8D%A2%E8%A1%8C%E5%AF%BC%E8%87%B4data.sql%E4%B8%AD%E7%9A%84%E8%84%9A%E6%9C%AC%E6%97%A0%E6%B3%95%E6%89%A7%E8%A1%8C/</guid>
+        <description>如图，我编写了如下的data.sql，结果在启动SpringApplication时报错误： 报错如下： Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement &amp;quot;INSERT INTO T_USER (ID, USERNAME, PASSWORD, NICKNAME, CREATE_USER, UPDATE_USER)[*]&amp;quot;; expected &amp;quot;DIRECT,</description>
+      </item>
+      
+      <item>
+        <title>因为配置文件中少些一个namespace，到时配置项不生效</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/apollo/%E5%9B%A0%E4%B8%BA%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%91%E4%BA%9B%E4%B8%80%E4%B8%AAnamespace%E5%88%B0%E6%97%B6%E9%85%8D%E7%BD%AE%E9%A1%B9%E4%B8%8D%E7%94%9F%E6%95%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/apollo/%E5%9B%A0%E4%B8%BA%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%91%E4%BA%9B%E4%B8%80%E4%B8%AAnamespace%E5%88%B0%E6%97%B6%E9%85%8D%E7%BD%AE%E9%A1%B9%E4%B8%8D%E7%94%9F%E6%95%88/</guid>
+        <description>如图，我在Apollo中配置了该namespace，但是在SpringBoot的配置文件中没有忘记配置该项，结果导致zookeeper的配置</description>
+      </item>
+      
+      <item>
+        <title>因写错包名，导致的一些奇奇怪怪的错误</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%9B%A0%E5%86%99%E9%94%99%E5%8C%85%E5%90%8D%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA%E7%9A%84%E9%94%99%E8%AF%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E5%9B%A0%E5%86%99%E9%94%99%E5%8C%85%E5%90%8D%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA%E7%9A%84%E9%94%99%E8%AF%AF/</guid>
+        <description>实际上我不知道这个Bug是数据Idea还是Maven的，Bug是这样的：我Idea中的一个模块A依赖了另一个模块B，但是A中B依赖始终报红，</description>
       </item>
       
       <item>
@@ -3399,6 +4065,24 @@
       </item>
       
       <item>
+        <title>地址栏显示http或者https</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E5%9C%B0%E5%9D%80%E6%A0%8F%E6%98%BE%E7%A4%BAhttp%E6%88%96%E8%80%85https/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E5%9C%B0%E5%9D%80%E6%A0%8F%E6%98%BE%E7%A4%BAhttp%E6%88%96%E8%80%85https/</guid>
+        <description>安装插件：Suspicious Site Reporter</description>
+      </item>
+      
+      <item>
+        <title>复杂场景下使用RingBuffer</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/%E5%A4%8D%E6%9D%82%E5%9C%BA%E6%99%AF%E4%B8%8B%E4%BD%BF%E7%94%A8ringbuffer/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/%E5%A4%8D%E6%9D%82%E5%9C%BA%E6%99%AF%E4%B8%8B%E4%BD%BF%E7%94%A8ringbuffer/</guid>
+        <description>（实验失败了，而且找不到相关的资料，很挫败） 菱形 六边形</description>
+      </item>
+      
+      <item>
         <title>多个无痕窗口共用一套Cookie</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E5%A4%9A%E4%B8%AA%E6%97%A0%E7%97%95%E7%AA%97%E5%8F%A3%E5%85%B1%E7%94%A8%E4%B8%80%E5%A5%97cookie/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3471,6 +4155,24 @@
       </item>
       
       <item>
+        <title>安装Ansible</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%AE%89%E8%A3%85ansible/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%AE%89%E8%A3%85ansible/</guid>
+        <description>控制节点 用pip安装Ansible pip install paramiko PyYAML Jinja2 httplib2 six --user ansible python -m pip install --user ansible 我不知道这样调用的是pip还是pip3，但是我看日志，好像是用Python3</description>
+      </item>
+      
+      <item>
+        <title>安装Ansible（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%AE%89%E8%A3%85ansible%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%AE%89%E8%A3%85ansible%E5%BA%9F%E5%BC%83/</guid>
+        <description>我执行了如下指令： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 git clone git://github.com/ansible/ansible.git --recursive cd ./ansible # 使用Bash source ./hacking/env-setup # 安装pip（参考python分类下笔记） # 安装Pyth</description>
+      </item>
+      
+      <item>
         <title>安装CentOS 8（推荐）</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%AE%89%E8%A3%85centos-8%E6%8E%A8%E8%8D%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3495,6 +4197,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/docker/%E5%AE%89%E8%A3%85docker-compose/</guid>
         <description>指令如下： 1 2 3 4 5 6 sudo curl -L &amp;#34;https://github.com/docker/compose/releases/download/1.29.1/docker-compose-Linux-x86_64&amp;#34; -o /usr/local/bin/docker-compose sudo chmod +x /usr/local/bin/docker-compose sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose docker-compose --version mv docker-compose-Linux-x86_64 /usr/local/bin/docker-compose sudo chmod +x /usr/local/bin/docker-compose sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose docker-compose --version 参考资料 Docker Compose 教程里的版本太旧了，我用了最新版。 docker/compose</description>
+      </item>
+      
+      <item>
+        <title>安装H2 Console工具</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/h2-and-datagrip/%E5%AE%89%E8%A3%85h2-console%E5%B7%A5%E5%85%B7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/h2-and-datagrip/%E5%AE%89%E8%A3%85h2-console%E5%B7%A5%E5%85%B7/</guid>
+        <description>官网下载并安装，参考官网的教程启动h2。 这部分比较简单，稍微尝试一下，很快就可以掌握。</description>
       </item>
       
       <item>
@@ -3525,6 +4236,15 @@
       </item>
       
       <item>
+        <title>实现ChannelOutboundHandlerAdapter需要注意的点</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/%E8%A7%A3%E7%A0%81%E5%99%A8/%E5%AE%9E%E7%8E%B0channeloutboundhandleradapter%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E7%82%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/%E8%A7%A3%E7%A0%81%E5%99%A8/%E5%AE%9E%E7%8E%B0channeloutboundhandleradapter%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E7%82%B9/</guid>
+        <description>1 2 3 4 5 6 7 8 9 @Override public void write(ChannelHandlerContext ctx, Object msg, ChannelPromise promise) throws Exception { UnixTime m = (UnixTime) msg; ByteBuf encode = ctx.alloc().buffer(4); encode.writeInt((int) m.value); ctx.write(encode, promise); } 几点需要注意的地方： 调用ctx的write方法时需要将promise传</description>
+      </item>
+      
+      <item>
         <title>对GitBook不满意的地方</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E5%AF%B9gitbook%E4%B8%8D%E6%BB%A1%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3540,6 +4260,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/%E5%AF%B9request%E7%9A%84%E5%86%85%E9%83%A8%E5%AF%B9%E8%B1%A1%E8%BF%9B%E8%A1%8C%E6%A0%A1%E9%AA%8C/</guid>
         <description>我的代码如下： Request: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 @Data public class ClientCalibrationReportRequest { /** * 上报内容详情 */ @NotNull private Detail detail; @Data public static class Detail { /** * 白平衡校准数据 */ @NotBlank private String wbs; } }</description>
+      </item>
+      
+      <item>
+        <title>对WebSocket的支持</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%AF%B9websocket%E7%9A%84%E6%94%AF%E6%8C%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E5%AF%B9websocket%E7%9A%84%E6%94%AF%E6%8C%81/</guid>
+        <description>要想应用程序对WebSocket支持，需要将适当的客户端或者服务端WebSocket ChannelHandler添加到ChannelPipe</description>
       </item>
       
       <item>
@@ -3606,6 +4335,15 @@
       </item>
       
       <item>
+        <title>将指定日志输出到指定文件</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E5%B0%86%E6%8C%87%E5%AE%9A%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA%E5%88%B0%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E5%B0%86%E6%8C%87%E5%AE%9A%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA%E5%88%B0%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6/</guid>
+        <description>需求就是要将某个类中的日志输出到某个文件中，配置和代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40</description>
+      </item>
+      
+      <item>
         <title>将某个文件夹下的书签导出来</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E5%B0%86%E6%9F%90%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E7%9A%84%E4%B9%A6%E7%AD%BE%E5%AF%BC%E5%87%BA%E6%9D%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3615,12 +4353,30 @@
       </item>
       
       <item>
+        <title>常用代码收集</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E6%94%B6%E9%9B%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E6%94%B6%E9%9B%86/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 &amp;lt;select id=&amp;#34;pageUserInfoByAccount&amp;#34; resultType=&amp;#34;com.sdstc.authcenter.pojo.UserAndCompany&amp;#34;&amp;gt; SELECT tu.id as id, tu.name as name , tu.company_id as companyId, tu.mobile as mobile, tc.name as companyName FROM t_user tu JOIN t_company tc on tc.id = tu.company_id AND tu.is_delete = &amp;#39;0&amp;#39; &amp;lt;if test=&amp;#34;@org.apache.commons.lang3.StringUtils@isNotBlank(account)&amp;#34;&amp;gt; &amp;lt;bind name=&amp;#34;account&amp;#34; value=&amp;#34;&amp;#39;%&amp;#39; + account&amp;#34;/&amp;gt; AND tu.account LIKE #{account} &amp;lt;/if&amp;gt; &amp;lt;/select&amp;gt; 收集点： bind标签放</description>
+      </item>
+      
+      <item>
         <title>常用指令</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</guid>
         <description>查看CPU和硬盘概要： pveperf 查看设备信息 lspci</description>
+      </item>
+      
+      <item>
+        <title>常用的命令</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%B8%B8%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%B8%B8%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4/</guid>
+        <description>regedit 打开注册表 mstsc 打开远程桌面 control 打开控制面板 msconfig 可以用来设置引导，从而进入安全模式。</description>
       </item>
       
       <item>
@@ -3678,6 +4434,15 @@
       </item>
       
       <item>
+        <title>当在url中指定文件路径时，不允许两个客户端同时链接</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/h2-and-datagrip/%E5%BD%93%E5%9C%A8url%E4%B8%AD%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%E6%97%B6%E4%B8%8D%E5%85%81%E8%AE%B8%E4%B8%A4%E4%B8%AA%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%8C%E6%97%B6%E9%93%BE%E6%8E%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/h2-and-datagrip/%E5%BD%93%E5%9C%A8url%E4%B8%AD%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%E6%97%B6%E4%B8%8D%E5%85%81%E8%AE%B8%E4%B8%A4%E4%B8%AA%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%8C%E6%97%B6%E9%93%BE%E6%8E%A5/</guid>
+        <description>这个稍微有点违背我的使用习惯，但是问题还不太严重，具体问题描述如下： 我DataGrip指定了h2的数据库文件，url为：jdbc:h2:fi</description>
+      </item>
+      
+      <item>
         <title>微软输入法已禁用但是还是可以切换出来</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E5%BE%AE%E8%BD%AF%E8%BE%93%E5%85%A5%E6%B3%95%E5%B7%B2%E7%A6%81%E7%94%A8%E4%BD%86%E6%98%AF%E8%BF%98%E6%98%AF%E5%8F%AF%E4%BB%A5%E5%88%87%E6%8D%A2%E5%87%BA%E6%9D%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3732,12 +4497,39 @@
       </item>
       
       <item>
+        <title>打包时空文件夹问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E6%89%93%E5%8C%85%E6%97%B6%E7%A9%BA%E6%96%87%E4%BB%B6%E5%A4%B9%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E6%89%93%E5%8C%85%E6%97%B6%E7%A9%BA%E6%96%87%E4%BB%B6%E5%A4%B9%E9%97%AE%E9%A2%98/</guid>
+        <description>之前在解决一个技术问题时发现Maven打包时很难实现将空文件夹从Resources目录复制到target下（我尝试过很多插件，都没有效果）。</description>
+      </item>
+      
+      <item>
         <title>报错Non-ASCII character in file</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%8A%A5%E9%94%99non-ascii-character-in-file/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%8A%A5%E9%94%99non-ascii-character-in-file/</guid>
         <description>报错如下： SyntaxError: Non-ASCII character &#39;\xe2&#39; in file 我选择的解决方式是从调用python3而不是python，我系统里存在两个版本的python3，经常用错这个东西。其他</description>
+      </item>
+      
+      <item>
+        <title>报错：connect was refused</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%8A%A5%E9%94%99connect-was-refused/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%8A%A5%E9%94%99connect-was-refused/</guid>
+        <description>报错如下： The connection to the server localhost:8080 was refused - did you specify the right host or port? 是因为我忘记执行如下代码： mkdir -p $HOME/.kube sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config sudo chown $(id -u):$(id -g) $HOME/.kube/config 参考资料 The connection to the server localhost:8080 was refused - did you specify the right host or port?</description>
+      </item>
+      
+      <item>
+        <title>换一个角度理解Netty的异步</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8D%A2%E4%B8%80%E4%B8%AA%E8%A7%92%E5%BA%A6%E7%90%86%E8%A7%A3netty%E7%9A%84%E5%BC%82%E6%AD%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8D%A2%E4%B8%80%E4%B8%AA%E8%A7%92%E5%BA%A6%E7%90%86%E8%A7%A3netty%E7%9A%84%E5%BC%82%E6%AD%A5/</guid>
+        <description>Netty之所以说是异步阻塞网络框架时因为通过NioSocketChannel的write系列方法向连接里面写入数据的时候是非阻塞的（这个地</description>
       </item>
       
       <item>
@@ -3765,6 +4557,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B/</guid>
         <description>我肯定会划分一段时间去解决日志相关的问题，但是现阶段该问题该优先级并没有那么高，我先记录下我遇到的问题，未来系统学习的时候再解决这些问题。 在</description>
+      </item>
+      
+      <item>
+        <title>更优雅的处理Like查询（其实也不太优雅）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%A4%84%E7%90%86like%E6%9F%A5%E8%AF%A2%E5%85%B6%E5%AE%9E%E4%B9%9F%E4%B8%8D%E5%A4%AA%E4%BC%98%E9%9B%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%A4%84%E7%90%86like%E6%9F%A5%E8%AF%A2%E5%85%B6%E5%AE%9E%E4%B9%9F%E4%B8%8D%E5%A4%AA%E4%BC%98%E9%9B%85/</guid>
+        <description>如果使用如下方式编写SQL，会在查询的时候报错，报错内容大致是说没有找到参数： 1 2 3 select * from t_user where account like &amp;#39;%#{account}%&amp;#39; 需要修改成如下sql： 1 2 3 select * from t_user where account</description>
       </item>
       
       <item>
@@ -3819,6 +4620,33 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E6%9F%A5%E7%9C%8Bwindows%E7%9A%84%E7%89%88%E6%9C%AC%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
         <description>开始 &amp;gt; 设置 &amp;gt; 系统 &amp;gt; 关于 参考资料 我运行的是哪个 Windows 操作系统版本？</description>
+      </item>
+      
+      <item>
+        <title>查看XShell密码</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E6%9F%A5%E7%9C%8Bxshell%E5%AF%86%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E6%9F%A5%E7%9C%8Bxshell%E5%AF%86%E7%A0%81/</guid>
+        <description>很久前建的虚拟机，突然要用一下，忘记密码了，但是密码保存在了XShell中，我使用了AsteriskPassword.exe查看密码。 我用的</description>
+      </item>
+      
+      <item>
+        <title>查看当前使用的Shell</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E4%BD%BF%E7%94%A8%E7%9A%84shell/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E4%BD%BF%E7%94%A8%E7%9A%84shell/</guid>
+        <description>代码如下： 1 2 3 echo $SHELL</description>
+      </item>
+      
+      <item>
+        <title>模块之间的依赖，一种很好的写法</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BE%9D%E8%B5%96%E4%B8%80%E7%A7%8D%E5%BE%88%E5%A5%BD%E7%9A%84%E5%86%99%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E6%A8%A1%E5%9D%97%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BE%9D%E8%B5%96%E4%B8%80%E7%A7%8D%E5%BE%88%E5%A5%BD%E7%9A%84%E5%86%99%E6%B3%95/</guid>
+        <description>如下，我们将模块之间的依赖直接写在根项目中的dependencyManagement标签中： 1 2 3 4 5 6 7 8 9 10 11 12 13 &amp;lt;dependencyManagement&amp;gt; &amp;lt;dependencies&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;cn.tim&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-security-oauth2-dependencies&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.0.0-SNAPSHOT&amp;lt;/version&amp;gt; &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt; &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;/dependencies&amp;gt; &amp;lt;/dependencyManagement&amp;gt;</description>
       </item>
       
       <item>
@@ -3894,6 +4722,24 @@
       </item>
       
       <item>
+        <title>理解Distuptor原理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/%E7%90%86%E8%A7%A3distuptor%E5%8E%9F%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/%E7%90%86%E8%A7%A3distuptor%E5%8E%9F%E7%90%86/</guid>
+        <description>Java内置队列 基于数组线程安全的队列，比较典型的是ArrayBlockingQueue，它主要是通过加锁的方式来保证线程安全；基于链表的线</description>
+      </item>
+      
+      <item>
+        <title>理解FastThreadLocal</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3fastthreadlocal/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3fastthreadlocal/</guid>
+        <description>今天看Netty源码，遇到如下一个东东： 1 2 3 4 5 6 7 8 9 10 private static final FastThreadLocal&amp;lt;CodecOutputLists&amp;gt; CODEC_OUTPUT_LISTS_POOL = new FastThreadLocal&amp;lt;CodecOutputLists&amp;gt;() { @Override protected CodecOutputLists initialValue() throws Exception { // 16 CodecOutputList per Thread are cached. return new CodecOutputLists(16); } }; 这使我产生了对FastT</description>
+      </item>
+      
+      <item>
         <title>理解Hugo中的single.html和list.html</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/hugo/%E7%90%86%E8%A7%A3hugo%E4%B8%AD%E7%9A%84single.html%E5%92%8Clist.html/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3948,6 +4794,15 @@
       </item>
       
       <item>
+        <title>理解什么是JOSE</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%90%86%E8%A7%A3%E4%BB%80%E4%B9%88%E6%98%AFjose/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%90%86%E8%A7%A3%E4%BB%80%E4%B9%88%E6%98%AFjose/</guid>
+        <description>JOSE是一种旨在在各方质检传递声明（Claims）的方法的规范集。我们常用的JWT就是包含了允许客户端访问特定资源的声明。JOSE制定了一</description>
+      </item>
+      
+      <item>
         <title>用一张表中的数据去更新另一张表</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E7%94%A8%E4%B8%80%E5%BC%A0%E8%A1%A8%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%8E%BB%E6%9B%B4%E6%96%B0%E5%8F%A6%E4%B8%80%E5%BC%A0%E8%A1%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3975,6 +4830,33 @@
       </item>
       
       <item>
+        <title>研究ByteToMessageDecoder实现</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/%E8%A7%A3%E7%A0%81%E5%99%A8/%E7%A0%94%E7%A9%B6bytetomessagedecoder%E5%AE%9E%E7%8E%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/%E8%A7%A3%E7%A0%81%E5%99%A8/%E7%A0%94%E7%A9%B6bytetomessagedecoder%E5%AE%9E%E7%8E%B0/</guid>
+        <description>565行代码，感觉是一个大工程呀~ 首先是MERGE_CUMULATOR和COMPOSITE_CUMULATOR两个成员变量，按照JavaDo</description>
+      </item>
+      
+      <item>
+        <title>研究ChannelInitializer实现</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%A0%94%E7%A9%B6channelinitializer%E5%AE%9E%E7%8E%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%A0%94%E7%A9%B6channelinitializer%E5%AE%9E%E7%8E%B0/</guid>
+        <description>这是Pipeline的第一个ChannelHandler，有一定的研究价值。ChannelHandler继承了ChannelInboundH</description>
+      </item>
+      
+      <item>
+        <title>研究CodecOutputList实现</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/%E8%A7%A3%E7%A0%81%E5%99%A8/%E7%A0%94%E7%A9%B6codecoutputlist%E5%AE%9E%E7%8E%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/%E8%A7%A3%E7%A0%81%E5%99%A8/%E7%A0%94%E7%A9%B6codecoutputlist%E5%AE%9E%E7%8E%B0/</guid>
+        <description>先是一个什么都不做的CodecOutputListRecycler，代码如下： 1 2 3 4 5 6 7 8 private static final CodecOutputListRecycler NOOP_RECYCLER = new CodecOutputListRecycler() { @Override public void recycle(CodecOutputList object) { // drop on the floor and let the</description>
+      </item>
+      
+      <item>
         <title>研究一下Dig指令（待完成）</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E5%BE%85%E5%AE%8C%E6%88%90/%E7%A0%94%E7%A9%B6%E4%B8%80%E4%B8%8Bdig%E6%8C%87%E4%BB%A4%E5%BE%85%E5%AE%8C%E6%88%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3990,6 +4872,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E5%BE%85%E5%AE%8C%E6%88%90/%E7%A0%94%E7%A9%B6%E4%B8%80%E4%B8%8Bsed%E6%8C%87%E4%BB%A4%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
         <description></description>
+      </item>
+      
+      <item>
+        <title>空闲的连接和超时</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%A9%BA%E9%97%B2%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%92%8C%E8%B6%85%E6%97%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%A9%BA%E9%97%B2%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%92%8C%E8%B6%85%E6%97%B6/</guid>
+        <description>检测空闲链接及超时对于及时释放资源来说是至关重要的。 IdleStateHandler：当链接空闲时间太长时，将会触发一个IdleStateE</description>
       </item>
       
       <item>
@@ -4056,6 +4947,15 @@
       </item>
       
       <item>
+        <title>自动动手实现一个不可分享的ChannelHandler</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/%E8%87%AA%E5%8A%A8%E5%8A%A8%E6%89%8B%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E4%B8%8D%E5%8F%AF%E5%88%86%E4%BA%AB%E7%9A%84channelhandler/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/%E8%87%AA%E5%8A%A8%E5%8A%A8%E6%89%8B%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E4%B8%8D%E5%8F%AF%E5%88%86%E4%BA%AB%E7%9A%84channelhandler/</guid>
+        <description>第一版 代码如下，非常简单： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 public class TimeClientHandler extends ChannelInboundHandlerAdapter { @Override public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception { ByteBuf m = (ByteBuf) msg; // (1) try { long currentTimeMillis = (m.readUnsignedInt() - 2208988800L) * 1000L; System.out.println(new Date(currentTimeMillis));</description>
+      </item>
+      
+      <item>
         <title>解决Jenkins下载插件慢</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/jenkins/%E8%A7%A3%E5%86%B3jenkins%E4%B8%8B%E8%BD%BD%E6%8F%92%E4%BB%B6%E6%85%A2/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4092,6 +4992,15 @@
       </item>
       
       <item>
+        <title>解压.tar格式的文件</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip%E6%8C%87%E4%BB%A4/%E8%A7%A3%E5%8E%8B.tar%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip%E6%8C%87%E4%BB%A4/%E8%A7%A3%E5%8E%8B.tar%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%87%E4%BB%B6/</guid>
+        <description>1 2 3 tar -xvf filename.tar 还有一些指令没有消化，先将参考资料罗列下来。 参考资料 tar文件是什么？怎么解压？</description>
+      </item>
+      
+      <item>
         <title>解压tar.xz文件</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip%E6%8C%87%E4%BB%A4/%E8%A7%A3%E5%8E%8Btar.xz%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4116,6 +5025,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/%E8%A7%A3%E6%9E%90yaml%E6%96%87%E4%BB%B6%E7%9A%84%E6%97%B6%E5%80%99%E7%BB%B4%E6%8C%81%E6%96%87%E4%BB%B6%E4%B8%AD%E5%AD%97%E6%AE%B5%E7%9A%84%E9%A1%BA%E5%BA%8F/</guid>
         <description>之前开发一个功能时需要用到yaml文件记录配置信息，刚开始使用snakeyml，但是snakeyml有个小小的问题，就是它解析后得到的map</description>
+      </item>
+      
+      <item>
+        <title>让Shell阻塞一会</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A9shell%E9%98%BB%E5%A1%9E%E4%B8%80%E4%BC%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A9shell%E9%98%BB%E5%A1%9E%E4%B8%80%E4%BC%9A/</guid>
+        <description>代码如下，单位为秒： 1 2 3 sleep 50 这个指令其实很强大，但是我没有深入研究。</description>
       </item>
       
       <item>
@@ -4152,15 +5070,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/rtl8125/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%85%B3%E9%97%AD%E9%93%BE%E8%B7%AF%E8%87%AA%E5%8A%A8%E5%8D%8F%E5%95%86%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>问题简单的描述是这样的：我发现网线两端的网速并不匹配，一边显示100M，一边显示1000M，显示100M的是我的R8125网卡，我就很不开心</description>
-      </item>
-      
-      <item>
-        <title>记录一次奇怪的Bug</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84bug/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%A5%87%E6%80%AA%E7%9A%84bug/</guid>
-        <description>实际上我不知道这个Bug是数据Idea还是Maven的，Bug是这样的：我Idea中的一个模块A依赖了另一个模块B，但是A中B依赖始终报红，</description>
       </item>
       
       <item>
@@ -4237,11 +5146,29 @@
       
       <item>
         <title>资料整理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <description>因为短时间可能不会研究这方面的东西了，所以将之前收集的资料整理一下： EasyExcel为单个Cell设置样式 JAVA操作Excel表格部分不</description>
+      </item>
+      
+      <item>
+        <title>资料整理</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
         <description>好久没有用Python写脚本了，感觉API都不太熟悉了，完成脚本后，舍不得关闭网页，整理一份看看自己都查了哪些资料（我罗列的都是我用到的）：</description>
+      </item>
+      
+      <item>
+        <title>通过CoreDNS配置一个DNS服务器</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E9%80%9A%E8%BF%87coredns%E9%85%8D%E7%BD%AE%E4%B8%80%E4%B8%AAdns%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E9%80%9A%E8%BF%87coredns%E9%85%8D%E7%BD%AE%E4%B8%80%E4%B8%AAdns%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+        <description>参考资料如下，我已经成功配置出来了，但是我其实不需要这个服务： centos7快速安装coreDns</description>
       </item>
       
       <item>
@@ -4317,6 +5244,15 @@
       </item>
       
       <item>
+        <title>错将@RequestParam写成@Param导致Feign无法正常返回数据</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%94%99%E5%B0%86requestparam%E5%86%99%E6%88%90param%E5%AF%BC%E8%87%B4feign%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%94%99%E5%B0%86requestparam%E5%86%99%E6%88%90param%E5%AF%BC%E8%87%B4feign%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE/</guid>
+        <description>问题就如标题描述的一样，错误的将@RequestParam写成了@Param，最终导致Controller拿不到相应的参数，最终导致接口返回</description>
+      </item>
+      
+      <item>
         <title>错将JSONObject写成JsonObject了</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%94%99%E5%B0%86jsonobject%E5%86%99%E6%88%90jsonobject%E4%BA%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4326,12 +5262,30 @@
       </item>
       
       <item>
+        <title>雪花算法配置出问题了，导致主键重复</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95%E9%85%8D%E7%BD%AE%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%E5%AF%BC%E8%87%B4%E4%B8%BB%E9%94%AE%E9%87%8D%E5%A4%8D/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95%E9%85%8D%E7%BD%AE%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%E5%AF%BC%E8%87%B4%E4%B8%BB%E9%94%AE%E9%87%8D%E5%A4%8D/</guid>
+        <description>我们生产中用的雪花算法代码如下： 1 2 3 4 5 6 7 8 9 10 11 @Bean public MybatisPlusPropertiesCustomizer plusPropertiesCustomizer() { //从docker启动参数中获取应用实例WID环境变量 Long workId = (long) Math.random() * 31; Long dataCenterId = (long)</description>
+      </item>
+      
+      <item>
         <title>静态泛型方法</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E9%9D%99%E6%80%81%E6%B3%9B%E5%9E%8B%E6%96%B9%E6%B3%95/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E9%9D%99%E6%80%81%E6%B3%9B%E5%9E%8B%E6%96%B9%E6%B3%95/</guid>
         <description>好久不写泛型代码，突然会想不起来怎么写了，所以记录一下。最近开发了一个工具方法，代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25</description>
+      </item>
+      
+      <item>
+        <title>非线程安全的Room在什么情况下可以存在</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E9%9D%9E%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84room%E5%9C%A8%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E5%8F%AF%E4%BB%A5%E5%AD%98%E5%9C%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E9%9D%9E%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84room%E5%9C%A8%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E5%8F%AF%E4%BB%A5%E5%AD%98%E5%9C%A8/</guid>
+        <description>Room可以是非线程安全的，只要将它相关的所有Channel都注册到同一个EventLoop即可。因为在一个EventLoop中永远是单线程</description>
       </item>
       
       <item>

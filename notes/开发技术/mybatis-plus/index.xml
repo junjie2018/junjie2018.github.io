@@ -41,6 +41,15 @@
       </item>
       
       <item>
+        <title>@TableField处理表中不存在的字段</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/tablefield%E5%A4%84%E7%90%86%E8%A1%A8%E4%B8%AD%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%AD%97%E6%AE%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/tablefield%E5%A4%84%E7%90%86%E8%A1%A8%E4%B8%AD%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%AD%97%E6%AE%B5/</guid>
+        <description>代码如下： 1 2 3 @TableField(exist = false) 开发一些Demo时用到了这个技术，记录一下。 参考资料 mybatis怎么忽略映射字段</description>
+      </item>
+      
+      <item>
         <title>LambdaQueryWrapper泛型写法的问题</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/lambdaquerywrapper%E6%B3%9B%E5%9E%8B%E5%86%99%E6%B3%95%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -122,6 +131,15 @@
       </item>
       
       <item>
+        <title>MyBatis框架限制Page查询最大只能查500条</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E6%A1%86%E6%9E%B6%E9%99%90%E5%88%B6page%E6%9F%A5%E8%AF%A2%E6%9C%80%E5%A4%A7%E5%8F%AA%E8%83%BD%E6%9F%A5500%E6%9D%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E6%A1%86%E6%9E%B6%E9%99%90%E5%88%B6page%E6%9F%A5%E8%AF%A2%E6%9C%80%E5%A4%A7%E5%8F%AA%E8%83%BD%E6%9F%A5500%E6%9D%A1/</guid>
+        <description>今天想小小满足一下前端的一个超大JSON的需求，结果发现MyBatis限制了分页查询时最大查询条数为500条，即使传入limit为10000</description>
+      </item>
+      
+      <item>
         <title>MyBatis配置打印日志信息</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E9%85%8D%E7%BD%AE%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E4%BF%A1%E6%81%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -176,12 +194,39 @@
       </item>
       
       <item>
+        <title>分页0和1的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%88%86%E9%A1%B50%E5%92%8C1%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%88%86%E9%A1%B50%E5%92%8C1%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>我始终记得我们之前做分页的时候是从零开始的，但是这个可能是我的错觉，因为我本身不是分页接口的消费者，所以我也不知道我开发的接口在被怎么传参（</description>
+      </item>
+      
+      <item>
         <title>定位并修复TypeHandler的问题</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%AE%9A%E4%BD%8D%E5%B9%B6%E4%BF%AE%E5%A4%8Dtypehandler%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%AE%9A%E4%BD%8D%E5%B9%B6%E4%BF%AE%E5%A4%8Dtypehandler%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>问题的表现： 我们数据库中使用了timestamptz类型 我们代码中使用了LocalDateTime类型 我们的代码使用了LocalDateTi</description>
+      </item>
+      
+      <item>
+        <title>常用代码收集</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E6%94%B6%E9%9B%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E6%94%B6%E9%9B%86/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 &amp;lt;select id=&amp;#34;pageUserInfoByAccount&amp;#34; resultType=&amp;#34;com.sdstc.authcenter.pojo.UserAndCompany&amp;#34;&amp;gt; SELECT tu.id as id, tu.name as name , tu.company_id as companyId, tu.mobile as mobile, tc.name as companyName FROM t_user tu JOIN t_company tc on tc.id = tu.company_id AND tu.is_delete = &amp;#39;0&amp;#39; &amp;lt;if test=&amp;#34;@org.apache.commons.lang3.StringUtils@isNotBlank(account)&amp;#34;&amp;gt; &amp;lt;bind name=&amp;#34;account&amp;#34; value=&amp;#34;&amp;#39;%&amp;#39; + account&amp;#34;/&amp;gt; AND tu.account LIKE #{account} &amp;lt;/if&amp;gt; &amp;lt;/select&amp;gt; 收集点： bind标签放</description>
+      </item>
+      
+      <item>
+        <title>更优雅的处理Like查询（其实也不太优雅）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%A4%84%E7%90%86like%E6%9F%A5%E8%AF%A2%E5%85%B6%E5%AE%9E%E4%B9%9F%E4%B8%8D%E5%A4%AA%E4%BC%98%E9%9B%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%A4%84%E7%90%86like%E6%9F%A5%E8%AF%A2%E5%85%B6%E5%AE%9E%E4%B9%9F%E4%B8%8D%E5%A4%AA%E4%BC%98%E9%9B%85/</guid>
+        <description>如果使用如下方式编写SQL，会在查询的时候报错，报错内容大致是说没有找到参数： 1 2 3 select * from t_user where account like &amp;#39;%#{account}%&amp;#39; 需要修改成如下sql： 1 2 3 select * from t_user where account</description>
       </item>
       
       <item>
@@ -200,6 +245,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%92%88%E5%AF%B9jsonobjectjsonarray%E7%9A%84typehandler/</guid>
         <description>实际上我已经有技术实现针对List的TypeHandler了，之所以还开发这个TypeHandler是因为我们的旧代码使用了JSONArra</description>
+      </item>
+      
+      <item>
+        <title>雪花算法配置出问题了，导致主键重复</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95%E9%85%8D%E7%BD%AE%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%E5%AF%BC%E8%87%B4%E4%B8%BB%E9%94%AE%E9%87%8D%E5%A4%8D/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95%E9%85%8D%E7%BD%AE%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%E5%AF%BC%E8%87%B4%E4%B8%BB%E9%94%AE%E9%87%8D%E5%A4%8D/</guid>
+        <description>我们生产中用的雪花算法代码如下： 1 2 3 4 5 6 7 8 9 10 11 @Bean public MybatisPlusPropertiesCustomizer plusPropertiesCustomizer() { //从docker启动参数中获取应用实例WID环境变量 Long workId = (long) Math.random() * 31; Long dataCenterId = (long)</description>
       </item>
       
     

@@ -14,6 +14,15 @@
     
       
       <item>
+        <title>使用redisson的锁</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%BD%BF%E7%94%A8redisson%E7%9A%84%E9%94%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%BD%BF%E7%94%A8redisson%E7%9A%84%E9%94%81/</guid>
+        <description>我们一个使用量非常小的小系统，不知道抽什么疯，突然出现了几起并发插入的问题，插入时上锁，好像只能上表锁，表锁会影响其他用户的使用，所以打算用</description>
+      </item>
+      
+      <item>
         <title>在SpringBoot中配置Redis</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%9C%A8springboot%E4%B8%AD%E9%85%8D%E7%BD%AEredis/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

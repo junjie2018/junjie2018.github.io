@@ -14,6 +14,24 @@
     
       
       <item>
+        <title>Git Hub Token的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/git-hub-token%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/git-hub-token%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>一代版本一代神，又得开始研究GitHub Token相关的技术了。 命令行使用 git clone https://github.com/username/repo.git Username: your_username Password: your_token 在CentOS系统上，这个东西是不会缓存的，非常的不</description>
+      </item>
+      
+      <item>
+        <title>GitHub生成Token</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/github%E7%94%9F%E6%88%90token/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/github%E7%94%9F%E6%88%90token/</guid>
+        <description>过程比较简单，直接截图了：</description>
+      </item>
+      
+      <item>
         <title>GitHub的Pull Requst</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/github%E7%9A%84pull-requst/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

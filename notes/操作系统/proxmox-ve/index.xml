@@ -37,7 +37,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/promox-ve-6.3%E8%A3%85realtek-8125-2.5g%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8/</guid>
-        <description>操作步骤 准备编译工具 apt update &amp;amp;&amp;amp; apt install pve-headers-$(uname -r) build-essential 从如下地址下载驱动源码 https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software 解压并编译 tar xvf r8125-9.004.01.tar cd r8125-9.004.01 make 安装驱动 cd src mkdir -p /lib/modules/5.4.78-2-pve/kernel/drivers/net/ethernet/realtek/ install -m 644 -o root r8125.ko /lib/modules/5.4.78-2-pve/kernel/drivers/net/ethernet/realtek/ /sbin/depmod `uname -r` /sbin/modprobe r8125 检验安装结果并重</description>
+        <description>操作步骤 准备编译工具 apt update &amp;amp;&amp;amp; apt install pve-headers-$(uname -r) build-essential 从如下地址下载驱动源码 https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software 解压并编译 tar xvf r8125-9.004.01.tar cd r8125-9.004.01 make 安装驱动 cd src mkdir -p /lib/modules/5.4.78-2-pve/kernel/drivers/net/ethernet/realtek/ install -m 644 -o root r8125.ko /lib/modules/5.4.78-2-pve/kernel/drivers/net/ethernet/realtek/ # 20211011 mkdir -p /lib/modules/5.11.22-5-pve/kernel/drivers/net/ethernet/realtek/ install -m 644 -o root r8125.ko /lib/modules/5.11.22-5-pve/kernel/drivers/net/ethernet/realtek/ /sbin/depmod</description>
       </item>
       
       <item>
@@ -56,6 +56,33 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve-6.x%E6%97%A0%E6%B3%95u%E7%9B%98%E5%AE%89%E8%A3%85/</guid>
         <description>这个问题我在4月份的时候已经注意到了，当时折腾的一段时间后没有结果，最后选择了先安装Debian，然后安装PVE 6.x。 经过一段时间的考虑，</description>
+      </item>
+      
+      <item>
+        <title>PVE与R8125网卡</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%B8%8Er8125%E7%BD%91%E5%8D%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%B8%8Er8125%E7%BD%91%E5%8D%A1/</guid>
+        <description>R8125这张网卡，真的可以把我折磨的死去活来的，我甚至都考虑换一个I210网卡的机子了，不过今天可能真的一劳永逸的解决这个问题了。 之前将C</description>
+      </item>
+      
+      <item>
+        <title>PVE从6.x升级到7.x</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%BB%8E6.x%E5%8D%87%E7%BA%A7%E5%88%B07.x/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%BB%8E6.x%E5%8D%87%E7%BA%A7%E5%88%B07.x/</guid>
+        <description>我本意是不想升级的，但是我编译R8125的驱动时下载不到相应的headers，所以只好升级PVE到7.x。 整个过程让我无法理解的是，我按照官</description>
+      </item>
+      
+      <item>
+        <title>PVE使用xterm.js</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%BD%BF%E7%94%A8xterm.js/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E4%BD%BF%E7%94%A8xterm.js/</guid>
+        <description>已知xterm.js是个好东西，支持copy和paste，但是配置起来太麻烦了，性价比太低，所以我不想搞。资料如下： Serial Terminal PVE 5.1 設定 KVM 虛擬機能夠</description>
       </item>
       
       <item>
@@ -83,6 +110,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E6%B7%BB%E5%8A%A0%E4%B8%80%E5%9D%97%E7%A1%AC%E7%9B%98%E4%BD%9C%E4%B8%BA%E5%AD%98%E5%82%A8/</guid>
         <description>我觉得这篇文章给的方法最优雅，我采用的也是这样方案。 参考资料 Proxmox VE（PVE）如何添加多块硬盘</description>
+      </item>
+      
+      <item>
+        <title>PVE网卡直通</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E7%BD%91%E5%8D%A1%E7%9B%B4%E9%80%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/pve%E7%BD%91%E5%8D%A1%E7%9B%B4%E9%80%9A/</guid>
+        <description>实际上，我现在不需要这个技术了，甚至在研究这个技术时，我悟出了一个人生道理：最优解不一定是最适合的解。 BIOS层面的东西我不讲了，因为我老早</description>
       </item>
       
       <item>
