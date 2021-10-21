@@ -23,6 +23,15 @@
       </item>
       
       <item>
+        <title>KtConnect脚本需求</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/ktconnect%E8%84%9A%E6%9C%AC%E9%9C%80%E6%B1%82/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/ktconnect%E8%84%9A%E6%9C%AC%E9%9C%80%E6%B1%82/</guid>
+        <description>使用脚本前置条件： ktctl、kubectl、config三个文件放置在同一个目录中（且为该目录配置到PATH中，Ktctl工具硬性要求ku</description>
+      </item>
+      
+      <item>
         <title>Win 10使用KT Connect（稳定版）（待完成）</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/win-10%E4%BD%BF%E7%94%A8kt-connect%E7%A8%B3%E5%AE%9A%E7%89%88%E5%BE%85%E5%AE%8C%E6%88%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

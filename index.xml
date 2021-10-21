@@ -1662,6 +1662,15 @@
       </item>
       
       <item>
+        <title>KtConnect脚本需求</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/ktconnect%E8%84%9A%E6%9C%AC%E9%9C%80%E6%B1%82/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/ktconnect%E8%84%9A%E6%9C%AC%E9%9C%80%E6%B1%82/</guid>
+        <description>使用脚本前置条件： ktctl、kubectl、config三个文件放置在同一个目录中（且为该目录配置到PATH中，Ktctl工具硬性要求ku</description>
+      </item>
+      
+      <item>
         <title>Kubernetes中搭建Jenkins</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E4%B8%AD%E6%90%AD%E5%BB%BAjenkins/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3018,6 +3027,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E5%BC%80%E5%90%AF%E5%92%8C%E5%85%B3%E9%97%AD%E5%85%A8%E5%B1%8F/</guid>
         <description>不小心误触了键盘，打开了VS Code的全屏，我不是很需要这个功能，简单查了一下，F11键快速打开或关闭全屏。</description>
+      </item>
+      
+      <item>
+        <title>VS Code配置使用Idea快捷键</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8idea%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8idea%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+        <description>下载该插件，重启即可： IntelliJ IDEA Keybindings</description>
       </item>
       
       <item>
