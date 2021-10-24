@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NextCloud on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/</link>
+    <description>Recent content in NextCloud on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>NextCloud配置所有IP都可以方案</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/nextcloud%E9%85%8D%E7%BD%AE%E6%89%80%E6%9C%89ip%E9%83%BD%E5%8F%AF%E4%BB%A5%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/nextcloud%E9%85%8D%E7%BD%AE%E6%89%80%E6%9C%89ip%E9%83%BD%E5%8F%AF%E4%BB%A5%E6%96%B9%E6%A1%88/</guid>
+        <description>我内网使用NextCloud，所以安全性要求没有那么高，我计划配置成http + ip访问，目前ip访问已经找到方案了，因为不再考虑使用Next</description>
+      </item>
+      
+      <item>
+        <title>使用LCX模板安装NextCloud</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/%E4%BD%BF%E7%94%A8lcx%E6%A8%A1%E6%9D%BF%E5%AE%89%E8%A3%85nextcloud/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/%E4%BD%BF%E7%94%A8lcx%E6%A8%A1%E6%9D%BF%E5%AE%89%E8%A3%85nextcloud/</guid>
+        <description>使用这个方案的难点是下载LCX模板，如图，找到模板资源： 如果直接点击下载是非常非常慢的，我这边6个小时都没有下载下来： 该怎么做了？方案有很多</description>
+      </item>
+      
+      <item>
+        <title>对NextCloud的一些看法</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/%E5%AF%B9nextcloud%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9C%8B%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/%E5%AF%B9nextcloud%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9C%8B%E6%B3%95/</guid>
+        <description>我开始决定研究这个技术是因为我单纯的想将NextCloud作为一个盘挂载到我OpenWRT上。这样，我就可以用NextCloud的手机客户端</description>
+      </item>
+      
+    
+  </channel>
+</rss>

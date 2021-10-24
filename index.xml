@@ -2058,6 +2058,15 @@
       </item>
       
       <item>
+        <title>NextCloud配置所有IP都可以方案</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/nextcloud%E9%85%8D%E7%BD%AE%E6%89%80%E6%9C%89ip%E9%83%BD%E5%8F%AF%E4%BB%A5%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/nextcloud%E9%85%8D%E7%BD%AE%E6%89%80%E6%9C%89ip%E9%83%BD%E5%8F%AF%E4%BB%A5%E6%96%B9%E6%A1%88/</guid>
+        <description>我内网使用NextCloud，所以安全性要求没有那么高，我计划配置成http + ip访问，目前ip访问已经找到方案了，因为不再考虑使用Next</description>
+      </item>
+      
+      <item>
         <title>No convert for xxx with preset Content-Type &#39;null&#39;</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/actuator/no-convert-for-xxx-with-preset-content-type-null/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2154,6 +2163,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth%E6%8E%88%E6%9D%83%E6%96%B9%E5%BC%8F%E5%8F%8A%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF/</guid>
         <description>如下为一份粗略的授权方式及适用场景： 授权码（Authorisation Code）：适用于具有后端的传统Web应用程序以及原生（移动或桌面）应</description>
+      </item>
+      
+      <item>
+        <title>OMV配置共享文件夹（实验版）</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openmediavault/omv%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E5%AE%9E%E9%AA%8C%E7%89%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openmediavault/omv%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E5%AE%9E%E9%AA%8C%E7%89%88/</guid>
+        <description>存储器 &amp;gt; 磁盘：对数据盘进行擦除 存储器 &amp;gt; 文件系统：为数据盘创建文件系统 存储器 &amp;gt; 文件系统：挂载数据盘 访问权限管理 &amp;gt; 共享文件夹：创建一个共享文件夹</description>
       </item>
       
       <item>
@@ -3579,6 +3597,15 @@
       </item>
       
       <item>
+        <title>使用LCX模板安装NextCloud</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/%E4%BD%BF%E7%94%A8lcx%E6%A8%A1%E6%9D%BF%E5%AE%89%E8%A3%85nextcloud/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/%E4%BD%BF%E7%94%A8lcx%E6%A8%A1%E6%9D%BF%E5%AE%89%E8%A3%85nextcloud/</guid>
+        <description>使用这个方案的难点是下载LCX模板，如图，找到模板资源： 如果直接点击下载是非常非常慢的，我这边6个小时都没有下载下来： 该怎么做了？方案有很多</description>
+      </item>
+      
+      <item>
         <title>使用redisson的锁</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%BD%BF%E7%94%A8redisson%E7%9A%84%E9%94%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4278,6 +4305,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E5%AF%B9gitbook%E4%B8%8D%E6%BB%A1%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/</guid>
         <description>我目前通过GitBook发布的笔记大约有300多篇，执行gitbook build的时间大约需要5分钟作用，我觉得这个真的是一个让人无法接受的</description>
+      </item>
+      
+      <item>
+        <title>对NextCloud的一些看法</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/%E5%AF%B9nextcloud%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9C%8B%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/nextcloud/%E5%AF%B9nextcloud%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9C%8B%E6%B3%95/</guid>
+        <description>我开始决定研究这个技术是因为我单纯的想将NextCloud作为一个盘挂载到我OpenWRT上。这样，我就可以用NextCloud的手机客户端</description>
       </item>
       
       <item>
