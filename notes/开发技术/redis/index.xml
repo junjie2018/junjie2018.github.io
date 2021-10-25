@@ -14,6 +14,24 @@
     
       
       <item>
+        <title>Redis一个简易的分布式锁</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</guid>
+        <description>一个临时的功能：当用户登录系统时，如果用户不存在，则为该用户初始化一些身份信息。在入库的时候发现存在一些并发行为，可能会初始化两条用户信息，</description>
+      </item>
+      
+      <item>
+        <title>Redis递增序列的实现</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
+        <description>这个比较简单，我直接上代码了： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 private String getSn(String typeId, String typePrefix) { String key = String.format(&amp;#34;CommonMaterialService:createCommonMaterial:%s&amp;#34;, typePrefix); String sn = String.format(&amp;#34;%s-%06d&amp;#34;, typePrefix, stringRedisTemplate.opsForValue().increment(key, 1)); LambdaQueryWrapper&amp;lt;CommonMaterial&amp;gt; queryWrapper = new LambdaQueryWrapper&amp;lt;CommonMaterial&amp;gt;() .eq(CommonMaterial::getTypeId, typeId) .eq(CommonMaterial::getSn, sn); List&amp;lt;CommonMaterial&amp;gt; commonMaterials = commonMaterialMapper.selectList(queryWrapper);</description>
+      </item>
+      
+      <item>
         <title>使用redisson的锁</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%BD%BF%E7%94%A8redisson%E7%9A%84%E9%94%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
