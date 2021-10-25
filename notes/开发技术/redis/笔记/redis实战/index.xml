@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redis实战 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/</link>
+    <description>Recent content in Redis实战 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>001.Redis于Memcached的对比</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/001.redis%E4%BA%8Ememcached%E7%9A%84%E5%AF%B9%E6%AF%94/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/001.redis%E4%BA%8Ememcached%E7%9A%84%E5%AF%B9%E6%AF%94/</guid>
+        <description>Memcached和Redis都可以用于存储键值映射，彼此的性能也相差无几，但是Redis能够自动以两种不同的方式将数据写入硬盘（RDB、A</description>
+      </item>
+      
+      <item>
+        <title>002.数据库和Redis在存储报告数据方面的区别</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/002.%E6%95%B0%E6%8D%AE%E5%BA%93%E5%92%8Credis%E5%9C%A8%E5%AD%98%E5%82%A8%E6%8A%A5%E5%91%8A%E6%95%B0%E6%8D%AE%E6%96%B9%E9%9D%A2%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/002.%E6%95%B0%E6%8D%AE%E5%BA%93%E5%92%8Credis%E5%9C%A8%E5%AD%98%E5%82%A8%E6%8A%A5%E5%91%8A%E6%95%B0%E6%8D%AE%E6%96%B9%E9%9D%A2%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+        <description>数据库的一个常见用法是存储长期的报告数据，并将这些报告数据用作固定时间范围内的聚合数据。 收集聚合数据的常见做法是：先将各个行插入一个报告表里</description>
+      </item>
+      
+      <item>
+        <title>003.Redis中得数据类型，及支持的操作</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/003.redis%E4%B8%AD%E5%BE%97%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%94%AF%E6%8C%81%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/003.redis%E4%B8%AD%E5%BE%97%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%94%AF%E6%8C%81%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
+        <description>STRING 对整个字符串或者字符串中的其中一部分执行操作，对整数、浮点数执行自增或者自减操作。 SET GET DEL LIST 从链表的两端推入或者弹出元素；根据偏移量对链表进</description>
+      </item>
+      
+      <item>
+        <title>004.在一个简单的投票网站中使用Redis</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/004.%E5%9C%A8%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E6%8A%95%E7%A5%A8%E7%BD%91%E7%AB%99%E4%B8%AD%E4%BD%BF%E7%94%A8redis/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/004.%E5%9C%A8%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E6%8A%95%E7%A5%A8%E7%BD%91%E7%AB%99%E4%B8%AD%E4%BD%BF%E7%94%A8redis/</guid>
+        <description>要构建一个文章投票网站，我们首先要做的就是为了这个网站设置一些数值和限制条件： 如果一篇文章获得了至少200张支持票，那么网站就认为这篇文章是</description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -14,6 +14,15 @@
     
       
       <item>
+        <title>笔记</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>Redis一个简易的分布式锁</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -64,7 +73,16 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A/</guid>
-        <description>操作步骤 从官网下载源码包 yum install -y gcc mkdir -p ~/software/redis &amp;amp;&amp;amp; cd ~/software/redis wget http://download.redis.io/releases/redis-5.0.8.tar.gz?_ga=2.113561735.1252722932.1596592540-1218236159.1596592540 mv redis-5.0.8.tar.gz* redis-5.0.8.tar.gz # 不知道行不行 解压并编译安装 1 2 3 4 5 6 7 8 # yum install -y gcc tar -zxvf redis-5.0.8.tar.gz cd redis-5.0.8 make make install PREFIX=/usr/local/redis 设置环境变量 1</description>
+        <description>操作步骤 从官网下载源码包 yum install -y gcc mkdir -p ~/Software/Redis &amp;amp;&amp;amp; cd ~/Software/Redis wget http://download.redis.io/releases/redis-5.0.8.tar.gz 解压并编译安装 1 2 3 4 5 6 7 8 # yum install -y gcc tar -zxvf redis-5.0.8.tar.gz cd redis-5.0.8 make make install PREFIX=/usr/local/redis 设置环境变量 1 2 3 4 5 6 7 sudo tee -a /etc/profile</description>
+      </item>
+      
+      <item>
+        <title>查看Redis支持的所有命令</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%9F%A5%E7%9C%8Bredis%E6%94%AF%E6%8C%81%E7%9A%84%E6%89%80%E6%9C%89%E5%91%BD%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%9F%A5%E7%9C%8Bredis%E6%94%AF%E6%8C%81%E7%9A%84%E6%89%80%E6%9C%89%E5%91%BD%E4%BB%A4/</guid>
+        <description>挺不错的资源： https://redis.io/commands</description>
       </item>
       
     
