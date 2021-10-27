@@ -49,6 +49,24 @@
         <description>要构建一个文章投票网站，我们首先要做的就是为了这个网站设置一些数值和限制条件： 如果一篇文章获得了至少200张支持票，那么网站就认为这篇文章是</description>
       </item>
       
+      <item>
+        <title>005.Redis在一个购物网站中的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/005.redis%E5%9C%A8%E4%B8%80%E4%B8%AA%E8%B4%AD%E7%89%A9%E7%BD%91%E7%AB%99%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/005.redis%E5%9C%A8%E4%B8%80%E4%B8%AA%E8%B4%AD%E7%89%A9%E7%BD%91%E7%AB%99%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>Token 书中这块设计描述的有点乱，整理候结果如下： 书中记录Token采用的是Hash结构，而我们生产中使用的是String结构。书中用一个类型为H</description>
+      </item>
+      
+      <item>
+        <title>006.关于Redis嵌套的一些思路</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/006.%E5%85%B3%E4%BA%8Eredis%E5%B5%8C%E5%A5%97%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%B7%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/006.%E5%85%B3%E4%BA%8Eredis%E5%B5%8C%E5%A5%97%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%B7%AF/</guid>
+        <description>可以通过使用键名来模拟嵌套结构特性：比如使用键user：123表示存储用户信息的散列，并使用键user:123:posts表示存储用户最近发</description>
+      </item>
+      
     
   </channel>
 </rss>
