@@ -24,6 +24,15 @@
       </item>
       
       <item>
+        <title>001.BOM的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/001.bom%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/001.bom%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>由于各个Spring Data模块的启动日期不同，它们中的大多数带有不同的主要和次要版本号。找到兼容版本的最简单方法是依赖官方随定义的兼容版本</description>
+      </item>
+      
+      <item>
         <title>001.Redis于Memcached的对比</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/001.redis%E4%BA%8Ememcached%E7%9A%84%E5%AF%B9%E6%AF%94/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -75,6 +84,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/006.%E5%85%B3%E4%BA%8Eredis%E5%B5%8C%E5%A5%97%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%B7%AF/</guid>
         <description>可以通过使用键名来模拟嵌套结构特性：比如使用键user：123表示存储用户信息的散列，并使用键user:123:posts表示存储用户最近发</description>
+      </item>
+      
+      <item>
+        <title>007.Redis中的数据类型及相关的操作</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/007.redis%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E7%9B%B8%E5%85%B3%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/007.redis%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E7%9B%B8%E5%85%B3%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
+        <description>字符串 Redis中得自增命令和自减命令 INCR： DECR： INCRBY： DECRBY： INCRBYFLOAT： 确实没有DECRBYFLOAT</description>
       </item>
       
       <item>
@@ -1416,6 +1434,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>该方法可以一劳永逸的解决问题，我家用电脑上就是使用的这个方案。 参考资料 IntelliJ IDEA 修改内存大小，使得idea运行更流畅。</description>
+      </item>
+      
+      <item>
+        <title>Idea卡Bug</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E5%8D%A1bug/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E5%8D%A1bug/</guid>
+        <description>Idea今日份Bug： 仓库中明明有包，但是pom.xml始终报红色，右侧的maven选项卡中得dependencies也始终报红色。解决该问</description>
       </item>
       
       <item>
@@ -3957,6 +3984,15 @@
       </item>
       
       <item>
+        <title>参数上的注解如何处理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</guid>
+        <description>普通的参数，直接使用@param就可以了，如果@param是一个普通类型，但是其含义数据某个枚举，可以使用如下的写法： 1 2 3 4 5 6 7 8 9 10 11</description>
+      </item>
+      
+      <item>
         <title>反序列化时缺少默认构造函数导致的问题</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/fastjson/%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E7%BC%BA%E5%B0%91%E9%BB%98%E8%AE%A4%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E5%AF%BC%E8%87%B4%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5253,6 +5289,15 @@
       </item>
       
       <item>
+        <title>记录一次解决并发、循环依赖的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%A7%A3%E5%86%B3%E5%B9%B6%E5%8F%91%E5%BE%AA%E7%8E%AF%E4%BE%9D%E8%B5%96%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%A7%A3%E5%86%B3%E5%B9%B6%E5%8F%91%E5%BE%AA%E7%8E%AF%E4%BE%9D%E8%B5%96%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>我们系统架构现在真的拉，一个独立的子系统，有自己独立的数据库数据表，但是最后看上去只是将一部分的Controller以项目为单位分出来了；需</description>
+      </item>
+      
+      <item>
         <title>记录一次超高速解决Istio问题</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%B6%85%E9%AB%98%E9%80%9F%E8%A7%A3%E5%86%B3istio%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5358,6 +5403,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/%E9%80%9A%E8%BF%87github-actions%E5%AE%9E%E7%8E%B0%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E7%9A%84%E6%96%B9%E6%A1%88/</guid>
         <description>我核心想实现的是：自动的完成笔记源文件到Gitbook源文件到Gitbook编译后文件推送到github仓库的工作。 该工作如果手动完成，有如</description>
+      </item>
+      
+      <item>
+        <title>通过Response返回JSON数据</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%80%9A%E8%BF%87response%E8%BF%94%E5%9B%9Ejson%E6%95%B0%E6%8D%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%80%9A%E8%BF%87response%E8%BF%94%E5%9B%9Ejson%E6%95%B0%E6%8D%AE/</guid>
+        <description>我代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 if (companyClientManager == null) { // 返回错误消息 response.setCharacterEncoding(&amp;#34;utf-8&amp;#34;); response.setContentType(&amp;#34;application/json; charset=utf-8&amp;#34;); response.getOutputStream() .write(JSON.toJSONBytes(ResponseVo.createErrorByCodeMessage( INIT_COMPANY_INFO_WRONG.getCode(), INIT_COMPANY_INFO_WRONG.getMessage()))); return false; } 参考资料 Response返回JSON数据</description>
       </item>
       
       <item>

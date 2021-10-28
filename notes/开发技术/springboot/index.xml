@@ -266,6 +266,24 @@
       </item>
       
       <item>
+        <title>记录一次解决并发、循环依赖的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%A7%A3%E5%86%B3%E5%B9%B6%E5%8F%91%E5%BE%AA%E7%8E%AF%E4%BE%9D%E8%B5%96%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%A7%A3%E5%86%B3%E5%B9%B6%E5%8F%91%E5%BE%AA%E7%8E%AF%E4%BE%9D%E8%B5%96%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>我们系统架构现在真的拉，一个独立的子系统，有自己独立的数据库数据表，但是最后看上去只是将一部分的Controller以项目为单位分出来了；需</description>
+      </item>
+      
+      <item>
+        <title>通过Response返回JSON数据</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%80%9A%E8%BF%87response%E8%BF%94%E5%9B%9Ejson%E6%95%B0%E6%8D%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%80%9A%E8%BF%87response%E8%BF%94%E5%9B%9Ejson%E6%95%B0%E6%8D%AE/</guid>
+        <description>我代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 if (companyClientManager == null) { // 返回错误消息 response.setCharacterEncoding(&amp;#34;utf-8&amp;#34;); response.setContentType(&amp;#34;application/json; charset=utf-8&amp;#34;); response.getOutputStream() .write(JSON.toJSONBytes(ResponseVo.createErrorByCodeMessage( INIT_COMPANY_INFO_WRONG.getCode(), INIT_COMPANY_INFO_WRONG.getMessage()))); return false; } 参考资料 Response返回JSON数据</description>
+      </item>
+      
+      <item>
         <title>配置Idea初始化SpringBoot项目时使用阿里的源</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%85%8D%E7%BD%AEidea%E5%88%9D%E5%A7%8B%E5%8C%96springboot%E9%A1%B9%E7%9B%AE%E6%97%B6%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8C%E7%9A%84%E6%BA%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

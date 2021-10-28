@@ -67,6 +67,15 @@
         <description>可以通过使用键名来模拟嵌套结构特性：比如使用键user：123表示存储用户信息的散列，并使用键user:123:posts表示存储用户最近发</description>
       </item>
       
+      <item>
+        <title>007.Redis中的数据类型及相关的操作</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/007.redis%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E7%9B%B8%E5%85%B3%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/007.redis%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E7%9B%B8%E5%85%B3%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
+        <description>字符串 Redis中得自增命令和自减命令 INCR： DECR： INCRBY： DECRBY： INCRBYFLOAT： 确实没有DECRBYFLOAT</description>
+      </item>
+      
     
   </channel>
 </rss>
