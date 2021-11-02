@@ -23,6 +23,15 @@
       </item>
       
       <item>
+        <title>redis-server启动的Redis处于保护模式下</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis-server%E5%90%AF%E5%8A%A8%E7%9A%84redis%E5%A4%84%E4%BA%8E%E4%BF%9D%E6%8A%A4%E6%A8%A1%E5%BC%8F%E4%B8%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis-server%E5%90%AF%E5%8A%A8%E7%9A%84redis%E5%A4%84%E4%BA%8E%E4%BF%9D%E6%8A%A4%E6%A8%A1%E5%BC%8F%E4%B8%8B/</guid>
+        <description>用telnet连接的时候有如下提示信息： -DENIED Redis is running in protected mode because protected mode is enabled, no bind address was specified, no authentication password is requested to clients. In this mode connections are only accepted from the loopback interface. If you want to connect from external computers to Redis you may adopt one of</description>
+      </item>
+      
+      <item>
         <title>Redis一个简易的分布式锁</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

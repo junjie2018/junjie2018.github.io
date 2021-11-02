@@ -212,6 +212,24 @@
       </item>
       
       <item>
+        <title>Idea调试值复制字段名称及Map中的key名称</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%B0%83%E8%AF%95%E5%80%BC%E5%A4%8D%E5%88%B6%E5%AD%97%E6%AE%B5%E5%90%8D%E7%A7%B0%E5%8F%8Amap%E4%B8%AD%E7%9A%84key%E5%90%8D%E7%A7%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%B0%83%E8%AF%95%E5%80%BC%E5%A4%8D%E5%88%B6%E5%AD%97%E6%AE%B5%E5%90%8D%E7%A7%B0%E5%8F%8Amap%E4%B8%AD%E7%9A%84key%E5%90%8D%E7%A7%B0/</guid>
+        <description>Map好处理，如下即可： 展开之后，键的名称可以直接通过copyValue拿到。 字段名称处理如下： 然后直接复制Label就可以得到字段名称。 该</description>
+      </item>
+      
+      <item>
+        <title>Idea调试的时候，如何快速到抛异常代码点（待研究）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%B0%83%E8%AF%95%E7%9A%84%E6%97%B6%E5%80%99%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%88%B0%E6%8A%9B%E5%BC%82%E5%B8%B8%E4%BB%A3%E7%A0%81%E7%82%B9%E5%BE%85%E7%A0%94%E7%A9%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%B0%83%E8%AF%95%E7%9A%84%E6%97%B6%E5%80%99%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%88%B0%E6%8A%9B%E5%BC%82%E5%B8%B8%E4%BB%A3%E7%A0%81%E7%82%B9%E5%BE%85%E7%A0%94%E7%A9%B6/</guid>
+        <description>我不确定这项技术有没有意义，但是我目前的方案要求我多次断点，然后步进执行，知道找到出问题的代码，我觉得这样太低效率了。我希望能快速定位到出问</description>
+      </item>
+      
+      <item>
         <title>Idea运行多个类实例并行及SporingBoot实例并行</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%BF%90%E8%A1%8C%E5%A4%9A%E4%B8%AA%E7%B1%BB%E5%AE%9E%E4%BE%8B%E5%B9%B6%E8%A1%8C%E5%8F%8Asporingboot%E5%AE%9E%E4%BE%8B%E5%B9%B6%E8%A1%8C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -245,6 +263,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/lombok%E4%B8%8Eidea%E7%89%88%E6%9C%AC%E4%B8%8D%E5%85%BC%E5%AE%B9/</guid>
         <description>上周把Idea升级到了最新版，结果启动项目时出现了如下错误： 我最后修复该问题的方案是放弃我自己进行lombok版本管理，让SpringBoo</description>
+      </item>
+      
+      <item>
+        <title>Maven的pom.xml的备份文件，可能导致Idea行为异常</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/maven%E7%9A%84pom.xml%E7%9A%84%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%8F%AF%E8%83%BD%E5%AF%BC%E8%87%B4idea%E8%A1%8C%E4%B8%BA%E5%BC%82%E5%B8%B8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/maven%E7%9A%84pom.xml%E7%9A%84%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%8F%AF%E8%83%BD%E5%AF%BC%E8%87%B4idea%E8%A1%8C%E4%B8%BA%E5%BC%82%E5%B8%B8/</guid>
+        <description>使用如下指令为Maven项目设置新的版本候，会生成一份pom.xml的备份文件，该备份文件可能导致Idea的行为异常，表现为：导入项目时呈现</description>
       </item>
       
       <item>

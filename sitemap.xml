@@ -395,6 +395,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/008.%E4%B8%8D%E8%80%83%E8%99%91%E4%BD%BF%E7%94%A8redis%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8E%9F%E5%9B%A0/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/01.%E9%85%8D%E7%BD%AEmybatis-plus%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83/</loc>
   </url>
   
@@ -456,6 +460,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/scope%E4%B8%8Elazy%E6%B3%A8%E8%A7%A3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/select%E4%B8%AD%E5%BF%98%E8%AE%B0%E4%BD%BF%E7%94%A8script%E6%A0%87%E7%AD%BE%E4%BA%86/</loc>
   </url>
   
   <url>
@@ -732,6 +740,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%AE%9E%E7%8E%B0%E9%94%81%E5%AE%9A%E8%A1%A8%E5%A4%B4/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%B7%A5%E5%85%B7%E7%AE%80%E5%8D%95%E6%95%B4%E7%90%86/</loc>
   </url>
   
   <url>
@@ -1047,6 +1059,14 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%B0%83%E8%AF%95%E5%80%BC%E5%A4%8D%E5%88%B6%E5%AD%97%E6%AE%B5%E5%90%8D%E7%A7%B0%E5%8F%8Amap%E4%B8%AD%E7%9A%84key%E5%90%8D%E7%A7%B0/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%B0%83%E8%AF%95%E7%9A%84%E6%97%B6%E5%80%99%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%88%B0%E6%8A%9B%E5%BC%82%E5%B8%B8%E4%BB%A3%E7%A0%81%E7%82%B9%E5%BE%85%E7%A0%94%E7%A9%B6/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/idea%E8%BF%90%E8%A1%8C%E5%A4%9A%E4%B8%AA%E7%B1%BB%E5%AE%9E%E4%BE%8B%E5%B9%B6%E8%A1%8C%E5%8F%8Asporingboot%E5%AE%9E%E4%BE%8B%E5%B9%B6%E8%A1%8C/</loc>
   </url>
   
@@ -1227,6 +1247,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/maven%E7%9A%84pom.xml%E7%9A%84%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%8F%AF%E8%83%BD%E5%AF%BC%E8%87%B4idea%E8%A1%8C%E4%B8%BA%E5%BC%82%E5%B8%B8/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/maven%E7%9A%84profiles%E4%B8%8Espringboot%E7%9A%84application.yml/</loc>
   </url>
   
@@ -1272,6 +1296,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatisplus%E4%B8%AD%E4%BD%BF%E7%94%A8typehandler%E6%97%B6%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E4%BD%BF%E7%94%A8foreach/</loc>
   </url>
   
   <url>
@@ -1532,6 +1560,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/recursive%E5%8F%82%E6%95%B0/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis-server%E5%90%AF%E5%8A%A8%E7%9A%84redis%E5%A4%84%E4%BA%8E%E4%BF%9D%E6%8A%A4%E6%A8%A1%E5%BC%8F%E4%B8%8B/</loc>
   </url>
   
   <url>
@@ -1819,6 +1851,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/windows%E5%85%B3%E9%97%AD%E5%8F%B3%E4%B8%8B%E8%A7%92%E7%9A%84%E5%A4%A9%E6%B0%94/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/windows%E5%8D%B8%E8%BD%BD%E5%AE%89%E5%85%A8%E5%8A%A9%E6%89%8B/</loc>
   </url>
   
@@ -1896,6 +1932,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/%E4%B8%80%E9%94%AE%E6%B8%85%E7%90%86%E6%8E%89%E6%89%80%E6%9C%89%E6%97%A0%E7%94%A8%E7%9A%84collection/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/%E4%B8%8B%E6%8B%89%E9%A1%B9%E8%BF%87%E5%A4%9A%E5%AF%BC%E8%87%B4%E6%96%87%E6%A1%A3%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80/</loc>
   </url>
   
   <url>

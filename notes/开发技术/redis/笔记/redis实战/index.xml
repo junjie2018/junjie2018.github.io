@@ -76,6 +76,15 @@
         <description>字符串 Redis中得自增命令和自减命令 INCR： DECR： INCRBY： DECRBY： INCRBYFLOAT： 确实没有DECRBYFLOAT</description>
       </item>
       
+      <item>
+        <title>008.不考虑使用Redis的发布和订阅模式的原因</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/008.%E4%B8%8D%E8%80%83%E8%99%91%E4%BD%BF%E7%94%A8redis%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/008.%E4%B8%8D%E8%80%83%E8%99%91%E4%BD%BF%E7%94%A8redis%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
+        <description>第一个原因和Redis系统的稳定性有关。对于旧版Redis来说，如果一个客户端订阅了某个或某些频道，但它读取消息的速度却不够快的话，那么不断</description>
+      </item>
+      
     
   </channel>
 </rss>

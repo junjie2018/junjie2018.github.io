@@ -32,6 +32,24 @@
       </item>
       
       <item>
+        <title>EasyExcel工具简单整理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%B7%A5%E5%85%B7%E7%AE%80%E5%8D%95%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%B7%A5%E5%85%B7%E7%AE%80%E5%8D%95%E6%95%B4%E7%90%86/</guid>
+        <description>项目中原有的封装过于麻烦，学习成本太高了，出现问题定位成本太高，所以我对EasyExcel简单的封装了下： EasyExcelUtilsWithNewScheme.java 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16</description>
+      </item>
+      
+      <item>
+        <title>下拉项过多，导致文档无法打开</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/%E4%B8%8B%E6%8B%89%E9%A1%B9%E8%BF%87%E5%A4%9A%E5%AF%BC%E8%87%B4%E6%96%87%E6%A1%A3%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/%E4%B8%8B%E6%8B%89%E9%A1%B9%E8%BF%87%E5%A4%9A%E5%AF%BC%E8%87%B4%E6%96%87%E6%A1%A3%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80/</guid>
+        <description>额，说Excel默认支持255项，结果我导出的Excel只要超过了20项，就会报上面的错误，最后我自己写了一个Handler处理该问题，代码</description>
+      </item>
+      
+      <item>
         <title>资料整理</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

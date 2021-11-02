@@ -32,6 +32,15 @@
       </item>
       
       <item>
+        <title>@Select中忘记使用Script标签了</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/select%E4%B8%AD%E5%BF%98%E8%AE%B0%E4%BD%BF%E7%94%A8script%E6%A0%87%E7%AD%BE%E4%BA%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/select%E4%B8%AD%E5%BF%98%E8%AE%B0%E4%BD%BF%E7%94%A8script%E6%A0%87%E7%AD%BE%E4%BA%86/</guid>
+        <description>正确的写法如下： 1 2 3 4 5 6 7 8 9 @Mapper public interface CommonMaterialMapper extends BaseMapper&amp;lt;CommonMaterial&amp;gt; { @Select(&amp;#34;&amp;lt;script&amp;gt;select * from t_common_material where id in &amp;lt;foreach collection=&amp;#39;ids&amp;#39; item=&amp;#39;id&amp;#39; open=&amp;#39;(&amp;#39; separator=&amp;#39;,&amp;#39; close=&amp;#39;)&amp;#39;&amp;gt; #{id} &amp;lt;/foreach&amp;gt;&amp;lt;/script&amp;gt;&amp;#34;) List&amp;lt;CommonMaterial&amp;gt; selectListWithDelete(@Param(&amp;#34;ids&amp;#34;) List&amp;lt;String&amp;gt; ids); } 忘记使用&amp;lt;script&amp;gt;会导致错误。</description>
+      </item>
+      
+      <item>
         <title>@Select中特殊字符导致的错误</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/select%E4%B8%AD%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E5%AF%BC%E8%87%B4%E7%9A%84%E9%94%99%E8%AF%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -119,6 +128,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatisplus%E4%B8%AD%E4%BD%BF%E7%94%A8typehandler%E6%97%B6%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91/</guid>
         <description>这个问题是我同事遇到的，这个问题大概是说，当一个字段注解了@TypeHandler后，在使用LambdaQueryWrapper时，你传递的</description>
+      </item>
+      
+      <item>
+        <title>MyBatis使用foreach</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E4%BD%BF%E7%94%A8foreach/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E4%BD%BF%E7%94%A8foreach/</guid>
+        <description>代码如下： 1 2 3 4 5 6 7 8 9 @Mapper public interface CommonMaterialMapper extends BaseMapper&amp;lt;CommonMaterial&amp;gt; { @Select(&amp;#34;&amp;lt;script&amp;gt;select * from t_common_material where id in &amp;lt;foreach collection=&amp;#39;ids&amp;#39; item=&amp;#39;id&amp;#39; open=&amp;#39;(&amp;#39; separator=&amp;#39;,&amp;#39; close=&amp;#39;)&amp;#39;&amp;gt; #{id} &amp;lt;/foreach&amp;gt;&amp;lt;/script&amp;gt;&amp;#34;) List&amp;lt;CommonMaterial&amp;gt; selectListWithDelete(@Param(&amp;#34;ids&amp;#34;) List&amp;lt;String&amp;gt; ids); } 参考资料 Mybatis @Select注解，使用in传入ids数组作为参</description>
       </item>
       
       <item>
