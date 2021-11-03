@@ -85,6 +85,51 @@
         <description>第一个原因和Redis系统的稳定性有关。对于旧版Redis来说，如果一个客户端订阅了某个或某些频道，但它读取消息的速度却不够快的话，那么不断</description>
       </item>
       
+      <item>
+        <title>009.Redis的其他指令</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/009.redis%E7%9A%84%E5%85%B6%E4%BB%96%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/009.redis%E7%9A%84%E5%85%B6%E4%BB%96%E6%8C%87%E4%BB%A4/</guid>
+        <description>发布与订阅 SUBSCRIBE subscribe channel [channel &amp;hellip;] 订阅给定的一个或多个频道 UNSUBSCRIBE unsubscribe [channel [channel &amp;hellip;]] 退订给定的一个或多个频道，如果执行时没有给定任何频道，那么退订所有频道。 PUBLISH publish channel message 向给定</description>
+      </item>
+      
+      <item>
+        <title>010.快照持久化</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/010.%E5%BF%AB%E7%85%A7%E6%8C%81%E4%B9%85%E5%8C%96/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/010.%E5%BF%AB%E7%85%A7%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
+        <description>一段简单的配置如下： save 60 1000 // 多久执行一次自动快照操作 stop-write-on-bgsave-error no // 创建快照失败候是否仍然继续执行写命令 rdbcompression yes // 是否对快照文件进行压缩 dffilename dump.rdb // 如何命名硬盘</description>
+      </item>
+      
+      <item>
+        <title>011.日志聚合、页面浏览量分析时对Redis的应用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/011.%E6%97%A5%E5%BF%97%E8%81%9A%E5%90%88%E9%A1%B5%E9%9D%A2%E6%B5%8F%E8%A7%88%E9%87%8F%E5%88%86%E6%9E%90%E6%97%B6%E5%AF%B9redis%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/011.%E6%97%A5%E5%BF%97%E8%81%9A%E5%90%88%E9%A1%B5%E9%9D%A2%E6%B5%8F%E8%A7%88%E9%87%8F%E5%88%86%E6%9E%90%E6%97%B6%E5%AF%B9redis%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+        <description>首先要确认自己能丢失多长时间的数据，如果可以丢失一小时内产生的数据，可以使用save 3600 1。 其次在进行数据恢复时，要搞清楚我们丢失了哪些数据。</description>
+      </item>
+      
+      <item>
+        <title>012.Redis AOF持久化</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/012.redis-aof%E6%8C%81%E4%B9%85%E5%8C%96/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/012.redis-aof%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
+        <description>一段简单的配置如下： // 可能注释对不上，我瞎写的 appendonly no // 是否使用AOF持久化 appendfsync everysec // 多久执行一次AOF压缩 no-appendfsync-no-rewrite no // 在对AOF进行压缩的时候能否执行同</description>
+      </item>
+      
+      <item>
+        <title>013.Redis的主从复制</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/013.redis%E7%9A%84%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/013.redis%E7%9A%84%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/</guid>
+        <description>配置开启主从复制 配置文件中 slaveof host port 如果用户使用SALVEOF配置选项，那么Redis在启动时首先会载入当前可用的任何快照文件或者AOF文件，然</description>
+      </item>
+      
     
   </channel>
 </rss>

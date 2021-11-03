@@ -50,6 +50,15 @@
       </item>
       
       <item>
+        <title>Spring Data Redis中使用Multi Exec</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/spring-data-redis%E4%B8%AD%E4%BD%BF%E7%94%A8multi-exec/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/spring-data-redis%E4%B8%AD%E4%BD%BF%E7%94%A8multi-exec/</guid>
+        <description>我第一尝试的方案如下： 1 2 3 4 5 6 7 stringRedisTemplate.multi(); stringRedisTemplate.opsForValue().set(&amp;#34;name&amp;#34;, &amp;#34;qinyi&amp;#34;); stringRedisTemplate.opsForValue().set(&amp;#34;gender&amp;#34;, &amp;#34;male&amp;#34;); stringRedisTemplate.opsForValue().set(&amp;#34;age&amp;#34;, &amp;#34;19&amp;#34;); System.out.println(stringRedisTemplate.exec()); 但是这种写法会报错，具体的原因是Spring Data Redis执行multi和exec时使用的</description>
+      </item>
+      
+      <item>
         <title>使用redisson的锁</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%BD%BF%E7%94%A8redisson%E7%9A%84%E9%94%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
