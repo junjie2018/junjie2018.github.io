@@ -130,6 +130,15 @@
         <description>配置开启主从复制 配置文件中 slaveof host port 如果用户使用SALVEOF配置选项，那么Redis在启动时首先会载入当前可用的任何快照文件或者AOF文件，然</description>
       </item>
       
+      <item>
+        <title>014.Redis事务案例研究</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/014.redis%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B%E7%A0%94%E7%A9%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/014.redis%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B%E7%A0%94%E7%A9%B6/</guid>
+        <description>用户及用户包裹的数据结构如下： 市场的数据结构如下： 商品上架 为了将商品放到市场上进行销售，程序除了要使用MULTI命令和EXEC命令之外，还需</description>
+      </item>
+      
     
   </channel>
 </rss>
