@@ -17265,7 +17265,142 @@
 </ol>
 <p>我先简单的这么理解。</p>
 <h2 id="购买商品">购买商品</h2>
+<ol>
+<li>
+<p>程序首先使用WATCH对市场以及买家的个人信息进行监视，然后获取买家拥有的钱数以及商品的售价，并检查买家是否有足够的钱来购买该商品。</p>
+</li>
+<li>
+<p>如果买家没有足够的钱，那么程序会取消事务；相反地，如果买家的钱足够，那么程序首先会将买家支付的钱转移给卖家，然后将售出的商品移动至买家的包裹，并将该商品从市场中移除。</p>
+</li>
+<li>
+<p>当买家的个人信息或者商品买卖市场出现变化而导致WatchError异常出现时，程序将进行重试，其中最大重试时间为10秒。</p>
+</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="n">stringRedisTemplate</span><span class="o">.</span><span class="na">execute</span><span class="o">((</span><span class="n">RedisCallback</span><span class="o">&lt;</span><span class="n">Object</span><span class="o">&gt;)</span> <span class="n">connection</span> <span class="o">-&gt;</span> <span class="o">{</span>
+    <span class="n">String</span> <span class="n">buyer</span> <span class="o">=</span> <span class="n">String</span><span class="o">.</span><span class="na">format</span><span class="o">(</span><span class="s">&#34;users:%s&#34;</span><span class="o">,</span> <span class="n">buyerId</span><span class="o">);</span>
+    <span class="n">String</span> <span class="n">seller</span> <span class="o">=</span> <span class="n">String</span><span class="o">.</span><span class="na">format</span><span class="o">(</span><span class="s">&#34;users:%s&#34;</span><span class="o">,</span> <span class="n">sellerId</span><span class="o">);</span>
+    <span class="n">String</span> <span class="n">item</span> <span class="o">=</span> <span class="n">String</span><span class="o">.</span><span class="na">format</span><span class="o">(</span><span class="s">&#34;%s.%s&#34;</span><span class="o">,</span> <span class="n">itemId</span><span class="o">,</span> <span class="n">sellerId</span><span class="o">);</span>
+    <span class="n">String</span> <span class="n">inventory</span> <span class="o">=</span> <span class="n">String</span><span class="o">.</span><span class="na">format</span><span class="o">(</span><span class="s">&#34;inventory:%s&#34;</span><span class="o">,</span> <span class="n">buyerId</span><span class="o">);</span>
 
+    <span class="n">LocalDateTime</span> <span class="n">end</span> <span class="o">=</span> <span class="n">LocalDateTime</span><span class="o">.</span><span class="na">now</span><span class="o">().</span><span class="na">plusSeconds</span><span class="o">(</span><span class="n">10</span><span class="o">);</span>
+
+    <span class="c1">// 这个地方肯定写法有问题，但是不纠结
+</span><span class="c1"></span>    <span class="k">while</span> <span class="o">(</span><span class="n">LocalDateTime</span><span class="o">.</span><span class="na">now</span><span class="o">().</span><span class="na">isBefore</span><span class="o">(</span><span class="n">end</span><span class="o">))</span> <span class="o">{</span>
+
+        <span class="k">try</span> <span class="o">{</span>
+            <span class="c1">// 对商品买卖市场以及买家的个人信息进行监视
+</span><span class="c1"></span>            <span class="n">connection</span><span class="o">.</span><span class="na">watch</span><span class="o">(</span><span class="n">String</span><span class="o">.</span><span class="na">format</span><span class="o">(</span><span class="s">&#34;market:%s&#34;</span><span class="o">,</span> <span class="n">buyer</span><span class="o">).</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">));</span>
+
+            <span class="c1">// 检查买家想购买的商品的价格是否出现了变化，以及买家是否有
+</span><span class="c1"></span>            <span class="c1">// 足够的钱来购买这件商品
+</span><span class="c1"></span>            <span class="n">Double</span> <span class="n">price</span> <span class="o">=</span> <span class="n">connection</span><span class="o">.</span><span class="na">zScore</span><span class="o">(</span>
+                    <span class="s">&#34;market:&#34;</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">),</span>
+                    <span class="n">item</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">));</span>
+            <span class="n">Double</span> <span class="n">founds</span> <span class="o">=</span> <span class="n">Double</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">Arrays</span><span class="o">.</span><span class="na">toString</span><span class="o">(</span><span class="n">connection</span><span class="o">.</span><span class="na">hGet</span><span class="o">(</span>
+                    <span class="n">buyer</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">),</span>
+                    <span class="s">&#34;funds&#34;</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">))));</span>
+            <span class="k">if</span> <span class="o">(</span><span class="n">price</span> <span class="o">!=</span> <span class="n">lprice</span> <span class="o">||</span> <span class="n">price</span> <span class="o">&gt;</span> <span class="n">founds</span><span class="o">)</span> <span class="o">{</span>
+                <span class="n">connection</span><span class="o">.</span><span class="na">unwatch</span><span class="o">();</span>
+                <span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
+            <span class="o">}</span>
+
+            <span class="c1">// 先将买家支付的钱转义给卖家，然后将被购买的商品移交给买家
+</span><span class="c1"></span>            <span class="n">connection</span><span class="o">.</span><span class="na">multi</span><span class="o">();</span>
+
+            <span class="n">connection</span><span class="o">.</span><span class="na">hIncrBy</span><span class="o">(</span>
+                    <span class="n">seller</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">),</span>
+                    <span class="s">&#34;founds&#34;</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">),</span>
+                    <span class="n">price</span><span class="o">);</span>
+            <span class="n">connection</span><span class="o">.</span><span class="na">hIncrBy</span><span class="o">(</span>
+                    <span class="n">buyer</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">),</span>
+                    <span class="s">&#34;founds&#34;</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">),</span>
+                    <span class="n">price</span><span class="o">);</span>
+            <span class="n">connection</span><span class="o">.</span><span class="na">sAdd</span><span class="o">(</span>
+                    <span class="n">inventory</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">),</span>
+                    <span class="n">itemId</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">));</span>
+            <span class="n">connection</span><span class="o">.</span><span class="na">zRem</span><span class="o">(</span>
+                    <span class="s">&#34;market:&#34;</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">),</span>
+                    <span class="n">item</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">));</span>
+
+            <span class="n">connection</span><span class="o">.</span><span class="na">exec</span><span class="o">();</span>
+
+            <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+        <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+            <span class="c1">// 如果买家的个人信息或者商品买卖市场在交易的过程中出现了变化，
+</span><span class="c1"></span>            <span class="c1">// 那么进行重试
+</span><span class="c1"></span>            <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+<span class="o">});</span>
+
+</code></pre></td></tr></table>
+</div>
+</div>
   </article>
 </div>
       
