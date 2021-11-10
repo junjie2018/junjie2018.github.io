@@ -14,6 +14,15 @@
     
       
       <item>
+        <title>Anaconda3</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>CentOS7中安装pip</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/centos7%E4%B8%AD%E5%AE%89%E8%A3%85pip/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -110,6 +119,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/python.h%E6%89%BE%E4%B8%8D%E5%88%B0/</guid>
         <description>我执行的指令如下： yum search python | grep devel yum install python3-devel.x86_64 参考资料 解决Python.h找不到问题</description>
+      </item>
+      
+      <item>
+        <title>Python2不需要安装urllib2</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/python2%E4%B8%8D%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85urllib2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/python2%E4%B8%8D%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85urllib2/</guid>
+        <description>犯傻了，在Ubuntu上运行urllib2，意味要安装urllib2，花了很多时间去查找资料，最后发现根本不需要安装。</description>
       </item>
       
       <item>

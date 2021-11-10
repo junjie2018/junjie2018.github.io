@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anaconda3 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/</link>
+    <description>Recent content in Anaconda3 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Ubuntu安装Anaconda3</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/ubuntu%E5%AE%89%E8%A3%85anaconda3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/ubuntu%E5%AE%89%E8%A3%85anaconda3/</guid>
+        <description>如图官网下载脚本文件： 然后执行如下代码（一路默认）： bash Anaconda3-2021.05-Linux-x86_64.sh 最后的最后，执行下如下代码： source ~/.bashrc 参考资料 Ubuntu18.04 安装 Anaconda3 简单参考了一下，看看该下载那个文件。</description>
+      </item>
+      
+    
+  </channel>
+</rss>
