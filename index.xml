@@ -231,11 +231,11 @@
       </item>
       
       <item>
-        <title>@ConfigurationProperties的一种写法（待验证）</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E7%9A%84%E4%B8%80%E7%A7%8D%E5%86%99%E6%B3%95%E5%BE%85%E9%AA%8C%E8%AF%81/</link>
+        <title>@ConfigurationProperties的一种写法</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E7%9A%84%E4%B8%80%E7%A7%8D%E5%86%99%E6%B3%95/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E7%9A%84%E4%B8%80%E7%A7%8D%E5%86%99%E6%B3%95%E5%BE%85%E9%AA%8C%E8%AF%81/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E7%9A%84%E4%B8%80%E7%A7%8D%E5%86%99%E6%B3%95/</guid>
         <description>如下代码： 1 2 3 4 5 6 7 8 9 @Bean @ConfigurationProperties(&amp;#34;spring.datasource&amp;#34;) public DataSource dataSource(){ return new DruidDataSource(); } 这种写法会让返回的DataSource Bean与spring.datasource下的配置一一</description>
       </item>
       
@@ -4173,6 +4173,15 @@
       </item>
       
       <item>
+        <title>同网段的多网卡为何不能实现多网口管理</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/%E5%90%8C%E7%BD%91%E6%AE%B5%E7%9A%84%E5%A4%9A%E7%BD%91%E5%8D%A1%E4%B8%BA%E4%BD%95%E4%B8%8D%E8%83%BD%E5%AE%9E%E7%8E%B0%E5%A4%9A%E7%BD%91%E5%8F%A3%E7%AE%A1%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/%E5%90%8C%E7%BD%91%E6%AE%B5%E7%9A%84%E5%A4%9A%E7%BD%91%E5%8D%A1%E4%B8%BA%E4%BD%95%E4%B8%8D%E8%83%BD%E5%AE%9E%E7%8E%B0%E5%A4%9A%E7%BD%91%E5%8F%A3%E7%AE%A1%E7%90%86/</guid>
+        <description>因为我是PVE内部的一个虚拟机做为主路由，导致我进行主路由实验时尝尝会导致我网路崩坏，最终无法访问到PVE的管理界面，最终导致我实验难以进行</description>
+      </item>
+      
+      <item>
         <title>后台执行MySQL导入</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/mysql/%E5%90%8E%E5%8F%B0%E6%89%A7%E8%A1%8Cmysql%E5%AF%BC%E5%85%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5529,6 +5538,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/%E8%AF%BB%E5%8F%96application.yml%E7%9A%84%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E5%88%B0bean/</guid>
         <description>添加依赖： 1 2 3 4 5 6 7 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-configuration-processor&amp;lt;/artifactId&amp;gt; &amp;lt;optional&amp;gt;true&amp;lt;/optional&amp;gt; &amp;lt;/dependency&amp;gt; 开发application.yml: 1 2 3 4 5 6 7 8 9 project-config:template-di</description>
+      </item>
+      
+      <item>
+        <title>读取内容到List中的一些细节</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/%E8%AF%BB%E5%8F%96%E5%86%85%E5%AE%B9%E5%88%B0list%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/%E8%AF%BB%E5%8F%96%E5%86%85%E5%AE%B9%E5%88%B0list%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/</guid>
+        <description>我有点强迫症（其实是为了开发工具时配置文件更加美观），我有如下的写法： 配置文件 1 2 3 4 5 6 7 8 9 tables:- logic-name:t_orderent</description>
       </item>
       
       <item>

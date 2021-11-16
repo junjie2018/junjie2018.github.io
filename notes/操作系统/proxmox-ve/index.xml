@@ -140,6 +140,15 @@
       </item>
       
       <item>
+        <title>同网段的多网卡为何不能实现多网口管理</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/%E5%90%8C%E7%BD%91%E6%AE%B5%E7%9A%84%E5%A4%9A%E7%BD%91%E5%8D%A1%E4%B8%BA%E4%BD%95%E4%B8%8D%E8%83%BD%E5%AE%9E%E7%8E%B0%E5%A4%9A%E7%BD%91%E5%8F%A3%E7%AE%A1%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/%E5%90%8C%E7%BD%91%E6%AE%B5%E7%9A%84%E5%A4%9A%E7%BD%91%E5%8D%A1%E4%B8%BA%E4%BD%95%E4%B8%8D%E8%83%BD%E5%AE%9E%E7%8E%B0%E5%A4%9A%E7%BD%91%E5%8F%A3%E7%AE%A1%E7%90%86/</guid>
+        <description>因为我是PVE内部的一个虚拟机做为主路由，导致我进行主路由实验时尝尝会导致我网路崩坏，最终无法访问到PVE的管理界面，最终导致我实验难以进行</description>
+      </item>
+      
+      <item>
         <title>常用指令</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
