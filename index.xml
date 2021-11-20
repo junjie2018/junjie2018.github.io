@@ -33,6 +33,15 @@
       </item>
       
       <item>
+        <title>001.Python可以用来做什么</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/001.python%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E5%81%9A%E4%BB%80%E4%B9%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/001.python%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E5%81%9A%E4%BB%80%E4%B9%88/</guid>
+        <description>系统编程 图形用户界面（GUI） Internet脚本 组件继承 数据库编程 快速原型 数值计算和科学计算编程 更多内容：游戏、图像、数据挖掘、机器人、E</description>
+      </item>
+      
+      <item>
         <title>001.Redis于Memcached的对比</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/001.redis%E4%BA%8Ememcached%E7%9A%84%E5%AF%B9%E6%AF%94/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -51,12 +60,30 @@
       </item>
       
       <item>
+        <title>002.第01章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/002.%E7%AC%AC01%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/002.%E7%AC%AC01%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <description>1.人们选择Python的6个主要原因是什么？ 软件质量、开发者效率、程序可移植性、组件集成和编码乐趣，其中软件质量和效率这两条是人们选择Py</description>
+      </item>
+      
+      <item>
         <title>003.Redis中得数据类型，及支持的操作</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/003.redis%E4%B8%AD%E5%BE%97%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%94%AF%E6%8C%81%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/003.redis%E4%B8%AD%E5%BE%97%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%94%AF%E6%8C%81%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
         <description>STRING 对整个字符串或者字符串中的其中一部分执行操作，对整数、浮点数执行自增或者自减操作。 SET GET DEL LIST 从链表的两端推入或者弹出元素；根据偏移量对链表进</description>
+      </item>
+      
+      <item>
+        <title>003.字节码编译</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/003.%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E8%AF%91/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/003.%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E8%AF%91/</guid>
+        <description>如果Python进程在机器上拥有写入权限，那么它将把程序的字节码保存为一个以pyc为扩展名的文件（&amp;quot;.pyc&amp;quot;就是编译过</description>
       </item>
       
       <item>
@@ -69,12 +96,39 @@
       </item>
       
       <item>
+        <title>004.第02章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/004.%E7%AC%AC02%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/004.%E7%AC%AC02%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <description>5.请列举两个或多个Python标准执行模型的变体的名字。 Psyco、Shed Skin以及冻结二进制文件都是执行模型的变体。CPython、</description>
+      </item>
+      
+      <item>
         <title>005.Redis在一个购物网站中的应用</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/005.redis%E5%9C%A8%E4%B8%80%E4%B8%AA%E8%B4%AD%E7%89%A9%E7%BD%91%E7%AB%99%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/005.redis%E5%9C%A8%E4%B8%80%E4%B8%AA%E8%B4%AD%E7%89%A9%E7%BD%91%E7%AB%99%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
         <description>Token 书中这块设计描述的有点乱，整理候结果如下： 书中记录Token采用的是Hash结构，而我们生产中使用的是String结构。书中用一个类型为H</description>
+      </item>
+      
+      <item>
+        <title>005.简单理解Python中的模块</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/005.%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3python%E4%B8%AD%E7%9A%84%E6%A8%A1%E5%9D%97/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/005.%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3python%E4%B8%AD%E7%9A%84%E6%A8%A1%E5%9D%97/</guid>
+        <description>用简单的术语来讲，每一个以扩展名.py结尾的Python源代码文件都是一个模块。不需要任何特殊的代码或语法来使文件成为模块：任何何这样的文件</description>
+      </item>
+      
+      <item>
+        <title>006.Python的内置对象</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/006.python%E7%9A%84%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/006.python%E7%9A%84%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1/</guid>
+        <description>数字 字符串 列表 字典 元祖 文件 集合 其他核心类型：类型、None、布尔型 程序单元类型：函数、模块、类 Python实现相关类型：已编译代码、调用栈跟</description>
       </item>
       
       <item>
@@ -93,6 +147,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/007.redis%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E7%9B%B8%E5%85%B3%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
         <description>字符串 Redis中得自增命令和自减命令 INCR： DECR： INCRBY： DECRBY： INCRBYFLOAT： 确实没有DECRBYFLOAT</description>
+      </item>
+      
+      <item>
+        <title>007.第27章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/007.%E7%AC%AC27%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/007.%E7%AC%AC27%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <description>1.Python的POP的主要的意义是什么？ OOP是关于代码重用：通过分解代码、最小化代码的冗余以及对已有代码进行定制来编写程序，而不是原处</description>
       </item>
       
       <item>

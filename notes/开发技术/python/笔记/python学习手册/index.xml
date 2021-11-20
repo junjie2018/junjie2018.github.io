@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python学习手册 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/</link>
+    <description>Recent content in Python学习手册 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>001.Python可以用来做什么</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/001.python%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E5%81%9A%E4%BB%80%E4%B9%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/001.python%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E5%81%9A%E4%BB%80%E4%B9%88/</guid>
+        <description>系统编程 图形用户界面（GUI） Internet脚本 组件继承 数据库编程 快速原型 数值计算和科学计算编程 更多内容：游戏、图像、数据挖掘、机器人、E</description>
+      </item>
+      
+      <item>
+        <title>002.第01章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/002.%E7%AC%AC01%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/002.%E7%AC%AC01%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <description>1.人们选择Python的6个主要原因是什么？ 软件质量、开发者效率、程序可移植性、组件集成和编码乐趣，其中软件质量和效率这两条是人们选择Py</description>
+      </item>
+      
+      <item>
+        <title>003.字节码编译</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/003.%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E8%AF%91/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/003.%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E8%AF%91/</guid>
+        <description>如果Python进程在机器上拥有写入权限，那么它将把程序的字节码保存为一个以pyc为扩展名的文件（&amp;quot;.pyc&amp;quot;就是编译过</description>
+      </item>
+      
+      <item>
+        <title>004.第02章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/004.%E7%AC%AC02%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/004.%E7%AC%AC02%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <description>5.请列举两个或多个Python标准执行模型的变体的名字。 Psyco、Shed Skin以及冻结二进制文件都是执行模型的变体。CPython、</description>
+      </item>
+      
+      <item>
+        <title>005.简单理解Python中的模块</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/005.%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3python%E4%B8%AD%E7%9A%84%E6%A8%A1%E5%9D%97/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/005.%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3python%E4%B8%AD%E7%9A%84%E6%A8%A1%E5%9D%97/</guid>
+        <description>用简单的术语来讲，每一个以扩展名.py结尾的Python源代码文件都是一个模块。不需要任何特殊的代码或语法来使文件成为模块：任何何这样的文件</description>
+      </item>
+      
+      <item>
+        <title>006.Python的内置对象</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/006.python%E7%9A%84%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/006.python%E7%9A%84%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1/</guid>
+        <description>数字 字符串 列表 字典 元祖 文件 集合 其他核心类型：类型、None、布尔型 程序单元类型：函数、模块、类 Python实现相关类型：已编译代码、调用栈跟</description>
+      </item>
+      
+      <item>
+        <title>007.第27章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/007.%E7%AC%AC27%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/007.%E7%AC%AC27%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <description>1.Python的POP的主要的意义是什么？ OOP是关于代码重用：通过分解代码、最小化代码的冗余以及对已有代码进行定制来编写程序，而不是原处</description>
+      </item>
+      
+    
+  </channel>
+</rss>
