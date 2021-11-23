@@ -150,11 +150,11 @@
       </item>
       
       <item>
-        <title>007.第27章习题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/007.%E7%AC%AC27%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <title>007.第26章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/007.%E7%AC%AC26%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/007.%E7%AC%AC27%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/007.%E7%AC%AC26%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
         <description>1.Python的POP的主要的意义是什么？ OOP是关于代码重用：通过分解代码、最小化代码的冗余以及对已有代码进行定制来编写程序，而不是原处</description>
       </item>
       
@@ -165,6 +165,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/008.%E4%B8%8D%E8%80%83%E8%99%91%E4%BD%BF%E7%94%A8redis%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
         <description>第一个原因和Redis系统的稳定性有关。对于旧版Redis来说，如果一个客户端订阅了某个或某些频道，但它读取消息的速度却不够快的话，那么不断</description>
+      </item>
+      
+      <item>
+        <title>008.第27章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/008.%E7%AC%AC27%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/008.%E7%AC%AC27%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <description>1.类和模块之间有什么联系？ 类总是位于模块中。类是模块对象的属性。类和模块都是命名空间，但类对应于语句（而不是整个文件），而且支持多个实例、</description>
+      </item>
+      
+      <item>
+        <title>009.__str__与__repr__</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/009.__str__%E4%B8%8E__repr__/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/009.__str__%E4%B8%8E__repr__/</guid>
+        <description>从技术上来讲，__str__被print和str调用所青睐，而__repr__被当做__str__的一种退路以及在其他的上下文中。尽管两者被</description>
       </item>
       
       <item>
@@ -192,6 +210,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/010.%E5%BF%AB%E7%85%A7%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
         <description>一段简单的配置如下： save 60 1000 // 多久执行一次自动快照操作 stop-write-on-bgsave-error no // 创建快照失败候是否仍然继续执行写命令 rdbcompression yes // 是否对快照文件进行压缩 dffilename dump.rdb // 如何命名硬盘</description>
+      </item>
+      
+      <item>
+        <title>010.第28章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/010.%E7%AC%AC28%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/010.%E7%AC%AC28%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <description>1.当我们从shelve获取一个Manager对象并打印它的时候，显示格式逻辑来自何处？ 在类的最终版本中，Manager最终从另一个clas</description>
       </item>
       
       <item>
