@@ -231,12 +231,30 @@
       </item>
       
       <item>
+        <title>011.第29章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/011.%E7%AC%AC29%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/011.%E7%AC%AC29%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <description>1.什么是抽象父类？ 抽象类是调用了一个方法，但却没有继承或定义该方法的类。抽象类预期该方法由子类填补。在具体行为只有当一个特定子类被编写时才</description>
+      </item>
+      
+      <item>
         <title>012.Redis AOF持久化</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/012.redis-aof%E6%8C%81%E4%B9%85%E5%8C%96/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/012.redis-aof%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
         <description>一段简单的配置如下： // 可能注释对不上，我瞎写的 appendonly no // 是否使用AOF持久化 appendfsync everysec // 多久执行一次AOF压缩 no-appendfsync-no-rewrite no // 在对AOF进行压缩的时候能否执行同</description>
+      </item>
+      
+      <item>
+        <title>012.理解Python中迭代的一些知识</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/012.%E7%90%86%E8%A7%A3python%E4%B8%AD%E8%BF%AD%E4%BB%A3%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/012.%E7%90%86%E8%A7%A3python%E4%B8%AD%E8%BF%AD%E4%BB%A3%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
+        <description>从技术角度来讲，迭代上下文是通过将一个可迭代对象传入内置函数iter，并尝试调用_iter_方法来实现的，而这种方法应该返回一个迭代器对象。</description>
       </item>
       
       <item>
@@ -249,12 +267,48 @@
       </item>
       
       <item>
+        <title>013.初次接触生成器函数</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/013.%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6%E7%94%9F%E6%88%90%E5%99%A8%E5%87%BD%E6%95%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/013.%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6%E7%94%9F%E6%88%90%E5%99%A8%E5%87%BD%E6%95%B0/</guid>
+        <description>任何包含yield语句的函数都被转换成了一个生成器函数。当被调用时，它返回一个新的生成器对象，并自动记录局部作用域与代码位置。一个被自动创建</description>
+      </item>
+      
+      <item>
         <title>014.Redis事务案例研究</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/014.redis%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B%E7%A0%94%E7%A9%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/014.redis%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B%E7%A0%94%E7%A9%B6/</guid>
         <description>用户及用户包裹的数据结构如下： 市场的数据结构如下： 商品上架 为了将商品放到市场上进行销售，程序除了要使用MULTI命令和EXEC命令之外，还需</description>
+      </item>
+      
+      <item>
+        <title>014.第30章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/014.%E7%AC%AC30%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/014.%E7%AC%AC30%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <description>1.哪两种运算符重载方法可以支持类中的迭代？ __getitem__、__iter__ 2.哪两种运算符重载方法用于处理打印，并且分别在哪些场景</description>
+      </item>
+      
+      <item>
+        <title>015.第31章习题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/015.%E7%AC%AC31%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/015.%E7%AC%AC31%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
+        <description>1.什么是多继承？ 当类从一个以上的父类中继承时，就发生了多继承。把多个类代码的包混合在一起是十分有用的。在class语句头部的从左至右的顺序</description>
+      </item>
+      
+      <item>
+        <title>016.两端不是很理解的代码</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/016.%E4%B8%A4%E7%AB%AF%E4%B8%8D%E6%98%AF%E5%BE%88%E7%90%86%E8%A7%A3%E7%9A%84%E4%BB%A3%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/016.%E4%B8%A4%E7%AB%AF%E4%B8%8D%E6%98%AF%E5%BE%88%E7%90%86%E8%A7%A3%E7%9A%84%E4%BB%A3%E7%A0%81/</guid>
+        <description>这两段代码都可以抑制警告，但是我不知道其中的原理。 1 2 3 4 5 6 7 8 9 10 import requests from requests.packages import urllib3 urllib3.disable_warnings() response = requests.get(&amp;#39;https://192.168.19.10:38080&amp;#39;, verify=False) print(response.text) 1 2 3 4 5 6 7 8 9 import requests, logging logging.captureWarnings(True) response = requests.get(&amp;#39;https://192.168.19.10:38080&amp;#39;, verify=False) print(response.text)</description>
       </item>
       
       <item>
@@ -5136,6 +5190,15 @@
       </item>
       
       <item>
+        <title>正则表达式简单练习</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%AE%80%E5%8D%95%E7%BB%83%E4%B9%A0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%AE%80%E5%8D%95%E7%BB%83%E4%B9%A0/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70</description>
+      </item>
+      
+      <item>
         <title>注解、Aware及其实现类</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/%E6%B3%A8%E8%A7%A3aware%E5%8F%8A%E5%85%B6%E5%AE%9E%E7%8E%B0%E7%B1%BB/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5286,6 +5349,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%90%86%E8%A7%A3%E4%BB%80%E4%B9%88%E6%98%AFjose/</guid>
         <description>JOSE是一种旨在在各方质检传递声明（Claims）的方法的规范集。我们常用的JWT就是包含了允许客户端访问特定资源的声明。JOSE制定了一</description>
+      </item>
+      
+      <item>
+        <title>理解贪婪与非贪婪</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E7%90%86%E8%A7%A3%E8%B4%AA%E5%A9%AA%E4%B8%8E%E9%9D%9E%E8%B4%AA%E5%A9%AA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E7%90%86%E8%A7%A3%E8%B4%AA%E5%A9%AA%E4%B8%8E%E9%9D%9E%E8%B4%AA%E5%A9%AA/</guid>
+        <description>如下代码，期待匹配的数字1234567，实际匹配的是数字7 1 2 3 4 # 输出：7 print(re.match(r&amp;#39;^He.*(\d+).*Demo$&amp;#39;, &amp;#39;Hello 1234567 World_This is Regex Demo&amp;#39;).group(1)) 在贪婪匹配下，.*或匹配尽可能多的字符。正则表达式</description>
       </item>
       
       <item>

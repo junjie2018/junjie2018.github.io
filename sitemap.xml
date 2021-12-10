@@ -347,6 +347,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/</loc>
   </url>
   
@@ -467,7 +471,15 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/011.%E7%AC%AC29%E7%AB%A0%E4%B9%A0%E9%A2%98/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/012.redis-aof%E6%8C%81%E4%B9%85%E5%8C%96/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/012.%E7%90%86%E8%A7%A3python%E4%B8%AD%E8%BF%AD%E4%BB%A3%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</loc>
   </url>
   
   <url>
@@ -475,7 +487,23 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/013.%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6%E7%94%9F%E6%88%90%E5%99%A8%E5%87%BD%E6%95%B0/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/014.redis%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B%E7%A0%94%E7%A9%B6/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/014.%E7%AC%AC30%E7%AB%A0%E4%B9%A0%E9%A2%98/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/015.%E7%AC%AC31%E7%AB%A0%E4%B9%A0%E9%A2%98/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/016.%E4%B8%A4%E7%AB%AF%E4%B8%8D%E6%98%AF%E5%BE%88%E7%90%86%E8%A7%A3%E7%9A%84%E4%BB%A3%E7%A0%81/</loc>
   </url>
   
   <url>
@@ -2647,6 +2675,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%AE%80%E5%8D%95%E7%BB%83%E4%B9%A0/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/%E6%B3%A8%E8%A7%A3aware%E5%8F%8A%E5%85%B6%E5%AE%9E%E7%8E%B0%E7%B1%BB/</loc>
   </url>
   
@@ -2712,6 +2744,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%90%86%E8%A7%A3%E4%BB%80%E4%B9%88%E6%98%AFjose/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E7%90%86%E8%A7%A3%E8%B4%AA%E5%A9%AA%E4%B8%8E%E9%9D%9E%E8%B4%AA%E5%A9%AA/</loc>
   </url>
   
   <url>
