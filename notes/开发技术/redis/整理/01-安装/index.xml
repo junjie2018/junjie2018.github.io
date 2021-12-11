@@ -14,21 +14,21 @@
     
       
       <item>
-        <title>Ubuntu上安装Redis6</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85redis6/</link>
+        <title>01.将Redis安装在CentOS 7上</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/01.%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85redis6/</guid>
-        <description>安装gcc、make工具 1 2 3 sudo apt install -y gcc make 官网下载源码，解压源码文件 1 2 3 4 tar redis-6.2.6.tar.gz cd redis-6.2.6 指定安装目录并进行编译、安装 1 2 3 sudo make PREFIX=/usr/local/redis6 install 检查安装结果 1</description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/01.%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A/</guid>
+        <description>操作步骤 从官网下载源码包 yum install -y gcc mkdir -p ~/Software/Redis &amp;amp;&amp;amp; cd ~/Software/Redis wget http://download.redis.io/releases/redis-5.0.8.tar.gz 解压并编译安装 1 2 3 4 5 6 7 8 9 10 # yum install -y gcc tar -zxvf redis-5.0.8.tar.gz cd redis-5.0.8 make # 指定安装目录 make install PREFIX=/usr/local/redis 设置环境变量 1 2</description>
       </item>
       
       <item>
-        <title>将Redis安装在CentOS 7上</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A/</link>
+        <title>02.Ubuntu上安装Redis6</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/02.ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85redis6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A/</guid>
-        <description>操作步骤 从官网下载源码包 yum install -y gcc mkdir -p ~/Software/Redis &amp;amp;&amp;amp; cd ~/Software/Redis wget http://download.redis.io/releases/redis-5.0.8.tar.gz 解压并编译安装 1 2 3 4 5 6 7 8 9 10 # yum install -y gcc tar -zxvf redis-5.0.8.tar.gz cd redis-5.0.8 make # 指定安装目录 make install PREFIX=/usr/local/redis 设置环境变量 1 2</description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/02.ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85redis6/</guid>
+        <description>安装gcc、make工具 1 2 3 sudo apt install -y gcc make 官网下载源码，解压源码文件 1 2 3 4 tar redis-6.2.6.tar.gz cd redis-6.2.6 指定安装目录并进行编译、安装 1 2 3 sudo make PREFIX=/usr/local/redis6 install 检查安装结果 1</description>
       </item>
       
     

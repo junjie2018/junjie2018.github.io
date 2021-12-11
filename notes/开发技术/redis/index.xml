@@ -50,6 +50,15 @@
       </item>
       
       <item>
+        <title>Redis中常用指令</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E4%B8%AD%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E4%B8%AD%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</guid>
+        <description>启动Redis服务 redis-server redis-server 配置文件 连接Redis服务 redis-cli redis-cli -p 6379 # 可连接到服务后执行shutdown指令 redis-cli shutdown redis-cli -p 6379 shtudown 数据库的管理 # 切换到DB库 select DB #</description>
+      </item>
+      
+      <item>
         <title>Redis递增序列的实现</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
