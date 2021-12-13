@@ -140,6 +140,15 @@
       </item>
       
       <item>
+        <title>MyBatis将Null更新进字段</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E5%B0%86null%E6%9B%B4%E6%96%B0%E8%BF%9B%E5%AD%97%E6%AE%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E5%B0%86null%E6%9B%B4%E6%96%B0%E8%BF%9B%E5%AD%97%E6%AE%B5/</guid>
+        <description>diamante如下： 1 2 3 4 5 6 7 8 9 10 11 12 LambdaUpdateWrapper&amp;lt;ColorScheme&amp;gt; updateWrapperForColorScheme = new LambdaUpdateWrapper&amp;lt;ColorScheme&amp;gt;() .eq(ColorScheme::getId, colorScheme.getId()) .set(ColorScheme::getCode, colorScheme.getCode()) .set(ColorScheme::getProgress, colorScheme.getProgress()) .set(ColorScheme::getName, colorScheme.getName()) .set(ColorScheme::getStartTime, colorScheme.getStartTime()) .set(ColorScheme::getEndTime, colorScheme.getEndTime()) .set(ColorScheme::getExecutor, JSON.toJSON(colorScheme.getExecutor())); colorSchemeMapper.update(null, updateWrapperForColorScheme); 参考资料 【Mybatis-Plus】使用update</description>
+      </item>
+      
+      <item>
         <title>MyBatis条件构造器</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/mybatis%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -218,6 +227,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%88%86%E9%A1%B50%E5%92%8C1%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>我始终记得我们之前做分页的时候是从零开始的，但是这个可能是我的错觉，因为我本身不是分页接口的消费者，所以我也不知道我开发的接口在被怎么传参（</description>
+      </item>
+      
+      <item>
+        <title>因为自定义拦截器，导致不支持jsonb相关的语法</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%9B%A0%E4%B8%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8B%A6%E6%88%AA%E5%99%A8%E5%AF%BC%E8%87%B4%E4%B8%8D%E6%94%AF%E6%8C%81jsonb%E7%9B%B8%E5%85%B3%E7%9A%84%E8%AF%AD%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%9B%A0%E4%B8%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8B%A6%E6%88%AA%E5%99%A8%E5%AF%BC%E8%87%B4%E4%B8%8D%E6%94%AF%E6%8C%81jsonb%E7%9B%B8%E5%85%B3%E7%9A%84%E8%AF%AD%E6%B3%95/</guid>
+        <description>我们的项目是多租户的，所以同事自定义了MyBatis的拦截器，在该拦截器中获取请求头中传递过来的租户Id，然后注入到所有的SQL中，其具体实</description>
+      </item>
+      
+      <item>
+        <title>在LambdaQueryWrapper中使用limit</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%9C%A8lambdaquerywrapper%E4%B8%AD%E4%BD%BF%E7%94%A8limit/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E5%9C%A8lambdaquerywrapper%E4%B8%AD%E4%BD%BF%E7%94%A8limit/</guid>
+        <description>代码如下： 1 2 3 4 5 6 7 8 9 // 选择一个版本号最大的作为最新版本 LambdaQueryWrapper&amp;lt;Style2d&amp;gt; queryWrapperForStyle = new LambdaQueryWrapper&amp;lt;Style2d&amp;gt;() .eq(Style2d::getStyleId, style2d.getStyleId()) .eq(Style2d::getOrgId, tenantId) .eq(Style2d::getIsCurrentVersion, IsCurrentVersion.NOT_CURRENT_VERSION.getValue()) .orderByDesc(Style2d::getVersionNumber) .last(&amp;#34;limit 1&amp;#34;); 参考资料 MyBatis-Plus#last mybatis plus 限制查询个数 Mybatis-Plus</description>
       </item>
       
       <item>
