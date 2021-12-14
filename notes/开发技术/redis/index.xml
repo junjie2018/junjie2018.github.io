@@ -86,6 +86,15 @@
       </item>
       
       <item>
+        <title>关于AOF两个配置项的思考</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%85%B3%E4%BA%8Eaof%E4%B8%A4%E4%B8%AA%E9%85%8D%E7%BD%AE%E9%A1%B9%E7%9A%84%E6%80%9D%E8%80%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%85%B3%E4%BA%8Eaof%E4%B8%A4%E4%B8%AA%E9%85%8D%E7%BD%AE%E9%A1%B9%E7%9A%84%E6%80%9D%E8%80%83/</guid>
+        <description>Redis关于AOF有auto-aof-rewrite-percentage和auto-aof-rewrite-min-size。假如用户对</description>
+      </item>
+      
+      <item>
         <title>在SpringBoot中配置Redis</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%9C%A8springboot%E4%B8%AD%E9%85%8D%E7%BD%AEredis/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -104,12 +113,12 @@
       </item>
       
       <item>
-        <title>查看Redis支持的所有命令</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%9F%A5%E7%9C%8Bredis%E6%94%AF%E6%8C%81%E7%9A%84%E6%89%80%E6%9C%89%E5%91%BD%E4%BB%A4/</link>
+        <title>探索save指令的一些特性</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%8E%A2%E7%B4%A2save%E6%8C%87%E4%BB%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E7%89%B9%E6%80%A7/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%9F%A5%E7%9C%8Bredis%E6%94%AF%E6%8C%81%E7%9A%84%E6%89%80%E6%9C%89%E5%91%BD%E4%BB%A4/</guid>
-        <description>挺不错的资源： https://redis.io/commands</description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%8E%A2%E7%B4%A2save%E6%8C%87%E4%BB%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E7%89%B9%E6%80%A7/</guid>
+        <description>对于save 60 10000指令，描述为：60秒内有10000次写入，则Redis会自动触发BGSAVE指令。 我好奇的是：假如600秒内，我写入</description>
       </item>
       
     
