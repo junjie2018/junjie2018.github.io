@@ -582,6 +582,24 @@
       </item>
       
       <item>
+        <title>ansible.cfg文件的应用及playbooks目录的结构</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/ansible.cfg%E6%96%87%E4%BB%B6%E7%9A%84%E5%BA%94%E7%94%A8%E5%8F%8Aplaybooks%E7%9B%AE%E5%BD%95%E7%9A%84%E7%BB%93%E6%9E%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/ansible.cfg%E6%96%87%E4%BB%B6%E7%9A%84%E5%BA%94%E7%94%A8%E5%8F%8Aplaybooks%E7%9B%AE%E5%BD%95%E7%9A%84%E7%BB%93%E6%9E%84/</guid>
+        <description>我决定采用《奔跑吧，Ansible》这本书中放置目录文件的结构，目前收集的结构如下： |-- Playbooks |----- hosts |----- ansible.cfg 我目前ansible.cfg的配置如下： 1 2</description>
+      </item>
+      
+      <item>
+        <title>Ansible关于nginx的实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/ansible%E5%85%B3%E4%BA%8Enginx%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/ansible%E5%85%B3%E4%BA%8Enginx%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
+        <description>安装nginx 指令如下： 1 2 3 4 5 6 7 8 9 ansible test -m yum -a name=nginx # 安装前更新一下软件包 ansible test -m yum -a name=nginx update_cache=yes # 重启nginx ansible test -m service -a name=nginx playbook中运行</description>
+      </item>
+      
+      <item>
         <title>application.yml中的一些语法细节</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/application.yml%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%AD%E6%B3%95%E7%BB%86%E8%8A%82/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -969,6 +987,15 @@
       </item>
       
       <item>
+        <title>command模块的简单使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/command%E6%A8%A1%E5%9D%97%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/command%E6%A8%A1%E5%9D%97%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+        <description>可以使用command指令随心所欲的执行命令，当使用这个模块时需要使用-a参数将需要执行的命令传入模块。command模块非常常用，所以an</description>
+      </item>
+      
+      <item>
         <title>ConfigurationProperties注解在方法上</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E6%B3%A8%E8%A7%A3%E5%9C%A8%E6%96%B9%E6%B3%95%E4%B8%8A/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -993,6 +1020,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/converter%E4%B8%8Eformatter/</guid>
         <description>Converter是通用元件，可以将一种类型转换成另一种类型，可以在应用程序中的任意层使用。 Formatter只能将String转换成另一种</description>
+      </item>
+      
+      <item>
+        <title>copy模块使用时需要注意的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/copy%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/copy%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>如下代码为《奔跑吧，Ansible》中得一段源码，结果在运行的时候提示目标地址不存在。 --- - name: Configure webserver with nginx hosts: webservers sudo: True tasks: - name: install nginx apt: name=nginx update_cache=yes - name: copy nginx config file copy: src=files/nginx.conf</description>
       </item>
       
       <item>
@@ -1911,6 +1947,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/ifupdown2%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/</guid>
         <description>问题描述 网络配置后，点击应用配置出现如下提示： you need ifupdown2 to reload network configuration(500) 解决方案 执行如下指令： apt-get install ifupdown2 参考教程 PVE修改网络配置报错需要ifupdown2</description>
+      </item>
+      
+      <item>
+        <title>inventory行为参数</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/inventory%E8%A1%8C%E4%B8%BA%E5%8F%82%E6%95%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/inventory%E8%A1%8C%E4%B8%BA%E5%8F%82%E6%95%B0/</guid>
+        <description>当需要覆盖某台主机的Ansible默认配置时，需要使用到行为参数 ansible_ssh_host ansible_ssh_port ansible_ssh_user ansible_ssh_pass ansible_connection smart Ansible使用何种连接模式连接到主机 ansible_ssh_private_key_file ansible_shell_type ansible_python_interpreter /user/bin/python 主机上的Pyth</description>
       </item>
       
       <item>
@@ -3831,6 +3876,15 @@
       </item>
       
       <item>
+        <title>一个列表中的元素属于另一个元素的SQL如何编写，及在MyBatis中如何处理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%85%83%E7%B4%A0%E5%B1%9E%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E7%9A%84sql%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8F%8A%E5%9C%A8mybatis%E4%B8%AD%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%85%83%E7%B4%A0%E5%B1%9E%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E7%9A%84sql%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8F%8A%E5%9C%A8mybatis%E4%B8%AD%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</guid>
+        <description>需求是这样的，一个字段它在创建的时候是允许多选的，然后再分页的时候，用户传递的条件它也是多选的，所以我们需要判断一个集合中得元素是否全部属于</description>
+      </item>
+      
+      <item>
         <title>一个蠢问题</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%B8%80%E4%B8%AA%E8%A0%A2%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3891,6 +3945,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%B8%8B%E8%BD%BDwin10%E9%95%9C%E5%83%8F/</guid>
         <description>这个方案并不直观，步骤如下： 进入官网下载页面 按F12，设置成手机模式，然后刷新页面 完成两个多选框后，会弹出选择32位还是64位的页面 我遇到的</description>
+      </item>
+      
+      <item>
+        <title>不再研究Ansible</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E4%B8%8D%E5%86%8D%E7%A0%94%E7%A9%B6ansible/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E4%B8%8D%E5%86%8D%E7%A0%94%E7%A9%B6ansible/</guid>
+        <description>我决定不再研究Ansible。 我之前决定学习Ansible，是因为我计划深度学习Redis、Kafka等软件，在学习这些软件之前，我需要一个</description>
       </item>
       
       <item>
@@ -4704,6 +4767,15 @@
       </item>
       
       <item>
+        <title>基于Anaconda安装Ansible（推荐）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%9F%BA%E4%BA%8Eanaconda%E5%AE%89%E8%A3%85ansible%E6%8E%A8%E8%8D%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%9F%BA%E4%BA%8Eanaconda%E5%AE%89%E8%A3%85ansible%E6%8E%A8%E8%8D%90/</guid>
+        <description>这是我推荐的方式，Anaconda是学习Python的好帮手。 创建环境并激活环境 conda create --name ansible python=2.7 conda activate ansible 安装ansible # 我在学习《奔跑吧Ansi</description>
+      </item>
+      
+      <item>
         <title>复杂场景下使用RingBuffer</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/%E5%A4%8D%E6%9D%82%E5%9C%BA%E6%99%AF%E4%B8%8B%E4%BD%BF%E7%94%A8ringbuffer/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4782,6 +4854,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/profile/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3maven-profile%E4%B8%8Espringboot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
         <description>我昨天一直在思考Maven Profile与SpringBoot配置文件的关系，想知道Maven Profile中的配置是如何传递给Spring</description>
+      </item>
+      
+      <item>
+        <title>学习Ansible发现的Nginx配置问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%AD%A6%E4%B9%A0ansible%E5%8F%91%E7%8E%B0%E7%9A%84nginx%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%AD%A6%E4%B9%A0ansible%E5%8F%91%E7%8E%B0%E7%9A%84nginx%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/</guid>
+        <description>《奔跑吧，Ansible》有个小小的问题，它在写下载软件的脚本中没有指定下载的软件的版本，所以我们阅读并执行这些脚本时，往往下载的是最新的版</description>
       </item>
       
       <item>
@@ -5223,6 +5304,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E6%9B%B4%E5%A4%9A%E7%9A%84%E4%BA%86%E8%A7%A3dispatcherservlet/</guid>
         <description>DipatcherServlet使用默认的Bean处理请求 Spring的DispatcherServlet使用了内置在WebApplicat</description>
+      </item>
+      
+      <item>
+        <title>构建机如何解决开发使用Release版本不适用SNAPSHOT版本的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E6%9E%84%E5%BB%BA%E6%9C%BA%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8release%E7%89%88%E6%9C%AC%E4%B8%8D%E9%80%82%E7%94%A8snapshot%E7%89%88%E6%9C%AC%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E6%9E%84%E5%BB%BA%E6%9C%BA%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8release%E7%89%88%E6%9C%AC%E4%B8%8D%E9%80%82%E7%94%A8snapshot%E7%89%88%E6%9C%AC%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>我们项目管理目前可以是非常的不规范，只做功能层面的管理，并不会关心代码质量、项目结构等片底层的东西。开发人员忙于实现功能，也并不会将精力放在</description>
       </item>
       
       <item>
