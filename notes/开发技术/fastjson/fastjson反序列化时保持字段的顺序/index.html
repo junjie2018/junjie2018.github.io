@@ -1119,7 +1119,7 @@
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
     "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/fastjson/fastjson%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E4%BF%9D%E6%8C%81%E5%AD%97%E6%AE%B5%E7%9A%84%E9%A1%BA%E5%BA%8F/",
-    "description": "代码如下: 1 2 3 4 5 6 JSONObject obj = JSONObject.parseObject(jsonStr, Feature.OrderedField); ~~ 整理这个笔记的时候发现了新的知识点。我之前一直再用`JSON.parsetObject()`方法，需要将返",
+    "description": "代码如下: 1 2 3 JSONObject obj = JSONObject.parseObject(jsonStr, Feature.OrderedField); 整理这个笔记的时候发现了新的知识点。我之前一直再用JSON.parsetObject()方法，需要将返回结果再强转",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -18555,20 +18555,15 @@
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-java" data-lang="java">
 <span class="n">JSONObject</span> <span class="n">obj</span> <span class="o">=</span> <span class="n">JSONObject</span><span class="o">.</span><span class="na">parseObject</span><span class="o">(</span><span class="n">jsonStr</span><span class="o">,</span> <span class="n">Feature</span><span class="o">.</span><span class="na">OrderedField</span><span class="o">);</span>
 
-<span class="o">~~</span>
-
-<span class="n">整理这个笔记的时候发现了新的知识点</span><span class="err">。</span><span class="n">我之前一直再用</span><span class="err">`</span><span class="n">JSON</span><span class="o">.</span><span class="na">parsetObject</span><span class="o">()</span><span class="err">`</span><span class="n">方法</span><span class="err">，</span><span class="n">需要将返回结果再强转为</span><span class="err">`</span><span class="n">JSONObject</span><span class="err">`</span><span class="n">类型</span><span class="err">，</span><span class="n">很繁琐</span><span class="err">。</span><span class="n">其实上可以使用</span><span class="err">`</span><span class="n">JSONObject</span><span class="o">.</span><span class="na">parseObject</span><span class="o">()</span><span class="err">`</span><span class="n">方法</span><span class="err">。</span>
 </code></pre></td></tr></table>
 </div>
-</div>
+</div><p>整理这个笔记的时候发现了新的知识点。我之前一直再用<code>JSON.parsetObject()</code>方法，需要将返回结果再强转为<code>JSONObject</code>类型，很繁琐。其实上可以使用<code>JSONObject.parseObject()</code>方法。</p>
+
   </article>
 </div>
       
