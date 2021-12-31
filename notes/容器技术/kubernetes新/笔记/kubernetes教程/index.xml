@@ -31,6 +31,51 @@
         <description>Master组件 Master组件是集群的控制平台： Master组件负责集群中得全局决策（例如调度） Master组件探测并响应集群事件（例如，</description>
       </item>
       
+      <item>
+        <title>02.查看节点的状态</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/02.%E6%9F%A5%E7%9C%8B%E8%8A%82%E7%82%B9%E7%9A%84%E7%8A%B6%E6%80%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/02.%E6%9F%A5%E7%9C%8B%E8%8A%82%E7%82%B9%E7%9A%84%E7%8A%B6%E6%80%81/</guid>
+        <description>指令如下： kubectl get nodes kubectl describe node NODE_NAME 输出如下（这儿只关注status字段中得addresses、capacity、allocatable、conditi</description>
+      </item>
+      
+      <item>
+        <title>03.节点相关的知识</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/03.%E8%8A%82%E7%82%B9%E7%9B%B8%E5%85%B3%E7%9A%84%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/03.%E8%8A%82%E7%82%B9%E7%9B%B8%E5%85%B3%E7%9A%84%E7%9F%A5%E8%AF%86/</guid>
+        <description>在K8S中创建节点时，仅仅是创建了一个描述该节点的API对象。节点API对象创建成功后，K8S将检查该节点是否有效。 1 2 3 4 5 6 7 8 kind:NodeapiVersion:v1metadata:name:&amp;#34;10.240.79.157&amp;#34;labels:name:&amp;#34;my-first-k8s-node&amp;#34; K8S</description>
+      </item>
+      
+      <item>
+        <title>04.K8S中的Names和UIDS</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/04.k8s%E4%B8%AD%E7%9A%84names%E5%92%8Cuids/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/04.k8s%E4%B8%AD%E7%9A%84names%E5%92%8Cuids/</guid>
+        <description>Names 可以通过namespace + name唯一性确定一个RESTFul对象，例如： /api/v1/namespaces/{namespace}/pods/{name} 同一个名称空间下，同一类型的对象，可以通过name唯一性确定</description>
+      </item>
+      
+      <item>
+        <title>05.名称空间与DNS</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/05.%E5%90%8D%E7%A7%B0%E7%A9%BA%E9%97%B4%E4%B8%8Edns/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/05.%E5%90%8D%E7%A7%B0%E7%A9%BA%E9%97%B4%E4%B8%8Edns/</guid>
+        <description>当创建一个Service时，Kubernetes为其创建一个对应的DNS条目。该DNS记录的格式为：&amp;lt;service-name&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>06.使用命名空间切分集群的实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/06.%E4%BD%BF%E7%94%A8%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%87%E5%88%86%E9%9B%86%E7%BE%A4%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/06.%E4%BD%BF%E7%94%A8%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%87%E5%88%86%E9%9B%86%E7%BE%A4%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
+        <description>需求描述 假设企业使用同一个集群作为开发环境和生产环境（注意：通常开发环境和生产环境是物理隔绝的）： 开发团队期望有一个集群中的命名空间，以便他</description>
+      </item>
+      
     
   </channel>
 </rss>

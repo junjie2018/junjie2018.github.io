@@ -194,6 +194,24 @@
       </item>
       
       <item>
+        <title>查看哪些Kubernetes对象在名称空间里，哪些不在</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9F%A5%E7%9C%8B%E5%93%AA%E4%BA%9Bkubernetes%E5%AF%B9%E8%B1%A1%E5%9C%A8%E5%90%8D%E7%A7%B0%E7%A9%BA%E9%97%B4%E9%87%8C%E5%93%AA%E4%BA%9B%E4%B8%8D%E5%9C%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9F%A5%E7%9C%8B%E5%93%AA%E4%BA%9Bkubernetes%E5%AF%B9%E8%B1%A1%E5%9C%A8%E5%90%8D%E7%A7%B0%E7%A9%BA%E9%97%B4%E9%87%8C%E5%93%AA%E4%BA%9B%E4%B8%8D%E5%9C%A8/</guid>
+        <description>这个指令用的比较少，记录纯粹是因为好玩： # 在名称空间里 kubectl api-resources --namespaced=true # 不在名称空间里 kubectl api-resources --namespaced=false</description>
+      </item>
+      
+      <item>
+        <title>理解kubectl config view指令的输出及相关的实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%90%86%E8%A7%A3kubectl-config-view%E6%8C%87%E4%BB%A4%E7%9A%84%E8%BE%93%E5%87%BA%E5%8F%8A%E7%9B%B8%E5%85%B3%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%90%86%E8%A7%A3kubectl-config-view%E6%8C%87%E4%BB%A4%E7%9A%84%E8%BE%93%E5%87%BA%E5%8F%8A%E7%9B%B8%E5%85%B3%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
+        <description>在进行Kubernetes相关的实验时，使用到了该指令，该指令输出如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 apiVersion:v1clusters:- cluster:certificate-authority-data:DATA+OMITTEDserver:https://192.168.23.60:6443name:kubernetescontexts:- context:cluster:kubernetesuser:kubernetes-adminname:kubernetes-admin@kubernetescurrent-context:kubernetes-admin@kuberneteskind:Configpreferences:{}users:- name:kubernetes-adminuser:client-certificate-data:REDACTEDclient-key-data:REDACTED cl</description>
+      </item>
+      
+      <item>
         <title>用于K8S集群的模板配置及对生成的虚拟机的调整</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%94%A8%E4%BA%8Ek8s%E9%9B%86%E7%BE%A4%E7%9A%84%E6%A8%A1%E6%9D%BF%E9%85%8D%E7%BD%AE%E5%8F%8A%E5%AF%B9%E7%94%9F%E6%88%90%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%B0%83%E6%95%B4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

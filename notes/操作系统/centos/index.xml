@@ -68,6 +68,15 @@
       </item>
       
       <item>
+        <title>Centos7简单配置samba</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</guid>
+        <description>我对这块算不上熟悉，只是因为需要高频率的在Linux系统和Windows系统之间交换文件，所以我想将Linux上的一个目录挂载到我本地。我尝</description>
+      </item>
+      
+      <item>
         <title>CentOS修改主机名称</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E4%BF%AE%E6%94%B9%E4%B8%BB%E6%9C%BA%E5%90%8D%E7%A7%B0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
