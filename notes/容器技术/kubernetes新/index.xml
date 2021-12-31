@@ -238,6 +238,15 @@
         <description>问题是这样的，我们的项目需要使用到GRpc的9090端口，所以申请运维帮我们暴露一下该端口，等我们自己测试该端口时，发现该端口无法正常使用（</description>
       </item>
       
+      <item>
+        <title>错误设置kubectl的上下文，导致kubectl工具无法正常使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E9%94%99%E8%AF%AF%E8%AE%BE%E7%BD%AEkubectl%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%BC%E8%87%B4kubectl%E5%B7%A5%E5%85%B7%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E9%94%99%E8%AF%AF%E8%AE%BE%E7%BD%AEkubectl%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%BC%E8%87%B4kubectl%E5%B7%A5%E5%85%B7%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8/</guid>
+        <description>我在进行kubectl的上下文相关的实验，在我将当前的上下文切换成我自己创建的上下文时，我执行kubectl get pdos时，会报如下错误： The connection</description>
+      </item>
+      
     
   </channel>
 </rss>

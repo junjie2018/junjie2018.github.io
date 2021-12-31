@@ -76,6 +76,42 @@
         <description>需求描述 假设企业使用同一个集群作为开发环境和生产环境（注意：通常开发环境和生产环境是物理隔绝的）： 开发团队期望有一个集群中的命名空间，以便他</description>
       </item>
       
+      <item>
+        <title>07.理解标签选择器</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/07.%E7%90%86%E8%A7%A3%E6%A0%87%E7%AD%BE%E9%80%89%E6%8B%A9%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/07.%E7%90%86%E8%A7%A3%E6%A0%87%E7%AD%BE%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
+        <description>Kubernetes支持两种形式的标签选择器，基于等式的和基于集合的。标签选择器可以包含多个条件，并使用逗号分隔，此时只有满足所有条件的Ku</description>
+      </item>
+      
+      <item>
+        <title>08.理解字段选择器</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/08.%E7%90%86%E8%A7%A3%E5%AD%97%E6%AE%B5%E9%80%89%E6%8B%A9%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/08.%E7%90%86%E8%A7%A3%E5%AD%97%E6%AE%B5%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
+        <description>语法如下： kubectl get pods --field-selector status.phase==Running 字段选择器本质上是一个filter，默认情况下，没有添加selector/filter时，代表着指定资源类型的所有对象被</description>
+      </item>
+      
+      <item>
+        <title>09.容器拉取镜像规则</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/09.%E5%AE%B9%E5%99%A8%E6%8B%89%E5%8F%96%E9%95%9C%E5%83%8F%E8%A7%84%E5%88%99/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/09.%E5%AE%B9%E5%99%A8%E6%8B%89%E5%8F%96%E9%95%9C%E5%83%8F%E8%A7%84%E5%88%99/</guid>
+        <description>imagePullPolicy和image tag可能的取值可能会影响到kubelet如何拉取镜像： IfNotPresent：仅在节点上没有该</description>
+      </item>
+      
+      <item>
+        <title>10.postStart和preStop</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/10.poststart%E5%92%8Cprestop/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/10.poststart%E5%92%8Cprestop/</guid>
+        <description>使用postStart和preStop的案例代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 apiVersion:v1kind:Podmetadata:name:lifecycle-demospec:containers:- name:lifecycle-demo-containerimage:nginxlifecycle:postStart:exec:command:[&amp;#34;/bin/sh&amp;#34;,&amp;#34;-c&amp;#34;,&amp;#34;echo Hello from the postStart handler &amp;gt; /usr/share/message&amp;#34;]preStop:exec:command:[&amp;#34;/bin/sh&amp;#34;,&amp;#34;-c&amp;#34;,&amp;#34;nginx -s quit; while killall -0 nginx; do sleep 1; done&amp;#34;] 相关实验代码如</description>
+      </item>
+      
     
   </channel>
 </rss>

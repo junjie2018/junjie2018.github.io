@@ -465,6 +465,42 @@
       </item>
       
       <item>
+        <title>07.理解标签选择器</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/07.%E7%90%86%E8%A7%A3%E6%A0%87%E7%AD%BE%E9%80%89%E6%8B%A9%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/07.%E7%90%86%E8%A7%A3%E6%A0%87%E7%AD%BE%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
+        <description>Kubernetes支持两种形式的标签选择器，基于等式的和基于集合的。标签选择器可以包含多个条件，并使用逗号分隔，此时只有满足所有条件的Ku</description>
+      </item>
+      
+      <item>
+        <title>08.理解字段选择器</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/08.%E7%90%86%E8%A7%A3%E5%AD%97%E6%AE%B5%E9%80%89%E6%8B%A9%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/08.%E7%90%86%E8%A7%A3%E5%AD%97%E6%AE%B5%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
+        <description>语法如下： kubectl get pods --field-selector status.phase==Running 字段选择器本质上是一个filter，默认情况下，没有添加selector/filter时，代表着指定资源类型的所有对象被</description>
+      </item>
+      
+      <item>
+        <title>09.容器拉取镜像规则</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/09.%E5%AE%B9%E5%99%A8%E6%8B%89%E5%8F%96%E9%95%9C%E5%83%8F%E8%A7%84%E5%88%99/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/09.%E5%AE%B9%E5%99%A8%E6%8B%89%E5%8F%96%E9%95%9C%E5%83%8F%E8%A7%84%E5%88%99/</guid>
+        <description>imagePullPolicy和image tag可能的取值可能会影响到kubelet如何拉取镜像： IfNotPresent：仅在节点上没有该</description>
+      </item>
+      
+      <item>
+        <title>10.postStart和preStop</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/10.poststart%E5%92%8Cprestop/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/10.poststart%E5%92%8Cprestop/</guid>
+        <description>使用postStart和preStop的案例代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 apiVersion:v1kind:Podmetadata:name:lifecycle-demospec:containers:- name:lifecycle-demo-containerimage:nginxlifecycle:postStart:exec:command:[&amp;#34;/bin/sh&amp;#34;,&amp;#34;-c&amp;#34;,&amp;#34;echo Hello from the postStart handler &amp;gt; /usr/share/message&amp;#34;]preStop:exec:command:[&amp;#34;/bin/sh&amp;#34;,&amp;#34;-c&amp;#34;,&amp;#34;nginx -s quit; while killall -0 nginx; do sleep 1; done&amp;#34;] 相关实验代码如</description>
+      </item>
+      
+      <item>
         <title>@AutoConfigurationPackage注解的意义</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/autoconfigurationpackage%E6%B3%A8%E8%A7%A3%E7%9A%84%E6%84%8F%E4%B9%89/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5676,6 +5712,15 @@
       </item>
       
       <item>
+        <title>理解Kubernetes中得User Account、Service Account</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/</guid>
+        <description>本实验没有达到目标，稍后再整理 为Kubernetes集群添加用户 User Account应该是被创造出来的概念，我不确定Kubernetes中是否有</description>
+      </item>
+      
+      <item>
         <title>理解Netty中的事件与ChannelHandler</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%90%86%E8%A7%A3netty%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%B8%8Echannelhandler/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6222,6 +6267,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%94%99%E5%B0%86jsonobject%E5%86%99%E6%88%90jsonobject%E4%BA%86/</guid>
         <description>是这样的，我参考之前的写法，在Request对象中用JSONObject去接受了前端请求传递了一个对象（我并不关心这个对象的结构）。结果接口</description>
+      </item>
+      
+      <item>
+        <title>错误设置kubectl的上下文，导致kubectl工具无法正常使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E9%94%99%E8%AF%AF%E8%AE%BE%E7%BD%AEkubectl%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%BC%E8%87%B4kubectl%E5%B7%A5%E5%85%B7%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E9%94%99%E8%AF%AF%E8%AE%BE%E7%BD%AEkubectl%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%BC%E8%87%B4kubectl%E5%B7%A5%E5%85%B7%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8/</guid>
+        <description>我在进行kubectl的上下文相关的实验，在我将当前的上下文切换成我自己创建的上下文时，我执行kubectl get pdos时，会报如下错误： The connection</description>
       </item>
       
       <item>
