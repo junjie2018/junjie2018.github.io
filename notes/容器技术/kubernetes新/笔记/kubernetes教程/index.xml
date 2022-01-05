@@ -112,6 +112,33 @@
         <description>使用postStart和preStop的案例代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 apiVersion:v1kind:Podmetadata:name:lifecycle-demospec:containers:- name:lifecycle-demo-containerimage:nginxlifecycle:postStart:exec:command:[&amp;#34;/bin/sh&amp;#34;,&amp;#34;-c&amp;#34;,&amp;#34;echo Hello from the postStart handler &amp;gt; /usr/share/message&amp;#34;]preStop:exec:command:[&amp;#34;/bin/sh&amp;#34;,&amp;#34;-c&amp;#34;,&amp;#34;nginx -s quit; while killall -0 nginx; do sleep 1; done&amp;#34;] 相关实验代码如</description>
       </item>
       
+      <item>
+        <title>11.Pod提供的两种类型的共享资源</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/11.pod%E6%8F%90%E4%BE%9B%E7%9A%84%E4%B8%A4%E7%A7%8D%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%85%B1%E4%BA%AB%E8%B5%84%E6%BA%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/11.pod%E6%8F%90%E4%BE%9B%E7%9A%84%E4%B8%A4%E7%A7%8D%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%85%B1%E4%BA%AB%E8%B5%84%E6%BA%90/</guid>
+        <description>Pod为其成员容器提供了两种类型的共享资料：网络和存储。 网络 每一个Pod被分配一个独立的IP地址。Pod中的所有容器共享一个网络名称空间： 同</description>
+      </item>
+      
+      <item>
+        <title>12.Pod及容器的状态</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/12.pod%E5%8F%8A%E5%AE%B9%E5%99%A8%E7%9A%84%E7%8A%B6%E6%80%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/12.pod%E5%8F%8A%E5%AE%B9%E5%99%A8%E7%9A%84%E7%8A%B6%E6%80%81/</guid>
+        <description>Pod的状态 Pod的状态如下： Pending：Kubernetes已经创建并确认该Pod。此时可能有两种情况： Pod还未完成调度（例如没有合</description>
+      </item>
+      
+      <item>
+        <title>13.容器的检查</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/13.%E5%AE%B9%E5%99%A8%E7%9A%84%E6%A3%80%E6%9F%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/13.%E5%AE%B9%E5%99%A8%E7%9A%84%E6%A3%80%E6%9F%A5/</guid>
+        <description>探针是指Kubelet周期性地检查容器的状况，有三种类型的探针： ExecAction：在容器内执行一个指定的命令。如果该命令的退出状态码为0</description>
+      </item>
+      
     
   </channel>
 </rss>

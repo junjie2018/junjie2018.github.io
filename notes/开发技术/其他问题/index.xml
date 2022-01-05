@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>其他问题 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/</link>
+    <description>Recent content in 其他问题 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>OSS同时上传5张相同图片，上传被中断的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/oss%E5%90%8C%E6%97%B6%E4%B8%8A%E4%BC%A05%E5%BC%A0%E7%9B%B8%E5%90%8C%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0%E8%A2%AB%E4%B8%AD%E6%96%AD%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/oss%E5%90%8C%E6%97%B6%E4%B8%8A%E4%BC%A05%E5%BC%A0%E7%9B%B8%E5%90%8C%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0%E8%A2%AB%E4%B8%AD%E6%96%AD%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>产品有一个上传多张图片的需求，前端同事开了多个任务进行处理，结果发现一个可以百分百复现的问题：5张相同的大图片，往往上传成功一两张后就报错了</description>
+      </item>
+      
+    
+  </channel>
+</rss>

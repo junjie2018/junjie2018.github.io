@@ -77,6 +77,15 @@
       </item>
       
       <item>
+        <title>一个关于InitContainer的小实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%B8%80%E4%B8%AA%E5%85%B3%E4%BA%8Einitcontainer%E7%9A%84%E5%B0%8F%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%B8%80%E4%B8%AA%E5%85%B3%E4%BA%8Einitcontainer%E7%9A%84%E5%B0%8F%E5%AE%9E%E9%AA%8C/</guid>
+        <description>Pod的配置文件如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 apiVersion:v1kind:Podmetadata:name:init-demolabels:name:init-demospec:containers:- name:nginximage:nginxresources:limits:memory:&amp;#34;128Mi&amp;#34;cpu:&amp;#34;500m&amp;#34;ports:- containerPort:80volumeMounts:- name:workdirmountPath:/usr/share/nginx/htmlinitContainers:- name:installimage:busyboxcommand:- wget- &amp;#34;-O&amp;#34;- &amp;#34;/work-dir/index.html&amp;#34;- https://kuboard.cnvolumeMounts:- name:workdirmountPath:&amp;#34;/work-dir&amp;#34;dnsPolicy:Defaultvolumes:- name:workdiremptyDir:{} 该段配置中，Pod中初始</description>
+      </item>
+      
+      <item>
         <title>一个蠢问题</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%B8%80%E4%B8%AA%E8%A0%A2%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -167,6 +176,15 @@
       </item>
       
       <item>
+        <title>排查初始化容器的错误</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%8E%92%E6%9F%A5%E5%88%9D%E5%A7%8B%E5%8C%96%E5%AE%B9%E5%99%A8%E7%9A%84%E9%94%99%E8%AF%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%8E%92%E6%9F%A5%E5%88%9D%E5%A7%8B%E5%8C%96%E5%AE%B9%E5%99%A8%E7%9A%84%E9%94%99%E8%AF%AF/</guid>
+        <description>先使用kubectl describe pod &amp;lt;pod-name&amp;gt;查看初始化容器的详情，主要查看initContainerStatuses字段。也可以</description>
+      </item>
+      
+      <item>
         <title>暴力修改一个节点的hostname</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9A%B4%E5%8A%9B%E4%BF%AE%E6%94%B9%E4%B8%80%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84hostname/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -200,6 +218,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9F%A5%E7%9C%8B%E5%93%AA%E4%BA%9Bkubernetes%E5%AF%B9%E8%B1%A1%E5%9C%A8%E5%90%8D%E7%A7%B0%E7%A9%BA%E9%97%B4%E9%87%8C%E5%93%AA%E4%BA%9B%E4%B8%8D%E5%9C%A8/</guid>
         <description>这个指令用的比较少，记录纯粹是因为好玩： # 在名称空间里 kubectl api-resources --namespaced=true # 不在名称空间里 kubectl api-resources --namespaced=false</description>
+      </item>
+      
+      <item>
+        <title>查看容器的metadata.ownerReferences</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9F%A5%E7%9C%8B%E5%AE%B9%E5%99%A8%E7%9A%84metadata.ownerreferences/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9F%A5%E7%9C%8B%E5%AE%B9%E5%99%A8%E7%9A%84metadata.ownerreferences/</guid>
+        <description>由控制器生成的Pod都有一个metadata.ownerReferences ，该字段用于标识该Pod从属于哪一个ReplicaSet。 用如下</description>
       </item>
       
       <item>
