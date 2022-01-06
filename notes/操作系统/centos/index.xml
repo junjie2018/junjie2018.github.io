@@ -185,6 +185,15 @@
       </item>
       
       <item>
+        <title>CentOS部署NFS</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E9%83%A8%E7%BD%B2nfs/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E9%83%A8%E7%BD%B2nfs/</guid>
+        <description>该技术是学习Kubernetes的存储卷时要用到的。 服务端配置 安装NFS服务器所需的软件包 1 2 3 yum install -y rpcbind nfs-utils 编辑/etx/exports文件 /root/NFSDirectory</description>
+      </item>
+      
+      <item>
         <title>为Yum指定Python2</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E4%B8%BAyum%E6%8C%87%E5%AE%9Apython2/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

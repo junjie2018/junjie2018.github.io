@@ -50,12 +50,12 @@
       </item>
       
       <item>
-        <title>Kubernetes使用NFS持久卷</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E4%BD%BF%E7%94%A8nfs%E6%8C%81%E4%B9%85%E5%8D%B7/</link>
+        <title>Kubernetes使用NFS持久卷（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E4%BD%BF%E7%94%A8nfs%E6%8C%81%E4%B9%85%E5%8D%B7%E5%BA%9F%E5%BC%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E4%BD%BF%E7%94%A8nfs%E6%8C%81%E4%B9%85%E5%8D%B7/</guid>
-        <description>操作步骤 搭建NFS服务器，想考相关教程 配置Kubernetes使用NFS持久卷，指令如下： 1 2 3 4 5 6 7 8 9 10 git clone https://gitee.com/junjie2019/kubernetes.git cd kubernetes/PersistentVolume2 kubectl apply -f rabc.yml kubectl apply -f deployment.yml kubectl apply</description>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E4%BD%BF%E7%94%A8nfs%E6%8C%81%E4%B9%85%E5%8D%B7%E5%BA%9F%E5%BC%83/</guid>
+        <description>这边笔记已经被废弃了，废弃的原因是我把https://gitee.com/junjie2019/kubernetes.git仓库设置成了私有</description>
       </item>
       
       <item>
@@ -104,11 +104,11 @@
       </item>
       
       <item>
-        <title>Ubuntu 18.04搭建Kubernetes（已作废）</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/ubuntu-18.04%E6%90%AD%E5%BB%BAkubernetes%E5%B7%B2%E4%BD%9C%E5%BA%9F/</link>
+        <title>Ubuntu 18.04搭建Kubernetes（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/ubuntu-18.04%E6%90%AD%E5%BB%BAkubernetes%E5%BA%9F%E5%BC%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/ubuntu-18.04%E6%90%AD%E5%BB%BAkubernetes%E5%B7%B2%E4%BD%9C%E5%BA%9F/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/ubuntu-18.04%E6%90%AD%E5%BB%BAkubernetes%E5%BA%9F%E5%BC%83/</guid>
         <description>操作步骤 准备基础环境： 克隆我的个人项目，启动三台虚拟机 1 2 3 4 5 git clone https://github.com/junjie2018/vagrant.git cd vagrant/cluster/ssh_kubernetes/kubernetes vagrant up 关闭工具机的防火墙，使开发机能直接访问虚拟机： 1 2 3 sudo ufw disable 开发</description>
       </item>
       
