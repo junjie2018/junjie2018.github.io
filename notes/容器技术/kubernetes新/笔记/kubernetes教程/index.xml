@@ -175,6 +175,15 @@
         <description>可以通过下图理解容器组、容器、挂载点、数据卷、存储介质（NFS、PVC、ConfigMap）等几个概念之间的关系： 一个容器组可以包含多个数据</description>
       </item>
       
+      <item>
+        <title>17.User Account和Service Account</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/17.user-account%E5%92%8Cservice-account/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/17.user-account%E5%92%8Cservice-account/</guid>
+        <description>Kubernetes明确的区分了UserAccount（我没有看到一个叫做UserAccount的资源）和ServiceAccount的概念</description>
+      </item>
+      
     
   </channel>
 </rss>

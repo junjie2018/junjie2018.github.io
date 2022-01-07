@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>理解Kubernetes中得User Account、Service Account – 小桀的笔记本</title>
+    <title>VS Code上K8S插件应用笔记 – 小桀的笔记本</title>
     
 
 
@@ -27,7 +27,7 @@
     
     var baseurl = JSON.parse("\"http://junjie2018.github.io\"");
     
-    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/\"");
+    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1084,14 +1084,14 @@
 
 
 <meta property="og:site_name" content="小桀的笔记本">
-<meta property="og:title" content="理解Kubernetes中得User Account、Service Account">
-<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/">
+<meta property="og:title" content="VS Code上K8S插件应用笔记">
+<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/">
 <meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.85.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/">
+<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1115,11 +1115,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "理解Kubernetes中得User Account、Service Account",
+    "headline": "VS Code上K8S插件应用笔记",
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
-    "url" : "http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/",
-    "description": "本实验没有达到目标，稍后再整理 为Kubernetes集群添加用户 User Account应该是被创造出来的概念，我不确定Kubernetes中是否有",
+    "url" : "http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/",
+    "description": "切换命名空间",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -1168,7 +1168,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      理解Kubernetes中得User Account、Service Account
+      VS Code上K8S插件应用笔记
     
   </h6>
   <ul>
@@ -1198,7 +1198,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -1225,7 +1225,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -1369,7 +1369,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -1409,7 +1409,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -1465,7 +1465,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -1519,7 +1519,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="1">Kubernetes解决NFS挂载报错的问题</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98ubuntu%E7%89%88/" class="menu__title " data-depth="1">Kubernetes解决NFS挂载报错的问题（Ubuntu版）</a>
         </li>
       
     
@@ -1609,7 +1609,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -1636,7 +1636,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -1724,7 +1724,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -1751,7 +1751,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -1897,6 +1897,14 @@
         </li>
       
     
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/17.user-account%E5%92%8Cservice-account/" class="menu__title " data-depth="3">17.User Account和Service Account</a>
+        </li>
+      
+    
   </ul>
   
 
@@ -1917,23 +1925,31 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="3" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/">
+  <li class="menu__title--collapse " data-depth="3" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/">
     <span class="menu__title--collapse-text">
       《博文》
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/" class="menu__title active" data-depth="3">理解Kubernetes中得User Account、Service Account</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/01.%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/" class="menu__title " data-depth="3">01.理解Kubernetes中得User Account、Service Account</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/02.serviceaccount/" class="menu__title " data-depth="3">02.ServiceAccount</a>
         </li>
       
     
@@ -1991,6 +2007,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98centos%E7%89%88/" class="menu__title " data-depth="1">Kubernetes解决NFS挂载报错的问题（CentOS版）</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/" class="menu__title " data-depth="1">Kubernetes配置StorageClass（NFS）</a>
         </li>
       
@@ -2000,6 +2024,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4%E5%BA%9F%E5%BC%83/" class="menu__title " data-depth="1">Rancher的安装与导入K8S集群（废弃）</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/" class="menu__title active" data-depth="1">VS Code上K8S插件应用笔记</a>
         </li>
       
     
@@ -2039,7 +2071,23 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Eautomountserviceaccounttoken%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E9%AA%8C/" class="menu__title " data-depth="1">关于automountServiceAccountToken配置的实验</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Escoat%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="1">关于scoat的问题</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Eserviceaccount%E7%9A%84api-tokenimagepullsecret%E7%9A%84%E5%AE%9E%E9%AA%8C/" class="menu__title " data-depth="1">关于ServiceAccount的API Token、ImagePullSecret的实验</a>
         </li>
       
     
@@ -2212,7 +2260,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -2239,7 +2287,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -2351,7 +2399,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -2399,7 +2447,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -2487,7 +2535,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -2567,7 +2615,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -2615,7 +2663,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -2823,7 +2871,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -2927,7 +2975,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -3015,7 +3063,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -3087,7 +3135,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -3183,7 +3231,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -3511,7 +3559,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -3559,7 +3607,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -3607,7 +3655,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -3634,7 +3682,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -3871,7 +3919,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -3919,7 +3967,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -3959,7 +4007,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4031,7 +4079,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4071,7 +4119,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4127,7 +4175,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4247,7 +4295,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4383,7 +4431,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4423,7 +4471,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4463,7 +4511,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4535,7 +4583,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4591,7 +4639,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4618,7 +4666,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4666,7 +4714,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4706,7 +4754,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4802,7 +4850,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4829,7 +4877,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4877,7 +4925,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -4949,7 +4997,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -5029,7 +5077,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -5101,7 +5149,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -5149,7 +5197,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -5389,7 +5437,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -5477,7 +5525,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -5517,7 +5565,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -5581,7 +5629,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -5608,7 +5656,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -5925,7 +5973,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -5952,7 +6000,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -6112,7 +6160,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -6160,7 +6208,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -6240,7 +6288,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -6267,7 +6315,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -6413,7 +6461,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -6501,7 +6549,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -6528,7 +6576,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -6568,7 +6616,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -6616,7 +6664,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -6643,7 +6691,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -6997,7 +7045,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7037,7 +7085,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7064,7 +7112,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7091,7 +7139,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7139,7 +7187,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7179,7 +7227,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7256,7 +7304,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7283,7 +7331,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7427,7 +7475,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7557,7 +7605,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7621,7 +7669,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7669,7 +7717,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7717,7 +7765,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7744,7 +7792,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7808,7 +7856,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -7936,7 +7984,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -8096,7 +8144,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -8216,7 +8264,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -8541,7 +8589,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -8584,7 +8632,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -8611,7 +8659,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -8651,7 +8699,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -8883,7 +8931,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -8955,7 +9003,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -8982,7 +9030,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -9022,7 +9070,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -9070,7 +9118,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -9118,7 +9166,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -9198,7 +9246,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -9403,7 +9451,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -9451,7 +9499,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -9478,7 +9526,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -9667,7 +9715,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -9779,7 +9827,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -10067,7 +10115,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -10341,7 +10389,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">理解Kubernetes中得User Account、Service Account</h2>
+        <h2 class="title">VS Code上K8S插件应用笔记</h2>
       </div>
     </div>
   </div>
@@ -10354,10 +10402,6 @@
   
   <ol>
     
-  
-  
-  
-  
   
   
   
@@ -10395,23 +10439,9 @@
   </li>
   
   
-  <li >
-    
-      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/" class="capitalize">笔记</a>
-    
-  </li>
-  
-  
-  <li >
-    
-      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/" class="capitalize">《博文》</a>
-    
-  </li>
-  
-  
   <li  class="is-active" >
     
-      <span>理解Kubernetes中得User Account、Service Account</span>
+      <span>VS Code上K8S插件应用笔记</span>
     
   </li>
   
@@ -10453,7 +10483,7 @@
         <div class="menu">
   <h6 class="menu__label">
     
-      理解Kubernetes中得User Account、Service Account
+      VS Code上K8S插件应用笔记
     
   </h6>
   <ul>
@@ -10483,7 +10513,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -10510,7 +10540,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -10654,7 +10684,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -10694,7 +10724,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -10750,7 +10780,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -10804,7 +10834,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="1">Kubernetes解决NFS挂载报错的问题</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98ubuntu%E7%89%88/" class="menu__title " data-depth="1">Kubernetes解决NFS挂载报错的问题（Ubuntu版）</a>
         </li>
       
     
@@ -10894,7 +10924,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -10921,7 +10951,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -11009,7 +11039,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -11036,7 +11066,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -11182,6 +11212,14 @@
         </li>
       
     
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/17.user-account%E5%92%8Cservice-account/" class="menu__title " data-depth="3">17.User Account和Service Account</a>
+        </li>
+      
+    
   </ul>
   
 
@@ -11202,23 +11240,31 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="3" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/">
+  <li class="menu__title--collapse " data-depth="3" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/">
     <span class="menu__title--collapse-text">
       《博文》
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/" class="menu__title active" data-depth="3">理解Kubernetes中得User Account、Service Account</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/01.%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/" class="menu__title " data-depth="3">01.理解Kubernetes中得User Account、Service Account</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/02.serviceaccount/" class="menu__title " data-depth="3">02.ServiceAccount</a>
         </li>
       
     
@@ -11276,6 +11322,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98centos%E7%89%88/" class="menu__title " data-depth="1">Kubernetes解决NFS挂载报错的问题（CentOS版）</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/" class="menu__title " data-depth="1">Kubernetes配置StorageClass（NFS）</a>
         </li>
       
@@ -11285,6 +11339,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4%E5%BA%9F%E5%BC%83/" class="menu__title " data-depth="1">Rancher的安装与导入K8S集群（废弃）</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/" class="menu__title active" data-depth="1">VS Code上K8S插件应用笔记</a>
         </li>
       
     
@@ -11324,7 +11386,23 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Eautomountserviceaccounttoken%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E9%AA%8C/" class="menu__title " data-depth="1">关于automountServiceAccountToken配置的实验</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Escoat%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="1">关于scoat的问题</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Eserviceaccount%E7%9A%84api-tokenimagepullsecret%E7%9A%84%E5%AE%9E%E9%AA%8C/" class="menu__title " data-depth="1">关于ServiceAccount的API Token、ImagePullSecret的实验</a>
         </li>
       
     
@@ -11497,7 +11575,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -11524,7 +11602,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -11636,7 +11714,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -11684,7 +11762,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -11772,7 +11850,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -11852,7 +11930,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -11900,7 +11978,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -12108,7 +12186,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -12212,7 +12290,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -12300,7 +12378,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -12372,7 +12450,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -12468,7 +12546,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -12796,7 +12874,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -12844,7 +12922,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -12892,7 +12970,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -12919,7 +12997,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13156,7 +13234,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13204,7 +13282,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13244,7 +13322,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13316,7 +13394,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13356,7 +13434,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13412,7 +13490,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13532,7 +13610,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13668,7 +13746,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13708,7 +13786,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13748,7 +13826,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13820,7 +13898,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13876,7 +13954,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13903,7 +13981,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13951,7 +14029,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -13991,7 +14069,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14087,7 +14165,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14114,7 +14192,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14162,7 +14240,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14234,7 +14312,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14314,7 +14392,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14386,7 +14464,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14434,7 +14512,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14674,7 +14752,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14762,7 +14840,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14802,7 +14880,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14866,7 +14944,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -14893,7 +14971,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15210,7 +15288,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15237,7 +15315,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15397,7 +15475,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15445,7 +15523,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15525,7 +15603,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15552,7 +15630,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15698,7 +15776,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15786,7 +15864,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15813,7 +15891,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15853,7 +15931,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15901,7 +15979,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -15928,7 +16006,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16282,7 +16360,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16322,7 +16400,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16349,7 +16427,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16376,7 +16454,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16424,7 +16502,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16464,7 +16542,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16541,7 +16619,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16568,7 +16646,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16712,7 +16790,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16842,7 +16920,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16906,7 +16984,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -16954,7 +17032,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -17002,7 +17080,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -17029,7 +17107,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -17093,7 +17171,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -17221,7 +17299,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -17381,7 +17459,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -17501,7 +17579,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -17826,7 +17904,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -17869,7 +17947,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -17896,7 +17974,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -17936,7 +18014,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -18168,7 +18246,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -18240,7 +18318,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -18267,7 +18345,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -18307,7 +18385,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -18355,7 +18433,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -18403,7 +18481,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -18483,7 +18561,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -18688,7 +18766,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -18736,7 +18814,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -18763,7 +18841,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -18952,7 +19030,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -19064,7 +19142,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -19352,7 +19430,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/>
     
       
         
@@ -19399,127 +19477,39 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <p><strong>本实验没有达到目标，稍后再整理</strong></p>
-<p><a href="https://zhuanlan.zhihu.com/p/43237959" target="_blank">为Kubernetes集群添加用户</a></p>
-<p>User Account应该是被创造出来的概念，我不确定Kubernetes中是否有这个概念。</p>
-<p>Kubernetes不管理用户，但是在接受API请求时，是可以认知到发出请求的用户的。实际上，所有对Kubernetes的API请求都需要绑定身份信息（UserAccount或者ServiceAccount），这就意味着，可以为User配置Kubernetes集群中的请求权限。</p>
-<p>Kubernetes不会管理User，所以User的创建、编辑、注销等都需要依赖外部的管理机制，Kubernetes所能认知的只有一个用户名。</p>
-<p>尽管Kubernetes认知用户靠的只有用户的名字，但是只需要一个名字就能请求Kubernetes的API显然是不合理的，所以依然需要验证此用户的身份。Kubernetes中有如下验证方式：</p>
-<ul>
-<li>
-<p>X509客户端证书</p>
-<p>客户端证书验证通过为API Server指定&ndash;client-ca-file=xxx选项启动，API Servier通过此ca文件来验证API请求中携带的客户端证书的有效性，一旦验证成功，API Server就会将客户端证书Subject里的CN属性作为此次请求的用户名。</p>
-</li>
-<li>
-<p>静态Token文件（暂不研究）</p>
-</li>
-<li>
-<p>静态密码文件（暂不研究）</p>
-</li>
-</ul>
-<h2 id="为用户生成证书">为用户生成证书</h2>
-<p>假设我们操作的用户名为Tom</p>
-<ol>
-<li>为用户创建一个私钥</li>
+    <ol>
+<li>切换命名空间</li>
 </ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">
-openssl genrsa -out tom.key <span class="m">2048</span>
-
-</code></pre></td></tr></table>
-</div>
-</div><ol start="2">
-<li>为此私钥创建一个csr（证书签名请求）文件，需要在subject里带上用户信息（CN为用户名，O为用户组）</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">
-openssl req -new -key tom.key -out tom.csr -subj <span class="s2">&#34;/CN=tom/O=MGM&#34;</span>
-
-</code></pre></td></tr></table>
-</div>
-</div><ol start="3">
-<li>找到Kubernetes集群（API Server）的CA证书文件（/etc/kubernetes/pki/ca.crt），通过集群的CA证书和之前创建的csr文件来为用户颁发证书：</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">
-openssl x509 -req <span class="se">\
-</span><span class="se"></span>    -in tom.csr <span class="se">\
-</span><span class="se"></span>    -CA /etc/kubernetes/pki/ca.crt <span class="se">\
-</span><span class="se"></span>    -CAkey /etc/kubernetes/pki/ca.key <span class="se">\
-</span><span class="se"></span>    -CAcreateserial <span class="se">\
-</span><span class="se"></span>    -out tom.crt <span class="se">\
-</span><span class="se"></span>    -days <span class="m">365</span>
-
-</code></pre></td></tr></table>
-</div>
-</div><p><code>/etc/kubernetes/pki</code>下会有两个文件，一个是CA证书（ca.crt），一个是CA私钥（ca.key）。</p>
-<h2 id="为用户添加基于角色的访问控制">为用户添加基于角色的访问控制</h2>
-<p>这儿我采用使用Kubernetes集群中内置的admin的ClusterRole的方式：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="w">
-</span><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">RoleBinding</span><span class="w">
-</span><span class="w"></span><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">rbac.authorization.k8s.io/v1beta1</span><span class="w">
-</span><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">tom-admin-binding</span><span class="w">
-</span><span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l">default</span><span class="w">
-</span><span class="w"></span><span class="nt">subjects</span><span class="p">:</span><span class="w">
-</span><span class="w"></span>- <span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">User</span><span class="w">
-</span><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">tom</span><span class="w">
-</span><span class="w">  </span><span class="nt">apiGroup</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;&#34;</span><span class="w">
-</span><span class="w"></span><span class="nt">roleRef</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">ClusterRole</span><span class="w">
-</span><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">admin</span><span class="w">
-</span><span class="w">  </span><span class="nt">apiGroup</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;&#34;</span><span class="w">
-</span><span class="w">
-</span></code></pre></td></tr></table>
-</div>
-</div><h2 id="为kubectl配置用户">为kubectl配置用户</h2>
+<p><p class="md__image">
+  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2022-01-06-11-32-05.png" alt="2022-01-06-11-32-05"  />
+</p></p>
 
   </article>
 </div>
       
+<div class="grow"></div>
+<nav class="pagination-single">
+  
+    
+      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4%E5%BA%9F%E5%BC%83/" title="Rancher的安装与导入K8S集群（废弃）" class="pagination-single__left">
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
+        </div>
+        <div class="pagination-single__right-title">Rancher的安装与导入K8S集群（废弃）</div>
+      </a>
+    
+    <div class="grow"></div>
+    
+      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%B8%80%E4%B8%AA%E5%85%B3%E4%BA%8Einitcontainer%E7%9A%84%E5%B0%8F%E5%AE%9E%E9%AA%8C/" title="一个关于InitContainer的小实验" class="pagination-single__right">
+        <div class="pagination-single__left-title">一个关于InitContainer的小实验</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
+    
+  
+</nav>
+
 
       
     </article>
@@ -19529,13 +19519,7 @@ openssl x509 -req <span class="se">\
         <div class="toc">
   <h6 class="toc__label"></h6>
   <div class="toc__body">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#为用户生成证书">为用户生成证书</a></li>
-    <li><a href="#为用户添加基于角色的访问控制">为用户添加基于角色的访问控制</a></li>
-    <li><a href="#为kubectl配置用户">为kubectl配置用户</a></li>
-  </ul>
-</nav>
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
       

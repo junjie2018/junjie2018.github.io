@@ -240,6 +240,15 @@
       </item>
       
       <item>
+        <title>01.理解Kubernetes中得User Account、Service Account</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/01.%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/01.%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/</guid>
+        <description>为Kubernetes集群添加用户 本实验没有达到目标，稍后再整理 User Account应该是被创造出来的概念，我不确定Kubernetes中是否有</description>
+      </item>
+      
+      <item>
         <title>01.配置MyBatis-Plus测试环境</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/01.%E9%85%8D%E7%BD%AEmybatis-plus%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -363,6 +372,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</guid>
         <description># List操作 LLEN key LSET key index element LREM key count element LTRIM key start stop LINDEX key index LINSERT key BEFORE|AFTER pivot element LPOS key element [Rank rank] [COUNT num-matches] [MAXLEN len] LRANGE key start stop # 队列操作 LPUSH key element [element ...] LPUSHX key element [element ...] LPOP key [count] RPUSH key elemet [element ...] RPUSHX key element [element ...]</description>
+      </item>
+      
+      <item>
+        <title>02.ServiceAccount</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/02.serviceaccount/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/02.serviceaccount/</guid>
+        <description>ServiceAccount 当您创建Pod的时候，如果您没有指定一个ServiceAccount，系统会自动得在与该pod相同的namespace下为其指派一个Def</description>
       </item>
       
       <item>
@@ -561,6 +579,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/16.kubernetes%E5%AD%98%E5%82%A8%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5/</guid>
         <description>可以通过下图理解容器组、容器、挂载点、数据卷、存储介质（NFS、PVC、ConfigMap）等几个概念之间的关系： 一个容器组可以包含多个数据</description>
+      </item>
+      
+      <item>
+        <title>17.User Account和Service Account</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/17.user-account%E5%92%8Cservice-account/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/17.user-account%E5%92%8Cservice-account/</guid>
+        <description>Kubernetes明确的区分了UserAccount（我没有看到一个叫做UserAccount的资源）和ServiceAccount的概念</description>
       </item>
       
       <item>
@@ -2364,11 +2391,20 @@
       </item>
       
       <item>
-        <title>Kubernetes解决NFS挂载报错的问题</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <title>Kubernetes解决NFS挂载报错的问题（CentOS版）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98centos%E7%89%88/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98centos%E7%89%88/</guid>
+        <description>报错如下： [root@node1 nfs]# kubectl describe pod nfs-client-provisioner-6f7bf77fd6-fbzhw -n nfs Name: nfs-client-provisioner-6f7bf77fd6-fbzhw Namespace: nfs Priority: 0 Node: node4/192.168.23.63 Start Time: Thu, 06 Jan 2022 03:50:28 -0500 Labels: app=nfs-client-provisioner pod-template-hash=6f7bf77fd6 Annotations: &amp;lt;none&amp;gt; Status: Pending IP: IPs: &amp;lt;none&amp;gt; Controlled By: ReplicaSet/nfs-client-provisioner-6f7bf77fd6 Containers: nfs-client-provisioner: Container ID: Image: quay.io/external_storage/nfs-client-provisioner:latest Image ID: Port: &amp;lt;none&amp;gt; Host Port: &amp;lt;none&amp;gt; State: Waiting Reason: ContainerCreating Ready: False Restart Count: 0 Environment: PROVISIONER_NAME: fuseim.pri/ifs NFS_SERVER: 192.168.23.60 NFS_PATH:</description>
+      </item>
+      
+      <item>
+        <title>Kubernetes解决NFS挂载报错的问题（Ubuntu版）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98ubuntu%E7%89%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98ubuntu%E7%89%88/</guid>
         <description>问题描述： 日志如下 Name: nfs-client-provisioner-56596b5cc5-kvsff Namespace: default Priority: 0 Node: kubernetes3/172.17.30.103 Start Time: Thu, 23 Jul 2020 04:06:48 +0000 Labels: app=nfs-client-provisioner pod-template-hash=56596b5cc5 Annotations: &amp;lt;none&amp;gt; Status: Pending IP: IPs: &amp;lt;none&amp;gt; Controlled By: ReplicaSet/nfs-client-provisioner-56596b5cc5 Containers: nfs-client-provisioner: Container ID: Image: quay.io/external_storage/nfs-client-provisioner:latest Image ID: Port: &amp;lt;none&amp;gt; Host Port: &amp;lt;none&amp;gt; State: Waiting Reason: ContainerCreating Ready: False Restart Count: 0 Environment: PROVISIONER_NAME: fuseim.pri/ifs NFS_SERVER: 192.168.30.174 NFS_PATH: /home/junjie/nfs Mounts: /persistentvolumes from</description>
       </item>
       
@@ -3795,6 +3831,15 @@
       </item>
       
       <item>
+        <title>VS Code上K8S插件应用笔记</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/</guid>
+        <description>切换命名空间</description>
+      </item>
+      
+      <item>
         <title>VS Code使用sftp插件（废弃）</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E4%BD%BF%E7%94%A8sftp%E6%8F%92%E4%BB%B6%E5%BA%9F%E5%BC%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4542,6 +4587,15 @@
       </item>
       
       <item>
+        <title>关于automountServiceAccountToken配置的实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Eautomountserviceaccounttoken%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Eautomountserviceaccounttoken%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
+        <description>在1.6以上版本中，您可以选择取消为ServiceAccount自动挂载API凭证，只需在ServiceAccount中设置automoun</description>
+      </item>
+      
+      <item>
         <title>关于BuffByte研究</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%85%B3%E4%BA%8Ebuffbyte%E7%A0%94%E7%A9%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4557,6 +4611,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Escoat%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>问题描述 我们准备使用KT Connect，但是运维配置好了后，发现始终无法正常使用。我按照官方文档给的问题排查手册，发现最终报错为scoat，</description>
+      </item>
+      
+      <item>
+        <title>关于ServiceAccount的API Token、ImagePullSecret的实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Eserviceaccount%E7%9A%84api-tokenimagepullsecret%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Eserviceaccount%E7%9A%84api-tokenimagepullsecret%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
+        <description>手动创建ServiceAccount的API Token 如下配置创建资源： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 apiVersion:v1kind:Namespacemetadata:name:practice01---apiVersion:v1kind:ServiceAccountmetadata:name:practice01namespace:practice01 查看各个资源 1 2 3 4 5 6 7 kubectl get sa -n practice01 kubectl get secrets -n practice01</description>
       </item>
       
       <item>
@@ -5862,15 +5925,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%90%86%E8%A7%A3kubectl-config-view%E6%8C%87%E4%BB%A4%E7%9A%84%E8%BE%93%E5%87%BA%E5%8F%8A%E7%9B%B8%E5%85%B3%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
         <description>在进行Kubernetes相关的实验时，使用到了该指令，该指令输出如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 apiVersion:v1clusters:- cluster:certificate-authority-data:DATA+OMITTEDserver:https://192.168.23.60:6443name:kubernetescontexts:- context:cluster:kubernetesuser:kubernetes-adminname:kubernetes-admin@kubernetescurrent-context:kubernetes-admin@kuberneteskind:Configpreferences:{}users:- name:kubernetes-adminuser:client-certificate-data:REDACTEDclient-key-data:REDACTED cl</description>
-      </item>
-      
-      <item>
-        <title>理解Kubernetes中得User Account、Service Account</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/</guid>
-        <description>本实验没有达到目标，稍后再整理 为Kubernetes集群添加用户 User Account应该是被创造出来的概念，我不确定Kubernetes中是否有</description>
       </item>
       
       <item>
