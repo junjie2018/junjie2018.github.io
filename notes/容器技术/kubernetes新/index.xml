@@ -23,6 +23,15 @@
       </item>
       
       <item>
+        <title>实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>笔记</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -109,7 +118,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/</guid>
-        <description>切换命名空间</description>
+        <description>切换命名空间 我发现切换了命名空间后，我在CentOS系统上的Kubectl工具也会受到影响。</description>
       </item>
       
       <item>

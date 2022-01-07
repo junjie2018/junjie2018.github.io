@@ -474,15 +474,6 @@
       </item>
       
       <item>
-        <title>06.使用命名空间切分集群的实验</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/06.%E4%BD%BF%E7%94%A8%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%87%E5%88%86%E9%9B%86%E7%BE%A4%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/06.%E4%BD%BF%E7%94%A8%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%87%E5%88%86%E9%9B%86%E7%BE%A4%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
-        <description>需求描述 假设企业使用同一个集群作为开发环境和生产环境（注意：通常开发环境和生产环境是物理隔绝的）： 开发团队期望有一个集群中的命名空间，以便他</description>
-      </item>
-      
-      <item>
         <title>07.理解标签选择器</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/07.%E7%90%86%E8%A7%A3%E6%A0%87%E7%AD%BE%E9%80%89%E6%8B%A9%E5%99%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -564,15 +555,6 @@
       </item>
       
       <item>
-        <title>15.Volume的生命周期</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/15.volume%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/15.volume%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</guid>
-        <description>在Kubernetes里，Volume存在明确的生命周期（与包含该数据卷的容器组相同）。因此，Volume的生命周期比同一容器组中任意容器的</description>
-      </item>
-      
-      <item>
         <title>16.Kubernetes存储中的一些概念</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/16.kubernetes%E5%AD%98%E5%82%A8%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -588,6 +570,42 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/17.user-account%E5%92%8Cservice-account/</guid>
         <description>Kubernetes明确的区分了UserAccount（我没有看到一个叫做UserAccount的资源）和ServiceAccount的概念</description>
+      </item>
+      
+      <item>
+        <title>18.Volume的生命周期</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/18.volume%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/18.volume%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</guid>
+        <description>在Kubernetes里，Volume存在明确的生命周期（与包含该数据卷的容器组相同）。因此，Volume的生命周期比同一容器组中任意容器的</description>
+      </item>
+      
+      <item>
+        <title>19.StorageClass</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/19.storageclass/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/19.storageclass/</guid>
+        <description>StorageClass存储类用于描述集群中可以提供的存储的类型。不同的存储类可能对应着不同的： 服务等级 备份策略 集群管理员自定义的策略 Kub</description>
+      </item>
+      
+      <item>
+        <title>20.PersistentVolume</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/20.persistentvolume/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/20.persistentvolume/</guid>
+        <description>PersistentVolume和PersistentVolumeClaim如何实现关注点分离 这个只是用一个和传统场景进行对比的场景来讨论P</description>
+      </item>
+      
+      <item>
+        <title>21.数据卷的挂载</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/21.%E6%95%B0%E6%8D%AE%E5%8D%B7%E7%9A%84%E6%8C%82%E8%BD%BD/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/21.%E6%95%B0%E6%8D%AE%E5%8D%B7%E7%9A%84%E6%8C%82%E8%BD%BD/</guid>
+        <description>有时候我们需要在同一个 Pod 的不同容器间共享数据卷。使用volumeMounts.subPath属性，可以使容器在挂载数据卷时指向数据卷内部的一</description>
       </item>
       
       <item>
@@ -3836,7 +3854,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/</guid>
-        <description>切换命名空间</description>
+        <description>切换命名空间 我发现切换了命名空间后，我在CentOS系统上的Kubectl工具也会受到影响。</description>
       </item>
       
       <item>
@@ -4530,6 +4548,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E4%BD%BF%E7%94%A8%E4%BA%86slf4j%E6%B3%A8%E8%A7%A3%E4%BD%86%E6%98%AF%E6%B2%A1%E6%9C%89%E5%BC%95%E5%85%A5slf4j-api%E5%8C%85/</guid>
         <description>之前使用SpringBoot较多，SpringBoot会自动帮忙引入slf4j-api，所以每次使用@Slf4j注解时，log变量都可以正常</description>
+      </item>
+      
+      <item>
+        <title>使用命名空间切分集群的实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%87%E5%88%86%E9%9B%86%E7%BE%A4%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%87%E5%88%86%E9%9B%86%E7%BE%A4%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
+        <description>需求描述 假设企业使用同一个集群作为开发环境和生产环境（注意：通常开发环境和生产环境是物理隔绝的）： 开发团队期望有一个集群中的命名空间，以便他</description>
       </item>
       
       <item>
@@ -6303,6 +6330,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/docker/%E8%AE%BE%E7%BD%AEdocker%E5%AE%B9%E5%99%A8%E5%8A%A0%E9%80%9F%E5%8F%8A%E5%85%81%E8%AE%B8%E9%80%9A%E8%BF%87http%E5%8D%8F%E8%AE%AE%E6%8B%89%E5%8F%96%E9%95%9C%E5%83%8F/</guid>
         <description>操作步骤 指令如下 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 sudo mkdir -p /etc/docker sudo tee /etc/docker/daemon.json &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; { &amp;#34;registry-mirrors&amp;#34;: [&amp;#34;https://cr58lvy7.mirror.aliyuncs.com&amp;#34;], &amp;#34;insecure-registries&amp;#34;:[&amp;#34;192.168.30.174:80&amp;#34;] } EOF sudo tee /etc/docker/daemon.json &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; { &amp;#34;insecure-registries&amp;#34;:[&amp;#34;172.16.100.100:80&amp;#34;] } EOF sudo systemctl daemon-reload sudo systemctl restart docker 相关教程 Docker 镜像加速 镜像加速器</description>
+      </item>
+      
+      <item>
+        <title>设置PodName到环境变量实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E8%AE%BE%E7%BD%AEpodname%E5%88%B0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E8%AE%BE%E7%BD%AEpodname%E5%88%B0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E5%AE%9E%E9%AA%8C/</guid>
+        <description>实验的目标是将Pod的名称放在环境变量POD_NAME中，这样就可以在代码中、数据卷挂载时使用该环境变量。 第一个Deployment： 1 2 3</description>
       </item>
       
       <item>
