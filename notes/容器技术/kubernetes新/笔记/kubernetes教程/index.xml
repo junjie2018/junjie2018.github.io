@@ -202,6 +202,15 @@
         <description>有时候我们需要在同一个 Pod 的不同容器间共享数据卷。使用volumeMounts.subPath属性，可以使容器在挂载数据卷时指向数据卷内部的一</description>
       </item>
       
+      <item>
+        <title>22.StatefulSet中Pod的标识</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/22.statefulset%E4%B8%ADpod%E7%9A%84%E6%A0%87%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/22.statefulset%E4%B8%ADpod%E7%9A%84%E6%A0%87%E8%AF%86/</guid>
+        <description>StatefulSet中得Pod具备一个唯一标识，该标识由如下部分组成： 序号 稳定的网络标识 稳定的存储 序号 假设一个StatefulSet的副本</description>
+      </item>
+      
     
   </channel>
 </rss>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kubernetes配置StorageClass（NFS） – 小桀的笔记本</title>
+    <title>设置SpringBoot上传时文件大小限制 – 小桀的笔记本</title>
     
 
 
@@ -27,7 +27,7 @@
     
     var baseurl = JSON.parse("\"http://junjie2018.github.io\"");
     
-    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/\"");
+    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1084,14 +1084,14 @@
 
 
 <meta property="og:site_name" content="小桀的笔记本">
-<meta property="og:title" content="Kubernetes配置StorageClass（NFS）">
-<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/">
+<meta property="og:title" content="设置SpringBoot上传时文件大小限制">
+<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/">
 <meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.85.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/">
+<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1115,11 +1115,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Kubernetes配置StorageClass（NFS）",
+    "headline": "设置SpringBoot上传时文件大小限制",
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
-    "url" : "http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/",
-    "description": "这个是我结合之前的笔记写的新的方案，因为这个方案只是应用于我自己的开发环境，所以我想用更简单、更容易理解的方案来实现，而不像之前一样，创建了",
+    "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/",
+    "description": "配置如下： 1 2 3 4 5 6 7 spring:servlet:multipart:max-file-size:100MBmax-request-size:100MB 参考资料 SpringBoot设置文件上传大小限制\u0026ndash;默认为1M",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -1168,7 +1168,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      Kubernetes配置StorageClass（NFS）
+      设置SpringBoot上传时文件大小限制
     
   </h6>
   <ul>
@@ -1188,17 +1188,17 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="0" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/">
+  <li class="menu__title--collapse " data-depth="0" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/">
     <span class="menu__title--collapse-text">
       容器技术
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -1225,7 +1225,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -1369,7 +1369,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -1409,7 +1409,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -1455,17 +1455,17 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/">
+  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/">
     <span class="menu__title--collapse-text">
       Kubernetes
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -1599,17 +1599,17 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/">
+  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/">
     <span class="menu__title--collapse-text">
       Kubernetes（新）
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -1636,7 +1636,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -1724,7 +1724,15 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs%E5%AE%9E%E9%AA%8C/" class="menu__title " data-depth="2">Kubernetes配置StorageClass（NFS）实验</a>
+        </li>
+      
     
       
         
@@ -1772,7 +1780,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -1799,7 +1807,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -1969,6 +1977,14 @@
         </li>
       
     
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/22.statefulset%E4%B8%ADpod%E7%9A%84%E6%A0%87%E8%AF%86/" class="menu__title " data-depth="3">22.StatefulSet中Pod的标识</a>
+        </li>
+      
+    
   </ul>
   
 
@@ -1999,7 +2015,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -2079,7 +2095,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/" class="menu__title active" data-depth="1">Kubernetes配置StorageClass（NFS）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4%E5%BA%9F%E5%BC%83/" class="menu__title " data-depth="1">Rancher的安装与导入K8S集群（废弃）</a>
         </li>
       
     
@@ -2087,7 +2103,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4%E5%BA%9F%E5%BC%83/" class="menu__title " data-depth="1">Rancher的安装与导入K8S集群（废弃）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/volumeclaimtemplates%E4%B8%8Epersistentvolumeclaim/" class="menu__title " data-depth="1">volumeClaimTemplates与PersistentVolumeClaim</a>
         </li>
       
     
@@ -2324,7 +2340,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -2351,7 +2367,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -2463,7 +2479,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -2511,7 +2527,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -2599,7 +2615,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -2679,7 +2695,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -2727,7 +2743,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -2935,7 +2951,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -3039,7 +3055,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -3127,7 +3143,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -3199,7 +3215,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -3295,7 +3311,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -3623,7 +3639,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -3671,7 +3687,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -3719,7 +3735,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -3746,7 +3762,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -3983,7 +3999,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4031,7 +4047,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4071,7 +4087,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4143,7 +4159,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4183,7 +4199,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4239,7 +4255,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4359,7 +4375,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4495,7 +4511,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4535,7 +4551,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4575,7 +4591,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4647,7 +4663,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4703,7 +4719,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4730,7 +4746,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4778,7 +4794,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4818,7 +4834,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4904,17 +4920,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="0" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/">
+  <li class="menu__title--collapse active" data-depth="0" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/">
     <span class="menu__title--collapse-text">
       开发技术
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4941,7 +4957,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -4989,7 +5005,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -5077,7 +5093,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -5157,7 +5173,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -5229,7 +5245,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -5277,7 +5293,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -5395,6 +5411,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/pdf%E8%BD%AC%E5%9B%BE%E7%89%87/" class="menu__title " data-depth="1">PDF转图片</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/printwriter%E7%94%A8%E6%B3%95%E6%A1%88%E4%BE%8B/" class="menu__title " data-depth="1">PrintWriter用法案例</a>
         </li>
       
@@ -5483,6 +5507,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E8%AE%A1%E7%AE%97md5%E5%80%BC%E5%B9%B6%E8%BD%AC%E6%8D%A2%E6%88%9032%E4%BD%8D/" class="menu__title " data-depth="1">计算md5值，并转换成32位</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E9%9D%99%E6%80%81%E6%B3%9B%E5%9E%8B%E6%96%B9%E6%B3%95/" class="menu__title " data-depth="1">静态泛型方法</a>
         </li>
       
@@ -5517,7 +5549,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -5605,7 +5637,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -5645,7 +5677,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -5709,7 +5741,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -5736,7 +5768,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6053,7 +6085,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6080,7 +6112,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6240,7 +6272,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6288,7 +6320,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6368,7 +6400,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6395,7 +6427,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6541,7 +6573,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6629,7 +6661,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6656,7 +6688,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6696,7 +6728,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6744,7 +6776,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -6771,7 +6803,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7125,7 +7157,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7165,7 +7197,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7192,7 +7224,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7219,7 +7251,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7267,7 +7299,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7307,7 +7339,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7384,7 +7416,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7411,7 +7443,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7555,7 +7587,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7685,13 +7717,21 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/resttemplate/resttemplate.getforobject%E6%89%A7%E8%A1%8C%E5%90%8E%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC%E5%AD%97%E6%AE%B5%E5%85%A8%E9%83%A8%E4%B8%BA%E7%A9%BA/" class="menu__title " data-depth="1">restTemplate.getForObject执行后的返回值字段全部为空</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/resttemplate/resttemplate%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/" class="menu__title " data-depth="1">RestTemplate上传文件</a>
         </li>
       
     
@@ -7749,7 +7789,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7797,7 +7837,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7835,17 +7875,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/">
+  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/">
     <span class="menu__title--collapse-text">
       SpringBoot
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list active" data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7872,7 +7912,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -7936,7 +7976,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -8054,17 +8094,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
     <span class="menu__title--collapse-text">
       Spring
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list active" data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -8224,7 +8264,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -8344,7 +8384,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -8611,6 +8651,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/" class="menu__title active" data-depth="1">设置SpringBoot上传时文件大小限制</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%80%9A%E8%BF%87response%E8%BF%94%E5%9B%9Ejson%E6%95%B0%E6%8D%AE/" class="menu__title " data-depth="1">通过Response返回JSON数据</a>
         </li>
       
@@ -8669,7 +8717,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -8712,7 +8760,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -8739,7 +8787,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -8779,7 +8827,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9011,7 +9059,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9083,7 +9131,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9110,7 +9158,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9150,7 +9198,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9198,7 +9246,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9246,7 +9294,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9326,7 +9374,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9531,7 +9579,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9579,7 +9627,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9606,7 +9654,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9795,7 +9843,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -9907,7 +9955,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -10195,7 +10243,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -10469,7 +10517,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">Kubernetes配置StorageClass（NFS）</h2>
+        <h2 class="title">设置SpringBoot上传时文件大小限制</h2>
       </div>
     </div>
   </div>
@@ -10507,21 +10555,21 @@
   
   <li >
     
-      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/" class="capitalize">容器技术</a>
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/" class="capitalize">开发技术</a>
     
   </li>
   
   
   <li >
     
-      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/" class="capitalize">Kubernetes（新）</a>
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/" class="capitalize">SpringBoot</a>
     
   </li>
   
   
   <li  class="is-active" >
     
-      <span>Kubernetes配置StorageClass（NFS）</span>
+      <span>设置SpringBoot上传时文件大小限制</span>
     
   </li>
   
@@ -10563,7 +10611,7 @@
         <div class="menu">
   <h6 class="menu__label">
     
-      Kubernetes配置StorageClass（NFS）
+      设置SpringBoot上传时文件大小限制
     
   </h6>
   <ul>
@@ -10583,17 +10631,17 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="0" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/">
+  <li class="menu__title--collapse " data-depth="0" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/">
     <span class="menu__title--collapse-text">
       容器技术
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -10620,7 +10668,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -10764,7 +10812,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -10804,7 +10852,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -10850,17 +10898,17 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/">
+  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/">
     <span class="menu__title--collapse-text">
       Kubernetes
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -10994,17 +11042,17 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/">
+  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/">
     <span class="menu__title--collapse-text">
       Kubernetes（新）
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -11031,7 +11079,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -11119,7 +11167,15 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs%E5%AE%9E%E9%AA%8C/" class="menu__title " data-depth="2">Kubernetes配置StorageClass（NFS）实验</a>
+        </li>
+      
     
       
         
@@ -11167,7 +11223,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -11194,7 +11250,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -11364,6 +11420,14 @@
         </li>
       
     
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/22.statefulset%E4%B8%ADpod%E7%9A%84%E6%A0%87%E8%AF%86/" class="menu__title " data-depth="3">22.StatefulSet中Pod的标识</a>
+        </li>
+      
+    
   </ul>
   
 
@@ -11394,7 +11458,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -11474,7 +11538,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/" class="menu__title active" data-depth="1">Kubernetes配置StorageClass（NFS）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4%E5%BA%9F%E5%BC%83/" class="menu__title " data-depth="1">Rancher的安装与导入K8S集群（废弃）</a>
         </li>
       
     
@@ -11482,7 +11546,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4%E5%BA%9F%E5%BC%83/" class="menu__title " data-depth="1">Rancher的安装与导入K8S集群（废弃）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/volumeclaimtemplates%E4%B8%8Epersistentvolumeclaim/" class="menu__title " data-depth="1">volumeClaimTemplates与PersistentVolumeClaim</a>
         </li>
       
     
@@ -11719,7 +11783,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -11746,7 +11810,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -11858,7 +11922,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -11906,7 +11970,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -11994,7 +12058,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -12074,7 +12138,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -12122,7 +12186,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -12330,7 +12394,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -12434,7 +12498,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -12522,7 +12586,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -12594,7 +12658,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -12690,7 +12754,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13018,7 +13082,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13066,7 +13130,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13114,7 +13178,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13141,7 +13205,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13378,7 +13442,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13426,7 +13490,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13466,7 +13530,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13538,7 +13602,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13578,7 +13642,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13634,7 +13698,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13754,7 +13818,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13890,7 +13954,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13930,7 +13994,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -13970,7 +14034,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14042,7 +14106,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14098,7 +14162,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14125,7 +14189,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14173,7 +14237,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14213,7 +14277,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14299,17 +14363,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="0" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/">
+  <li class="menu__title--collapse active" data-depth="0" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/">
     <span class="menu__title--collapse-text">
       开发技术
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14336,7 +14400,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14384,7 +14448,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14472,7 +14536,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14552,7 +14616,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14624,7 +14688,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14672,7 +14736,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -14790,6 +14854,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/pdf%E8%BD%AC%E5%9B%BE%E7%89%87/" class="menu__title " data-depth="1">PDF转图片</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/printwriter%E7%94%A8%E6%B3%95%E6%A1%88%E4%BE%8B/" class="menu__title " data-depth="1">PrintWriter用法案例</a>
         </li>
       
@@ -14878,6 +14950,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E8%AE%A1%E7%AE%97md5%E5%80%BC%E5%B9%B6%E8%BD%AC%E6%8D%A2%E6%88%9032%E4%BD%8D/" class="menu__title " data-depth="1">计算md5值，并转换成32位</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E9%9D%99%E6%80%81%E6%B3%9B%E5%9E%8B%E6%96%B9%E6%B3%95/" class="menu__title " data-depth="1">静态泛型方法</a>
         </li>
       
@@ -14912,7 +14992,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -15000,7 +15080,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -15040,7 +15120,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -15104,7 +15184,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -15131,7 +15211,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -15448,7 +15528,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -15475,7 +15555,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -15635,7 +15715,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -15683,7 +15763,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -15763,7 +15843,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -15790,7 +15870,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -15936,7 +16016,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16024,7 +16104,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16051,7 +16131,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16091,7 +16171,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16139,7 +16219,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16166,7 +16246,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16520,7 +16600,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16560,7 +16640,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16587,7 +16667,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16614,7 +16694,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16662,7 +16742,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16702,7 +16782,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16779,7 +16859,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16806,7 +16886,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -16950,7 +17030,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -17080,13 +17160,21 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/resttemplate/resttemplate.getforobject%E6%89%A7%E8%A1%8C%E5%90%8E%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC%E5%AD%97%E6%AE%B5%E5%85%A8%E9%83%A8%E4%B8%BA%E7%A9%BA/" class="menu__title " data-depth="1">restTemplate.getForObject执行后的返回值字段全部为空</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/resttemplate/resttemplate%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/" class="menu__title " data-depth="1">RestTemplate上传文件</a>
         </li>
       
     
@@ -17144,7 +17232,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -17192,7 +17280,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -17230,17 +17318,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/">
+  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/">
     <span class="menu__title--collapse-text">
       SpringBoot
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list active" data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -17267,7 +17355,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -17331,7 +17419,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -17449,17 +17537,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
     <span class="menu__title--collapse-text">
       Spring
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list active" data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -17619,7 +17707,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -17739,7 +17827,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18006,6 +18094,14 @@
         
         
         <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/" class="menu__title active" data-depth="1">设置SpringBoot上传时文件大小限制</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%80%9A%E8%BF%87response%E8%BF%94%E5%9B%9Ejson%E6%95%B0%E6%8D%AE/" class="menu__title " data-depth="1">通过Response返回JSON数据</a>
         </li>
       
@@ -18064,7 +18160,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18107,7 +18203,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18134,7 +18230,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18174,7 +18270,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18406,7 +18502,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18478,7 +18574,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18505,7 +18601,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18545,7 +18641,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18593,7 +18689,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18641,7 +18737,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18721,7 +18817,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18926,7 +19022,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -18974,7 +19070,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -19001,7 +19097,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -19190,7 +19286,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -19302,7 +19398,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -19590,7 +19686,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/>
     
       
         
@@ -19637,32 +19733,7 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <p>这个是我结合之前的笔记写的新的方案，因为这个方案只是应用于我自己的开发环境，所以我想用更简单、更容易理解的方案来实现，而不像之前一样，创建了太多的资源。</p>
-<h2 id="创建namespace">创建NameSpace</h2>
-<p>这次我不打算将NFS放在默认命名空间，我想放在一个叫做nfs的空间里。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="w">
-</span><span class="w"></span><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">v1</span><span class="w">
-</span><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">Namespace</span><span class="w">
-</span><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">nfs</span><span class="w">
-</span><span class="w">
-</span></code></pre></td></tr></table>
-</div>
-</div><h2 id="创建serviceaccount及clusterrolebinding">创建ServiceAccount及ClusterRoleBinding</h2>
-<p>这次我不打算创建自己的Role、ClusterRole、RoleBinding、ClusterRoleBinding，因为我对配置rules部分不是太熟悉。所以我打算直接从创建ServiceAccount，然后创建一个ClusterRoleBinding，将这个ServiceAccount绑定到集群管理员上。其实可以使用nfs命名空间下的default ServiceAccount，这样更省事，只是以后会增加理解成本。</p>
-<ol>
-<li>创建ServiceAccount代码如下：</li>
-</ol>
+    <p>配置如下：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -19675,52 +19746,18 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="w">
-</span><span class="w"></span><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">v1</span><span class="w">
-</span><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">ServiceAccount</span><span class="w">
-</span><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">nfs-client-provisioner</span><span class="w">
-</span><span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l">nfs</span><span class="w">
+</span><span class="w"></span><span class="nt">spring</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">servlet</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">multipart</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span><span class="nt">max-file-size</span><span class="p">:</span><span class="w"> </span><span class="l">100MB</span><span class="w">
+</span><span class="w">      </span><span class="nt">max-request-size</span><span class="p">:</span><span class="w"> </span><span class="l">100MB</span><span class="w">
 </span><span class="w">
 </span></code></pre></td></tr></table>
 </div>
-</div><ol start="2">
-<li>创建ClusterRoleBinding代码如下：</li>
+</div><h2 id="参考资料">参考资料</h2>
+<ol>
+<li><a href="https://www.cnblogs.com/yysbolg/p/10621610.html" target="_blank">SpringBoot设置文件上传大小限制&ndash;默认为1M</a></li>
 </ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="w">
-</span><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">ClusterRoleBinding</span><span class="w">
-</span><span class="w"></span><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">rbac.authorization.k8s.io/v1</span><span class="w">
-</span><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">nfs-client-provisioner</span><span class="w">
-</span><span class="w"></span><span class="nt">subjects</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span>- <span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">ServiceAccount</span><span class="w">
-</span><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">nfs-client-provisioner</span><span class="w">
-</span><span class="w">    </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l">nfs</span><span class="w">
-</span><span class="w"></span><span class="nt">roleRef</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">ClusterRole</span><span class="w">
-</span><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">cluster-admin</span><span class="w">
-</span><span class="w">  </span><span class="nt">apiGroup</span><span class="p">:</span><span class="w"> </span><span class="l">rbac.authorization.k8s.io</span><span class="w">
-</span><span class="w">
-</span></code></pre></td></tr></table>
-</div>
-</div><h2 id="创建nfsclientprovisioner">创建NfsClientProvisioner</h2>
 
   </article>
 </div>
@@ -19729,17 +19766,17 @@
 <nav class="pagination-single">
   
     
-      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98centos%E7%89%88/" title="Kubernetes解决NFS挂载报错的问题（CentOS版）" class="pagination-single__left">
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%A7%A3%E5%86%B3%E5%B9%B6%E5%8F%91%E5%BE%AA%E7%8E%AF%E4%BE%9D%E8%B5%96%E7%9A%84%E9%97%AE%E9%A2%98/" title="记录一次解决并发、循环依赖的问题" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__right-title">Kubernetes解决NFS挂载报错的问题（CentOS版）</div>
+        <div class="pagination-single__right-title">记录一次解决并发、循环依赖的问题</div>
       </a>
     
     <div class="grow"></div>
     
-      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4%E5%BA%9F%E5%BC%83/" title="Rancher的安装与导入K8S集群（废弃）" class="pagination-single__right">
-        <div class="pagination-single__left-title">Rancher的安装与导入K8S集群（废弃）</div>
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%80%9A%E8%BF%87response%E8%BF%94%E5%9B%9Ejson%E6%95%B0%E6%8D%AE/" title="通过Response返回JSON数据" class="pagination-single__right">
+        <div class="pagination-single__left-title">通过Response返回JSON数据</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -19759,9 +19796,7 @@
   <div class="toc__body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#创建namespace">创建NameSpace</a></li>
-    <li><a href="#创建serviceaccount及clusterrolebinding">创建ServiceAccount及ClusterRoleBinding</a></li>
-    <li><a href="#创建nfsclientprovisioner">创建NfsClientProvisioner</a></li>
+    <li><a href="#参考资料">参考资料</a></li>
   </ul>
 </nav>
   </div>

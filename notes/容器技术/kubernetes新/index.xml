@@ -95,21 +95,21 @@
       </item>
       
       <item>
-        <title>Kubernetes配置StorageClass（NFS）</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/</guid>
-        <description>这个是我结合之前的笔记写的新的方案，因为这个方案只是应用于我自己的开发环境，所以我想用更简单、更容易理解的方案来实现，而不像之前一样，创建了</description>
-      </item>
-      
-      <item>
         <title>Rancher的安装与导入K8S集群（废弃）</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4%E5%BA%9F%E5%BC%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/rancher%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%AF%BC%E5%85%A5k8s%E9%9B%86%E7%BE%A4%E5%BA%9F%E5%BC%83/</guid>
         <description>安装Rancher 执行如下指令 docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged rancher/rancher:latest 导入集群 首先在Cluster选项卡下选择Add Cluster。因为我已经配置过了，这个按钮</description>
+      </item>
+      
+      <item>
+        <title>volumeClaimTemplates与PersistentVolumeClaim</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/volumeclaimtemplates%E4%B8%8Epersistentvolumeclaim/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/volumeclaimtemplates%E4%B8%8Epersistentvolumeclaim/</guid>
+        <description>看资料时看到了一个volumeClaimTemplates字段的配置，代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</description>
       </item>
       
       <item>

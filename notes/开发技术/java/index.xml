@@ -140,6 +140,15 @@
       </item>
       
       <item>
+        <title>PDF转图片</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/pdf%E8%BD%AC%E5%9B%BE%E7%89%87/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/pdf%E8%BD%AC%E5%9B%BE%E7%89%87/</guid>
+        <description>依赖如下： 1 2 3 4 5 6 7 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.pdfbox&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;pdfbox&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.0.20&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; 我的代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 public static List&amp;lt;byte[]&amp;gt; transferPdfToPictures(InputStream inputStream) { try (PDDocument document = PDDocument.load(inputStream)) { List&amp;lt;byte[]&amp;gt; result = new ArrayList&amp;lt;&amp;gt;(); PDFRenderer renderer = new PDFRenderer(document); for (int i</description>
+      </item>
+      
+      <item>
         <title>PrintWriter用法案例</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/printwriter%E7%94%A8%E6%B3%95%E6%A1%88%E4%BE%8B/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -236,6 +245,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%B0%86list%E8%BD%AC%E5%8F%98%E6%88%90%E9%80%97%E5%8F%B7%E5%88%86%E9%9A%94%E7%AC%A6%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
         <description>我记得我之前用的并不是这个方案，但是我又找不到之前的资料了，先用下这个方案先。代码如下： 1 2 3 4 List&amp;lt;String&amp;gt; cities = Arrays.asList(&amp;#34;Milan&amp;#34;, &amp;#34;London&amp;#34;, &amp;#34;New York&amp;#34;, &amp;#34;San Francisco&amp;#34;); String citiesCommaSeparated = String.join(&amp;#34;,&amp;#34;, cities); 参考资料 Java</description>
+      </item>
+      
+      <item>
+        <title>计算md5值，并转换成32位</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E8%AE%A1%E7%AE%97md5%E5%80%BC%E5%B9%B6%E8%BD%AC%E6%8D%A2%E6%88%9032%E4%BD%8D/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E8%AE%A1%E7%AE%97md5%E5%80%BC%E5%B9%B6%E8%BD%AC%E6%8D%A2%E6%88%9032%E4%BD%8D/</guid>
+        <description>我没有系统学习相关知识，以后如果有机会，会系统研究下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 public static String md5_32Encrypt(byte[] bytes) { MessageDigest md5 = null; try { md5 = MessageDigest.getInstance(&amp;#34;MD5&amp;#34;); } catch (Exception e) { e.printStackTrace();</description>
       </item>
       
       <item>

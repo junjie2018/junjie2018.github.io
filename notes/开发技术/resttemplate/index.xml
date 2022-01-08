@@ -23,6 +23,15 @@
       </item>
       
       <item>
+        <title>RestTemplate上传文件</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/resttemplate/resttemplate%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/resttemplate/resttemplate%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/</guid>
+        <description>RestTemplate上传文件其实是一个非常简单的操作，这次之所以踩坑一方面是自己给自己挖的，一方面是接口提供方给我挖的。 我给自己挖的坑是</description>
+      </item>
+      
+      <item>
         <title>RestTemplate更高级配置</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/resttemplate/resttemplate%E6%9B%B4%E9%AB%98%E7%BA%A7%E9%85%8D%E7%BD%AE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -609,6 +609,15 @@
       </item>
       
       <item>
+        <title>22.StatefulSet中Pod的标识</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/22.statefulset%E4%B8%ADpod%E7%9A%84%E6%A0%87%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/22.statefulset%E4%B8%ADpod%E7%9A%84%E6%A0%87%E8%AF%86/</guid>
+        <description>StatefulSet中得Pod具备一个唯一标识，该标识由如下部分组成： 序号 稳定的网络标识 稳定的存储 序号 假设一个StatefulSet的副本</description>
+      </item>
+      
+      <item>
         <title>@AutoConfigurationPackage注解的意义</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/autoconfigurationpackage%E6%B3%A8%E8%A7%A3%E7%9A%84%E6%84%8F%E4%B9%89/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2463,11 +2472,11 @@
       </item>
       
       <item>
-        <title>Kubernetes配置StorageClass（NFS）</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/</link>
+        <title>Kubernetes配置StorageClass（NFS）实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs%E5%AE%9E%E9%AA%8C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs%E5%AE%9E%E9%AA%8C/</guid>
         <description>这个是我结合之前的笔记写的新的方案，因为这个方案只是应用于我自己的开发环境，所以我想用更简单、更容易理解的方案来实现，而不像之前一样，创建了</description>
       </item>
       
@@ -2958,6 +2967,15 @@
       </item>
       
       <item>
+        <title>PDF转图片</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/pdf%E8%BD%AC%E5%9B%BE%E7%89%87/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/pdf%E8%BD%AC%E5%9B%BE%E7%89%87/</guid>
+        <description>依赖如下： 1 2 3 4 5 6 7 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.pdfbox&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;pdfbox&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.0.20&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; 我的代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 public static List&amp;lt;byte[]&amp;gt; transferPdfToPictures(InputStream inputStream) { try (PDDocument document = PDDocument.load(inputStream)) { List&amp;lt;byte[]&amp;gt; result = new ArrayList&amp;lt;&amp;gt;(); PDFRenderer renderer = new PDFRenderer(document); for (int i</description>
+      </item>
+      
+      <item>
         <title>PG查看并设置当前session的时区</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/pg%E6%9F%A5%E7%9C%8B%E5%B9%B6%E8%AE%BE%E7%BD%AE%E5%BD%93%E5%89%8Dsession%E7%9A%84%E6%97%B6%E5%8C%BA/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3408,6 +3426,15 @@
       </item>
       
       <item>
+        <title>RestTemplate上传文件</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/resttemplate/resttemplate%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/resttemplate/resttemplate%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/</guid>
+        <description>RestTemplate上传文件其实是一个非常简单的操作，这次之所以踩坑一方面是自己给自己挖的，一方面是接口提供方给我挖的。 我给自己挖的坑是</description>
+      </item>
+      
+      <item>
         <title>RestTemplate更高级配置</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/resttemplate/resttemplate%E6%9B%B4%E9%AB%98%E7%BA%A7%E9%85%8D%E7%BD%AE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3855,6 +3882,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/unsatisfied-dependency-expressed-through-field-basemapper/</guid>
         <description>这个问题应该属于我们项目中的问题，我按照要求继承项目后，在mapper包下开发自己的Mapper，结果在启动的时候发现Mapper无法被注入</description>
+      </item>
+      
+      <item>
+        <title>volumeClaimTemplates与PersistentVolumeClaim</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/volumeclaimtemplates%E4%B8%8Epersistentvolumeclaim/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/volumeclaimtemplates%E4%B8%8Epersistentvolumeclaim/</guid>
+        <description>看资料时看到了一个volumeClaimTemplates字段的配置，代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</description>
       </item>
       
       <item>
@@ -6261,6 +6297,15 @@
       </item>
       
       <item>
+        <title>计算md5值，并转换成32位</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E8%AE%A1%E7%AE%97md5%E5%80%BC%E5%B9%B6%E8%BD%AC%E6%8D%A2%E6%88%9032%E4%BD%8D/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E8%AE%A1%E7%AE%97md5%E5%80%BC%E5%B9%B6%E8%BD%AC%E6%8D%A2%E6%88%9032%E4%BD%8D/</guid>
+        <description>我没有系统学习相关知识，以后如果有机会，会系统研究下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 public static String md5_32Encrypt(byte[] bytes) { MessageDigest md5 = null; try { md5 = MessageDigest.getInstance(&amp;#34;MD5&amp;#34;); } catch (Exception e) { e.printStackTrace();</description>
+      </item>
+      
+      <item>
         <title>让Shell阻塞一会</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A9shell%E9%98%BB%E5%A1%9E%E4%B8%80%E4%BC%9A/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6357,6 +6402,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E8%AE%BE%E7%BD%AEpodname%E5%88%B0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E5%AE%9E%E9%AA%8C/</guid>
         <description>实验的目标是将Pod的名称放在环境变量POD_NAME中，这样就可以在代码中、数据卷挂载时使用该环境变量。 第一个Deployment： 1 2 3</description>
+      </item>
+      
+      <item>
+        <title>设置SpringBoot上传时文件大小限制</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E8%AE%BE%E7%BD%AEspringboot%E4%B8%8A%E4%BC%A0%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6/</guid>
+        <description>配置如下： 1 2 3 4 5 6 7 spring:servlet:multipart:max-file-size:100MBmax-request-size:100MB 参考资料 SpringBoot设置文件上传大小限制&amp;ndash;默认为1M</description>
       </item>
       
       <item>
