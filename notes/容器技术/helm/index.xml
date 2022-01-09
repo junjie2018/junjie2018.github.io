@@ -37,6 +37,15 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%AE%89%E8%A3%85helm/</guid>
+        <description>我使用的指令如下： 1 2 3 4 5 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 chmod 700 get_helm.sh ./get_helm.sh 参考资料 安装Helm</description>
+      </item>
+      
+      <item>
+        <title>安装Helm（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%AE%89%E8%A3%85helm%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%AE%89%E8%A3%85helm%E5%BA%9F%E5%BC%83/</guid>
         <description>下载二进制文件，并解压二进制文件 tar -zxvf helm-v3.5.4-linux-amd64.tar.gz 将二进制文件移动$PATH目录下 mv linux-amd64/helm /usr/local/bin/helm Helm常用指令 添加一个chart仓库，并查看charts列表 helm</description>
       </item>
       

@@ -221,15 +221,6 @@
       </item>
       
       <item>
-        <title>安装Helm</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%89%E8%A3%85helm/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%89%E8%A3%85helm/</guid>
-        <description>我使用的指令如下： 1 2 3 4 5 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 chmod 700 get_helm.sh ./get_helm.sh 参考资料 安装Helm</description>
-      </item>
-      
-      <item>
         <title>报错：connect was refused</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%8A%A5%E9%94%99connect-was-refused/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
