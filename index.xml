@@ -204,6 +204,15 @@
       </item>
       
       <item>
+        <title>01.Helm与Kubernetes集群交互</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/01.helm%E4%B8%8Ekubernetes%E9%9B%86%E7%BE%A4%E4%BA%A4%E4%BA%92/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/01.helm%E4%B8%8Ekubernetes%E9%9B%86%E7%BE%A4%E4%BA%A4%E4%BA%92/</guid>
+        <description>Helm直接与Kubernetes API服务器交互。因此，Helm需要能够连接到Kubernetes集群。Helm试图通过读取kubectl</description>
+      </item>
+      
+      <item>
         <title>01.Kubernetes组件</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/01.kubernetes%E7%BB%84%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -366,6 +375,15 @@
       </item>
       
       <item>
+        <title>02.Helm最常见的工作流程</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/02.helm%E6%9C%80%E5%B8%B8%E8%A7%81%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/02.helm%E6%9C%80%E5%B8%B8%E8%A7%81%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/</guid>
+        <description>Helm最常见的工作流程： 添加Chart存储库 查找要安装的Chart 安装Helm Chart 查看安装内容列表 升级安装 删除安装 添加Chart存储库 1 2 3</description>
+      </item>
+      
+      <item>
         <title>02.List相关命令</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -456,12 +474,30 @@
       </item>
       
       <item>
+        <title>04.模板和试运行</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/04.%E6%A8%A1%E6%9D%BF%E5%92%8C%E8%AF%95%E8%BF%90%E8%A1%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/04.%E6%A8%A1%E6%9D%BF%E5%92%8C%E8%AF%95%E8%BF%90%E8%A1%8C/</guid>
+        <description>当Helm安装一个发行版时，程序会经历几个阶段。它加载Chart，解析传递给程序的值，读取Chart元数据，等等。大约在这个过程的中间，He</description>
+      </item>
+      
+      <item>
         <title>05.ZSet相关的命令</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/</guid>
         <description># 阻塞 BZPOPMIN key [key ...] BZPOPMAX key [key ...] BZPOP timeout numkeys key [key ...] MIN|MAX [COUNT count] # 针对分数的操作 ZPOPMIN key min max ZPOPMAX key [count] ZMPOP numkeys key [key ...] ZLEXCOUNT key min max ZADD key [NX|XX] [GT|LT] [CH] [INCR] score member [score member ...] ZCARD key ZCOUNT key min max ZSCAN ZINCREBY key increment member ZSCORE ZMSCORE ZRANGE ZRANGESTORE</description>
+      </item>
+      
+      <item>
+        <title>05.发布记录</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/05.%E5%8F%91%E5%B8%83%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/05.%E5%8F%91%E5%B8%83%E8%AE%B0%E5%BD%95/</guid>
+        <description>发布记录以Secret存储在Kubernetes中，以便同一集群的不同用户可以访问相同的发布信息。 在某个发布版的生命周期中，可以经历几个不同</description>
       </item>
       
       <item>
@@ -474,12 +510,39 @@
       </item>
       
       <item>
+        <title>06.使用helm get查找发布的详细信息</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/06.%E4%BD%BF%E7%94%A8helm-get%E6%9F%A5%E6%89%BE%E5%8F%91%E5%B8%83%E7%9A%84%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/06.%E4%BD%BF%E7%94%A8helm-get%E6%9F%A5%E6%89%BE%E5%8F%91%E5%B8%83%E7%9A%84%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF/</guid>
+        <description>helm get有5个子命令（hooks、manifests、notes、values和all）。每个子命令都会检索某个版本的Helm跟踪信息的某些</description>
+      </item>
+      
+      <item>
+        <title>07.历史记录和回滚</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/07.%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%E5%92%8C%E5%9B%9E%E6%BB%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/07.%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%E5%92%8C%E5%9B%9E%E6%BB%9A/</guid>
+        <description>指令如下： 1 2 3 4 5 helm history mysite helm rollback mysite 2 针对Helm管理的资源，如果进行手工编辑，可能会引发一些问题，我懒得花费精力去了解这些问题的细节，所以我决</description>
+      </item>
+      
+      <item>
         <title>07.理解标签选择器</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/07.%E7%90%86%E8%A7%A3%E6%A0%87%E7%AD%BE%E9%80%89%E6%8B%A9%E5%99%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/07.%E7%90%86%E8%A7%A3%E6%A0%87%E7%AD%BE%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
         <description>Kubernetes支持两种形式的标签选择器，基于等式的和基于集合的。标签选择器可以包含多个条件，并使用逗号分隔，此时只有满足所有条件的Ku</description>
+      </item>
+      
+      <item>
+        <title>08.安装和升级</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/08.%E5%AE%89%E8%A3%85%E5%92%8C%E5%8D%87%E7%BA%A7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/08.%E5%AE%89%E8%A3%85%E5%92%8C%E5%8D%87%E7%BA%A7/</guid>
+        <description>&amp;ndash;generate-name 和 &amp;ndash;name-template --generate-name标识的用法如下： 1 2 3 4 helm install bitnami/wordpress --generate-name helm install bitnami/wordpress --generate-name --name-template &amp;#34;foo-{{randAlpha 9| lower}}&amp;#34; 使用--generate name标志，我们不再需要提供名</description>
       </item>
       
       <item>
