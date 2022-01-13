@@ -14,6 +14,15 @@
     
       
       <item>
+        <title>Ingress</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>KT Connect</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kt-connect/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -95,6 +104,15 @@
       </item>
       
       <item>
+        <title>Kubernetes中搭建Nexus</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E4%B8%AD%E6%90%AD%E5%BB%BAnexus/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E4%B8%AD%E6%90%AD%E5%BB%BAnexus/</guid>
+        <description>操作步骤 拉取代码，将Nexus运行起来： 1 2 3 4 5 6 7 8 9 10 11 git clone https://gitee.com/junjie2019/kubernetes.git cd kubernetes/Devops/Jenkins kubectl apply -f PersistentVolumeClaim.yml kubectl apply -f Nexus.yml kubectl create configmap setting.xml \ -- from-file=setting.xml \ -n devops 相关资料 Kubernetes部署</description>
+      </item>
+      
+      <item>
         <title>Kubernetes解决NFS挂载报错的问题（CentOS版）</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/kubernetes%E8%A7%A3%E5%86%B3nfs%E6%8C%82%E8%BD%BD%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98centos%E7%89%88/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -146,6 +164,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%B8%80%E4%B8%AA%E8%A0%A2%E9%97%AE%E9%A2%98/</guid>
         <description>初始化K8S集群的时候，有如下报错： [root@node-template ~]# kubeadm init --pod-network-cidr=10.244.0.0/16 --apiserver-advertise-address=172.20.11.201 [init] Using Kubernetes version: v1.21.1 [preflight] Running pre-flight checks [WARNING IsDockerSystemdCheck]: detected &amp;quot;cgroupfs&amp;quot; as the Docker cgroup driver. The recommended driver is &amp;quot;systemd&amp;quot;. Please follow the guide at https://kubernetes.io/docs/setup/cri/ [preflight] Pulling images required for setting up a Kubernetes cluster [preflight] This might take a minute or</description>
+      </item>
+      
+      <item>
+        <title>从传统RBAC的角度理解K8S的RBAC</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BB%8E%E4%BC%A0%E7%BB%9Frbac%E7%9A%84%E8%A7%92%E5%BA%A6%E7%90%86%E8%A7%A3k8s%E7%9A%84rbac/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BB%8E%E4%BC%A0%E7%BB%9Frbac%E7%9A%84%E8%A7%92%E5%BA%A6%E7%90%86%E8%A7%A3k8s%E7%9A%84rbac/</guid>
+        <description>RBAC，一个用户可以有多个角色，一个角色可以有多个控制。 在K8S中，有（省略了部分配置）： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</description>
       </item>
       
       <item>

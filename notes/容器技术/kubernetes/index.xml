@@ -32,15 +32,6 @@
       </item>
       
       <item>
-        <title>Kubernetes中搭建Nexus</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E4%B8%AD%E6%90%AD%E5%BB%BAnexus/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E4%B8%AD%E6%90%AD%E5%BB%BAnexus/</guid>
-        <description>操作步骤 拉取代码，将Nexus运行起来： 1 2 3 4 5 6 7 8 9 10 11 git clone https://gitee.com/junjie2019/kubernetes.git cd kubernetes/Devops/Jenkins kubectl apply -f PersistentVolumeClaim.yml kubectl apply -f Nexus.yml kubectl create configmap setting.xml \ -- from-file=setting.xml \ -n devops 相关资料 Kubernetes部署</description>
-      </item>
-      
-      <item>
         <title>Kubernetes使用ingress-nginx</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/kubernetes%E4%BD%BF%E7%94%A8ingress-nginx/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

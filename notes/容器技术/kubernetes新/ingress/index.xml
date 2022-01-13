@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ingress on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/</link>
+    <description>Recent content in Ingress on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Helm安装NginxIngress</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85nginxingress/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85nginxingress/</guid>
+        <description>执行指令如下： 1 2 3 4 5 helm upgrade --install ingress-nginx ingress-nginx \ --repo https://kubernetes.github.io/ingress-nginx \ --namespace ingress-nginx --create-namespace 创建服务进行测试 创建必要的资源 1 2 3 4 5 6 7 8 9 10 # 创建一个Deployment及Servi</description>
+      </item>
+      
+      <item>
+        <title>ingress-nginx-controller-admission的作用</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/ingress-nginx-controller-admission%E7%9A%84%E4%BD%9C%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/ingress-nginx-controller-admission%E7%9A%84%E4%BD%9C%E7%94%A8/</guid>
+        <description>我在看Helm的&amp;ndash;dry-run生成的yaml时，注意到了一些名为ingress-nginx-controller-admiss</description>
+      </item>
+      
+      <item>
+        <title>NginxIngress的Scope配置</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/nginxingress%E7%9A%84scope%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/nginxingress%E7%9A%84scope%E9%85%8D%E7%BD%AE/</guid>
+        <description>默认情况下，控制器会监视所有命名空间的Ingress对象。如果要更改此行为，请使用-watch-namespace或检查Helm图表值con</description>
+      </item>
+      
+      <item>
+        <title>在同一个集群中安装多个IngressNginx</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E9%9B%86%E7%BE%A4%E4%B8%AD%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AAingressnginx/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E9%9B%86%E7%BE%A4%E4%B8%AD%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AAingressnginx/</guid>
+        <description>我暂时没有该技术的需求，整理处理，方便以后学习： How to easily install multiple instances of the Ingress NGINX controller in the same cluster</description>
+      </item>
+      
+      <item>
+        <title>奇怪的LoadBalancer</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E5%A5%87%E6%80%AA%E7%9A%84loadbalancer/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E5%A5%87%E6%80%AA%E7%9A%84loadbalancer/</guid>
+        <description>今天学习使用Helm安装NginxIngress是发现配置清单中有一个有趣的Service，如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21</description>
+      </item>
+      
+    
+  </channel>
+</rss>
