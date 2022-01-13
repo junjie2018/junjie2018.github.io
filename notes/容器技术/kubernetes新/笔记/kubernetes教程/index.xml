@@ -211,6 +211,24 @@
         <description>StatefulSet中得Pod具备一个唯一标识，该标识由如下部分组成： 序号 稳定的网络标识 稳定的存储 序号 假设一个StatefulSet的副本</description>
       </item>
       
+      <item>
+        <title>23.Service</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/23.service/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/23.service/</guid>
+        <description>关于Service需要了解的知识： Kubernetes将为Service分配一个IP地址，供Service Proxy使用（这个我不了解） Ku</description>
+      </item>
+      
+      <item>
+        <title>24.ExternalName</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/24.externalname/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/24.externalname/</guid>
+        <description>ExternalName类型的Service映射到一个外部的DNSName，而不是一个pod label selector。可通过spec.extern</description>
+      </item>
+      
     
   </channel>
 </rss>

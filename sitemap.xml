@@ -339,6 +339,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/</loc>
   </url>
   
@@ -420,6 +424,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/00.%E6%95%99%E7%A8%8B%E5%9C%B0%E5%9D%80/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/00.%E6%95%99%E7%A8%8B%E5%9C%B0%E5%9D%80/</loc>
   </url>
   
   <url>
@@ -663,11 +671,27 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/09.%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84chart/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/10.chart%E5%BD%92%E6%A1%A3/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/10.poststart%E5%92%8Cprestop/</loc>
   </url>
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/11.pod%E6%8F%90%E4%BE%9B%E7%9A%84%E4%B8%A4%E7%A7%8D%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%85%B1%E4%BA%AB%E8%B5%84%E6%BA%90/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/11.%E4%BB%A3%E7%A0%81%E6%A0%A1%E9%AA%8C%E5%99%A8/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/12.go%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
   </url>
   
   <url>
@@ -712,6 +736,14 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/22.statefulset%E4%B8%ADpod%E7%9A%84%E6%A0%87%E8%AF%86/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/23.service/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/24.externalname/</loc>
   </url>
   
   <url>
@@ -1484,6 +1516,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/junit5%E4%B8%8D%E6%94%AF%E6%8C%81%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E6%B3%A8%E5%85%A5/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/k8s%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%E7%9A%84%E6%A0%87%E7%AD%BE%E5%8F%8Ahelm%E5%B8%B8%E7%94%A8%E7%9A%84%E6%A0%87%E7%AD%BE/</loc>
   </url>
   
   <url>
@@ -3008,6 +3044,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/%E6%9B%B4%E5%A4%9A%E7%9A%84%E4%BA%86%E8%A7%A3dispatcherservlet/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0%E4%B8%8D%E6%98%AF%E4%BD%BF%E7%94%A8%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E6%96%B9%E6%A1%88%E5%AE%9E%E9%AA%8C/</loc>
   </url>
   
   <url>
