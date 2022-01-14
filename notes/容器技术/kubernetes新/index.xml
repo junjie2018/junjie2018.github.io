@@ -311,6 +311,15 @@
       </item>
       
       <item>
+        <title>权限的罗列方法（可以帮助学习RBAC）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9D%83%E9%99%90%E7%9A%84%E7%BD%97%E5%88%97%E6%96%B9%E6%B3%95%E5%8F%AF%E4%BB%A5%E5%B8%AE%E5%8A%A9%E5%AD%A6%E4%B9%A0rbac/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9D%83%E9%99%90%E7%9A%84%E7%BD%97%E5%88%97%E6%96%B9%E6%B3%95%E5%8F%AF%E4%BB%A5%E5%B8%AE%E5%8A%A9%E5%AD%A6%E4%B9%A0rbac/</guid>
+        <description>看IngressNginx的文档时，发现了一种RBAC的权限罗列方式，如下： 以下权限授予一个名为ingress-nginx的ClusterR</description>
+      </item>
+      
+      <item>
         <title>查看哪些Kubernetes对象在名称空间里，哪些不在</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9F%A5%E7%9C%8B%E5%93%AA%E4%BA%9Bkubernetes%E5%AF%B9%E8%B1%A1%E5%9C%A8%E5%90%8D%E7%A7%B0%E7%A9%BA%E9%97%B4%E9%87%8C%E5%93%AA%E4%BA%9B%E4%B8%8D%E5%9C%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
