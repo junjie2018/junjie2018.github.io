@@ -229,6 +229,24 @@
         <description>ExternalName类型的Service映射到一个外部的DNSName，而不是一个pod label selector。可通过spec.extern</description>
       </item>
       
+      <item>
+        <title>25.配置Pod的hosts文件</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/25.%E9%85%8D%E7%BD%AEpod%E7%9A%84hosts%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/25.%E9%85%8D%E7%BD%AEpod%E7%9A%84hosts%E6%96%87%E4%BB%B6/</guid>
+        <description>我印象中我有擦尝试修改容器的/etc/hosts文件，从而到到某个目标，但是失败了。现在才知道，原来容器的/etc/hosts文件是被kub</description>
+      </item>
+      
+      <item>
+        <title>26.网络插件</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/26.%E7%BD%91%E7%BB%9C%E6%8F%92%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/26.%E7%BD%91%E7%BB%9C%E6%8F%92%E4%BB%B6/</guid>
+        <description>CNI意为容器网络接口，它是一种标准的设计，为了让用户在容器创建或销毁时都能够更容易地配置容器网络。目前主要有几款流行的CNI插件：Flan</description>
+      </item>
+      
     
   </channel>
 </rss>

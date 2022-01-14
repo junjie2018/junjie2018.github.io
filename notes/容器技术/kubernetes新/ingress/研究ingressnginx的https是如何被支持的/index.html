@@ -1119,7 +1119,7 @@
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
     "url" : "http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E7%A0%94%E7%A9%B6ingressnginx%E7%9A%84https%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E6%94%AF%E6%8C%81%E7%9A%84/",
-    "description": ,
+    "description": "执行如下指令，下载下IngressNginx的配置文件： 1 2 3 kubectl exec -it ingress-nginx-controller-54d8b558d4-vm4wq -n ingress-nginx -- cat /etc/nginx/nginx.conf \u0026gt; nginx.conf 查看该配置文件，发现如下配 …",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -2270,6 +2270,22 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/24.externalname/" class="menu__title " data-depth="3">24.ExternalName</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/25.%E9%85%8D%E7%BD%AEpod%E7%9A%84hosts%E6%96%87%E4%BB%B6/" class="menu__title " data-depth="3">25.配置Pod的hosts文件</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/26.%E7%BD%91%E7%BB%9C%E6%8F%92%E4%BB%B6/" class="menu__title " data-depth="3">26.网络插件</a>
         </li>
       
     
@@ -12085,6 +12101,22 @@
         </li>
       
     
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/25.%E9%85%8D%E7%BD%AEpod%E7%9A%84hosts%E6%96%87%E4%BB%B6/" class="menu__title " data-depth="3">25.配置Pod的hosts文件</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/26.%E7%BD%91%E7%BB%9C%E6%8F%92%E4%BB%B6/" class="menu__title " data-depth="3">26.网络插件</a>
+        </li>
+      
+    
   </ul>
   
 
@@ -20462,7 +20494,27 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
+    <p>执行如下指令，下载下IngressNginx的配置文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">
+kubectl <span class="nb">exec</span> -it ingress-nginx-controller-54d8b558d4-vm4wq -n ingress-nginx -- cat /etc/nginx/nginx.conf &gt; nginx.conf
+
+</code></pre></td></tr></table>
+</div>
+</div><p>查看该配置文件，发现如下配置：</p>
+<pre><code>
+# PEM sha: 6d61bf891c964552ba11d97bc3a2e5b571458602
+ssl_certificate     /etc/ingress-controller/ssl/default-fake-certificate.pem;
+ssl_certificate_key /etc/ingress-controller/ssl/default-fake-certificate.pem;
+
+</code></pre><p>所以我分析，https的支持是在IngressNginx实现的。</p>
+
   </article>
 </div>
       

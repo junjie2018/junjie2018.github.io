@@ -744,6 +744,24 @@
       </item>
       
       <item>
+        <title>25.配置Pod的hosts文件</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/25.%E9%85%8D%E7%BD%AEpod%E7%9A%84hosts%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/25.%E9%85%8D%E7%BD%AEpod%E7%9A%84hosts%E6%96%87%E4%BB%B6/</guid>
+        <description>我印象中我有擦尝试修改容器的/etc/hosts文件，从而到到某个目标，但是失败了。现在才知道，原来容器的/etc/hosts文件是被kub</description>
+      </item>
+      
+      <item>
+        <title>26.网络插件</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/26.%E7%BD%91%E7%BB%9C%E6%8F%92%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/26.%E7%BD%91%E7%BB%9C%E6%8F%92%E4%BB%B6/</guid>
+        <description>CNI意为容器网络接口，它是一种标准的设计，为了让用户在容器创建或销毁时都能够更容易地配置容器网络。目前主要有几款流行的CNI插件：Flan</description>
+      </item>
+      
+      <item>
         <title>@AutoConfigurationPackage注解的意义</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/autoconfigurationpackage%E6%B3%A8%E8%A7%A3%E7%9A%84%E6%84%8F%E4%B9%89/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6365,7 +6383,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E7%A0%94%E7%A9%B6ingressnginx%E7%9A%84https%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E6%94%AF%E6%8C%81%E7%9A%84/</guid>
-        <description></description>
+        <description>执行如下指令，下载下IngressNginx的配置文件： 1 2 3 kubectl exec -it ingress-nginx-controller-54d8b558d4-vm4wq -n ingress-nginx -- cat /etc/nginx/nginx.conf &amp;gt; nginx.conf 查看该配置文件，发现如下配置： # PEM sha: 6d61bf891c964552ba11d97bc3a2e5b571458602 ssl_certificate /etc/ingress-controller/ssl/default-fake-certificate.pem; ssl_certificate_key /etc/ingress-controller/ssl/default-fake-certificate.pem; 所以我分析</description>
       </item>
       
       <item>
