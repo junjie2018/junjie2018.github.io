@@ -14,12 +14,30 @@
     
       
       <item>
-        <title>Kubernetes配置StorageClass（NFS）实验</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs%E5%AE%9E%E9%AA%8C/</link>
+        <title>Kubernetes配置StorageClass（NFS）实验（作废）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs%E5%AE%9E%E9%AA%8C%E4%BD%9C%E5%BA%9F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs%E5%AE%9E%E9%AA%8C/</guid>
-        <description>这个是我结合之前的笔记写的新的方案，因为这个方案只是应用于我自己的开发环境，所以我想用更简单、更容易理解的方案来实现，而不像之前一样，创建了</description>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs%E5%AE%9E%E9%AA%8C%E4%BD%9C%E5%BA%9F/</guid>
+        <description>作废的理由是我不打算自己这样手动安装了，我想使用Helm进行安装 这个是我结合之前的笔记写的新的方案，因为这个方案只是应用于我自己的开发环境，</description>
+      </item>
+      
+      <item>
+        <title>使用Helm安装nfs-client</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8helm%E5%AE%89%E8%A3%85nfs-client/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8helm%E5%AE%89%E8%A3%85nfs-client/</guid>
+        <description>指令如下： helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/ helm inspect values nfs-subdir-external-provisioner/nfs-subdir-external-provisioner &amp;gt; values.yaml helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner \ --values values.yaml \ --namespace nfs \ --create-namespace 参考资料 kubernetes-sigs/nfs-subdir-external-provisioner</description>
+      </item>
+      
+      <item>
+        <title>使用Helm安装nfs-provisioner</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8helm%E5%AE%89%E8%A3%85nfs-provisioner/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8helm%E5%AE%89%E8%A3%85nfs-provisioner/</guid>
+        <description>废弃理由：Kubernetes升级到1.20后不再支持selflink（其实这个我也不是很懂），导致创建pvc时会报如下错误： I0117 03:07:49.409564 1 controller.go:987] provision &amp;quot;default/test-claim&amp;quot; class</description>
       </item>
       
       <item>

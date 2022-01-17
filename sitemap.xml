@@ -1603,7 +1603,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs%E5%AE%9E%E9%AA%8C/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/kubernetes%E9%85%8D%E7%BD%AEstorageclassnfs%E5%AE%9E%E9%AA%8C%E4%BD%9C%E5%BA%9F/</loc>
   </url>
   
   <url>
@@ -2524,6 +2524,14 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/harbor/%E4%BD%BF%E7%94%A8harbor%E6%97%B6%E7%9A%84%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8helm%E5%AE%89%E8%A3%85nfs-client/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8helm%E5%AE%89%E8%A3%85nfs-provisioner/</loc>
   </url>
   
   <url>
