@@ -23,21 +23,12 @@
       </item>
       
       <item>
-        <title>Helm安装IngressNginx</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx/</link>
+        <title>Helm安装IngressNginx作废</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/</guid>
         <description>执行指令如下： 1 2 3 4 5 helm upgrade --install ingress-nginx ingress-nginx \ --repo https://kubernetes.github.io/ingress-nginx \ --namespace ingress-nginx --create-namespace 创建服务进行测试 创建必要的资源 1 2 3 4 5 6 7 8 9 10 # 创建一个Deployment及Servi</description>
-      </item>
-      
-      <item>
-        <title>Helm安装IngressNginx2</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx2/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx2/</guid>
-        <description>这次实验我不是完全按照官方教程走的，我做了如下改变： 添加了仓库 拿到了chart的values.yaml文件 使用helm upgrade进行更新</description>
       </item>
       
       <item>

@@ -23,15 +23,6 @@
       </item>
       
       <item>
-        <title>使用Helm安装nfs-client</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8helm%E5%AE%89%E8%A3%85nfs-client/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8helm%E5%AE%89%E8%A3%85nfs-client/</guid>
-        <description>指令如下： helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/ helm inspect values nfs-subdir-external-provisioner/nfs-subdir-external-provisioner &amp;gt; values.yaml helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner \ --values values.yaml \ --namespace nfs \ --create-namespace 参考资料 kubernetes-sigs/nfs-subdir-external-provisioner</description>
-      </item>
-      
-      <item>
         <title>使用Helm安装nfs-provisioner</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8helm%E5%AE%89%E8%A3%85nfs-provisioner/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

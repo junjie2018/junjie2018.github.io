@@ -359,6 +359,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/</loc>
   </url>
   
@@ -424,6 +428,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/00.%E5%AE%89%E8%A3%85helm/</loc>
   </url>
   
   <url>
@@ -531,6 +539,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/01.%E5%AE%89%E8%A3%85ingressnginx/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/01.%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A/</loc>
   </url>
   
@@ -607,6 +619,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/02.%E5%AE%89%E8%A3%85nfs-provisioner/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/02.%E5%AE%9E%E7%8E%B0mapper.java%E4%B8%8Emapper.xml%E4%B8%AD%E6%96%B9%E6%B3%95%E7%9A%84%E8%B7%B3%E8%BD%AC/</loc>
   </url>
   
@@ -616,6 +632,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85redis%E5%BE%85%E5%AE%8C%E6%88%90/</loc>
   </url>
   
   <url>
@@ -635,6 +655,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/04.%E6%A8%A1%E6%9D%BF%E5%92%8C%E8%AF%95%E8%BF%90%E8%A1%8C/</loc>
   </url>
   
@@ -651,7 +675,15 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/05.%E5%AE%89%E8%A3%85postgresql%E5%BE%85%E5%AE%8C%E6%88%90/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/06.%E4%BD%BF%E7%94%A8helm-get%E6%9F%A5%E6%89%BE%E5%8F%91%E5%B8%83%E7%9A%84%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/06.%E5%AE%89%E8%A3%85rocketmq%E5%BE%85%E5%AE%8C%E6%88%90/</loc>
   </url>
   
   <url>
@@ -659,7 +691,15 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/07.%E5%AE%89%E8%A3%85kafka%E5%BE%85%E5%AE%8C%E6%88%90/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/07.%E7%90%86%E8%A7%A3%E6%A0%87%E7%AD%BE%E9%80%89%E6%8B%A9%E5%99%A8/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/08.%E5%AE%89%E8%A3%85rabbitmq%E5%BE%85%E5%AE%8C%E6%88%90/</loc>
   </url>
   
   <url>
@@ -1319,11 +1359,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx2/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/</loc>
   </url>
   
   <url>
@@ -2527,10 +2563,6 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8helm%E5%AE%89%E8%A3%85nfs-client/</loc>
-  </url>
-  
-  <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/%E4%BD%BF%E7%94%A8helm%E5%AE%89%E8%A3%85nfs-provisioner/</loc>
   </url>
   
@@ -2908,10 +2940,6 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/h2-and-datagrip/%E5%AE%89%E8%A3%85h2-console%E5%B7%A5%E5%85%B7/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%AE%89%E8%A3%85helm/</loc>
   </url>
   
   <url>
