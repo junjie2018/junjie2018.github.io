@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Helm安装IngressNginx作废 – 小桀的笔记本</title>
+    <title>修改NodePort的范围 – 小桀的笔记本</title>
     
 
 
@@ -27,7 +27,7 @@
     
     var baseurl = JSON.parse("\"http://junjie2018.github.io\"");
     
-    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/\"");
+    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1084,14 +1084,14 @@
 
 
 <meta property="og:site_name" content="小桀的笔记本">
-<meta property="og:title" content="Helm安装IngressNginx作废">
-<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/">
+<meta property="og:title" content="修改NodePort的范围">
+<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/">
 <meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.85.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/">
+<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1115,11 +1115,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Helm安装IngressNginx作废",
+    "headline": "修改NodePort的范围",
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
-    "url" : "http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/",
-    "description": "执行指令如下： 1 2 3 4 5 helm upgrade --install ingress-nginx ingress-nginx \\ --repo https://kubernetes.github.io/ingress-nginx \\ --namespace ingress-nginx --create-namespace 创建 …",
+    "url" : "http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/",
+    "description": "修改/etc/kubernetes/manifests/kube-apiserver.yaml文件，在command下增加--service",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -1168,7 +1168,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      Helm安装IngressNginx作废
+      修改NodePort的范围
     
   </h6>
   <ul>
@@ -1198,7 +1198,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list active" data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -1225,7 +1225,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -1369,7 +1369,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -1399,17 +1399,17 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/">
+  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/">
     <span class="menu__title--collapse-text">
       Helm
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -1436,7 +1436,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -1466,7 +1466,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85redis%E5%BE%85%E5%AE%8C%E6%88%90/" class="menu__title " data-depth="2">03.安装Redis（待完成）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85redis/" class="menu__title " data-depth="2">03.安装Redis</a>
         </li>
       
     
@@ -1540,7 +1540,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -1567,7 +1567,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -1721,7 +1721,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list active" data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -1857,7 +1857,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list active" data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -1874,23 +1874,23 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/">
+  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/">
     <span class="menu__title--collapse-text">
-      Ingress
+      IngressNginx
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/ingress/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/ingressnginx/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/externaltrafficpolicy%E5%AD%97%E6%AE%B5%E7%9A%84%E9%85%8D%E7%BD%AE/" class="menu__title " data-depth="2">externalTrafficPolicy字段的配置</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/externaltrafficpolicy%E5%AD%97%E6%AE%B5%E7%9A%84%E9%85%8D%E7%BD%AE/" class="menu__title " data-depth="2">externalTrafficPolicy字段的配置</a>
         </li>
       
     
@@ -1898,7 +1898,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/" class="menu__title active" data-depth="2">Helm安装IngressNginx作废</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/" class="menu__title " data-depth="2">Helm安装IngressNginx（作废）</a>
         </li>
       
     
@@ -1906,7 +1906,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/ingress-nginx-controller-admission%E7%9A%84%E4%BD%9C%E7%94%A8/" class="menu__title " data-depth="2">ingress-nginx-controller-admission的作用</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/ingress-nginx-controller-admission%E7%9A%84%E4%BD%9C%E7%94%A8/" class="menu__title " data-depth="2">ingress-nginx-controller-admission的作用</a>
         </li>
       
     
@@ -1914,7 +1914,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/nginxingress%E7%9A%84scope%E9%85%8D%E7%BD%AE/" class="menu__title " data-depth="2">NginxIngress的Scope配置</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/nginxingress%E7%9A%84scope%E9%85%8D%E7%BD%AE/" class="menu__title " data-depth="2">NginxIngress的Scope配置</a>
         </li>
       
     
@@ -1922,7 +1922,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E4%B8%8D%E7%A0%94%E7%A9%B6metallbopenelb%E7%9A%84%E5%86%B3%E5%AE%9A/" class="menu__title " data-depth="2">不研究MetalLB、OpenELB的决定</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E4%B8%8D%E7%A0%94%E7%A9%B6metallbopenelb%E7%9A%84%E5%86%B3%E5%AE%9A/" class="menu__title " data-depth="2">不研究MetalLB、OpenELB的决定</a>
         </li>
       
     
@@ -1930,7 +1930,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E4%BD%BF%E7%94%A8nodeport%E7%B1%BB%E5%9E%8B%E6%97%B6%E9%87%8D%E5%AE%9A%E5%90%91%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="2">使用NodePort类型时，重定向需要注意的问题</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E4%BD%BF%E7%94%A8nodeport%E7%B1%BB%E5%9E%8B%E6%97%B6%E9%87%8D%E5%AE%9A%E5%90%91%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="2">使用NodePort类型时，重定向需要注意的问题</a>
         </li>
       
     
@@ -1938,7 +1938,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E9%9B%86%E7%BE%A4%E4%B8%AD%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AAingressnginx/" class="menu__title " data-depth="2">在同一个集群中安装多个IngressNginx</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E9%9B%86%E7%BE%A4%E4%B8%AD%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AAingressnginx/" class="menu__title " data-depth="2">在同一个集群中安装多个IngressNginx</a>
         </li>
       
     
@@ -1946,7 +1946,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E5%A5%87%E6%80%AA%E7%9A%84loadbalancer/" class="menu__title " data-depth="2">奇怪的LoadBalancer</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E5%A5%87%E6%80%AA%E7%9A%84loadbalancer/" class="menu__title " data-depth="2">奇怪的LoadBalancer</a>
         </li>
       
     
@@ -1954,7 +1954,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E7%A0%94%E7%A9%B6ingressnginx%E7%9A%84https%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E6%94%AF%E6%8C%81%E7%9A%84/" class="menu__title " data-depth="2">研究IngressNginx的https是如何被支持的</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E7%A0%94%E7%A9%B6ingressnginx%E7%9A%84https%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E6%94%AF%E6%8C%81%E7%9A%84/" class="menu__title " data-depth="2">研究IngressNginx的https是如何被支持的</a>
         </li>
       
     
@@ -1962,7 +1962,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E8%B5%84%E6%96%99%E5%9C%B0%E5%9D%80/" class="menu__title " data-depth="2">资料地址</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E8%B5%84%E6%96%99%E5%9C%B0%E5%9D%80/" class="menu__title " data-depth="2">资料地址</a>
         </li>
       
     
@@ -1996,7 +1996,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -2084,7 +2084,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -2148,7 +2148,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -2175,7 +2175,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -2415,7 +2415,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -2463,7 +2463,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -2504,6 +2504,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/harbor%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E7%BC%93%E5%AD%98/" class="menu__title " data-depth="1">Harbor配置代理缓存</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/" class="menu__title " data-depth="1">Headless Service的初步研究</a>
         </li>
       
     
@@ -2608,6 +2616,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E5%A4%8D%E8%8A%82%E7%82%B9%E4%B8%BAnotready%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="1">修复节点为NotReady的问题</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/" class="menu__title active" data-depth="1">修改NodePort的范围</a>
         </li>
       
     
@@ -2812,7 +2828,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -2839,7 +2855,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -2951,7 +2967,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -2999,7 +3015,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -3087,7 +3103,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -3167,7 +3183,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -3215,7 +3231,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -3423,7 +3439,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -3527,7 +3543,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -3615,7 +3631,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -3687,7 +3703,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -3783,7 +3799,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4111,7 +4127,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4159,7 +4175,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4207,7 +4223,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4234,7 +4250,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4471,7 +4487,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4519,7 +4535,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4559,7 +4575,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4631,7 +4647,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4671,7 +4687,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4727,7 +4743,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4847,7 +4863,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -4983,7 +4999,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5023,7 +5039,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5063,7 +5079,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5135,7 +5151,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5191,7 +5207,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5218,7 +5234,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5266,7 +5282,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5306,7 +5322,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5402,7 +5418,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5429,7 +5445,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5477,7 +5493,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5565,7 +5581,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5645,7 +5661,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5717,7 +5733,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -5765,7 +5781,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -6021,7 +6037,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -6109,7 +6125,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -6149,7 +6165,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -6213,7 +6229,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -6240,7 +6256,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -6557,7 +6573,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -6584,7 +6600,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -6744,7 +6760,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -6792,7 +6808,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -6872,7 +6888,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -6899,7 +6915,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7045,7 +7061,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7133,7 +7149,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7160,7 +7176,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7200,7 +7216,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7248,7 +7264,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7275,7 +7291,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7629,7 +7645,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7669,7 +7685,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7696,7 +7712,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7723,7 +7739,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7771,7 +7787,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7811,7 +7827,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7888,7 +7904,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -7915,7 +7931,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -8059,7 +8075,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -8189,7 +8205,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -8261,7 +8277,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -8309,7 +8325,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -8357,7 +8373,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -8384,7 +8400,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -8448,7 +8464,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -8576,7 +8592,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -8736,7 +8752,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -8856,7 +8872,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -9189,7 +9205,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -9232,7 +9248,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -9259,7 +9275,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -9299,7 +9315,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -9531,7 +9547,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -9603,7 +9619,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -9630,7 +9646,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -9670,7 +9686,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -9718,7 +9734,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -9766,7 +9782,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -9846,7 +9862,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -10051,7 +10067,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -10099,7 +10115,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -10126,7 +10142,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -10315,7 +10331,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -10427,7 +10443,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -10715,7 +10731,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -10989,7 +11005,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">Helm安装IngressNginx作废</h2>
+        <h2 class="title">修改NodePort的范围</h2>
       </div>
     </div>
   </div>
@@ -11002,8 +11018,6 @@
   
   <ol>
     
-  
-  
   
   
   
@@ -11041,16 +11055,9 @@
   </li>
   
   
-  <li >
-    
-      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/" class="capitalize">Ingress</a>
-    
-  </li>
-  
-  
   <li  class="is-active" >
     
-      <span>Helm安装IngressNginx作废</span>
+      <span>修改NodePort的范围</span>
     
   </li>
   
@@ -11092,7 +11099,7 @@
         <div class="menu">
   <h6 class="menu__label">
     
-      Helm安装IngressNginx作废
+      修改NodePort的范围
     
   </h6>
   <ul>
@@ -11122,7 +11129,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list active" data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -11149,7 +11156,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -11293,7 +11300,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -11323,17 +11330,17 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/">
+  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/">
     <span class="menu__title--collapse-text">
       Helm
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -11360,7 +11367,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -11390,7 +11397,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85redis%E5%BE%85%E5%AE%8C%E6%88%90/" class="menu__title " data-depth="2">03.安装Redis（待完成）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85redis/" class="menu__title " data-depth="2">03.安装Redis</a>
         </li>
       
     
@@ -11464,7 +11471,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -11491,7 +11498,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -11645,7 +11652,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list active" data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -11781,7 +11788,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list active" data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -11798,23 +11805,23 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/">
+  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/">
     <span class="menu__title--collapse-text">
-      Ingress
+      IngressNginx
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/ingress/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/ingressnginx/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/externaltrafficpolicy%E5%AD%97%E6%AE%B5%E7%9A%84%E9%85%8D%E7%BD%AE/" class="menu__title " data-depth="2">externalTrafficPolicy字段的配置</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/externaltrafficpolicy%E5%AD%97%E6%AE%B5%E7%9A%84%E9%85%8D%E7%BD%AE/" class="menu__title " data-depth="2">externalTrafficPolicy字段的配置</a>
         </li>
       
     
@@ -11822,7 +11829,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/" class="menu__title active" data-depth="2">Helm安装IngressNginx作废</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/" class="menu__title " data-depth="2">Helm安装IngressNginx（作废）</a>
         </li>
       
     
@@ -11830,7 +11837,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/ingress-nginx-controller-admission%E7%9A%84%E4%BD%9C%E7%94%A8/" class="menu__title " data-depth="2">ingress-nginx-controller-admission的作用</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/ingress-nginx-controller-admission%E7%9A%84%E4%BD%9C%E7%94%A8/" class="menu__title " data-depth="2">ingress-nginx-controller-admission的作用</a>
         </li>
       
     
@@ -11838,7 +11845,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/nginxingress%E7%9A%84scope%E9%85%8D%E7%BD%AE/" class="menu__title " data-depth="2">NginxIngress的Scope配置</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/nginxingress%E7%9A%84scope%E9%85%8D%E7%BD%AE/" class="menu__title " data-depth="2">NginxIngress的Scope配置</a>
         </li>
       
     
@@ -11846,7 +11853,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E4%B8%8D%E7%A0%94%E7%A9%B6metallbopenelb%E7%9A%84%E5%86%B3%E5%AE%9A/" class="menu__title " data-depth="2">不研究MetalLB、OpenELB的决定</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E4%B8%8D%E7%A0%94%E7%A9%B6metallbopenelb%E7%9A%84%E5%86%B3%E5%AE%9A/" class="menu__title " data-depth="2">不研究MetalLB、OpenELB的决定</a>
         </li>
       
     
@@ -11854,7 +11861,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E4%BD%BF%E7%94%A8nodeport%E7%B1%BB%E5%9E%8B%E6%97%B6%E9%87%8D%E5%AE%9A%E5%90%91%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="2">使用NodePort类型时，重定向需要注意的问题</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E4%BD%BF%E7%94%A8nodeport%E7%B1%BB%E5%9E%8B%E6%97%B6%E9%87%8D%E5%AE%9A%E5%90%91%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="2">使用NodePort类型时，重定向需要注意的问题</a>
         </li>
       
     
@@ -11862,7 +11869,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E9%9B%86%E7%BE%A4%E4%B8%AD%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AAingressnginx/" class="menu__title " data-depth="2">在同一个集群中安装多个IngressNginx</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E9%9B%86%E7%BE%A4%E4%B8%AD%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AAingressnginx/" class="menu__title " data-depth="2">在同一个集群中安装多个IngressNginx</a>
         </li>
       
     
@@ -11870,7 +11877,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E5%A5%87%E6%80%AA%E7%9A%84loadbalancer/" class="menu__title " data-depth="2">奇怪的LoadBalancer</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E5%A5%87%E6%80%AA%E7%9A%84loadbalancer/" class="menu__title " data-depth="2">奇怪的LoadBalancer</a>
         </li>
       
     
@@ -11878,7 +11885,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E7%A0%94%E7%A9%B6ingressnginx%E7%9A%84https%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E6%94%AF%E6%8C%81%E7%9A%84/" class="menu__title " data-depth="2">研究IngressNginx的https是如何被支持的</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E7%A0%94%E7%A9%B6ingressnginx%E7%9A%84https%E6%98%AF%E5%A6%82%E4%BD%95%E8%A2%AB%E6%94%AF%E6%8C%81%E7%9A%84/" class="menu__title " data-depth="2">研究IngressNginx的https是如何被支持的</a>
         </li>
       
     
@@ -11886,7 +11893,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/%E8%B5%84%E6%96%99%E5%9C%B0%E5%9D%80/" class="menu__title " data-depth="2">资料地址</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/%E8%B5%84%E6%96%99%E5%9C%B0%E5%9D%80/" class="menu__title " data-depth="2">资料地址</a>
         </li>
       
     
@@ -11920,7 +11927,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -12008,7 +12015,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -12072,7 +12079,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -12099,7 +12106,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -12339,7 +12346,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -12387,7 +12394,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -12428,6 +12435,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/harbor%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E7%BC%93%E5%AD%98/" class="menu__title " data-depth="1">Harbor配置代理缓存</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/" class="menu__title " data-depth="1">Headless Service的初步研究</a>
         </li>
       
     
@@ -12532,6 +12547,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E5%A4%8D%E8%8A%82%E7%82%B9%E4%B8%BAnotready%E7%9A%84%E9%97%AE%E9%A2%98/" class="menu__title " data-depth="1">修复节点为NotReady的问题</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/" class="menu__title active" data-depth="1">修改NodePort的范围</a>
         </li>
       
     
@@ -12736,7 +12759,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -12763,7 +12786,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -12875,7 +12898,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -12923,7 +12946,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -13011,7 +13034,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -13091,7 +13114,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -13139,7 +13162,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -13347,7 +13370,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -13451,7 +13474,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -13539,7 +13562,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -13611,7 +13634,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -13707,7 +13730,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14035,7 +14058,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14083,7 +14106,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14131,7 +14154,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14158,7 +14181,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14395,7 +14418,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14443,7 +14466,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14483,7 +14506,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14555,7 +14578,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14595,7 +14618,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14651,7 +14674,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14771,7 +14794,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14907,7 +14930,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14947,7 +14970,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -14987,7 +15010,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15059,7 +15082,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15115,7 +15138,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15142,7 +15165,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15190,7 +15213,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15230,7 +15253,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15326,7 +15349,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15353,7 +15376,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15401,7 +15424,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15489,7 +15512,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15569,7 +15592,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15641,7 +15664,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15689,7 +15712,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -15945,7 +15968,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -16033,7 +16056,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -16073,7 +16096,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -16137,7 +16160,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -16164,7 +16187,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -16481,7 +16504,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -16508,7 +16531,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -16668,7 +16691,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -16716,7 +16739,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -16796,7 +16819,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -16823,7 +16846,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -16969,7 +16992,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17057,7 +17080,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17084,7 +17107,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17124,7 +17147,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17172,7 +17195,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17199,7 +17222,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17553,7 +17576,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17593,7 +17616,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17620,7 +17643,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E6%95%B4%E7%90%86/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17647,7 +17670,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/01-%E5%AE%89%E8%A3%85/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17695,7 +17718,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17735,7 +17758,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17812,7 +17835,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17839,7 +17862,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -17983,7 +18006,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -18113,7 +18136,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -18185,7 +18208,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -18233,7 +18256,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -18281,7 +18304,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -18308,7 +18331,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -18372,7 +18395,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -18500,7 +18523,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -18660,7 +18683,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -18780,7 +18803,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19113,7 +19136,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19156,7 +19179,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19183,7 +19206,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19223,7 +19246,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19455,7 +19478,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19527,7 +19550,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19554,7 +19577,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19594,7 +19617,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19642,7 +19665,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19690,7 +19713,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19770,7 +19793,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -19975,7 +19998,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -20023,7 +20046,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -20050,7 +20073,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -20239,7 +20262,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -20351,7 +20374,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -20639,7 +20662,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/helm%E5%AE%89%E8%A3%85ingressnginx%E4%BD%9C%E5%BA%9F/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/>
     
       
         
@@ -20686,133 +20709,10 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <p>执行指令如下：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">
-helm upgrade --install ingress-nginx ingress-nginx <span class="se">\
-</span><span class="se"></span>  --repo https://kubernetes.github.io/ingress-nginx <span class="se">\
-</span><span class="se"></span>  --namespace ingress-nginx --create-namespace
-
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="创建服务进行测试">创建服务进行测试</h2>
-<ol>
-<li>创建必要的资源</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">
-<span class="c1"># 创建一个Deployment及Service</span>
-kubectl create deployment demo --image<span class="o">=</span>httpd --port<span class="o">=</span><span class="m">80</span>
-kubectl expose deployment demo
-
-<span class="c1"># 创建Ingress资源</span>
-kubectl create ingress demo-localhost <span class="se">\
-</span><span class="se"></span>  --class<span class="o">=</span>nginx <span class="se">\
-</span><span class="se"></span>  --rule<span class="o">=</span>demo.localdev.me/*<span class="o">=</span>demo:80
-
-</code></pre></td></tr></table>
-</div>
-</div><ol start="2">
-<li>使用<code>kubectl get services -n ingress-nginx -o wide</code>查看Ingress的端口</li>
-</ol>
-<p><p class="md__image">
-  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2022-01-13-15-21-31.png" alt="2022-01-13-15-21-31"  />
-</p></p>
-<ol start="3">
-<li>配置开发机的Host</li>
-</ol>
-<p><p class="md__image">
-  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2022-01-13-15-21-09.png" alt="2022-01-13-15-21-09"  />
-</p></p>
-<ol start="4">
-<li>使用浏览器进行访问</li>
-</ol>
-<p><p class="md__image">
-  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2022-01-13-15-20-50.png" alt="2022-01-13-15-20-50"  />
-</p></p>
-<h2 id="检查ingress-controller-version">检查Ingress Controller Version</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">
-<span class="nv">POD_NAMESPACE</span><span class="o">=</span>ingress-nginx
-<span class="nv">POD_NAME</span><span class="o">=</span><span class="k">$(</span>kubectl get pods -n <span class="nv">$POD_NAMESPACE</span> -l app.kubernetes.io/name<span class="o">=</span>ingress-nginx --field-selector<span class="o">=</span>status.phase<span class="o">=</span>Running -o name<span class="k">)</span>
-kubectl <span class="nb">exec</span> <span class="nv">$POD_NAME</span> -n <span class="nv">$POD_NAMESPACE</span> -- /nginx-ingress-controller --version
-
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="生成证书">生成证书</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">
-openssl req -x509 -nodes -days <span class="m">365</span> -newkey rsa:2048 <span class="se">\
-</span><span class="se"></span>  -keyout nginx.key <span class="se">\
-</span><span class="se"></span>  -out nginx.crt <span class="se">\
-</span><span class="se"></span>  -subj <span class="s2">&#34;/CN=th-2&#34;</span>
-
-</code></pre></td></tr></table>
-</div>
-</div><ul>
-<li>
-<p>CountryName(/C)</p>
-</li>
-<li>
-<p>StateOrProvinceName(/ST)</p>
-</li>
-<li>
-<p>LocalityName(/L)</p>
-</li>
-<li>
-<p>OrganizationName(/O)</p>
-</li>
-<li>
-<p>OrganizationUnitName(/OU)</p>
-</li>
-<li>
-<p>CommonName(ed,your name or your server&rsquo;s name)(/CN)</p>
-</li>
-<li>
-<p>EmailAddress(/emailAddress)</p>
-</li>
-</ul>
+    <p>修改<code>/etc/kubernetes/manifests/kube-apiserver.yaml</code>文件，在command下增加<code>--service-node-port-range=30000-40000</code>，然后等待api-server重启。</p>
 <h2 id="参考资料">参考资料</h2>
 <ol>
-<li><a href="https://kubernetes.github.io/ingress-nginx/deploy/" target="_blank">NGINX Ingress Controller</a></li>
+<li><a href="https://kuboard.cn/install/install-node-port-range.html" target="_blank">Kubernetes调整nodePort端口范围</a></li>
 </ol>
 
   </article>
@@ -20822,17 +20722,17 @@ openssl req -x509 -nodes -days <span class="m">365</span> -newkey rsa:2048 <span
 <nav class="pagination-single">
   
     
-      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/externaltrafficpolicy%E5%AD%97%E6%AE%B5%E7%9A%84%E9%85%8D%E7%BD%AE/" title="externalTrafficPolicy字段的配置" class="pagination-single__left">
+      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E5%A4%8D%E8%8A%82%E7%82%B9%E4%B8%BAnotready%E7%9A%84%E9%97%AE%E9%A2%98/" title="修复节点为NotReady的问题" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__right-title">externalTrafficPolicy字段的配置</div>
+        <div class="pagination-single__right-title">修复节点为NotReady的问题</div>
       </a>
     
     <div class="grow"></div>
     
-      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/ingress-nginx-controller-admission%E7%9A%84%E4%BD%9C%E7%94%A8/" title="ingress-nginx-controller-admission的作用" class="pagination-single__right">
-        <div class="pagination-single__left-title">ingress-nginx-controller-admission的作用</div>
+      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%85%B3%E4%BA%8Eautomountserviceaccounttoken%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E9%AA%8C/" title="关于automountServiceAccountToken配置的实验" class="pagination-single__right">
+        <div class="pagination-single__left-title">关于automountServiceAccountToken配置的实验</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -20852,9 +20752,6 @@ openssl req -x509 -nodes -days <span class="m">365</span> -newkey rsa:2048 <span
   <div class="toc__body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#创建服务进行测试">创建服务进行测试</a></li>
-    <li><a href="#检查ingress-controller-version">检查Ingress Controller Version</a></li>
-    <li><a href="#生成证书">生成证书</a></li>
     <li><a href="#参考资料">参考资料</a></li>
   </ul>
 </nav>

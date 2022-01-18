@@ -14,11 +14,11 @@
     
       
       <item>
-        <title>Ingress</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/</link>
+        <title>IngressNginx</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingress/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/</guid>
         <description></description>
       </item>
       
@@ -74,6 +74,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/harbor%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E7%BC%93%E5%AD%98/</guid>
         <description>目前这个方式适用的场景有点窄，只用为Docker Hub和同Harbor仓库进行代理缓存。先观望着吧。 参考资料 使用harbor代理缓存dock</description>
+      </item>
+      
+      <item>
+        <title>Headless Service的初步研究</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/</guid>
+        <description>今天看一篇关于如何在Kubernetes中搭建Redis集群的博文时，看到了如下关于Headless Service的描述： 简单的说，Head</description>
       </item>
       
       <item>
@@ -191,6 +200,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E5%A4%8D%E8%8A%82%E7%82%B9%E4%B8%BAnotready%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>这个问题我之前从未遇到过，先说说我怎么发现这个问题的，我使用Helm安装chart时，发现Release一直处于Pending状态，所以我顺</description>
+      </item>
+      
+      <item>
+        <title>修改NodePort的范围</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E4%BF%AE%E6%94%B9nodeport%E7%9A%84%E8%8C%83%E5%9B%B4/</guid>
+        <description>修改/etc/kubernetes/manifests/kube-apiserver.yaml文件，在command下增加--service</description>
       </item>
       
       <item>

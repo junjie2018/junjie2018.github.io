@@ -41,12 +41,12 @@
       </item>
       
       <item>
-        <title>03.安装Redis（待完成）</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85redis%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <title>03.安装Redis</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85redis/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85redis%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
-        <description></description>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85redis/</guid>
+        <description>使用如下指令，反复调整配置： 1 2 3 4 5 helm repo add bitnami https://charts.bitnami.com/bitnami helm inspect values bitnami/redis &amp;gt; values.yaml helm install bitnami/redis --dry-run --values values.yaml --generate-name &amp;gt; tmp.yaml 启动redis 1 2 3 4 5 6 helm install redis bitnami/redis \ --values values.yaml \ --namespace base-environment \ --create-namespace 暴露该服务 暴</description>
       </item>
       
       <item>
