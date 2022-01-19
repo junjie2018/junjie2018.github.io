@@ -15,12 +15,12 @@
     
       
       <item>
-        <title>00.安装Helm</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/00.%E5%AE%89%E8%A3%85helm/</link>
+        <title>00.Headless Service的初步研究</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/00.headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/00.%E5%AE%89%E8%A3%85helm/</guid>
-        <description>我使用的指令如下： 1 2 3 4 5 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 chmod 700 get_helm.sh ./get_helm.sh 参考资料 安装Helm</description>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/00.headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/</guid>
+        <description>今天看一篇关于如何在Kubernetes中搭建Redis集群的博文时，看到了如下关于Headless Service的描述： 简单的说，Head</description>
       </item>
       
       <item>
@@ -222,6 +222,15 @@
       </item>
       
       <item>
+        <title>01.CoreDNS的一些知识</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/01.coredns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/01.coredns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
+        <description>resolv.conf resolv.conf是解析器配置文件，其中包含如下内容： nameserver：将DNS查询转发到的位置。 search：表示特定域的搜索路</description>
+      </item>
+      
+      <item>
         <title>01.Helm与Kubernetes集群交互</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/01.helm%E4%B8%8Ekubernetes%E9%9B%86%E7%BE%A4%E4%BA%A4%E4%BA%92/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -258,12 +267,12 @@
       </item>
       
       <item>
-        <title>01.安装IngressNginx</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/01.%E5%AE%89%E8%A3%85ingressnginx/</link>
+        <title>01.安装Helm</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/01.%E5%AE%89%E8%A3%85helm/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/01.%E5%AE%89%E8%A3%85ingressnginx/</guid>
-        <description>这次实验我不是完全按照官方教程走的，我做了如下改变： 添加了仓库 拿到了chart的values.yaml文件 使用helm upgrade进行更新</description>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/01.%E5%AE%89%E8%A3%85helm/</guid>
+        <description>使用的指令如下： 1 2 3 4 5 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 chmod 700 get_helm.sh ./get_helm.sh 参考资料 安装Helm</description>
       </item>
       
       <item>
@@ -438,12 +447,21 @@
       </item>
       
       <item>
-        <title>02.安装nfs-provisioner</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/02.%E5%AE%89%E8%A3%85nfs-provisioner/</link>
+        <title>02.关于Headless Service的一些实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/02.%E5%85%B3%E4%BA%8Eheadless-service%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AE%9E%E9%AA%8C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/02.%E5%AE%89%E8%A3%85nfs-provisioner/</guid>
-        <description>指令如下： helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/ helm inspect values nfs-subdir-external-provisioner/nfs-subdir-external-provisioner &amp;gt; values.yaml helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner \ --values values.yaml \ --namespace nfs \ --create-namespace NFS配置请参考相关类目下笔记。 参考资料 kubernetes-sigs/nfs-subdir-external-provisioner</description>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/02.%E5%85%B3%E4%BA%8Eheadless-service%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AE%9E%E9%AA%8C/</guid>
+        <description>在我的环境中，base-environment下有相应Service和HeadlessService可以用来实验，所以我计划在该命名空间下进</description>
+      </item>
+      
+      <item>
+        <title>02.安装IngressNginx</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/02.%E5%AE%89%E8%A3%85ingressnginx/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/02.%E5%AE%89%E8%A3%85ingressnginx/</guid>
+        <description>仓库 1 2 3 4 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx helm repo update 获取默认的Values.yaml，并反复调试 helm inspect values ingress-nginx/ingress-nginx &amp;gt; values.yaml helm install ingress-nginx ingress-nginx/ingress-nginx \ --values values.yaml \ --namespace ingress-nginx \ --create-namespace \ --dry-run &amp;gt; tmp.yaml 安装服务 helm install ingress-nginx ingress-nginx/ingress-nginx \ --values values.yaml \</description>
       </item>
       
       <item>
@@ -474,12 +492,12 @@
       </item>
       
       <item>
-        <title>03.安装Redis</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85redis/</link>
+        <title>03.安装nfs-provisioner</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85nfs-provisioner/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85redis/</guid>
-        <description>使用如下指令，反复调整配置： 1 2 3 4 5 helm repo add bitnami https://charts.bitnami.com/bitnami helm inspect values bitnami/redis &amp;gt; values.yaml helm install bitnami/redis --dry-run --values values.yaml --generate-name &amp;gt; tmp.yaml 启动redis 1 2 3 4 5 6 helm install redis bitnami/redis \ --values values.yaml \ --namespace base-environment \ --create-namespace 暴露该服务 暴</description>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85nfs-provisioner/</guid>
+        <description>仓库 1 2 3 helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/ 获取默认的Values.yaml，并反复调试 helm inspect values nfs-subdir-external-provisioner/nfs-subdir-external-provisioner &amp;gt; values.yaml helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner \ --values values.yaml \ --namespace nfs \ --create-namespace \ --dry-run &amp;gt; tmp.yaml 安装服务 helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner \ --values values.yaml \ --namespace nfs \ --create-namespace</description>
       </item>
       
       <item>
@@ -525,6 +543,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
         <description></description>
+      </item>
+      
+      <item>
+        <title>04.安装Redis</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/</guid>
+        <description>仓库 1 2 helm repo add bitnami https://charts.bitnami.com/bitnami 获取默认的Values.yaml，并反复调试 helm inspect values bitnami/redis &amp;gt; values.yaml helm install redis bitnami/redis \ --values values.yaml \ --namespace base-environment \ --create-namespace \ --dry-run &amp;gt; tmp.yaml 安装服务 helm install redis bitnami/redis \ --values values.yaml \ --namespace base-environment \ --create-namespace 暴</description>
       </item>
       
       <item>
@@ -2091,15 +2118,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/harbor%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E7%BC%93%E5%AD%98/</guid>
         <description>目前这个方式适用的场景有点窄，只用为Docker Hub和同Harbor仓库进行代理缓存。先观望着吧。 参考资料 使用harbor代理缓存dock</description>
-      </item>
-      
-      <item>
-        <title>Headless Service的初步研究</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/</guid>
-        <description>今天看一篇关于如何在Kubernetes中搭建Redis集群的博文时，看到了如下关于Headless Service的描述： 简单的说，Head</description>
       </item>
       
       <item>

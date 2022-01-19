@@ -14,6 +14,15 @@
     
       
       <item>
+        <title>HeadlessService</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>IngressNginx</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -74,15 +83,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/harbor%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E7%BC%93%E5%AD%98/</guid>
         <description>目前这个方式适用的场景有点窄，只用为Docker Hub和同Harbor仓库进行代理缓存。先观望着吧。 参考资料 使用harbor代理缓存dock</description>
-      </item>
-      
-      <item>
-        <title>Headless Service的初步研究</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/</guid>
-        <description>今天看一篇关于如何在Kubernetes中搭建Redis集群的博文时，看到了如下关于Headless Service的描述： 简单的说，Head</description>
       </item>
       
       <item>
