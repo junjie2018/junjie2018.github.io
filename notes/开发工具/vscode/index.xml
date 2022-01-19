@@ -50,6 +50,15 @@
       </item>
       
       <item>
+        <title>VS Code设置默认终端为Git bash</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E4%B8%BAgit-bash/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E4%B8%BAgit-bash/</guid>
+        <description>踩了一些坑，所以记录一下： 我踩的坑：我在配置为Power Shell时，按Ctrl + Shift + ~打开过一次终端，更新了配置后，即使是重启都还是Pow</description>
+      </item>
+      
+      <item>
         <title>VS Code配置使用Idea快捷键</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8idea%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

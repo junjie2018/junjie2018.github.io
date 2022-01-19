@@ -222,11 +222,11 @@
       </item>
       
       <item>
-        <title>01.CoreDNS的一些知识</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/01.coredns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</link>
+        <title>01.CoreDNS的一些知识（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/01.coredns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86%E5%BA%9F%E5%BC%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/01.coredns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/01.coredns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86%E5%BA%9F%E5%BC%83/</guid>
         <description>resolv.conf resolv.conf是解析器配置文件，其中包含如下内容： nameserver：将DNS查询转发到的位置。 search：表示特定域的搜索路</description>
       </item>
       
@@ -447,11 +447,11 @@
       </item>
       
       <item>
-        <title>02.关于Headless Service的一些实验</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/02.%E5%85%B3%E4%BA%8Eheadless-service%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AE%9E%E9%AA%8C/</link>
+        <title>02.关于Headless Service的一些实验（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/02.%E5%85%B3%E4%BA%8Eheadless-service%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AE%9E%E9%AA%8C%E5%BA%9F%E5%BC%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/02.%E5%85%B3%E4%BA%8Eheadless-service%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AE%9E%E9%AA%8C/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/headlessservice/02.%E5%85%B3%E4%BA%8Eheadless-service%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AE%9E%E9%AA%8C%E5%BA%9F%E5%BC%83/</guid>
         <description>在我的环境中，base-environment下有相应Service和HeadlessService可以用来实验，所以我计划在该命名空间下进</description>
       </item>
       
@@ -4227,6 +4227,15 @@
       </item>
       
       <item>
+        <title>VS Code设置默认终端为Git bash</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E4%B8%BAgit-bash/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E4%B8%BAgit-bash/</guid>
+        <description>踩了一些坑，所以记录一下： 我踩的坑：我在配置为Power Shell时，按Ctrl + Shift + ~打开过一次终端，更新了配置后，即使是重启都还是Pow</description>
+      </item>
+      
+      <item>
         <title>VS Code配置使用Idea快捷键</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vscode/vs-code%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8idea%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4251,6 +4260,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring-mvc/webapplicationinitializer%E6%8E%A5%E5%8F%A3/</guid>
         <description>目前先整理一下这部分资料，以后要深入学习的。 WebApplicationInitializer是Spring MVC提供的一个接口，它会查找你</description>
+      </item>
+      
+      <item>
+        <title>WebUI无法打开</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/webui%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/webui%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80/</guid>
+        <description>PVE突然WEBUI不可访问了，无论是本地还是远程。但是SSH访问还是正常的，在网上找了一圈方案，没有很好的解决办法，最后选择重启整个系统解</description>
       </item>
       
       <item>
