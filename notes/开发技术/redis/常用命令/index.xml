@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>03 常用命令 on 小桀的笔记本</title>
-    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
-    <description>Recent content in 03 常用命令 on 小桀的笔记本</description>
+    <title>常用命令 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+    <description>Recent content in 常用命令 on 小桀的笔记本</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     
-        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>01.String相关命令</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01.string%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01.string%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01.string%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01.string%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</guid>
         <description>APPEND key STRLEN key LCS key1 key2 [LEN] [IDX] [MINMATCHLEN len] [WITHMATCHLEN] # 设置 SET key value [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET] SETNX key value SETEX key seconds value PSETEX key milliseconds value SETRANGE key offset value # 获取 GET key GETSET key value GETRANGE key start end GETDEL key GETEX key [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|PERSIST] MGET key [key ...] MSET key value [key value</description>
       </item>
       
       <item>
         <title>02.List相关命令</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</guid>
         <description># List操作 LLEN key LSET key index element LREM key count element LTRIM key start stop LINDEX key index LINSERT key BEFORE|AFTER pivot element LPOS key element [Rank rank] [COUNT num-matches] [MAXLEN len] LRANGE key start stop # 队列操作 LPUSH key element [element ...] LPUSHX key element [element ...] LPOP key [count] RPUSH key elemet [element ...] RPUSHX key element [element ...]</description>
       </item>
       
       <item>
         <title>03.Set相关命令</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</guid>
         <description>SADD key member [member ...] SREM key member [member ...] SISMEMBER key member SMISMEMBER key member [member ...] SCARD key SMEMBERS key SCAN key cursor [MATCH pattern] [COUNT count] SMOVE source destination member SPOP key [count] SRANDMEMBER key [count] # 集合操作 SUNION key [key ...] SUNIONSTORE destination key [key ...] SINTER key [key ...] SINTERSTORE destination key [key ...] SDIFF key [key ...] SDIFFSTORE destination key [key</description>
       </item>
       
       <item>
         <title>04.Hash相关命令</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04.hash%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04.hash%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04.hash%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04.hash%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</guid>
         <description>HEXISTS key field HKEYS key HLEN key HSTRLEN key field HVALS key HSCAN key cursor [MATCH pattern] [COUNT count] HSET key field value [field value ...] HSETNX key field value HMSET key field value [field value ...] HDEL key field [field ...] HGET key field HGETALL key HMGET key [field ...] HRANDFIELD key [count [WITHVALUES]] HINCREBY key field increment HINCREBYFLOAT key field increment 数据结构 Has</description>
       </item>
       
       <item>
         <title>05.ZSet相关的命令</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/</guid>
         <description># 阻塞 BZPOPMIN key [key ...] BZPOPMAX key [key ...] BZPOP timeout numkeys key [key ...] MIN|MAX [COUNT count] # 针对分数的操作 ZPOPMIN key min max ZPOPMAX key [count] ZMPOP numkeys key [key ...] ZLEXCOUNT key min max ZADD key [NX|XX] [GT|LT] [CH] [INCR] score member [score member ...] ZCARD key ZCOUNT key min max ZSCAN ZINCREBY key increment member ZSCORE ZMSCORE ZRANGE ZRANGESTORE</description>
       </item>
       

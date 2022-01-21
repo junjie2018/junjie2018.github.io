@@ -14,11 +14,11 @@
     
       
       <item>
-        <title>整理</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/</link>
+        <title>常用命令</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
         <description></description>
       </item>
       
@@ -29,6 +29,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/</guid>
         <description></description>
+      </item>
+      
+      <item>
+        <title>@Transactional注解于Spring Data Redis事务</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/transactional%E6%B3%A8%E8%A7%A3%E4%BA%8Espring-data-redis%E4%BA%8B%E5%8A%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/transactional%E6%B3%A8%E8%A7%A3%E4%BA%8Espring-data-redis%E4%BA%8B%E5%8A%A1/</guid>
+        <description>默认情况下，RedisTemplate不参与托管的Spring事务。如果希望RedisTemplate在使用@Transactional或T</description>
       </item>
       
       <item>
@@ -77,6 +86,15 @@
       </item>
       
       <item>
+        <title>Ubuntu上安装Redis6（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85redis6%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85redis6%E5%BA%9F%E5%BC%83/</guid>
+        <description>安装gcc、make工具 1 2 3 sudo apt install -y gcc make 官网下载源码，解压源码文件 1 2 3 4 tar redis-6.2.6.tar.gz cd redis-6.2.6 指定安装目录并进行编译、安装 1 2 3 sudo make PREFIX=/usr/local/redis6 install 检查安装结果 1</description>
+      </item>
+      
+      <item>
         <title>使用redisson的锁</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%BD%BF%E7%94%A8redisson%E7%9A%84%E9%94%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -110,6 +128,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%9C%A8springboot%E4%B8%AD%E9%85%8D%E7%BD%AE%E4%BA%86redis%E8%BF%9E%E6%8E%A5%E6%B1%A0%E5%90%8E%E9%93%BE%E6%8E%A5%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>问题描述 描述如下 java.lang.IllegalStateException: Failed to load ApplicationContext at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) at org.junit.runners.ParentRunner.run(ParentRunner.java:363) at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) at org.junit.runner.JUnitCore.run(JUnitCore.java:137) at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with</description>
+      </item>
+      
+      <item>
+        <title>将Redis安装在CentOS 7上（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A%E5%BA%9F%E5%BC%83/</guid>
+        <description>操作步骤 从官网下载源码包 yum install -y gcc mkdir -p ~/Software/Redis &amp;amp;&amp;amp; cd ~/Software/Redis wget http://download.redis.io/releases/redis-5.0.8.tar.gz 解压并编译安装 1 2 3 4 5 6 7 8 9 10 # yum install -y gcc tar -zxvf redis-5.0.8.tar.gz cd redis-5.0.8 make # 指定安装目录 make install PREFIX=/usr/local/redis 设置环境变量 1 2</description>
+      </item>
+      
+      <item>
+        <title>将Redis配置成后台启动</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B0%86redis%E9%85%8D%E7%BD%AE%E6%88%90%E5%90%8E%E5%8F%B0%E5%90%AF%E5%8A%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B0%86redis%E9%85%8D%E7%BD%AE%E6%88%90%E5%90%8E%E5%8F%B0%E5%90%AF%E5%8A%A8/</guid>
+        <description>拷贝一份配置文件 cp Software/redis-6.2.6/redis.conf ~/redis.conf 设置daemonize no为daemonnize yes（有时间需要研究一下sed指令了） 使用该配置文件启动Redis服</description>
       </item>
       
       <item>

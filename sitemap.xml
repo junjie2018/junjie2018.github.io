@@ -3,18 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-  </url>
-  
-  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/actuator/</loc>
   </url>
   
@@ -375,6 +363,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</loc>
   </url>
   
@@ -392,10 +384,6 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/</loc>
   </url>
   
   <url>
@@ -539,19 +527,11 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01.string%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/02-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/01.%E5%90%8E%E5%8F%B0%E5%90%AF%E5%8A%A8%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01.string%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</loc>
   </url>
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/01.%E5%AE%89%E8%A3%85helm/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/01.%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A/</loc>
   </url>
   
   <url>
@@ -615,15 +595,11 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</loc>
   </url>
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/02.serviceaccount/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/01-%E5%AE%89%E8%A3%85/02.ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85redis6/</loc>
   </url>
   
   <url>
@@ -643,7 +619,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</loc>
   </url>
   
   <url>
@@ -659,7 +635,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04.hash%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04.hash%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</loc>
   </url>
   
   <url>
@@ -679,7 +655,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%95%B4%E7%90%86/03-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/</loc>
   </url>
   
   <url>
@@ -880,6 +856,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-plus/tablefield%E5%A4%84%E7%90%86%E8%A1%A8%E4%B8%AD%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%AD%97%E6%AE%B5/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/transactional%E6%B3%A8%E8%A7%A3%E4%BA%8Espring-data-redis%E4%BA%8B%E5%8A%A1/</loc>
   </url>
   
   <url>
@@ -2267,6 +2247,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85redis6%E5%BA%9F%E5%BC%83/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu%E4%B8%AD%E7%9A%84environment%E6%96%87%E4%BB%B6/</loc>
   </url>
   
@@ -3028,6 +3012,14 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E5%B0%86python%E8%84%9A%E6%9C%AC%E6%89%93%E5%8C%85%E6%88%90%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B0%86redis%E5%AE%89%E8%A3%85%E5%9C%A8centos-7%E4%B8%8A%E5%BA%9F%E5%BC%83/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B0%86redis%E9%85%8D%E7%BD%AE%E6%88%90%E5%90%8E%E5%8F%B0%E5%90%AF%E5%8A%A8/</loc>
   </url>
   
   <url>
