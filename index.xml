@@ -6558,6 +6558,15 @@
       </item>
       
       <item>
+        <title>管道</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AE%A1%E9%81%93/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AE%A1%E9%81%93/</guid>
+        <description>服务端使用内存对结果排序 当客户端使用流水线发送命令时，服务器将被迫使用内存对回复进行排队。因此，如果您需要使用流水线发送大量命令，最好将它们</description>
+      </item>
+      
+      <item>
         <title>组合约束</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/%E7%BB%84%E5%90%88%E7%BA%A6%E6%9D%9F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
