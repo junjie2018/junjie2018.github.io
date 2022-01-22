@@ -22,6 +22,33 @@
         <description>由于各个Spring Data模块的启动日期不同，它们中的大多数带有不同的主要和次要版本号。找到兼容版本的最简单方法是依赖官方随定义的兼容版本</description>
       </item>
       
+      <item>
+        <title>002.序列化器</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/002.%E5%BA%8F%E5%88%97%E5%8C%96%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/002.%E5%BA%8F%E5%88%97%E5%8C%96%E5%99%A8/</guid>
+        <description>在Spring Data中，用户（自定义）类型和原始数据（反之亦然）之间的转换由org.springframework.data.redis.</description>
+      </item>
+      
+      <item>
+        <title>003.消息的发布和订阅</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/</guid>
+        <description>发布消息 要发布消息，可以使用与其他操作一样的低级RedisConnection或高级RedisTemplate。两个实体都提供发布方法，该方</description>
+      </item>
+      
+      <item>
+        <title>004.哈希映射</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/004.%E5%93%88%E5%B8%8C%E6%98%A0%E5%B0%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/004.%E5%93%88%E5%B8%8C%E6%98%A0%E5%B0%84/</guid>
+        <description>可以使用Redis哈希实现更复杂的结构化对象映射，Spring Data Redis提供了将数据映射到哈希的各种决策： 直接映射，使用HashOpera</description>
+      </item>
+      
     
   </channel>
 </rss>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>02.List相关命令 – 小桀的笔记本</title>
+    <title>003.消息的发布和订阅 – 小桀的笔记本</title>
     
 
 
@@ -27,7 +27,7 @@
     
     var baseurl = JSON.parse("\"http://junjie2018.github.io\"");
     
-    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/\"");
+    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1084,14 +1084,14 @@
 
 
 <meta property="og:site_name" content="小桀的笔记本">
-<meta property="og:title" content="02.List相关命令">
-<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/">
+<meta property="og:title" content="003.消息的发布和订阅">
+<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/">
 <meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.85.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/">
+<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1115,11 +1115,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "02.List相关命令",
+    "headline": "003.消息的发布和订阅",
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
-    "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/",
-    "description": "# List操作 LLEN key LSET key index element LREM key count element LTRIM key start stop LINDEX key index LINSERT key BEFORE|AFTER pivot element LPOS key element [Rank rank] …",
+    "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/",
+    "description": "发布消息 要发布消息，可以使用与其他操作一样的低级RedisConnection或高级RedisTemplate。两个实体都提供发布方法，该方",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -1168,7 +1168,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      02.List相关命令
+      003.消息的发布和订阅
     
   </h6>
   <ul>
@@ -1198,7 +1198,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -1225,7 +1225,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -1369,7 +1369,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -1409,7 +1409,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -1436,7 +1436,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -1530,17 +1530,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/">
     <span class="menu__title--collapse-text">
       笔记
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -1567,7 +1567,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -1721,7 +1721,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -1857,7 +1857,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -1884,7 +1884,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/headlessservice/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/headlessservice/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -1940,7 +1940,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ingressnginx/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/ingressnginx/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -2052,7 +2052,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -2140,7 +2140,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -2194,17 +2194,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/">
     <span class="menu__title--collapse-text">
       笔记
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -2231,7 +2231,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -2471,7 +2471,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -2519,7 +2519,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -2876,7 +2876,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -2903,7 +2903,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -3015,7 +3015,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -3063,7 +3063,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -3151,7 +3151,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -3231,7 +3231,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -3279,7 +3279,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -3487,7 +3487,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -3591,7 +3591,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -3679,7 +3679,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -3751,7 +3751,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -3847,7 +3847,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -4175,7 +4175,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -4223,7 +4223,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -4271,7 +4271,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -4298,7 +4298,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -4535,7 +4535,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -4583,7 +4583,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -4623,7 +4623,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -4695,7 +4695,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -4735,7 +4735,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -4791,7 +4791,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -4911,7 +4911,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5047,7 +5047,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5087,7 +5087,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5127,7 +5127,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5207,7 +5207,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5263,7 +5263,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5290,7 +5290,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5338,7 +5338,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5378,7 +5378,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5474,7 +5474,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5501,7 +5501,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5549,7 +5549,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5637,7 +5637,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5717,7 +5717,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5789,7 +5789,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -5837,7 +5837,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -6093,7 +6093,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -6181,7 +6181,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -6221,7 +6221,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -6285,7 +6285,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -6312,7 +6312,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -6629,7 +6629,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -6656,7 +6656,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -6816,7 +6816,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -6864,7 +6864,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -6944,7 +6944,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -6971,7 +6971,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -7117,7 +7117,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -7205,7 +7205,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -7232,7 +7232,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -7272,7 +7272,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -7310,17 +7310,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/">
     <span class="menu__title--collapse-text">
       笔记
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -7347,7 +7347,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -7701,7 +7701,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -7741,7 +7741,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -7758,23 +7758,23 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
+  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/">
     <span class="menu__title--collapse-text">
-      常用命令
+      Scripts
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/scripts/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01.string%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="2">01.String相关命令</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/springboot%E4%BD%BF%E7%94%A8redis%E8%84%9A%E6%9C%AC/" class="menu__title " data-depth="2">SpringBoot使用Redis脚本</a>
         </li>
       
     
@@ -7782,7 +7782,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title active" data-depth="2">02.List相关命令</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/%E5%AE%9E%E7%8E%B0%E7%8A%B6%E6%80%81%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E9%80%81%E5%8A%9F%E8%83%BD/" class="menu__title " data-depth="2">实现状态消息的发送功能</a>
         </li>
       
     
@@ -7790,7 +7790,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="2">03.Set相关命令</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/%E7%BB%88%E6%AD%A2%E6%AD%A3%E5%9C%A8%E6%89%A7%E8%A1%8C%E7%9A%84%E8%84%9A%E6%9C%AC/" class="menu__title " data-depth="2">终止正在执行的脚本</a>
         </li>
       
     
@@ -7798,15 +7798,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04.hash%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="2">04.Hash相关命令</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="2">05.ZSet相关的命令</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/%E8%BF%94%E5%9B%9E%E5%80%BC%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/" class="menu__title " data-depth="2">返回值需要注意的地方</a>
         </li>
       
     
@@ -7830,9 +7822,9 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/">
+  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%AE%9E%E9%AA%8C/">
     <span class="menu__title--collapse-text">
-      笔记
+      实验
     </span>
     <span class="menu__title--icon right">
       
@@ -7840,7 +7832,47 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%AE%9E%E9%AA%8C/%E7%A0%94%E7%A9%B6/" class="menu__title " data-depth="2">研究</a>
+        </li>
+      
+    
+  </ul>
+  
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/">
+    <span class="menu__title--collapse-text">
+      笔记
+    </span>
+    <span class="menu__title--icon down">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
+      
+    </span>
+  </li>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -7867,7 +7899,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -8001,9 +8033,73 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="3" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/">
+  <li class="menu__title--collapse active" data-depth="3" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/">
     <span class="menu__title--collapse-text">
       Spring Data Redis文档
+    </span>
+    <span class="menu__title--icon down">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
+      
+    </span>
+  </li>
+  <ul class="menu__list active" data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/001.bom%E7%9A%84%E5%BA%94%E7%94%A8/" class="menu__title " data-depth="3">001.BOM的应用</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/002.%E5%BA%8F%E5%88%97%E5%8C%96%E5%99%A8/" class="menu__title " data-depth="3">002.序列化器</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/" class="menu__title active" data-depth="3">003.消息的发布和订阅</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/004.%E5%93%88%E5%B8%8C%E6%98%A0%E5%B0%84/" class="menu__title " data-depth="3">004.哈希映射</a>
+        </li>
+      
+    
+  </ul>
+  
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <li class="menu__title--collapse " data-depth="3" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
+    <span class="menu__title--collapse-text">
+      常用命令
     </span>
     <span class="menu__title--icon right">
       
@@ -8011,13 +8107,45 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/001.bom%E7%9A%84%E5%BA%94%E7%94%A8/" class="menu__title " data-depth="3">001.BOM的应用</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01.string%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="3">01.String相关命令</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="3">02.List相关命令</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="3">03.Set相关命令</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04.hash%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="3">04.Hash相关命令</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="3">05.ZSet相关的命令</a>
         </li>
       
     
@@ -8084,6 +8212,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85redis6%E5%BA%9F%E5%BC%83/" class="menu__title " data-depth="1">Ubuntu上安装Redis6（废弃）</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%B8%80%E7%A7%8D%E6%B3%A8%E5%85%A5operations%E7%9A%84%E5%86%99%E6%B3%95/" class="menu__title " data-depth="1">一种注入Operations的写法</a>
         </li>
       
     
@@ -8181,7 +8317,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -8253,7 +8389,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -8301,7 +8437,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -8349,7 +8485,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -8376,7 +8512,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -8440,7 +8576,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -8558,17 +8694,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
     <span class="menu__title--collapse-text">
       Spring
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -8728,7 +8864,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -8848,7 +8984,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -9181,7 +9317,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -9224,7 +9360,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -9251,7 +9387,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -9291,7 +9427,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -9523,7 +9659,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -9595,7 +9731,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -9622,7 +9758,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -9662,7 +9798,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -9710,7 +9846,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -9758,7 +9894,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -9838,7 +9974,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -10043,7 +10179,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -10091,7 +10227,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -10118,7 +10254,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -10315,7 +10451,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -10427,7 +10563,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -10715,7 +10851,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -10989,7 +11125,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">02.List相关命令</h2>
+        <h2 class="title">003.消息的发布和订阅</h2>
       </div>
     </div>
   </div>
@@ -11002,6 +11138,8 @@
   
   <ol>
     
+  
+  
   
   
   
@@ -11043,14 +11181,21 @@
   
   <li >
     
-      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="capitalize">常用命令</a>
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/" class="capitalize">笔记</a>
+    
+  </li>
+  
+  
+  <li >
+    
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/" class="capitalize">Spring Data Redis文档</a>
     
   </li>
   
   
   <li  class="is-active" >
     
-      <span>02.List相关命令</span>
+      <span>003.消息的发布和订阅</span>
     
   </li>
   
@@ -11092,7 +11237,7 @@
         <div class="menu">
   <h6 class="menu__label">
     
-      02.List相关命令
+      003.消息的发布和订阅
     
   </h6>
   <ul>
@@ -11122,7 +11267,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -11149,7 +11294,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -11293,7 +11438,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -11333,7 +11478,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -11360,7 +11505,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -11454,17 +11599,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/">
     <span class="menu__title--collapse-text">
       笔记
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -11491,7 +11636,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -11645,7 +11790,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -11781,7 +11926,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -11808,7 +11953,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/headlessservice/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/headlessservice/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -11864,7 +12009,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ingressnginx/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/ingressnginx/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -11976,7 +12121,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -12064,7 +12209,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -12118,17 +12263,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/">
     <span class="menu__title--collapse-text">
       笔记
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -12155,7 +12300,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -12395,7 +12540,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -12443,7 +12588,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -12800,7 +12945,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -12827,7 +12972,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -12939,7 +13084,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -12987,7 +13132,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -13075,7 +13220,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -13155,7 +13300,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -13203,7 +13348,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -13411,7 +13556,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -13515,7 +13660,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -13603,7 +13748,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -13675,7 +13820,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -13771,7 +13916,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14099,7 +14244,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14147,7 +14292,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14195,7 +14340,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14222,7 +14367,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14459,7 +14604,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14507,7 +14652,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14547,7 +14692,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14619,7 +14764,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14659,7 +14804,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14715,7 +14860,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14835,7 +14980,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -14971,7 +15116,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15011,7 +15156,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15051,7 +15196,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15131,7 +15276,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15187,7 +15332,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15214,7 +15359,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15262,7 +15407,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15302,7 +15447,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15398,7 +15543,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15425,7 +15570,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15473,7 +15618,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15561,7 +15706,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15641,7 +15786,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15713,7 +15858,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -15761,7 +15906,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -16017,7 +16162,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -16105,7 +16250,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -16145,7 +16290,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -16209,7 +16354,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -16236,7 +16381,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -16553,7 +16698,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -16580,7 +16725,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -16740,7 +16885,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -16788,7 +16933,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -16868,7 +17013,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -16895,7 +17040,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -17041,7 +17186,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -17129,7 +17274,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -17156,7 +17301,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -17196,7 +17341,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -17234,17 +17379,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/">
     <span class="menu__title--collapse-text">
       笔记
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -17271,7 +17416,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -17625,7 +17770,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -17665,7 +17810,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -17682,23 +17827,23 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
+  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/">
     <span class="menu__title--collapse-text">
-      常用命令
+      Scripts
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/scripts/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01.string%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="2">01.String相关命令</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/springboot%E4%BD%BF%E7%94%A8redis%E8%84%9A%E6%9C%AC/" class="menu__title " data-depth="2">SpringBoot使用Redis脚本</a>
         </li>
       
     
@@ -17706,7 +17851,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title active" data-depth="2">02.List相关命令</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/%E5%AE%9E%E7%8E%B0%E7%8A%B6%E6%80%81%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E9%80%81%E5%8A%9F%E8%83%BD/" class="menu__title " data-depth="2">实现状态消息的发送功能</a>
         </li>
       
     
@@ -17714,7 +17859,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="2">03.Set相关命令</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/%E7%BB%88%E6%AD%A2%E6%AD%A3%E5%9C%A8%E6%89%A7%E8%A1%8C%E7%9A%84%E8%84%9A%E6%9C%AC/" class="menu__title " data-depth="2">终止正在执行的脚本</a>
         </li>
       
     
@@ -17722,15 +17867,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04.hash%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="2">04.Hash相关命令</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="2">05.ZSet相关的命令</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/%E8%BF%94%E5%9B%9E%E5%80%BC%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/" class="menu__title " data-depth="2">返回值需要注意的地方</a>
         </li>
       
     
@@ -17754,9 +17891,9 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/">
+  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%AE%9E%E9%AA%8C/">
     <span class="menu__title--collapse-text">
-      笔记
+      实验
     </span>
     <span class="menu__title--icon right">
       
@@ -17764,7 +17901,47 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%AE%9E%E9%AA%8C/%E7%A0%94%E7%A9%B6/" class="menu__title " data-depth="2">研究</a>
+        </li>
+      
+    
+  </ul>
+  
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/">
+    <span class="menu__title--collapse-text">
+      笔记
+    </span>
+    <span class="menu__title--icon down">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
+      
+    </span>
+  </li>
+  <ul class="menu__list active" data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -17791,7 +17968,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -17925,9 +18102,73 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="3" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/">
+  <li class="menu__title--collapse active" data-depth="3" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/">
     <span class="menu__title--collapse-text">
       Spring Data Redis文档
+    </span>
+    <span class="menu__title--icon down">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
+      
+    </span>
+  </li>
+  <ul class="menu__list active" data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/001.bom%E7%9A%84%E5%BA%94%E7%94%A8/" class="menu__title " data-depth="3">001.BOM的应用</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/002.%E5%BA%8F%E5%88%97%E5%8C%96%E5%99%A8/" class="menu__title " data-depth="3">002.序列化器</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/" class="menu__title active" data-depth="3">003.消息的发布和订阅</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/004.%E5%93%88%E5%B8%8C%E6%98%A0%E5%B0%84/" class="menu__title " data-depth="3">004.哈希映射</a>
+        </li>
+      
+    
+  </ul>
+  
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <li class="menu__title--collapse " data-depth="3" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
+    <span class="menu__title--collapse-text">
+      常用命令
     </span>
     <span class="menu__title--icon right">
       
@@ -17935,13 +18176,45 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/001.bom%E7%9A%84%E5%BA%94%E7%94%A8/" class="menu__title " data-depth="3">001.BOM的应用</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01.string%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="3">01.String相关命令</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="3">02.List相关命令</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="3">03.Set相关命令</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04.hash%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="3">04.Hash相关命令</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/" class="menu__title " data-depth="3">05.ZSet相关的命令</a>
         </li>
       
     
@@ -18008,6 +18281,14 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85redis6%E5%BA%9F%E5%BC%83/" class="menu__title " data-depth="1">Ubuntu上安装Redis6（废弃）</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%B8%80%E7%A7%8D%E6%B3%A8%E5%85%A5operations%E7%9A%84%E5%86%99%E6%B3%95/" class="menu__title " data-depth="1">一种注入Operations的写法</a>
         </li>
       
     
@@ -18105,7 +18386,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -18177,7 +18458,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -18225,7 +18506,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -18273,7 +18554,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -18300,7 +18581,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -18364,7 +18645,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -18482,17 +18763,17 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
+  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/">
     <span class="menu__title--collapse-text">
       Spring
     </span>
-    <span class="menu__title--icon right">
+    <span class="menu__title--icon down">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list active" data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -18652,7 +18933,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -18772,7 +19053,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19105,7 +19386,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19148,7 +19429,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19175,7 +19456,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19215,7 +19496,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19447,7 +19728,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19519,7 +19800,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19546,7 +19827,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19586,7 +19867,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19634,7 +19915,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19682,7 +19963,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19762,7 +20043,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -19967,7 +20248,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -20015,7 +20296,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -20042,7 +20323,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -20239,7 +20520,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -20351,7 +20632,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -20639,7 +20920,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02.list%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/003.%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85/>
     
       
         
@@ -20686,45 +20967,53 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <pre><code>
-# List操作
-LLEN key
-LSET key index element
-LREM key count element
-LTRIM key start stop
-LINDEX key index
-LINSERT key BEFORE|AFTER pivot element
-LPOS key element [Rank rank] [COUNT num-matches] [MAXLEN len]
-LRANGE key start stop
+    <h2 id="发布消息">发布消息</h2>
+<p>要发布消息，可以使用与其他操作一样的低级RedisConnection或高级RedisTemplate。两个实体都提供发布方法，该方法接受消息和目标通道作为参数。RedisConnection需要原始数据（字节数组），RedisTemplate允许将任意对象作为消息传入。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">
+<span class="nd">@Test</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">()</span> <span class="o">{</span>
+    <span class="kt">byte</span><span class="o">[]</span> <span class="n">msg</span> <span class="o">=</span> <span class="s">&#34;msg1&#34;</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">);</span>
+    <span class="kt">byte</span><span class="o">[]</span> <span class="n">channel</span> <span class="o">=</span> <span class="s">&#34;channel1&#34;</span><span class="o">.</span><span class="na">getBytes</span><span class="o">(</span><span class="n">StandardCharsets</span><span class="o">.</span><span class="na">UTF_8</span><span class="o">);</span>
 
-# 队列操作
-LPUSH key element [element ...]
-LPUSHX key element [element ...]
-LPOP key [count]
+    <span class="n">stringRedisTemplate</span><span class="o">.</span><span class="na">getConnectionFactory</span><span class="o">().</span><span class="na">getConnection</span><span class="o">().</span><span class="na">publish</span><span class="o">(</span><span class="n">channel</span><span class="o">,</span> <span class="n">msg</span><span class="o">);</span>
+    <span class="n">stringRedisTemplate</span><span class="o">.</span><span class="na">convertAndSend</span><span class="o">(</span><span class="s">&#34;channel2&#34;</span><span class="o">,</span> <span class="s">&#34;msg2&#34;</span><span class="o">);</span>
 
-RPUSH key elemet [element ...]
-RPUSHX key element [element ...]
-RPOP key [count]
-RPOPLRPUSH source destination
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;&#34;</span><span class="o">);</span>
+<span class="o">}</span>
 
-# 阻塞操作
-BLPOP key [key ...] timeout
-BRPOP key [key ...] timeout
-BRPOPLPUSH source destination timeout
-BLMOVE source destination LEFT|RIGHT LEFT|RIGHT timeout
-BLMPOP timeout numkeys key [key ...] LEFT|RIGHT [COUNT count]
-
-LMPOP numkeys key [key ...] LEFT|RIGHT [COUNT count]
-LMOVE source destination LEFT|RIGHT LEFT|RIGHT
-
-</code></pre><h2 id="数据结构">数据结构</h2>
-<p>List的数据结构为快速链表QuickList。</p>
-<p>在列表元素较少的情况下会使用一块连续的内存存储，这个结构是ZipList，也即是压缩列表。它将所有的元素紧挨着一起存储，分配的是一块连续的内存。当数据量比较多的时候才改成QuickList。</p>
-<p>因为普通的链表需要的附加指针空间太大，会浪费空间。所以Redis将链表和ZipList结合起来组成了QuickList，也就是将多个ZipList使用双向链表串起来使用。这样即满足了插入删除性能，又不会出现太大的空间冗余。</p>
-<h2 id="参考资料">参考资料</h2>
-<ol>
-<li><a href="https://redis.io/commands#list" target="_blank">Redis#List</a></li>
-</ol>
+</code></pre></td></tr></table>
+</div>
+</div><p>（实验中，我发送了消息，似乎在ARDP中看不到）</p>
+<h2 id="接受消息">接受消息</h2>
+<p>在接收端可以通过直接命名或使用模式来匹配订阅一个或多个频道。后一种方法非常有用，因为它不仅允许使用一个命令创建多个订阅，而且还可以侦听订阅时尚未创建的频道（只要它们与模式匹配）。</p>
+<p>在底层，RedisConnection提供subscribe和pSubscribe方法，它们分别映射Redis命令以按通道或按模式订阅。请注意，多个通道或模式可以用作参数。</p>
+<p>RedisConnection提供了getSubscription和isSubscribed方法来更改连接的订阅或查询它是否正在侦听。</p>
+<p>Spring Data Redis中的订阅命令是阻塞的。 也就是说，在连接上调用subscribe会导致当前线程在开始等待消息时阻塞。 仅当取消订阅时才释放线程，这发生在另一个线程在同一连接上调用unsubscribe或pUnsubscribe时。</p>
+<h3 id="message-listener-containers">Message Listener Containers</h3>
+<p>因为原生的写法是阻塞的，所以没有太大的意义，而且还需要对每个Listener进行连接和线程管理。</p>
+<p>Spring Data提供了RedisMessageListenerContainer，它完成了所有繁复的工作。</p>
+<p>RedisMessageListenerContainer充当消息侦听器容器。它用于从Redis通道接收消息并驱动注入其中的MessageListener实例。侦听器容器负责消息接收的所有线程，并分派到侦听器中进行处理。消息侦听器容器是MDP 和消息传递提供者之间的中介，负责注册以接收消息、资源获取和释放、异常转换等。这使您作为应用程序开发人员可以编写与接收消息（并对其作出反应）相关的（可能很复杂的）业务逻辑，并将样板Redis基础架构问题委托给框架。</p>
+<p>此外，为了最小化应用程序占用空间，RedisMessageListenerContainer允许多个侦听器共享一个连接和一个线程，即使它们不共享订阅。因此，无论应用程序跟踪多少侦听器或通道，运行时成本在其整个生命周期内都保持不变。此外，容器允许更改运行时配置，以便您可以在应用程序运行时添加或删除侦听器，而无需重新启动。此外，容器使用惰性订阅方法，仅在需要时使用RedisConnection。如果所有侦听器都取消订阅，则会自动执行清理，并释放线程。</p>
+<p>为了帮助处理消息的异步特性，容器需要一个java.util.concurrent.Executor（或 Spring 的 TaskExecutor）来分派消息。根据负载、侦听器的数量或运行时环境，您应该更改或调整执行器以更好地满足您的需求。特别是在托管环境（例如应用服务器）中，强烈建议选择合适的TaskExecutor以利用其运行时。</p>
+<h3 id="messagelisteneradapter">MessageListenerAdapter</h3>
+<p>MessageListenerAdapter允许将任何类公开为MDP。</p>
+<p>（这部分知识很酷，但是我对Redis的Pub和Sub的用法兴趣并不是很高，生产中这部分知识几乎没有用到，所以暂时不深入研究了）</p>
 
   </article>
 </div>
@@ -20733,17 +21022,17 @@ LMOVE source destination LEFT|RIGHT LEFT|RIGHT
 <nav class="pagination-single">
   
     
-      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01.string%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" title="01.String相关命令" class="pagination-single__left">
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/002.%E5%BA%8F%E5%88%97%E5%8C%96%E5%99%A8/" title="002.序列化器" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__right-title">01.String相关命令</div>
+        <div class="pagination-single__right-title">002.序列化器</div>
       </a>
     
     <div class="grow"></div>
     
-      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/03.set%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" title="03.Set相关命令" class="pagination-single__right">
-        <div class="pagination-single__left-title">03.Set相关命令</div>
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/004.%E5%93%88%E5%B8%8C%E6%98%A0%E5%B0%84/" title="004.哈希映射" class="pagination-single__right">
+        <div class="pagination-single__left-title">004.哈希映射</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -20763,8 +21052,13 @@ LMOVE source destination LEFT|RIGHT LEFT|RIGHT
   <div class="toc__body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#数据结构">数据结构</a></li>
-    <li><a href="#参考资料">参考资料</a></li>
+    <li><a href="#发布消息">发布消息</a></li>
+    <li><a href="#接受消息">接受消息</a>
+      <ul>
+        <li><a href="#message-listener-containers">Message Listener Containers</a></li>
+        <li><a href="#messagelisteneradapter">MessageListenerAdapter</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>

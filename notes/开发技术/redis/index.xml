@@ -14,11 +14,20 @@
     
       
       <item>
-        <title>常用命令</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+        <title>Scripts</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>实验</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%AE%9E%E9%AA%8C/</guid>
         <description></description>
       </item>
       
@@ -92,6 +101,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85redis6%E5%BA%9F%E5%BC%83/</guid>
         <description>安装gcc、make工具 1 2 3 sudo apt install -y gcc make 官网下载源码，解压源码文件 1 2 3 4 tar redis-6.2.6.tar.gz cd redis-6.2.6 指定安装目录并进行编译、安装 1 2 3 sudo make PREFIX=/usr/local/redis6 install 检查安装结果 1</description>
+      </item>
+      
+      <item>
+        <title>一种注入Operations的写法</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%B8%80%E7%A7%8D%E6%B3%A8%E5%85%A5operations%E7%9A%84%E5%86%99%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E4%B8%80%E7%A7%8D%E6%B3%A8%E5%85%A5operations%E7%9A%84%E5%86%99%E6%B3%95/</guid>
+        <description>核心写法如下： 1 2 3 4 @Resource(name = &amp;#34;redisTemplate&amp;#34;) private HashOperations&amp;lt;String, byte[], byte[]&amp;gt; hashOperations; 教程中的解释是：HashOperations是RedisTemplate的众多操作视图之一，要使用其中</description>
       </item>
       
       <item>
