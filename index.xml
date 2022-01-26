@@ -470,7 +470,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/02.%E5%AE%9E%E7%8E%B0mapper.java%E4%B8%8Emapper.xml%E4%B8%AD%E6%96%B9%E6%B3%95%E7%9A%84%E8%B7%B3%E8%BD%AC/</guid>
-        <description>Idea安装Free MyBatis Plugin插件即可 参考资料 idea中生成mapper xml文件，快速从代码跳转到mapper及从mapper返回代码</description>
+        <description>20210126后续： 我换成MyBatisX插件了 ## 参考资料 1. [idea中生成mapper xml文件，快速从代码跳转到mapper及从map</description>
       </item>
       
       <item>
@@ -948,6 +948,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/import%E4%B8%8Eimportselector%E4%B8%8Eimportbeandefinitionregistar/</guid>
         <description>@Import创建出来的组件，组件的名称为其全类名。这个注解可以用在将第三方的Bean注册到Spring Context。这种方式导入相对于J</description>
+      </item>
+      
+      <item>
+        <title>@MapKey注解的应用（待完成）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mapkey%E6%B3%A8%E8%A7%A3%E7%9A%84%E5%BA%94%E7%94%A8%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mapkey%E6%B3%A8%E8%A7%A3%E7%9A%84%E5%BA%94%E7%94%A8%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
+        <description>在对MyBatis查漏补缺的时候看到了@MapKey注解，加上这个注解后可以指定一个字段作为返回Map中的key。 我觉得这个东西挺好的，我有</description>
       </item>
       
       <item>
@@ -1452,6 +1461,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/channel%E5%92%8Cchannelpipeline/</guid>
         <description>Channel的声明周期 Channel的生命周期分为如下状态： ChannelUnregistered：Channel被创建还未注册到Even</description>
+      </item>
+      
+      <item>
+        <title>CHOOSE标签</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/choose%E6%A0%87%E7%AD%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/choose%E6%A0%87%E7%AD%BE/</guid>
+        <description>这个标签我用的比较少，所以收集几个案例先，等未来有需求了再深入研究： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 &amp;lt;select id=&amp;#34;getUserList_choose&amp;#34; resultMap=&amp;#34;resultMap_user&amp;#34; parameterType=&amp;#34;com.yiibai.pojo.User&amp;#34;&amp;gt; SELECT * FROM User u &amp;lt;where&amp;gt; &amp;lt;choose&amp;gt; &amp;lt;when test=&amp;#34;username !=null &amp;#34;&amp;gt; u.username</description>
       </item>
       
       <item>
@@ -3786,6 +3804,15 @@
       </item>
       
       <item>
+        <title>resultMap标签</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/resultmap%E6%A0%87%E7%AD%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/resultmap%E6%A0%87%E7%AD%BE/</guid>
+        <description>ResultMap标签类似于定义了一个变量，然后在select标签中使用： 因为目前使用MyBatis-Plus多一点，这个技术暂时就不研究了</description>
+      </item>
+      
+      <item>
         <title>rm指令在移除的时候排除一些文件</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/rm%E6%8C%87%E4%BB%A4%E5%9C%A8%E7%A7%BB%E9%99%A4%E7%9A%84%E6%97%B6%E5%80%99%E6%8E%92%E9%99%A4%E4%B8%80%E4%BA%9B%E6%96%87%E4%BB%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4323,6 +4350,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/webui%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80/</guid>
         <description>PVE突然WEBUI不可访问了，无论是本地还是远程。但是SSH访问还是正常的，在网上找了一圈方案，没有很好的解决办法，最后选择重启整个系统解</description>
+      </item>
+      
+      <item>
+        <title>WHERE标签、TRIM标签</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/where%E6%A0%87%E7%AD%BEtrim%E6%A0%87%E7%AD%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/where%E6%A0%87%E7%AD%BEtrim%E6%A0%87%E7%AD%BE/</guid>
+        <description>WHERE标签 WHERE标签：只有一个以上的IF条件有值得情况下才去插入WHERE子句，而且，如果开头的内容是AND或OR开头，WHERE标</description>
       </item>
       
       <item>
@@ -6582,6 +6618,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/spring/%E7%94%A8%E4%BA%8E%E6%B3%A8%E5%85%A5bean%E7%9A%84%E4%B8%80%E4%BA%9B%E6%B3%A8%E8%A7%A3/</guid>
         <description>Autowired 虽然我们现在开发的时候基本用不上这个注解（我们基本用构造函数注入），但是有些东西还是需要了解一下的。 @Autowired默认按照类型去容器</description>
+      </item>
+      
+      <item>
+        <title>用别名来简化工具类</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E7%94%A8%E5%88%AB%E5%90%8D%E6%9D%A5%E7%AE%80%E5%8C%96%E5%B7%A5%E5%85%B7%E7%B1%BB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E7%94%A8%E5%88%AB%E5%90%8D%E6%9D%A5%E7%AE%80%E5%8C%96%E5%B7%A5%E5%85%B7%E7%B1%BB/</guid>
+        <description>其实别名这个技术挺鸡肋的，如果你使用了别名，Idea的代码跳转就无法实现。但是如果为一些常用的工具类设置别名，可以让mapper.xml文件</description>
       </item>
       
       <item>

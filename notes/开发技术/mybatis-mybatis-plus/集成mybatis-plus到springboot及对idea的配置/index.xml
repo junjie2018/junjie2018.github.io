@@ -37,7 +37,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/02.%E5%AE%9E%E7%8E%B0mapper.java%E4%B8%8Emapper.xml%E4%B8%AD%E6%96%B9%E6%B3%95%E7%9A%84%E8%B7%B3%E8%BD%AC/</guid>
-        <description>Idea安装Free MyBatis Plugin插件即可 参考资料 idea中生成mapper xml文件，快速从代码跳转到mapper及从mapper返回代码</description>
+        <description>20210126后续： 我换成MyBatisX插件了 ## 参考资料 1. [idea中生成mapper xml文件，快速从代码跳转到mapper及从map</description>
       </item>
       
       <item>
