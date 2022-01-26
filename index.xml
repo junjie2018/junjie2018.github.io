@@ -2859,6 +2859,15 @@
       </item>
       
       <item>
+        <title>Log4j2的配置</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/log4j2%E7%9A%84%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/log4j2%E7%9A%84%E9%85%8D%E7%BD%AE/</guid>
+        <description>参考资料 SpringBoot—整合log4j2入门和log4j2.xml配置详解</description>
+      </item>
+      
+      <item>
         <title>Lombok与Idea版本不兼容</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/idea/lombok%E4%B8%8Eidea%E7%89%88%E6%9C%AC%E4%B8%8D%E5%85%BC%E5%AE%B9/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3693,6 +3702,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E4%B8%AD%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</guid>
         <description>启动Redis服务 redis-server redis-server 配置文件 连接Redis服务 redis-cli redis-cli -p 6379 # 可连接到服务后执行shutdown指令 redis-cli shutdown redis-cli -p 6379 shtudown 数据库的管理 # 切换到DB库 select DB #</description>
+      </item>
+      
+      <item>
+        <title>Redis查看日志执行</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E6%9F%A5%E7%9C%8B%E6%97%A5%E5%BF%97%E6%89%A7%E8%A1%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/redis%E6%9F%A5%E7%9C%8B%E6%97%A5%E5%BF%97%E6%89%A7%E8%A1%8C/</guid>
+        <description>参考资料 查看 redis 请求日志</description>
       </item>
       
       <item>
@@ -6194,7 +6212,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9A%B4%E5%8A%9B%E7%9A%84%E9%87%8D%E6%96%B0%E6%90%AD%E5%BB%BAk8s/</guid>
-        <description>之前的K8S好久没有了，版本有点旧，所以想重新建个新的，执行的指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 # K8S重置 kubeadm reset # 清除连接文件 rm</description>
+        <description>之前的K8S好久没有了，版本有点旧，所以想重新建个新的，执行的指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 # K8S重置 kubeadm reset # 清除连接文</description>
       </item>
       
       <item>
@@ -7095,6 +7113,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E9%94%99%E8%AF%AF%E8%AE%BE%E7%BD%AEkubectl%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AF%BC%E8%87%B4kubectl%E5%B7%A5%E5%85%B7%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8/</guid>
         <description>我在进行kubectl的上下文相关的实验，在我将当前的上下文切换成我自己创建的上下文时，我执行kubectl get pdos时，会报如下错误： The connection</description>
+      </item>
+      
+      <item>
+        <title>阅读了阿里云Redis后的想法</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E9%98%85%E8%AF%BB%E4%BA%86%E9%98%BF%E9%87%8C%E4%BA%91redis%E5%90%8E%E7%9A%84%E6%83%B3%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E9%98%85%E8%AF%BB%E4%BA%86%E9%98%BF%E9%87%8C%E4%BA%91redis%E5%90%8E%E7%9A%84%E6%83%B3%E6%B3%95/</guid>
+        <description>简单的阅读了一下阿里云Redis的文档，发现阿里云Redis和原生Redis有一定的出入，简单整理如下： 阿里云Redis提供了代理节点，代理</description>
       </item>
       
       <item>

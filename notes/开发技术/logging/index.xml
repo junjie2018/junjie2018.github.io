@@ -14,6 +14,15 @@
     
       
       <item>
+        <title>Log4j2的配置</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/log4j2%E7%9A%84%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/log4j2%E7%9A%84%E9%85%8D%E7%BD%AE/</guid>
+        <description>参考资料 SpringBoot—整合log4j2入门和log4j2.xml配置详解</description>
+      </item>
+      
+      <item>
         <title>动态调整日志等级</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E5%8A%A8%E6%80%81%E8%B0%83%E6%95%B4%E6%97%A5%E5%BF%97%E7%AD%89%E7%BA%A7/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
