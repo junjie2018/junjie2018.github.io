@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MyBatis &amp; MyBatis-Plus on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/</link>
+    <description>Recent content in MyBatis &amp; MyBatis-Plus on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>集成MyBatis-Plus到SpringBoot及对Idea的配置</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>@Repository和@Mapper的差别</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/repository%E5%92%8Cmapper%E7%9A%84%E5%B7%AE%E5%88%AB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/repository%E5%92%8Cmapper%E7%9A%84%E5%B7%AE%E5%88%AB/</guid>
+        <description>我尝试使用@Repository代替@Mapper，结果发现应用根本就无法启动起来。这个问题我之前实验中貌似不存在，在我SpringBoot</description>
+      </item>
+      
+      <item>
+        <title>@Select中忘记使用Script标签了</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/select%E4%B8%AD%E5%BF%98%E8%AE%B0%E4%BD%BF%E7%94%A8script%E6%A0%87%E7%AD%BE%E4%BA%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/select%E4%B8%AD%E5%BF%98%E8%AE%B0%E4%BD%BF%E7%94%A8script%E6%A0%87%E7%AD%BE%E4%BA%86/</guid>
+        <description>正确的写法如下： 1 2 3 4 5 6 7 8 9 @Mapper public interface CommonMaterialMapper extends BaseMapper&amp;lt;CommonMaterial&amp;gt; { @Select(&amp;#34;&amp;lt;script&amp;gt;select * from t_common_material where id in &amp;lt;foreach collection=&amp;#39;ids&amp;#39; item=&amp;#39;id&amp;#39; open=&amp;#39;(&amp;#39; separator=&amp;#39;,&amp;#39; close=&amp;#39;)&amp;#39;&amp;gt; #{id} &amp;lt;/foreach&amp;gt;&amp;lt;/script&amp;gt;&amp;#34;) List&amp;lt;CommonMaterial&amp;gt; selectListWithDelete(@Param(&amp;#34;ids&amp;#34;) List&amp;lt;String&amp;gt; ids); } 忘记使用&amp;lt;script&amp;gt;会导致错误。</description>
+      </item>
+      
+      <item>
+        <title>@Select中特殊字符导致的错误</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/select%E4%B8%AD%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E5%AF%BC%E8%87%B4%E7%9A%84%E9%94%99%E8%AF%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/select%E4%B8%AD%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E5%AF%BC%E8%87%B4%E7%9A%84%E9%94%99%E8%AF%AF/</guid>
+        <description>该问题由同事定位并修复，我在一旁参观了整个过程。我们的代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 @Select(&amp;#34;&amp;lt;script&amp;gt;&amp;#34; + &amp;#34; SELECT * FROM t_user where is_delete = 0&amp;#34; + &amp;#34;</description>
+      </item>
+      
+      <item>
+        <title>@TableField处理表中不存在的字段</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/tablefield%E5%A4%84%E7%90%86%E8%A1%A8%E4%B8%AD%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%AD%97%E6%AE%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/tablefield%E5%A4%84%E7%90%86%E8%A1%A8%E4%B8%AD%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%AD%97%E6%AE%B5/</guid>
+        <description>代码如下： 1 2 3 @TableField(exist = false) 开发一些Demo时用到了这个技术，记录一下。 参考资料 mybatis怎么忽略映射字段</description>
+      </item>
+      
+      <item>
+        <title>deleteById和deleteBatchIds没有更新到gmt_modify_time（待完成）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/deletebyid%E5%92%8Cdeletebatchids%E6%B2%A1%E6%9C%89%E6%9B%B4%E6%96%B0%E5%88%B0gmt_modify_time%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/deletebyid%E5%92%8Cdeletebatchids%E6%B2%A1%E6%9C%89%E6%9B%B4%E6%96%B0%E5%88%B0gmt_modify_time%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
+        <description>我们数据表中有一个gmt_modify_time的审计字段，我最近发现调用deleteById和deleteBatchIds这个字段不会更新</description>
+      </item>
+      
+      <item>
+        <title>LambdaQueryWrapper泛型写法的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/lambdaquerywrapper%E6%B3%9B%E5%9E%8B%E5%86%99%E6%B3%95%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/lambdaquerywrapper%E6%B3%9B%E5%9E%8B%E5%86%99%E6%B3%95%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>MyBatis-Plus中发现的关于泛型的问题 在使用MyBatis-Plus的LambdaQueryWrapper时，发现了一个有趣的小问题</description>
+      </item>
+      
+      <item>
+        <title>MyBatis 3.0 与 Lombok中的@Builder</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-3.0-%E4%B8%8E-lombok%E4%B8%AD%E7%9A%84builder/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-3.0-%E4%B8%8E-lombok%E4%B8%AD%E7%9A%84builder/</guid>
+        <description>问题描述 PG库中的字段类型为varchar，实体中字段类型为String，PO的简化后结构如下： 1 2 3 4 5 6 7 8 9 10 @Data @Builder @EqualsAndHashCode(callSuper = false) @TableName(value = &amp;#34;t_dyf_field&amp;#34;, autoResultMap = true) class</description>
+      </item>
+      
+      <item>
+        <title>mybatis-plus java.lang.IndexOutOfBoundsException</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-plus-java.lang.indexoutofboundsexception/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-plus-java.lang.indexoutofboundsexception/</guid>
+        <description>这个报错非常的迷惑人，让人感觉是自己的sql查出来了多条记录，但是代码中将多条数据塞到了一个对象中，实际上并不是这样的，MyBatis拼出来</description>
+      </item>
+      
+      <item>
+        <title>MyBatis-Plus处理枚举的转换</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-plus%E5%A4%84%E7%90%86%E6%9E%9A%E4%B8%BE%E7%9A%84%E8%BD%AC%E6%8D%A2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-plus%E5%A4%84%E7%90%86%E6%9E%9A%E4%B8%BE%E7%9A%84%E8%BD%AC%E6%8D%A2/</guid>
+        <description>这是我自己开发的工具，从entity到typeHandler、到枚举代码如下： 1 2 3 4 5 6 7 8 /** * 是否是模型必须 */ @TableField(typeHandler = IsModelRequiredTypeHandler.class) private IsModelRequired modelRequired; private Integer isModelRequired; 1 2 3 4</description>
+      </item>
+      
+      <item>
+        <title>MyBatis-Plus拼SQL时不要拼全部的字段</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-plus%E6%8B%BCsql%E6%97%B6%E4%B8%8D%E8%A6%81%E6%8B%BC%E5%85%A8%E9%83%A8%E7%9A%84%E5%AD%97%E6%AE%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-plus%E6%8B%BCsql%E6%97%B6%E4%B8%8D%E8%A6%81%E6%8B%BC%E5%85%A8%E9%83%A8%E7%9A%84%E5%AD%97%E6%AE%B5/</guid>
+        <description>核心就在于使用select方法，参考代码如下： 1 2 3 4 5 6 LambdaQueryWrapper&amp;lt;AuthFun&amp;gt; queryWrapper = new LambdaQueryWrapper&amp;lt;AuthFun&amp;gt;() .eq(AuthFun::getTreeCode, TreeCode.SERVICE_PACKAGE.getValue()) .in(AuthFun::getParentId, authFuncParentIds) .select(AuthFun::getId, AuthFun::getOperaList); 使用这个方法精准的限制被搜索到的字段是非常的有意义的，可以避</description>
+      </item>
+      
+      <item>
+        <title>MyBatis-plus指定BaseMapper实现</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-plus%E6%8C%87%E5%AE%9Abasemapper%E5%AE%9E%E7%8E%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-plus%E6%8C%87%E5%AE%9Abasemapper%E5%AE%9E%E7%8E%B0/</guid>
+        <description>这个问题我暂时只能描述一下，因为这个问题发生的时候，我询问了同事，结果这是我们架构中已知的问题，所以很快就解决了，我并没有查找任何资料，也没</description>
+      </item>
+      
+      <item>
+        <title>MyBatis-Plus生成的SQL中包含双引号</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-plus%E7%94%9F%E6%88%90%E7%9A%84sql%E4%B8%AD%E5%8C%85%E5%90%AB%E5%8F%8C%E5%BC%95%E5%8F%B7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis-plus%E7%94%9F%E6%88%90%E7%9A%84sql%E4%B8%AD%E5%8C%85%E5%90%AB%E5%8F%8C%E5%BC%95%E5%8F%B7/</guid>
+        <description>最近的工作又是在跟TypeHandler较劲，同样的错误我已经在两个场景中发现了，这次的场景是我修改了typeHandlerPackage配</description>
+      </item>
+      
+      <item>
+        <title>MyBatisPlus中使用TypeHandler时的一个坑</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatisplus%E4%B8%AD%E4%BD%BF%E7%94%A8typehandler%E6%97%B6%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatisplus%E4%B8%AD%E4%BD%BF%E7%94%A8typehandler%E6%97%B6%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91/</guid>
+        <description>这个问题是我同事遇到的，这个问题大概是说，当一个字段注解了@TypeHandler后，在使用LambdaQueryWrapper时，你传递的</description>
+      </item>
+      
+      <item>
+        <title>MyBatis使用foreach</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis%E4%BD%BF%E7%94%A8foreach/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis%E4%BD%BF%E7%94%A8foreach/</guid>
+        <description>代码如下： 1 2 3 4 5 6 7 8 9 @Mapper public interface CommonMaterialMapper extends BaseMapper&amp;lt;CommonMaterial&amp;gt; { @Select(&amp;#34;&amp;lt;script&amp;gt;select * from t_common_material where id in &amp;lt;foreach collection=&amp;#39;ids&amp;#39; item=&amp;#39;id&amp;#39; open=&amp;#39;(&amp;#39; separator=&amp;#39;,&amp;#39; close=&amp;#39;)&amp;#39;&amp;gt; #{id} &amp;lt;/foreach&amp;gt;&amp;lt;/script&amp;gt;&amp;#34;) List&amp;lt;CommonMaterial&amp;gt; selectListWithDelete(@Param(&amp;#34;ids&amp;#34;) List&amp;lt;String&amp;gt; ids); } 参考资料 Mybatis @Select注解，使用in传入ids数组作为参</description>
+      </item>
+      
+      <item>
+        <title>MyBatis将Null更新进字段</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis%E5%B0%86null%E6%9B%B4%E6%96%B0%E8%BF%9B%E5%AD%97%E6%AE%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis%E5%B0%86null%E6%9B%B4%E6%96%B0%E8%BF%9B%E5%AD%97%E6%AE%B5/</guid>
+        <description>diamante如下： 1 2 3 4 5 6 7 8 9 10 11 12 LambdaUpdateWrapper&amp;lt;ColorScheme&amp;gt; updateWrapperForColorScheme = new LambdaUpdateWrapper&amp;lt;ColorScheme&amp;gt;() .eq(ColorScheme::getId, colorScheme.getId()) .set(ColorScheme::getCode, colorScheme.getCode()) .set(ColorScheme::getProgress, colorScheme.getProgress()) .set(ColorScheme::getName, colorScheme.getName()) .set(ColorScheme::getStartTime, colorScheme.getStartTime()) .set(ColorScheme::getEndTime, colorScheme.getEndTime()) .set(ColorScheme::getExecutor, JSON.toJSON(colorScheme.getExecutor())); colorSchemeMapper.update(null, updateWrapperForColorScheme); 参考资料 【Mybatis-Plus】使用update</description>
+      </item>
+      
+      <item>
+        <title>MyBatis条件构造器</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8/</guid>
+        <description>我目前比较中意的写法： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 // 查询思路：table.id = fieldId and (table.orgId = orgId or table.orgId = 超管orgId) LambdaQueryWrapper&amp;lt;FieldPo&amp;gt; queryWrapper = new LambdaQueryWrapper&amp;lt;FieldPo&amp;gt;() .eq(FieldPo::getId, fieldId) .and(queryWrapperInner -&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>MyBatis框架限制Page查询最大只能查500条</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis%E6%A1%86%E6%9E%B6%E9%99%90%E5%88%B6page%E6%9F%A5%E8%AF%A2%E6%9C%80%E5%A4%A7%E5%8F%AA%E8%83%BD%E6%9F%A5500%E6%9D%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis%E6%A1%86%E6%9E%B6%E9%99%90%E5%88%B6page%E6%9F%A5%E8%AF%A2%E6%9C%80%E5%A4%A7%E5%8F%AA%E8%83%BD%E6%9F%A5500%E6%9D%A1/</guid>
+        <description>今天想小小满足一下前端的一个超大JSON的需求，结果发现MyBatis限制了分页查询时最大查询条数为500条，即使传入limit为10000</description>
+      </item>
+      
+      <item>
+        <title>MyBatis配置打印日志信息</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis%E9%85%8D%E7%BD%AE%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E4%BF%A1%E6%81%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/mybatis%E9%85%8D%E7%BD%AE%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%E4%BF%A1%E6%81%AF/</guid>
+        <description>在application.yml配置中增加如下配置： 1 2 3 4 5 mybatis-plus:configuration:log-impl:org.apache.ibatis.logging.stdout.StdOutImpl 参考资料 mybatisPlus配置控制台打印sql语句</description>
+      </item>
+      
+      <item>
+        <title>Property &#39;sqlSessionFactory&#39; or &#39;sqlSessionTemplate&#39; are required</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/property-sqlsessionfactory-or-sqlsessiontemplate-are-required/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/property-sqlsessionfactory-or-sqlsessiontemplate-are-required/</guid>
+        <description>SpringBoot集成MyBatis-Plus后，启动时报如下错误： org.springframework.beans.factory.BeanCreationException: Error creating bean with name &#39;userMapper&#39; defined in file [D:\Project\Mybatis\target\classes\fun\junjie\mybatis\mapper\UserMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Property &#39;sqlSessionFactory&#39; or &#39;sqlSessionTemplate&#39; are required at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]</description>
+      </item>
+      
+      <item>
+        <title>typeHandlersPackage只能配置成字符串</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/typehandlerspackage%E5%8F%AA%E8%83%BD%E9%85%8D%E7%BD%AE%E6%88%90%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/typehandlerspackage%E5%8F%AA%E8%83%BD%E9%85%8D%E7%BD%AE%E6%88%90%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
+        <description>我是有需求将type-handler-package配置成字符串数组，但是官方给的文档中，该处只能配置成字符串，我觉得查看源码肯定可以找到配</description>
+      </item>
+      
+      <item>
+        <title>Typehandler转换出来的对象运行时状态和定义状态不符</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/typehandler%E8%BD%AC%E6%8D%A2%E5%87%BA%E6%9D%A5%E7%9A%84%E5%AF%B9%E8%B1%A1%E8%BF%90%E8%A1%8C%E6%97%B6%E7%8A%B6%E6%80%81%E5%92%8C%E5%AE%9A%E4%B9%89%E7%8A%B6%E6%80%81%E4%B8%8D%E7%AC%A6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/typehandler%E8%BD%AC%E6%8D%A2%E5%87%BA%E6%9D%A5%E7%9A%84%E5%AF%B9%E8%B1%A1%E8%BF%90%E8%A1%8C%E6%97%B6%E7%8A%B6%E6%80%81%E5%92%8C%E5%AE%9A%E4%B9%89%E7%8A%B6%E6%80%81%E4%B8%8D%E7%AC%A6/</guid>
+        <description>我在开发新功能时发现如下的问题，我代码编写如下： 在运行时候value字段的值是： 是一个LinkedTreeMap，而不是我期待的Langua</description>
+      </item>
+      
+      <item>
+        <title>Unsatisfied dependency expressed through field &#39;baseMapper&#39;</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/unsatisfied-dependency-expressed-through-field-basemapper/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/unsatisfied-dependency-expressed-through-field-basemapper/</guid>
+        <description>这个问题应该属于我们项目中的问题，我按照要求继承项目后，在mapper包下开发自己的Mapper，结果在启动的时候发现Mapper无法被注入</description>
+      </item>
+      
+      <item>
+        <title>修复updateByBatch无法使用的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E4%BF%AE%E5%A4%8Dupdatebybatch%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E4%BF%AE%E5%A4%8Dupdatebybatch%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>今天定位修复了一个比较难的问题。我们的项目将mybatis-plus升级到最新版后，发现了updateByBatch方法无效。最后层层排查下</description>
+      </item>
+      
+      <item>
+        <title>分页0和1的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E5%88%86%E9%A1%B50%E5%92%8C1%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E5%88%86%E9%A1%B50%E5%92%8C1%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>我始终记得我们之前做分页的时候是从零开始的，但是这个可能是我的错觉，因为我本身不是分页接口的消费者，所以我也不知道我开发的接口在被怎么传参（</description>
+      </item>
+      
+      <item>
+        <title>因为自定义拦截器，导致不支持jsonb相关的语法</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E5%9B%A0%E4%B8%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8B%A6%E6%88%AA%E5%99%A8%E5%AF%BC%E8%87%B4%E4%B8%8D%E6%94%AF%E6%8C%81jsonb%E7%9B%B8%E5%85%B3%E7%9A%84%E8%AF%AD%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E5%9B%A0%E4%B8%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8B%A6%E6%88%AA%E5%99%A8%E5%AF%BC%E8%87%B4%E4%B8%8D%E6%94%AF%E6%8C%81jsonb%E7%9B%B8%E5%85%B3%E7%9A%84%E8%AF%AD%E6%B3%95/</guid>
+        <description>我们的项目是多租户的，所以同事自定义了MyBatis的拦截器，在该拦截器中获取请求头中传递过来的租户Id，然后注入到所有的SQL中，其具体实</description>
+      </item>
+      
+      <item>
+        <title>在LambdaQueryWrapper中使用limit</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E5%9C%A8lambdaquerywrapper%E4%B8%AD%E4%BD%BF%E7%94%A8limit/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E5%9C%A8lambdaquerywrapper%E4%B8%AD%E4%BD%BF%E7%94%A8limit/</guid>
+        <description>代码如下： 1 2 3 4 5 6 7 8 9 // 选择一个版本号最大的作为最新版本 LambdaQueryWrapper&amp;lt;Style2d&amp;gt; queryWrapperForStyle = new LambdaQueryWrapper&amp;lt;Style2d&amp;gt;() .eq(Style2d::getStyleId, style2d.getStyleId()) .eq(Style2d::getOrgId, tenantId) .eq(Style2d::getIsCurrentVersion, IsCurrentVersion.NOT_CURRENT_VERSION.getValue()) .orderByDesc(Style2d::getVersionNumber) .last(&amp;#34;limit 1&amp;#34;); 参考资料 MyBatis-Plus#last mybatis plus 限制查询个数 Mybatis-Plus</description>
+      </item>
+      
+      <item>
+        <title>定位并修复TypeHandler的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E5%AE%9A%E4%BD%8D%E5%B9%B6%E4%BF%AE%E5%A4%8Dtypehandler%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E5%AE%9A%E4%BD%8D%E5%B9%B6%E4%BF%AE%E5%A4%8Dtypehandler%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>问题的表现： 我们数据库中使用了timestamptz类型 我们代码中使用了LocalDateTime类型 我们的代码使用了LocalDateTi</description>
+      </item>
+      
+      <item>
+        <title>常用代码收集</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E6%94%B6%E9%9B%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E6%94%B6%E9%9B%86/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 &amp;lt;select id=&amp;#34;pageUserInfoByAccount&amp;#34; resultType=&amp;#34;com.sdstc.authcenter.pojo.UserAndCompany&amp;#34;&amp;gt; SELECT tu.id as id, tu.name as name , tu.company_id as companyId, tu.mobile as mobile, tc.name as companyName FROM t_user tu JOIN t_company tc on tc.id = tu.company_id AND tu.is_delete = &amp;#39;0&amp;#39; &amp;lt;if test=&amp;#34;@org.apache.commons.lang3.StringUtils@isNotBlank(account)&amp;#34;&amp;gt; &amp;lt;bind name=&amp;#34;account&amp;#34; value=&amp;#34;&amp;#39;%&amp;#39; + account&amp;#34;/&amp;gt; AND tu.account LIKE #{account} &amp;lt;/if&amp;gt; &amp;lt;/select&amp;gt; 收集点： bind标签放</description>
+      </item>
+      
+      <item>
+        <title>拼排序条件时应该使用$符号而不会#</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E6%8B%BC%E6%8E%92%E5%BA%8F%E6%9D%A1%E4%BB%B6%E6%97%B6%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%E7%AC%A6%E5%8F%B7%E8%80%8C%E4%B8%8D%E4%BC%9A#/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E6%8B%BC%E6%8E%92%E5%BA%8F%E6%9D%A1%E4%BB%B6%E6%97%B6%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%E7%AC%A6%E5%8F%B7%E8%80%8C%E4%B8%8D%E4%BC%9A#/</guid>
+        <description>因为MyBatis的分页插件在处理PG复杂语法时无法拼接排序条件，所以排序项的逻辑需要自己拼接，主要逻辑为收集各个排序项，然后再Mapper</description>
+      </item>
+      
+      <item>
+        <title>更优雅的处理Like查询（其实也不太优雅）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%A4%84%E7%90%86like%E6%9F%A5%E8%AF%A2%E5%85%B6%E5%AE%9E%E4%B9%9F%E4%B8%8D%E5%A4%AA%E4%BC%98%E9%9B%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%A4%84%E7%90%86like%E6%9F%A5%E8%AF%A2%E5%85%B6%E5%AE%9E%E4%B9%9F%E4%B8%8D%E5%A4%AA%E4%BC%98%E9%9B%85/</guid>
+        <description>如果使用如下方式编写SQL，会在查询的时候报错，报错内容大致是说没有找到参数： 1 2 3 select * from t_user where account like &amp;#39;%#{account}%&amp;#39; 需要修改成如下sql： 1 2 3 select * from t_user where account</description>
+      </item>
+      
+      <item>
+        <title>给字段取名时需要注意的一些细节</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E7%BB%99%E5%AD%97%E6%AE%B5%E5%8F%96%E5%90%8D%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E7%BB%99%E5%AD%97%E6%AE%B5%E5%8F%96%E5%90%8D%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/</guid>
+        <description>我搞了一个picture_3d的字段，结果在插入数据的时候报错，报的错误是picture3d字段不存在，我使用TableField注解暂时解</description>
+      </item>
+      
+      <item>
+        <title>针对JSONObject、JSONArray的typeHandler</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E9%92%88%E5%AF%B9jsonobjectjsonarray%E7%9A%84typehandler/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E9%92%88%E5%AF%B9jsonobjectjsonarray%E7%9A%84typehandler/</guid>
+        <description>实际上我已经有技术实现针对List的TypeHandler了，之所以还开发这个TypeHandler是因为我们的旧代码使用了JSONArra</description>
+      </item>
+      
+      <item>
+        <title>雪花算法配置出问题了，导致主键重复</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95%E9%85%8D%E7%BD%AE%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%E5%AF%BC%E8%87%B4%E4%B8%BB%E9%94%AE%E9%87%8D%E5%A4%8D/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95%E9%85%8D%E7%BD%AE%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%E5%AF%BC%E8%87%B4%E4%B8%BB%E9%94%AE%E9%87%8D%E5%A4%8D/</guid>
+        <description>我们生产中用的雪花算法代码如下： 1 2 3 4 5 6 7 8 9 10 11 @Bean public MybatisPlusPropertiesCustomizer plusPropertiesCustomizer() { //从docker启动参数中获取应用实例WID环境变量 Long workId = (long) Math.random() * 31; Long dataCenterId = (long)</description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -68,12 +68,21 @@
       </item>
       
       <item>
-        <title>一个列表中的元素属于另一个元素的SQL如何编写，及在MyBatis中如何处理</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%85%83%E7%B4%A0%E5%B1%9E%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E7%9A%84sql%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8F%8A%E5%9C%A8mybatis%E4%B8%AD%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</link>
+        <title>一个列表为另一个列表的子集的SQL如何编写，及在MyBatis中如何处理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E4%B8%BA%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E7%9A%84%E5%AD%90%E9%9B%86%E7%9A%84sql%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8F%8A%E5%9C%A8mybatis%E4%B8%AD%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%85%83%E7%B4%A0%E5%B1%9E%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E7%9A%84sql%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8F%8A%E5%9C%A8mybatis%E4%B8%AD%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E4%B8%BA%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E7%9A%84%E5%AD%90%E9%9B%86%E7%9A%84sql%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8F%8A%E5%9C%A8mybatis%E4%B8%AD%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</guid>
         <description>需求是这样的，一个字段它在创建的时候是允许多选的，然后再分页的时候，用户传递的条件它也是多选的，所以我们需要判断一个集合中得元素是否全部属于</description>
+      </item>
+      
+      <item>
+        <title>一个列表和另一个列表的交集不为空集</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E5%92%8C%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E7%9A%84%E4%BA%A4%E9%9B%86%E4%B8%8D%E4%B8%BA%E7%A9%BA%E9%9B%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E5%92%8C%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%88%97%E8%A1%A8%E7%9A%84%E4%BA%A4%E9%9B%86%E4%B8%8D%E4%B8%BA%E7%A9%BA%E9%9B%86/</guid>
+        <description>SQL如下： 1 2 3 SELECT*FROMt_common_materialwhereimg_json::jsonb?|&amp;#39;normalMap&amp;#39;=falseandis_delete=0ANDis_shelf=1andrender_version!=1</description>
       </item>
       
       <item>
