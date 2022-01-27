@@ -267,6 +267,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/shardingsphere-jdbc/</loc>
   </url>
   
@@ -360,10 +364,6 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%AE%9E%E9%AA%8C/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%AE%9E%E9%AA%8C/</loc>
   </url>
   
   <url>
@@ -2203,6 +2203,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/springboot%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8%E5%93%A8%E5%85%B5%E5%BA%9F%E5%BC%83/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/apollo/springboot%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AEapollo%E8%AE%BF%E9%97%AE%E5%9C%B0%E5%9D%80/</loc>
   </url>
   
@@ -3351,6 +3355,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/%E7%90%86%E8%A7%A3%E5%93%A8%E5%85%B5%E6%9C%BA%E5%88%B6%E5%8E%9F%E7%90%86/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E7%90%86%E8%A7%A3%E8%B4%AA%E5%A9%AA%E4%B8%8E%E9%9D%9E%E8%B4%AA%E5%A9%AA/</loc>
   </url>
   
@@ -3368,10 +3376,6 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E7%94%A8%E5%88%AB%E5%90%8D%E6%9D%A5%E7%AE%80%E5%8C%96%E5%B7%A5%E5%85%B7%E7%B1%BB/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E5%AE%9E%E9%AA%8C/%E7%A0%94%E7%A9%B6/</loc>
   </url>
   
   <url>
@@ -3572,6 +3576,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/%E9%80%9A%E8%BF%87github-actions%E5%AE%9E%E7%8E%B0%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E7%9A%84%E6%96%B9%E6%A1%88/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/%E9%80%9A%E8%BF%87helm%E5%AE%89%E8%A3%85%E5%93%A8%E5%85%B5%E6%9C%BA%E5%88%B6%E7%9A%84redis%E5%BA%9F%E5%BC%83/</loc>
   </url>
   
   <url>

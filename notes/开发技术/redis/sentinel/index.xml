@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sentinel on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/</link>
+    <description>Recent content in Sentinel on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>SpringBoot配置使用哨兵（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/springboot%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8%E5%93%A8%E5%85%B5%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/springboot%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8%E5%93%A8%E5%85%B5%E5%BA%9F%E5%BC%83/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>理解哨兵机制原理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/%E7%90%86%E8%A7%A3%E5%93%A8%E5%85%B5%E6%9C%BA%E5%88%B6%E5%8E%9F%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/%E7%90%86%E8%A7%A3%E5%93%A8%E5%85%B5%E6%9C%BA%E5%88%B6%E5%8E%9F%E7%90%86/</guid>
+        <description>如果考虑使用阿里云Redis的话，哨兵是没有深入研究的价值的，因为阿里云Redis提供了自己的HA组件，来实现备份节点到主节点的转换。但是出</description>
+      </item>
+      
+      <item>
+        <title>通过Helm安装哨兵机制的Redis（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/%E9%80%9A%E8%BF%87helm%E5%AE%89%E8%A3%85%E5%93%A8%E5%85%B5%E6%9C%BA%E5%88%B6%E7%9A%84redis%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/%E9%80%9A%E8%BF%87helm%E5%AE%89%E8%A3%85%E5%93%A8%E5%85%B5%E6%9C%BA%E5%88%B6%E7%9A%84redis%E5%BA%9F%E5%BC%83/</guid>
+        <description>在Redis里搭Redis感觉只适合搭Standalone模式。如果搭主从模式，则多个从节点通过一个Service暴露服务，那么在Sprin</description>
+      </item>
+      
+    
+  </channel>
+</rss>
