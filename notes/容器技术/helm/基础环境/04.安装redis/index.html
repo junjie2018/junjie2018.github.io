@@ -21215,7 +21215,11 @@ helm install redis bitnami/redis \
 <li>修改架构为standalone、</li>
 <li>修改不需要验证</li>
 </ul>
-<h2 id="springboot中的配置">SpringBoot中的配置</h2>
+<h2 id="对默认配置文件作出的改动">对默认配置文件作出的改动</h2>
+<ol>
+<li>修改架构方式为standard</li>
+<li>修改master的persistent下得storageClassName</li>
+</ol>
 <h2 id="总结">总结</h2>
 <p>实际上，我对服务暴露部分不是很满意，首先暴露TCP服务不是Ingress设计的初衷，然而我还是通过IngressNginx完成了这个需求，所以我使用的方案是不优雅的。其次采用这种暴露服务的方式，会导致流量先经过Nginx代理，再经过LVPS代理，经过太多的代理会增加了网络成本，在生产上肯定是不会使用这种方案的（生产上我建议还是直接买云产品吧）。</p>
 
@@ -21256,7 +21260,7 @@ helm install redis bitnami/redis \
   <div class="toc__body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#springboot中的配置">SpringBoot中的配置</a></li>
+    <li><a href="#对默认配置文件作出的改动">对默认配置文件作出的改动</a></li>
     <li><a href="#总结">总结</a></li>
   </ul>
 </nav>

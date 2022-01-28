@@ -1119,7 +1119,7 @@
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
     "url" : "http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E6%9A%B4%E5%8A%9B%E7%9A%84%E9%87%8D%E6%96%B0%E6%90%AD%E5%BB%BAk8s/",
-    "description": "之前的K8S好久没有了，版本有点旧，所以想重新建个新的，执行的指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 # K8S重置 kubeadm reset # 清除连接文",
+    "description": "之前的K8S好久没有了，版本有点旧，所以想重新建个新的，执行的指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 # K8S重置 kubeadm reset # 清除连接文件 rm",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -21178,8 +21178,6 @@
 </span><span class="lnt">16
 </span><span class="lnt">17
 </span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-shell" data-lang="shell">
@@ -21194,9 +21192,7 @@ docker rm <span class="k">$(</span>docker ps -aq<span class="k">)</span>
 docker rmi <span class="k">$(</span>docker images -q<span class="k">)</span>
 
 <span class="c1"># 重新初始化</span>
-kubeadm init <span class="se">\
-</span><span class="se"></span>    --pod-network-cidr<span class="o">=</span>10.244.0.0/16 <span class="se">\
-</span><span class="se"></span>    --service-node-port-range<span class="o">=</span>30000-40000
+kubeadm init --pod-network-cidr<span class="o">=</span>10.244.0.0/16
 
 <span class="c1"># 重新安装flannel</span>
 wget https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml

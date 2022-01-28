@@ -21202,12 +21202,16 @@ helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs
     --namespace nfs \
     --create-namespace
 
-</code></pre><h2 id="对默认配置文件作出的改动">对默认配置文件作出的改动</h2>
-<ol>
-<li>修改架构方式为standard</li>
-<li>修改master的persistent下得storageClassName</li>
+</code></pre><ol start="4">
+<li>更新服务</li>
 </ol>
-<h2 id="遇到的问题">遇到的问题</h2>
+<pre><code>
+helm upgrade nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner \
+    --values values.yaml \
+    --namespace nfs \
+    --create-namespace
+
+</code></pre><h2 id="遇到的问题">遇到的问题</h2>
 <ol>
 <li>第一次操作失误，创建了一个未指定storageClassName的pvc，这个pvc一直处于pending状态，即使我使用了<code>helm uninstall</code>删除了我的chart实例，该pvc也不会一起删除。由于我不知道<code>helm uninstall</code>不会删除该pvc，所以一直在反复的检查自己的操作。</li>
 </ol>
@@ -21253,7 +21257,6 @@ helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs
   <div class="toc__body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#对默认配置文件作出的改动">对默认配置文件作出的改动</a></li>
     <li><a href="#遇到的问题">遇到的问题</a></li>
     <li><a href="#参考资料">参考资料</a></li>
   </ul>
