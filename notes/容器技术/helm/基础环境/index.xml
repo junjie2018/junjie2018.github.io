@@ -41,21 +41,21 @@
       </item>
       
       <item>
-        <title>04.安装MariaDB（待完成）</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
-        <description></description>
-      </item>
-      
-      <item>
         <title>04.安装Redis</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/</guid>
-        <description>仓库 1 2 helm repo add bitnami https://charts.bitnami.com/bitnami 获取默认的Values.yaml，并反复调试 helm inspect values bitnami/redis &amp;gt; values.yaml helm install redis bitnami/redis \ --values values.yaml \ --namespace base-environment \ --create-namespace \ --dry-run &amp;gt; tmp.yaml 安装服务 helm install redis bitnami/redis \ --values values.yaml \ --namespace base-environment \ --create-namespace 暴</description>
+        <description>仓库 1 2 helm repo add bitnami https://charts.bitnami.com/bitnami 获取默认的Values.yaml，并反复调试 helm inspect values bitnami/redis &amp;gt; values.yaml helm install redis bitnami/redis \ --values values.yaml \ --namespace base-environment \ --create-namespace \ --dry-run &amp;gt; tmp.yaml 安装服务 1 2 3 4 5 6 7 8 9 10 11 12 #</description>
+      </item>
+      
+      <item>
+        <title>05.安装MariaDB（待完成）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/05.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/05.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
+        <description></description>
       </item>
       
       <item>

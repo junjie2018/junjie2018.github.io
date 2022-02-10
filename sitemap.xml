@@ -663,10 +663,6 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</loc>
-  </url>
-  
-  <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/</loc>
   </url>
   
@@ -684,6 +680,10 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/05.%E5%90%8D%E7%A7%B0%E7%A9%BA%E9%97%B4%E4%B8%8Edns/</loc>
+  </url>
+  
+  <url>
+    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/05.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</loc>
   </url>
   
   <url>

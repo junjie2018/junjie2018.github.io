@@ -1466,7 +1466,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/" class="menu__title " data-depth="2">04.安装MariaDB（待完成）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/" class="menu__title active" data-depth="2">04.安装Redis</a>
         </li>
       
     
@@ -1474,7 +1474,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/" class="menu__title active" data-depth="2">04.安装Redis</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/05.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/" class="menu__title " data-depth="2">05.安装MariaDB（待完成）</a>
         </li>
       
     
@@ -11630,7 +11630,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/" class="menu__title " data-depth="2">04.安装MariaDB（待完成）</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/" class="menu__title active" data-depth="2">04.安装Redis</a>
         </li>
       
     
@@ -11638,7 +11638,7 @@
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/" class="menu__title active" data-depth="2">04.安装Redis</a>
+          <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/05.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/" class="menu__title " data-depth="2">05.安装MariaDB（待完成）</a>
         </li>
       
     
@@ -21194,13 +21194,37 @@ helm install redis bitnami/redis \
 </code></pre><ol start="3">
 <li>安装服务</li>
 </ol>
-<pre><code>
-helm install redis bitnami/redis \
-    --values values.yaml \
-    --namespace base-environment \
-    --create-namespace
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">
+<span class="c1"># standalone</span>
+helm install redis bitnami/redis <span class="se">\
+</span><span class="se"></span>    --values values-standalone.yaml <span class="se">\
+</span><span class="se"></span>    --namespace base-environment <span class="se">\
+</span><span class="se"></span>    --create-namespace
 
-</code></pre><ol start="4">
+helm install redis bitnami/redis <span class="se">\
+</span><span class="se"></span>    --values values-sentinel.yaml <span class="se">\
+</span><span class="se"></span>    --namespace base-environment <span class="se">\
+</span><span class="se"></span>    --create-namespace
+
+</code></pre></td></tr></table>
+</div>
+</div><ol start="4">
 <li>
 <p>暴露该服务</p>
 <p>我选择了使用Ingress进行暴露，而不是修改Service为NodePort。我认为在生产环境中，肯定不会考虑将Redis装在K8S集群中，所以在这种细节上浪费时间是没有意义的。而在个人开发环境中，将所有配置在一起，用相同的方式解决问题，是非常方便的，所以我选择了使用Ingress进行服务的暴露。相关技术可以参考IngressNginx部分的配置。</p>
@@ -21230,17 +21254,17 @@ helm install redis bitnami/redis \
 <nav class="pagination-single">
   
     
-      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/" title="04.安装MariaDB（待完成）" class="pagination-single__left">
+      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85nfs-provisioner/" title="03.安装nfs-provisioner" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__right-title">04.安装MariaDB（待完成）</div>
+        <div class="pagination-single__right-title">03.安装nfs-provisioner</div>
       </a>
     
     <div class="grow"></div>
     
-      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/05.%E5%AE%89%E8%A3%85postgresql%E5%BE%85%E5%AE%8C%E6%88%90/" title="05.安装PostgreSQL（待完成）" class="pagination-single__right">
-        <div class="pagination-single__left-title">05.安装PostgreSQL（待完成）</div>
+      <a href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/05.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/" title="05.安装MariaDB（待完成）" class="pagination-single__right">
+        <div class="pagination-single__left-title">05.安装MariaDB（待完成）</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
