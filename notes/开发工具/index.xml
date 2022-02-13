@@ -176,6 +176,15 @@
       </item>
       
       <item>
+        <title>OpenVPN（作废）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/</guid>
+        <description>直接在操作系统中安装并运行OpenVPN的相关技术的研究我打算终止了，未来的话我会直接结合OpenWRT研究该项技术。 截止目前，我对Open</description>
+      </item>
+      
+      <item>
         <title>PhysicalMachine</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/physicalmachine/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

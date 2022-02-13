@@ -1293,12 +1293,30 @@
       </item>
       
       <item>
+        <title>CentOS7升级内核到5.4</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</guid>
+        <description>我主要参考如下教程，该教程非常优秀，按照教程做，没有出现任何问题： [Linux]CentOS7.6更新内核 在使用该教程时有一些注意事项： 移除</description>
+      </item>
+      
+      <item>
         <title>Centos7简单配置samba</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</guid>
         <description>我对这块算不上熟悉，只是因为需要高频率的在Linux系统和Windows系统之间交换文件，所以我想将Linux上的一个目录挂载到我本地。我尝</description>
+      </item>
+      
+      <item>
+        <title>CentOS8升级内核到5.12</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</guid>
+        <description>这篇笔记不是针对CentOS7的 操作步骤 常用指令 uanme -a # 查看当前内核版本 cat /etc/redhat-release # 查看当前系统版本 rpm -qa | grep kernel # 查看已安装的内核 yum repolist # 查看yum当前</description>
       </item>
       
       <item>
@@ -1317,15 +1335,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%85%B3%E9%97%AD%E9%98%B2%E7%81%AB%E5%A2%99/</guid>
         <description>这是一个非常简单的指令，但是我总是拼不对，干脆记下来算了。 systemctl stop firewalld systemctl disable firewalld 20210502后续： 我今天才知道firewalld和iptables</description>
-      </item>
-      
-      <item>
-        <title>CentOS升级内核到5.12</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</guid>
-        <description>操作步骤 常用指令 uanme -a # 查看当前内核版本 cat /etc/redhat-release # 查看当前系统版本 rpm -qa | grep kernel # 查看已安装的内核 yum repolist # 查看yum当前配置了哪些源 安装elrepo仓库</description>
       </item>
       
       <item>
@@ -1352,7 +1361,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</guid>
-        <description>指令如下，这是我目前找到的最优雅，最快速的方法： nmcli connection modify eth0 \ ipv4.dns 192.168.23.65 \ ipv4.method manual \ ipv4.gateway 192.168.23.65 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify eth0 \ ipv4.addresses 192.168.23.60/24 \ ipv4.dns 192.168.23.65 \ ipv4.method manual \ ipv4.gateway 192.168.23.65 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify</description>
+        <description>指令如下，这是我目前找到的最优雅，最快速的方法： nmcli connection modify eth0 \ ipv4.dns 192.168.31.199 \ ipv4.method manual \ ipv4.gateway 192.168.31.199 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify eth0 \ ipv4.addresses 192.168.23.60/24 \ ipv4.dns 192.168.23.65 \ ipv4.method manual \ ipv4.gateway 192.168.23.65 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify</description>
       </item>
       
       <item>
@@ -2670,6 +2679,15 @@
       </item>
       
       <item>
+        <title>K8S中快速启动一个测试</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/k8s%E4%B8%AD%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/k8s%E4%B8%AD%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>K8S推荐使用的标签及Helm常用的标签</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/k8s%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%E7%9A%84%E6%A0%87%E7%AD%BE%E5%8F%8Ahelm%E5%B8%B8%E7%94%A8%E7%9A%84%E6%A0%87%E7%AD%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3270,6 +3288,33 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openmediavault/omv%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E5%AE%9E%E9%AA%8C%E7%89%88/</guid>
         <description>存储器 &amp;gt; 磁盘：对数据盘进行擦除 存储器 &amp;gt; 文件系统：为数据盘创建文件系统 存储器 &amp;gt; 文件系统：挂载数据盘 访问权限管理 &amp;gt; 共享文件夹：创建一个共享文件夹</description>
+      </item>
+      
+      <item>
+        <title>OpenVPN的安装与配置（高安全级别的）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E9%AB%98%E5%AE%89%E5%85%A8%E7%BA%A7%E5%88%AB%E7%9A%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E9%AB%98%E5%AE%89%E5%85%A8%E7%BA%A7%E5%88%AB%E7%9A%84/</guid>
+        <description>考虑到Ubuntu的一些底层的包和CentOS不一样，我决定重新查找CentOS上OpenVPN的安装方法。 安装OpenVPN 安装前的准备工</description>
+      </item>
+      
+      <item>
+        <title>OpenVPN证书生成</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90/</guid>
+        <description>CentOS版 easy-rsa下载与配置修改 下载easy-ras并解压 wget https://github.com/OpenVPN/easy-rsa/archive/v3.0.7.tar.gz mv v3.0.7.tar.gz easy-rsa-3.0.7.tar.gz tar xf easy-rsa-3.0.7.tar.gz 根据vars.example生成全局配置文件vars cd</description>
+      </item>
+      
+      <item>
+        <title>OpenVPN资料整理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <description>openvpn 文件参数详解 讲解了OpenVPN的参数，感觉还不错 OpenWRT 搭建 OpenVPN 服务器 评论区讨论了其他技术，很有价值。</description>
       </item>
       
       <item>
@@ -4251,6 +4296,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ubuntu/ubuntu%E5%AE%89%E8%A3%85%E5%B9%B6%E9%85%8D%E7%BD%AEopenssh/</guid>
         <description>操作步骤 安装openssh服务端 sudo apt-get install openssh-server 编辑配置文件/etc/ssh/sshd_config改PermitRootLogin为yes # Authentication: LoginGraceTime 120</description>
+      </item>
+      
+      <item>
+        <title>Ubuntu容器安装常用工具</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/docker/ubuntu%E5%AE%B9%E5%99%A8%E5%AE%89%E8%A3%85%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/docker/ubuntu%E5%AE%B9%E5%99%A8%E5%AE%89%E8%A3%85%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/</guid>
+        <description>这些是凭记忆写的，以后用到时还会更新： 1 2 3 4 5 6 7 8 9 10 # ifconfig apt install -y net-tools # ip apt install -y iputils-ping # traceroute apt install traceroute</description>
       </item>
       
       <item>
@@ -6225,6 +6279,15 @@
       </item>
       
       <item>
+        <title>排查更换网络环境后，无法访问工具机上的虚拟机网络</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E6%8E%92%E6%9F%A5%E6%9B%B4%E6%8D%A2%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%90%8E%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E6%8E%92%E6%9F%A5%E6%9B%B4%E6%8D%A2%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%90%8E%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid>
+        <description>问题描述 今天将我的工具机从公司搬到了家里，配置好了网络后，想测试一下openVPN是否能够正常使用。结果开发机登录后，仍然无法访问工具机上的</description>
+      </item>
+      
+      <item>
         <title>探索save指令的一些特性</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E6%8E%A2%E7%B4%A2save%E6%8C%87%E4%BB%A4%E7%9A%84%E4%B8%80%E4%BA%9B%E7%89%B9%E6%80%A7/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6810,6 +6873,15 @@
       </item>
       
       <item>
+        <title>解决AnyConnection与OpenVPN冲突导致的无法直接访问工具机上的虚拟机</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E8%A7%A3%E5%86%B3anyconnection%E4%B8%8Eopenvpn%E5%86%B2%E7%AA%81%E5%AF%BC%E8%87%B4%E7%9A%84%E6%97%A0%E6%B3%95%E7%9B%B4%E6%8E%A5%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E8%A7%A3%E5%86%B3anyconnection%E4%B8%8Eopenvpn%E5%86%B2%E7%AA%81%E5%AF%BC%E8%87%B4%E7%9A%84%E6%97%A0%E6%B3%95%E7%9B%B4%E6%8E%A5%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA/</guid>
+        <description>问题描述 因为需要在家访问公司里的工具机上的虚拟机的网络，所以我需要挂访问公司的vpn，然后挂工具机的vpn。 但是今天我挂好了这两个vpn后，</description>
+      </item>
+      
+      <item>
         <title>解决Jenkins下载插件慢</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/jenkins/%E8%A7%A3%E5%86%B3jenkins%E4%B8%8B%E8%BD%BD%E6%8F%92%E4%BB%B6%E6%85%A2/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6843,6 +6915,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/docker/%E8%A7%A3%E5%86%B3%E4%BB%8E%E4%B8%8D%E5%90%8C%E6%BA%90%E6%8B%89%E5%8F%96%E5%90%8C%E4%B8%80%E4%B8%AA%E9%95%9C%E5%83%8F%E5%A4%9A%E6%AC%A1%E5%A7%8B%E7%BB%88%E4%BB%8E%E6%96%AD%E7%82%B9%E5%A4%84%E6%89%A7%E8%A1%8C/</guid>
         <description>在装kubernetes时，因为部分镜像下载太慢，我强行终止了下载。待我通过别的网速较快的机器将该镜像拉取并上传到内部的镜像服务器后，然后再</description>
+      </item>
+      
+      <item>
+        <title>解决无法访问我工具机上的虚拟机网络的问题（作废）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E8%A7%A3%E5%86%B3%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%88%91%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98%E4%BD%9C%E5%BA%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E8%A7%A3%E5%86%B3%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%88%91%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98%E4%BD%9C%E5%BA%9F/</guid>
+        <description>说明： 其实这个不是导致问题的核心原因，核心原因是AnyConnection导致的，该问题我已定位并解决，有相关的笔记说明了具体的原因和解决方</description>
       </item>
       
       <item>
@@ -7005,6 +7086,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%BE%E7%BD%AEvim%E7%BC%A9%E8%BF%9B%E4%B8%BA4%E4%B8%AA%E7%A9%BA%E6%A0%BC/</guid>
         <description>拷贝配置文件到家目录： 1 2 3 4 5 6 7 # ubuntu cp /etc/vim/vimrc ~/.vimrc # centos cp /etc/vimrc ~/.vimrc 编辑该配置文件，增加如下内容 set tabstop=4 参考资料 Linux下设置vim的缩进为4个空格</description>
+      </item>
+      
+      <item>
+        <title>设置错broadcast，导致ssh链接时一直卡着</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E8%AE%BE%E7%BD%AE%E9%94%99broadcast%E5%AF%BC%E8%87%B4ssh%E9%93%BE%E6%8E%A5%E6%97%B6%E4%B8%80%E7%9B%B4%E5%8D%A1%E7%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E8%AE%BE%E7%BD%AE%E9%94%99broadcast%E5%AF%BC%E8%87%B4ssh%E9%93%BE%E6%8E%A5%E6%97%B6%E4%B8%80%E7%9B%B4%E5%8D%A1%E7%9D%80/</guid>
+        <description>我配置了5个虚拟机，用于Kubernetes实验，结果进行ssh链接只有两台虚拟机能进行正常链接，其他三台一直卡在如下界面（偶尔一两次会链接</description>
       </item>
       
       <item>

@@ -68,12 +68,30 @@
       </item>
       
       <item>
+        <title>CentOS7升级内核到5.4</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</guid>
+        <description>我主要参考如下教程，该教程非常优秀，按照教程做，没有出现任何问题： [Linux]CentOS7.6更新内核 在使用该教程时有一些注意事项： 移除</description>
+      </item>
+      
+      <item>
         <title>Centos7简单配置samba</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</guid>
         <description>我对这块算不上熟悉，只是因为需要高频率的在Linux系统和Windows系统之间交换文件，所以我想将Linux上的一个目录挂载到我本地。我尝</description>
+      </item>
+      
+      <item>
+        <title>CentOS8升级内核到5.12</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</guid>
+        <description>这篇笔记不是针对CentOS7的 操作步骤 常用指令 uanme -a # 查看当前内核版本 cat /etc/redhat-release # 查看当前系统版本 rpm -qa | grep kernel # 查看已安装的内核 yum repolist # 查看yum当前</description>
       </item>
       
       <item>
@@ -95,15 +113,6 @@
       </item>
       
       <item>
-        <title>CentOS升级内核到5.12</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</guid>
-        <description>操作步骤 常用指令 uanme -a # 查看当前内核版本 cat /etc/redhat-release # 查看当前系统版本 rpm -qa | grep kernel # 查看已安装的内核 yum repolist # 查看yum当前配置了哪些源 安装elrepo仓库</description>
-      </item>
-      
-      <item>
         <title>CentOS和Window查看网卡是百兆还是千兆</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%92%8Cwindow%E6%9F%A5%E7%9C%8B%E7%BD%91%E5%8D%A1%E6%98%AF%E7%99%BE%E5%85%86%E8%BF%98%E6%98%AF%E5%8D%83%E5%85%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -118,7 +127,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</guid>
-        <description>指令如下，这是我目前找到的最优雅，最快速的方法： nmcli connection modify eth0 \ ipv4.dns 192.168.23.65 \ ipv4.method manual \ ipv4.gateway 192.168.23.65 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify eth0 \ ipv4.addresses 192.168.23.60/24 \ ipv4.dns 192.168.23.65 \ ipv4.method manual \ ipv4.gateway 192.168.23.65 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify</description>
+        <description>指令如下，这是我目前找到的最优雅，最快速的方法： nmcli connection modify eth0 \ ipv4.dns 192.168.31.199 \ ipv4.method manual \ ipv4.gateway 192.168.31.199 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify eth0 \ ipv4.addresses 192.168.23.60/24 \ ipv4.dns 192.168.23.65 \ ipv4.method manual \ ipv4.gateway 192.168.23.65 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify</description>
       </item>
       
       <item>
@@ -236,6 +245,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E8%AE%B0%E5%BD%95centos%E6%8B%A8%E5%8F%B7%E4%B8%8A%E7%BD%91%E6%97%B6%E7%9A%84%E4%B8%80%E4%B8%AA%E5%A5%87%E6%80%AA%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>CentOS拨号上网时导致的无法通过192.168.31.217进行ssh的问题。我的解决方案非常的暴力，我拆掉了J4125上的USB网卡，</description>
+      </item>
+      
+      <item>
+        <title>设置错broadcast，导致ssh链接时一直卡着</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E8%AE%BE%E7%BD%AE%E9%94%99broadcast%E5%AF%BC%E8%87%B4ssh%E9%93%BE%E6%8E%A5%E6%97%B6%E4%B8%80%E7%9B%B4%E5%8D%A1%E7%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E8%AE%BE%E7%BD%AE%E9%94%99broadcast%E5%AF%BC%E8%87%B4ssh%E9%93%BE%E6%8E%A5%E6%97%B6%E4%B8%80%E7%9B%B4%E5%8D%A1%E7%9D%80/</guid>
+        <description>我配置了5个虚拟机，用于Kubernetes实验，结果进行ssh链接只有两台虚拟机能进行正常链接，其他三台一直卡在如下界面（偶尔一两次会链接</description>
       </item>
       
     
