@@ -58,6 +58,15 @@
         <description>下载二进制文件，并解压二进制文件 tar -zxvf helm-v3.5.4-linux-amd64.tar.gz 将二进制文件移动$PATH目录下 mv linux-amd64/helm /usr/local/bin/helm Helm常用指令 添加一个chart仓库，并查看charts列表 helm</description>
       </item>
       
+      <item>
+        <title>获取chart的values.yaml</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E8%8E%B7%E5%8F%96chart%E7%9A%84values.yaml/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E8%8E%B7%E5%8F%96chart%E7%9A%84values.yaml/</guid>
+        <description>这个指令使用的频率太高了，所以专门记一篇笔记： 1 2 3 4 helm inspect values ingress-nginx/ingress-nginx &amp;gt; values.yaml helm inspect values ingress-nginx/ingress-nginx &amp;gt; values.yaml</description>
+      </item>
+      
     
   </channel>
 </rss>
