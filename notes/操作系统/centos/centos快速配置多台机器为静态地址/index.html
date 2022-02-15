@@ -21398,8 +21398,18 @@ nmcli connection modify eth0 \
     connection.autoconnect yes 
 nmcli c up eth0
 
+# 访问外网（下载软件）
 nmcli connection modify eth0 \
-    ipv4.addresses 192.168.23.57/24 \
+    ipv4.addresses 192.168.23.69/24 \
+    ipv4.dns 192.168.23.65 \
+    ipv4.method manual \
+    ipv4.gateway 192.168.23.65 \
+    connection.autoconnect yes 
+nmcli c up eth0
+
+# 访问内网
+nmcli connection modify eth0 \
+    ipv4.addresses 192.168.23.69/24 \
     ipv4.dns 192.168.20.21 \
     ipv4.method manual \
     ipv4.gateway 192.168.23.1 \
