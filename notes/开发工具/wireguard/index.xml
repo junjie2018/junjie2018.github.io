@@ -14,12 +14,21 @@
     
       
       <item>
+        <title>方案</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>AllowedIPs不理解的地方</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/allowedips%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9A%84%E5%9C%B0%E6%96%B9/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/allowedips%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9A%84%E5%9C%B0%E6%96%B9/</guid>
-        <description>我在看官网的文档时，注意到如下一段配置及讲解，这让我产生了疑惑，故记录下来： 讲解翻译如下：在服务端配置中，每个对等点（客户端）将能够将数据包</description>
+        <description>我在看官网的文档时，注意到如下一段配置及讲解，这让我产生了疑惑，故记录下来： 该讲解翻译如下：在服务端配置中，每个对等点（客户端）将能够将数据</description>
       </item>
       
       <item>
@@ -56,6 +65,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E7%9A%84%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86/</guid>
         <description>（这是我读官方文档时的简单理解） Wireguard使用UDP封装IP数据包。在使用的过程中，需要创建一个WireGuard接口，使用自己的私</description>
+      </item>
+      
+      <item>
+        <title>秘钥生成错误，会导致全链路无法ping通</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E7%A7%98%E9%92%A5%E7%94%9F%E6%88%90%E9%94%99%E8%AF%AF%E4%BC%9A%E5%AF%BC%E8%87%B4%E5%85%A8%E9%93%BE%E8%B7%AF%E6%97%A0%E6%B3%95ping%E9%80%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E7%A7%98%E9%92%A5%E7%94%9F%E6%88%90%E9%94%99%E8%AF%AF%E4%BC%9A%E5%AF%BC%E8%87%B4%E5%85%A8%E9%93%BE%E8%B7%AF%E6%97%A0%E6%B3%95ping%E9%80%9A/</guid>
+        <description>我目前分析是我在生成秘钥时操作失误了，我还不能确定具体原因，先观察一段时间吧。</description>
       </item>
       
       <item>

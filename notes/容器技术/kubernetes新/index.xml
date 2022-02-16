@@ -257,6 +257,15 @@
       </item>
       
       <item>
+        <title>升级软件包后，无法正常的安装Kubernetes</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%90%8E%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E7%9A%84%E5%AE%89%E8%A3%85kubernetes/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%90%8E%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E7%9A%84%E5%AE%89%E8%A3%85kubernetes/</guid>
+        <description>因为需要升级内核的原因，将CentOS的软件包也一起升级了一下，升级后发现无法正常的安装K8S集群了。 执行systemctl status kubelet</description>
+      </item>
+      
+      <item>
         <title>启动Pod时因为flannel报错</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E5%90%AF%E5%8A%A8pod%E6%97%B6%E5%9B%A0%E4%B8%BAflannel%E6%8A%A5%E9%94%99/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
