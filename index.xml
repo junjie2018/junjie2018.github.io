@@ -1050,6 +1050,15 @@
       </item>
       
       <item>
+        <title>AllowedIPs不理解的地方</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/allowedips%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9A%84%E5%9C%B0%E6%96%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/allowedips%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9A%84%E5%9C%B0%E6%96%B9/</guid>
+        <description>我在看官网的文档时，注意到如下一段配置及讲解，这让我产生了疑惑，故记录下来： 讲解翻译如下：在服务端配置中，每个对等点（客户端）将能够将数据包</description>
+      </item>
+      
+      <item>
         <title>Alpine Linux 3.11安装常用工具包</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/alpine/alpine-linux-3.11%E5%AE%89%E8%A3%85%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E5%8C%85/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1137,6 +1146,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E7%BA%BF%E5%A6%82%E4%BD%95%E6%8F%92/</guid>
         <description>参考资料 微星b450m迫击炮主板接线图解</description>
+      </item>
+      
+      <item>
+        <title>Backports的一些知识</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/backports%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/backports%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
+        <description>参考资料 Backports</description>
       </item>
       
       <item>
@@ -1572,15 +1590,6 @@
       </item>
       
       <item>
-        <title>Curl Not Found</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/curl-not-found/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/curl-not-found/</guid>
-        <description>操作步骤 运行如下指令： apt install -y curl</description>
-      </item>
-      
-      <item>
         <title>curl常用指令</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/curl%E6%8C%87%E4%BB%A4/curl%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1617,6 +1626,15 @@
       </item>
       
       <item>
+        <title>Debain搜索Backports包</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debain%E6%90%9C%E7%B4%A2backports%E5%8C%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debain%E6%90%9C%E7%B4%A2backports%E5%8C%85/</guid>
+        <description>可以Backports理解为一个仓库，仓库里放的都是一些未进行充分测试的包，任何人都可以创建自己的Backports。 我们想安装某个软件的的</description>
+      </item>
+      
+      <item>
         <title>Debian删除和新建分区</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E5%88%A0%E9%99%A4%E5%92%8C%E6%96%B0%E5%BB%BA%E5%88%86%E5%8C%BA/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1635,12 +1653,30 @@
       </item>
       
       <item>
+        <title>Debian系统上编译Wireguard</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/debian%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%BC%96%E8%AF%91wireguard/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/debian%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%BC%96%E8%AF%91wireguard/</guid>
+        <description>之所以需要这个教程了，是因为我想在Debian上使用最新版的wireguard-tools（我现在已经使用backports的方式安装了），</description>
+      </item>
+      
+      <item>
         <title>Debian系统关机</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E7%B3%BB%E7%BB%9F%E5%85%B3%E6%9C%BA/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E7%B3%BB%E7%BB%9F%E5%85%B3%E6%9C%BA/</guid>
         <description>操作步骤 执行如下指令： 1 2 3 4 systemctl poweroff systemctl reboot</description>
+      </item>
+      
+      <item>
+        <title>Debian系统安装最新版的wireguard-tools</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/debian%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88%E7%9A%84wireguard-tools/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/debian%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88%E7%9A%84wireguard-tools/</guid>
+        <description>在该页面搜索wireguard包 选择一个搜索项，进入详情页，在详情页的下载列表中选择amd64架构 进入amd64架构的详情页，如图，拿到源地</description>
       </item>
       
       <item>
@@ -4632,6 +4668,24 @@
       </item>
       
       <item>
+        <title>Wireguard与Docker（记录）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E4%B8%8Edocker%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E4%B8%8Edocker%E8%AE%B0%E5%BD%95/</guid>
+        <description>WireGuard使用最初创建WireGuard接口的网络命名空间发送和接收加密数据包。这意味着您可以在可以访问Internet的主网络名称</description>
+      </item>
+      
+      <item>
+        <title>Wireguard的原理知识</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E7%9A%84%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E7%9A%84%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86/</guid>
+        <description>（这是我读官方文档时的简单理解） Wireguard使用UDP封装IP数据包。在使用的过程中，需要创建一个WireGuard接口，使用自己的私</description>
+      </item>
+      
+      <item>
         <title>workdir参数导致docker启动时无法找到脚本</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/workdir%E5%8F%82%E6%95%B0%E5%AF%BC%E8%87%B4docker%E5%90%AF%E5%8A%A8%E6%97%B6%E6%97%A0%E6%B3%95%E6%89%BE%E5%88%B0%E8%84%9A%E6%9C%AC/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6918,6 +6972,15 @@
       </item>
       
       <item>
+        <title>解决两个Wireguard客户端之间无法Ping通</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E8%A7%A3%E5%86%B3%E4%B8%A4%E4%B8%AAwireguard%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B9%8B%E9%97%B4%E6%97%A0%E6%B3%95ping%E9%80%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E8%A7%A3%E5%86%B3%E4%B8%A4%E4%B8%AAwireguard%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B9%8B%E9%97%B4%E6%97%A0%E6%B3%95ping%E9%80%9A/</guid>
+        <description>为了更深刻的学习WireGuard，我开始自己搭建服务端和客户端进行测试。WireGuard本身是不区分服务端和客户端的，但是在我的拓补结构</description>
+      </item>
+      
+      <item>
         <title>解决从不同源拉取同一个镜像多次，始终从断点处执行</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/docker/%E8%A7%A3%E5%86%B3%E4%BB%8E%E4%B8%8D%E5%90%8C%E6%BA%90%E6%8B%89%E5%8F%96%E5%90%8C%E4%B8%80%E4%B8%AA%E9%95%9C%E5%83%8F%E5%A4%9A%E6%AC%A1%E5%A7%8B%E7%BB%88%E4%BB%8E%E6%96%AD%E7%82%B9%E5%A4%84%E6%89%A7%E8%A1%8C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7248,6 +7311,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/logging/%E9%85%8D%E7%BD%AEslf4j&#43;log4j2/</guid>
         <description>之前使用SpringBoot，都是自动帮我配置好的，难得有机会自己配置一下，资料整理如下： 添加依赖如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18</description>
+      </item>
+      
+      <item>
+        <title>配置wireguard开启启动</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E9%85%8D%E7%BD%AEwireguard%E5%BC%80%E5%90%AF%E5%90%AF%E5%8A%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E9%85%8D%E7%BD%AEwireguard%E5%BC%80%E5%90%AF%E5%90%AF%E5%8A%A8/</guid>
+        <description>指令如下： systemctl enable wg-quick@wg0 参考资料 轻松几步搭建 WireGuard （快速安全的下一代 VPN） 该指令是从这篇教程中学习到的。</description>
       </item>
       
       <item>

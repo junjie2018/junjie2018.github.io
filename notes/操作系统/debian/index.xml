@@ -14,12 +14,21 @@
     
       
       <item>
-        <title>Curl Not Found</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/curl-not-found/</link>
+        <title>Backports的一些知识</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/backports%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/curl-not-found/</guid>
-        <description>操作步骤 运行如下指令： apt install -y curl</description>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/backports%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
+        <description>参考资料 Backports</description>
+      </item>
+      
+      <item>
+        <title>Debain搜索Backports包</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debain%E6%90%9C%E7%B4%A2backports%E5%8C%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debain%E6%90%9C%E7%B4%A2backports%E5%8C%85/</guid>
+        <description>可以Backports理解为一个仓库，仓库里放的都是一些未进行充分测试的包，任何人都可以创建自己的Backports。 我们想安装某个软件的的</description>
       </item>
       
       <item>
