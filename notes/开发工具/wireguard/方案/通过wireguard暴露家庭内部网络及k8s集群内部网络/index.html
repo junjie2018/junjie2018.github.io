@@ -1119,7 +1119,7 @@
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
     "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/",
-    "description": "我之前有使用过WireGuard连接家庭内部网络，但是当时目的单一，所以研究的并不深入。最近在学习Redis等中间件的高级知识，所以我需要搭",
+    "description": "准备秘钥文件 准备服务端、客户端秘钥文件： 核心指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 # 服务端 mkdir -p ~/WireGuard/Server cd ~/WireGuard/Server wg genkey | tee privatekey | wg pubkey \u0026gt; publickey # 客 …",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -21710,19 +21710,7 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <p>我之前有使用过WireGuard连接家庭内部网络，但是当时目的单一，所以研究的并不深入。最近在学习Redis等中间件的高级知识，所以我需要搭建一个Redis集群，然后连接到各个实例进行测试。</p>
-<p>我的K8S集群建立在K8S集群中，使用K8S默认的资源暴露各个Redis实例是工作量巨大，如果不暴露各个实例，则会因为内部负载均衡的原因，导致实验效果不佳。</p>
-<p>我曾考虑过使用OpenVPN让我的开发机连接到K8S的内部网络，但是之前的使用体验非常的不好，繁琐的配置，某些场景下无法安装Windows客户端，所以我决定研究新的VPN工具。WireGuard在原理、配置方面都非常容易理解，而且我已经再使用它了，只需要再深入研究一下，就可以胜任我连接K8S集群内部网络的需求。</p>
-<p>为什么不考虑代理或其他成熟的工具呢？KTConnect之类的工具我也有使用经验，且在公司积累了足够的使用经验。但是我的开发机是Windows系统的，KTConnect对其支持并不是太好，只能走Socks模式。而走Socks模式，很多headless服务是无法暴露出来的，这会给我造成困扰。</p>
-<p>使用WireGuard方案，将DNS配置成容器内部的CoreDNS，则可以通过集群内部的DNS服务，轻松访问到各个Pod、Service、Headless Service，这使得我的配置可以在不进行任何修改的情况下，从开发机迁移到集群内部。</p>
-<h2 id="我的网络拓补结构及对wireguard方案的设计">我的网络拓补结构及对WireGuard方案的设计</h2>
-<p>如图，为我的网络拓补结构：</p>
-<p><p class="md__image">
-  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2022-02-16-11-06-05.png" alt="2022-02-16-11-06-05"  />
-</p></p>
-<p>WorkPC1和WorkPC2其实就是我的开发机在不同网络环境中的标识。</p>
-<p>因为在家庭内部时，家庭内部的网段不需要进行路由，及AllowIPs不需要配置家庭内部网段；而在外网环境下，我需要路由这个网段，即AllowIPs需要设置这个网段，我可以用同一套秘钥，不同的AllowIPs配置完成这个目标，但是使用两套配置，会更优雅，更方便管理。</p>
-<h2 id="准备秘钥文件">准备秘钥文件</h2>
+    <h2 id="准备秘钥文件">准备秘钥文件</h2>
 <p>准备服务端、客户端秘钥文件：</p>
 <p>核心指令如下：</p>
 <div class="highlight"><div class="chroma">
@@ -21884,7 +21872,8 @@ tee ~/WireGuard/OpenWRT/privatekey/wg0.conf <span class="s">&lt;&lt;-EOF
 
 </code></pre></td></tr></table>
 </div>
-</div><p>其他的端的配置我不贴出来了，每个人的网络环境是不一样的，需要根据自己的网络环境进行调整。</p>
+</div><h2 id="openwrt旁路由设置">OpenWRT旁路由设置</h2>
+<p>其他的端的配置我不贴出来了，每个人的网络环境是不一样的，需要根据自己的网络环境进行调整。</p>
 <h2 id="workpc客户端配置">WorkPC客户端配置</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -21900,9 +21889,6 @@ tee ~/WireGuard/OpenWRT/privatekey/wg0.conf <span class="s">&lt;&lt;-EOF
 </span><span class="lnt">10
 </span><span class="lnt">11
 </span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-dockerfile" data-lang="dockerfile"><span class="err">
@@ -21916,9 +21902,6 @@ tee ~/WireGuard/OpenWRT/privatekey/wg0.conf <span class="s">&lt;&lt;-EOF
 </span><span class="err"></span><span class="k">COPY</span> --from<span class="o">=</span>builder /easyyapi /easyyapi<span class="err">
 </span><span class="err"></span><span class="k">EXPOSE</span><span class="s"> 3001</span><span class="err">
 </span><span class="err"></span><span class="k">ENTRYPOINT</span> <span class="p">[</span><span class="s2">&#34;npm&#34;</span><span class="p">,</span> <span class="s2">&#34;start&#34;</span><span class="p">,</span> <span class="s2">&#34;3001&#34;</span><span class="p">]</span><span class="err">
-</span><span class="err">
-</span><span class="err">
-</span><span class="err">
 </span><span class="err">
 </span></code></pre></td></tr></table>
 </div>
@@ -21937,10 +21920,10 @@ tee ~/WireGuard/OpenWRT/privatekey/wg0.conf <span class="s">&lt;&lt;-EOF
   <div class="toc__body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#我的网络拓补结构及对wireguard方案的设计">我的网络拓补结构及对WireGuard方案的设计</a></li>
     <li><a href="#准备秘钥文件">准备秘钥文件</a></li>
     <li><a href="#准备服务端配置文件">准备服务端配置文件</a></li>
     <li><a href="#准备客户端配置文件">准备客户端配置文件</a></li>
+    <li><a href="#openwrt旁路由设置">OpenWRT旁路由设置</a></li>
     <li><a href="#workpc客户端配置">WorkPC客户端配置</a></li>
   </ul>
 </nav>
