@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>方案 – 小桀的笔记本</title>
+    <title>处理WireGuard时积累的一些经验 – 小桀的笔记本</title>
     
 
 
@@ -27,7 +27,7 @@
     
     var baseurl = JSON.parse("\"http://junjie2018.github.io\"");
     
-    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/\"");
+    var permalink = JSON.parse("\"http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1077,22 +1077,21 @@
   
 
 
-    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/index.xml">
-<meta name="description" content="" />
+    <meta name="description" content="" />
 <meta name="keywords" content="">
 <meta name="created" content="0001-01-01T00:00:00&#43;0000">
 <meta name="modified" content="0001-01-01T00:00:00&#43;0000">
 
 
 <meta property="og:site_name" content="小桀的笔记本">
-<meta property="og:title" content="方案">
-<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/">
-<meta property="og:type" content="website">
+<meta property="og:title" content="处理WireGuard时积累的一些经验">
+<meta property="og:url" content="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/">
+<meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.85.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/">
+<link rel="canonical" href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1116,9 +1115,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/",
-    "name": "方案",
-    "description": "记录开发中遇到的问题，解决问题的思路及方案（也包括一些新技术的研究）",
+    "headline": "处理WireGuard时积累的一些经验",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "0001-01-01T00:00:00Z",
+    "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/",
+    "description": "ping出现了如下返回时，大概率时防火墙的问题： 如果你配置了SNAT，结果发现没有任何效果，还是无法ping通另一个网络中的ip，大概率ip",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -1167,7 +1168,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      方案
+      处理WireGuard时积累的一些经验
     
   </h6>
   <ul>
@@ -1197,7 +1198,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -1224,7 +1225,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -1376,7 +1377,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -1416,7 +1417,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -1443,7 +1444,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -1547,7 +1548,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -1574,7 +1575,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -1736,7 +1737,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -1872,7 +1873,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -1899,7 +1900,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/headlessservice/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/headlessservice/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -1955,7 +1956,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ingressnginx/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/ingressnginx/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -2067,7 +2068,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -2155,7 +2156,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -2219,7 +2220,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -2246,7 +2247,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -2486,7 +2487,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -2534,7 +2535,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -2907,7 +2908,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -2934,7 +2935,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -3046,7 +3047,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -3094,7 +3095,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -3182,7 +3183,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -3262,7 +3263,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -3310,7 +3311,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -3518,7 +3519,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -3622,7 +3623,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -3710,7 +3711,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -3782,7 +3783,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -3878,7 +3879,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -4206,7 +4207,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -4254,7 +4255,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -4302,7 +4303,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -4329,7 +4330,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -4566,7 +4567,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -4614,7 +4615,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -4654,7 +4655,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -4726,7 +4727,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -4766,7 +4767,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openvpn%E4%BD%9C%E5%BA%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/openvpn%E4%BD%9C%E5%BA%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -4846,7 +4847,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -4902,7 +4903,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5030,7 +5031,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5166,7 +5167,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5206,7 +5207,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5246,7 +5247,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5326,7 +5327,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/wireguard/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list active" data-data=/wireguard/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5343,23 +5344,23 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/">
+  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%88%91%E7%9A%84%E6%96%B9%E6%A1%88/">
     <span class="menu__title--collapse-text">
-      方案
+      我的方案
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E6%96%B9%E6%A1%88/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E6%88%91%E7%9A%84%E6%96%B9%E6%A1%88/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/" class="menu__title " data-depth="2">通过Wireguard暴露家庭内部网络及K8S集群内部网络</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%88%91%E7%9A%84%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/" class="menu__title " data-depth="2">通过Wireguard暴露家庭内部网络及K8S集群内部网络</a>
         </li>
       
     
@@ -5405,6 +5406,22 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E7%9A%84%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86/" class="menu__title " data-depth="1">Wireguard的原理知识</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E9%87%8D%E8%A6%81%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/" class="menu__title " data-depth="1">WireGuard重要资料整理</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/" class="menu__title active" data-depth="1">处理WireGuard时积累的一些经验</a>
         </li>
       
     
@@ -5462,7 +5479,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5518,7 +5535,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5545,7 +5562,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5593,7 +5610,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5633,7 +5650,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5729,7 +5746,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5756,7 +5773,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5804,7 +5821,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5892,7 +5909,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -5972,7 +5989,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -6044,7 +6061,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -6092,7 +6109,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -6348,7 +6365,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -6436,7 +6453,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -6476,7 +6493,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -6548,7 +6565,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/mybatis-mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -6575,7 +6592,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -6948,7 +6965,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -6975,7 +6992,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -7135,7 +7152,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -7183,7 +7200,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -7263,7 +7280,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -7290,7 +7307,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -7436,7 +7453,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -7524,7 +7541,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -7551,7 +7568,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -7591,7 +7608,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -7639,7 +7656,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -7666,7 +7683,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8020,7 +8037,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8060,7 +8077,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8087,7 +8104,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/scripts/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/scripts/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8151,7 +8168,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/sentinel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/sentinel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8207,7 +8224,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8234,7 +8251,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8378,7 +8395,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8442,7 +8459,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8668,7 +8685,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8740,7 +8757,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8788,7 +8805,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8836,7 +8853,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8863,7 +8880,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -8927,7 +8944,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -9055,7 +9072,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -9215,7 +9232,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -9335,7 +9352,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -9668,7 +9685,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -9711,7 +9728,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -9738,7 +9755,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -9778,7 +9795,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10026,7 +10043,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10106,7 +10123,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10133,7 +10150,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10173,7 +10190,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10221,7 +10238,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10269,7 +10286,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10349,7 +10366,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10554,7 +10571,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10602,7 +10619,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10629,7 +10646,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10826,7 +10843,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -10938,7 +10955,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -11226,7 +11243,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -11500,7 +11517,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">方案</h2>
+        <h2 class="title">处理WireGuard时积累的一些经验</h2>
       </div>
     </div>
   </div>
@@ -11552,7 +11569,7 @@
   
   <li  class="is-active" >
     
-      <span>方案</span>
+      <span>处理WireGuard时积累的一些经验</span>
     
   </li>
   
@@ -11585,16 +11602,16 @@
 
         
   
-  
+
 <div class="mid">
   <div class="divider">
-
-    <nav id="list-menu" class="l" data-dir="ltr">
+    
+    <nav id="single-menu" class="l" data-dir="ltr">
       
         <div class="menu">
   <h6 class="menu__label">
     
-      方案
+      处理WireGuard时积累的一些经验
     
   </h6>
   <ul>
@@ -11624,7 +11641,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -11651,7 +11668,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/docker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -11803,7 +11820,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/harbor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -11843,7 +11860,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/helm/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -11870,7 +11887,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -11974,7 +11991,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -12001,7 +12018,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -12163,7 +12180,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/kubernetes/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -12299,7 +12316,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/kubernetes%E6%96%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -12326,7 +12343,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/headlessservice/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/headlessservice/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -12382,7 +12399,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ingressnginx/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/ingressnginx/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -12494,7 +12511,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/kt-connect/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -12582,7 +12599,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%AE%9E%E9%AA%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -12646,7 +12663,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -12673,7 +12690,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/kubernetes%E6%95%99%E7%A8%8B/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -12913,7 +12930,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%8D%9A%E6%96%87/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -12961,7 +12978,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -13334,7 +13351,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list active" data-data=/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -13361,7 +13378,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/ansible/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -13473,7 +13490,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/apollo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -13521,7 +13538,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/chrome/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -13609,7 +13626,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/easyyapi/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -13689,7 +13706,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/elasticsearch/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -13737,7 +13754,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/git_git/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -13945,7 +13962,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/git_gitbook/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -14049,7 +14066,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/git_github/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -14137,7 +14154,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/h2-and-datagrip/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -14209,7 +14226,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/hugo/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -14305,7 +14322,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/idea/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -14633,7 +14650,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/istio/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -14681,7 +14698,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/jenkins/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -14729,7 +14746,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/maven/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -14756,7 +14773,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/profile/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -14993,7 +15010,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/mysql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15041,7 +15058,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/navicat/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15081,7 +15098,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/node.js/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15153,7 +15170,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/nodeppt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15193,7 +15210,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openvpn%E4%BD%9C%E5%BA%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/openvpn%E4%BD%9C%E5%BA%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15273,7 +15290,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/physicalmachine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15329,7 +15346,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/postgresql/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15457,7 +15474,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/postman/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15593,7 +15610,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/prometheus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15633,7 +15650,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/rtl8125/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15673,7 +15690,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/vscode/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15753,7 +15770,7 @@
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/wireguard/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list active" data-data=/wireguard/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15770,23 +15787,23 @@
   
   
   
-  <li class="menu__title--collapse active" data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/">
+  <li class="menu__title--collapse " data-depth="2" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%88%91%E7%9A%84%E6%96%B9%E6%A1%88/">
     <span class="menu__title--collapse-text">
-      方案
+      我的方案
     </span>
-    <span class="menu__title--icon down">
+    <span class="menu__title--icon right">
       
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
       
     </span>
   </li>
-  <ul class="menu__list active" data-data=/%E6%96%B9%E6%A1%88/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E6%88%91%E7%9A%84%E6%96%B9%E6%A1%88/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
         
         <li>
-          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/" class="menu__title " data-depth="2">通过Wireguard暴露家庭内部网络及K8S集群内部网络</a>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%88%91%E7%9A%84%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/" class="menu__title " data-depth="2">通过Wireguard暴露家庭内部网络及K8S集群内部网络</a>
         </li>
       
     
@@ -15832,6 +15849,22 @@
         
         <li>
           <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E7%9A%84%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86/" class="menu__title " data-depth="1">Wireguard的原理知识</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E9%87%8D%E8%A6%81%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/" class="menu__title " data-depth="1">WireGuard重要资料整理</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/" class="menu__title active" data-depth="1">处理WireGuard时积累的一些经验</a>
         </li>
       
     
@@ -15889,7 +15922,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/xshell/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15945,7 +15978,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -15972,7 +16005,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/cas/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16020,7 +16053,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/jwt/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16060,7 +16093,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/oauth/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16156,7 +16189,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16183,7 +16216,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/disruptor/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16231,7 +16264,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/easyexcel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16319,7 +16352,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/fastjson/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16399,7 +16432,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/freemarker/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16471,7 +16504,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/grpc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16519,7 +16552,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/java/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16775,7 +16808,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/jdbctemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16863,7 +16896,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/kafka/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16903,7 +16936,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/logging/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -16975,7 +17008,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/mybatis-mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/mybatis-mybatis-plus/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -17002,7 +17035,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -17375,7 +17408,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -17402,7 +17435,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/netty-in-action/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -17562,7 +17595,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -17610,7 +17643,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%B0%9A%E7%A1%85%E8%B0%B7netty/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -17690,7 +17723,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E6%8A%80%E6%9C%AF%E7%82%B9%E7%A0%94%E7%A9%B6/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -17717,7 +17750,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E8%A7%A3%E7%A0%81%E5%99%A8/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -17863,7 +17896,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/protobuf/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -17951,7 +17984,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/python/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -17978,7 +18011,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/anaconda3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -18018,7 +18051,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -18066,7 +18099,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -18093,7 +18126,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -18447,7 +18480,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/rabbitmq/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -18487,7 +18520,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/redis/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -18514,7 +18547,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/scripts/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/scripts/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -18578,7 +18611,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/sentinel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/sentinel/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -18634,7 +18667,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E7%AC%94%E8%AE%B0/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -18661,7 +18694,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/redis%E5%AE%9E%E6%88%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -18805,7 +18838,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/spring-data-redis%E6%96%87%E6%A1%A3/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -18869,7 +18902,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -19095,7 +19128,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/resttemplate/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -19167,7 +19200,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/shardingsphere-jdbc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -19215,7 +19248,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/snakeyaml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -19263,7 +19296,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/springboot/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -19290,7 +19323,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/actuator/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -19354,7 +19387,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/application.yml/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -19482,7 +19515,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/spring/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -19642,7 +19675,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/spring-mvc/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -19762,7 +19795,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/validation/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20095,7 +20128,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20138,7 +20171,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20165,7 +20198,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/alpine/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20205,7 +20238,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/centos/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20453,7 +20486,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/debian/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20533,7 +20566,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/linux/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20560,7 +20593,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/cp%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20600,7 +20633,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/curl%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20648,7 +20681,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/ssh/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20696,7 +20729,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/targzip%E6%8C%87%E4%BB%A4/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20776,7 +20809,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -20981,7 +21014,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/openmediavault/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -21029,7 +21062,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/proxmox-ve/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -21056,7 +21089,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/nextcloud/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -21253,7 +21286,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/ubuntu/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -21365,7 +21398,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/win/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -21653,7 +21686,7 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/>
+  <ul class="menu__list " data-data=/%E5%BE%85%E5%AE%8C%E6%88%90/ data-link=http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/>
     
       
         
@@ -21692,28 +21725,6 @@
 </div>
 
 
-
-<script>
-  var menuTitle = document.querySelectorAll('.menu__title');
-  var modal = document.getElementById("myModal");
-  var drawer = document.getElementById('myDrawer');
-
-  var closeDrawer = function () {
-    setTimeout(function () {
-      modal.style.opacity = 0;
-      drawer.style.left = '-100%';
-      modal.style.left = '-100%';
-    }, 250);
-  }
-
-  menuTitle ? 
-  menuTitle.forEach(function(elem) {
-    elem.onclick = function() {
-      closeDrawer();
-      localStorage.setItem('isDrawerOpen', 'false');
-    }
-  }) : null;
-</script>
       
     </nav>
 
@@ -21722,29 +21733,55 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
+    <ol>
+<li>ping出现了如下返回时，大概率时防火墙的问题：</li>
+</ol>
+<pre><code>
+
+
+</code></pre><ol start="2">
+<li>如果你配置了SNAT，结果发现没有任何效果，还是无法ping通另一个网络中的ip，大概率ip服务没有启动。</li>
+</ol>
+
   </article>
 </div>
       
-        
-<div class="list-section">
+<div class="grow"></div>
+<nav class="pagination-single">
   
-    <div class="list-section__item">
-      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/" class="list-section__item--link">
-        通过Wireguard暴露家庭内部网络及K8S集群内部网络
+    
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E9%87%8D%E8%A6%81%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/" title="WireGuard重要资料整理" class="pagination-single__left">
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
+        </div>
+        <div class="pagination-single__right-title">WireGuard重要资料整理</div>
       </a>
-      <div class="list-section__item--desc">
-        
-      </div>
-    </div>
+    
+    <div class="grow"></div>
+    
+      <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E7%A7%98%E9%92%A5%E7%94%9F%E6%88%90%E9%94%99%E8%AF%AF%E4%BC%9A%E5%AF%BC%E8%87%B4%E5%85%A8%E9%93%BE%E8%B7%AF%E6%97%A0%E6%B3%95ping%E9%80%9A/" title="秘钥生成错误，会导致全链路无法ping通" class="pagination-single__right">
+        <div class="pagination-single__left-title">秘钥生成错误，会导致全链路无法ping通</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
+    
   
-  </div>
-      
-      
+</nav>
 
+
+      
     </article>
-
+    
     <section id="list-side" class="hide" data-dir="ltr">
+      
+        <div class="toc">
+  <h6 class="toc__label"></h6>
+  <div class="toc__body">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+      
     </section>
 
   </div>
@@ -21906,7 +21943,7 @@
     
     if (lib && lib.includes('flowchartjs')) {
       
-      var options = JSON.parse("null");
+      var options = JSON.parse("{\"arrow-end\":\"block\",\"element-color\":\"black\",\"fill\":\"white\",\"flowstate\":{\"approved\":{\"fill\":\"#58C4A3\",\"font-size\":12,\"no-text\":\"n/a\",\"yes-text\":\"APPROVED\"},\"current\":{\"fill\":\"yellow\",\"font-color\":\"red\",\"font-weight\":\"bold\"},\"future\":{\"fill\":\"#FFFF99\"},\"invalid\":{\"fill\":\"#444444\"},\"past\":{\"fill\":\"#CCCCCC\",\"font-size\":12},\"rejected\":{\"fill\":\"#C45879\",\"font-size\":12,\"no-text\":\"REJECTED\",\"yes-text\":\"n/a\"},\"request\":{\"fill\":\"blue\"}},\"font-color\":\"black\",\"font-size\":14,\"line-color\":\"black\",\"line-length\":50,\"line-width\":3,\"no-text\":\"no\",\"scale\":1,\"symbols\":{\"end\":{\"class\":\"end-element\"},\"start\":{\"element-color\":\"green\",\"fill\":\"yellow\",\"font-color\":\"red\"}},\"text-margin\":10,\"x\":0,\"y\":0,\"yes-text\":\"yes\"}");
       var jsonContent = null;
 
       var flowchartPrefix = "language-flowchart";
@@ -21996,66 +22033,65 @@
 </script>
 
 <script>
-  var listMenu = document.getElementById('list-menu');
-  var listMain = document.getElementById('list-main');
   var listSide = document.getElementById('list-side');
+  var listMain = document.getElementById('list-main');
+  var singleMenu = document.getElementById('single-menu');
   var switchElem = document.querySelector('.switch');
   var wideViewAsDefault = JSON.parse("true");
-
+  
   enquire.register("screen and (max-width:1280px)", {
     match: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';  
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'm';
         listSide.className = 'r';
       }
     },
     unmatch: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
         listSide.className = 'r';
         listMain.className = 'm';
+        singleMenu.className = 'l';
       }
     },
   }).register("screen and (max-width:960px)", {
     match: function () {
-      listMenu.className = 'l';
+      singleMenu.className = 'l';
       listMain.className = 'mr';
       listSide.className = 'hide';
       switchElem.className = 'hide';
     },
     unmatch: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'm';
         listSide.className = 'r';
       }
-      
       switchElem.className = 'switch';
     },
   }).register("screen and (max-width:600px)", {
     match: function () {
-      listMenu.className = 'hide';
-      listMain.className = 'lmr';
       listSide.className = 'hide';
+      listMain.className = 'lmr';
+      singleMenu.className = 'hide';
       switchElem.className = 'hide';
     },
     unmatch: function () {
-      listMenu.className = 'l';
-      listMain.className = 'mr';
       listSide.className = 'hide';
+      listMain.className = 'mr';
+      singleMenu.className = 'l';
       switchElem.className = 'hide';
     },
   });

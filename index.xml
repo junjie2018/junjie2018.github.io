@@ -4686,6 +4686,15 @@
       </item>
       
       <item>
+        <title>WireGuard重要资料整理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E9%87%8D%E8%A6%81%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/wireguard%E9%87%8D%E8%A6%81%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <description>wireguard 安装与组网 过年在外怎么访问家庭内网,wireguard组网！ 很重要的资料，通过该资料，我知道了如果需要访问我内网环境，则需要配置SNAt。</description>
+      </item>
+      
+      <item>
         <title>workdir参数导致docker启动时无法找到脚本</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/workdir%E5%8F%82%E6%95%B0%E5%AF%BC%E8%87%B4docker%E5%90%AF%E5%8A%A8%E6%97%B6%E6%97%A0%E6%B3%95%E6%89%BE%E5%88%B0%E8%84%9A%E6%9C%AC/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5799,6 +5808,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/ansible/%E5%9F%BA%E4%BA%8Eanaconda%E5%AE%89%E8%A3%85ansible%E6%8E%A8%E8%8D%90/</guid>
         <description>这是我推荐的方式，Anaconda是学习Python的好帮手。 创建环境并激活环境 conda create --name ansible python=2.7 conda activate ansible 安装ansible # 我在学习《奔跑吧Ansi</description>
+      </item>
+      
+      <item>
+        <title>处理WireGuard时积累的一些经验</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</guid>
+        <description>ping出现了如下返回时，大概率时防火墙的问题： 如果你配置了SNAT，结果发现没有任何效果，还是无法ping通另一个网络中的ip，大概率ip</description>
       </item>
       
       <item>
@@ -7297,11 +7315,11 @@
       
       <item>
         <title>通过Wireguard暴露家庭内部网络及K8S集群内部网络</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%88%91%E7%9A%84%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/</guid>
-        <description>准备秘钥文件 准备服务端、客户端秘钥文件： 核心指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 # 服务端 mkdir -p ~/WireGuard/Server cd ~/WireGuard/Server wg genkey | tee privatekey | wg pubkey &amp;gt; publickey # 客户端 mkdir -p ~/WireGuard/OpenWRT cd ~/WireGuard/OpenWRT wg genpsk &amp;gt;</description>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/wireguard/%E6%88%91%E7%9A%84%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/</guid>
+        <description>我之前有使用过WireGuard连接家庭内部网络，但是当时目的单一，所以研究的并不深入。最近在学习Redis等中间件的高级知识，所以我需要搭</description>
       </item>
       
       <item>
