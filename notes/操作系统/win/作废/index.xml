@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作废 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/</link>
+    <description>Recent content in 作废 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Cygwin上安装curl</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/cygwin%E4%B8%8A%E5%AE%89%E8%A3%85curl/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/cygwin%E4%B8%8A%E5%AE%89%E8%A3%85curl/</guid>
+        <description>没有办法带来在Linux上使用的体验，故作废 截图如下： 核心需要注意的是，需要在skip上点一下，直到点出版本号。 参考资料 Windows 下如何在cygwi</description>
+      </item>
+      
+      <item>
+        <title>Win 10查看mac地址</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/win-10%E6%9F%A5%E7%9C%8Bmac%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/win-10%E6%9F%A5%E7%9C%8Bmac%E5%9C%B0%E5%9D%80/</guid>
+        <description>我都忘记了需求场景，故作废 指令如下： ipconfig /all</description>
+      </item>
+      
+      <item>
+        <title>Windows卸载安全助手</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/windows%E5%8D%B8%E8%BD%BD%E5%AE%89%E5%85%A8%E5%8A%A9%E6%89%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/windows%E5%8D%B8%E8%BD%BD%E5%AE%89%E5%85%A8%E5%8A%A9%E6%89%8B/</guid>
+        <description>不敢搞这些骚操作了，故作废该笔记 越来越讨厌Windows系统了！！！ 20211011实践 实践中，我是通过火绒剑关闭相关进程的。关闭进程后，文</description>
+      </item>
+      
+      <item>
+        <title>删除hiberfil.sys</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E5%88%A0%E9%99%A4hiberfil.sys/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E5%88%A0%E9%99%A4hiberfil.sys/</guid>
+        <description>需求太少了，不再维护 C盘炸了，只剩下3G了，我基本不在C盘装任何东西，经同时提示发现是hiberfil.sys、pagefile.sys、s</description>
+      </item>
+      
+      <item>
+        <title>常用的命令</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E5%B8%B8%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E5%B8%B8%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4/</guid>
+        <description>需求过少，不在维护 regedit 打开注册表 mstsc 打开远程桌面 control 打开控制面板 msconfig 可以用来设置引导，从而进入安全模式。 services.msc 打开Windows的服务</description>
+      </item>
+      
+      <item>
+        <title>微软输入法已禁用但是还是可以切换出来</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E5%BE%AE%E8%BD%AF%E8%BE%93%E5%85%A5%E6%B3%95%E5%B7%B2%E7%A6%81%E7%94%A8%E4%BD%86%E6%98%AF%E8%BF%98%E6%98%AF%E5%8F%AF%E4%BB%A5%E5%88%87%E6%8D%A2%E5%87%BA%E6%9D%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E5%BE%AE%E8%BD%AF%E8%BE%93%E5%85%A5%E6%B3%95%E5%B7%B2%E7%A6%81%E7%94%A8%E4%BD%86%E6%98%AF%E8%BF%98%E6%98%AF%E5%8F%AF%E4%BB%A5%E5%88%87%E6%8D%A2%E5%87%BA%E6%9D%A5/</guid>
+        <description>现在很少修改输入法了，故作废 问题描述 系统更新前，在语言选项中删除了微软输入法，但是系统更新后，微软输入法又被系统自动添加进来了。且这个时候去</description>
+      </item>
+      
+      <item>
+        <title>查看Windows的版本和版本号</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E6%9F%A5%E7%9C%8Bwindows%E7%9A%84%E7%89%88%E6%9C%AC%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E6%9F%A5%E7%9C%8Bwindows%E7%9A%84%E7%89%88%E6%9C%AC%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
+        <description>已经忘记需求场景了，故作废该笔记 开始 &amp;gt; 设置 &amp;gt; 系统 &amp;gt; 关于 参考资料 我运行的是哪个 Windows 操作系统版本？</description>
+      </item>
+      
+      <item>
+        <title>查看XShell密码</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E6%9F%A5%E7%9C%8Bxshell%E5%AF%86%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E6%9F%A5%E7%9C%8Bxshell%E5%AF%86%E7%A0%81/</guid>
+        <description>需求太少了，故作废 很久前建的虚拟机，突然要用一下，忘记密码了，但是密码保存在了XShell中，我使用了AsteriskPassword.ex</description>
+      </item>
+      
+      <item>
+        <title>绝望的Win10锁屏与解决方案</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E7%BB%9D%E6%9C%9B%E7%9A%84win10%E9%94%81%E5%B1%8F%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E7%BB%9D%E6%9C%9B%E7%9A%84win10%E9%94%81%E5%B1%8F%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+        <description>需求过少，不在维护 公司电脑锁屏后，重登时都会出现与工作站失去信任关系的问题，解决该问题必须重启机器。运维同事帮我解决了很多次，都没有效果，非</description>
+      </item>
+      
+    
+  </channel>
+</rss>

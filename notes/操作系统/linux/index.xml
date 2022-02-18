@@ -50,11 +50,20 @@
       </item>
       
       <item>
-        <title>虚拟网络</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/</link>
+        <title>基础</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E5%9F%BA%E7%A1%80/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E5%9F%BA%E7%A1%80/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>待研究</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E5%BE%85%E7%A0%94%E7%A9%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E5%BE%85%E7%A0%94%E7%A9%B6/</guid>
         <description></description>
       </item>
       
@@ -109,7 +118,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/rdate%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
-        <description>这个纯粹是用来玩的。用Netty开发了一个简单的时间服务，然后想用rdate去访问这个服务： rdate -p 192.168.28.118 # 输出 rdate: [192.168.28.118] Sat Aug 21 04:03:48 2021 Netty核心代码如下</description>
+        <description>过于无用，故作废 这个纯粹是用来玩的。用Netty开发了一个简单的时间服务，然后想用rdate去访问这个服务： rdate -p 192.168.28.118 # 输出 rdate: [192.168.28.118] Sat Aug 21 04:03:48 2021 Net</description>
       </item>
       
       <item>
@@ -185,15 +194,6 @@
       </item>
       
       <item>
-        <title>快速取消代理设置</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E5%BF%AB%E9%80%9F%E5%8F%96%E6%B6%88%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E5%BF%AB%E9%80%9F%E5%8F%96%E6%B6%88%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</guid>
-        <description>我之前为了避免all_proxy给我实验代理不好的影响，我会直接新起一个shell。新的方案如下： unset all_proxy 参考资料 pip install报错：Miss</description>
-      </item>
-      
-      <item>
         <title>查看当前使用的Shell</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E4%BD%BF%E7%94%A8%E7%9A%84shell/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -209,24 +209,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E6%B5%8B%E8%AF%95udp%E6%95%B0%E6%8D%AE%E6%8A%A5%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E6%AD%A3%E5%B8%B8%E4%BC%A0%E9%80%92/</guid>
         <description>操作步骤 安装nc工具： yum install -y nc 服务端监听 nc -l -u 0.0.0.0 80001 客户端发送数据报 nc -u 192.168.31.210 数据报一 数据报二 现象：客户端发送的数据报会显示在服务端 参考资料 测试u</description>
-      </item>
-      
-      <item>
-        <title>让Shell阻塞一会</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A9shell%E9%98%BB%E5%A1%9E%E4%B8%80%E4%BC%9A/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A9shell%E9%98%BB%E5%A1%9E%E4%B8%80%E4%BC%9A/</guid>
-        <description>代码如下，单位为秒： 1 2 3 sleep 50 这个指令其实很强大，但是我没有深入研究。</description>
-      </item>
-      
-      <item>
-        <title>设置VIM缩进为4个空格</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%BE%E7%BD%AEvim%E7%BC%A9%E8%BF%9B%E4%B8%BA4%E4%B8%AA%E7%A9%BA%E6%A0%BC/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%BE%E7%BD%AEvim%E7%BC%A9%E8%BF%9B%E4%B8%BA4%E4%B8%AA%E7%A9%BA%E6%A0%BC/</guid>
-        <description>拷贝配置文件到家目录： 1 2 3 4 5 6 7 # ubuntu cp /etc/vim/vimrc ~/.vimrc # centos cp /etc/vimrc ~/.vimrc 编辑该配置文件，增加如下内容 set tabstop=4 参考资料 Linux下设置vim的缩进为4个空格</description>
       </item>
       
       <item>
