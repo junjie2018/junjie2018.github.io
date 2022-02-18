@@ -1119,7 +1119,7 @@
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
     "url" : "http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/actuator/%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AEactuator/",
-    "description": "我竟然发现我一直没有整理这个，今天急用，找不到相关的笔记。 pom配置如下： \u0026lt;dependency\u0026gt; \u0026lt;groupId\u0026gt;org.springframework.boot\u0026lt;/groupId\u0026gt; …",
+    "description": "我竟然发现我一直没有整理这个，今天急用，找不到相关的笔记。 pom配置如下： 1 2 3 4 5 6 \u0026lt;dependency\u0026gt; \u0026lt;groupId\u0026gt;org.springframework.boot\u0026lt;/groupId\u0026gt; …",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://junjie2018.github.io"
@@ -21744,13 +21744,25 @@
   <article class="single__contents" data-dir="ltr">
     <p>我竟然发现我一直没有整理这个，今天急用，找不到相关的笔记。</p>
 <p>pom配置如下：</p>
-<pre><code>
-&lt;dependency&gt;
-    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
-    &lt;artifactId&gt;spring-boot-starter-actuator&lt;/artifactId&gt;
-&lt;/dependency&gt;
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-xml" data-lang="xml">
+<span class="nt">&lt;dependency&gt;</span>
+    <span class="nt">&lt;groupId&gt;</span>org.springframework.boot<span class="nt">&lt;/groupId&gt;</span>
+    <span class="nt">&lt;artifactId&gt;</span>spring-boot-starter-actuator<span class="nt">&lt;/artifactId&gt;</span>
+<span class="nt">&lt;/dependency&gt;</span>
 
-</code></pre><p>application.yml配置如下：</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>application.yml配置如下：</p>
 <pre><code>
 management:
   endpoints:

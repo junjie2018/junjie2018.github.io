@@ -37,7 +37,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/actuator/%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AEactuator/</guid>
-        <description>我竟然发现我一直没有整理这个，今天急用，找不到相关的笔记。 pom配置如下： &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-actuator&amp;lt;/artifactId&amp;gt; &amp;lt;/dependency&amp;gt; application.yml配置如下： management: endpoints: web: exposure: include: &#39;*&#39; 观察日</description>
+        <description>我竟然发现我一直没有整理这个，今天急用，找不到相关的笔记。 pom配置如下： 1 2 3 4 5 6 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-actuator&amp;lt;/artifactId&amp;gt; &amp;lt;/dependency&amp;gt; application.yml配置如下： management: endpoints: web:</description>
       </item>
       
       <item>
