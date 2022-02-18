@@ -1149,15 +1149,6 @@
       </item>
       
       <item>
-        <title>Backports的一些知识</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/backports%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/backports%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
-        <description>参考资料 Backports</description>
-      </item>
-      
-      <item>
         <title>bat脚本后台启动程序</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/bat%E8%84%9A%E6%9C%AC%E5%90%8E%E5%8F%B0%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1303,28 +1294,28 @@
       
       <item>
         <title>CentOS7升级内核到5.4</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</link>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</guid>
         <description>我主要参考如下教程，该教程非常优秀，按照教程做，没有出现任何问题： [Linux]CentOS7.6更新内核 在使用该教程时有一些注意事项： 移除</description>
       </item>
       
       <item>
         <title>Centos7简单配置samba</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</link>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</guid>
         <description>我对这块算不上熟悉，只是因为需要高频率的在Linux系统和Windows系统之间交换文件，所以我想将Linux上的一个目录挂载到我本地。我尝</description>
       </item>
       
       <item>
         <title>CentOS8升级内核到5.12</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</link>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</guid>
         <description>这篇笔记不是针对CentOS7的 操作步骤 常用指令 uanme -a # 查看当前内核版本 cat /etc/redhat-release # 查看当前系统版本 rpm -qa | grep kernel # 查看已安装的内核 yum repolist # 查看yum当前</description>
       </item>
       
@@ -1366,10 +1357,10 @@
       
       <item>
         <title>CentOS快速配置多台机器为静态地址</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</link>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</guid>
         <description>指令如下，这是我目前找到的最优雅，最快速的方法： nmcli connection modify eth0 \ ipv4.dns 192.168.31.199 \ ipv4.method manual \ ipv4.gateway 192.168.31.199 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify eth0 \ ipv4.addresses 192.168.23.60/24 \ ipv4.dns 192.168.23.65 \ ipv4.method manual \ ipv4.gateway 192.168.23.65 \ connection.autoconnect yes nmcli c up eth0 # 访问</description>
       </item>
       
@@ -1438,10 +1429,10 @@
       
       <item>
         <title>CentOS部署NFS</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos%E9%83%A8%E7%BD%B2nfs/</link>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E9%83%A8%E7%BD%B2nfs/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos%E9%83%A8%E7%BD%B2nfs/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E9%83%A8%E7%BD%B2nfs/</guid>
         <description>该技术是学习Kubernetes的存储卷时要用到的。 服务端配置 安装NFS服务器所需的软件包 1 2 3 yum install -y rpcbind nfs-utils 编辑/etx/exports文件 /root/NFSDirectory</description>
       </item>
       
@@ -1640,7 +1631,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
-        <description>操作步骤 替换/etc/apt/sources.list文件为如下内容： # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian-security</description>
+        <description>需求非常少，故作废该笔记 操作步骤 替换/etc/apt/sources.list文件为如下内容： # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports</description>
       </item>
       
       <item>
@@ -5865,12 +5856,12 @@
       </item>
       
       <item>
-        <title>如何找到U盘设备名（未实践）</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0u%E7%9B%98%E8%AE%BE%E5%A4%87%E5%90%8D%E6%9C%AA%E5%AE%9E%E8%B7%B5/</link>
+        <title>如何找到U盘设备名</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/%E4%BD%9C%E5%BA%9F/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0u%E7%9B%98%E8%AE%BE%E5%A4%87%E5%90%8D/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0u%E7%9B%98%E8%AE%BE%E5%A4%87%E5%90%8D%E6%9C%AA%E5%AE%9E%E8%B7%B5/</guid>
-        <description>之前有被这个问题困惑过，今天看书的时候，遇到了相关的资料，故记载下来。 可以比较U盘插入计算机前后dmesg命令输出的最后一行内容，也可以用l</description>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/%E4%BD%9C%E5%BA%9F/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0u%E7%9B%98%E8%AE%BE%E5%A4%87%E5%90%8D/</guid>
+        <description>需求太少了，古作废该笔记 之前有被这个问题困惑过，今天看书的时候，遇到了相关的资料，故记载下来。 可以比较U盘插入计算机前后dmesg命令输出的</description>
       </item>
       
       <item>

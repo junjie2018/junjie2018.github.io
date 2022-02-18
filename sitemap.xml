@@ -363,6 +363,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/%E4%BD%9C%E5%BA%9F/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98/</loc>
   </url>
   
@@ -380,10 +384,6 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/</loc>
   </url>
   
   <url>
@@ -955,10 +955,6 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/backports%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</loc>
-  </url>
-  
-  <url>
     <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/bat%E8%84%9A%E6%9C%AC%E5%90%8E%E5%8F%B0%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F/</loc>
   </url>
   
@@ -1023,15 +1019,15 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</loc>
+    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</loc>
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</loc>
+    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</loc>
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</loc>
+    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</loc>
   </url>
   
   <url>
@@ -1051,7 +1047,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</loc>
+    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</loc>
   </url>
   
   <url>
@@ -1083,7 +1079,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/centos%E9%83%A8%E7%BD%B2nfs/</loc>
+    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E9%83%A8%E7%BD%B2nfs/</loc>
   </url>
   
   <url>
@@ -3051,7 +3047,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0u%E7%9B%98%E8%AE%BE%E5%A4%87%E5%90%8D%E6%9C%AA%E5%AE%9E%E8%B7%B5/</loc>
+    <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/%E4%BD%9C%E5%BA%9F/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0u%E7%9B%98%E8%AE%BE%E5%A4%87%E5%90%8D/</loc>
   </url>
   
   <url>

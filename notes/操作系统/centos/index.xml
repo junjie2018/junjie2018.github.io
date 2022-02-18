@@ -23,15 +23,6 @@
       </item>
       
       <item>
-        <title>常用</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%B8%B8%E7%94%A8/</guid>
-        <description></description>
-      </item>
-      
-      <item>
         <title>CentOS 8常用软件代理设置</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-8%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -50,6 +41,33 @@
       </item>
       
       <item>
+        <title>CentOS7升级内核到5.4</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</guid>
+        <description>我主要参考如下教程，该教程非常优秀，按照教程做，没有出现任何问题： [Linux]CentOS7.6更新内核 在使用该教程时有一些注意事项： 移除</description>
+      </item>
+      
+      <item>
+        <title>Centos7简单配置samba</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</guid>
+        <description>我对这块算不上熟悉，只是因为需要高频率的在Linux系统和Windows系统之间交换文件，所以我想将Linux上的一个目录挂载到我本地。我尝</description>
+      </item>
+      
+      <item>
+        <title>CentOS8升级内核到5.12</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</guid>
+        <description>这篇笔记不是针对CentOS7的 操作步骤 常用指令 uanme -a # 查看当前内核版本 cat /etc/redhat-release # 查看当前系统版本 rpm -qa | grep kernel # 查看已安装的内核 yum repolist # 查看yum当前</description>
+      </item>
+      
+      <item>
         <title>CentOS修改主机名称</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E4%BF%AE%E6%94%B9%E4%B8%BB%E6%9C%BA%E5%90%8D%E7%A7%B0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -65,6 +83,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%85%B3%E9%97%AD%E9%98%B2%E7%81%AB%E5%A2%99/</guid>
         <description>这是一个非常简单的指令，但是我总是拼不对，干脆记下来算了。 systemctl stop firewalld systemctl disable firewalld 20210502后续： 我今天才知道firewalld和iptables</description>
+      </item>
+      
+      <item>
+        <title>CentOS快速配置多台机器为静态地址</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%8F%B0%E6%9C%BA%E5%99%A8%E4%B8%BA%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80/</guid>
+        <description>指令如下，这是我目前找到的最优雅，最快速的方法： nmcli connection modify eth0 \ ipv4.dns 192.168.31.199 \ ipv4.method manual \ ipv4.gateway 192.168.31.199 \ connection.autoconnect yes nmcli c up eth0 nmcli connection modify eth0 \ ipv4.addresses 192.168.23.60/24 \ ipv4.dns 192.168.23.65 \ ipv4.method manual \ ipv4.gateway 192.168.23.65 \ connection.autoconnect yes nmcli c up eth0 # 访问</description>
       </item>
       
       <item>
@@ -92,6 +119,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%90%AF%E5%8A%A8%E9%A1%B9%E5%BC%95%E5%AF%BC%E9%A1%B9/</guid>
         <description>这个不整理了，照着教程做，什么问题都没有遇到。 参考资料 CentOS 8.x 和 RHEL 8.x 更改默认启动项</description>
+      </item>
+      
+      <item>
+        <title>CentOS部署NFS</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E9%83%A8%E7%BD%B2nfs/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E9%83%A8%E7%BD%B2nfs/</guid>
+        <description>该技术是学习Kubernetes的存储卷时要用到的。 服务端配置 安装NFS服务器所需的软件包 1 2 3 yum install -y rpcbind nfs-utils 编辑/etx/exports文件 /root/NFSDirectory</description>
       </item>
       
       <item>
