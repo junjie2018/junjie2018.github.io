@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ErrorCode on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/errorcode/</link>
+    <description>Recent content in ErrorCode on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/errorcode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>错误码方案及考虑的问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/errorcode/%E9%94%99%E8%AF%AF%E7%A0%81%E6%96%B9%E6%A1%88%E5%8F%8A%E8%80%83%E8%99%91%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/errorcode/%E9%94%99%E8%AF%AF%E7%A0%81%E6%96%B9%E6%A1%88%E5%8F%8A%E8%80%83%E8%99%91%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>一码一条消息 我之前在做中台项目，我们的错误码方案为一码一个消息，具体实现中我们有一个错误消息枚举类，里面包含了我们所有的错误码消息。如下所示</description>
+      </item>
+      
+    
+  </channel>
+</rss>
