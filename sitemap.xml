@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://junjie2018.github.io/notes/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/actuator/</loc>
   </url>
   
@@ -528,10 +532,6 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/</loc>
   </url>
   
   <url>
