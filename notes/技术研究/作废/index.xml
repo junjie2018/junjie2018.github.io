@@ -50,6 +50,42 @@
       </item>
       
       <item>
+        <title>Navicat</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/navicat/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/navicat/</guid>
+        <description>我已经开始使用DataGrip了，而且DataGrip使用起来非常顺手，故作废该笔记。</description>
+      </item>
+      
+      <item>
+        <title>NodePPT</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/nodeppt/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/nodeppt/</guid>
+        <description>这是我临时开发一个简单的PPT时研究的技术，使用场景比较少，故作废该笔记。</description>
+      </item>
+      
+      <item>
+        <title>OpenVPN</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/</guid>
+        <description>直接在操作系统中安装并运行OpenVPN的相关技术的研究我打算终止了，未来的话我会直接结合OpenWRT研究该项技术。 截止目前，我对Open</description>
+      </item>
+      
+      <item>
+        <title>PhysicalMachine</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/</guid>
+        <description>这类需求很少，我自己也很少频率遇到，故作废该笔记。</description>
+      </item>
+      
+      <item>
         <title>Prometheus</title>
         <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/prometheus/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

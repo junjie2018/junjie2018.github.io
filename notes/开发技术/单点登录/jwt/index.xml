@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JWT on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/jwt/</link>
+    <description>Recent content in JWT on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/jwt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>初次体验JWT</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/jwt/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8Cjwt/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/jwt/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8Cjwt/</guid>
+        <description>我按教程简单的体验了一下JWT，我没有走完整的JWT流程，只走了一下加密部分，我的代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</description>
+      </item>
+      
+    
+  </channel>
+</rss>

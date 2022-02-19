@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PhysicalMachine on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/</link>
+    <description>Recent content in PhysicalMachine on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>B450M主板升级BIOS</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%8D%87%E7%BA%A7bios/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%8D%87%E7%BA%A7bios/</guid>
+        <description>官网下载最新版BIOS https://cn.msi.com/Motherboard/support/B450M-MORTAR.html 格式化U盘为FAT32（很关键，已经踩过坑了），然后解压官网下载的压缩包，将压缩包内的2~3个文件拷贝到U盘的根目录</description>
+      </item>
+      
+      <item>
+        <title>B450M主板开启AMD-V</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%BC%80%E5%90%AFamd-v/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%BC%80%E5%90%AFamd-v/</guid>
+        <description>BIOS系统中选择OverClocking（应该是这个吧，忘记了，是个大项），然后选择CPU配置，然后选择Svmmode，选择开启。 参考资料</description>
+      </item>
+      
+      <item>
+        <title>B450M主板线如何插</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E7%BA%BF%E5%A6%82%E4%BD%95%E6%8F%92/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E7%BA%BF%E5%A6%82%E4%BD%95%E6%8F%92/</guid>
+        <description>参考资料 微星b450m迫击炮主板接线图解</description>
+      </item>
+      
+    
+  </channel>
+</rss>

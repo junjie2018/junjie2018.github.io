@@ -1231,28 +1231,28 @@
       
       <item>
         <title>B450M主板升级BIOS</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%8D%87%E7%BA%A7bios/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%8D%87%E7%BA%A7bios/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%8D%87%E7%BA%A7bios/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%8D%87%E7%BA%A7bios/</guid>
         <description>官网下载最新版BIOS https://cn.msi.com/Motherboard/support/B450M-MORTAR.html 格式化U盘为FAT32（很关键，已经踩过坑了），然后解压官网下载的压缩包，将压缩包内的2~3个文件拷贝到U盘的根目录</description>
       </item>
       
       <item>
         <title>B450M主板开启AMD-V</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%BC%80%E5%90%AFamd-v/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%BC%80%E5%90%AFamd-v/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%BC%80%E5%90%AFamd-v/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E5%BC%80%E5%90%AFamd-v/</guid>
         <description>BIOS系统中选择OverClocking（应该是这个吧，忘记了，是个大项），然后选择CPU配置，然后选择Svmmode，选择开启。 参考资料</description>
       </item>
       
       <item>
         <title>B450M主板线如何插</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E7%BA%BF%E5%A6%82%E4%BD%95%E6%8F%92/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E7%BA%BF%E5%A6%82%E4%BD%95%E6%8F%92/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E7%BA%BF%E5%A6%82%E4%BD%95%E6%8F%92/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/physicalmachine/b450m%E4%B8%BB%E6%9D%BF%E7%BA%BF%E5%A6%82%E4%BD%95%E6%8F%92/</guid>
         <description>参考资料 微星b450m迫击炮主板接线图解</description>
       </item>
       
@@ -1330,10 +1330,10 @@
       
       <item>
         <title>CAS相关资料整理</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/cas%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/cas%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/cas%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/cas%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
         <description>官网</description>
       </item>
       
@@ -1861,37 +1861,37 @@
       
       <item>
         <title>EasyYApi处理@RequestAttribute注解</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E5%A4%84%E7%90%86requestattribute%E6%B3%A8%E8%A7%A3/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E5%A4%84%E7%90%86requestattribute%E6%B3%A8%E8%A7%A3/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E5%A4%84%E7%90%86requestattribute%E6%B3%A8%E8%A7%A3/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E5%A4%84%E7%90%86requestattribute%E6%B3%A8%E8%A7%A3/</guid>
         <description>如下代码： 对应生成的YApi文档为： 这其实不是我想要的，因为我们的@RequestAttribute会从Header中获取一个值赋给该字段，</description>
       </item>
       
       <item>
         <title>EasyYApi提交的Bug被处理了，非常棒的体验</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E6%8F%90%E4%BA%A4%E7%9A%84bug%E8%A2%AB%E5%A4%84%E7%90%86%E4%BA%86%E9%9D%9E%E5%B8%B8%E6%A3%92%E7%9A%84%E4%BD%93%E9%AA%8C/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E6%8F%90%E4%BA%A4%E7%9A%84bug%E8%A2%AB%E5%A4%84%E7%90%86%E4%BA%86%E9%9D%9E%E5%B8%B8%E6%A3%92%E7%9A%84%E4%BD%93%E9%AA%8C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E6%8F%90%E4%BA%A4%E7%9A%84bug%E8%A2%AB%E5%A4%84%E7%90%86%E4%BA%86%E9%9D%9E%E5%B8%B8%E6%A3%92%E7%9A%84%E4%BD%93%E9%AA%8C/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E6%8F%90%E4%BA%A4%E7%9A%84bug%E8%A2%AB%E5%A4%84%E7%90%86%E4%BA%86%E9%9D%9E%E5%B8%B8%E6%A3%92%E7%9A%84%E4%BD%93%E9%AA%8C/</guid>
         <description>我用渣英语提交的Issues，官方一天的时间就帮我修复了，非常棒的体验，哈哈。 另外EasyYApi真的非常非常的好用，大爱。</description>
       </item>
       
       <item>
         <title>EasyYApi目前配置总结</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/%E6%96%B9%E6%A1%88/easyyapi%E7%9B%AE%E5%89%8D%E9%85%8D%E7%BD%AE%E6%80%BB%E7%BB%93/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/%E6%96%B9%E6%A1%88/easyyapi%E7%9B%AE%E5%89%8D%E9%85%8D%E7%BD%AE%E6%80%BB%E7%BB%93/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/%E6%96%B9%E6%A1%88/easyyapi%E7%9B%AE%E5%89%8D%E9%85%8D%E7%BD%AE%E6%80%BB%E7%BB%93/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/%E6%96%B9%E6%A1%88/easyyapi%E7%9B%AE%E5%89%8D%E9%85%8D%E7%BD%AE%E6%80%BB%E7%BB%93/</guid>
         <description>Postman 我先从Postman整理起，虽然Postman相关的配置是我最后才实践的，但是确实提升了我不少编码幸福度。我比较喜欢使用Postman进行</description>
       </item>
       
       <item>
         <title>EasyYapi配置以支持自定义的校验注解</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</guid>
         <description>我自己开发了一条校验注解，可以省去配置message字段，我需要EasyYapi也支持这套注解，配置如下： # 参数配置 param.required=@com.sdstc.csc.common.validation.JNotBlank param.required=@com.sdstc.csc.common.validation.JNotNull # 字段配置 field.required=@com.sdstc.csc.common.validation.JNotBlank field.required=@com.sdstc.csc.common.validation.JNotNull 参考资</description>
       </item>
       
@@ -2365,10 +2365,10 @@
       
       <item>
         <title>https无法正常链接</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/istio/https%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E9%93%BE%E6%8E%A5/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/istio/https%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E9%93%BE%E6%8E%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/istio/https%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E9%93%BE%E6%8E%A5/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/istio/https%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E9%93%BE%E6%8E%A5/</guid>
         <description>这是之前处理问题时用到的资料，整理一份。 背景是这样的，我们的http可以正常的建立链接，但是https无法正常的建立链接。 参考资料 SSL Handshake 被莫名</description>
       </item>
       
@@ -2698,10 +2698,10 @@
       
       <item>
         <title>Istio安装</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/istio/istio%E5%AE%89%E8%A3%85/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/istio/istio%E5%AE%89%E8%A3%85/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/istio/istio%E5%AE%89%E8%A3%85/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/istio/istio%E5%AE%89%E8%A3%85/</guid>
         <description>这块是以前用的资料整理，我会后会重新在实验机环境安装，到时候会重新整理一份。 使用 Istioctl 安装 IstioOperator Options 调试 Envoy 和 Pilot 最佳实践：Service Mesh 基准性能测试 S</description>
       </item>
       
@@ -3292,10 +3292,10 @@
       
       <item>
         <title>Navicat Premium 12看不到PostgreSQL创建的表</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/navicat/navicat-premium-12%E7%9C%8B%E4%B8%8D%E5%88%B0postgresql%E5%88%9B%E5%BB%BA%E7%9A%84%E8%A1%A8/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/navicat/navicat-premium-12%E7%9C%8B%E4%B8%8D%E5%88%B0postgresql%E5%88%9B%E5%BB%BA%E7%9A%84%E8%A1%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/navicat/navicat-premium-12%E7%9C%8B%E4%B8%8D%E5%88%B0postgresql%E5%88%9B%E5%BB%BA%E7%9A%84%E8%A1%A8/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/navicat/navicat-premium-12%E7%9C%8B%E4%B8%8D%E5%88%B0postgresql%E5%88%9B%E5%BB%BA%E7%9A%84%E8%A1%A8/</guid>
         <description>不知道算不算一个Bug，我通过Navicat Premium 12创建的表，无法在Navicat Premium 12中查看。 该问题目前仅针对PG数据库。 参考资料 Navicat Premium 下看不</description>
       </item>
       
@@ -3382,28 +3382,28 @@
       
       <item>
         <title>Node.js install总是失败的问题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/node.js-install%E6%80%BB%E6%98%AF%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/node.js-install%E6%80%BB%E6%98%AF%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/node.js-install%E6%80%BB%E6%98%AF%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/node.js-install%E6%80%BB%E6%98%AF%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>问题描述 C:\Users\wujj\Desktop\ElectronProject&amp;gt;npm install electron --save (node:14808) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to &#39;0&#39; makes TLS connections and HTTPS requests insecure by disabling certificate verification. (Use `node --trace-warnings ...` to show where the warning was created) &amp;gt; core-js@3.9.1 postinstall C:\Users\wujj\Desktop\ElectronProject\node_modules\core-js &amp;gt; node -e &amp;quot;try{require(&#39;./postinstall&#39;)}catch(e){}&amp;quot; &amp;gt; electron@12.0.2 postinstall C:\Users\wujj\Desktop\ElectronProject\node_modules\electron &amp;gt; node install.js (node:27104) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to &#39;0&#39; makes TLS connections and HTTPS requests insecure</description>
       </item>
       
       <item>
         <title>Node.js中的UNABLE_TO_VERIFY_LEAF_SIGNATURE</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/node.js%E4%B8%AD%E7%9A%84unable_to_verify_leaf_signature/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/node.js%E4%B8%AD%E7%9A%84unable_to_verify_leaf_signature/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/node.js%E4%B8%AD%E7%9A%84unable_to_verify_leaf_signature/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/node.js%E4%B8%AD%E7%9A%84unable_to_verify_leaf_signature/</guid>
         <description>问题描述 执行如下指令时，报如下错误： npm install -g yo npm WARN registry Unexpected warning for https://registry.npmjs.org/: Miscellaneous Warning UNABLE_TO_VERIFY_LEAF_SIGNATURE: request to https://registry.npmjs.org/yo failed, reason: unable to verify the first certificate npm WARN registry Using stale data from https://registry.npmjs.org/ due to a request error during revalidation. npm ERR! code UNABLE_TO_VERIFY_LEAF_SIGNATURE npm ERR! errno UNABLE_TO_VERIFY_LEAF_SIGNATURE npm ERR! request to</description>
       </item>
       
       <item>
         <title>NodeSource存储库安装Node.js和npm</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/nodesource%E5%AD%98%E5%82%A8%E5%BA%93%E5%AE%89%E8%A3%85node.js%E5%92%8Cnpm/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/nodesource%E5%AD%98%E5%82%A8%E5%BA%93%E5%AE%89%E8%A3%85node.js%E5%92%8Cnpm/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/nodesource%E5%AD%98%E5%82%A8%E5%BA%93%E5%AE%89%E8%A3%85node.js%E5%92%8Cnpm/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/nodesource%E5%AD%98%E5%82%A8%E5%BA%93%E5%AE%89%E8%A3%85node.js%E5%92%8Cnpm/</guid>
         <description>我在Debain上使用默认的库安装Node.js，版本过低，报npm冲突了。所以我不得不寻找其他的安装方法。 我最终使用的指令如下： 1 2 3 4 curl</description>
       </item>
       
@@ -3418,46 +3418,46 @@
       
       <item>
         <title>npm设置代理</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/npm%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/npm%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/npm%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/npm%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</guid>
         <description>指令如下： npm config set proxy=http://127.0.0.1:1080 npm config set https-proxy=http://127.0.0.1:1080 npm config set registry=http://registry.npmjs.org npm config set proxy=http://127.0.0.1:1080 npm config set https-proxy=http://192.168.13.113:1080</description>
       </item>
       
       <item>
         <title>OAuth2 Demo开发整理</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2-demo%E5%BC%80%E5%8F%91%E6%95%B4%E7%90%86/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2-demo%E5%BC%80%E5%8F%91%E6%95%B4%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2-demo%E5%BC%80%E5%8F%91%E6%95%B4%E7%90%86/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2-demo%E5%BC%80%E5%8F%91%E6%95%B4%E7%90%86/</guid>
         <description>客户端 任意一个接口A，这个接口模拟用户没有登录（授权）的情况，将用户重定向到OAuth授权服务器，进行登录（授权）。接口A需要记录下自己传递</description>
       </item>
       
       <item>
         <title>OAuth2的Endpoint</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E7%9A%84endpoint/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E7%9A%84endpoint/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E7%9A%84endpoint/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E7%9A%84endpoint/</guid>
         <description>OAuth2有三个重要的Endpoint，其中授权Endpoint、Token Endpoint节点在授权服务器中，还有一个可选的重定向End</description>
       </item>
       
       <item>
         <title>OAuth2资源整理</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth2%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/</guid>
         <description>GitHub OAuth应用注册页</description>
       </item>
       
       <item>
         <title>OAuth授权方式及使用场景</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth%E6%8E%88%E6%9D%83%E6%96%B9%E5%BC%8F%E5%8F%8A%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth%E6%8E%88%E6%9D%83%E6%96%B9%E5%BC%8F%E5%8F%8A%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth%E6%8E%88%E6%9D%83%E6%96%B9%E5%BC%8F%E5%8F%8A%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/oauth%E6%8E%88%E6%9D%83%E6%96%B9%E5%BC%8F%E5%8F%8A%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF/</guid>
         <description>如下为一份粗略的授权方式及适用场景： 授权码（Authorisation Code）：适用于具有后端的传统Web应用程序以及原生（移动或桌面）应</description>
       </item>
       
@@ -3472,28 +3472,28 @@
       
       <item>
         <title>OpenVPN的安装与配置（高安全级别的）</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E9%AB%98%E5%AE%89%E5%85%A8%E7%BA%A7%E5%88%AB%E7%9A%84/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/openvpn%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E9%AB%98%E5%AE%89%E5%85%A8%E7%BA%A7%E5%88%AB%E7%9A%84/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E9%AB%98%E5%AE%89%E5%85%A8%E7%BA%A7%E5%88%AB%E7%9A%84/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/openvpn%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE%E9%AB%98%E5%AE%89%E5%85%A8%E7%BA%A7%E5%88%AB%E7%9A%84/</guid>
         <description>考虑到Ubuntu的一些底层的包和CentOS不一样，我决定重新查找CentOS上OpenVPN的安装方法。 安装OpenVPN 安装前的准备工</description>
       </item>
       
       <item>
         <title>OpenVPN证书生成</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/openvpn%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/openvpn%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90/</guid>
         <description>CentOS版 easy-rsa下载与配置修改 下载easy-ras并解压 wget https://github.com/OpenVPN/easy-rsa/archive/v3.0.7.tar.gz mv v3.0.7.tar.gz easy-rsa-3.0.7.tar.gz tar xf easy-rsa-3.0.7.tar.gz 根据vars.example生成全局配置文件vars cd</description>
       </item>
       
       <item>
         <title>OpenVPN资料整理</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/openvpn%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/openvpn%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
         <description>openvpn 文件参数详解 讲解了OpenVPN的参数，感觉还不错 OpenWRT 搭建 OpenVPN 服务器 评论区讨论了其他技术，很有价值。</description>
       </item>
       
@@ -3661,100 +3661,100 @@
       
       <item>
         <title>Postman删除环境变量</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%88%A0%E9%99%A4%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E5%88%A0%E9%99%A4%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%88%A0%E9%99%A4%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E5%88%A0%E9%99%A4%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
         <description>使用新的环境变量方案，旧的环境变量都需要删除： 再网上找了一圈没有找到删除的方案，最后自己给试出来了。</description>
       </item>
       
       <item>
         <title>Postman发起请求前自动添加Header</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%8F%91%E8%B5%B7%E8%AF%B7%E6%B1%82%E5%89%8D%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0header/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E5%8F%91%E8%B5%B7%E8%AF%B7%E6%B1%82%E5%89%8D%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0header/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%8F%91%E8%B5%B7%E8%AF%B7%E6%B1%82%E5%89%8D%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0header/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E5%8F%91%E8%B5%B7%E8%AF%B7%E6%B1%82%E5%89%8D%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0header/</guid>
         <description>之所以研究这个技术，主要我通过EasyYapi导出到Postman的频率太高了，每次导出都需要重新填写Header，不是很舒服。我开发了如下</description>
       </item>
       
       <item>
         <title>Postman变成了左右布局</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%8F%98%E6%88%90%E4%BA%86%E5%B7%A6%E5%8F%B3%E5%B8%83%E5%B1%80/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E5%8F%98%E6%88%90%E4%BA%86%E5%B7%A6%E5%8F%B3%E5%B8%83%E5%B1%80/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%8F%98%E6%88%90%E4%BA%86%E5%B7%A6%E5%8F%B3%E5%B8%83%E5%B1%80/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E5%8F%98%E6%88%90%E4%BA%86%E5%B7%A6%E5%8F%B3%E5%B8%83%E5%B1%80/</guid>
         <description>左右布局用起来非常的不方便，就莫名其妙的变成了左右布局！！！ 参考资料 postman界面变成了左右结构怎么办</description>
       </item>
       
       <item>
         <title>Postman导出curl指令</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%AF%BC%E5%87%BAcurl%E6%8C%87%E4%BB%A4/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E5%AF%BC%E5%87%BAcurl%E6%8C%87%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%AF%BC%E5%87%BAcurl%E6%8C%87%E4%BB%A4/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E5%AF%BC%E5%87%BAcurl%E6%8C%87%E4%BB%A4/</guid>
         <description>应用场景不用多说吧，只是可惜了，导出来的curl在windows上执行不了。 这个code按钮还是有很多东西可以研究的，我之后研究下： 2021</description>
       </item>
       
       <item>
         <title>Postman总是灰屏</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E6%80%BB%E6%98%AF%E7%81%B0%E5%B1%8F/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E6%80%BB%E6%98%AF%E7%81%B0%E5%B1%8F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E6%80%BB%E6%98%AF%E7%81%B0%E5%B1%8F/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E6%80%BB%E6%98%AF%E7%81%B0%E5%B1%8F/</guid>
         <description>我机器出现这个问题的原因是因为我的内存不足，公司为我分配的开发主机内存位16G，但是真正能够使用的是有60%，一旦到了60%就无法正常分配内</description>
       </item>
       
       <item>
         <title>Postman用脚本设置全局变量</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E7%94%A8%E8%84%9A%E6%9C%AC%E8%AE%BE%E7%BD%AE%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E7%94%A8%E8%84%9A%E6%9C%AC%E8%AE%BE%E7%BD%AE%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E7%94%A8%E8%84%9A%E6%9C%AC%E8%AE%BE%E7%BD%AE%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E7%94%A8%E8%84%9A%E6%9C%AC%E8%AE%BE%E7%BD%AE%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/</guid>
         <description>场景是这样的，我们local和dev共用一套token，之前的脚本中我将通过如下方法设置到了当前环境中，所以当我切换环境的时候我不得不重新运</description>
       </item>
       
       <item>
         <title>Postman的安装路径</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%BD%9C%E5%BA%9F/postman%E7%9A%84%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/%E4%BD%9C%E5%BA%9F/postman%E7%9A%84%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%BD%9C%E5%BA%9F/postman%E7%9A%84%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/%E4%BD%9C%E5%BA%9F/postman%E7%9A%84%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/</guid>
         <description>升级内存到32G后，Postman几乎没有出现过任何问题 我把这路径记一记，因为我感觉我随时要去整它，Postman好几个版本在我公司电脑上老</description>
       </item>
       
       <item>
         <title>Postman的导入功能</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E7%9A%84%E5%AF%BC%E5%85%A5%E5%8A%9F%E8%83%BD/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E7%9A%84%E5%AF%BC%E5%85%A5%E5%8A%9F%E8%83%BD/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E7%9A%84%E5%AF%BC%E5%85%A5%E5%8A%9F%E8%83%BD/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E7%9A%84%E5%AF%BC%E5%85%A5%E5%8A%9F%E8%83%BD/</guid>
         <description>这个功能结合Chrome的Copy As Curl使用，非常的赞：</description>
       </item>
       
       <item>
         <title>Postman解决使用签名脚本，部分接口签名校验失败</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8%E7%AD%BE%E5%90%8D%E8%84%9A%E6%9C%AC%E9%83%A8%E5%88%86%E6%8E%A5%E5%8F%A3%E7%AD%BE%E5%90%8D%E6%A0%A1%E9%AA%8C%E5%A4%B1%E8%B4%A5/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8%E7%AD%BE%E5%90%8D%E8%84%9A%E6%9C%AC%E9%83%A8%E5%88%86%E6%8E%A5%E5%8F%A3%E7%AD%BE%E5%90%8D%E6%A0%A1%E9%AA%8C%E5%A4%B1%E8%B4%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8%E7%AD%BE%E5%90%8D%E8%84%9A%E6%9C%AC%E9%83%A8%E5%88%86%E6%8E%A5%E5%8F%A3%E7%AD%BE%E5%90%8D%E6%A0%A1%E9%AA%8C%E5%A4%B1%E8%B4%A5/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8%E7%AD%BE%E5%90%8D%E8%84%9A%E6%9C%AC%E9%83%A8%E5%88%86%E6%8E%A5%E5%8F%A3%E7%AD%BE%E5%90%8D%E6%A0%A1%E9%AA%8C%E5%A4%B1%E8%B4%A5/</guid>
         <description>问题描述 完成了一个postman的脚本（可以在该分类下找到该脚本源码），用于在请求时自动计算签名，使用该脚本时发现绝大多数请求的签名校验成功</description>
       </item>
       
       <item>
         <title>Postman请求前获取Token</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%AF%B7%E6%B1%82%E5%89%8D%E8%8E%B7%E5%8F%96token/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E8%AF%B7%E6%B1%82%E5%89%8D%E8%8E%B7%E5%8F%96token/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%AF%B7%E6%B1%82%E5%89%8D%E8%8E%B7%E5%8F%96token/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E8%AF%B7%E6%B1%82%E5%89%8D%E8%8E%B7%E5%8F%96token/</guid>
         <description>代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 var token const loginRequest = { url: login_url, method: &amp;#39;POST&amp;#39;, header: &amp;#39;Content-Type: application/json&amp;#39;, body: { mode: &amp;#39;raw&amp;#39;, raw: JSON.stringify({&amp;#34;account&amp;#34;:&amp;#34;junjie001@qq.com&amp;#34;,&amp;#34;pass&amp;#34;:&amp;#34;Hello123&amp;#34;,&amp;#34;level&amp;#34;:1,&amp;#34;inviteId&amp;#34;:&amp;#34;&amp;#34;,&amp;#34;type&amp;#34;:0}) } } pm.sendRequest(loginRequest,function(err,res){ if(err) { console.log(err) } else { var response = JSON.parse(res.text()); token =</description>
       </item>
       
       <item>
         <title>Postman请求时自动完成md5计算</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%AF%B7%E6%B1%82%E6%97%B6%E8%87%AA%E5%8A%A8%E5%AE%8C%E6%88%90md5%E8%AE%A1%E7%AE%97/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E8%AF%B7%E6%B1%82%E6%97%B6%E8%87%AA%E5%8A%A8%E5%AE%8C%E6%88%90md5%E8%AE%A1%E7%AE%97/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%AF%B7%E6%B1%82%E6%97%B6%E8%87%AA%E5%8A%A8%E5%AE%8C%E6%88%90md5%E8%AE%A1%E7%AE%97/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/postman%E8%AF%B7%E6%B1%82%E6%97%B6%E8%87%AA%E5%8A%A8%E5%AE%8C%E6%88%90md5%E8%AE%A1%E7%AE%97/</guid>
         <description>相关操作 如图，点击Postman的Pre-request Script选项卡: 填写如下代码： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25</description>
       </item>
       
@@ -4318,10 +4318,10 @@
       
       <item>
         <title>Spring与OAuth授权服务器</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/spring%E4%B8%8Eoauth%E6%8E%88%E6%9D%83%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/spring%E4%B8%8Eoauth%E6%8E%88%E6%9D%83%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/spring%E4%B8%8Eoauth%E6%8E%88%E6%9D%83%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/spring%E4%B8%8Eoauth%E6%8E%88%E6%9D%83%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
         <description>Spring团队原本不打算支持OAuth授权服务器，因为他们认OAuth授权服务器并不是一个高频的需求，但是因为社区中有大量的人提出了该需求</description>
       </item>
       
@@ -5002,10 +5002,10 @@
       
       <item>
         <title>yapi默认账号密码</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/yapi%E9%BB%98%E8%AE%A4%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/yapi%E9%BB%98%E8%AE%A4%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/yapi%E9%BB%98%E8%AE%A4%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/yapi%E9%BB%98%E8%AE%A4%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/</guid>
         <description>账号：admin@admin.com 密码：ymfe.org 参考资料 我想问下默认超级管理员的账号密码是啥</description>
       </item>
       
@@ -5029,10 +5029,10 @@
       
       <item>
         <title>【笔记】CSRF攻击</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%AC%94%E8%AE%B0csrf%E6%94%BB%E5%87%BB/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%AC%94%E8%AE%B0csrf%E6%94%BB%E5%87%BB/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%AC%94%E8%AE%B0csrf%E6%94%BB%E5%87%BB/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%AC%94%E8%AE%B0csrf%E6%94%BB%E5%87%BB/</guid>
         <description>恶意应用软件让浏览器向已完成身份认证的网站发起请求，执行有害的操作，这就是CSRF。这是怎么发生的呢？记住主要的一点，浏览器可以向任何源发送</description>
       </item>
       
@@ -5119,10 +5119,10 @@
       
       <item>
         <title>一键清理掉所有无用的Collection</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%B8%80%E9%94%AE%E6%B8%85%E7%90%86%E6%8E%89%E6%89%80%E6%9C%89%E6%97%A0%E7%94%A8%E7%9A%84collection/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/%E4%B8%80%E9%94%AE%E6%B8%85%E7%90%86%E6%8E%89%E6%89%80%E6%9C%89%E6%97%A0%E7%94%A8%E7%9A%84collection/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%B8%80%E9%94%AE%E6%B8%85%E7%90%86%E6%8E%89%E6%89%80%E6%9C%89%E6%97%A0%E7%94%A8%E7%9A%84collection/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/%E4%B8%80%E9%94%AE%E6%B8%85%E7%90%86%E6%8E%89%E6%89%80%E6%9C%89%E6%97%A0%E7%94%A8%E7%9A%84collection/</guid>
         <description>实际上我没有找到这样的功能，所以使用Postman的Api，自己开发了一个Python脚本，脚本内容如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17</description>
       </item>
       
@@ -5416,10 +5416,10 @@
       
       <item>
         <title>使用keytool生成秘钥对</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/%E4%BD%BF%E7%94%A8keytool%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5%E5%AF%B9/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/%E4%BD%BF%E7%94%A8keytool%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5%E5%AF%B9/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/%E4%BD%BF%E7%94%A8keytool%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5%E5%AF%B9/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/%E4%BD%BF%E7%94%A8keytool%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5%E5%AF%B9/</guid>
         <description>keytool工具位于%JAVA_HOME%/bin，我之前从来没有意识到过这个工具的存在，最近在进行CAS相关的实验，发现了这个工具。按照</description>
       </item>
       
@@ -5650,10 +5650,10 @@
       
       <item>
         <title>初次体验JWT</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/jwt/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8Cjwt/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/jwt/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8Cjwt/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/jwt/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8Cjwt/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/jwt/%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8Cjwt/</guid>
         <description>我按教程简单的体验了一下JWT，我没有走完整的JWT流程，只走了一下加密部分，我的代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</description>
       </item>
       
@@ -5695,10 +5695,10 @@
       
       <item>
         <title>利用Postman快速调试接口</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E6%96%B9%E6%A1%88/%E5%88%A9%E7%94%A8postman%E5%BF%AB%E9%80%9F%E8%B0%83%E8%AF%95%E6%8E%A5%E5%8F%A3/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/%E6%96%B9%E6%A1%88/%E5%88%A9%E7%94%A8postman%E5%BF%AB%E9%80%9F%E8%B0%83%E8%AF%95%E6%8E%A5%E5%8F%A3/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E6%96%B9%E6%A1%88/%E5%88%A9%E7%94%A8postman%E5%BF%AB%E9%80%9F%E8%B0%83%E8%AF%95%E6%8E%A5%E5%8F%A3/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/%E6%96%B9%E6%A1%88/%E5%88%A9%E7%94%A8postman%E5%BF%AB%E9%80%9F%E8%B0%83%E8%AF%95%E6%8E%A5%E5%8F%A3/</guid>
         <description>我这儿只描述一下思路，具体的操作是可以在我Postman类目下找到的。 快速调试接口，分为两个主要的场景： 新开发的接口 调试Chrome的Net</description>
       </item>
       
@@ -5767,10 +5767,10 @@
       
       <item>
         <title>参数上的注解如何处理</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</guid>
         <description>普通的参数，直接使用@param就可以了，如果@param是一个普通类型，但是其含义数据某个枚举，可以使用如下的写法： 1 2 3 4 5 6 7 8 9 10 11</description>
       </item>
       
@@ -5803,10 +5803,10 @@
       
       <item>
         <title>后台执行MySQL导入</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/mysql/%E5%90%8E%E5%8F%B0%E6%89%A7%E8%A1%8Cmysql%E5%AF%BC%E5%85%A5/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/mysql/%E5%90%8E%E5%8F%B0%E6%89%A7%E8%A1%8Cmysql%E5%AF%BC%E5%85%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/mysql/%E5%90%8E%E5%8F%B0%E6%89%A7%E8%A1%8Cmysql%E5%AF%BC%E5%85%A5/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/mysql/%E5%90%8E%E5%8F%B0%E6%89%A7%E8%A1%8Cmysql%E5%AF%BC%E5%85%A5/</guid>
         <description>使用场景是这样的，我们要将本地的数据库导入到阿里的数据库中，如果通过shell执行这个导入工作，可能会因为shell链接中断，导致导入工作失</description>
       </item>
       
@@ -5902,10 +5902,10 @@
       
       <item>
         <title>因为设置了All_PROXY导致Postman总是报代理错误</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E5%9B%A0%E4%B8%BA%E8%AE%BE%E7%BD%AE%E4%BA%86all_proxy%E5%AF%BC%E8%87%B4postman%E6%80%BB%E6%98%AF%E6%8A%A5%E4%BB%A3%E7%90%86%E9%94%99%E8%AF%AF/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/%E5%9B%A0%E4%B8%BA%E8%AE%BE%E7%BD%AE%E4%BA%86all_proxy%E5%AF%BC%E8%87%B4postman%E6%80%BB%E6%98%AF%E6%8A%A5%E4%BB%A3%E7%90%86%E9%94%99%E8%AF%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E5%9B%A0%E4%B8%BA%E8%AE%BE%E7%BD%AE%E4%BA%86all_proxy%E5%AF%BC%E8%87%B4postman%E6%80%BB%E6%98%AF%E6%8A%A5%E4%BB%A3%E7%90%86%E9%94%99%E8%AF%AF/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postman/%E5%9B%A0%E4%B8%BA%E8%AE%BE%E7%BD%AE%E4%BA%86all_proxy%E5%AF%BC%E8%87%B4postman%E6%80%BB%E6%98%AF%E6%8A%A5%E4%BB%A3%E7%90%86%E9%94%99%E8%AF%AF/</guid>
         <description>典型的自己挖坑自己填。 问题是这样的，我的Postman登录我的账号后，进行请求时一直报代理错误，浏览器可以正常访问的URL，在Postman</description>
       </item>
       
@@ -6451,19 +6451,19 @@
       
       <item>
         <title>将MySQL客户端安装在CentOS上</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/mysql/%E5%B0%86mysql%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%AE%89%E8%A3%85%E5%9C%A8centos%E4%B8%8A/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/mysql/%E5%B0%86mysql%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%AE%89%E8%A3%85%E5%9C%A8centos%E4%B8%8A/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/mysql/%E5%B0%86mysql%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%AE%89%E8%A3%85%E5%9C%A8centos%E4%B8%8A/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/mysql/%E5%B0%86mysql%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%AE%89%E8%A3%85%E5%9C%A8centos%E4%B8%8A/</guid>
         <description>操作步骤 指令如下 sudo yum -y install mysql 不是整个mysql服务，而仅仅只是mysql客户端，非常好的测试工具。</description>
       </item>
       
       <item>
         <title>将Node.js安装在CentOS上</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/%E5%B0%86node.js%E5%AE%89%E8%A3%85%E5%9C%A8centos%E4%B8%8A/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E5%B0%86node.js%E5%AE%89%E8%A3%85%E5%9C%A8centos%E4%B8%8A/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/%E5%B0%86node.js%E5%AE%89%E8%A3%85%E5%9C%A8centos%E4%B8%8A/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E5%B0%86node.js%E5%AE%89%E8%A3%85%E5%9C%A8centos%E4%B8%8A/</guid>
         <description>我测试工具用的，所以细节处没有太讲究： 1 2 3 4 5 6 7 sudo yum install epel-release sudo yum install nodejs # 我没有执行这行代码 sudo yum install npm 参考教程 如何在 CentOS 安装 node.js</description>
       </item>
       
@@ -6649,10 +6649,10 @@
       
       <item>
         <title>快速使用NodePPT的指令</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/nodeppt/%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8nodeppt%E7%9A%84%E6%8C%87%E4%BB%A4/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/nodeppt/%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8nodeppt%E7%9A%84%E6%8C%87%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/nodeppt/%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8nodeppt%E7%9A%84%E6%8C%87%E4%BB%A4/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/nodeppt/%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8nodeppt%E7%9A%84%E6%8C%87%E4%BB%A4/</guid>
         <description>快速使用的指令如下： nodeppt new slide.md nodeppt serve slide.md nodeppt build slide.md 有意思的是，使用了nodeppt serve指令后，可以实时的编辑并渲染ppt。 Demo代码如下： 1 2 3</description>
       </item>
       
@@ -6748,10 +6748,10 @@
       
       <item>
         <title>排查更换网络环境后，无法访问工具机上的虚拟机网络</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E6%8E%92%E6%9F%A5%E6%9B%B4%E6%8D%A2%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%90%8E%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/%E6%8E%92%E6%9F%A5%E6%9B%B4%E6%8D%A2%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%90%8E%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E6%8E%92%E6%9F%A5%E6%9B%B4%E6%8D%A2%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%90%8E%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/%E6%8E%92%E6%9F%A5%E6%9B%B4%E6%8D%A2%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%90%8E%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid>
         <description>问题描述 今天将我的工具机从公司搬到了家里，配置好了网络后，想测试一下openVPN是否能够正常使用。结果开发机登录后，仍然无法访问工具机上的</description>
       </item>
       
@@ -7117,10 +7117,10 @@
       
       <item>
         <title>理解什么是JOSE</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%90%86%E8%A7%A3%E4%BB%80%E4%B9%88%E6%98%AFjose/</link>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%90%86%E8%A7%A3%E4%BB%80%E4%B9%88%E6%98%AFjose/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%90%86%E8%A7%A3%E4%BB%80%E4%B9%88%E6%98%AFjose/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/oauth/%E7%90%86%E8%A7%A3%E4%BB%80%E4%B9%88%E6%98%AFjose/</guid>
         <description>JOSE是一种旨在在各方质检传递声明（Claims）的方法的规范集。我们常用的JWT就是包含了允许客户端访问特定资源的声明。JOSE制定了一</description>
       </item>
       
@@ -7360,10 +7360,10 @@
       
       <item>
         <title>解决AnyConnection与OpenVPN冲突导致的无法直接访问工具机上的虚拟机</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E8%A7%A3%E5%86%B3anyconnection%E4%B8%8Eopenvpn%E5%86%B2%E7%AA%81%E5%AF%BC%E8%87%B4%E7%9A%84%E6%97%A0%E6%B3%95%E7%9B%B4%E6%8E%A5%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/%E8%A7%A3%E5%86%B3anyconnection%E4%B8%8Eopenvpn%E5%86%B2%E7%AA%81%E5%AF%BC%E8%87%B4%E7%9A%84%E6%97%A0%E6%B3%95%E7%9B%B4%E6%8E%A5%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E8%A7%A3%E5%86%B3anyconnection%E4%B8%8Eopenvpn%E5%86%B2%E7%AA%81%E5%AF%BC%E8%87%B4%E7%9A%84%E6%97%A0%E6%B3%95%E7%9B%B4%E6%8E%A5%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/%E8%A7%A3%E5%86%B3anyconnection%E4%B8%8Eopenvpn%E5%86%B2%E7%AA%81%E5%AF%BC%E8%87%B4%E7%9A%84%E6%97%A0%E6%B3%95%E7%9B%B4%E6%8E%A5%E8%AE%BF%E9%97%AE%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA/</guid>
         <description>问题描述 因为需要在家访问公司里的工具机上的虚拟机的网络，所以我需要挂访问公司的vpn，然后挂工具机的vpn。 但是今天我挂好了这两个vpn后，</description>
       </item>
       
@@ -7414,10 +7414,10 @@
       
       <item>
         <title>解决无法访问我工具机上的虚拟机网络的问题（作废）</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E8%A7%A3%E5%86%B3%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%88%91%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98%E4%BD%9C%E5%BA%9F/</link>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/%E8%A7%A3%E5%86%B3%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%88%91%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98%E4%BD%9C%E5%BA%9F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/%E8%A7%A3%E5%86%B3%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%88%91%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98%E4%BD%9C%E5%BA%9F/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/openvpn/%E8%A7%A3%E5%86%B3%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%88%91%E5%B7%A5%E5%85%B7%E6%9C%BA%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98%E4%BD%9C%E5%BA%9F/</guid>
         <description>说明： 其实这个不是导致问题的核心原因，核心原因是AnyConnection导致的，该问题我已定位并解决，有相关的笔记说明了具体的原因和解决方</description>
       </item>
       

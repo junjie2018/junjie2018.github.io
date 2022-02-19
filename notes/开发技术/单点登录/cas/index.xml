@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAS on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/</link>
+    <description>Recent content in CAS on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>CAS相关资料整理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/cas%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/cas%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <description>官网</description>
+      </item>
+      
+      <item>
+        <title>使用keytool生成秘钥对</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/%E4%BD%BF%E7%94%A8keytool%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5%E5%AF%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95/cas/%E4%BD%BF%E7%94%A8keytool%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5%E5%AF%B9/</guid>
+        <description>keytool工具位于%JAVA_HOME%/bin，我之前从来没有意识到过这个工具的存在，最近在进行CAS相关的实验，发现了这个工具。按照</description>
+      </item>
+      
+    
+  </channel>
+</rss>

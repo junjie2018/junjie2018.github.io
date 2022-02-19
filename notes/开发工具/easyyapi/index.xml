@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EasyYApi on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/</link>
+    <description>Recent content in EasyYApi on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>方案</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/%E6%96%B9%E6%A1%88/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>EasyYApi处理@RequestAttribute注解</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E5%A4%84%E7%90%86requestattribute%E6%B3%A8%E8%A7%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E5%A4%84%E7%90%86requestattribute%E6%B3%A8%E8%A7%A3/</guid>
+        <description>如下代码： 对应生成的YApi文档为： 这其实不是我想要的，因为我们的@RequestAttribute会从Header中获取一个值赋给该字段，</description>
+      </item>
+      
+      <item>
+        <title>EasyYApi提交的Bug被处理了，非常棒的体验</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E6%8F%90%E4%BA%A4%E7%9A%84bug%E8%A2%AB%E5%A4%84%E7%90%86%E4%BA%86%E9%9D%9E%E5%B8%B8%E6%A3%92%E7%9A%84%E4%BD%93%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E6%8F%90%E4%BA%A4%E7%9A%84bug%E8%A2%AB%E5%A4%84%E7%90%86%E4%BA%86%E9%9D%9E%E5%B8%B8%E6%A3%92%E7%9A%84%E4%BD%93%E9%AA%8C/</guid>
+        <description>我用渣英语提交的Issues，官方一天的时间就帮我修复了，非常棒的体验，哈哈。 另外EasyYApi真的非常非常的好用，大爱。</description>
+      </item>
+      
+      <item>
+        <title>EasyYapi配置以支持自定义的校验注解</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</guid>
+        <description>我自己开发了一条校验注解，可以省去配置message字段，我需要EasyYapi也支持这套注解，配置如下： # 参数配置 param.required=@com.sdstc.csc.common.validation.JNotBlank param.required=@com.sdstc.csc.common.validation.JNotNull # 字段配置 field.required=@com.sdstc.csc.common.validation.JNotBlank field.required=@com.sdstc.csc.common.validation.JNotNull 参考资</description>
+      </item>
+      
+      <item>
+        <title>yapi默认账号密码</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/yapi%E9%BB%98%E8%AE%A4%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/yapi%E9%BB%98%E8%AE%A4%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/</guid>
+        <description>账号：admin@admin.com 密码：ymfe.org 参考资料 我想问下默认超级管理员的账号密码是啥</description>
+      </item>
+      
+      <item>
+        <title>参数上的注解如何处理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</guid>
+        <description>普通的参数，直接使用@param就可以了，如果@param是一个普通类型，但是其含义数据某个枚举，可以使用如下的写法： 1 2 3 4 5 6 7 8 9 10 11</description>
+      </item>
+      
+    
+  </channel>
+</rss>
