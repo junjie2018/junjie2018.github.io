@@ -51,6 +51,15 @@
       </item>
       
       <item>
+        <title>00.稳定、事少的方案</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/00.%E7%A8%B3%E5%AE%9A%E4%BA%8B%E5%B0%91%E7%9A%84%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/00.%E7%A8%B3%E5%AE%9A%E4%BA%8B%E5%B0%91%E7%9A%84%E6%96%B9%E6%A1%88/</guid>
+        <description>考虑到实在不想再OpenWRT上花费过多的时间，我拟定了如下的方案。 镜像和包，使用官方提供的最新稳定版，同时为了避免之后无法升级（旧的稳定版</description>
+      </item>
+      
+      <item>
         <title>001.BOM的应用</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/spring-data-redis%E6%96%87%E6%A1%A3/001.bom%E7%9A%84%E5%BA%94%E7%94%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -294,6 +303,15 @@
       </item>
       
       <item>
+        <title>01.技术点01：OpenWRT扩容</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/01.%E6%8A%80%E6%9C%AF%E7%82%B901openwrt%E6%89%A9%E5%AE%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/01.%E6%8A%80%E6%9C%AF%E7%82%B901openwrt%E6%89%A9%E5%AE%B9/</guid>
+        <description>增加一块存储盘 更新opkg，下载fdisk、cfdisk、e2fsprogs 1 2 3 4 5 6 7 opkg update opkg install e2fsprogs opkg install fdisk # 这个貌似没用到，我只是习惯性安装</description>
+      </item>
+      
+      <item>
         <title>01.理解Kubernetes中得User Account、Service Account</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/01.%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -474,6 +492,15 @@
       </item>
       
       <item>
+        <title>02.技术点02：Opkg配置使用本地文件</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/02.%E6%8A%80%E6%9C%AF%E7%82%B902opkg%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/02.%E6%8A%80%E6%9C%AF%E7%82%B902opkg%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6/</guid>
+        <description>建立目录： mkdir -p ~/ipks 从下载器上用scp指令拷贝文件： scp -r ~/ipks/openwrt_core root@192.168.31.199:/mnt/sdb1/ipks/openwrt_core scp -r ~/ipks/openwrt_base root@192.168.31.199:/mnt/sdb1/ipks/openwrt_base scp -r ~/ipks/openwrt_luci root@192.168.31.199:/mnt/sdb1/ipks/openwrt_luci scp -r ~/ipks/openwrt_packages root@192.168.31.199:/mnt/sdb1/ipks/openwrt_packages scp -r ~/ipks/openwrt_routing root@192.168.31.199:/mnt/sdb1/ipks/openwrt_routing scp -r ~/ipks/openwrt_telephony root@192.168.31.199:/mnt/sdb1/ipks/openwrt_telephony 配置/etc/opkg/distfeeds.</description>
+      </item>
+      
+      <item>
         <title>02.查看节点的状态</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/02.%E6%9F%A5%E7%9C%8B%E8%8A%82%E7%82%B9%E7%9A%84%E7%8A%B6%E6%80%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -507,6 +534,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/03.%E5%AE%9E%E7%8E%B0mapper.xml%E6%96%87%E4%BB%B6%E7%9A%84%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%8F%8A%E5%8E%BB%E9%99%A4%E9%BB%84%E8%89%B2%E8%AD%A6%E5%91%8A/</guid>
         <description>如图打开数据源视图 如图添加一个H2数据源 直接将application.yml中的url填写到URL处，界面会发生变化，将用户名改为和appl</description>
+      </item>
+      
+      <item>
+        <title>03.技术点03：攻克单独编译某个插件</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/03.%E6%8A%80%E6%9C%AF%E7%82%B903%E6%94%BB%E5%85%8B%E5%8D%95%E7%8B%AC%E7%BC%96%E8%AF%91%E6%9F%90%E4%B8%AA%E6%8F%92%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/03.%E6%8A%80%E6%9C%AF%E7%82%B903%E6%94%BB%E5%85%8B%E5%8D%95%E7%8B%AC%E7%BC%96%E8%AF%91%E6%9F%90%E4%B8%AA%E6%8F%92%E4%BB%B6/</guid>
+        <description>需求还是不够硬，还是可以有别的方案替代。</description>
       </item>
       
       <item>
@@ -600,6 +636,15 @@
       </item>
       
       <item>
+        <title>05.新方案：搭建Shadows-libev透明代理</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/05.%E6%96%B0%E6%96%B9%E6%A1%88%E6%90%AD%E5%BB%BAshadows-libev%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/05.%E6%96%B0%E6%96%B9%E6%A1%88%E6%90%AD%E5%BB%BAshadows-libev%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86/</guid>
+        <description>写在前面 这次运气非常不好，我用一种非常直观的方式去还原之前的方案，结果一点都不好使，表现上似乎是luci上按钮的指令并没有调到底层的工具，l</description>
+      </item>
+      
+      <item>
         <title>06.使用helm get查找发布的详细信息</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/06.%E4%BD%BF%E7%94%A8helm-get%E6%9F%A5%E6%89%BE%E5%8F%91%E5%B8%83%E7%9A%84%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -618,6 +663,15 @@
       </item>
       
       <item>
+        <title>06.新方案：搭建DDNS</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/06.%E6%96%B0%E6%96%B9%E6%A1%88%E6%90%AD%E5%BB%BAddns/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/06.%E6%96%B0%E6%96%B9%E6%A1%88%E6%90%AD%E5%BB%BAddns/</guid>
+        <description>Cloudflare上随便为自己的域名创建一条A记录 安装如下软件： opkg update opkg install bind-host opkg install ddns-scripts opkg install ddns-scripts-cloudflare opkg install luci-app-ddns opkg install luci-i18n-ddns-zh-cn 进行如下配置，配置后注意要启动： 配置完成</description>
+      </item>
+      
+      <item>
         <title>07.历史记录和回滚</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/07.%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%E5%92%8C%E5%9B%9E%E6%BB%9A/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -633,6 +687,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/07.%E5%AE%89%E8%A3%85kafka%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
         <description></description>
+      </item>
+      
+      <item>
+        <title>07.新方案：搭建Wireguard服务端</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/07.%E6%96%B0%E6%96%B9%E6%A1%88%E6%90%AD%E5%BB%BAwireguard%E6%9C%8D%E5%8A%A1%E7%AB%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/07.%E6%96%B0%E6%96%B9%E6%A1%88%E6%90%AD%E5%BB%BAwireguard%E6%9C%8D%E5%8A%A1%E7%AB%AF/</guid>
+        <description>该笔记中密钥已全部暴漏在公网，请不要尝试直接使用 （这是第一次使用这个方案，踩坑可不是很充足，所以暂时记录下自己的主要步骤吧，下次遇到问题在丰</description>
       </item>
       
       <item>
@@ -3345,6 +3408,15 @@
       </item>
       
       <item>
+        <title>not runnable nuget package microsoft.net.test.sdk is not installed</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/rider/not-runnable-nuget-package-microsoft.net.test.sdk-is-not-installed/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/rider/not-runnable-nuget-package-microsoft.net.test.sdk-is-not-installed/</guid>
+        <description>我用NuGET下载了Microsoft.NET.Test.Sdk 16.10.0，这个问题就修复了。</description>
+      </item>
+      
+      <item>
         <title>npm设置代理</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/node.js/npm%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3391,10 +3463,10 @@
       
       <item>
         <title>OMV配置共享文件夹（实验版）</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openmediavault/omv%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E5%AE%9E%E9%AA%8C%E7%89%88/</link>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/omv%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E5%AE%9E%E9%AA%8C%E7%89%88/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openmediavault/omv%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E5%AE%9E%E9%AA%8C%E7%89%88/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/omv%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E5%AE%9E%E9%AA%8C%E7%89%88/</guid>
         <description>存储器 &amp;gt; 磁盘：对数据盘进行擦除 存储器 &amp;gt; 文件系统：为数据盘创建文件系统 存储器 &amp;gt; 文件系统：挂载数据盘 访问权限管理 &amp;gt; 共享文件夹：创建一个共享文件夹</description>
       </item>
       
@@ -3423,6 +3495,78 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/openvpn%E4%BD%9C%E5%BA%9F/openvpn%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
         <description>openvpn 文件参数详解 讲解了OpenVPN的参数，感觉还不错 OpenWRT 搭建 OpenVPN 服务器 评论区讨论了其他技术，很有价值。</description>
+      </item>
+      
+      <item>
+        <title>OpenWrt修改IP地址</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/openwrt%E4%BF%AE%E6%94%B9ip%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/openwrt%E4%BF%AE%E6%94%B9ip%E5%9C%B0%E5%9D%80/</guid>
+        <description>/etc/config/network</description>
+      </item>
+      
+      <item>
+        <title>OpenWrt修改语言</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/openwrt%E4%BF%AE%E6%94%B9%E8%AF%AD%E8%A8%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/openwrt%E4%BF%AE%E6%94%B9%E8%AF%AD%E8%A8%80/</guid>
+        <description>操作步骤 System-&amp;gt;Software-&amp;gt;在 Filter 栏里面输入 -zh-cn 点击搜索 找到 luci-i18n-base-zh-cn 点击前面的安装。然后去设置语言即可。 （我可能需要配置科</description>
+      </item>
+      
+      <item>
+        <title>openwrt减少端口暴露</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/openwrt%E5%87%8F%E5%B0%91%E7%AB%AF%E5%8F%A3%E6%9A%B4%E9%9C%B2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/openwrt%E5%87%8F%E5%B0%91%E7%AB%AF%E5%8F%A3%E6%9A%B4%E9%9C%B2/</guid>
+        <description>我最终选择了防火墙的方案，只指定部分mac地址访问我的77端口即可： 配置允许访问的端口（这一步应该先进行，否则就无法访问Web服务了） # 192.168.13.113 #</description>
+      </item>
+      
+      <item>
+        <title>OpenWrt安装Curl</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/openwrt%E5%AE%89%E8%A3%85curl/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/openwrt%E5%AE%89%E8%A3%85curl/</guid>
+        <description>指令如下： opkg update &amp;amp;&amp;amp; opkg install curl 本来是个很简单的指令，但是每次直接执行opkg install curl，都提示找不到包，很奇怪。 参考资料 请问如如何安装curl ，op</description>
+      </item>
+      
+      <item>
+        <title>OpenWRT安装管理页面</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/openwrt%E5%AE%89%E8%A3%85%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/openwrt%E5%AE%89%E8%A3%85%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2/</guid>
+        <description>作废，因为不研究自己编译固件了，故该笔记没有意义了 编译OpenWRT固件时，忘记选择Luci了，差点神作，不过还好，OpenWRT可以使用o</description>
+      </item>
+      
+      <item>
+        <title>OpenWrt官方编译后，无法执行opkg update</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/openwrt%E5%AE%98%E6%96%B9%E7%BC%96%E8%AF%91%E5%90%8E%E6%97%A0%E6%B3%95%E6%89%A7%E8%A1%8Copkg-update/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/openwrt%E5%AE%98%E6%96%B9%E7%BC%96%E8%AF%91%E5%90%8E%E6%97%A0%E6%B3%95%E6%89%A7%E8%A1%8Copkg-update/</guid>
+        <description>问题描述 编译了官方镜像后，设置了代码，然后执行opkg update，结果确报错。报错内容没有整理，核心就是：wget returned 5。 修复方法，备份/e</description>
+      </item>
+      
+      <item>
+        <title>OpenWrt查看日志</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/openwrt%E6%9F%A5%E7%9C%8B%E6%97%A5%E5%BF%97/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/openwrt%E6%9F%A5%E7%9C%8B%E6%97%A5%E5%BF%97/</guid>
+        <description>使用如下指令： logread -f 参考资料 openwrt查看日志</description>
+      </item>
+      
+      <item>
+        <title>OpenWRT配置OpenVPN服务端（实验版）</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/openwrt%E9%85%8D%E7%BD%AEopenvpn%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%AE%9E%E9%AA%8C%E7%89%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/openwrt%E9%85%8D%E7%BD%AEopenvpn%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%AE%9E%E9%AA%8C%E7%89%88/</guid>
+        <description>我已经更换为了Wireguard技术，故不再维护该笔记 该方案不适合旁路由，旁路由也确实不适合做OpenVPN的服务端。 命令行说明 安装软件 opkg update</description>
       </item>
       
       <item>
@@ -3840,6 +3984,15 @@
       </item>
       
       <item>
+        <title>READE</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/reade/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/reade/</guid>
+        <description>我购买了群晖，故研究该系列的技术没有任何的意义，但是平心而论，我觉得群晖买的不是很值得，因为我买的群晖只使用了一些极其基础的功能。</description>
+      </item>
+      
+      <item>
         <title>recursive参数</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/recursive%E5%8F%82%E6%95%B0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3954,6 +4107,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/resultmap%E6%A0%87%E7%AD%BE/</guid>
         <description>ResultMap标签类似于定义了一个变量，然后在select标签中使用： 因为目前使用MyBatis-Plus多一点，这个技术暂时就不研究了</description>
+      </item>
+      
+      <item>
+        <title>Rider下载NUnit的包</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/rider/rider%E4%B8%8B%E8%BD%BDnunit%E7%9A%84%E5%8C%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/rider/rider%E4%B8%8B%E8%BD%BDnunit%E7%9A%84%E5%8C%85/</guid>
+        <description>如下图，搜索NUnit即可： 感觉NuGet没有Maven好用。</description>
       </item>
       
       <item>
@@ -4866,6 +5028,15 @@
       </item>
       
       <item>
+        <title>you-get下载b站分批视频</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/youtube-dl/you-get%E4%B8%8B%E8%BD%BDb%E7%AB%99%E5%88%86%E6%89%B9%E8%A7%86%E9%A2%91/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/youtube-dl/you-get%E4%B8%8B%E8%BD%BDb%E7%AB%99%E5%88%86%E6%89%B9%E8%A7%86%E9%A2%91/</guid>
+        <description>我感觉youtube-dl下载BiliBili的分P视频时不是很好处理，所以又找到了you-get工具。 you-get -o . --playlist url 参考资料 使用youtube</description>
+      </item>
+      
+      <item>
         <title>ZDoc主题抖动的问题</title>
         <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/zdoc%E4%B8%BB%E9%A2%98%E6%8A%96%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4938,6 +5109,15 @@
       </item>
       
       <item>
+        <title>一些重要的参数</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/youtube-dl/%E4%B8%80%E4%BA%9B%E9%87%8D%E8%A6%81%E7%9A%84%E5%8F%82%E6%95%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/youtube-dl/%E4%B8%80%E4%BA%9B%E9%87%8D%E8%A6%81%E7%9A%84%E5%8F%82%E6%95%B0/</guid>
+        <description>查看视频的所有类型，只看不下载 youtube-dl -F url youtube-dl -F url youtube-dl -F url 下载1080P视频+音频（仅针对YouTuBe） youtube-dl -f 137+140 url</description>
+      </item>
+      
+      <item>
         <title>一段插件配置代码与这样配置的原因</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E4%B8%80%E6%AE%B5%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%A0%81%E4%B8%8E%E8%BF%99%E6%A0%B7%E9%85%8D%E7%BD%AE%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4980,6 +5160,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%B8%8B%E8%BD%BDwin10%E9%95%9C%E5%83%8F/</guid>
         <description>这个方案并不直观，步骤如下： 进入官网下载页面 按F12，设置成手机模式，然后刷新页面 完成两个多选框后，会弹出选择32位还是64位的页面 我遇到的</description>
+      </item>
+      
+      <item>
+        <title>下载you-get及遇到的问题</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/youtube-dl/%E4%BD%9C%E5%BA%9F/%E4%B8%8B%E8%BD%BDyou-get%E5%8F%8A%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/youtube-dl/%E4%BD%9C%E5%BA%9F/%E4%B8%8B%E8%BD%BDyou-get%E5%8F%8A%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>you-get貌似没有维护了，所以没有研究价值了 用pip3 install you-get后，执行you-get，提示找不到这条指令，花了一点时间解决这个问</description>
       </item>
       
       <item>
@@ -5097,6 +5286,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%B8%BA%E7%B3%BB%E7%BB%9F%E6%96%B0%E5%8A%A0%E4%B8%80%E5%9D%97%E7%A1%AC%E7%9B%98/</guid>
         <description>我采用的方案比较简单： ls /dev/sd* // 进行分区 fdisk /dev/sdb n p 转折（使用默认） 转折（使用默认） w // 创建文件系统 mkfs -t ext4 /dev/sdb1 // 将硬盘信息写入/etc/fstab echo /dev/sdb1</description>
+      </item>
+      
+      <item>
+        <title>二次编译时前需要执行的指令</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E4%BA%8C%E6%AC%A1%E7%BC%96%E8%AF%91%E6%97%B6%E5%89%8D%E9%9C%80%E8%A6%81%E6%89%A7%E8%A1%8C%E7%9A%84%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E4%BA%8C%E6%AC%A1%E7%BC%96%E8%AF%91%E6%97%B6%E5%89%8D%E9%9C%80%E8%A6%81%E6%89%A7%E8%A1%8C%E7%9A%84%E6%8C%87%E4%BB%A4/</guid>
+        <description>作废，因为不研究自己编译固件了，故该笔记没有意义了 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 sudo apt update &amp;amp;&amp;amp; sudo apt upgrade -y git pull ./scripts/feeds update -a ./scripts/feeds install -a # 清除旧的编</description>
       </item>
       
       <item>
@@ -5595,12 +5793,39 @@
       </item>
       
       <item>
+        <title>单独编译某个模块</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E5%8D%95%E7%8B%AC%E7%BC%96%E8%AF%91%E6%9F%90%E4%B8%AA%E6%A8%A1%E5%9D%97/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E5%8D%95%E7%8B%AC%E7%BC%96%E8%AF%91%E6%9F%90%E4%B8%AA%E6%A8%A1%E5%9D%97/</guid>
+        <description>对DNS服务的处理，我已经更换成了Unbound，故作废该笔记 make package/lean/luci-app-v2ray/compile</description>
+      </item>
+      
+      <item>
+        <title>单臂路由时的配置</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E5%8D%95%E8%87%82%E8%B7%AF%E7%94%B1%E6%97%B6%E7%9A%84%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E5%8D%95%E8%87%82%E8%B7%AF%E7%94%B1%E6%97%B6%E7%9A%84%E9%85%8D%E7%BD%AE/</guid>
+        <description>对DNS服务的处理，我已经更换成了Unbound，故作废该笔记 我核心的目标就是实现全TCP流量的代理，所以我只用到了Shadowsocks-</description>
+      </item>
+      
+      <item>
         <title>参数上的注解如何处理</title>
         <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</guid>
         <description>普通的参数，直接使用@param就可以了，如果@param是一个普通类型，但是其含义数据某个枚举，可以使用如下的写法： 1 2 3 4 5 6 7 8 9 10 11</description>
+      </item>
+      
+      <item>
+        <title>双网卡时配置透明代理，测试不成功</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/%E5%8F%8C%E7%BD%91%E5%8D%A1%E6%97%B6%E9%85%8D%E7%BD%AE%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86%E6%B5%8B%E8%AF%95%E4%B8%8D%E6%88%90%E5%8A%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/%E5%8F%8C%E7%BD%91%E5%8D%A1%E6%97%B6%E9%85%8D%E7%BD%AE%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86%E6%B5%8B%E8%AF%95%E4%B8%8D%E6%88%90%E5%8A%9F/</guid>
+        <description>我创建OpenWRT模板时，同时考虑到这个模板作为主路由和作为旁路由，所以，我为其配置了两个网卡。在进行旁路由实验时，我已经按照经验配置了所</description>
       </item>
       
       <item>
@@ -6127,10 +6352,10 @@
       
       <item>
         <title>安装OpenMediaVault</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openmediavault/%E5%AE%89%E8%A3%85openmediavault/</link>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/%E5%AE%89%E8%A3%85openmediavault/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openmediavault/%E5%AE%89%E8%A3%85openmediavault/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/%E5%AE%89%E8%A3%85openmediavault/</guid>
         <description>家里需要使用这个NAS，最终决定还是使用OpenMediaVault，主要原因有如下几点： 我的NAS主要用于文件存储，我不折腾什么家庭影音中</description>
       </item>
       
@@ -6186,6 +6411,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%AE%9E%E9%AA%8C%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/</guid>
         <description>20210430： 目前我已经为试验机装好了CentOS 8系统，并安装了VirutalBox和Vagrant两款虚拟化软件，我安装好了Open</description>
+      </item>
+      
+      <item>
+        <title>实验机网络设计</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%AE%9E%E9%AA%8C%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%AE%9E%E9%AA%8C%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/</guid>
+        <description>我不计划将实验机器放置在内网环境下，因为实验机器会被很多同事使用，我担心会有同事在该机器上装内网穿透、VPN等工具，从而访问到公司内网的资源</description>
+      </item>
+      
+      <item>
+        <title>密码正确，无法登录</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/%E5%AF%86%E7%A0%81%E6%AD%A3%E7%A1%AE%E6%97%A0%E6%B3%95%E7%99%BB%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/%E5%AF%86%E7%A0%81%E6%AD%A3%E7%A1%AE%E6%97%A0%E6%B3%95%E7%99%BB%E5%BD%95/</guid>
+        <description>输入了正确密码，登录有浏览器仍然不跳转 先说明一下现象，我OpenWRT的密码是正确的，已经通过SSH成功登录了，但是在登录管理页面时，输入密</description>
       </item>
       
       <item>
@@ -6441,6 +6684,15 @@
       </item>
       
       <item>
+        <title>待学习</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E5%BE%85%E5%AD%A6%E4%B9%A0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E5%BE%85%E5%AD%A6%E4%B9%A0/</guid>
+        <description>作废，因为不研究自己编译固件了，故该笔记没有意义了 OpenWRT中得Feed OpenWrt学习笔记（三）Feed OpenWrt Feeds 下载器研究： 研究目录挂载</description>
+      </item>
+      
+      <item>
         <title>微软输入法已禁用但是还是可以切换出来</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%BD%9C%E5%BA%9F/%E5%BE%AE%E8%BD%AF%E8%BE%93%E5%85%A5%E6%B3%95%E5%B7%B2%E7%A6%81%E7%94%A8%E4%BD%86%E6%98%AF%E8%BF%98%E6%98%AF%E5%8F%AF%E4%BB%A5%E5%88%87%E6%8D%A2%E5%87%BA%E6%9D%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6573,6 +6825,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_gitbook/%E6%90%AD%E5%BB%BAgitbook/</guid>
         <description>指令如下： 1 2 3 4 5 6 7 npm install gitbook-cli -g # 进入一个新文件夹后 gitbook init gitbook serve 参考教程 如何用gitbook搭建自己的文档整合平台</description>
+      </item>
+      
+      <item>
+        <title>新版Luci设置桥接</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/%E6%96%B0%E7%89%88luci%E8%AE%BE%E7%BD%AE%E6%A1%A5%E6%8E%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E7%AE%80%E5%8D%95%E9%97%AE%E9%A2%98/%E6%96%B0%E7%89%88luci%E8%AE%BE%E7%BD%AE%E6%A1%A5%E6%8E%A5/</guid>
+        <description>浪费时间的点在于新版Luci的Lan口设置中没有了物理设置这一项，所以不知道在哪却设置桥接，尝试了直接修改配置文件，结果因为学艺不佳，多次修</description>
       </item>
       
       <item>
@@ -6927,6 +7188,15 @@
       </item>
       
       <item>
+        <title>理解编译时的指令</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E7%90%86%E8%A7%A3%E7%BC%96%E8%AF%91%E6%97%B6%E7%9A%84%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E7%90%86%E8%A7%A3%E7%BC%96%E8%AF%91%E6%97%B6%E7%9A%84%E6%8C%87%E4%BB%A4/</guid>
+        <description>作废，不再研究编译固件技术 理解编译时的指令 ./scripts/feeds update -a 获取feeds.conf、feeds.conf.default中定义的所有最新包定义。 ./scripts/feeds install -a</description>
+      </item>
+      
+      <item>
         <title>理解贪婪与非贪婪</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E7%90%86%E8%A7%A3%E8%B4%AA%E5%A9%AA%E4%B8%8E%E9%9D%9E%E8%B4%AA%E5%A9%AA/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7116,6 +7386,24 @@
       </item>
       
       <item>
+        <title>编译Openwrt官方固件</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E7%BC%96%E8%AF%91openwrt%E5%AE%98%E6%96%B9%E5%9B%BA%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E7%BC%96%E8%AF%91openwrt%E5%AE%98%E6%96%B9%E5%9B%BA%E4%BB%B6/</guid>
+        <description>作废，不再研究编译固件技术 这篇教程是多次编译Lean大神的固件后，总结出的编译官方固件的方法。 第一次编译 准备编译环境 sudo apt-get update sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk</description>
+      </item>
+      
+      <item>
+        <title>编译、配置OpenWrt常用网站</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E7%BC%96%E8%AF%91%E9%85%8D%E7%BD%AEopenwrt%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E7%BC%96%E8%AF%91%E9%85%8D%E7%BD%AEopenwrt%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</guid>
+        <description>作废，不再研究编译固件技术 coolsnowwolf/lede Lede大神的固件的源码 openwrt/openwrt 官方的固件的源码</description>
+      </item>
+      
+      <item>
         <title>缺乏父依赖，导致项目报Redis链接错误</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E7%BC%BA%E4%B9%8F%E7%88%B6%E4%BE%9D%E8%B5%96%E5%AF%BC%E8%87%B4%E9%A1%B9%E7%9B%AE%E6%8A%A5redis%E9%93%BE%E6%8E%A5%E9%94%99%E8%AF%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7131,6 +7419,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/%E8%87%AA%E5%8A%A8%E5%8A%A8%E6%89%8B%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E4%B8%8D%E5%8F%AF%E5%88%86%E4%BA%AB%E7%9A%84channelhandler/</guid>
         <description>第一版 代码如下，非常简单： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 public class TimeClientHandler extends ChannelInboundHandlerAdapter { @Override public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception { ByteBuf m = (ByteBuf) msg; // (1) try { long currentTimeMillis = (m.readUnsignedInt() - 2208988800L) * 1000L; System.out.println(new Date(currentTimeMillis));</description>
+      </item>
+      
+      <item>
+        <title>自定义编译OpenWrt官方固件及需要的插件</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BC%96%E8%AF%91openwrt%E5%AE%98%E6%96%B9%E5%9B%BA%E4%BB%B6%E5%8F%8A%E9%9C%80%E8%A6%81%E7%9A%84%E6%8F%92%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E4%BD%9C%E5%BA%9F/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BC%96%E8%AF%91openwrt%E5%AE%98%E6%96%B9%E5%9B%BA%E4%BB%B6%E5%8F%8A%E9%9C%80%E8%A6%81%E7%9A%84%E6%8F%92%E4%BB%B6/</guid>
+        <description>不再研究编译固件技术，故作废该笔记 自定义编译推荐是在完成了一次官方编译后执行。我接下来的教程都假设已经完成了这个操作。 Shadowsocks-libev 目前的方案我只编译l</description>
       </item>
       
       <item>
@@ -7482,6 +7779,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/sentinel/%E9%80%9A%E8%BF%87helm%E5%AE%89%E8%A3%85%E5%93%A8%E5%85%B5%E6%9C%BA%E5%88%B6%E7%9A%84redis%E5%BA%9F%E5%BC%83/</guid>
         <description>在Redis里搭Redis感觉只适合搭Standalone模式。如果搭主从模式，则多个从节点通过一个Service暴露服务，那么在Sprin</description>
+      </item>
+      
+      <item>
+        <title>通过PVE安装OpenWrt</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/%E9%80%9A%E8%BF%87pve%E5%AE%89%E8%A3%85openwrt/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/proxmox-ve/%E9%80%9A%E8%BF%87pve%E5%AE%89%E8%A3%85openwrt/</guid>
+        <description>编译固件，并将固件放到PVE宿主机中 PVE图形化界面：创建虚拟机，注意需要选择存储介质为无，记录下虚拟机编号 PVE图形化界面：删除创建的虚拟</description>
       </item>
       
       <item>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenMediaVault on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/</link>
+    <description>Recent content in OpenMediaVault on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>OMV配置共享文件夹（实验版）</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/omv%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E5%AE%9E%E9%AA%8C%E7%89%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/omv%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E5%AE%9E%E9%AA%8C%E7%89%88/</guid>
+        <description>存储器 &amp;gt; 磁盘：对数据盘进行擦除 存储器 &amp;gt; 文件系统：为数据盘创建文件系统 存储器 &amp;gt; 文件系统：挂载数据盘 访问权限管理 &amp;gt; 共享文件夹：创建一个共享文件夹</description>
+      </item>
+      
+      <item>
+        <title>READE</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/reade/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/reade/</guid>
+        <description>我购买了群晖，故研究该系列的技术没有任何的意义，但是平心而论，我觉得群晖买的不是很值得，因为我买的群晖只使用了一些极其基础的功能。</description>
+      </item>
+      
+      <item>
+        <title>安装OpenMediaVault</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/%E5%AE%89%E8%A3%85openmediavault/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/%E5%AE%89%E8%A3%85openmediavault/</guid>
+        <description>家里需要使用这个NAS，最终决定还是使用OpenMediaVault，主要原因有如下几点： 我的NAS主要用于文件存储，我不折腾什么家庭影音中</description>
+      </item>
+      
+    
+  </channel>
+</rss>

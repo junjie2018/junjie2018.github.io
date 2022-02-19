@@ -14,12 +14,30 @@
     
       
       <item>
+        <title>Rider</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/rider/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/rider/</guid>
+        <description>C#虽然好玩，IntellJ系列的软件也确实好用，但是现在实在是没有精力研究这些东东了，故作废。</description>
+      </item>
+      
+      <item>
         <title>实验机基础环境</title>
         <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%AE%9E%E9%AA%8C%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%AE%9E%E9%AA%8C%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/</guid>
         <description>20210430： 目前我已经为试验机装好了CentOS 8系统，并安装了VirutalBox和Vagrant两款虚拟化软件，我安装好了Open</description>
+      </item>
+      
+      <item>
+        <title>实验机网络设计</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%AE%9E%E9%AA%8C%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%AE%9E%E9%AA%8C%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/</guid>
+        <description>我不计划将实验机器放置在内网环境下，因为实验机器会被很多同事使用，我担心会有同事在该机器上装内网穿透、VPN等工具，从而访问到公司内网的资源</description>
       </item>
       
       <item>
