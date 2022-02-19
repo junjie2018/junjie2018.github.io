@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prometheus on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/prometheus/</link>
+    <description>Recent content in Prometheus on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/prometheus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>解决Prometheus管理页面的Console下没有任何东西显示</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/prometheus/%E8%A7%A3%E5%86%B3prometheus%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2%E7%9A%84console%E4%B8%8B%E6%B2%A1%E6%9C%89%E4%BB%BB%E4%BD%95%E4%B8%9C%E8%A5%BF%E6%98%BE%E7%A4%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/prometheus/%E8%A7%A3%E5%86%B3prometheus%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2%E7%9A%84console%E4%B8%8B%E6%B2%A1%E6%9C%89%E4%BB%BB%E4%BD%95%E4%B8%9C%E8%A5%BF%E6%98%BE%E7%A4%BA/</guid>
+        <description>问题描述 console下会不显示任何东西），在最上面会有一个提示，说客户端事件和服务器实践不一致 解决步骤 调整客户端时间，与服务器一致（分钟级</description>
+      </item>
+      
+    
+  </channel>
+</rss>

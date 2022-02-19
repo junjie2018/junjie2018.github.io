@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ansible on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/</link>
+    <description>Recent content in Ansible on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>ansible.cfg文件的应用及playbooks目录的结构</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/ansible.cfg%E6%96%87%E4%BB%B6%E7%9A%84%E5%BA%94%E7%94%A8%E5%8F%8Aplaybooks%E7%9B%AE%E5%BD%95%E7%9A%84%E7%BB%93%E6%9E%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/ansible.cfg%E6%96%87%E4%BB%B6%E7%9A%84%E5%BA%94%E7%94%A8%E5%8F%8Aplaybooks%E7%9B%AE%E5%BD%95%E7%9A%84%E7%BB%93%E6%9E%84/</guid>
+        <description>我决定采用《奔跑吧，Ansible》这本书中放置目录文件的结构，目前收集的结构如下： |-- Playbooks |----- hosts |----- ansible.cfg 我目前ansible.cfg的配置如下： 1 2</description>
+      </item>
+      
+      <item>
+        <title>Ansible关于nginx的实验</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/ansible%E5%85%B3%E4%BA%8Enginx%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/ansible%E5%85%B3%E4%BA%8Enginx%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
+        <description>安装nginx 指令如下： 1 2 3 4 5 6 7 8 9 ansible test -m yum -a name=nginx # 安装前更新一下软件包 ansible test -m yum -a name=nginx update_cache=yes # 重启nginx ansible test -m service -a name=nginx playbook中运行</description>
+      </item>
+      
+      <item>
+        <title>command模块的简单使用</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/command%E6%A8%A1%E5%9D%97%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/command%E6%A8%A1%E5%9D%97%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+        <description>可以使用command指令随心所欲的执行命令，当使用这个模块时需要使用-a参数将需要执行的命令传入模块。command模块非常常用，所以an</description>
+      </item>
+      
+      <item>
+        <title>copy模块使用时需要注意的问题</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/copy%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/copy%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>如下代码为《奔跑吧，Ansible》中得一段源码，结果在运行的时候提示目标地址不存在。 --- - name: Configure webserver with nginx hosts: webservers sudo: True tasks: - name: install nginx apt: name=nginx update_cache=yes - name: copy nginx config file copy: src=files/nginx.conf</description>
+      </item>
+      
+      <item>
+        <title>inventory行为参数</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/inventory%E8%A1%8C%E4%B8%BA%E5%8F%82%E6%95%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/inventory%E8%A1%8C%E4%B8%BA%E5%8F%82%E6%95%B0/</guid>
+        <description>当需要覆盖某台主机的Ansible默认配置时，需要使用到行为参数 ansible_ssh_host ansible_ssh_port ansible_ssh_user ansible_ssh_pass ansible_connection smart Ansible使用何种连接模式连接到主机 ansible_ssh_private_key_file ansible_shell_type ansible_python_interpreter /user/bin/python 主机上的Pyth</description>
+      </item>
+      
+      <item>
+        <title>不再研究Ansible</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E4%B8%8D%E5%86%8D%E7%A0%94%E7%A9%B6ansible/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E4%B8%8D%E5%86%8D%E7%A0%94%E7%A9%B6ansible/</guid>
+        <description>我决定不再研究Ansible，故系列笔记不再维护。 我之前决定学习Ansible，是因为我计划深度学习Redis、Kafka等软件，在学习这些</description>
+      </item>
+      
+      <item>
+        <title>基于Anaconda安装Ansible（推荐）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%9F%BA%E4%BA%8Eanaconda%E5%AE%89%E8%A3%85ansible%E6%8E%A8%E8%8D%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%9F%BA%E4%BA%8Eanaconda%E5%AE%89%E8%A3%85ansible%E6%8E%A8%E8%8D%90/</guid>
+        <description>这是我推荐的方式，Anaconda是学习Python的好帮手。 创建环境并激活环境 conda create --name ansible python=2.7 conda activate ansible 安装ansible # 我在学习《奔跑吧Ansi</description>
+      </item>
+      
+      <item>
+        <title>学习Ansible发现的Nginx配置问题</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AD%A6%E4%B9%A0ansible%E5%8F%91%E7%8E%B0%E7%9A%84nginx%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AD%A6%E4%B9%A0ansible%E5%8F%91%E7%8E%B0%E7%9A%84nginx%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/</guid>
+        <description>《奔跑吧，Ansible》有个小小的问题，它在写下载软件的脚本中没有指定下载的软件的版本，所以我们阅读并执行这些脚本时，往往下载的是最新的版</description>
+      </item>
+      
+      <item>
+        <title>安装Ansible</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AE%89%E8%A3%85ansible/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AE%89%E8%A3%85ansible/</guid>
+        <description>控制节点 用pip安装Ansible pip install paramiko PyYAML Jinja2 httplib2 six --user ansible python -m pip install --user ansible 我不知道这样调用的是pip还是pip3，但是我看日志，好像是用Python3</description>
+      </item>
+      
+      <item>
+        <title>安装Ansible（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AE%89%E8%A3%85ansible%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AE%89%E8%A3%85ansible%E5%BA%9F%E5%BC%83/</guid>
+        <description>我执行了如下指令： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 git clone git://github.com/ansible/ansible.git --recursive cd ./ansible # 使用Bash source ./hacking/env-setup # 安装pip（参考python分类下笔记） # 安装Pyth</description>
+      </item>
+      
+    
+  </channel>
+</rss>

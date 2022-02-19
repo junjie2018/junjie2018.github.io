@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WireGuard on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/</link>
+    <description>Recent content in WireGuard on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>方案</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E6%96%B9%E6%A1%88/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>AllowedIPs不理解的地方</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/allowedips%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9A%84%E5%9C%B0%E6%96%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/allowedips%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9A%84%E5%9C%B0%E6%96%B9/</guid>
+        <description>我在看官网的文档时，注意到如下一段配置及讲解，这让我产生了疑惑，故记录下来： 该讲解翻译如下：在服务端配置中，每个对等点（客户端）将能够将数据</description>
+      </item>
+      
+      <item>
+        <title>Debian系统上编译Wireguard</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/debian%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%BC%96%E8%AF%91wireguard/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/debian%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%BC%96%E8%AF%91wireguard/</guid>
+        <description>之所以需要这个教程了，是因为我想在Debian上使用最新版的wireguard-tools（我现在已经使用backports的方式安装了），</description>
+      </item>
+      
+      <item>
+        <title>Debian系统安装最新版的wireguard-tools</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/debian%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88%E7%9A%84wireguard-tools/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/debian%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88%E7%9A%84wireguard-tools/</guid>
+        <description>在该页面搜索wireguard包 选择一个搜索项，进入详情页，在详情页的下载列表中选择amd64架构 进入amd64架构的详情页，如图，拿到源地</description>
+      </item>
+      
+      <item>
+        <title>Linux系统配置wireguard开启启动</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/linux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AEwireguard%E5%BC%80%E5%90%AF%E5%90%AF%E5%8A%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/linux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AEwireguard%E5%BC%80%E5%90%AF%E5%90%AF%E5%8A%A8/</guid>
+        <description>指令如下： systemctl enable wg-quick@wg0 参考资料 轻松几步搭建 WireGuard （快速安全的下一代 VPN） 该指令是从这篇教程中学习到的。</description>
+      </item>
+      
+      <item>
+        <title>Wireguard与Docker（记录）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E4%B8%8Edocker%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E4%B8%8Edocker%E8%AE%B0%E5%BD%95/</guid>
+        <description>WireGuard使用最初创建WireGuard接口的网络命名空间发送和接收加密数据包。这意味着您可以在可以访问Internet的主网络名称</description>
+      </item>
+      
+      <item>
+        <title>Wireguard的原理知识</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E7%9A%84%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E7%9A%84%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86/</guid>
+        <description>（这是我读官方文档时的简单理解） Wireguard使用UDP封装IP数据包。在使用的过程中，需要创建一个WireGuard接口，使用自己的私</description>
+      </item>
+      
+      <item>
+        <title>WireGuard重要资料整理</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E9%87%8D%E8%A6%81%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E9%87%8D%E8%A6%81%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <description>wireguard 安装与组网 过年在外怎么访问家庭内网,wireguard组网！ 很重要的资料，通过该资料，我知道了如果需要访问我内网环境，则需要配置SNAt。</description>
+      </item>
+      
+      <item>
+        <title>处理WireGuard时积累的一些经验</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</guid>
+        <description>ping出现了Destination Host Unreachable，大概率时防火墙的问题： 如果你配置了SNAT，结果发现没有任何效果，还是无法pi</description>
+      </item>
+      
+      <item>
+        <title>秘钥生成错误，会导致全链路无法ping通</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E7%A7%98%E9%92%A5%E7%94%9F%E6%88%90%E9%94%99%E8%AF%AF%E4%BC%9A%E5%AF%BC%E8%87%B4%E5%85%A8%E9%93%BE%E8%B7%AF%E6%97%A0%E6%B3%95ping%E9%80%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E7%A7%98%E9%92%A5%E7%94%9F%E6%88%90%E9%94%99%E8%AF%AF%E4%BC%9A%E5%AF%BC%E8%87%B4%E5%85%A8%E9%93%BE%E8%B7%AF%E6%97%A0%E6%B3%95ping%E9%80%9A/</guid>
+        <description>我目前分析是我在生成秘钥时操作失误了，我还不能确定具体原因，先观察一段时间吧。 20220218后续 不是因为密钥的问题，是因为我电脑所处的网络</description>
+      </item>
+      
+      <item>
+        <title>解决两个Wireguard客户端之间无法Ping通</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E8%A7%A3%E5%86%B3%E4%B8%A4%E4%B8%AAwireguard%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B9%8B%E9%97%B4%E6%97%A0%E6%B3%95ping%E9%80%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E8%A7%A3%E5%86%B3%E4%B8%A4%E4%B8%AAwireguard%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B9%8B%E9%97%B4%E6%97%A0%E6%B3%95ping%E9%80%9A/</guid>
+        <description>为了更深刻的学习WireGuard，我开始自己搭建服务端和客户端进行测试。WireGuard本身是不区分服务端和客户端的，但是在我的拓补结构</description>
+      </item>
+      
+    
+  </channel>
+</rss>

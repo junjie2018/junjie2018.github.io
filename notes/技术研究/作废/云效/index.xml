@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>云效 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E4%BA%91%E6%95%88/</link>
+    <description>Recent content in 云效 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E4%BA%91%E6%95%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>通过云效发布一个简单的demo</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E4%BA%91%E6%95%88/%E9%80%9A%E8%BF%87%E4%BA%91%E6%95%88%E5%8F%91%E5%B8%83%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84demo/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E4%BA%91%E6%95%88/%E9%80%9A%E8%BF%87%E4%BA%91%E6%95%88%E5%8F%91%E5%B8%83%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84demo/</guid>
+        <description>通过云效发布一个简单的Demo 将一个崭新的项目发布到云上，有如下几个关键步骤。我将根据各个步骤提供相应的文档，文档导航可以通过Conflue</description>
+      </item>
+      
+    
+  </channel>
+</rss>

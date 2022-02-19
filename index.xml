@@ -690,6 +690,15 @@
       </item>
       
       <item>
+        <title>1.syncd的使用方案</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/1.syncd%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/1.syncd%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88/</guid>
+        <description>使用篇 ==&amp;gt;Go 如果项目相关信息已经在syncd上设置好了，参考该文档，可以快速的完成项目的部署。 项目管理篇 ==&amp;gt;Go 如果项目未在syncd上设置，参考该文</description>
+      </item>
+      
+      <item>
         <title>10.Chart归档</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/10.chart%E5%BD%92%E6%A1%A3/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -807,6 +816,15 @@
       </item>
       
       <item>
+        <title>2.syncd使用篇</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/2.syncd%E4%BD%BF%E7%94%A8%E7%AF%87/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/2.syncd%E4%BD%BF%E7%94%A8%E7%AF%87/</guid>
+        <description>使用篇分为两个部分： 在本机准备需要更新到线上源码 在线上环境中使用syncd完成部署 在本机准备源码： 前提：你已经建立好了gitlab仓库，而且</description>
+      </item>
+      
+      <item>
         <title>20.PersistentVolume</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/20.persistentvolume/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -867,6 +885,33 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/26.%E7%BD%91%E7%BB%9C%E6%8F%92%E4%BB%B6/</guid>
         <description>CNI意为容器网络接口，它是一种标准的设计，为了让用户在容器创建或销毁时都能够更容易地配置容器网络。目前主要有几款流行的CNI插件：Flan</description>
+      </item>
+      
+      <item>
+        <title>3.syncd项目管理篇</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/3.syncd%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AF%87/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/3.syncd%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AF%87/</guid>
+        <description>项目管理脚本请参考线上脚本，线上新增了一些内容以适应更多的部署场景： 新增内容以实现单机多实例部署，且单机多实例时确保日志文件不会相互印象 新增</description>
+      </item>
+      
+      <item>
+        <title>4.syncd项目管理篇2</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/4.syncd%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AF%872/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/4.syncd%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AF%872/</guid>
+        <description>部署前指令（直接copy过去，改username参数的值）： 1 2 3 4 username=zdmprd \ &amp;amp;&amp;amp; syncd_deploy_path=&amp;#34;/home/$username/deploy&amp;#34; \ &amp;amp;&amp;amp; rm -rf $syncd_deploy_path \ &amp;amp;&amp;amp; mkdir $syncd_deploy_path 部署后执行（直接copy，改username、</description>
+      </item>
+      
+      <item>
+        <title>5.syncd部署篇</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/5.syncd%E9%83%A8%E7%BD%B2%E7%AF%87/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/5.syncd%E9%83%A8%E7%BD%B2%E7%AF%87/</guid>
+        <description>confluence上传文件要求小于100mb，所以无法上传，需要使用的请直接问我要 使用方法： 如图，进入该目录层次，在你的数据库中执行syn</description>
       </item>
       
       <item>
@@ -1050,12 +1095,48 @@
       </item>
       
       <item>
+        <title>AllowedIPs不理解的地方</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/allowedips%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9A%84%E5%9C%B0%E6%96%B9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/allowedips%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9A%84%E5%9C%B0%E6%96%B9/</guid>
+        <description>我在看官网的文档时，注意到如下一段配置及讲解，这让我产生了疑惑，故记录下来： 该讲解翻译如下：在服务端配置中，每个对等点（客户端）将能够将数据</description>
+      </item>
+      
+      <item>
         <title>Alpine Linux 3.11安装常用工具包</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/alpine/alpine-linux-3.11%E5%AE%89%E8%A3%85%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E5%8C%85/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/alpine/alpine-linux-3.11%E5%AE%89%E8%A3%85%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E5%8C%85/</guid>
         <description>先给条指令，用来查看当前系统的发行版本（这条蛮好用的，目前我的系统都能用这个）： cat /etc/issue 添加curl apk add curl 添加telnet apk add busybox-extras 参考资料 如何查看</description>
+      </item>
+      
+      <item>
+        <title>alt&#43;f快捷键不好使了</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/alt&#43;f%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8D%E5%A5%BD%E4%BD%BF%E4%BA%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/alt&#43;f%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8D%E5%A5%BD%E4%BD%BF%E4%BA%86/</guid>
+        <description>我公司和家里的电脑上同时配置了alt + f快捷键，用来快速打开文件在资源浏览器中的位置。在公司的电脑上我可以在任意打开的文件，或者目录树中任意</description>
+      </item>
+      
+      <item>
+        <title>ansible.cfg文件的应用及playbooks目录的结构</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/ansible.cfg%E6%96%87%E4%BB%B6%E7%9A%84%E5%BA%94%E7%94%A8%E5%8F%8Aplaybooks%E7%9B%AE%E5%BD%95%E7%9A%84%E7%BB%93%E6%9E%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/ansible.cfg%E6%96%87%E4%BB%B6%E7%9A%84%E5%BA%94%E7%94%A8%E5%8F%8Aplaybooks%E7%9B%AE%E5%BD%95%E7%9A%84%E7%BB%93%E6%9E%84/</guid>
+        <description>我决定采用《奔跑吧，Ansible》这本书中放置目录文件的结构，目前收集的结构如下： |-- Playbooks |----- hosts |----- ansible.cfg 我目前ansible.cfg的配置如下： 1 2</description>
+      </item>
+      
+      <item>
+        <title>Ansible关于nginx的实验</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/ansible%E5%85%B3%E4%BA%8Enginx%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/ansible%E5%85%B3%E4%BA%8Enginx%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
+        <description>安装nginx 指令如下： 1 2 3 4 5 6 7 8 9 ansible test -m yum -a name=nginx # 安装前更新一下软件包 ansible test -m yum -a name=nginx update_cache=yes # 重启nginx ansible test -m service -a name=nginx playbook中运行</description>
       </item>
       
       <item>
@@ -1149,6 +1230,15 @@
       </item>
       
       <item>
+        <title>BookMenuBoundle简单配置的实验</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/bookmenuboundle%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/bookmenuboundle%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
+        <description>为了尽量还原我GitBook的界面风格，我决定使用Hugo Book主题，按照如下代码启动了Hugo，发现整体上还是蛮让人满意的，左侧为目录树</description>
+      </item>
+      
+      <item>
         <title>Boostrap</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/boostrap/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1191,6 +1281,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/centos-7%E6%90%AD%E5%BB%BAkubernetes%E5%BA%9F%E5%BC%83/</guid>
         <description>上一次实验中，让我最难以忘怀的每次重新搭建Kubernetes集群时都需要漫长的等待，即使我用了国内的仓库，也需要不停的等待。单纯的搭建K8</description>
+      </item>
+      
+      <item>
+        <title>CentOS 8安装VirtualBox和Vagrant，并配置Vagrant</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/centos-8%E5%AE%89%E8%A3%85virtualbox%E5%92%8Cvagrant%E5%B9%B6%E9%85%8D%E7%BD%AEvagrant/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/centos-8%E5%AE%89%E8%A3%85virtualbox%E5%92%8Cvagrant%E5%B9%B6%E9%85%8D%E7%BD%AEvagrant/</guid>
+        <description>我已经转到了PVE，VirtualBox和Vagrant相关的笔记已没有意义，故不再维护该笔记 安装VirtualBox和Vagrant Vir</description>
       </item>
       
       <item>
@@ -1464,6 +1563,15 @@
       </item>
       
       <item>
+        <title>command模块的简单使用</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/command%E6%A8%A1%E5%9D%97%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/command%E6%A8%A1%E5%9D%97%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+        <description>可以使用command指令随心所欲的执行命令，当使用这个模块时需要使用-a参数将需要执行的命令传入模块。command模块非常常用，所以an</description>
+      </item>
+      
+      <item>
         <title>ConfigurationProperties注解在方法上</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/application.yml/configurationproperties%E6%B3%A8%E8%A7%A3%E5%9C%A8%E6%96%B9%E6%B3%95%E4%B8%8A/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1488,6 +1596,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/converter%E4%B8%8Eformatter/</guid>
         <description>Converter是通用元件，可以将一种类型转换成另一种类型，可以在应用程序中的任意层使用。 Formatter只能将String转换成另一种</description>
+      </item>
+      
+      <item>
+        <title>copy模块使用时需要注意的问题</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/copy%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/copy%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>如下代码为《奔跑吧，Ansible》中得一段源码，结果在运行的时候提示目标地址不存在。 --- - name: Configure webserver with nginx hosts: webservers sudo: True tasks: - name: install nginx apt: name=nginx update_cache=yes - name: copy nginx config file copy: src=files/nginx.conf</description>
       </item>
       
       <item>
@@ -1563,12 +1680,30 @@
       </item>
       
       <item>
+        <title>Debian系统上编译Wireguard</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/debian%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%BC%96%E8%AF%91wireguard/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/debian%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%BC%96%E8%AF%91wireguard/</guid>
+        <description>之所以需要这个教程了，是因为我想在Debian上使用最新版的wireguard-tools（我现在已经使用backports的方式安装了），</description>
+      </item>
+      
+      <item>
         <title>Debian系统关机</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E7%B3%BB%E7%BB%9F%E5%85%B3%E6%9C%BA/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E7%B3%BB%E7%BB%9F%E5%85%B3%E6%9C%BA/</guid>
         <description>操作步骤 执行如下指令： 1 2 3 4 systemctl poweroff systemctl reboot</description>
+      </item>
+      
+      <item>
+        <title>Debian系统安装最新版的wireguard-tools</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/debian%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88%E7%9A%84wireguard-tools/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/debian%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88%E7%9A%84wireguard-tools/</guid>
+        <description>在该页面搜索wireguard包 选择一个搜索项，进入详情页，在详情页的下载列表中选择amd64架构 进入amd64架构的详情页，如图，拿到源地</description>
       </item>
       
       <item>
@@ -1659,6 +1794,42 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/easyexcel%E5%B7%A5%E5%85%B7%E7%AE%80%E5%8D%95%E6%95%B4%E7%90%86/</guid>
         <description>项目中原有的封装过于麻烦，学习成本太高了，出现问题定位成本太高，所以我对EasyExcel简单的封装了下： EasyExcelUtilsWithNewScheme.java 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16</description>
+      </item>
+      
+      <item>
+        <title>EasyYApi处理@RequestAttribute注解</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E5%A4%84%E7%90%86requestattribute%E6%B3%A8%E8%A7%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E5%A4%84%E7%90%86requestattribute%E6%B3%A8%E8%A7%A3/</guid>
+        <description>如下代码： 对应生成的YApi文档为： 这其实不是我想要的，因为我们的@RequestAttribute会从Header中获取一个值赋给该字段，</description>
+      </item>
+      
+      <item>
+        <title>EasyYApi提交的Bug被处理了，非常棒的体验</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E6%8F%90%E4%BA%A4%E7%9A%84bug%E8%A2%AB%E5%A4%84%E7%90%86%E4%BA%86%E9%9D%9E%E5%B8%B8%E6%A3%92%E7%9A%84%E4%BD%93%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E6%8F%90%E4%BA%A4%E7%9A%84bug%E8%A2%AB%E5%A4%84%E7%90%86%E4%BA%86%E9%9D%9E%E5%B8%B8%E6%A3%92%E7%9A%84%E4%BD%93%E9%AA%8C/</guid>
+        <description>我用渣英语提交的Issues，官方一天的时间就帮我修复了，非常棒的体验，哈哈。 另外EasyYApi真的非常非常的好用，大爱。</description>
+      </item>
+      
+      <item>
+        <title>EasyYApi目前配置总结</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/%E6%96%B9%E6%A1%88/easyyapi%E7%9B%AE%E5%89%8D%E9%85%8D%E7%BD%AE%E6%80%BB%E7%BB%93/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/%E6%96%B9%E6%A1%88/easyyapi%E7%9B%AE%E5%89%8D%E9%85%8D%E7%BD%AE%E6%80%BB%E7%BB%93/</guid>
+        <description>Postman 我先从Postman整理起，虽然Postman相关的配置是我最后才实践的，但是确实提升了我不少编码幸福度。我比较喜欢使用Postman进行</description>
+      </item>
+      
+      <item>
+        <title>EasyYapi配置以支持自定义的校验注解</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/easyyapi%E9%85%8D%E7%BD%AE%E4%BB%A5%E6%94%AF%E6%8C%81%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3/</guid>
+        <description>我自己开发了一条校验注解，可以省去配置message字段，我需要EasyYapi也支持这套注解，配置如下： # 参数配置 param.required=@com.sdstc.csc.common.validation.JNotBlank param.required=@com.sdstc.csc.common.validation.JNotNull # 字段配置 field.required=@com.sdstc.csc.common.validation.JNotBlank field.required=@com.sdstc.csc.common.validation.JNotNull 参考资</description>
       </item>
       
       <item>
@@ -1794,6 +1965,42 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/freemarker/freemarker%E8%87%AA%E5%AE%9A%E4%B9%89%E5%87%BD%E6%95%B0%E7%9A%84%E5%BC%80%E5%8F%91/</guid>
         <description>我目前没有相关的需求，但是看这篇文章通俗易读易实践，就记录一下。 参考资料 [Freemarker] Freemarker自定义函数</description>
+      </item>
+      
+      <item>
+        <title>frp初步实验</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E5%88%9D%E6%AD%A5%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E5%88%9D%E6%AD%A5%E5%AE%9E%E9%AA%8C/</guid>
+        <description>犯的错 login to server failed: EOF [root@localhost frp]# ./frpc -c frpc.ini 2021/04/26 08:01:32 [W] [service.go:104] login to server failed: EOF EOF 应该是网络管制的原因，我今天问同事，frp支持秘钥加密，实际上我担心的就是我的流量会被监听，被</description>
+      </item>
+      
+      <item>
+        <title>Frp端口设计</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E7%AB%AF%E5%8F%A3%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E7%AB%AF%E5%8F%A3%E8%AE%BE%E8%AE%A1/</guid>
+        <description>9000 Shadowsocks 9001 frp 9002 openvpn</description>
+      </item>
+      
+      <item>
+        <title>Frp证书生成</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90/</guid>
+        <description>cp /etc/pki/tls/openssl.cnf ./my-openssl.cnf openssl genrsa -out ca.key 2048 openssl req -x509 -new -nodes -key ca.key -subj &amp;ldquo;/CN=example.ca.com&amp;rdquo; -days 5000 -out ca.crt openssl genrsa -out server.key 2048 openssl req -new -sha256 -key server.key -subj &amp;ldquo;/C=XX/ST=DEFAULT/L=DEFAULT/O=DEFAULT/CN=server.com&amp;rdquo; -reqexts SAN -config &amp;lt;(cat my-openssl.cnf &amp;lt;(printf &amp;ldquo;\n[SAN]\nsubjectAltName=DNS:localhost,IP:127.0.0.1,DNS:example.server.com&amp;rdquo;)) -out server.csr openssl x509 -req -days 365 -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -extfile &amp;lt;(printf &amp;ldquo;subjectAltName=DNS:localhost,IP:127.0.0.1,DNS:example.server.com&amp;rdquo;) -out server.crt openssl genrsa -out client.key 2048 openssl req -new -sha256 -key</description>
+      </item>
+      
+      <item>
+        <title>FRR相关资料整理</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frr%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frr%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <description>我不确定我未来会不会用到相关的技术，先收集整理一下。 参考资料 CentOS安装FRR（很重要） 如何使用 VTY Shell 配置路由器 官网文档 CentOS7下利</description>
       </item>
       
       <item>
@@ -2112,6 +2319,24 @@
       </item>
       
       <item>
+        <title>Hugo输出静态文件</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/hugo%E8%BE%93%E5%87%BA%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/hugo%E8%BE%93%E5%87%BA%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6/</guid>
+        <description>指令： hugo -D 输出的文件默认放在public目录下，可以通过-d/&amp;ndash;destination修改文件生成时存放的位置，或者在配置文件中</description>
+      </item>
+      
+      <item>
+        <title>Hugo运行时提示：you need the extended version to build SCSSSASS</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/hugo%E8%BF%90%E8%A1%8C%E6%97%B6%E6%8F%90%E7%A4%BAyou-need-the-extended-version-to-build-scsssass/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/hugo%E8%BF%90%E8%A1%8C%E6%97%B6%E6%8F%90%E7%A4%BAyou-need-the-extended-version-to-build-scsssass/</guid>
+        <description>安装主题后，用如下指令运行代码： hugo server --minify --theme book --bind=&amp;quot;0.0.0.0&amp;quot; --baseUrl=&amp;quot;http://192.168.27.121:1313&amp;quot; 报错，无法运行。我安装的是非扩展版，去官方下载扩展版即可。 hugo release</description>
+      </item>
+      
+      <item>
         <title>Hutool工具的研究（待完成）</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/hutool%E5%B7%A5%E5%85%B7%E7%9A%84%E7%A0%94%E7%A9%B6%E5%BE%85%E5%AE%8C%E6%88%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2388,6 +2613,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/ingressnginx/ingress-nginx-controller-admission%E7%9A%84%E4%BD%9C%E7%94%A8/</guid>
         <description>我在看Helm的&amp;ndash;dry-run生成的yaml时，注意到了一些名为ingress-nginx-controller-admiss</description>
+      </item>
+      
+      <item>
+        <title>inventory行为参数</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/inventory%E8%A1%8C%E4%B8%BA%E5%8F%82%E6%95%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/inventory%E8%A1%8C%E4%B8%BA%E5%8F%82%E6%95%B0/</guid>
+        <description>当需要覆盖某台主机的Ansible默认配置时，需要使用到行为参数 ansible_ssh_host ansible_ssh_port ansible_ssh_user ansible_ssh_pass ansible_connection smart Ansible使用何种连接模式连接到主机 ansible_ssh_private_key_file ansible_shell_type ansible_python_interpreter /user/bin/python 主机上的Pyth</description>
       </item>
       
       <item>
@@ -2748,6 +2982,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/</guid>
         <description>我不想用iptables、和firewall的方案，因为我对这些工具还不够熟悉，我只想一个小小的工具完成我的工作。最后我找到了socat（话</description>
+      </item>
+      
+      <item>
+        <title>Linux系统配置wireguard开启启动</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/linux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AEwireguard%E5%BC%80%E5%90%AF%E5%90%AF%E5%8A%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/linux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AEwireguard%E5%BC%80%E5%90%AF%E5%90%AF%E5%8A%A8/</guid>
+        <description>指令如下： systemctl enable wg-quick@wg0 参考资料 轻松几步搭建 WireGuard （快速安全的下一代 VPN） 该指令是从这篇教程中学习到的。</description>
       </item>
       
       <item>
@@ -3288,6 +3531,105 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/postgresql/postgresql%E9%85%8D%E7%BD%AE%E6%98%BE%E7%A4%BAsql%E6%89%A7%E8%A1%8C%E8%AE%B0%E5%BD%95/</guid>
         <description>使用场景是我配置了日志输出，配置了P6spy，但是依旧有些执行记录无法查看。 使用的配置文件如下： # ----------------------------- # PostgreSQL configuration file # ----------------------------- # # This file consists of lines of the form: # # name =</description>
+      </item>
+      
+      <item>
+        <title>Postman删除环境变量</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%88%A0%E9%99%A4%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%88%A0%E9%99%A4%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+        <description>使用新的环境变量方案，旧的环境变量都需要删除： 再网上找了一圈没有找到删除的方案，最后自己给试出来了。</description>
+      </item>
+      
+      <item>
+        <title>Postman发起请求前自动添加Header</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%8F%91%E8%B5%B7%E8%AF%B7%E6%B1%82%E5%89%8D%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0header/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%8F%91%E8%B5%B7%E8%AF%B7%E6%B1%82%E5%89%8D%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0header/</guid>
+        <description>之所以研究这个技术，主要我通过EasyYapi导出到Postman的频率太高了，每次导出都需要重新填写Header，不是很舒服。我开发了如下</description>
+      </item>
+      
+      <item>
+        <title>Postman变成了左右布局</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%8F%98%E6%88%90%E4%BA%86%E5%B7%A6%E5%8F%B3%E5%B8%83%E5%B1%80/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%8F%98%E6%88%90%E4%BA%86%E5%B7%A6%E5%8F%B3%E5%B8%83%E5%B1%80/</guid>
+        <description>左右布局用起来非常的不方便，就莫名其妙的变成了左右布局！！！ 参考资料 postman界面变成了左右结构怎么办</description>
+      </item>
+      
+      <item>
+        <title>Postman导出curl指令</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%AF%BC%E5%87%BAcurl%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E5%AF%BC%E5%87%BAcurl%E6%8C%87%E4%BB%A4/</guid>
+        <description>应用场景不用多说吧，只是可惜了，导出来的curl在windows上执行不了。 这个code按钮还是有很多东西可以研究的，我之后研究下： 2021</description>
+      </item>
+      
+      <item>
+        <title>Postman总是灰屏</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E6%80%BB%E6%98%AF%E7%81%B0%E5%B1%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E6%80%BB%E6%98%AF%E7%81%B0%E5%B1%8F/</guid>
+        <description>我机器出现这个问题的原因是因为我的内存不足，公司为我分配的开发主机内存位16G，但是真正能够使用的是有60%，一旦到了60%就无法正常分配内</description>
+      </item>
+      
+      <item>
+        <title>Postman用脚本设置全局变量</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E7%94%A8%E8%84%9A%E6%9C%AC%E8%AE%BE%E7%BD%AE%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E7%94%A8%E8%84%9A%E6%9C%AC%E8%AE%BE%E7%BD%AE%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/</guid>
+        <description>场景是这样的，我们local和dev共用一套token，之前的脚本中我将通过如下方法设置到了当前环境中，所以当我切换环境的时候我不得不重新运</description>
+      </item>
+      
+      <item>
+        <title>Postman的安装路径</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%BD%9C%E5%BA%9F/postman%E7%9A%84%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%BD%9C%E5%BA%9F/postman%E7%9A%84%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/</guid>
+        <description>升级内存到32G后，Postman几乎没有出现过任何问题 我把这路径记一记，因为我感觉我随时要去整它，Postman好几个版本在我公司电脑上老</description>
+      </item>
+      
+      <item>
+        <title>Postman的导入功能</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E7%9A%84%E5%AF%BC%E5%85%A5%E5%8A%9F%E8%83%BD/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E7%9A%84%E5%AF%BC%E5%85%A5%E5%8A%9F%E8%83%BD/</guid>
+        <description>这个功能结合Chrome的Copy As Curl使用，非常的赞：</description>
+      </item>
+      
+      <item>
+        <title>Postman解决使用签名脚本，部分接口签名校验失败</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8%E7%AD%BE%E5%90%8D%E8%84%9A%E6%9C%AC%E9%83%A8%E5%88%86%E6%8E%A5%E5%8F%A3%E7%AD%BE%E5%90%8D%E6%A0%A1%E9%AA%8C%E5%A4%B1%E8%B4%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8%E7%AD%BE%E5%90%8D%E8%84%9A%E6%9C%AC%E9%83%A8%E5%88%86%E6%8E%A5%E5%8F%A3%E7%AD%BE%E5%90%8D%E6%A0%A1%E9%AA%8C%E5%A4%B1%E8%B4%A5/</guid>
+        <description>问题描述 完成了一个postman的脚本（可以在该分类下找到该脚本源码），用于在请求时自动计算签名，使用该脚本时发现绝大多数请求的签名校验成功</description>
+      </item>
+      
+      <item>
+        <title>Postman请求前获取Token</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%AF%B7%E6%B1%82%E5%89%8D%E8%8E%B7%E5%8F%96token/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%AF%B7%E6%B1%82%E5%89%8D%E8%8E%B7%E5%8F%96token/</guid>
+        <description>代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 var token const loginRequest = { url: login_url, method: &amp;#39;POST&amp;#39;, header: &amp;#39;Content-Type: application/json&amp;#39;, body: { mode: &amp;#39;raw&amp;#39;, raw: JSON.stringify({&amp;#34;account&amp;#34;:&amp;#34;junjie001@qq.com&amp;#34;,&amp;#34;pass&amp;#34;:&amp;#34;Hello123&amp;#34;,&amp;#34;level&amp;#34;:1,&amp;#34;inviteId&amp;#34;:&amp;#34;&amp;#34;,&amp;#34;type&amp;#34;:0}) } } pm.sendRequest(loginRequest,function(err,res){ if(err) { console.log(err) } else { var response = JSON.parse(res.text()); token =</description>
+      </item>
+      
+      <item>
+        <title>Postman请求时自动完成md5计算</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%AF%B7%E6%B1%82%E6%97%B6%E8%87%AA%E5%8A%A8%E5%AE%8C%E6%88%90md5%E8%AE%A1%E7%AE%97/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/postman%E8%AF%B7%E6%B1%82%E6%97%B6%E8%87%AA%E5%8A%A8%E5%AE%8C%E6%88%90md5%E8%AE%A1%E7%AE%97/</guid>
+        <description>相关操作 如图，点击Postman的Pre-request Script选项卡: 填写如下代码： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25</description>
       </item>
       
       <item>
@@ -4083,6 +4425,51 @@
       </item>
       
       <item>
+        <title>Vagrant下载自己需要的Box</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%B7%B1%E9%9C%80%E8%A6%81%E7%9A%84box/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%B7%B1%E9%9C%80%E8%A6%81%E7%9A%84box/</guid>
+        <description>我刚接触Vagrant时，官方Box搜索页面是不提供任何下载按钮的，需要一些特殊的技巧得到下载链接。我最近发现官方提供了下载按钮，满心欢喜的</description>
+      </item>
+      
+      <item>
+        <title>Vagrant创建的虚拟机有两个网卡</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E5%88%9B%E5%BB%BA%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%9C%89%E4%B8%A4%E4%B8%AA%E7%BD%91%E5%8D%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E5%88%9B%E5%BB%BA%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%9C%89%E4%B8%A4%E4%B8%AA%E7%BD%91%E5%8D%A1/</guid>
+        <description>Vagrant会默认创建一个nat的网卡，这个网卡要是删除了，主机就无法通过vagrant ssh虚拟上了（但是我认为主机可以通过我配置的私有</description>
+      </item>
+      
+      <item>
+        <title>Vagrant无法修改同步目录的权限</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E6%97%A0%E6%B3%95%E4%BF%AE%E6%94%B9%E5%90%8C%E6%AD%A5%E7%9B%AE%E5%BD%95%E7%9A%84%E6%9D%83%E9%99%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E6%97%A0%E6%B3%95%E4%BF%AE%E6%94%B9%E5%90%8C%E6%AD%A5%E7%9B%AE%E5%BD%95%E7%9A%84%E6%9D%83%E9%99%90/</guid>
+        <description>Vagrant的同步目录，在虚拟机内是无法修改所有者和所属组的。且可以对其进行如下配置： device.vm.synced_folder &amp;quot;./share_dir&amp;quot;, # 配置本地共享目录 &amp;quot;/vagrant&amp;quot;, # 配置虚拟机对应的挂载目录 create:</description>
+      </item>
+      
+      <item>
+        <title>Vagrant自制Box</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E8%87%AA%E5%88%B6box/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E8%87%AA%E5%88%B6box/</guid>
+        <description>简单研究了下这个技术，有了一些心得，我实践未必按照这个方案走的，但是如果下次搞，我肯定用这套方案。 从Vagrant官方仓库下载一个最新的Ce</description>
+      </item>
+      
+      <item>
+        <title>VirtualBox常用命令行操作</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/virtualbox%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/virtualbox%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%93%8D%E4%BD%9C/</guid>
+        <description>先记录一下，暂时用不到这些，暂时不打算深入研究这些。 参考资料 VirtualBox命令行VBoxManage创建与管理虚拟机教程 使用命令操作V</description>
+      </item>
+      
+      <item>
         <title>volumeClaimTemplates与PersistentVolumeClaim</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/volumeclaimtemplates%E4%B8%8Epersistentvolumeclaim/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4098,6 +4485,60 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes%E6%96%B0/vs-code%E4%B8%8Ak8s%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8%E7%AC%94%E8%AE%B0/</guid>
         <description>切换命名空间 我发现切换了命名空间后，我在CentOS系统上的Kubectl工具也会受到影响。</description>
+      </item>
+      
+      <item>
+        <title>VS Code使用sftp插件（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/%E4%BD%9C%E5%BA%9F/vs-code%E4%BD%BF%E7%94%A8sftp%E6%8F%92%E4%BB%B6%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/%E4%BD%9C%E5%BA%9F/vs-code%E4%BD%BF%E7%94%A8sftp%E6%8F%92%E4%BB%B6%E5%BA%9F%E5%BC%83/</guid>
+        <description>意义不大，我最后选择了在Linux提供上开一个smb服务，然后映射到Windows上，故作废该笔记 SFTP插件，真的是大大提升幸福感的一个插</description>
+      </item>
+      
+      <item>
+        <title>vs code同时处理多行</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/vs-code%E5%90%8C%E6%97%B6%E5%A4%84%E7%90%86%E5%A4%9A%E8%A1%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/vs-code%E5%90%8C%E6%97%B6%E5%A4%84%E7%90%86%E5%A4%9A%E8%A1%8C/</guid>
+        <description>3种场景： alt+鼠标左键（光标点中一行算一行） alt+鼠标左键拖动（多次）（每次拖动选中一块内容） shift+alt+鼠标左键拖动（光标同</description>
+      </item>
+      
+      <item>
+        <title>VS Code开启和关闭全屏</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/vs-code%E5%BC%80%E5%90%AF%E5%92%8C%E5%85%B3%E9%97%AD%E5%85%A8%E5%B1%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/vs-code%E5%BC%80%E5%90%AF%E5%92%8C%E5%85%B3%E9%97%AD%E5%85%A8%E5%B1%8F/</guid>
+        <description>不小心误触了键盘，打开了VS Code的全屏，我不是很需要这个功能，简单查了一下，F11键快速打开或关闭全屏。</description>
+      </item>
+      
+      <item>
+        <title>VS Code设置默认终端为Git bash</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/vs-code%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E4%B8%BAgit-bash/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/vs-code%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E4%B8%BAgit-bash/</guid>
+        <description>踩了一些坑，所以记录一下： 我踩的坑：我在配置为Power Shell时，按Ctrl + Shift + ~打开过一次终端，更新了配置后，即使是重启都还是Pow</description>
+      </item>
+      
+      <item>
+        <title>VS Code配置使用Idea快捷键</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/vs-code%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8idea%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/vs-code%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8idea%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+        <description>下载该插件，重启即可： IntelliJ IDEA Keybindings</description>
+      </item>
+      
+      <item>
+        <title>WARN  No layout index.html</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/hexo/warn-no-layout-index.html/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/hexo/warn-no-layout-index.html/</guid>
+        <description>问题现象 执行hexo generate时出现了如下警告，且首页无法访问（空白的） WARN No layout: 404.html WARN No layout: categories/index.html WARN No layout: search/index.html WARN No layout: post/Git客户端修改默认的</description>
       </item>
       
       <item>
@@ -4344,6 +4785,33 @@
       </item>
       
       <item>
+        <title>Wireguard与Docker（记录）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E4%B8%8Edocker%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E4%B8%8Edocker%E8%AE%B0%E5%BD%95/</guid>
+        <description>WireGuard使用最初创建WireGuard接口的网络命名空间发送和接收加密数据包。这意味着您可以在可以访问Internet的主网络名称</description>
+      </item>
+      
+      <item>
+        <title>Wireguard的原理知识</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E7%9A%84%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E7%9A%84%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86/</guid>
+        <description>（这是我读官方文档时的简单理解） Wireguard使用UDP封装IP数据包。在使用的过程中，需要创建一个WireGuard接口，使用自己的私</description>
+      </item>
+      
+      <item>
+        <title>WireGuard重要资料整理</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E9%87%8D%E8%A6%81%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E9%87%8D%E8%A6%81%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <description>wireguard 安装与组网 过年在外怎么访问家庭内网,wireguard组网！ 很重要的资料，通过该资料，我知道了如果需要访问我内网环境，则需要配置SNAt。</description>
+      </item>
+      
+      <item>
         <title>workdir参数导致docker启动时无法找到脚本</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_github/workdir%E5%8F%82%E6%95%B0%E5%AF%BC%E8%87%B4docker%E5%90%AF%E5%8A%A8%E6%97%B6%E6%97%A0%E6%B3%95%E6%89%BE%E5%88%B0%E8%84%9A%E6%9C%AC/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4353,12 +4821,57 @@
       </item>
       
       <item>
+        <title>XShell不小心变透明了</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/xshell/xshell%E4%B8%8D%E5%B0%8F%E5%BF%83%E5%8F%98%E9%80%8F%E6%98%8E%E4%BA%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/xshell/xshell%E4%B8%8D%E5%B0%8F%E5%BF%83%E5%8F%98%E9%80%8F%E6%98%8E%E4%BA%86/</guid>
+        <description>我也不知道误触了什么案件，XShell突然变透明了，通过如下方式改回来： 我评估了下，感觉这个功能没有什么适用场景。</description>
+      </item>
+      
+      <item>
+        <title>XShell导出配置文件</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/xshell/xshell%E5%AF%BC%E5%87%BA%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/xshell/xshell%E5%AF%BC%E5%87%BA%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</guid>
+        <description>一图胜千言万语</description>
+      </item>
+      
+      <item>
         <title>xshell退出时关闭了通过nohup启动的应用</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/xshell%E9%80%80%E5%87%BA%E6%97%B6%E5%85%B3%E9%97%AD%E4%BA%86%E9%80%9A%E8%BF%87nohup%E5%90%AF%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/xshell%E9%80%80%E5%87%BA%E6%97%B6%E5%85%B3%E9%97%AD%E4%BA%86%E9%80%9A%E8%BF%87nohup%E5%90%AF%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
         <description>我也是第一次遇到这种情况，我拿一台虚拟机帮同事开KT Connect的代码，并开启了一个端口转发，如下代码所示： nohup ktctl --namespace=dev connect --method=socks5 --dump2hosts &amp;gt; ktctl.log 2&amp;gt;&amp;amp;1 &amp;amp; nohup polipo -c /opt/polipo/config &amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>XShell隧道技术的利用</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/xshell/xshell%E9%9A%A7%E9%81%93%E6%8A%80%E6%9C%AF%E7%9A%84%E5%88%A9%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/xshell/xshell%E9%9A%A7%E9%81%93%E6%8A%80%E6%9C%AF%E7%9A%84%E5%88%A9%E7%94%A8/</guid>
+        <description>不用再在跳板机上手动ssh生产机了，还能往生产机上传文件，不使用该技术，则需要先ssh跳板机，然后在ssh到生产机，而且还不能向生产机传文件</description>
+      </item>
+      
+      <item>
+        <title>yapi默认账号密码</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/yapi%E9%BB%98%E8%AE%A4%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/yapi%E9%BB%98%E8%AE%A4%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/</guid>
+        <description>账号：admin@admin.com 密码：ymfe.org 参考资料 我想问下默认超级管理员的账号密码是啥</description>
+      </item>
+      
+      <item>
+        <title>ZDoc主题抖动的问题</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/zdoc%E4%B8%BB%E9%A2%98%E6%8A%96%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/zdoc%E4%B8%BB%E9%A2%98%E6%8A%96%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>当目录过程，展开的时候超过了一屏的高度时，页面会出现抖动的情况，抖动的原因是因为超过一屏时浏览器右侧会出现滚动条，该滚动条影响了屏幕的宽度，</description>
       </item>
       
       <item>
@@ -4443,6 +4956,15 @@
       </item>
       
       <item>
+        <title>一键清理掉所有无用的Collection</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%B8%80%E9%94%AE%E6%B8%85%E7%90%86%E6%8E%89%E6%89%80%E6%9C%89%E6%97%A0%E7%94%A8%E7%9A%84collection/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%B8%80%E9%94%AE%E6%B8%85%E7%90%86%E6%8E%89%E6%89%80%E6%9C%89%E6%97%A0%E7%94%A8%E7%9A%84collection/</guid>
+        <description>实际上我没有找到这样的功能，所以使用Postman的Api，自己开发了一个Python脚本，脚本内容如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17</description>
+      </item>
+      
+      <item>
         <title>下拉项过多，导致文档无法打开</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/easyexcel/%E4%B8%8B%E6%8B%89%E9%A1%B9%E8%BF%87%E5%A4%9A%E5%AF%BC%E8%87%B4%E6%96%87%E6%A1%A3%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4458,6 +4980,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/win/%E4%B8%8B%E8%BD%BDwin10%E9%95%9C%E5%83%8F/</guid>
         <description>这个方案并不直观，步骤如下： 进入官网下载页面 按F12，设置成手机模式，然后刷新页面 完成两个多选框后，会弹出选择32位还是64位的页面 我遇到的</description>
+      </item>
+      
+      <item>
+        <title>不再研究Ansible</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E4%B8%8D%E5%86%8D%E7%A0%94%E7%A9%B6ansible/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E4%B8%8D%E5%86%8D%E7%A0%94%E7%A9%B6ansible/</guid>
+        <description>我决定不再研究Ansible，故系列笔记不再维护。 我之前决定学习Ansible，是因为我计划深度学习Redis、Kafka等软件，在学习这些</description>
       </item>
       
       <item>
@@ -4695,6 +5226,15 @@
       </item>
       
       <item>
+        <title>使用Host Only网络的技巧</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E4%BD%BF%E7%94%A8host-only%E7%BD%91%E7%BB%9C%E7%9A%84%E6%8A%80%E5%B7%A7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E4%BD%BF%E7%94%A8host-only%E7%BD%91%E7%BB%9C%E7%9A%84%E6%8A%80%E5%B7%A7/</guid>
+        <description>参考步骤 需求产生于如下的场景： 使用网卡桥接时因为上级网络配置，但是无法分配到IP地址 使用网卡桥接时，需求使用静态IP地址，又担心造成IP地址</description>
+      </item>
+      
+      <item>
         <title>使用java正则时需要注意的地方</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E4%BD%BF%E7%94%A8java%E6%AD%A3%E5%88%99%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4791,6 +5331,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E4%BF%AE%E5%A4%8Dupdatebybatch%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>今天定位修复了一个比较难的问题。我们的项目将mybatis-plus升级到最新版后，发现了updateByBatch方法无效。最后层层排查下</description>
+      </item>
+      
+      <item>
+        <title>修复Zoc主题自动展开问题</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E4%BF%AE%E5%A4%8Dzoc%E4%B8%BB%E9%A2%98%E8%87%AA%E5%8A%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E4%BF%AE%E5%A4%8Dzoc%E4%B8%BB%E9%A2%98%E8%87%AA%E5%8A%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</guid>
+        <description>我笔记中git和github文件夹，总是默认处于展开状态，我简单分析了一下，可能是作者直接从当前URL中进行分词，然后寻找目录结构，查看哪些</description>
       </item>
       
       <item>
@@ -4974,6 +5523,15 @@
       </item>
       
       <item>
+        <title>利用Postman快速调试接口</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E6%96%B9%E6%A1%88/%E5%88%A9%E7%94%A8postman%E5%BF%AB%E9%80%9F%E8%B0%83%E8%AF%95%E6%8E%A5%E5%8F%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E6%96%B9%E6%A1%88/%E5%88%A9%E7%94%A8postman%E5%BF%AB%E9%80%9F%E8%B0%83%E8%AF%95%E6%8E%A5%E5%8F%A3/</guid>
+        <description>我这儿只描述一下思路，具体的操作是可以在我Postman类目下找到的。 快速调试接口，分为两个主要的场景： 新开发的接口 调试Chrome的Net</description>
+      </item>
+      
+      <item>
         <title>利用反射填充VO对象</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%88%A9%E7%94%A8%E5%8F%8D%E5%B0%84%E5%A1%AB%E5%85%85vo%E5%AF%B9%E8%B1%A1/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5037,6 +5595,15 @@
       </item>
       
       <item>
+        <title>参数上的注解如何处理</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/easyyapi/%E5%8F%82%E6%95%B0%E4%B8%8A%E7%9A%84%E6%B3%A8%E8%A7%A3%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86/</guid>
+        <description>普通的参数，直接使用@param就可以了，如果@param是一个普通类型，但是其含义数据某个枚举，可以使用如下的写法： 1 2 3 4 5 6 7 8 9 10 11</description>
+      </item>
+      
+      <item>
         <title>反序列化时缺少默认构造函数导致的问题</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/fastjson/%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%97%B6%E7%BC%BA%E5%B0%91%E9%BB%98%E8%AE%A4%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E5%AF%BC%E8%87%B4%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5091,6 +5658,15 @@
       </item>
       
       <item>
+        <title>因为centos依赖文件太旧，而无法启动hugo</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E5%9B%A0%E4%B8%BAcentos%E4%BE%9D%E8%B5%96%E6%96%87%E4%BB%B6%E5%A4%AA%E6%97%A7%E8%80%8C%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8hugo/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E5%9B%A0%E4%B8%BAcentos%E4%BE%9D%E8%B5%96%E6%96%87%E4%BB%B6%E5%A4%AA%E6%97%A7%E8%80%8C%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8hugo/</guid>
+        <description>我在CentOS上，通过在github上下载release包的方式安装了hugo，但是安装后无法启动，报如下错误： [root@base junjie.com]# hugo server --minify --theme book --bind=&amp;quot;0.0.0.0&amp;quot; hugo: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20&#39; not</description>
+      </item>
+      
+      <item>
         <title>因为relativePath导致项目内依赖失败</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E5%9B%A0%E4%B8%BArelativepath%E5%AF%BC%E8%87%B4%E9%A1%B9%E7%9B%AE%E5%86%85%E4%BE%9D%E8%B5%96%E5%A4%B1%E8%B4%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5142,6 +5718,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E5%9B%A0%E4%B8%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8B%A6%E6%88%AA%E5%99%A8%E5%AF%BC%E8%87%B4%E4%B8%8D%E6%94%AF%E6%8C%81jsonb%E7%9B%B8%E5%85%B3%E7%9A%84%E8%AF%AD%E6%B3%95/</guid>
         <description>我们的项目是多租户的，所以同事自定义了MyBatis的拦截器，在该拦截器中获取请求头中传递过来的租户Id，然后注入到所有的SQL中，其具体实</description>
+      </item>
+      
+      <item>
+        <title>因为设置了All_PROXY导致Postman总是报代理错误</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E5%9B%A0%E4%B8%BA%E8%AE%BE%E7%BD%AE%E4%BA%86all_proxy%E5%AF%BC%E8%87%B4postman%E6%80%BB%E6%98%AF%E6%8A%A5%E4%BB%A3%E7%90%86%E9%94%99%E8%AF%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E5%9B%A0%E4%B8%BA%E8%AE%BE%E7%BD%AE%E4%BA%86all_proxy%E5%AF%BC%E8%87%B4postman%E6%80%BB%E6%98%AF%E6%8A%A5%E4%BB%A3%E7%90%86%E9%94%99%E8%AF%AF/</guid>
+        <description>典型的自己挖坑自己填。 问题是这样的，我的Postman登录我的账号后，进行请求时一直报代理错误，浏览器可以正常访问的URL，在Postman</description>
       </item>
       
       <item>
@@ -5352,6 +5937,33 @@
       </item>
       
       <item>
+        <title>基于Anaconda安装Ansible（推荐）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%9F%BA%E4%BA%8Eanaconda%E5%AE%89%E8%A3%85ansible%E6%8E%A8%E8%8D%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%9F%BA%E4%BA%8Eanaconda%E5%AE%89%E8%A3%85ansible%E6%8E%A8%E8%8D%90/</guid>
+        <description>这是我推荐的方式，Anaconda是学习Python的好帮手。 创建环境并激活环境 conda create --name ansible python=2.7 conda activate ansible 安装ansible # 我在学习《奔跑吧Ansi</description>
+      </item>
+      
+      <item>
+        <title>基于Vagrant的虚拟机环境设计</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%9F%BA%E4%BA%8Evagrant%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%8E%AF%E5%A2%83%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%9F%BA%E4%BA%8Evagrant%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%8E%AF%E5%A2%83%E8%AE%BE%E8%AE%A1/</guid>
+        <description>安装网络工具包 指令如下： 1 2 3 dnf -y install net-tools 配置SSH服务 指令如下： 1 2 3 4 5 6 dnf -y install openssh-server systemctl start sshd systemctl enable sshd 安装常用工作环境 指令如下： dnf -y install git 安装学习环境</description>
+      </item>
+      
+      <item>
+        <title>处理WireGuard时积累的一些经验</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E5%A4%84%E7%90%86wireguard%E6%97%B6%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</guid>
+        <description>ping出现了Destination Host Unreachable，大概率时防火墙的问题： 如果你配置了SNAT，结果发现没有任何效果，还是无法pi</description>
+      </item>
+      
+      <item>
         <title>复杂场景下使用RingBuffer</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/disruptor/%E5%A4%8D%E6%9D%82%E5%9C%BA%E6%99%AF%E4%B8%8B%E4%BD%BF%E7%94%A8ringbuffer/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5442,6 +6054,33 @@
       </item>
       
       <item>
+        <title>学习Ansible发现的Nginx配置问题</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AD%A6%E4%B9%A0ansible%E5%8F%91%E7%8E%B0%E7%9A%84nginx%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AD%A6%E4%B9%A0ansible%E5%8F%91%E7%8E%B0%E7%9A%84nginx%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/</guid>
+        <description>《奔跑吧，Ansible》有个小小的问题，它在写下载软件的脚本中没有指定下载的软件的版本，所以我们阅读并执行这些脚本时，往往下载的是最新的版</description>
+      </item>
+      
+      <item>
+        <title>安装Ansible</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AE%89%E8%A3%85ansible/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AE%89%E8%A3%85ansible/</guid>
+        <description>控制节点 用pip安装Ansible pip install paramiko PyYAML Jinja2 httplib2 six --user ansible python -m pip install --user ansible 我不知道这样调用的是pip还是pip3，但是我看日志，好像是用Python3</description>
+      </item>
+      
+      <item>
+        <title>安装Ansible（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AE%89%E8%A3%85ansible%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/%E5%AE%89%E8%A3%85ansible%E5%BA%9F%E5%BC%83/</guid>
+        <description>我执行了如下指令： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 git clone git://github.com/ansible/ansible.git --recursive cd ./ansible # 使用Bash source ./hacking/env-setup # 安装pip（参考python分类下笔记） # 安装Pyth</description>
+      </item>
+      
+      <item>
         <title>安装CentOS 8（推荐）</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%AE%89%E8%A3%85centos-8%E6%8E%A8%E8%8D%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5496,6 +6135,15 @@
       </item>
       
       <item>
+        <title>安装最新版VirtualBox后，无法启动</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88virtualbox%E5%90%8E%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88virtualbox%E5%90%8E%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8/</guid>
+        <description>问题描述 执行如下VBoxManage &amp;ndash;version，报如下错误： WARNING: The vboxdrv kernel module is not loaded. Either there is no module available for the current kernel (4.18.0-240.el8.x86_64) or it failed to load. Please recompile the kernel module and install</description>
+      </item>
+      
+      <item>
         <title>定位Java在Linux上AES加密失败的问题</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/java/%E5%AE%9A%E4%BD%8Djava%E5%9C%A8linux%E4%B8%8Aaes%E5%8A%A0%E5%AF%86%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5529,6 +6177,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/scripts/%E5%AE%9E%E7%8E%B0%E7%8A%B6%E6%80%81%E6%B6%88%E6%81%AF%E7%9A%84%E5%8F%91%E9%80%81%E5%8A%9F%E8%83%BD/</guid>
         <description>使用管道的方法实现代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 def create_status(conn, uid, message, *date): pipeline = conn.pipeline(True) pipeline.hget(&amp;#39;user:%s&amp;#39; % uid, &amp;#39;login&amp;#39;) pipeline.incr(&amp;#39;</description>
+      </item>
+      
+      <item>
+        <title>实验机基础环境</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%AE%9E%E9%AA%8C%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%AE%9E%E9%AA%8C%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/</guid>
+        <description>20210430： 目前我已经为试验机装好了CentOS 8系统，并安装了VirutalBox和Vagrant两款虚拟化软件，我安装好了Open</description>
       </item>
       
       <item>
@@ -5640,6 +6297,15 @@
       </item>
       
       <item>
+        <title>将VirtualBox安装到CentOS 8上</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%B0%86virtualbox%E5%AE%89%E8%A3%85%E5%88%B0centos-8%E4%B8%8A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%B0%86virtualbox%E5%AE%89%E8%A3%85%E5%88%B0centos-8%E4%B8%8A/</guid>
+        <description>操作步骤 方案一 步骤一：启用VirtualBox和EPEL仓库 执行如下命令并启用VirtualBox和EPEL包仓库： 1 2 3 dnf config-manager --add-repo=https://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo 使用一下rp</description>
+      </item>
+      
+      <item>
         <title>将当前所有打开的Tab保存到书签</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E5%B0%86%E5%BD%93%E5%89%8D%E6%89%80%E6%9C%89%E6%89%93%E5%BC%80%E7%9A%84tab%E4%BF%9D%E5%AD%98%E5%88%B0%E4%B9%A6%E7%AD%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5664,6 +6330,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/chrome/%E5%B0%86%E6%9F%90%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E7%9A%84%E4%B9%A6%E7%AD%BE%E5%AF%BC%E5%87%BA%E6%9D%A5/</guid>
         <description>之前没有发现Chrome导出书签的时候默认不支持导出某个文件夹，只能将全部的书签到导出来。解决方案是新创建一个Chrome账户，然后将需要导</description>
+      </item>
+      
+      <item>
+        <title>工具机基础环境</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%B7%A5%E5%85%B7%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%B7%A5%E5%85%B7%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/</guid>
+        <description>20210504： 我工具机的网络环境设计的比较复杂，但是目前实现的还比较简单，我打算以后慢慢完善。我今天理了理我虚拟机的规划。 虚拟机规划 我决</description>
+      </item>
+      
+      <item>
+        <title>工具机操作记录</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%B7%A5%E5%85%B7%E6%9C%BA%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/%E5%B7%A5%E5%85%B7%E6%9C%BA%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</guid>
+        <description>创建虚拟机 我使用了Vagrant + VirtualBox创建和管理虚拟机。我这些Vagrant配置文件和使用的Box，都是高度定制化的，大家环</description>
       </item>
       
       <item>
@@ -6090,6 +6774,15 @@
       </item>
       
       <item>
+        <title>流水线相关的资料</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/jenkins/%E6%B5%81%E6%B0%B4%E7%BA%BF%E7%9B%B8%E5%85%B3%E7%9A%84%E8%B5%84%E6%96%99/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/jenkins/%E6%B5%81%E6%B0%B4%E7%BA%BF%E7%9B%B8%E5%85%B3%E7%9A%84%E8%B5%84%E6%96%99/</guid>
+        <description>以前用到的，但是忘记使用场景了，想记录下来。 参考资料 Pipeline Steps Reference</description>
+      </item>
+      
+      <item>
         <title>测试udp数据报是否可以正常传递</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E6%B5%8B%E8%AF%95udp%E6%95%B0%E6%8D%AE%E6%8A%A5%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E6%AD%A3%E5%B8%B8%E4%BC%A0%E9%80%92/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6150,6 +6843,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/%E7%90%86%E8%A7%A3fastthreadlocal/</guid>
         <description>今天看Netty源码，遇到如下一个东东： 1 2 3 4 5 6 7 8 9 10 private static final FastThreadLocal&amp;lt;CodecOutputLists&amp;gt; CODEC_OUTPUT_LISTS_POOL = new FastThreadLocal&amp;lt;CodecOutputLists&amp;gt;() { @Override protected CodecOutputLists initialValue() throws Exception { // 16 CodecOutputList per Thread are cached. return new CodecOutputLists(16); } }; 这使我产生了对FastT</description>
+      </item>
+      
+      <item>
+        <title>理解Hugo中的single.html和list.html</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E7%90%86%E8%A7%A3hugo%E4%B8%AD%E7%9A%84single.html%E5%92%8Clist.html/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E7%90%86%E8%A7%A3hugo%E4%B8%AD%E7%9A%84single.html%E5%92%8Clist.html/</guid>
+        <description>hugo主要有四种布局：single、list、index、404。index就是主页，404就是url找不到时的错误页面，这两个都挺好理解</description>
       </item>
       
       <item>
@@ -6324,6 +7026,15 @@
       </item>
       
       <item>
+        <title>秘钥生成错误，会导致全链路无法ping通</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E7%A7%98%E9%92%A5%E7%94%9F%E6%88%90%E9%94%99%E8%AF%AF%E4%BC%9A%E5%AF%BC%E8%87%B4%E5%85%A8%E9%93%BE%E8%B7%AF%E6%97%A0%E6%B3%95ping%E9%80%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E7%A7%98%E9%92%A5%E7%94%9F%E6%88%90%E9%94%99%E8%AF%AF%E4%BC%9A%E5%AF%BC%E8%87%B4%E5%85%A8%E9%93%BE%E8%B7%AF%E6%97%A0%E6%B3%95ping%E9%80%9A/</guid>
+        <description>我目前分析是我在生成秘钥时操作失误了，我还不能确定具体原因，先观察一段时间吧。 20220218后续 不是因为密钥的问题，是因为我电脑所处的网络</description>
+      </item>
+      
+      <item>
         <title>空闲的连接和超时</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/netty/netty-in-action/%E7%A9%BA%E9%97%B2%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%92%8C%E8%B6%85%E6%97%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6450,12 +7161,39 @@
       </item>
       
       <item>
+        <title>解决Jenkins下载插件慢</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/jenkins/%E8%A7%A3%E5%86%B3jenkins%E4%B8%8B%E8%BD%BD%E6%8F%92%E4%BB%B6%E6%85%A2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/jenkins/%E8%A7%A3%E5%86%B3jenkins%E4%B8%8B%E8%BD%BD%E6%8F%92%E4%BB%B6%E6%85%A2/</guid>
+        <description>解决步骤 修改插件源为： https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json 修改updates/default.json文件： updates.jenkins-ci.org/download修改</description>
+      </item>
+      
+      <item>
         <title>解决Kubernetes从国外站点下载镜像慢的问题</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E8%A7%A3%E5%86%B3kubernetes%E4%BB%8E%E5%9B%BD%E5%A4%96%E7%AB%99%E7%82%B9%E4%B8%8B%E8%BD%BD%E9%95%9C%E5%83%8F%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E8%A7%A3%E5%86%B3kubernetes%E4%BB%8E%E5%9B%BD%E5%A4%96%E7%AB%99%E7%82%B9%E4%B8%8B%E8%BD%BD%E9%95%9C%E5%83%8F%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
         <description>解决步骤 拿到原镜像地址： 1 2 3 kubectl describe po xxx -n xxx # quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.30.0 替换为国内的站点 1 2 3 sudo docker pull quay.mirrors.ustc.edu.cn/kubernetes-ingress-controller/nginx-ingress-controller:0.30.0 推送到harbor，方便其他虚拟机进行下载 1 2 3 4 sudo docker tag quay.mirrors.ustc.edu.cn/kubernetes-ingress-controller/nginx-ingress-controller:0.30.0 192.168.30.174:80/test/nginx-ingress-controller:0.30.0 sudo docker</description>
+      </item>
+      
+      <item>
+        <title>解决Prometheus管理页面的Console下没有任何东西显示</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/prometheus/%E8%A7%A3%E5%86%B3prometheus%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2%E7%9A%84console%E4%B8%8B%E6%B2%A1%E6%9C%89%E4%BB%BB%E4%BD%95%E4%B8%9C%E8%A5%BF%E6%98%BE%E7%A4%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/prometheus/%E8%A7%A3%E5%86%B3prometheus%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2%E7%9A%84console%E4%B8%8B%E6%B2%A1%E6%9C%89%E4%BB%BB%E4%BD%95%E4%B8%9C%E8%A5%BF%E6%98%BE%E7%A4%BA/</guid>
+        <description>问题描述 console下会不显示任何东西），在最上面会有一个提示，说客户端事件和服务器实践不一致 解决步骤 调整客户端时间，与服务器一致（分钟级</description>
+      </item>
+      
+      <item>
+        <title>解决两个Wireguard客户端之间无法Ping通</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E8%A7%A3%E5%86%B3%E4%B8%A4%E4%B8%AAwireguard%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B9%8B%E9%97%B4%E6%97%A0%E6%B3%95ping%E9%80%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E8%A7%A3%E5%86%B3%E4%B8%A4%E4%B8%AAwireguard%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B9%8B%E9%97%B4%E6%97%A0%E6%B3%95ping%E9%80%9A/</guid>
+        <description>为了更深刻的学习WireGuard，我开始自己搭建服务端和客户端进行测试。WireGuard本身是不区分服务端和客户端的，但是在我的拓补结构</description>
       </item>
       
       <item>
@@ -6555,6 +7293,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/maven/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%BA%9B%E8%A7%A3%E5%86%B3jar%E5%86%B2%E7%AA%81%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
         <description>我想通过SpringBoot Actuator查看正在运行的应用的一些配置信息，当我引入如下依赖后，启动引用报如下错误： &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-actuator&amp;lt;/artifactId&amp;gt; &amp;lt;/dependency&amp;gt; SLF4J: Class path contains multiple SLF4J bindings.</description>
+      </item>
+      
+      <item>
+        <title>记录一次关闭链路自动协商带来的问题</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/rtl8125/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%85%B3%E9%97%AD%E9%93%BE%E8%B7%AF%E8%87%AA%E5%8A%A8%E5%8D%8F%E5%95%86%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/rtl8125/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%85%B3%E9%97%AD%E9%93%BE%E8%B7%AF%E8%87%AA%E5%8A%A8%E5%8D%8F%E5%95%86%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>问题简单的描述是这样的：我发现网线两端的网速并不匹配，一边显示100M，一边显示1000M，显示100M的是我的R8125网卡，我就很不开心</description>
       </item>
       
       <item>
@@ -6744,6 +7491,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/%E9%80%9A%E8%BF%87response%E8%BF%94%E5%9B%9Ejson%E6%95%B0%E6%8D%AE/</guid>
         <description>我代码如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 if (companyClientManager == null) { // 返回错误消息 response.setCharacterEncoding(&amp;#34;utf-8&amp;#34;); response.setContentType(&amp;#34;application/json; charset=utf-8&amp;#34;); response.getOutputStream() .write(JSON.toJSONBytes(ResponseVo.createErrorByCodeMessage( INIT_COMPANY_INFO_WRONG.getCode(), INIT_COMPANY_INFO_WRONG.getMessage()))); return false; } 参考资料 Response返回JSON数据</description>
+      </item>
+      
+      <item>
+        <title>通过Wireguard暴露家庭内部网络及K8S集群内部网络</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/%E6%96%B9%E6%A1%88/%E9%80%9A%E8%BF%87wireguard%E6%9A%B4%E9%9C%B2%E5%AE%B6%E5%BA%AD%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C%E5%8F%8Ak8s%E9%9B%86%E7%BE%A4%E5%86%85%E9%83%A8%E7%BD%91%E7%BB%9C/</guid>
+        <description>我之前有使用过WireGuard连接家庭内部网络，但是当时目的单一，所以研究的并不深入。最近在学习Redis等中间件的高级知识，所以我需要搭</description>
+      </item>
+      
+      <item>
+        <title>通过云效发布一个简单的demo</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E4%BA%91%E6%95%88/%E9%80%9A%E8%BF%87%E4%BA%91%E6%95%88%E5%8F%91%E5%B8%83%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84demo/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E4%BA%91%E6%95%88/%E9%80%9A%E8%BF%87%E4%BA%91%E6%95%88%E5%8F%91%E5%B8%83%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84demo/</guid>
+        <description>通过云效发布一个简单的Demo 将一个崭新的项目发布到云上，有如下几个关键步骤。我将根据各个步骤提供相应的文档，文档导航可以通过Conflue</description>
       </item>
       
       <item>

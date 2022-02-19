@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syncd on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/</link>
+    <description>Recent content in Syncd on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>1.syncd的使用方案</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/1.syncd%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/1.syncd%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88/</guid>
+        <description>使用篇 ==&amp;gt;Go 如果项目相关信息已经在syncd上设置好了，参考该文档，可以快速的完成项目的部署。 项目管理篇 ==&amp;gt;Go 如果项目未在syncd上设置，参考该文</description>
+      </item>
+      
+      <item>
+        <title>2.syncd使用篇</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/2.syncd%E4%BD%BF%E7%94%A8%E7%AF%87/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/2.syncd%E4%BD%BF%E7%94%A8%E7%AF%87/</guid>
+        <description>使用篇分为两个部分： 在本机准备需要更新到线上源码 在线上环境中使用syncd完成部署 在本机准备源码： 前提：你已经建立好了gitlab仓库，而且</description>
+      </item>
+      
+      <item>
+        <title>3.syncd项目管理篇</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/3.syncd%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AF%87/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/3.syncd%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AF%87/</guid>
+        <description>项目管理脚本请参考线上脚本，线上新增了一些内容以适应更多的部署场景： 新增内容以实现单机多实例部署，且单机多实例时确保日志文件不会相互印象 新增</description>
+      </item>
+      
+      <item>
+        <title>4.syncd项目管理篇2</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/4.syncd%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AF%872/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/4.syncd%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AF%872/</guid>
+        <description>部署前指令（直接copy过去，改username参数的值）： 1 2 3 4 username=zdmprd \ &amp;amp;&amp;amp; syncd_deploy_path=&amp;#34;/home/$username/deploy&amp;#34; \ &amp;amp;&amp;amp; rm -rf $syncd_deploy_path \ &amp;amp;&amp;amp; mkdir $syncd_deploy_path 部署后执行（直接copy，改username、</description>
+      </item>
+      
+      <item>
+        <title>5.syncd部署篇</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/5.syncd%E9%83%A8%E7%BD%B2%E7%AF%87/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/5.syncd%E9%83%A8%E7%BD%B2%E7%AF%87/</guid>
+        <description>confluence上传文件要求小于100mb，所以无法上传，需要使用的请直接问我要 使用方法： 如图，进入该目录层次，在你的数据库中执行syn</description>
+      </item>
+      
+    
+  </channel>
+</rss>

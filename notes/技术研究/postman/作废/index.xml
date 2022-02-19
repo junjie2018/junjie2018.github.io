@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作废 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%BD%9C%E5%BA%9F/</link>
+    <description>Recent content in 作废 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%BD%9C%E5%BA%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Postman的安装路径</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%BD%9C%E5%BA%9F/postman%E7%9A%84%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/postman/%E4%BD%9C%E5%BA%9F/postman%E7%9A%84%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/</guid>
+        <description>升级内存到32G后，Postman几乎没有出现过任何问题 我把这路径记一记，因为我感觉我随时要去整它，Postman好几个版本在我公司电脑上老</description>
+      </item>
+      
+    
+  </channel>
+</rss>

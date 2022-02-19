@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VirtualBox on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/</link>
+    <description>Recent content in VirtualBox on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>CentOS 8安装VirtualBox和Vagrant，并配置Vagrant</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/centos-8%E5%AE%89%E8%A3%85virtualbox%E5%92%8Cvagrant%E5%B9%B6%E9%85%8D%E7%BD%AEvagrant/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/centos-8%E5%AE%89%E8%A3%85virtualbox%E5%92%8Cvagrant%E5%B9%B6%E9%85%8D%E7%BD%AEvagrant/</guid>
+        <description>我已经转到了PVE，VirtualBox和Vagrant相关的笔记已没有意义，故不再维护该笔记 安装VirtualBox和Vagrant Vir</description>
+      </item>
+      
+      <item>
+        <title>Vagrant下载自己需要的Box</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%B7%B1%E9%9C%80%E8%A6%81%E7%9A%84box/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%B7%B1%E9%9C%80%E8%A6%81%E7%9A%84box/</guid>
+        <description>我刚接触Vagrant时，官方Box搜索页面是不提供任何下载按钮的，需要一些特殊的技巧得到下载链接。我最近发现官方提供了下载按钮，满心欢喜的</description>
+      </item>
+      
+      <item>
+        <title>Vagrant创建的虚拟机有两个网卡</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E5%88%9B%E5%BB%BA%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%9C%89%E4%B8%A4%E4%B8%AA%E7%BD%91%E5%8D%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E5%88%9B%E5%BB%BA%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%9C%89%E4%B8%A4%E4%B8%AA%E7%BD%91%E5%8D%A1/</guid>
+        <description>Vagrant会默认创建一个nat的网卡，这个网卡要是删除了，主机就无法通过vagrant ssh虚拟上了（但是我认为主机可以通过我配置的私有</description>
+      </item>
+      
+      <item>
+        <title>Vagrant无法修改同步目录的权限</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E6%97%A0%E6%B3%95%E4%BF%AE%E6%94%B9%E5%90%8C%E6%AD%A5%E7%9B%AE%E5%BD%95%E7%9A%84%E6%9D%83%E9%99%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E6%97%A0%E6%B3%95%E4%BF%AE%E6%94%B9%E5%90%8C%E6%AD%A5%E7%9B%AE%E5%BD%95%E7%9A%84%E6%9D%83%E9%99%90/</guid>
+        <description>Vagrant的同步目录，在虚拟机内是无法修改所有者和所属组的。且可以对其进行如下配置： device.vm.synced_folder &amp;quot;./share_dir&amp;quot;, # 配置本地共享目录 &amp;quot;/vagrant&amp;quot;, # 配置虚拟机对应的挂载目录 create:</description>
+      </item>
+      
+      <item>
+        <title>Vagrant自制Box</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E8%87%AA%E5%88%B6box/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/vagrant%E8%87%AA%E5%88%B6box/</guid>
+        <description>简单研究了下这个技术，有了一些心得，我实践未必按照这个方案走的，但是如果下次搞，我肯定用这套方案。 从Vagrant官方仓库下载一个最新的Ce</description>
+      </item>
+      
+      <item>
+        <title>VirtualBox常用命令行操作</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/virtualbox%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/virtualbox%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%93%8D%E4%BD%9C/</guid>
+        <description>先记录一下，暂时用不到这些，暂时不打算深入研究这些。 参考资料 VirtualBox命令行VBoxManage创建与管理虚拟机教程 使用命令操作V</description>
+      </item>
+      
+      <item>
+        <title>使用Host Only网络的技巧</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E4%BD%BF%E7%94%A8host-only%E7%BD%91%E7%BB%9C%E7%9A%84%E6%8A%80%E5%B7%A7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E4%BD%BF%E7%94%A8host-only%E7%BD%91%E7%BB%9C%E7%9A%84%E6%8A%80%E5%B7%A7/</guid>
+        <description>参考步骤 需求产生于如下的场景： 使用网卡桥接时因为上级网络配置，但是无法分配到IP地址 使用网卡桥接时，需求使用静态IP地址，又担心造成IP地址</description>
+      </item>
+      
+      <item>
+        <title>基于Vagrant的虚拟机环境设计</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%9F%BA%E4%BA%8Evagrant%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%8E%AF%E5%A2%83%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%9F%BA%E4%BA%8Evagrant%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%8E%AF%E5%A2%83%E8%AE%BE%E8%AE%A1/</guid>
+        <description>安装网络工具包 指令如下： 1 2 3 dnf -y install net-tools 配置SSH服务 指令如下： 1 2 3 4 5 6 dnf -y install openssh-server systemctl start sshd systemctl enable sshd 安装常用工作环境 指令如下： dnf -y install git 安装学习环境</description>
+      </item>
+      
+      <item>
+        <title>安装最新版VirtualBox后，无法启动</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88virtualbox%E5%90%8E%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88virtualbox%E5%90%8E%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8/</guid>
+        <description>问题描述 执行如下VBoxManage &amp;ndash;version，报如下错误： WARNING: The vboxdrv kernel module is not loaded. Either there is no module available for the current kernel (4.18.0-240.el8.x86_64) or it failed to load. Please recompile the kernel module and install</description>
+      </item>
+      
+      <item>
+        <title>将VirtualBox安装到CentOS 8上</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%B0%86virtualbox%E5%AE%89%E8%A3%85%E5%88%B0centos-8%E4%B8%8A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/%E5%B0%86virtualbox%E5%AE%89%E8%A3%85%E5%88%B0centos-8%E4%B8%8A/</guid>
+        <description>操作步骤 方案一 步骤一：启用VirtualBox和EPEL仓库 执行如下命令并启用VirtualBox和EPEL包仓库： 1 2 3 dnf config-manager --add-repo=https://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo 使用一下rp</description>
+      </item>
+      
+    
+  </channel>
+</rss>

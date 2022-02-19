@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FRP on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/</link>
+    <description>Recent content in FRP on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>frp初步实验</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E5%88%9D%E6%AD%A5%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E5%88%9D%E6%AD%A5%E5%AE%9E%E9%AA%8C/</guid>
+        <description>犯的错 login to server failed: EOF [root@localhost frp]# ./frpc -c frpc.ini 2021/04/26 08:01:32 [W] [service.go:104] login to server failed: EOF EOF 应该是网络管制的原因，我今天问同事，frp支持秘钥加密，实际上我担心的就是我的流量会被监听，被</description>
+      </item>
+      
+      <item>
+        <title>Frp端口设计</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E7%AB%AF%E5%8F%A3%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E7%AB%AF%E5%8F%A3%E8%AE%BE%E8%AE%A1/</guid>
+        <description>9000 Shadowsocks 9001 frp 9002 openvpn</description>
+      </item>
+      
+      <item>
+        <title>Frp证书生成</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frp%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90/</guid>
+        <description>cp /etc/pki/tls/openssl.cnf ./my-openssl.cnf openssl genrsa -out ca.key 2048 openssl req -x509 -new -nodes -key ca.key -subj &amp;ldquo;/CN=example.ca.com&amp;rdquo; -days 5000 -out ca.crt openssl genrsa -out server.key 2048 openssl req -new -sha256 -key server.key -subj &amp;ldquo;/C=XX/ST=DEFAULT/L=DEFAULT/O=DEFAULT/CN=server.com&amp;rdquo; -reqexts SAN -config &amp;lt;(cat my-openssl.cnf &amp;lt;(printf &amp;ldquo;\n[SAN]\nsubjectAltName=DNS:localhost,IP:127.0.0.1,DNS:example.server.com&amp;rdquo;)) -out server.csr openssl x509 -req -days 365 -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -extfile &amp;lt;(printf &amp;ldquo;subjectAltName=DNS:localhost,IP:127.0.0.1,DNS:example.server.com&amp;rdquo;) -out server.crt openssl genrsa -out client.key 2048 openssl req -new -sha256 -key</description>
+      </item>
+      
+      <item>
+        <title>FRR相关资料整理</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frr%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/frr%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</guid>
+        <description>我不确定我未来会不会用到相关的技术，先收集整理一下。 参考资料 CentOS安装FRR（很重要） 如何使用 VTY Shell 配置路由器 官网文档 CentOS7下利</description>
+      </item>
+      
+    
+  </channel>
+</rss>

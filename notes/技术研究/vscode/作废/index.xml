@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作废 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/%E4%BD%9C%E5%BA%9F/</link>
+    <description>Recent content in 作废 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/%E4%BD%9C%E5%BA%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>VS Code使用sftp插件（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/%E4%BD%9C%E5%BA%9F/vs-code%E4%BD%BF%E7%94%A8sftp%E6%8F%92%E4%BB%B6%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/%E4%BD%9C%E5%BA%9F/vs-code%E4%BD%BF%E7%94%A8sftp%E6%8F%92%E4%BB%B6%E5%BA%9F%E5%BC%83/</guid>
+        <description>意义不大，我最后选择了在Linux提供上开一个smb服务，然后映射到Windows上，故作废该笔记 SFTP插件，真的是大大提升幸福感的一个插</description>
+      </item>
+      
+    
+  </channel>
+</rss>

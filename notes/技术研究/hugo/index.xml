@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/</link>
+    <description>Recent content in Hugo on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>BookMenuBoundle简单配置的实验</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/bookmenuboundle%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E9%AA%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/bookmenuboundle%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E9%AA%8C/</guid>
+        <description>为了尽量还原我GitBook的界面风格，我决定使用Hugo Book主题，按照如下代码启动了Hugo，发现整体上还是蛮让人满意的，左侧为目录树</description>
+      </item>
+      
+      <item>
+        <title>Hugo输出静态文件</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/hugo%E8%BE%93%E5%87%BA%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/hugo%E8%BE%93%E5%87%BA%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6/</guid>
+        <description>指令： hugo -D 输出的文件默认放在public目录下，可以通过-d/&amp;ndash;destination修改文件生成时存放的位置，或者在配置文件中</description>
+      </item>
+      
+      <item>
+        <title>Hugo运行时提示：you need the extended version to build SCSSSASS</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/hugo%E8%BF%90%E8%A1%8C%E6%97%B6%E6%8F%90%E7%A4%BAyou-need-the-extended-version-to-build-scsssass/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/hugo%E8%BF%90%E8%A1%8C%E6%97%B6%E6%8F%90%E7%A4%BAyou-need-the-extended-version-to-build-scsssass/</guid>
+        <description>安装主题后，用如下指令运行代码： hugo server --minify --theme book --bind=&amp;quot;0.0.0.0&amp;quot; --baseUrl=&amp;quot;http://192.168.27.121:1313&amp;quot; 报错，无法运行。我安装的是非扩展版，去官方下载扩展版即可。 hugo release</description>
+      </item>
+      
+      <item>
+        <title>ZDoc主题抖动的问题</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/zdoc%E4%B8%BB%E9%A2%98%E6%8A%96%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/zdoc%E4%B8%BB%E9%A2%98%E6%8A%96%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+        <description>当目录过程，展开的时候超过了一屏的高度时，页面会出现抖动的情况，抖动的原因是因为超过一屏时浏览器右侧会出现滚动条，该滚动条影响了屏幕的宽度，</description>
+      </item>
+      
+      <item>
+        <title>修复Zoc主题自动展开问题</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E4%BF%AE%E5%A4%8Dzoc%E4%B8%BB%E9%A2%98%E8%87%AA%E5%8A%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E4%BF%AE%E5%A4%8Dzoc%E4%B8%BB%E9%A2%98%E8%87%AA%E5%8A%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</guid>
+        <description>我笔记中git和github文件夹，总是默认处于展开状态，我简单分析了一下，可能是作者直接从当前URL中进行分词，然后寻找目录结构，查看哪些</description>
+      </item>
+      
+      <item>
+        <title>因为centos依赖文件太旧，而无法启动hugo</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E5%9B%A0%E4%B8%BAcentos%E4%BE%9D%E8%B5%96%E6%96%87%E4%BB%B6%E5%A4%AA%E6%97%A7%E8%80%8C%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8hugo/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E5%9B%A0%E4%B8%BAcentos%E4%BE%9D%E8%B5%96%E6%96%87%E4%BB%B6%E5%A4%AA%E6%97%A7%E8%80%8C%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8hugo/</guid>
+        <description>我在CentOS上，通过在github上下载release包的方式安装了hugo，但是安装后无法启动，报如下错误： [root@base junjie.com]# hugo server --minify --theme book --bind=&amp;quot;0.0.0.0&amp;quot; hugo: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20&#39; not</description>
+      </item>
+      
+      <item>
+        <title>理解Hugo中的single.html和list.html</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E7%90%86%E8%A7%A3hugo%E4%B8%AD%E7%9A%84single.html%E5%92%8Clist.html/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/hugo/%E7%90%86%E8%A7%A3hugo%E4%B8%AD%E7%9A%84single.html%E5%92%8Clist.html/</guid>
+        <description>hugo主要有四种布局：single、list、index、404。index就是主页，404就是url找不到时的错误页面，这两个都挺好理解</description>
+      </item>
+      
+    
+  </channel>
+</rss>

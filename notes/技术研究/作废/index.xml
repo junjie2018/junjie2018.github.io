@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作废 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/</link>
+    <description>Recent content in 作废 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Ansible</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/ansible/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>FRP</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/frp/</guid>
+        <description>之前研究该技术，最主要的目的是为了访问家庭内部网路，但是Frp只能一个端口一个端口的暴漏，而我要访问家中的很多设备（很多是PVE上的虚拟设备</description>
+      </item>
+      
+      <item>
+        <title>HEXO</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/hexo/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/hexo/</guid>
+        <description>Hexo也是我放弃的一个技术，虽然它编译生成的博客很好看，但是它要求每一篇笔记的头部都需要额外加一些信息，这是我无法接收的。 我的博客，更多的</description>
+      </item>
+      
+      <item>
+        <title>Jenkins</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/jenkins/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/jenkins/</guid>
+        <description>对开发而言，Jenkins只是一个非常小的工具，不值得花费精力深入研究，故作废该笔记 现在并不是最佳的研究该技术的点，而且该技术也不属于我研究</description>
+      </item>
+      
+      <item>
+        <title>Prometheus</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/prometheus/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/prometheus/</guid>
+        <description>现在并不是最佳的研究该技术的点，而且该技术也不属于我研究的范畴，它应该属于运维人员研究。所以我作废了该系列的笔记。</description>
+      </item>
+      
+      <item>
+        <title>RTL8125</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/rtl8125/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/rtl8125/</guid>
+        <description>这张网卡给我带来了痛苦的记忆，我必须开个新分类记录这些痛苦 20210615后续： 这个分类下本来是有非常多的笔记的，后来我发现一些笔记还是有价</description>
+      </item>
+      
+      <item>
+        <title>Syncd</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/syncd/</guid>
+        <description>该笔记已经作废了，该笔记是之前公司使用的一种临时方案，由我完成相关技术的研究。 我并不是很推荐该技术，Syncd需要配合自己开发的Shell脚</description>
+      </item>
+      
+      <item>
+        <title>VirtualBox</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/virtualbox/</guid>
+        <description>实际上，使用PVE后我使用VirtualBox、Vagrant的机会越来越少。 Vagrant在Windows上有太多的问题了，体验是在是太糟</description>
+      </item>
+      
+      <item>
+        <title>云效</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E4%BA%91%E6%95%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E4%BA%91%E6%95%88/</guid>
+        <description>该笔记已经作废了，该笔记是之前公司上云时使用阿里云云效时积累的笔记，该方案由我完成研究，我只记录了一个最简单的Demo。 在完成该版本的云效产</description>
+      </item>
+      
+      <item>
+        <title>工具机网络设计</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E4%BD%9C%E5%BA%9F/%E5%B7%A5%E5%85%B7%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/</guid>
+        <description>这是我技术还不程数时的不成熟想法，我现在已经拥有更好的方案了 我同时拥有两个实验环境，一个是我的工具机一个是公司里的实验主机，为了维护方便，我</description>
+      </item>
+      
+    
+  </channel>
+</rss>
