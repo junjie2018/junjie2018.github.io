@@ -14,47 +14,11 @@
     
       
       <item>
-        <title>cp指令</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/cp%E6%8C%87%E4%BB%A4/</link>
+        <title>tar&amp;gzip</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/cp%E6%8C%87%E4%BB%A4/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>curl指令</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/curl%E6%8C%87%E4%BB%A4/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/curl%E6%8C%87%E4%BB%A4/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>ssh</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/ssh/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/ssh/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>tar、gzip指令</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip%E6%8C%87%E4%BB%A4/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip%E6%8C%87%E4%BB%A4/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>基础</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E5%9F%BA%E7%A1%80/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E5%9F%BA%E7%A1%80/</guid>
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip/</guid>
         <description></description>
       </item>
       
@@ -65,6 +29,42 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E5%BE%85%E7%A0%94%E7%A9%B6/</guid>
         <description></description>
+      </item>
+      
+      <item>
+        <title>cp将一个目录下的文件复制到另一个目录中</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/cp%E5%B0%86%E4%B8%80%E4%B8%AA%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%8D%E5%88%B6%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AA%E7%9B%AE%E5%BD%95%E4%B8%AD/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/cp%E5%B0%86%E4%B8%80%E4%B8%AA%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%8D%E5%88%B6%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AA%E7%9B%AE%E5%BD%95%E4%B8%AD/</guid>
+        <description>源目录为source，目标目录为target，则如果target不存在，可直接使用如下指令完成复制： 1 2 3 cp -r source target 如果target目录已经存</description>
+      </item>
+      
+      <item>
+        <title>curl常用指令</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/curl%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/curl%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</guid>
+        <description>我用curl帮助我解决不少问题了，我打算整理下我对其的需求及用法： curl -v google.com 测试google.com是否可以正常访问，google.com域名是</description>
+      </item>
+      
+      <item>
+        <title>curl访问时不检查证书</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/curl%E8%AE%BF%E9%97%AE%E6%97%B6%E4%B8%8D%E6%A3%80%E6%9F%A5%E8%AF%81%E4%B9%A6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/curl%E8%AE%BF%E9%97%AE%E6%97%B6%E4%B8%8D%E6%A3%80%E6%9F%A5%E8%AF%81%E4%B9%A6/</guid>
+        <description>指令如下： curl -k https://192.168.13.155:8006 curl --insecure https://192.168.13.155:8006 适用场景：https站点是我自己搭建的~~~ 参考资料 CURL 请求时不检测证书</description>
+      </item>
+      
+      <item>
+        <title>Linux 建立SSH免密登录</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux-%E5%BB%BA%E7%AB%8Bssh%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux-%E5%BB%BA%E7%AB%8Bssh%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/</guid>
+        <description>操作如下 优化后的方案，指令如下 ssh-copy-id mmpprd@10.44.2.106 ssh-copy-id mmpprd@10.44.0.177 i29PmmpImK</description>
       </item>
       
       <item>
@@ -149,6 +149,15 @@
       </item>
       
       <item>
+        <title>SSH 配置只允许秘钥登录</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/ssh-%E9%85%8D%E7%BD%AE%E5%8F%AA%E5%85%81%E8%AE%B8%E7%A7%98%E9%92%A5%E7%99%BB%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/ssh-%E9%85%8D%E7%BD%AE%E5%8F%AA%E5%85%81%E8%AE%B8%E7%A7%98%E9%92%A5%E7%99%BB%E5%BD%95/</guid>
+        <description>操作步骤 如下代码生成秘钥对，可以一致按回车，使用默认值（我设置了密码） ssh-keygen 执行如下指令，将生成的pub秘钥添加到信任名单，并检查文件权限正确（</description>
+      </item>
+      
+      <item>
         <title>xshell退出时关闭了通过nohup启动的应用</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/xshell%E9%80%80%E5%87%BA%E6%97%B6%E5%85%B3%E9%97%AD%E4%BA%86%E9%80%9A%E8%BF%87nohup%E5%90%AF%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -194,6 +203,15 @@
       </item>
       
       <item>
+        <title>快速取消代理设置</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E5%BF%AB%E9%80%9F%E5%8F%96%E6%B6%88%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E5%BF%AB%E9%80%9F%E5%8F%96%E6%B6%88%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</guid>
+        <description>我之前为了避免all_proxy给我实验代理不好的影响，我会直接新起一个shell。新的方案如下： unset all_proxy 参考资料 pip install报错：Miss</description>
+      </item>
+      
+      <item>
         <title>查看当前使用的Shell</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E4%BD%BF%E7%94%A8%E7%9A%84shell/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -209,6 +227,24 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E6%B5%8B%E8%AF%95udp%E6%95%B0%E6%8D%AE%E6%8A%A5%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E6%AD%A3%E5%B8%B8%E4%BC%A0%E9%80%92/</guid>
         <description>操作步骤 安装nc工具： yum install -y nc 服务端监听 nc -l -u 0.0.0.0 80001 客户端发送数据报 nc -u 192.168.31.210 数据报一 数据报二 现象：客户端发送的数据报会显示在服务端 参考资料 测试u</description>
+      </item>
+      
+      <item>
+        <title>让Shell阻塞一会</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A9shell%E9%98%BB%E5%A1%9E%E4%B8%80%E4%BC%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A9shell%E9%98%BB%E5%A1%9E%E4%B8%80%E4%BC%9A/</guid>
+        <description>代码如下，单位为秒： 1 2 3 sleep 50 这个指令其实很强大，但是我没有深入研究。</description>
+      </item>
+      
+      <item>
+        <title>设置VIM缩进为4个空格</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%BE%E7%BD%AEvim%E7%BC%A9%E8%BF%9B%E4%B8%BA4%E4%B8%AA%E7%A9%BA%E6%A0%BC/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%BE%E7%BD%AEvim%E7%BC%A9%E8%BF%9B%E4%B8%BA4%E4%B8%AA%E7%A9%BA%E6%A0%BC/</guid>
+        <description>拷贝配置文件到家目录： 1 2 3 4 5 6 7 # ubuntu cp /etc/vim/vimrc ~/.vimrc # centos cp /etc/vimrc ~/.vimrc 编辑该配置文件，增加如下内容 set tabstop=4 参考资料 Linux下设置vim的缩进为4个空格</description>
       </item>
       
       <item>
