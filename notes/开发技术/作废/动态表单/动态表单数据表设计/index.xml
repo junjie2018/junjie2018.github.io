@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>动态表单数据表设计 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/</link>
+    <description>Recent content in 动态表单数据表设计 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>1.名词表设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/1.%E5%90%8D%E8%AF%8D%E8%A1%A8%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/1.%E5%90%8D%E8%AF%8D%E8%A1%A8%E8%AE%BE%E8%AE%A1/</guid>
+        <description>id languages jsonb # 关联到名次表中的wordId，用来做国际化的 language id:1000 language: { &amp;quot;cn&amp;quot;: &amp;quot;中国&amp;quot;, &amp;quot;us&amp;quot;: &amp;quot;美国&amp;quot; } id:1001 language: { &amp;quot</description>
+      </item>
+      
+      <item>
+        <title>2.数据源表设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/2.%E6%95%B0%E6%8D%AE%E6%BA%90%E8%A1%A8%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/2.%E6%95%B0%E6%8D%AE%E6%BA%90%E8%A1%A8%E8%AE%BE%E8%AE%A1/</guid>
+        <description>id wordId # 关联到名次表中的wordId，用来做国际化的 requestUrl # 数据源请求的Url requestBody # 请求体 returnType # 目前仅支持StringList、IntegerList</description>
+      </item>
+      
+      <item>
+        <title>3.组件表设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/3.%E7%BB%84%E4%BB%B6%E8%A1%A8%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/3.%E7%BB%84%E4%BB%B6%E8%A1%A8%E8%AE%BE%E8%AE%A1/</guid>
+        <description>id: wordId # 组件名称，国际化后得到componentName outputs jsonb # 当前组件有哪些输出，基本上一个文本框就算一个输出 params jsonb # 当前组件自己决定怎么使用这</description>
+      </item>
+      
+      <item>
+        <title>4.检查器表设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/4.%E6%A3%80%E6%9F%A5%E5%99%A8%E8%A1%A8%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/4.%E6%A3%80%E6%9F%A5%E5%99%A8%E8%A1%A8%E8%AE%BE%E8%AE%A1/</guid>
+        <description>id wordId # 关联到名次表中的wordId，用来做国际化的，国际化后得到的字段名为checkerName requestUrl # 数据源请求的Url requestBody # 请求体 describe # 该字段使</description>
+      </item>
+      
+      <item>
+        <title>5.表单表设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/5.%E8%A1%A8%E5%8D%95%E8%A1%A8%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E8%A1%A8%E8%AE%BE%E8%AE%A1/5.%E8%A1%A8%E5%8D%95%E8%A1%A8%E8%AE%BE%E8%AE%A1/</guid>
+        <description>id wordId # 关联到名次表中的wordId，用来做国际化的，国际化后得到的字段名为formName formDesignData # 表单设计数据，设计器提交后，前端自动生成该文件</description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>《博文》 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/</link>
+    <description>Recent content in 《博文》 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01.理解Kubernetes中得User Account、Service Account</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/01.%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/01.%E7%90%86%E8%A7%A3kubernetes%E4%B8%AD%E5%BE%97user-accountservice-account/</guid>
+        <description>为Kubernetes集群添加用户 本实验没有达到目标，稍后再整理 User Account应该是被创造出来的概念，我不确定Kubernetes中是否有</description>
+      </item>
+      
+      <item>
+        <title>02.ServiceAccount</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/02.serviceaccount/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/%E5%8D%9A%E6%96%87/02.serviceaccount/</guid>
+        <description>ServiceAccount 当您创建Pod的时候，如果您没有指定一个ServiceAccount，系统会自动得在与该pod相同的namespace下为其指派一个Def</description>
+      </item>
+      
+    
+  </channel>
+</rss>

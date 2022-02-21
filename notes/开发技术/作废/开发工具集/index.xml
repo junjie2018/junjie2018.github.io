@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>开发工具集 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E9%9B%86/</link>
+    <description>Recent content in 开发工具集 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>工具集设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E9%9B%86/%E5%B7%A5%E5%85%B7%E9%9B%86%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E9%9B%86/%E5%B7%A5%E5%85%B7%E9%9B%86%E8%AE%BE%E8%AE%A1/</guid>
+        <description>这是我工具集的设计思路： https://blog.csdn.net/qmhball/article/details/86719671 https://hhbbz.github.io/2019/03/31/jdbcTemplate%E9%AB%98%E6%95%88%E7%8E%87%E8%8E%B7%E5%8F%96%E8%A1%A8%E7%BB%93%E6%9E%84%EF%BC%8C%E6%95%B0%E6%8D%AE%E5%BA%93%E5%85%83%E6%95%B0%E6%8D%AE%E4%BF%A1%E6%81%AF/ https://blog.csdn.net/weixin_38450840/article/details/80812572 https://blog.csdn.net/fzz19960915/article/details/70948553 https://hellosean1025.github.io/yapi/documents/data.html#postman-%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5 https://www.jianshu.com/p/1361f1f43e99 https://blog.csdn.net/wangyijie521/article/details/112844717 https://www.cnblogs.com/hellojesson/p/12109312.html https://blog.csdn.net/wangxiaotongfan/article/details/93498164 https://blog.csdn.net/huangbaokang/article/details/88862791</description>
+      </item>
+      
+    
+  </channel>
+</rss>

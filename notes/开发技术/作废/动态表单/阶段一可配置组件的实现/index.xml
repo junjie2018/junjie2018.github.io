@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>阶段一：可配置组件的实现 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
+    <description>Recent content in 阶段一：可配置组件的实现 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>数据源及检查器的设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E6%95%B0%E6%8D%AE%E6%BA%90%E5%8F%8A%E6%A3%80%E6%9F%A5%E5%99%A8%E7%9A%84%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E6%95%B0%E6%8D%AE%E6%BA%90%E5%8F%8A%E6%A3%80%E6%9F%A5%E5%99%A8%E7%9A%84%E8%AE%BE%E8%AE%A1/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>流程图设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E6%B5%81%E7%A8%8B%E5%9B%BE%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E6%B5%81%E7%A8%8B%E5%9B%BE%E8%AE%BE%E8%AE%A1/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>算法设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>组件选择</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E7%BB%84%E4%BB%B6%E9%80%89%E6%8B%A9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E7%BB%84%E4%BB%B6%E9%80%89%E6%8B%A9/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>1. 组件选择</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/1.-%E7%BB%84%E4%BB%B6%E9%80%89%E6%8B%A9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/1.-%E7%BB%84%E4%BB%B6%E9%80%89%E6%8B%A9/</guid>
+        <description>文本输入框（前后端支持非空、长度、整数、小数、小数位数、数范围校验） 单选下拉框（前后端支持非空、值是否属于正确范围校验） 多选下拉框（前后端支</description>
+      </item>
+      
+    
+  </channel>
+</rss>

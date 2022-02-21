@@ -14,6 +14,15 @@
     
       
       <item>
+        <title>作废</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>tar&amp;gzip</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/targzip/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -68,15 +77,6 @@
       </item>
       
       <item>
-        <title>Linux常用操作</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</guid>
-        <description>md5 指令如下： md5sum 文件名 参考资料 Linux下对文件进行md5校验命令 Shell 变量 Shell —— 变量的声明和使用</description>
-      </item>
-      
-      <item>
         <title>Linux查看所有的环境变量</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -95,30 +95,12 @@
       </item>
       
       <item>
-        <title>Linux端口映射</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/</guid>
-        <description>我不想用iptables、和firewall的方案，因为我对这些工具还不够熟悉，我只想一个小小的工具完成我的工作。最后我找到了socat（话</description>
-      </item>
-      
-      <item>
         <title>Linux设置定时任务</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E8%AE%BE%E7%BD%AE%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/linux%E8%AE%BE%E7%BD%AE%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</guid>
         <description>我开发了一个外卖提醒的脚本，每次运行的时候，会发送一条消息到我们的钉钉群，提醒我们点外卖，我将它放到了我的实验机上。开发的定时任务脚本如下：</description>
-      </item>
-      
-      <item>
-        <title>rdate指令的使用</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/rdate%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/rdate%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
-        <description>过于无用，故作废 这个纯粹是用来玩的。用Netty开发了一个简单的时间服务，然后想用rdate去访问这个服务： rdate -p 192.168.28.118 # 输出 rdate: [192.168.28.118] Sat Aug 21 04:03:48 2021 Net</description>
       </item>
       
       <item>
@@ -140,15 +122,6 @@
       </item>
       
       <item>
-        <title>socks协议转http协议</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/socks%E5%8D%8F%E8%AE%AE%E8%BD%AChttp%E5%8D%8F%E8%AE%AE/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/socks%E5%8D%8F%E8%AE%AE%E8%BD%AChttp%E5%8D%8F%E8%AE%AE/</guid>
-        <description>我的工具监听的是socks协议，socks协议的dns请求仍然会通过原来的网络进行解析，而我们的工具中只能指定socks5://不能指定so</description>
-      </item>
-      
-      <item>
         <title>SSH 配置只允许秘钥登录</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/ssh-%E9%85%8D%E7%BD%AE%E5%8F%AA%E5%85%81%E8%AE%B8%E7%A7%98%E9%92%A5%E7%99%BB%E5%BD%95/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -164,15 +137,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/xshell%E9%80%80%E5%87%BA%E6%97%B6%E5%85%B3%E9%97%AD%E4%BA%86%E9%80%9A%E8%BF%87nohup%E5%90%AF%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
         <description>我也是第一次遇到这种情况，我拿一台虚拟机帮同事开KT Connect的代码，并开启了一个端口转发，如下代码所示： nohup ktctl --namespace=dev connect --method=socks5 --dump2hosts &amp;gt; ktctl.log 2&amp;gt;&amp;amp;1 &amp;amp; nohup polipo -c /opt/polipo/config &amp;gt;</description>
-      </item>
-      
-      <item>
-        <title>不要尝试将一个Linux系统配置成网关服务器</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%B8%8D%E8%A6%81%E5%B0%9D%E8%AF%95%E5%B0%86%E4%B8%80%E4%B8%AAlinux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE%E6%88%90%E7%BD%91%E5%85%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%B8%8D%E8%A6%81%E5%B0%9D%E8%AF%95%E5%B0%86%E4%B8%80%E4%B8%AAlinux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE%E6%88%90%E7%BD%91%E5%85%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
-        <description>我计划自己将一个Linux系统变成路由器。 为什么会有这样奇奇怪怪的需求呢？我原本是计划在J4125那台机器上做虚拟化，然后装OpenWRT外</description>
       </item>
       
       <item>
@@ -230,6 +194,15 @@
       </item>
       
       <item>
+        <title>计算md5值，检测下载内容是否正确</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A1%E7%AE%97md5%E5%80%BC%E6%A3%80%E6%B5%8B%E4%B8%8B%E8%BD%BD%E5%86%85%E5%AE%B9%E6%98%AF%E5%90%A6%E6%AD%A3%E7%A1%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A1%E7%AE%97md5%E5%80%BC%E6%A3%80%E6%B5%8B%E4%B8%8B%E8%BD%BD%E5%86%85%E5%AE%B9%E6%98%AF%E5%90%A6%E6%AD%A3%E7%A1%AE/</guid>
+        <description>md5 指令如下： md5sum 文件名 参考资料 Linux下对文件进行md5校验命令 Shell 变量 Shell —— 变量的声明和使用</description>
+      </item>
+      
+      <item>
         <title>让Shell阻塞一会</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%A9shell%E9%98%BB%E5%A1%9E%E4%B8%80%E4%BC%9A/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -245,15 +218,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E8%AE%BE%E7%BD%AEvim%E7%BC%A9%E8%BF%9B%E4%B8%BA4%E4%B8%AA%E7%A9%BA%E6%A0%BC/</guid>
         <description>拷贝配置文件到家目录： 1 2 3 4 5 6 7 # ubuntu cp /etc/vim/vimrc ~/.vimrc # centos cp /etc/vimrc ~/.vimrc 编辑该配置文件，增加如下内容 set tabstop=4 参考资料 Linux下设置vim的缩进为4个空格</description>
-      </item>
-      
-      <item>
-        <title>通过CoreDNS配置一个DNS服务器</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E9%80%9A%E8%BF%87coredns%E9%85%8D%E7%BD%AE%E4%B8%80%E4%B8%AAdns%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E9%80%9A%E8%BF%87coredns%E9%85%8D%E7%BD%AE%E4%B8%80%E4%B8%AAdns%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
-        <description>参考资料如下，我已经成功配置出来了，但是我其实不需要这个服务： centos7快速安装coreDns</description>
       </item>
       
     

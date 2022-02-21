@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>房间服务 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E6%88%BF%E9%97%B4%E6%9C%8D%E5%8A%A1/</link>
+    <description>Recent content in 房间服务 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E6%88%BF%E9%97%B4%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>tmp</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E6%88%BF%E9%97%B4%E6%9C%8D%E5%8A%A1/tmp/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E6%88%BF%E9%97%B4%E6%9C%8D%E5%8A%A1/tmp/</guid>
+        <description>需求描述 随机或按指定条件将玩家匹配到一起玩游戏。 需求分析 条件可能是由我们玩家指定的，也可能是隐形的。比如我们的游戏有多个模式：双人协作、双人</description>
+      </item>
+      
+      <item>
+        <title>模块的设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E6%88%BF%E9%97%B4%E6%9C%8D%E5%8A%A1/%E6%A8%A1%E5%9D%97%E7%9A%84%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E6%88%BF%E9%97%B4%E6%9C%8D%E5%8A%A1/%E6%A8%A1%E5%9D%97%E7%9A%84%E8%AE%BE%E8%AE%A1/</guid>
+        <description>账户管理Handers主要完成如下目标： 创建账号 修改密码（如果当前账号已经登录了，需要将该账号下线了） 登录游戏（如果当前账号已经登录了，则将</description>
+      </item>
+      
+    
+  </channel>
+</rss>

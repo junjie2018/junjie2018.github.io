@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>个人博客 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 个人博客 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>gitbook常用插件</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/gitbook%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/gitbook%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6/</guid>
+        <description>参考资料 https://segmentfault.com/a/1190000019806829 GitBook - 插件安装 - 弹出查看大图</description>
+      </item>
+      
+      <item>
+        <title>一些灵感</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E4%B8%80%E4%BA%9B%E7%81%B5%E6%84%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E4%B8%80%E4%BA%9B%E7%81%B5%E6%84%9F/</guid>
+        <description>刚才整理笔记的时候，突然迸发出来了一些灵感。如果我想让我的文件管理工具更灵活，我就不应该设计我在什么场景使用它。 可是我又如何实现这个想法呢？</description>
+      </item>
+      
+      <item>
+        <title>博客插件开发计划</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92/</guid>
+        <description>因为时间不是很充裕，且每天的精力有限，我估计这个开发战线会被拉的非常的长。所以我这儿简单的制定一下计划，每日按部就班的完成各种学习、实验和设</description>
+      </item>
+      
+      <item>
+        <title>快速搭建博客开发平台</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%8F%91%E5%B9%B3%E5%8F%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%8F%91%E5%B9%B3%E5%8F%B0/</guid>
+        <description>15号博文 今天到新公司入职，公司电脑的配置不错，所以可能未来很长时间都会使用公司的电脑。 在搭建自己开发环境时，我遇到了一些问题，需要记录在自</description>
+      </item>
+      
+      <item>
+        <title>技术博客整理</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2%E6%95%B4%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2%E6%95%B4%E7%90%86/</guid>
+        <description>美团技术团队</description>
+      </item>
+      
+      <item>
+        <title>新博客方案需求收集</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%96%B0%E5%8D%9A%E5%AE%A2%E6%96%B9%E6%A1%88%E9%9C%80%E6%B1%82%E6%94%B6%E9%9B%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%96%B0%E5%8D%9A%E5%AE%A2%E6%96%B9%E6%A1%88%E9%9C%80%E6%B1%82%E6%94%B6%E9%9B%86/</guid>
+        <description>3.20 博文 这篇博文记录我对博客管理程序的需求： 文件顺序可以任意调整。 我们可以对文件的父级目录进行设置，设置该目录的默认排序方式，按创建时间、修改</description>
+      </item>
+      
+      <item>
+        <title>新博客调整方案</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%96%B0%E5%8D%9A%E5%AE%A2%E8%B0%83%E6%95%B4%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%96%B0%E5%8D%9A%E5%AE%A2%E8%B0%83%E6%95%B4%E6%96%B9%E6%A1%88/</guid>
+        <description>3.20号博文 强迫症如我，根本没有办法满足用脚本来管理自己的博文，在每篇博文中还要加上Head信息，感觉非常的不舒适。 我对自己博客开发系统的</description>
+      </item>
+      
+      <item>
+        <title>旧博客调整方案</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%97%A7%E5%8D%9A%E5%AE%A2%E8%B0%83%E6%95%B4%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%97%A7%E5%8D%9A%E5%AE%A2%E8%B0%83%E6%95%B4%E6%96%B9%E6%A1%88/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>本地博客软件的设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E8%BD%AF%E4%BB%B6%E7%9A%84%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E8%BD%AF%E4%BB%B6%E7%9A%84%E8%AE%BE%E8%AE%A1/</guid>
+        <description>目前已知需求： 打马赛克的插件 图片粘贴工具 图片渲染等重要工具 如果做成插件有哪些有意思的事？更好的和ide配合。将我们所许诺的东西百分百的实现。</description>
+      </item>
+      
+    
+  </channel>
+</rss>

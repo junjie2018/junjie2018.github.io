@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>动态表单算法设计 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</link>
+    <description>Recent content in 动态表单算法设计 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>jsonStructure生成算法（待完成）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/jsonstructure%E7%94%9F%E6%88%90%E7%AE%97%E6%B3%95%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/jsonstructure%E7%94%9F%E6%88%90%E7%AE%97%E6%B3%95%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
+        <description>需要说明的是，我目前考虑的是：只支持为三种结构的json自动生成数据源和检查源，这三种json如下： # 适用于简单的下拉框 [&amp;quot;&amp;quot;,&amp;quot;&amp;quot;,&amp;quot;&amp;quot;] # 适用于二级联动的</description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>动态表单页面设计 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/</link>
+    <description>Recent content in 动态表单页面设计 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>1.表单管理页设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/1.%E8%A1%A8%E5%8D%95%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/1.%E8%A1%A8%E5%8D%95%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</guid>
+        <description>表单列表页 页面功能 创建：打开表单设计器页，设计一张新的表单 按表单名称查询：按照名称查找表单。 按属性查询：按照名称查找表单（开发需要用到）。 按</description>
+      </item>
+      
+      <item>
+        <title>2.数据源管理页设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/2.%E6%95%B0%E6%8D%AE%E6%BA%90%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/2.%E6%95%B0%E6%8D%AE%E6%BA%90%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</guid>
+        <description>数据源列表页 页面功能 添加数据源：打开表单设计器页，设计一张新的表单 按数据源名称+语言进行搜索：语言默认为当前页面语言，用户可以指定其他语言。</description>
+      </item>
+      
+      <item>
+        <title>3.检查器管理页设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/3.%E6%A3%80%E6%9F%A5%E5%99%A8%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/3.%E6%A3%80%E6%9F%A5%E5%99%A8%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>4.RawData管理页设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/4.rawdata%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/4.rawdata%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>5.名词管理页设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/5.%E5%90%8D%E8%AF%8D%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/5.%E5%90%8D%E8%AF%8D%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>6.属性管理页设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/6.%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/6.%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86%E9%A1%B5%E8%AE%BE%E8%AE%A1/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>7.表单设计器页设计（非常重要）</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/7.%E8%A1%A8%E5%8D%95%E8%AE%BE%E8%AE%A1%E5%99%A8%E9%A1%B5%E8%AE%BE%E8%AE%A1%E9%9D%9E%E5%B8%B8%E9%87%8D%E8%A6%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/7.%E8%A1%A8%E5%8D%95%E8%AE%BE%E8%AE%A1%E5%99%A8%E9%A1%B5%E8%AE%BE%E8%AE%A1%E9%9D%9E%E5%B8%B8%E9%87%8D%E8%A6%81/</guid>
+        <description>如下为一个表单设计器的草图（不是最新版） 区域有： 组件库区域 表单 目前收集的区域</description>
+      </item>
+      
+      <item>
+        <title>8.统计数据页设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/8.%E7%BB%9F%E8%AE%A1%E6%95%B0%E6%8D%AE%E9%A1%B5%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1/8.%E7%BB%9F%E8%AE%A1%E6%95%B0%E6%8D%AE%E9%A1%B5%E8%AE%BE%E8%AE%A1/</guid>
+        <description>对表单的统计 表单总校验次数：xxx次 表单校验成功次数：xxx次 具体某个表单的检验次数： formId、formName、validateCou</description>
+      </item>
+      
+    
+  </channel>
+</rss>

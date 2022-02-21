@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HeadlessService on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/headlessservice/</link>
+    <description>Recent content in HeadlessService on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/headlessservice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>00.Headless Service的初步研究</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/headlessservice/00.headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/headlessservice/00.headless-service%E7%9A%84%E5%88%9D%E6%AD%A5%E7%A0%94%E7%A9%B6/</guid>
+        <description>今天看一篇关于如何在Kubernetes中搭建Redis集群的博文时，看到了如下关于Headless Service的描述： 简单的说，Head</description>
+      </item>
+      
+      <item>
+        <title>01.CoreDNS的一些知识（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/headlessservice/01.coredns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/headlessservice/01.coredns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86%E5%BA%9F%E5%BC%83/</guid>
+        <description>resolv.conf resolv.conf是解析器配置文件，其中包含如下内容： nameserver：将DNS查询转发到的位置。 search：表示特定域的搜索路</description>
+      </item>
+      
+      <item>
+        <title>02.关于Headless Service的一些实验（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/headlessservice/02.%E5%85%B3%E4%BA%8Eheadless-service%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AE%9E%E9%AA%8C%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/headlessservice/02.%E5%85%B3%E4%BA%8Eheadless-service%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AE%9E%E9%AA%8C%E5%BA%9F%E5%BC%83/</guid>
+        <description>在我的环境中，base-environment下有相应Service和HeadlessService可以用来实验，所以我计划在该命名空间下进</description>
+      </item>
+      
+    
+  </channel>
+</rss>

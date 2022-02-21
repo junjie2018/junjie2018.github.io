@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作废 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/</link>
+    <description>Recent content in 作废 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Linux端口映射</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/linux%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/linux%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/</guid>
+        <description>需求很少，且需要的时候，更多的是直接谷歌，故作废该笔记 我不想用iptables、和firewall的方案，因为我对这些工具还不够熟悉，我只想</description>
+      </item>
+      
+      <item>
+        <title>rdate指令的使用</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/rdate%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/rdate%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>过于无用，故作废 这个纯粹是用来玩的。用Netty开发了一个简单的时间服务，然后想用rdate去访问这个服务： rdate -p 192.168.28.118 # 输出 rdate: [192.168.28.118] Sat Aug 21 04:03:48 2021 Net</description>
+      </item>
+      
+      <item>
+        <title>socks协议转http协议</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/socks%E5%8D%8F%E8%AE%AE%E8%BD%AChttp%E5%8D%8F%E8%AE%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/socks%E5%8D%8F%E8%AE%AE%E8%BD%AChttp%E5%8D%8F%E8%AE%AE/</guid>
+        <description>需求很少的，作废该笔记了 我的工具监听的是socks协议，socks协议的dns请求仍然会通过原来的网络进行解析，而我们的工具中只能指定soc</description>
+      </item>
+      
+      <item>
+        <title>不要尝试将一个Linux系统配置成网关服务器</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/%E4%B8%8D%E8%A6%81%E5%B0%9D%E8%AF%95%E5%B0%86%E4%B8%80%E4%B8%AAlinux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE%E6%88%90%E7%BD%91%E5%85%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/%E4%B8%8D%E8%A6%81%E5%B0%9D%E8%AF%95%E5%B0%86%E4%B8%80%E4%B8%AAlinux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE%E6%88%90%E7%BD%91%E5%85%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+        <description>不会有这种想法了，故作废 我计划自己将一个Linux系统变成路由器。 为什么会有这样奇奇怪怪的需求呢？我原本是计划在J4125那台机器上做虚拟化</description>
+      </item>
+      
+      <item>
+        <title>通过CoreDNS配置一个DNS服务器</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/%E9%80%9A%E8%BF%87coredns%E9%85%8D%E7%BD%AE%E4%B8%80%E4%B8%AAdns%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/linux/%E4%BD%9C%E5%BA%9F/%E9%80%9A%E8%BF%87coredns%E9%85%8D%E7%BD%AE%E4%B8%80%E4%B8%AAdns%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+        <description>OpenWRT上存在一个现成的DNS服务，我可以直接使用它，故作废该笔记 参考资料如下，我已经成功配置出来了，但是我其实不需要这个服务： cen</description>
+      </item>
+      
+    
+  </channel>
+</rss>

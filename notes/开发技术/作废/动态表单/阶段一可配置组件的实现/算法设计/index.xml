@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>算法设计 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</link>
+    <description>Recent content in 算法设计 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>rawData数据源如何工作</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/rawdata%E6%95%B0%E6%8D%AE%E6%BA%90%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/rawdata%E6%95%B0%E6%8D%AE%E6%BA%90%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C/</guid>
+        <description>t_raw_data id rawData # 用户提交的json数据 transferData # 根据langKey转换后的json数据 jsonStructure # 当前json的结构 t_datasource id # 自增主键 name # 数据源的名称全局唯一 type # 取值</description>
+      </item>
+      
+      <item>
+        <title>rawData检查器如何工作</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/rawdata%E6%A3%80%E6%9F%A5%E5%99%A8%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95/%E9%98%B6%E6%AE%B5%E4%B8%80%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/rawdata%E6%A3%80%E6%9F%A5%E5%99%A8%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C/</guid>
+        <description></description>
+      </item>
+      
+    
+  </channel>
+</rss>
