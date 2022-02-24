@@ -14,15 +14,6 @@
     
       
       <item>
-        <title>基础环境</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/</guid>
-        <description></description>
-      </item>
-      
-      <item>
         <title>笔记</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -56,6 +47,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E5%AE%89%E8%A3%85helm%E5%BA%9F%E5%BC%83/</guid>
         <description>下载二进制文件，并解压二进制文件 tar -zxvf helm-v3.5.4-linux-amd64.tar.gz 将二进制文件移动$PATH目录下 mv linux-amd64/helm /usr/local/bin/helm Helm常用指令 添加一个chart仓库，并查看charts列表 helm</description>
+      </item>
+      
+      <item>
+        <title>方案</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/</guid>
+        <description></description>
       </item>
       
       <item>

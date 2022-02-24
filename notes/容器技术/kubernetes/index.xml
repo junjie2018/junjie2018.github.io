@@ -500,6 +500,15 @@
       </item>
       
       <item>
+        <title>自建wireguard镜像，在k8s中运行时一直提示`wg0&#39; already exists</title>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E8%87%AA%E5%BB%BAwireguard%E9%95%9C%E5%83%8F%E5%9C%A8k8s%E4%B8%AD%E8%BF%90%E8%A1%8C%E6%97%B6%E4%B8%80%E7%9B%B4%E6%8F%90%E7%A4%BAwg0-already-exists/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E8%87%AA%E5%BB%BAwireguard%E9%95%9C%E5%83%8F%E5%9C%A8k8s%E4%B8%AD%E8%BF%90%E8%A1%8C%E6%97%B6%E4%B8%80%E7%9B%B4%E6%8F%90%E7%A4%BAwg0-already-exists/</guid>
+        <description>我花了很长时间思考这个问题，但是答案确实非常搞笑。因为我在容器启动后运行了wg-quick up wg0，但这不是一条阻塞指令，所以容器在运行完成</description>
+      </item>
+      
+      <item>
         <title>获取将Node加入到集群中的指令</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E8%8E%B7%E5%8F%96%E5%B0%86node%E5%8A%A0%E5%85%A5%E5%88%B0%E9%9B%86%E7%BE%A4%E4%B8%AD%E7%9A%84%E6%8C%87%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

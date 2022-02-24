@@ -14,12 +14,30 @@
     
       
       <item>
+        <title>Anaconda创建环境并激活环境</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/anaconda%E5%88%9B%E5%BB%BA%E7%8E%AF%E5%A2%83%E5%B9%B6%E6%BF%80%E6%B4%BB%E7%8E%AF%E5%A2%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/anaconda%E5%88%9B%E5%BB%BA%E7%8E%AF%E5%A2%83%E5%B9%B6%E6%BF%80%E6%B4%BB%E7%8E%AF%E5%A2%83/</guid>
+        <description>指令如下： conda create --name python38 python=2.7 conda active python38</description>
+      </item>
+      
+      <item>
         <title>Ubuntu安装Anaconda3</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/ubuntu%E5%AE%89%E8%A3%85anaconda3/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/ubuntu%E5%AE%89%E8%A3%85anaconda3/</guid>
         <description>如图官网下载脚本文件： 然后执行如下代码（一路默认）： bash Anaconda3-2021.05-Linux-x86_64.sh 最后的最后，执行下如下代码： source ~/.bashrc 参考资料 Ubuntu18.04 安装 Anaconda3 简单参考了一下，看看该下载那个文件。</description>
+      </item>
+      
+      <item>
+        <title>使用Anaconda遇到的一些问题</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/%E4%BD%BF%E7%94%A8anaconda%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/%E4%BD%BF%E7%94%A8anaconda%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</guid>
+        <description>安装Anaconda的时候，我只修改了一些安装路径，其他选项都操持了默认。结果完成安装后，我发现我输入conda --version没有任何反</description>
       </item>
       
     
