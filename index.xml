@@ -69,15 +69,6 @@
       </item>
       
       <item>
-        <title>001.Python可以用来做什么</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/001.python%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E5%81%9A%E4%BB%80%E4%B9%88/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/001.python%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E5%81%9A%E4%BB%80%E4%B9%88/</guid>
-        <description>系统编程 图形用户界面（GUI） Internet脚本 组件继承 数据库编程 快速原型 数值计算和科学计算编程 更多内容：游戏、图像、数据挖掘、机器人、E</description>
-      </item>
-      
-      <item>
         <title>001.Redis于Memcached的对比</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/001.redis%E4%BA%8Ememcached%E7%9A%84%E5%AF%B9%E6%AF%94/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -105,30 +96,12 @@
       </item>
       
       <item>
-        <title>002.第01章习题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/002.%E7%AC%AC01%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/002.%E7%AC%AC01%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
-        <description>1.人们选择Python的6个主要原因是什么？ 软件质量、开发者效率、程序可移植性、组件集成和编码乐趣，其中软件质量和效率这两条是人们选择Py</description>
-      </item>
-      
-      <item>
         <title>003.Redis中得数据类型，及支持的操作</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/003.redis%E4%B8%AD%E5%BE%97%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%94%AF%E6%8C%81%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/003.redis%E4%B8%AD%E5%BE%97%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%94%AF%E6%8C%81%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
         <description>STRING 对整个字符串或者字符串中的其中一部分执行操作，对整数、浮点数执行自增或者自减操作。 SET GET DEL LIST 从链表的两端推入或者弹出元素；根据偏移量对链表进</description>
-      </item>
-      
-      <item>
-        <title>003.字节码编译</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/003.%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E8%AF%91/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/003.%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E8%AF%91/</guid>
-        <description>如果Python进程在机器上拥有写入权限，那么它将把程序的字节码保存为一个以pyc为扩展名的文件（&amp;quot;.pyc&amp;quot;就是编译过</description>
       </item>
       
       <item>
@@ -159,39 +132,12 @@
       </item>
       
       <item>
-        <title>004.第02章习题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/004.%E7%AC%AC02%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/004.%E7%AC%AC02%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
-        <description>5.请列举两个或多个Python标准执行模型的变体的名字。 Psyco、Shed Skin以及冻结二进制文件都是执行模型的变体。CPython、</description>
-      </item>
-      
-      <item>
         <title>005.Redis在一个购物网站中的应用</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/005.redis%E5%9C%A8%E4%B8%80%E4%B8%AA%E8%B4%AD%E7%89%A9%E7%BD%91%E7%AB%99%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/005.redis%E5%9C%A8%E4%B8%80%E4%B8%AA%E8%B4%AD%E7%89%A9%E7%BD%91%E7%AB%99%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
         <description>Token 书中这块设计描述的有点乱，整理候结果如下： 书中记录Token采用的是Hash结构，而我们生产中使用的是String结构。书中用一个类型为H</description>
-      </item>
-      
-      <item>
-        <title>005.简单理解Python中的模块</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/005.%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3python%E4%B8%AD%E7%9A%84%E6%A8%A1%E5%9D%97/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/005.%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3python%E4%B8%AD%E7%9A%84%E6%A8%A1%E5%9D%97/</guid>
-        <description>用简单的术语来讲，每一个以扩展名.py结尾的Python源代码文件都是一个模块。不需要任何特殊的代码或语法来使文件成为模块：任何何这样的文件</description>
-      </item>
-      
-      <item>
-        <title>006.Python的内置对象</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/006.python%E7%9A%84%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/006.python%E7%9A%84%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1/</guid>
-        <description>数字 字符串 列表 字典 元祖 文件 集合 其他核心类型：类型、None、布尔型 程序单元类型：函数、模块、类 Python实现相关类型：已编译代码、调用栈跟</description>
       </item>
       
       <item>
@@ -213,39 +159,12 @@
       </item>
       
       <item>
-        <title>007.第26章习题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/007.%E7%AC%AC26%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/007.%E7%AC%AC26%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
-        <description>1.Python的POP的主要的意义是什么？ OOP是关于代码重用：通过分解代码、最小化代码的冗余以及对已有代码进行定制来编写程序，而不是原处</description>
-      </item>
-      
-      <item>
         <title>008.不考虑使用Redis的发布和订阅模式的原因</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/008.%E4%B8%8D%E8%80%83%E8%99%91%E4%BD%BF%E7%94%A8redis%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/008.%E4%B8%8D%E8%80%83%E8%99%91%E4%BD%BF%E7%94%A8redis%E7%9A%84%E5%8F%91%E5%B8%83%E5%92%8C%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
         <description>第一个原因和Redis系统的稳定性有关。对于旧版Redis来说，如果一个客户端订阅了某个或某些频道，但它读取消息的速度却不够快的话，那么不断</description>
-      </item>
-      
-      <item>
-        <title>008.第27章习题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/008.%E7%AC%AC27%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/008.%E7%AC%AC27%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
-        <description>1.类和模块之间有什么联系？ 类总是位于模块中。类是模块对象的属性。类和模块都是命名空间，但类对应于语句（而不是整个文件），而且支持多个实例、</description>
-      </item>
-      
-      <item>
-        <title>009.__str__与__repr__</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/009.__str__%E4%B8%8E__repr__/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/009.__str__%E4%B8%8E__repr__/</guid>
-        <description>从技术上来讲，__str__被print和str调用所青睐，而__repr__被当做__str__的一种退路以及在其他的上下文中。尽管两者被</description>
       </item>
       
       <item>
@@ -264,15 +183,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/headlessservice/01.coredns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86%E5%BA%9F%E5%BC%83/</guid>
         <description>resolv.conf resolv.conf是解析器配置文件，其中包含如下内容： nameserver：将DNS查询转发到的位置。 search：表示特定域的搜索路</description>
-      </item>
-      
-      <item>
-        <title>01.Helm与Kubernetes集群交互</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/01.helm%E4%B8%8Ekubernetes%E9%9B%86%E7%BE%A4%E4%BA%A4%E4%BA%92/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/01.helm%E4%B8%8Ekubernetes%E9%9B%86%E7%BE%A4%E4%BA%A4%E4%BA%92/</guid>
-        <description>Helm直接与Kubernetes API服务器交互。因此，Helm需要能够连接到Kubernetes集群。Helm试图通过读取kubectl</description>
       </item>
       
       <item>
@@ -295,10 +205,10 @@
       
       <item>
         <title>01.安装Helm</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/01.%E5%AE%89%E8%A3%85helm/</link>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/01.%E5%AE%89%E8%A3%85helm/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/01.%E5%AE%89%E8%A3%85helm/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/01.%E5%AE%89%E8%A3%85helm/</guid>
         <description>使用的指令如下： 1 2 3 4 5 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 chmod 700 get_helm.sh ./get_helm.sh 参考资料 安装Helm</description>
       </item>
       
@@ -339,30 +249,12 @@
       </item>
       
       <item>
-        <title>010.第28章习题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/010.%E7%AC%AC28%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/010.%E7%AC%AC28%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
-        <description>1.当我们从shelve获取一个Manager对象并打印它的时候，显示格式逻辑来自何处？ 在类的最终版本中，Manager最终从另一个clas</description>
-      </item>
-      
-      <item>
         <title>011.日志聚合、页面浏览量分析时对Redis的应用</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/011.%E6%97%A5%E5%BF%97%E8%81%9A%E5%90%88%E9%A1%B5%E9%9D%A2%E6%B5%8F%E8%A7%88%E9%87%8F%E5%88%86%E6%9E%90%E6%97%B6%E5%AF%B9redis%E7%9A%84%E5%BA%94%E7%94%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/011.%E6%97%A5%E5%BF%97%E8%81%9A%E5%90%88%E9%A1%B5%E9%9D%A2%E6%B5%8F%E8%A7%88%E9%87%8F%E5%88%86%E6%9E%90%E6%97%B6%E5%AF%B9redis%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
         <description>首先要确认自己能丢失多长时间的数据，如果可以丢失一小时内产生的数据，可以使用save 3600 1。 其次在进行数据恢复时，要搞清楚我们丢失了哪些数据。</description>
-      </item>
-      
-      <item>
-        <title>011.第29章习题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/011.%E7%AC%AC29%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/011.%E7%AC%AC29%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
-        <description>1.什么是抽象父类？ 抽象类是调用了一个方法，但却没有继承或定义该方法的类。抽象类预期该方法由子类填补。在具体行为只有当一个特定子类被编写时才</description>
       </item>
       
       <item>
@@ -375,15 +267,6 @@
       </item>
       
       <item>
-        <title>012.理解Python中迭代的一些知识</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/012.%E7%90%86%E8%A7%A3python%E4%B8%AD%E8%BF%AD%E4%BB%A3%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/012.%E7%90%86%E8%A7%A3python%E4%B8%AD%E8%BF%AD%E4%BB%A3%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
-        <description>从技术角度来讲，迭代上下文是通过将一个可迭代对象传入内置函数iter，并尝试调用_iter_方法来实现的，而这种方法应该返回一个迭代器对象。</description>
-      </item>
-      
-      <item>
         <title>013.Redis的主从复制</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/013.redis%E7%9A%84%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -393,57 +276,12 @@
       </item>
       
       <item>
-        <title>013.初次接触生成器函数</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/013.%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6%E7%94%9F%E6%88%90%E5%99%A8%E5%87%BD%E6%95%B0/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/013.%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6%E7%94%9F%E6%88%90%E5%99%A8%E5%87%BD%E6%95%B0/</guid>
-        <description>任何包含yield语句的函数都被转换成了一个生成器函数。当被调用时，它返回一个新的生成器对象，并自动记录局部作用域与代码位置。一个被自动创建</description>
-      </item>
-      
-      <item>
         <title>014.Redis事务案例研究</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/014.redis%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B%E7%A0%94%E7%A9%B6/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/redis%E5%AE%9E%E6%88%98/014.redis%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B%E7%A0%94%E7%A9%B6/</guid>
         <description>用户及用户包裹的数据结构如下： 市场的数据结构如下： 商品上架 为了将商品放到市场上进行销售，程序除了要使用MULTI命令和EXEC命令之外，还需</description>
-      </item>
-      
-      <item>
-        <title>014.第30章习题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/014.%E7%AC%AC30%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/014.%E7%AC%AC30%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
-        <description>1.哪两种运算符重载方法可以支持类中的迭代？ __getitem__、__iter__ 2.哪两种运算符重载方法用于处理打印，并且分别在哪些场景</description>
-      </item>
-      
-      <item>
-        <title>015.第31章习题</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/015.%E7%AC%AC31%E7%AB%A0%E4%B9%A0%E9%A2%98/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/015.%E7%AC%AC31%E7%AB%A0%E4%B9%A0%E9%A2%98/</guid>
-        <description>1.什么是多继承？ 当类从一个以上的父类中继承时，就发生了多继承。把多个类代码的包混合在一起是十分有用的。在class语句头部的从左至右的顺序</description>
-      </item>
-      
-      <item>
-        <title>016.两端不是很理解的代码</title>
-        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/016.%E4%B8%A4%E7%AB%AF%E4%B8%8D%E6%98%AF%E5%BE%88%E7%90%86%E8%A7%A3%E7%9A%84%E4%BB%A3%E7%A0%81/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E7%AC%94%E8%AE%B0/python%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C/016.%E4%B8%A4%E7%AB%AF%E4%B8%8D%E6%98%AF%E5%BE%88%E7%90%86%E8%A7%A3%E7%9A%84%E4%BB%A3%E7%A0%81/</guid>
-        <description>这两段代码都可以抑制警告，但是我不知道其中的原理。 1 2 3 4 5 6 7 8 9 10 import requests from requests.packages import urllib3 urllib3.disable_warnings() response = requests.get(&amp;#39;https://192.168.19.10:38080&amp;#39;, verify=False) print(response.text) 1 2 3 4 5 6 7 8 9 import requests, logging logging.captureWarnings(True) response = requests.get(&amp;#39;https://192.168.19.10:38080&amp;#39;, verify=False) print(response.text)</description>
-      </item>
-      
-      <item>
-        <title>02.Helm最常见的工作流程</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/02.helm%E6%9C%80%E5%B8%B8%E8%A7%81%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/02.helm%E6%9C%80%E5%B8%B8%E8%A7%81%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/</guid>
-        <description>Helm最常见的工作流程： 添加Chart存储库 查找要安装的Chart 安装Helm Chart 查看安装内容列表 升级安装 删除安装 添加Chart存储库 1 2 3</description>
       </item>
       
       <item>
@@ -475,10 +313,10 @@
       
       <item>
         <title>02.安装IngressNginx</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/02.%E5%AE%89%E8%A3%85ingressnginx/</link>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/02.%E5%AE%89%E8%A3%85ingressnginx/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/02.%E5%AE%89%E8%A3%85ingressnginx/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/02.%E5%AE%89%E8%A3%85ingressnginx/</guid>
         <description>仓库 1 2 3 4 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx helm repo update 获取默认的Values.yaml，并反复调试 helm inspect values ingress-nginx/ingress-nginx &amp;gt; values.yaml helm install ingress-nginx ingress-nginx/ingress-nginx \ --values values.yaml \ --namespace base \ --create-namespace \ --dry-run &amp;gt; tmp.yaml 安装服务 helm install ingress-nginx ingress-nginx/ingress-nginx \ --values values.yaml \</description>
       </item>
       
@@ -520,10 +358,10 @@
       
       <item>
         <title>03.安装nfs-provisioner</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/03.%E5%AE%89%E8%A3%85nfs-provisioner/</link>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85nfs-provisioner/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/03.%E5%AE%89%E8%A3%85nfs-provisioner/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85nfs-provisioner/</guid>
         <description>仓库 1 2 3 helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/ 获取默认的Values.yaml，并反复调试 helm inspect values nfs-subdir-external-provisioner/nfs-subdir-external-provisioner &amp;gt; values.yaml helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner \ --values values.yaml \ --namespace base \ --create-namespace \ --dry-run &amp;gt; tmp.yaml 安装服务 helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner \ --values values.yaml \ --namespace base \ --create-namespace</description>
       </item>
       
@@ -574,20 +412,11 @@
       
       <item>
         <title>04.安装Redis</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/04.%E5%AE%89%E8%A3%85redis/</link>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/04.%E5%AE%89%E8%A3%85redis/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/</guid>
         <description>仓库 1 2 helm repo add bitnami https://charts.bitnami.com/bitnami 获取默认的Values.yaml，并反复调试 helm inspect values bitnami/redis &amp;gt; values.yaml helm install redis bitnami/redis \ --values values.yaml \ --namespace base \ --create-namespace \ --dry-run &amp;gt; tmp.yaml 安装服务 1 2 3 4 5 6 7 8 9 10 11 12 #</description>
-      </item>
-      
-      <item>
-        <title>04.模板和试运行</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/04.%E6%A8%A1%E6%9D%BF%E5%92%8C%E8%AF%95%E8%BF%90%E8%A1%8C/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/04.%E6%A8%A1%E6%9D%BF%E5%92%8C%E8%AF%95%E8%BF%90%E8%A1%8C/</guid>
-        <description>当Helm安装一个发行版时，程序会经历几个阶段。它加载Chart，解析传递给程序的值，读取Chart元数据，等等。大约在这个过程的中间，He</description>
       </item>
       
       <item>
@@ -597,15 +426,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/</guid>
         <description># 阻塞 BZPOPMIN key [key ...] BZPOPMAX key [key ...] BZPOP timeout numkeys key [key ...] MIN|MAX [COUNT count] # 针对分数的操作 ZPOPMIN key min max ZPOPMAX key [count] ZMPOP numkeys key [key ...] ZLEXCOUNT key min max ZADD key [NX|XX] [GT|LT] [CH] [INCR] score member [score member ...] ZCARD key ZCOUNT key min max ZSCAN ZINCREBY key increment member ZSCORE ZMSCORE ZRANGE ZRANGESTORE</description>
-      </item>
-      
-      <item>
-        <title>05.发布记录</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/05.%E5%8F%91%E5%B8%83%E8%AE%B0%E5%BD%95/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/05.%E5%8F%91%E5%B8%83%E8%AE%B0%E5%BD%95/</guid>
-        <description>发布记录以Secret存储在Kubernetes中，以便同一集群的不同用户可以访问相同的发布信息。 在某个发布版的生命周期中，可以经历几个不同</description>
       </item>
       
       <item>
@@ -619,11 +439,11 @@
       
       <item>
         <title>05.安装MariaDB（待完成）</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/05.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</link>
+        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/05.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/05.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
-        <description></description>
+        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/05.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</guid>
+        <description>指令如下： helm inspect values bitnami/mariadb &amp;gt; values.yaml helm install mariadb bitnami/mariadb \ --values values.yaml \ --namespace base \ --create-namespace</description>
       </item>
       
       <item>
@@ -645,15 +465,6 @@
       </item>
       
       <item>
-        <title>06.使用helm get查找发布的详细信息</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/06.%E4%BD%BF%E7%94%A8helm-get%E6%9F%A5%E6%89%BE%E5%8F%91%E5%B8%83%E7%9A%84%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/06.%E4%BD%BF%E7%94%A8helm-get%E6%9F%A5%E6%89%BE%E5%8F%91%E5%B8%83%E7%9A%84%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF/</guid>
-        <description>helm get有5个子命令（hooks、manifests、notes、values和all）。每个子命令都会检索某个版本的Helm跟踪信息的某些</description>
-      </item>
-      
-      <item>
         <title>06.安装RocketMQ（待完成）</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/06.%E5%AE%89%E8%A3%85rocketmq%E5%BE%85%E5%AE%8C%E6%88%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -669,15 +480,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/06.%E6%96%B0%E6%96%B9%E6%A1%88%E6%90%AD%E5%BB%BAddns/</guid>
         <description>Cloudflare上随便为自己的域名创建一条A记录 安装如下软件： opkg update opkg install bind-host opkg install ddns-scripts opkg install ddns-scripts-cloudflare opkg install luci-app-ddns opkg install luci-i18n-ddns-zh-cn 进行如下配置，配置后注意要启动： 配置完成</description>
-      </item>
-      
-      <item>
-        <title>07.历史记录和回滚</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/07.%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%E5%92%8C%E5%9B%9E%E6%BB%9A/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/07.%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%E5%92%8C%E5%9B%9E%E6%BB%9A/</guid>
-        <description>指令如下： 1 2 3 4 5 helm history mysite helm rollback mysite 2 针对Helm管理的资源，如果进行手工编辑，可能会引发一些问题，我懒得花费精力去了解这些问题的细节，所以我决</description>
       </item>
       
       <item>
@@ -717,15 +519,6 @@
       </item>
       
       <item>
-        <title>08.安装和升级</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/08.%E5%AE%89%E8%A3%85%E5%92%8C%E5%8D%87%E7%BA%A7/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/08.%E5%AE%89%E8%A3%85%E5%92%8C%E5%8D%87%E7%BA%A7/</guid>
-        <description>&amp;ndash;generate-name 和 &amp;ndash;name-template --generate-name标识的用法如下： 1 2 3 4 helm install bitnami/wordpress --generate-name helm install bitnami/wordpress --generate-name --name-template &amp;#34;foo-{{randAlpha 9| lower}}&amp;#34; 使用--generate name标志，我们不再需要提供名</description>
-      </item>
-      
-      <item>
         <title>08.理解字段选择器</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/08.%E7%90%86%E8%A7%A3%E5%AD%97%E6%AE%B5%E9%80%89%E6%8B%A9%E5%99%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -741,15 +534,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/09.%E5%AE%B9%E5%99%A8%E6%8B%89%E5%8F%96%E9%95%9C%E5%83%8F%E8%A7%84%E5%88%99/</guid>
         <description>imagePullPolicy和image tag可能的取值可能会影响到kubelet如何拉取镜像： IfNotPresent：仅在节点上没有该</description>
-      </item>
-      
-      <item>
-        <title>09.开发自己的Chart</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/09.%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84chart/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/09.%E5%BC%80%E5%8F%91%E8%87%AA%E5%B7%B1%E7%9A%84chart/</guid>
-        <description>执行如下指令创建一个chart，该chart包含所有必需的chart结构和文件。 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 helm create anvil tree anvil # anvil # ├──</description>
       </item>
       
       <item>
@@ -816,15 +600,6 @@
       </item>
       
       <item>
-        <title>10.Chart归档</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/10.chart%E5%BD%92%E6%A1%A3/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/10.chart%E5%BD%92%E6%A1%A3/</guid>
-        <description>指令如下： helm package anvil &amp;ndash;dependency-update &amp;ndash;destination &amp;ndash;app-version &amp;ndash;version 可以使用.helmignore文件，指出让一些不希望被包含在chart归档文件的文件或文件夹。 .git/ .gitignore .bzr/ .bzignore</description>
-      </item>
-      
-      <item>
         <title>10.postStart和preStop</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/10.poststart%E5%92%8Cprestop/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -840,24 +615,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/11.pod%E6%8F%90%E4%BE%9B%E7%9A%84%E4%B8%A4%E7%A7%8D%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%85%B1%E4%BA%AB%E8%B5%84%E6%BA%90/</guid>
         <description>Pod为其成员容器提供了两种类型的共享资料：网络和存储。 网络 每一个Pod被分配一个独立的IP地址。Pod中的所有容器共享一个网络名称空间： 同</description>
-      </item>
-      
-      <item>
-        <title>11.代码校验器</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/11.%E4%BB%A3%E7%A0%81%E6%A0%A1%E9%AA%8C%E5%99%A8/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/11.%E4%BB%A3%E7%A0%81%E6%A0%A1%E9%AA%8C%E5%99%A8/</guid>
-        <description>代码如下： helm lint anvil helm lint anvil mychart</description>
-      </item>
-      
-      <item>
-        <title>12.GO模板系统的一些知识点</title>
-        <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/12.go%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86%E7%82%B9/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E7%AC%94%E8%AE%B0/helm%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/12.go%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86%E7%82%B9/</guid>
-        <description>逻辑、控制结构和数据计算用{{和}}包装，这些被称为动作，动作之外的任何内容都将被复制到输出。 当花括号用于启动和停止动作时，可以用减号来删除</description>
       </item>
       
       <item>
