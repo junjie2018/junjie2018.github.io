@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作废 on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E4%BD%9C%E5%BA%9F/</link>
+    <description>Recent content in 作废 on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E4%BD%9C%E5%BA%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Node.js install总是失败的问题（作废）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E4%BD%9C%E5%BA%9F/node.js-install%E6%80%BB%E6%98%AF%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98%E4%BD%9C%E5%BA%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E4%BD%9C%E5%BA%9F/node.js-install%E6%80%BB%E6%98%AF%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98%E4%BD%9C%E5%BA%9F/</guid>
+        <description>我决定使用nvm技术，故作废该笔记 问题描述 C:\Users\wujj\Desktop\ElectronProject&amp;gt;npm install electron --save (node:14808) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to &#39;0&#39; makes TLS connections and HTTPS requests insecure by disabling certificate verification. (Use `node --trace-warnings ...` to show where the warning was created) &amp;gt; core-js@3.9.1 postinstall C:\Users\wujj\Desktop\ElectronProject\node_modules\core-js &amp;gt; node -e &amp;quot;try{require(&#39;./postinstall&#39;)}catch(e){}&amp;quot; &amp;gt; electron@12.0.2 postinstall C:\Users\wujj\Desktop\ElectronProject\node_modules\electron &amp;gt; node</description>
+      </item>
+      
+      <item>
+        <title>NodeSource存储库安装Node.js和npm（作废）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E4%BD%9C%E5%BA%9F/nodesource%E5%AD%98%E5%82%A8%E5%BA%93%E5%AE%89%E8%A3%85node.js%E5%92%8Cnpm%E4%BD%9C%E5%BA%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E4%BD%9C%E5%BA%9F/nodesource%E5%AD%98%E5%82%A8%E5%BA%93%E5%AE%89%E8%A3%85node.js%E5%92%8Cnpm%E4%BD%9C%E5%BA%9F/</guid>
+        <description>我在Debain上使用默认的库安装Node.js，版本过低，报npm冲突了。所以我不得不寻找其他的安装方法。 我最终使用的指令如下： 1 2 3 4 curl</description>
+      </item>
+      
+      <item>
+        <title>将Node.js安装在CentOS上（作废）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E4%BD%9C%E5%BA%9F/%E5%B0%86node.js%E5%AE%89%E8%A3%85%E5%9C%A8centos%E4%B8%8A%E4%BD%9C%E5%BA%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E4%BD%9C%E5%BA%9F/%E5%B0%86node.js%E5%AE%89%E8%A3%85%E5%9C%A8centos%E4%B8%8A%E4%BD%9C%E5%BA%9F/</guid>
+        <description>我决定使用nvm技术，故作废该笔记 我测试工具用的，所以细节处没有太讲究： 1 2 3 4 5 6 7 sudo yum install epel-release sudo yum install nodejs # 我没有执行这行代码 sudo yum install npm 参考教程 如</description>
+      </item>
+      
+    
+  </channel>
+</rss>
