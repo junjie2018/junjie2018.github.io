@@ -4526,6 +4526,46 @@
 
       
     
+      
+        
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vue/">
+    <span class="menu__title--collapse-text">
+      Vue
+    </span>
+    <span class="menu__title--icon right">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
+      
+    </span>
+  </li>
+  <ul class="menu__list " data-data=/vue/ data-link=http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E4%BD%BF%E7%94%A8nvm%E5%AE%89%E8%A3%85%E5%A4%9A%E7%89%88%E6%9C%AC%E7%9A%84node.js/>
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vue/%E9%85%8D%E7%BD%AEwebstorm%E5%90%AF%E5%8A%A8vue%E9%A1%B9%E7%9B%AE/" class="menu__title " data-depth="1">配置Webstorm启动vue项目</a>
+        </li>
+      
+    
+  </ul>
+  
+
+      
+    
   </ul>
   
 
@@ -17079,6 +17119,46 @@
 
       
     
+      
+        
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <li class="menu__title--collapse " data-depth="1" data-permalink="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vue/">
+    <span class="menu__title--collapse-text">
+      Vue
+    </span>
+    <span class="menu__title--icon right">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
+      
+    </span>
+  </li>
+  <ul class="menu__list " data-data=/vue/ data-link=http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/%E4%BD%BF%E7%94%A8nvm%E5%AE%89%E8%A3%85%E5%A4%9A%E7%89%88%E6%9C%AC%E7%9A%84node.js/>
+    
+      
+        
+        
+        <li>
+          <a href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vue/%E9%85%8D%E7%BD%AEwebstorm%E5%90%AF%E5%8A%A8vue%E9%A1%B9%E7%9B%AE/" class="menu__title " data-depth="1">配置Webstorm启动vue项目</a>
+        </li>
+      
+    
+  </ul>
+  
+
+      
+    
   </ul>
   
 
@@ -25986,7 +26066,24 @@ nvm list
 node_mirror: https://npm.taobao.org/mirrors/node/
 npm_mirror: https://npm.taobao.org/mirrors/npm/
 
-</code></pre>
+</code></pre><ol start="4">
+<li>nvm安装路径，及下载的node.js保存路径（两者在同一个路径下）</li>
+</ol>
+<pre><code>
+C:\Users\wujj\AppData\Roaming\nvm
+
+</code></pre><h2 id="小结">小结</h2>
+<p>nvm技术和Anaconda3好像还不一样，Anaconda3是通过环境变量，让程序永远优先找到用户配置的Python环境，而nvm是在程序安装目录建立一个快捷方式，然后环境变量始终指向这个快捷方式，从而实现不同node.js版本的切换的。</p>
+<p><p class="md__image">
+  <img src="https://junjie2018sz.oss-cn-shenzhen.aliyuncs.com/images/2022-03-08-10-34-03.png" alt="2022-03-08-10-34-03"  />
+</p></p>
+<p>nvm这种方案对我的影响时，一旦切换了不同的node.js环境，就全局切换成该环境了，你在任意地方使用，都是该版本的node.js，这也包括webstorm（知识点不够准确）。</p>
+<p>我刚发现，似乎不同的版本的node.js会将模块安装在同一个目录，这个是我不想看到的</p>
+<h2 id="参考教程">参考教程</h2>
+<ol>
+<li><a href="https://segmentfault.com/a/1190000007612011" target="_blank">Windows 下安装 nvm 管理 nodejs 版本</a></li>
+</ol>
+
   </article>
 </div>
       
@@ -26015,7 +26112,12 @@ npm_mirror: https://npm.taobao.org/mirrors/npm/
         <div class="toc">
   <h6 class="toc__label"></h6>
   <div class="toc__body">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#小结">小结</a></li>
+    <li><a href="#参考教程">参考教程</a></li>
+  </ul>
+</nav>
   </div>
 </div>
       
