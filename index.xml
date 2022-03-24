@@ -1140,6 +1140,15 @@
       </item>
       
       <item>
+        <title>@use指令用不了</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vue/scss/use%E6%8C%87%E4%BB%A4%E7%94%A8%E4%B8%8D%E4%BA%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/vue/scss/use%E6%8C%87%E4%BB%A4%E7%94%A8%E4%B8%8D%E4%BA%86/</guid>
+        <description>我知道Node SCSS和Dart SCSS有差异，结果没想到差异来的这么快，我按照官方教程录入了如下的代码，结果始终无法运行： 1 2 3 4 5 6 7 8</description>
+      </item>
+      
+      <item>
         <title>@Valid与@Validation的区别</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/springboot/validation/valid%E4%B8%8Evalidation%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1181,7 +1190,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/anaconda3/anaconda%E5%88%9B%E5%BB%BA%E7%8E%AF%E5%A2%83%E5%B9%B6%E6%BF%80%E6%B4%BB%E7%8E%AF%E5%A2%83/</guid>
-        <description>指令如下： conda create --name python38 python=2.7 conda active python38</description>
+        <description>指令如下： conda create --name python38 python=3.8 conda active python38</description>
       </item>
       
       <item>
