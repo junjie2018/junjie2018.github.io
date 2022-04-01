@@ -391,7 +391,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/</loc>
+    <loc>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/vue/</loc>
   </url>
   
   <url>
@@ -679,10 +679,6 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/01.%E5%AE%89%E8%A3%85helm/</loc>
-  </url>
-  
-  <url>
     <loc>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/openwrt/%E6%96%B9%E6%A1%88/01.%E6%8A%80%E6%9C%AF%E7%82%B901openwrt%E6%89%A9%E5%AE%B9/</loc>
   </url>
   
@@ -747,10 +743,6 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/03.%E5%AE%89%E8%A3%85nfs-provisioner/</loc>
-  </url>
-  
-  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/03.%E5%AE%9E%E7%8E%B0mapper.xml%E6%96%87%E4%BB%B6%E7%9A%84%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%8F%8A%E5%8E%BB%E9%99%A4%E9%BB%84%E8%89%B2%E8%AD%A6%E5%91%8A/</loc>
   </url>
   
@@ -771,19 +763,11 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/04.%E5%AE%89%E8%A3%85redis/</loc>
-  </url>
-  
-  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/05.zset%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4/</loc>
   </url>
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/05.%E5%90%8D%E7%A7%B0%E7%A9%BA%E9%97%B4%E4%B8%8Edns/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/%E6%96%B9%E6%A1%88/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/05.%E5%AE%89%E8%A3%85mariadb%E5%BE%85%E5%AE%8C%E6%88%90/</loc>
   </url>
   
   <url>
@@ -2187,6 +2171,10 @@
   </url>
   
   <url>
+    <loc>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/openwrt%E9%85%8D%E7%BD%AEwireguard%E6%97%B6%E5%BF%98%E8%AE%B0%E5%8B%BE%E9%80%89route-allowed-ips%E5%AF%BC%E8%87%B4%E5%9C%B0%E5%9D%80%E4%B8%8D%E5%8F%AF%E8%AE%BF%E9%97%AE/</loc>
+  </url>
+  
+  <url>
     <loc>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/oss2%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE%E9%97%AE%E9%A2%98/</loc>
   </url>
   
@@ -3383,7 +3371,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/%E5%9C%A8%E4%B8%80%E4%B8%AA%E4%B8%AD%E6%96%87%E7%9B%AE%E5%BD%95%E4%B8%8B%E5%88%9D%E5%A7%8B%E9%A1%B9%E7%9B%AE%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C%E8%B5%B7%E6%9D%A5/</loc>
+    <loc>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/vue/%E5%9C%A8%E4%B8%80%E4%B8%AA%E4%B8%AD%E6%96%87%E7%9B%AE%E5%BD%95%E4%B8%8B%E5%88%9D%E5%A7%8B%E9%A1%B9%E7%9B%AE%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C%E8%B5%B7%E6%9D%A5/</loc>
   </url>
   
   <url>
@@ -3487,7 +3475,7 @@
   </url>
   
   <url>
-    <loc>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/%E5%AE%89%E8%A3%85vue-cli%E6%97%B6%E8%B8%A9%E7%9A%84%E5%9D%91/</loc>
+    <loc>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/node.js/vue/%E5%AE%89%E8%A3%85vue-cli%E6%97%B6%E8%B8%A9%E7%9A%84%E5%9D%91/</loc>
   </url>
   
   <url>
@@ -3796,10 +3784,6 @@
   
   <url>
     <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E6%9A%B4%E5%8A%9B%E7%9A%84%E5%B0%86%E4%B8%80%E4%B8%AA%E6%8E%89%E7%BA%BF%E7%9A%84%E8%8A%82%E7%82%B9%E9%87%8D%E6%96%B0%E5%8A%A0%E5%85%A5%E4%BC%9A%E9%9B%86%E7%BE%A4/</loc>
-  </url>
-  
-  <url>
-    <loc>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E6%9A%B4%E5%8A%9B%E7%9A%84%E9%87%8D%E6%96%B0%E6%90%AD%E5%BB%BAk8s/</loc>
   </url>
   
   <url>

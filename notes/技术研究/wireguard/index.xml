@@ -50,6 +50,15 @@
       </item>
       
       <item>
+        <title>OpenWRT配置wireguard时忘记勾选Route Allowed IPs导致地址不可访问</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/openwrt%E9%85%8D%E7%BD%AEwireguard%E6%97%B6%E5%BF%98%E8%AE%B0%E5%8B%BE%E9%80%89route-allowed-ips%E5%AF%BC%E8%87%B4%E5%9C%B0%E5%9D%80%E4%B8%8D%E5%8F%AF%E8%AE%BF%E9%97%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/openwrt%E9%85%8D%E7%BD%AEwireguard%E6%97%B6%E5%BF%98%E8%AE%B0%E5%8B%BE%E9%80%89route-allowed-ips%E5%AF%BC%E8%87%B4%E5%9C%B0%E5%9D%80%E4%B8%8D%E5%8F%AF%E8%AE%BF%E9%97%AE/</guid>
+        <description>我在OpenWRT上配置Wireguard时，忘记勾选Route Allowed IPs，导致路由表中没有相关的路由，最终无法ping通。 虽然这是一个非常低</description>
+      </item>
+      
+      <item>
         <title>Wireguard与Docker（记录）</title>
         <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E4%B8%8Edocker%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
