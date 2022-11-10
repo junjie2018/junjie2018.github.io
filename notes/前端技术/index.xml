@@ -14,11 +14,29 @@
     
       
       <item>
+        <title>作废</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%BD%9C%E5%BA%9F/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>Node.js</title>
         <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>NPM&amp;YARN</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/npmyarn/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/npmyarn/</guid>
         <description></description>
       </item>
       
@@ -37,6 +55,15 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>一万个HTML&amp;CSS&amp;JS&amp;TS案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/</guid>
         <description></description>
       </item>
       

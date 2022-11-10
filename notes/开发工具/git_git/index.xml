@@ -118,7 +118,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/git_git/git%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/</guid>
-        <description>操作步骤 指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 # 全局 git config --global http.proxy &amp;#39;http://192.168.13.59:1080&amp;#39; git config --global https.proxy &amp;#39;http://192.168.13.59:1080&amp;#39; git config --global http.proxy &amp;#39;http://127.0.0.1:1080&amp;#39; git config --global https.proxy &amp;#39;http://127.0.0.1:1080&amp;#39; git config --global http.proxy &amp;#39;socks5://127.0.0.1:1080&amp;#39; git config --global https.proxy</description>
+        <description>操作步骤 指令如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 # 全局 git config --global http.proxy &amp;#39;http://192.168.13.59:1080&amp;#39; git config --global https.proxy &amp;#39;http://192.168.13.59:1080&amp;#39; git config --global http.proxy &amp;#39;http://127.0.0.1:1080&amp;#39; git config --global https.proxy &amp;#39;http://127.0.0.1:1080&amp;#39; git config --global http.proxy &amp;#39;socks5://127.0.0.1:1080&amp;#39; git</description>
       </item>
       
       <item>

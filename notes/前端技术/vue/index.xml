@@ -23,6 +23,87 @@
       </item>
       
       <item>
+        <title>v-for与v-if、组件</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/v-for%E4%B8%8Ev-if%E7%BB%84%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/v-for%E4%B8%8Ev-if%E7%BB%84%E4%BB%B6/</guid>
+        <description>v-for与v-if v-if和v-for是不建议一起使用的，当它们处于同一节点时，v-if的优先级比v-for更高，这意味着v-if将没有权</description>
+      </item>
+      
+      <item>
+        <title>v-mode后不能省略value</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/v-mode%E5%90%8E%E4%B8%8D%E8%83%BD%E7%9C%81%E7%95%A5value/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/v-mode%E5%90%8E%E4%B8%8D%E8%83%BD%E7%9C%81%E7%95%A5value/</guid>
+        <description>我看Vue3文档时，有看到，在使用子组件时，如果v-mode后不指定参数，则子组件需要提供value props和updateValue met</description>
+      </item>
+      
+      <item>
+        <title>vue-request</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/vue-request/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/vue-request/</guid>
+        <description>VueRequest：一个能轻松帮你管理请求状态（支持SWR、轮询、错误重试、缓存、分页等）的Vue3 Composition API请求库。 数据请求 这是VueRe</description>
+      </item>
+      
+      <item>
+        <title>关于防抖和节流的思考</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E5%85%B3%E4%BA%8E%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81%E7%9A%84%E6%80%9D%E8%80%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E5%85%B3%E4%BA%8E%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81%E7%9A%84%E6%80%9D%E8%80%83/</guid>
+        <description>防抖可以用在小一点的输入组件，用户完成输入后，检测一下用户输入的内容是否合法。 节流可以用在大一点的文本输入框中，确保用户输入的数据能及时的发</description>
+      </item>
+      
+      <item>
+        <title>在一个中文目录下初始项目，无法运行起来</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E5%9C%A8%E4%B8%80%E4%B8%AA%E4%B8%AD%E6%96%87%E7%9B%AE%E5%BD%95%E4%B8%8B%E5%88%9D%E5%A7%8B%E9%A1%B9%E7%9B%AE%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C%E8%B5%B7%E6%9D%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E5%9C%A8%E4%B8%80%E4%B8%AA%E4%B8%AD%E6%96%87%E7%9B%AE%E5%BD%95%E4%B8%8B%E5%88%9D%E5%A7%8B%E9%A1%B9%E7%9B%AE%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C%E8%B5%B7%E6%9D%A5/</guid>
+        <description>为了测试家里电脑vue-cli好不好使，我在桌面上随便新建了目录，然后在这个目录下初始化一个项目，结果项目初始化后，无法运行起来，报如下错误</description>
+      </item>
+      
+      <item>
+        <title>安装vue-cli时踩的坑</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E5%AE%89%E8%A3%85vue-cli%E6%97%B6%E8%B8%A9%E7%9A%84%E5%9D%91/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E5%AE%89%E8%A3%85vue-cli%E6%97%B6%E8%B8%A9%E7%9A%84%E5%9D%91/</guid>
+        <description>安装vue-cli有如下两种指令： npm install vue-cli npm install @vue/cli 第一个指令安装的是2.x，第二条指令安装的是5.x。我之前就是错误的安装了2.x，导致我web</description>
+      </item>
+      
+      <item>
+        <title>对vue-request缓存的思考</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E5%AF%B9vue-request%E7%BC%93%E5%AD%98%E7%9A%84%E6%80%9D%E8%80%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E5%AF%B9vue-request%E7%BC%93%E5%AD%98%E7%9A%84%E6%80%9D%E8%80%83/</guid>
+        <description>vue-request有一个缓存配置，我觉得这个功能在开发期会带来困惑，因为开发期数据并不是很稳定，缓存会导致我们看到的和我们理解的不一致。</description>
+      </item>
+      
+      <item>
+        <title>无法运行的案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C%E7%9A%84%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C%E7%9A%84%E6%A1%88%E4%BE%8B/</guid>
+        <description>我在学习Vue3时遇到了如下的案例： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 const TodoItem = { template: `&amp;lt;li&amp;gt;This is a todo&amp;lt;/li&amp;gt;` } // 创建 Vue 应用 const app = Vue.createApp({ components: { TodoItem // 注册一个新组件 }, ... // 组件</description>
+      </item>
+      
+      <item>
+        <title>计算属性和侦听属性</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E8%AE%A1%E7%AE%97%E5%B1%9E%E6%80%A7%E5%92%8C%E4%BE%A6%E5%90%AC%E5%B1%9E%E6%80%A7/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E8%AE%A1%E7%AE%97%E5%B1%9E%E6%80%A7%E5%92%8C%E4%BE%A6%E5%90%AC%E5%B1%9E%E6%80%A7/</guid>
+        <description>文档中建议，如果你有一些数据需要随着其他数据变动而变动时，通常更好的方法是使用计算属性，而不是命令式的watch回调。 在文档的另一处，有如下</description>
+      </item>
+      
+      <item>
         <title>配置Webstorm启动vue项目</title>
         <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E9%85%8D%E7%BD%AEwebstorm%E5%90%AF%E5%8A%A8vue%E9%A1%B9%E7%9B%AE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

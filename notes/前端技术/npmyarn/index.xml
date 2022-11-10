@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NPM&amp;YARN on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/npmyarn/</link>
+    <description>Recent content in NPM&amp;YARN on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/npmyarn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>npm&amp;yarn查看包的信息</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/npmyarn/npmyarn%E6%9F%A5%E7%9C%8B%E5%8C%85%E7%9A%84%E4%BF%A1%E6%81%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/npmyarn/npmyarn%E6%9F%A5%E7%9C%8B%E5%8C%85%E7%9A%84%E4%BF%A1%E6%81%AF/</guid>
+        <description>NPM 指令如下： 1 2 3 npm info yarn YARN 1 2 3 yarn info cowsay</description>
+      </item>
+      
+      <item>
+        <title>npm&amp;yarn查看安装的包</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/npmyarn/npmyarn%E6%9F%A5%E7%9C%8B%E5%AE%89%E8%A3%85%E7%9A%84%E5%8C%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/npmyarn/npmyarn%E6%9F%A5%E7%9C%8B%E5%AE%89%E8%A3%85%E7%9A%84%E5%8C%85/</guid>
+        <description>NPM npm指令如下： 1 2 3 4 5 6 7 8 # 当前目录 npm list # 全局目录 npm list -g npm list -g yarn YARN yarn list</description>
+      </item>
+      
+      <item>
+        <title>npm&amp;yarn查看配置信息</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/npmyarn/npmyarn%E6%9F%A5%E7%9C%8B%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/npmyarn/npmyarn%E6%9F%A5%E7%9C%8B%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF/</guid>
+        <description>NPM 指令如下： 1 2 3 4 5 6 npm config list # 查看所有配置项 npm config list -l YARN 指令如下： 1 2 3 4 5 6 7 8 yarn config list yarn config set cache-folder xxx yarn config set global-folder xxx # 查看yarn安装的包的bin路</description>
+      </item>
+      
+    
+  </channel>
+</rss>
