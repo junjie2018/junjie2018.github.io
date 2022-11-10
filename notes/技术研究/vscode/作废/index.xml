@@ -22,6 +22,15 @@
         <description>意义不大，我最后选择了在Linux提供上开一个smb服务，然后映射到Windows上，故作废该笔记 SFTP插件，真的是大大提升幸福感的一个插</description>
       </item>
       
+      <item>
+        <title>VS Code开启和关闭全屏（废弃）</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/%E4%BD%9C%E5%BA%9F/vs-code%E5%BC%80%E5%90%AF%E5%92%8C%E5%85%B3%E9%97%AD%E5%85%A8%E5%B1%8F%E5%BA%9F%E5%BC%83/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vscode/%E4%BD%9C%E5%BA%9F/vs-code%E5%BC%80%E5%90%AF%E5%92%8C%E5%85%B3%E9%97%AD%E5%85%A8%E5%B1%8F%E5%BA%9F%E5%BC%83/</guid>
+        <description>不小心误触了键盘，打开了VS Code的全屏，我不是很需要这个功能，简单查了一下，F11键快速打开或关闭全屏。</description>
+      </item>
+      
     
   </channel>
 </rss>

@@ -14,24 +14,6 @@
     
       
       <item>
-        <title>作废</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E4%BD%9C%E5%BA%9F/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E4%BD%9C%E5%BA%9F/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>CentOS 8常用软件代理设置</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-8%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos-8%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</guid>
-        <description>关于代理的问题，现在已经让我非常的头疼了，我计划还是研究一下软路由，尽量让我的工具机流量全部走外网。另外，我可能还需要升级一下我搭梯子的能力</description>
-      </item>
-      
-      <item>
         <title>Centos7 YUM提示语法错误</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7-yum%E6%8F%90%E7%A4%BA%E8%AF%AD%E6%B3%95%E9%94%99%E8%AF%AF/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -47,24 +29,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.4/</guid>
         <description>我主要参考如下教程，该教程非常优秀，按照教程做，没有出现任何问题： [Linux]CentOS7.6更新内核 在使用该教程时有一些注意事项： 移除</description>
-      </item>
-      
-      <item>
-        <title>Centos7简单配置samba</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos7%E7%AE%80%E5%8D%95%E9%85%8D%E7%BD%AEsamba/</guid>
-        <description>我对这块算不上熟悉，只是因为需要高频率的在Linux系统和Windows系统之间交换文件，所以我想将Linux上的一个目录挂载到我本地。我尝</description>
-      </item>
-      
-      <item>
-        <title>CentOS8升级内核到5.12</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos8%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%E5%88%B05.12/</guid>
-        <description>这篇笔记不是针对CentOS7的 操作步骤 常用指令 uanme -a # 查看当前内核版本 cat /etc/redhat-release # 查看当前系统版本 rpm -qa | grep kernel # 查看已安装的内核 yum repolist # 查看yum当前</description>
       </item>
       
       <item>
@@ -100,7 +64,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E6%B7%BB%E5%8A%A0%E9%BB%98%E8%AE%A4%E8%B7%AF%E7%94%B1/</guid>
-        <description>需求极少，不在维护 事情的起因是这样的，我发现我Vagrant的虚拟机都会有两张网卡，经过分析我发现第一张网卡是用于nat，第二张网卡是用于我</description>
+        <description>事情的起因是这样的，我发现我Vagrant的虚拟机都会有两张网卡，经过分析我发现第一张网卡是用于nat，第二张网卡是用于我设置的host_o</description>
       </item>
       
       <item>
@@ -113,30 +77,12 @@
       </item>
       
       <item>
-        <title>CentOS设置默认启动项（引导项）</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%90%AF%E5%8A%A8%E9%A1%B9%E5%BC%95%E5%AF%BC%E9%A1%B9/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%90%AF%E5%8A%A8%E9%A1%B9%E5%BC%95%E5%AF%BC%E9%A1%B9/</guid>
-        <description>这个不整理了，照着教程做，什么问题都没有遇到。 参考资料 CentOS 8.x 和 RHEL 8.x 更改默认启动项</description>
-      </item>
-      
-      <item>
         <title>CentOS部署NFS</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E9%83%A8%E7%BD%B2nfs/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/centos%E9%83%A8%E7%BD%B2nfs/</guid>
-        <description>该技术是学习Kubernetes的存储卷时要用到的。 服务端配置 参考资料</description>
-      </item>
-      
-      <item>
-        <title>安装CentOS 8（推荐）</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%AE%89%E8%A3%85centos-8%E6%8E%A8%E8%8D%90/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/centos/%E5%AE%89%E8%A3%85centos-8%E6%8E%A8%E8%8D%90/</guid>
-        <description>操作步骤 下载CentOS 8 dvd的镜像文件（可以避免安装时的网络需求） 使用Win32DiskImager制作U盘启动盘（目前这是事最少的方案</description>
+        <description>该笔记已作为我的一个重要的方案，迁移到了基础环境目录下</description>
       </item>
       
       <item>

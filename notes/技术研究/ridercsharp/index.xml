@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rider&amp;CSharp on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/ridercsharp/</link>
+    <description>Recent content in Rider&amp;CSharp on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/ridercsharp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>not runnable nuget package microsoft.net.test.sdk is not installed</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/ridercsharp/not-runnable-nuget-package-microsoft.net.test.sdk-is-not-installed/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/ridercsharp/not-runnable-nuget-package-microsoft.net.test.sdk-is-not-installed/</guid>
+        <description>我用NuGET下载了Microsoft.NET.Test.Sdk 16.10.0，这个问题就修复了。</description>
+      </item>
+      
+      <item>
+        <title>Rider下载NUnit的包</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/ridercsharp/rider%E4%B8%8B%E8%BD%BDnunit%E7%9A%84%E5%8C%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/ridercsharp/rider%E4%B8%8B%E8%BD%BDnunit%E7%9A%84%E5%8C%85/</guid>
+        <description>如下图，搜索NUnit即可： 感觉NuGet没有Maven好用。</description>
+      </item>
+      
+      <item>
+        <title>Rider打开一个CSharp项目报红</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/ridercsharp/rider%E6%89%93%E5%BC%80%E4%B8%80%E4%B8%AAcsharp%E9%A1%B9%E7%9B%AE%E6%8A%A5%E7%BA%A2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/ridercsharp/rider%E6%89%93%E5%BC%80%E4%B8%80%E4%B8%AAcsharp%E9%A1%B9%E7%9B%AE%E6%8A%A5%E7%BA%A2/</guid>
+        <description>两个月前搞得项目，push到了GitHub，今天拉下来用Rider打开时，报红，费了一定精力给搞稍微明白了点： 系统类报红 如图，将图中部分修改</description>
+      </item>
+      
+    
+  </channel>
+</rss>

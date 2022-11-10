@@ -14,15 +14,6 @@
     
       
       <item>
-        <title>作废</title>
-        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/%E4%BD%9C%E5%BA%9F/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/%E4%BD%9C%E5%BA%9F/</guid>
-        <description></description>
-      </item>
-      
-      <item>
         <title>Debain搜索Backports包</title>
         <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debain%E6%90%9C%E7%B4%A2backports%E5%8C%85/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -46,7 +37,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/debian/debian%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
-        <description>需求非常少，故作废该笔记 操作步骤 替换/etc/apt/sources.list文件为如下内容： # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports</description>
+        <description>操作步骤 替换/etc/apt/sources.list文件为如下内容： # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free deb https://mirrors.tuna.tsinghua.edu.cn/debian-security</description>
       </item>
       
       <item>

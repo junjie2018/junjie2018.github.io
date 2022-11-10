@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debian on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/debian/</link>
+    <description>Recent content in Debian on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/debian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>如何找到U盘设备名</title>
+        <link>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/debian/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0u%E7%9B%98%E8%AE%BE%E5%A4%87%E5%90%8D/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/debian/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0u%E7%9B%98%E8%AE%BE%E5%A4%87%E5%90%8D/</guid>
+        <description>需求太少了，古作废该笔记 之前有被这个问题困惑过，今天看书的时候，遇到了相关的资料，故记载下来。 可以比较U盘插入计算机前后dmesg命令输出的</description>
+      </item>
+      
+    
+  </channel>
+</rss>

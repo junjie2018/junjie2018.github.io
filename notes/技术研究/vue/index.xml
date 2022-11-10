@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vue on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/</link>
+    <description>Recent content in Vue on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>两种初始化Vue项目的方式</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/%E4%B8%A4%E7%A7%8D%E5%88%9D%E5%A7%8B%E5%8C%96vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%96%B9%E5%BC%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/%E4%B8%A4%E7%A7%8D%E5%88%9D%E5%A7%8B%E5%8C%96vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%96%B9%E5%BC%8F/</guid>
+        <description>目前我接触了两种初始化Vue项目的方式，一种是通过vite-create工具直接初始化一个vite项目，第二种是使用vue-create工具</description>
+      </item>
+      
+      <item>
+        <title>用vite初始化一个项目</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/%E7%94%A8vite%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/%E7%94%A8vite%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE/</guid>
+        <description>初始化项目 执行如下指令（我为项目取名为gym-frontend）： npm init vite@latest 根据提示，进入gym-frontend目录，执行npm install</description>
+      </item>
+      
+    
+  </channel>
+</rss>

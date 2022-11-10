@@ -59,6 +59,24 @@
       </item>
       
       <item>
+        <title>Wireguard OpenWRT DDNS</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard-openwrt-ddns/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard-openwrt-ddns/</guid>
+        <description>如果Wireguard服务端的ip是动态的，这个时候可以使用到ddns技术，使用ddns技术时有个问题，wireguard客户端只会在启动时</description>
+      </item>
+      
+      <item>
+        <title>Wireguard OpenWRT 忘记配置路由，导致无法ping通</title>
+        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard-openwrt-%E5%BF%98%E8%AE%B0%E9%85%8D%E7%BD%AE%E8%B7%AF%E7%94%B1%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95ping%E9%80%9A/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard-openwrt-%E5%BF%98%E8%AE%B0%E9%85%8D%E7%BD%AE%E8%B7%AF%E7%94%B1%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95ping%E9%80%9A/</guid>
+        <description>很愚蠢的错误，如下配置忘记配置了，结果Wireguard无法起作用：</description>
+      </item>
+      
+      <item>
         <title>Wireguard与Docker（记录）</title>
         <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/wireguard/wireguard%E4%B8%8Edocker%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

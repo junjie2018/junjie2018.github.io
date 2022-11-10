@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node.js on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/</link>
+    <description>Recent content in Node.js on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>作废</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E4%BD%9C%E5%BA%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E4%BD%9C%E5%BA%9F/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Antd</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/antd/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/antd/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>NPM&amp;YARN</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/npmyarn/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/npmyarn/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>TypeScript</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/typescript/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/typescript/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Vue</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/vue/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/vue/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>axios默认的get方法和post方法</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/axios%E9%BB%98%E8%AE%A4%E7%9A%84get%E6%96%B9%E6%B3%95%E5%92%8Cpost%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/axios%E9%BB%98%E8%AE%A4%E7%9A%84get%E6%96%B9%E6%B3%95%E5%92%8Cpost%E6%96%B9%E6%B3%95/</guid>
+        <description>axios默认的get方法的第二个参数是一个配置参数，axios默认的post方法的第二个参数是一个data参数，第三个参数才是一个配置参数</description>
+      </item>
+      
+      <item>
+        <title>faker用不了了</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/faker%E7%94%A8%E4%B8%8D%E4%BA%86%E4%BA%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/faker%E7%94%A8%E4%B8%8D%E4%BA%86%E4%BA%86/</guid>
+        <description>这个其实关乎到很著名的那个删库事件 我用如下指令安装faker，编译器始终提示无faker包： 1 2 3 4 npm install faker@5.5.3 --save-dev npm install @types/faker@5.5.3 --save-dev 后面查了一下，改用如下方</description>
+      </item>
+      
+      <item>
+        <title>Node.js中的UNABLE_TO_VERIFY_LEAF_SIGNATURE</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/node.js%E4%B8%AD%E7%9A%84unable_to_verify_leaf_signature/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/node.js%E4%B8%AD%E7%9A%84unable_to_verify_leaf_signature/</guid>
+        <description>问题描述 执行如下指令时，报如下错误： npm install -g yo npm WARN registry Unexpected warning for https://registry.npmjs.org/: Miscellaneous Warning UNABLE_TO_VERIFY_LEAF_SIGNATURE: request to https://registry.npmjs.org/yo failed, reason: unable to verify the first certificate npm WARN registry Using stale data from https://registry.npmjs.org/ due to a request error during revalidation. npm ERR! code UNABLE_TO_VERIFY_LEAF_SIGNATURE npm ERR! errno UNABLE_TO_VERIFY_LEAF_SIGNATURE npm ERR! request to</description>
+      </item>
+      
+      <item>
+        <title>npm audit</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/npm-audit/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/npm-audit/</guid>
+        <description>npm audit：允许开发人员分析复杂的代码，并查明特定的漏洞和缺陷。 npm audit fix：检测项目依赖中的漏洞，并自动安装需要更新的漏洞的依赖，而不必再</description>
+      </item>
+      
+      <item>
+        <title>npm设置代理</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/npm%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/npm%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</guid>
+        <description>指令如下： npm config set proxy=http://127.0.0.1:1080 npm config set https-proxy=http://127.0.0.1:1080 npm config set registry=http://registry.npmjs.org npm config set proxy=http://127.0.0.1:2080 npm config set https-proxy=http://127.0.0.1:2080</description>
+      </item>
+      
+      <item>
+        <title>ts中使用faker</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/ts%E4%B8%AD%E4%BD%BF%E7%94%A8faker/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/ts%E4%B8%AD%E4%BD%BF%E7%94%A8faker/</guid>
+        <description>使用旧方案导入时是没有代码提示的，最后改为如下方案： import { faker } from &#39;@faker-js/faker&#39;; 参考资料 faker-js/faker</description>
+      </item>
+      
+      <item>
+        <title>使用nvm安装多版本的node.js</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E4%BD%BF%E7%94%A8nvm%E5%AE%89%E8%A3%85%E5%A4%9A%E7%89%88%E6%9C%AC%E7%9A%84node.js/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E4%BD%BF%E7%94%A8nvm%E5%AE%89%E8%A3%85%E5%A4%9A%E7%89%88%E6%9C%AC%E7%9A%84node.js/</guid>
+        <description>github里下载安装包，并进行安装 常用指令： nvm v # 安装最新版的node nvm install latest # 安装指定版本的node nvm install 16.4.0 # 卸载指定版本的node nvm uninstall 16.4.0 #</description>
+      </item>
+      
+      <item>
+        <title>函数</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E5%87%BD%E6%95%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E5%87%BD%E6%95%B0/</guid>
+        <description>箭头函数不能使用arguments、super和new.target，也不能用作构造函数，此外，箭头函数也没有prototype属性。 ECM</description>
+      </item>
+      
+      <item>
+        <title>命名函数表达式</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E5%91%BD%E5%90%8D%E5%87%BD%E6%95%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E5%91%BD%E5%90%8D%E5%87%BD%E6%95%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F/</guid>
+        <description>严格模式下代码不能访问arguments.callee，此时写递归方法时需要使用命名行数表达式： 1 2 3 4 5 6 7 8 9 const factorial = (function f(num)) { if(num &amp;lt;= 1) { return 1; }</description>
+      </item>
+      
+      <item>
+        <title>每个Object实例都有的属性和方法</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E6%AF%8F%E4%B8%AAobject%E5%AE%9E%E4%BE%8B%E9%83%BD%E6%9C%89%E7%9A%84%E5%B1%9E%E6%80%A7%E5%92%8C%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E6%AF%8F%E4%B8%AAobject%E5%AE%9E%E4%BE%8B%E9%83%BD%E6%9C%89%E7%9A%84%E5%B1%9E%E6%80%A7%E5%92%8C%E6%96%B9%E6%B3%95/</guid>
+        <description>constructor ：用于创建当前对象的函数。 hasOwnProperty ：用于判断当前对象实例（不是原型）上是否存在给定属性。要检查的属性名必须是字符串。 isPrototypeOf ：用于判断当前对象是否为另</description>
+      </item>
+      
+      <item>
+        <title>闭包</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E9%97%AD%E5%8C%85/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/node.js/%E9%97%AD%E5%8C%85/</guid>
+        <description>闭包指的是哪些引用了另一个函数作用域中变量的函数，通常是在嵌套函数中实现的。 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 function createComparisonFunction(propertyName) { return function (object1, object2) { let value1 = object1[propertyName] let value2 = object2[propertyName]</description>
+      </item>
+      
+    
+  </channel>
+</rss>

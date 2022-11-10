@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WinForm on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/winform/</link>
+    <description>Recent content in WinForm on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/winform/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>WinForm项目的结构</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/winform/winform%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%BB%93%E6%9E%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/winform/winform%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%BB%93%E6%9E%84/</guid>
+        <description>App.config 应用配置 Form1.cs 源码文件（窗口） Form1.Designer.cs 源码文件（界面设计） Form1.resx（资源文件） Program.cs 源码文件（Main方法）</description>
+      </item>
+      
+      <item>
+        <title>无法往Toolbox中添加lightningchart控件</title>
+        <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/winform/%E6%97%A0%E6%B3%95%E5%BE%80toolbox%E4%B8%AD%E6%B7%BB%E5%8A%A0lightningchart%E6%8E%A7%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/winform/%E6%97%A0%E6%B3%95%E5%BE%80toolbox%E4%B8%AD%E6%B7%BB%E5%8A%A0lightningchart%E6%8E%A7%E4%BB%B6/</guid>
+        <description>我尝试往Toolbox中添加LightningChart的控件，结果尝试了多种方法都添加不成功，后来翻看文档，才发现我使用的是.NET 6，而</description>
+      </item>
+      
+    
+  </channel>
+</rss>

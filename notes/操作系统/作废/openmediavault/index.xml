@@ -19,7 +19,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/omv%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E5%AE%9E%E9%AA%8C%E7%89%88/</guid>
-        <description>存储器 &amp;gt; 磁盘：对数据盘进行擦除 存储器 &amp;gt; 文件系统：为数据盘创建文件系统 存储器 &amp;gt; 文件系统：挂载数据盘 访问权限管理 &amp;gt; 共享文件夹：创建一个共享文件夹</description>
+        <description>已作废 存储器 &amp;gt; 磁盘：对数据盘进行擦除 存储器 &amp;gt; 文件系统：为数据盘创建文件系统 存储器 &amp;gt; 文件系统：挂载数据盘 访问权限管理 &amp;gt; 共享文件夹：创建一个共享</description>
       </item>
       
       <item>
@@ -37,7 +37,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://junjie2018.github.io/notes/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E4%BD%9C%E5%BA%9F/openmediavault/%E5%AE%89%E8%A3%85openmediavault/</guid>
-        <description>家里需要使用这个NAS，最终决定还是使用OpenMediaVault，主要原因有如下几点： 我的NAS主要用于文件存储，我不折腾什么家庭影音中</description>
+        <description>已作废 家里需要使用这个NAS，最终决定还是使用OpenMediaVault，主要原因有如下几点： 我的NAS主要用于文件存储，我不折腾什么家庭</description>
       </item>
       
     
