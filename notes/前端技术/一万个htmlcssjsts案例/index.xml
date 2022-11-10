@@ -58,6 +58,78 @@
         <description>需求 演示::before的简单案例 实现 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51</description>
       </item>
       
+      <item>
+        <title>00005.【CSS】背景颜色</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00005.css%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00005.css%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 &amp;lt;template&amp;gt; &amp;lt;!-- 背景色扩展到元素的内容和内边距下面--&amp;gt; &amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt; &amp;lt;h2&amp;gt;Background Colors&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;Try changing the background &amp;lt;span&amp;gt;colors&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .box</description>
+      </item>
+      
+      <item>
+        <title>00006.【CSS】背景图案</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00006.css%E8%83%8C%E6%99%AF%E5%9B%BE%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00006.css%E8%83%8C%E6%99%AF%E5%9B%BE%E6%A1%88/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 &amp;lt;template&amp;gt; &amp;lt;!-- 默认情况下，大图不会压缩以适应方框，而小图则是平铺以填充方框 --&amp;gt; &amp;lt;!-- 如果同时</description>
+      </item>
+      
+      <item>
+        <title>00007.【CSS】平铺设置</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00007.css%E5%B9%B3%E9%93%BA%E8%AE%BE%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00007.css%E5%B9%B3%E9%93%BA%E8%AE%BE%E7%BD%AE/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 &amp;lt;template&amp;gt; &amp;lt;div class=&amp;#34;wrapper&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;box b&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .box { width: 100px; height: 100px; } .b { background-image: url(&amp;#34;../assets/star.png&amp;#34;); background-color: green; background-repeat: no-repeat; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00008.【CSS】背景图案的大小</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00008.css%E8%83%8C%E6%99%AF%E5%9B%BE%E6%A1%88%E7%9A%84%E5%A4%A7%E5%B0%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00008.css%E8%83%8C%E6%99%AF%E5%9B%BE%E6%A1%88%E7%9A%84%E5%A4%A7%E5%B0%8F/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 &amp;lt;template&amp;gt; &amp;lt;div class=&amp;#34;box1&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;box2&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;box3&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .box1 { width: 1000px; height: 1000px; background-image: url(&amp;#34;../assets/balloons.jpg&amp;#34;); background-repeat: no-repeat; background-size: 100px 10em; } .box2 { width:</description>
+      </item>
+      
+      <item>
+        <title>00009.【CSS】背景图案的位置</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00009.css%E8%83%8C%E6%99%AF%E5%9B%BE%E6%A1%88%E7%9A%84%E4%BD%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00009.css%E8%83%8C%E6%99%AF%E5%9B%BE%E6%A1%88%E7%9A%84%E4%BD%8D%E7%BD%AE/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 &amp;lt;template&amp;gt; &amp;lt;div class=&amp;#34;box1&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;hr&amp;gt; &amp;lt;div class=&amp;#34;box2&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;hr&amp;gt; &amp;lt;div class=&amp;#34;box3&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;hr&amp;gt; &amp;lt;div class=&amp;#34;box4&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00010.【CSS】渐变背景</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00010.css%E6%B8%90%E5%8F%98%E8%83%8C%E6%99%AF/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00010.css%E6%B8%90%E5%8F%98%E8%83%8C%E6%99%AF/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 &amp;lt;template&amp;gt; &amp;lt;div class=&amp;#34;wrapper&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;box a&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;box b&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .box { width: 200px; height: 80px; } .a { background-image: linear-gradient(105deg, rgba(0, 249, 255, 1) 39%, rgba(51, 56, 57, 1) 96%); } .b {</description>
+      </item>
+      
+      <item>
+        <title>00011.【CSS】多个背景图案</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00011.css%E5%A4%9A%E4%B8%AA%E8%83%8C%E6%99%AF%E5%9B%BE%E6%A1%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00011.css%E5%A4%9A%E4%B8%AA%E8%83%8C%E6%99%AF%E5%9B%BE%E6%A1%88/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 &amp;lt;template&amp;gt; &amp;lt;div class=&amp;#34;wrapper&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .box { width: 200px; height: 80px; background-image: url(&amp;#34;../assets/star.png&amp;#34;), url(&amp;#34;../assets/big-star.png&amp;#34;); } .a { background-image: linear-gradient(105deg, rgba(0, 249, 255, 1) 39%, rgba(51, 56, 57, 1) 96%); } .b { background-image:</description>
+      </item>
+      
+      <item>
+        <title>00012.【CSS】背景附加</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00012.css%E8%83%8C%E6%99%AF%E9%99%84%E5%8A%A0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00012.css%E8%83%8C%E6%99%AF%E9%99%84%E5%8A%A0/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70</description>
+      </item>
+      
     
   </channel>
 </rss>
