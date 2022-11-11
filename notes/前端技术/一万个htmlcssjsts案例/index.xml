@@ -130,6 +130,159 @@
         <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70</description>
       </item>
       
+      <item>
+        <title>00013.【CSS】background-attached属性支持多背景图</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00013.cssbackground-attached%E5%B1%9E%E6%80%A7%E6%94%AF%E6%8C%81%E5%A4%9A%E8%83%8C%E6%99%AF%E5%9B%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00013.cssbackground-attached%E5%B1%9E%E6%80%A7%E6%94%AF%E6%8C%81%E5%A4%9A%E8%83%8C%E6%99%AF%E5%9B%BE/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;p&amp;gt; There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again. Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key,</description>
+      </item>
+      
+      <item>
+        <title>00014.【CSS】关于background-clip的案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00014.css%E5%85%B3%E4%BA%8Ebackground-clip%E7%9A%84%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00014.css%E5%85%B3%E4%BA%8Ebackground-clip%E7%9A%84%E6%A1%88%E4%BE%8B/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;p class=&amp;quot;border-box&amp;quot;&amp;gt;The background extends behind the border.&amp;lt;/p&amp;gt; &amp;lt;p class=&amp;quot;padding-box&amp;quot;&amp;gt;The background extends to the inside edge of the border.&amp;lt;/p&amp;gt; &amp;lt;p class=&amp;quot;content-box&amp;quot;&amp;gt;The background extends only to the edge of the content box.&amp;lt;/p&amp;gt; &amp;lt;p class=&amp;quot;text&amp;quot;&amp;gt;The background is clipped to the foreground text.&amp;lt;/p&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; p { border: .8em darkviolet; border-style: dotted double; margin: 1em 0; padding: 1.4em; background: linear-gradient(60deg, red, yellow, red, yellow, red); font: 900 1.2em sans-serif;</description>
+      </item>
+      
+      <item>
+        <title>00015.【CSS】关于background-color更多的案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00015.css%E5%85%B3%E4%BA%8Ebackground-color%E6%9B%B4%E5%A4%9A%E7%9A%84%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00015.css%E5%85%B3%E4%BA%8Ebackground-color%E6%9B%B4%E5%A4%9A%E7%9A%84%E6%A1%88%E4%BE%8B/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;exampleone&amp;quot;&amp;gt; Lorem ipsum dolor sit amet, consectetuer &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;exampletwo&amp;quot;&amp;gt; Lorem ipsum dolor sit amet, consectetuer &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;examplethree&amp;quot;&amp;gt; Lorem ipsum dolor sit amet, consectetuer &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .exampleone { background-color: teal; } .exampletwo { background-color: rgb(153, 102, 153); color: rgb(255, 255, 204); } .examplethree { background-color: #777799; color: #ffffff; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00015.【CSS】关于background-image更多的案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00015.css%E5%85%B3%E4%BA%8Ebackground-image%E6%9B%B4%E5%A4%9A%E7%9A%84%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00015.css%E5%85%B3%E4%BA%8Ebackground-image%E6%9B%B4%E5%A4%9A%E7%9A%84%E6%A1%88%E4%BE%8B/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;exampleone&amp;quot;&amp;gt; Lorem ipsum dolor sit amet, consectetuer &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;exampletwo&amp;quot;&amp;gt; Lorem ipsum dolor sit amet, consectetuer &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;examplethree&amp;quot;&amp;gt; Lorem ipsum dolor sit amet, consectetuer &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .exampleone { background-color: teal; } .exampletwo { background-color: rgb(153, 102, 153); color: rgb(255, 255, 204); } .examplethree { background-color: #777799; color: #ffffff; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00016.【CSS】演示CSS基础功能的简单案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00016.css%E6%BC%94%E7%A4%BAcss%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD%E7%9A%84%E7%AE%80%E5%8D%95%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00016.css%E6%BC%94%E7%A4%BAcss%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD%E7%9A%84%E7%AE%80%E5%8D%95%E6%A1%88%E4%BE%8B/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;h1&amp;gt;我是一级标题&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;这是一个段落文本。在文本中有一个 &amp;lt;span&amp;gt;span element&amp;lt;/span&amp;gt; 并且还有一个 &amp;lt;a href=&amp;qu</description>
+      </item>
+      
+      <item>
+        <title>00017.【CSS】关于background-repeat的更多案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00017.css%E5%85%B3%E4%BA%8Ebackground-repeat%E7%9A%84%E6%9B%B4%E5%A4%9A%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00017.css%E5%85%B3%E4%BA%8Ebackground-repeat%E7%9A%84%E6%9B%B4%E5%A4%9A%E6%A1%88%E4%BE%8B/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt;no-repeat &amp;lt;div class=&amp;quot;one&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;lt;/div&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;repeat &amp;lt;div class=&amp;quot;two&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;lt;/div&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;repeat-x &amp;lt;div class=&amp;quot;three&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;lt;/div&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;repeat-y &amp;lt;div class=&amp;quot;four&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;lt;/div&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;repeat-x, repeat-y (multiple images) &amp;lt;div class=&amp;quot;five&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;lt;/div&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; li { margin-bottom: 12px; } div { background-image: url(&amp;quot;../assets/big-star.png&amp;quot;);; width: 144px; height: 84px; } .one { background-repeat: no-repeat; } .two { background-repeat: repeat; } .three { background-repeat: repeat-x; } .four { background-repeat: repeat-y; } .five { background-image: url(&amp;quot;../assets/big-star.png&amp;quot;),url(&amp;quot;../assets/star.png&amp;quot;);</description>
+      </item>
+      
+      <item>
+        <title>00018.【CSS】传记风格的设计</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00018.css%E4%BC%A0%E8%AE%B0%E9%A3%8E%E6%A0%BC%E7%9A%84%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00018.css%E4%BC%A0%E8%AE%B0%E9%A3%8E%E6%A0%BC%E7%9A%84%E8%AE%BE%E8%AE%A1/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;main&amp;quot;&amp;gt; &amp;lt;h1&amp;gt;Jane Doe&amp;lt;/h1&amp;gt; &amp;lt;div class=&amp;quot;job-title&amp;quot;&amp;gt;Web Developer&amp;lt;/div&amp;gt; &amp;lt;p&amp;gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences</description>
+      </item>
+      
+      <item>
+        <title>00019.【CSS】演示border简单的配置</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00019.css%E6%BC%94%E7%A4%BAborder%E7%AE%80%E5%8D%95%E7%9A%84%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00019.css%E6%BC%94%E7%A4%BAborder%E7%AE%80%E5%8D%95%E7%9A%84%E9%85%8D%E7%BD%AE/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt; &amp;lt;h2&amp;gt;Borders&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;Try changing the borders.&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .box { background-color: #567895; border: 5px solid #0b385f; border-bottom-style: dashed; color: #ffffff; } .box { /*border-radius: 10px;*/ border-top-right-radius: 1em 10%; } h2 { border-top: 2px dotted rebeccapurple; border-bottom: 1em double rgb(24, 163, 78); } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00020.【CSS】关于边框和背景的小练习</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00020.css%E5%85%B3%E4%BA%8E%E8%BE%B9%E6%A1%86%E5%92%8C%E8%83%8C%E6%99%AF%E7%9A%84%E5%B0%8F%E7%BB%83%E4%B9%A0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00020.css%E5%85%B3%E4%BA%8E%E8%BE%B9%E6%A1%86%E5%92%8C%E8%83%8C%E6%99%AF%E7%9A%84%E5%B0%8F%E7%BB%83%E4%B9%A0/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt; &amp;lt;h2&amp;gt;Backgrounds &amp;amp; Borders&amp;lt;/h2&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .box { border: 5px solid; border-radius: 10px; background-image: url(&amp;quot;../assets/balloons.jpg&amp;quot;); background-size: cover; } h2 { background-color: rgba(0, 0, 0, .5); color: rgb(255, 255, 255); } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00021.【CSS】选择器的简单演示</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00021.css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E6%BC%94%E7%A4%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00021.css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E6%BC%94%E7%A4%BA/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;h1&amp;gt;Type selectors&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;Veggies es bonus vobis, proinde vos postulo essum magis &amp;lt;span&amp;gt;kohlrabi welsh onion&amp;lt;/span&amp;gt; daikon amaranth tatsoi tomatillo melon azuki bean garlic.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Gumbo beet greens corn soko &amp;lt;strong&amp;gt;endive&amp;lt;/strong&amp;gt; gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Turnip greens yarrow ricebean rutabaga &amp;lt;em&amp;gt;endive cauliflower&amp;lt;/em&amp;gt; sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus</description>
+      </item>
+      
+      <item>
+        <title>00022.【CSS】演示了全局选择器</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00022.css%E6%BC%94%E7%A4%BA%E4%BA%86%E5%85%A8%E5%B1%80%E9%80%89%E6%8B%A9%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00022.css%E6%BC%94%E7%A4%BA%E4%BA%86%E5%85%A8%E5%B1%80%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;h1&amp;gt;Universal selector&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;Veggies es bonus vobis, proinde vos postulo essum magis &amp;lt;span&amp;gt;kohlrabi welsh onion&amp;lt;/span&amp;gt; daikon amaranth tatsoi tomatillo melon azuki bean garlic.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Gumbo beet greens corn soko &amp;lt;strong&amp;gt;endive&amp;lt;/strong&amp;gt; gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.&amp;lt;/p&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; * { margin: 0 } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00023.【CSS】类选择器的简单使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00023.css%E7%B1%BB%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00023.css%E7%B1%BB%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;h1 class=&amp;quot;highlight&amp;quot;&amp;gt;Class selectors&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;Veggies es bonus vobis, proinde vos postulo essum magis &amp;lt;span class=&amp;quot;highlight&amp;quot;&amp;gt;kohlrabi welsh onion&amp;lt;/span&amp;gt; daikon amaranth tatsoi tomatillo melon azuki bean garlic.&amp;lt;/p&amp;gt; &amp;lt;p class=&amp;quot;highlight&amp;quot;&amp;gt;Gumbo beet greens corn soko &amp;lt;strong&amp;gt;endive&amp;lt;/strong&amp;gt; gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.&amp;lt;/p&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; /*.highlight {*/ /* background-color: yellow;*/ /*}*/ span.highlight{ background-color: yellow;</description>
+      </item>
+      
+      <item>
+        <title>00024.【CSS】类选择器的简单使用2</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00024.css%E7%B1%BB%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A82/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00024.css%E7%B1%BB%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A82/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;notebox&amp;quot;&amp;gt; This is an informational note. &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;notebox warning&amp;quot;&amp;gt; This note shows a warning. &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;notebox danger&amp;quot;&amp;gt; This note shows danger! &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;danger&amp;quot;&amp;gt; This won&#39;t get styled — it also needs to have the notebox class &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .notebox { border: 4px solid #666; } .notebox.warning { border-color: orange; font-weight: bold; } .notebox.danger { border-color: red; font-weight: bold; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00025.【CSS】ID选择器的简单使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00025.cssid%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00025.cssid%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;h1 id=&amp;quot;heading&amp;quot;&amp;gt;ID selector&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.&amp;lt;/p&amp;gt; &amp;lt;p id=&amp;quot;one&amp;quot;&amp;gt;Gumbo beet greens corn soko &amp;lt;strong&amp;gt;endive&amp;lt;/strong&amp;gt; gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.&amp;lt;/p&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; #one { background-color: yellow; } h1#heading { color: rebeccapurple; }</description>
+      </item>
+      
+      <item>
+        <title>00026.【CSS】css-challenges.com挑战001</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00026.csscss-challenges.com%E6%8C%91%E6%88%98001/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00026.csscss-challenges.com%E6%8C%91%E6%88%98001/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .box { width: 280px; height: 280px; display: flex; align-items: center; justify-content: center; font-family: &amp;quot;Inconsolata&amp;quot;, monospace; font-size: 28px; border: 1px solid #c39f76; box-sizing: border-box; } .box::before{ content: &amp;quot;Hello World&amp;quot;; font-size: 28px; font-weight: normal; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00027.【CSS】css-challenges.com挑战002</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00027.csscss-challenges.com%E6%8C%91%E6%88%98002/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00027.csscss-challenges.com%E6%8C%91%E6%88%98002/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .box { width: 280px; height: 280px; display: flex; align-items: center; justify-content: center; font-family: &amp;quot;Inconsolata&amp;quot;, monospace; font-size: 28px; border: 1px solid #c39f76; box-sizing: border-box; } .box::before{ content:&amp;quot;Hello\AWorld&amp;quot;; white-space:pre } &amp;lt;/style&amp;gt; 小结 white-space属性还不是很理解。</description>
+      </item>
+      
+      <item>
+        <title>00028.【CSS】 copy 5</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00028.css-copy-5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00028.css-copy-5/</guid>
+        <description> </description>
+      </item>
+      
     
   </channel>
 </rss>
