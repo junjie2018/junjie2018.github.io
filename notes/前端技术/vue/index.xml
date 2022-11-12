@@ -50,6 +50,15 @@
       </item>
       
       <item>
+        <title>两种初始化Vue项目的方式</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E4%B8%A4%E7%A7%8D%E5%88%9D%E5%A7%8B%E5%8C%96vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%96%B9%E5%BC%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E4%B8%A4%E7%A7%8D%E5%88%9D%E5%A7%8B%E5%8C%96vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%96%B9%E5%BC%8F/</guid>
+        <description>目前我接触了两种初始化Vue项目的方式，一种是通过vite-create工具直接初始化一个vite项目，第二种是使用vue-create工具</description>
+      </item>
+      
+      <item>
         <title>关于防抖和节流的思考</title>
         <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E5%85%B3%E4%BA%8E%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81%E7%9A%84%E6%80%9D%E8%80%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

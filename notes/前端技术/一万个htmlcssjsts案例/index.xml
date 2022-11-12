@@ -275,12 +275,237 @@
       </item>
       
       <item>
-        <title>00028.【CSS】 copy 5</title>
-        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00028.css-copy-5/</link>
+        <title>00028.【CSS】属性选择器的简单使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00028.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00028.css-copy-5/</guid>
-        <description> </description>
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00028.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;h1&amp;gt;Attribute presence and value selectors&amp;lt;/h1&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Item 1&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;a&amp;quot;&amp;gt;Item 2&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;a b&amp;quot;&amp;gt;Item 3&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;ab&amp;quot;&amp;gt;Item 4&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; li[class] { font-size: 200%; } li[class=&amp;quot;a&amp;quot;] { background-color: yellow; } li[class~=&amp;quot;a&amp;quot;] { color: red; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00029.【CSS】属性选择器中子字符串匹配选择器</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00029.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E4%B8%AD%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E9%80%89%E6%8B%A9%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00029.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E4%B8%AD%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;h1&amp;gt;Attribute presence and value selectors&amp;lt;/h1&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li class=&amp;quot;a&amp;quot;&amp;gt;Item 1&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;ab&amp;quot;&amp;gt;Item 2&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;bca&amp;quot;&amp;gt;Item 3&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;baabc&amp;quot;&amp;gt;Item 4&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; li[class^=&amp;quot;a&amp;quot;] { font-size: 200%; } li[class$=&amp;quot;a&amp;quot;] { background-color: yellow; } li[class*=&amp;quot;a&amp;quot;] { color: red; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00030.【CSS】属性选择器如何配置大小写不敏感</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00030.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B0%8F%E5%86%99%E4%B8%8D%E6%95%8F%E6%84%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00030.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B0%8F%E5%86%99%E4%B8%8D%E6%95%8F%E6%84%9F/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;h1&amp;gt;Attribute presence and value selectors&amp;lt;/h1&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li class=&amp;quot;a&amp;quot;&amp;gt;Item 1&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;A&amp;quot;&amp;gt;Item 2&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;AB&amp;quot;&amp;gt;Item 3&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; li[class^=&amp;quot;a&amp;quot;] { background-color: yellow; } li[class^=&amp;quot;a&amp;quot; i] { color: red; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00031.【CSS】伪类的简单使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00031.css%E4%BC%AA%E7%B1%BB%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00031.css%E4%BC%AA%E7%B1%BB%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;!-- 伪类是选择器的一种，它用于选择处于特定状态的元素，比如当它们是这一类型的第一个元素时 ， 或者是当鼠标指针悬浮在元素上面的时候。它们表现得会</description>
+      </item>
+      
+      <item>
+        <title>00032.【CSS】用户行为伪类的使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00032.css%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E4%BC%AA%E7%B1%BB%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00032.css%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E4%BC%AA%E7%B1%BB%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;Hover over me&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; a:link, a:visited { color: rebeccapurple; font-weight: bold; } a:hover { color: hotpink; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00033.【CSS】简单接触一下伪元素及伪元素和伪类的混合使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00033.css%E7%AE%80%E5%8D%95%E6%8E%A5%E8%A7%A6%E4%B8%80%E4%B8%8B%E4%BC%AA%E5%85%83%E7%B4%A0%E5%8F%8A%E4%BC%AA%E5%85%83%E7%B4%A0%E5%92%8C%E4%BC%AA%E7%B1%BB%E7%9A%84%E6%B7%B7%E5%90%88%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00033.css%E7%AE%80%E5%8D%95%E6%8E%A5%E8%A7%A6%E4%B8%80%E4%B8%8B%E4%BC%AA%E5%85%83%E7%B4%A0%E5%8F%8A%E4%BC%AA%E5%85%83%E7%B4%A0%E5%92%8C%E4%BC%AA%E7%B1%BB%E7%9A%84%E6%B7%B7%E5%90%88%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;!-- 伪元素表现得是像你往编辑文本中加入权限的HTML元素一样，而不是向现有的元素上应用类 --&amp;gt; &amp;lt;!-- 可不可以这么理解：伪元素更偏向于从无到有的创造这</description>
+      </item>
+      
+      <item>
+        <title>00035.【CSS】后代选择器的案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00035.css%E5%90%8E%E4%BB%A3%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00035.css%E5%90%8E%E4%BB%A3%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E6%A1%88%E4%BE%8B/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt; &amp;lt;p&amp;gt;Text in .box&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;p&amp;gt;Text not in .box&amp;lt;/p&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .box p { color: red } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00036.【CSS】子代选择器的案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00036.css%E5%AD%90%E4%BB%A3%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00036.css%E5%AD%90%E4%BB%A3%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E6%A1%88%E4%BE%8B/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00037.【CSS】邻接兄弟选择器</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00037.css%E9%82%BB%E6%8E%A5%E5%85%84%E5%BC%9F%E9%80%89%E6%8B%A9%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00037.css%E9%82%BB%E6%8E%A5%E5%85%84%E5%BC%9F%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;!-- 邻接兄弟选择器只会选择紧邻的哪一个，而且是向后的 --&amp;gt; &amp;lt;article&amp;gt; &amp;lt;p&amp;gt;这个P会被选择么？&amp;lt;/p&amp;gt; &amp;lt;h1&amp;gt;A heading&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion</description>
+      </item>
+      
+      <item>
+        <title>00038.【CSS】通用兄弟选择器</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00038.css%E9%80%9A%E7%94%A8%E5%85%84%E5%BC%9F%E9%80%89%E6%8B%A9%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00038.css%E9%80%9A%E7%94%A8%E5%85%84%E5%BC%9F%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;!-- 通用兄弟选择器，只能选择弟弟，不能选择兄，h1之前的元素就没有被选择。 --&amp;gt; &amp;lt;article&amp;gt; &amp;lt;p&amp;gt;这个也会被选择么？&amp;lt;/p&amp;gt; &amp;lt;h1&amp;gt;A heading&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;I</description>
+      </item>
+      
+      <item>
+        <title>00039.【CSS】边关相关的简单案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00039.css%E8%BE%B9%E5%85%B3%E7%9B%B8%E5%85%B3%E7%9A%84%E7%AE%80%E5%8D%95%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00039.css%E8%BE%B9%E5%85%B3%E7%9B%B8%E5%85%B3%E7%9A%84%E7%AE%80%E5%8D%95%E6%A1%88%E4%BE%8B/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;a&amp;quot;&amp;gt; I have a border, an outline, AND a box shadow! Amazing, isn&#39;t it? &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;b&amp;quot;&amp;gt; This box has a border on the bottom side. &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;c&amp;quot;&amp;gt; &amp;lt;p&amp;gt;This is a box with a border around it. Note which side of the box is &amp;lt;span class=&amp;quot;redtext&amp;quot;&amp;gt;red&amp;lt;/span&amp;gt;.&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;d&amp;quot;&amp;gt; &amp;lt;table&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td class=&amp;quot;b1&amp;quot;&amp;gt;none&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b2&amp;quot;&amp;gt;hidden&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b3&amp;quot;&amp;gt;dotted&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b4&amp;quot;&amp;gt;dashed&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td class=&amp;quot;b5&amp;quot;&amp;gt;solid&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b6&amp;quot;&amp;gt;double&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b7&amp;quot;&amp;gt;groove&amp;lt;/td&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00040.【CSS】演示了border-width的使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00040.css%E6%BC%94%E7%A4%BA%E4%BA%86border-width%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00040.css%E6%BC%94%E7%A4%BA%E4%BA%86border-width%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div&amp;gt; &amp;lt;p id=&amp;quot;sval&amp;quot;&amp;gt; one value: 6px wide border on all 4 sides&amp;lt;/p&amp;gt; &amp;lt;p id=&amp;quot;bival&amp;quot;&amp;gt; two different values: 2px wide top and bottom border, 10px wide right and left border&amp;lt;/p&amp;gt; &amp;lt;p id=&amp;quot;treval&amp;quot;&amp;gt; three different values: 0.3em top, 9px bottom, and zero width right and left&amp;lt;/p&amp;gt; &amp;lt;p id=&amp;quot;fourval&amp;quot;&amp;gt; four different values: &amp;quot;thin&amp;quot; top, &amp;quot;medium&amp;quot; right, &amp;quot;thick&amp;quot; bottom, and 1em right&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; #sval { border: 6px</description>
+      </item>
+      
+      <item>
+        <title>00041.【CSS】边关相关的简单案例2</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00041.css%E8%BE%B9%E5%85%B3%E7%9B%B8%E5%85%B3%E7%9A%84%E7%AE%80%E5%8D%95%E6%A1%88%E4%BE%8B2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00041.css%E8%BE%B9%E5%85%B3%E7%9B%B8%E5%85%B3%E7%9A%84%E7%AE%80%E5%8D%95%E6%A1%88%E4%BE%8B2/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;a&amp;quot;&amp;gt; &amp;lt;div&amp;gt;Element 1&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;Element 2&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;b&amp;quot;&amp;gt; &amp;lt;table&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td class=&amp;quot;b1&amp;quot;&amp;gt;none&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b2&amp;quot;&amp;gt;hidden&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b3&amp;quot;&amp;gt;dotted&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b4&amp;quot;&amp;gt;dashed&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td class=&amp;quot;b5&amp;quot;&amp;gt;solid&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b6&amp;quot;&amp;gt;double&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b7&amp;quot;&amp;gt;groove&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b8&amp;quot;&amp;gt;ridge&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td class=&amp;quot;b9&amp;quot;&amp;gt;inset&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b10&amp;quot;&amp;gt;outset&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;c&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;mybox&amp;quot;&amp;gt; &amp;lt;p&amp;gt;This is a box with a border around it. Note which side of the box is &amp;lt;span class=&amp;quot;redtext&amp;quot;&amp;gt;red&amp;lt;/span&amp;gt;.&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;d&amp;quot;&amp;gt; This box has a border</description>
+      </item>
+      
+      <item>
+        <title>00042.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00042.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00042.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00043.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00043.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00043.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00044.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00044.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00044.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00045.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00045.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00045.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00046.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00046.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00046.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00047.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00047.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00047.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00048.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00048.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00048.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00049.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00049.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00049.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00050.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00050.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00050.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00051.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00051.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00051.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00052.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00052.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00052.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00053.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00053.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00053.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00054.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00054.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00054.css/</guid>
+        <description></description>
       </item>
       
     

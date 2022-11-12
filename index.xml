@@ -312,12 +312,237 @@
       </item>
       
       <item>
-        <title>00028.【CSS】 copy 5</title>
-        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00028.css-copy-5/</link>
+        <title>00028.【CSS】属性选择器的简单使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00028.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00028.css-copy-5/</guid>
-        <description> </description>
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00028.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;h1&amp;gt;Attribute presence and value selectors&amp;lt;/h1&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Item 1&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;a&amp;quot;&amp;gt;Item 2&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;a b&amp;quot;&amp;gt;Item 3&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;ab&amp;quot;&amp;gt;Item 4&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; li[class] { font-size: 200%; } li[class=&amp;quot;a&amp;quot;] { background-color: yellow; } li[class~=&amp;quot;a&amp;quot;] { color: red; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00029.【CSS】属性选择器中子字符串匹配选择器</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00029.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E4%B8%AD%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E9%80%89%E6%8B%A9%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00029.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E4%B8%AD%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;h1&amp;gt;Attribute presence and value selectors&amp;lt;/h1&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li class=&amp;quot;a&amp;quot;&amp;gt;Item 1&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;ab&amp;quot;&amp;gt;Item 2&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;bca&amp;quot;&amp;gt;Item 3&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;baabc&amp;quot;&amp;gt;Item 4&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; li[class^=&amp;quot;a&amp;quot;] { font-size: 200%; } li[class$=&amp;quot;a&amp;quot;] { background-color: yellow; } li[class*=&amp;quot;a&amp;quot;] { color: red; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00030.【CSS】属性选择器如何配置大小写不敏感</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00030.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B0%8F%E5%86%99%E4%B8%8D%E6%95%8F%E6%84%9F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00030.css%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E5%A4%A7%E5%B0%8F%E5%86%99%E4%B8%8D%E6%95%8F%E6%84%9F/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;h1&amp;gt;Attribute presence and value selectors&amp;lt;/h1&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li class=&amp;quot;a&amp;quot;&amp;gt;Item 1&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;A&amp;quot;&amp;gt;Item 2&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;AB&amp;quot;&amp;gt;Item 3&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; li[class^=&amp;quot;a&amp;quot;] { background-color: yellow; } li[class^=&amp;quot;a&amp;quot; i] { color: red; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00031.【CSS】伪类的简单使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00031.css%E4%BC%AA%E7%B1%BB%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00031.css%E4%BC%AA%E7%B1%BB%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;!-- 伪类是选择器的一种，它用于选择处于特定状态的元素，比如当它们是这一类型的第一个元素时 ， 或者是当鼠标指针悬浮在元素上面的时候。它们表现得会</description>
+      </item>
+      
+      <item>
+        <title>00032.【CSS】用户行为伪类的使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00032.css%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E4%BC%AA%E7%B1%BB%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00032.css%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E4%BC%AA%E7%B1%BB%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;Hover over me&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; a:link, a:visited { color: rebeccapurple; font-weight: bold; } a:hover { color: hotpink; } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00033.【CSS】简单接触一下伪元素及伪元素和伪类的混合使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00033.css%E7%AE%80%E5%8D%95%E6%8E%A5%E8%A7%A6%E4%B8%80%E4%B8%8B%E4%BC%AA%E5%85%83%E7%B4%A0%E5%8F%8A%E4%BC%AA%E5%85%83%E7%B4%A0%E5%92%8C%E4%BC%AA%E7%B1%BB%E7%9A%84%E6%B7%B7%E5%90%88%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00033.css%E7%AE%80%E5%8D%95%E6%8E%A5%E8%A7%A6%E4%B8%80%E4%B8%8B%E4%BC%AA%E5%85%83%E7%B4%A0%E5%8F%8A%E4%BC%AA%E5%85%83%E7%B4%A0%E5%92%8C%E4%BC%AA%E7%B1%BB%E7%9A%84%E6%B7%B7%E5%90%88%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;!-- 伪元素表现得是像你往编辑文本中加入权限的HTML元素一样，而不是向现有的元素上应用类 --&amp;gt; &amp;lt;!-- 可不可以这么理解：伪元素更偏向于从无到有的创造这</description>
+      </item>
+      
+      <item>
+        <title>00035.【CSS】后代选择器的案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00035.css%E5%90%8E%E4%BB%A3%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00035.css%E5%90%8E%E4%BB%A3%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E6%A1%88%E4%BE%8B/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt; &amp;lt;p&amp;gt;Text in .box&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;p&amp;gt;Text not in .box&amp;lt;/p&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; .box p { color: red } &amp;lt;/style&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00036.【CSS】子代选择器的案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00036.css%E5%AD%90%E4%BB%A3%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00036.css%E5%AD%90%E4%BB%A3%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E6%A1%88%E4%BE%8B/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00037.【CSS】邻接兄弟选择器</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00037.css%E9%82%BB%E6%8E%A5%E5%85%84%E5%BC%9F%E9%80%89%E6%8B%A9%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00037.css%E9%82%BB%E6%8E%A5%E5%85%84%E5%BC%9F%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;!-- 邻接兄弟选择器只会选择紧邻的哪一个，而且是向后的 --&amp;gt; &amp;lt;article&amp;gt; &amp;lt;p&amp;gt;这个P会被选择么？&amp;lt;/p&amp;gt; &amp;lt;h1&amp;gt;A heading&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion</description>
+      </item>
+      
+      <item>
+        <title>00038.【CSS】通用兄弟选择器</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00038.css%E9%80%9A%E7%94%A8%E5%85%84%E5%BC%9F%E9%80%89%E6%8B%A9%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00038.css%E9%80%9A%E7%94%A8%E5%85%84%E5%BC%9F%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;!-- 通用兄弟选择器，只能选择弟弟，不能选择兄，h1之前的元素就没有被选择。 --&amp;gt; &amp;lt;article&amp;gt; &amp;lt;p&amp;gt;这个也会被选择么？&amp;lt;/p&amp;gt; &amp;lt;h1&amp;gt;A heading&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;I</description>
+      </item>
+      
+      <item>
+        <title>00039.【CSS】边关相关的简单案例</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00039.css%E8%BE%B9%E5%85%B3%E7%9B%B8%E5%85%B3%E7%9A%84%E7%AE%80%E5%8D%95%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00039.css%E8%BE%B9%E5%85%B3%E7%9B%B8%E5%85%B3%E7%9A%84%E7%AE%80%E5%8D%95%E6%A1%88%E4%BE%8B/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;a&amp;quot;&amp;gt; I have a border, an outline, AND a box shadow! Amazing, isn&#39;t it? &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;b&amp;quot;&amp;gt; This box has a border on the bottom side. &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;c&amp;quot;&amp;gt; &amp;lt;p&amp;gt;This is a box with a border around it. Note which side of the box is &amp;lt;span class=&amp;quot;redtext&amp;quot;&amp;gt;red&amp;lt;/span&amp;gt;.&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;d&amp;quot;&amp;gt; &amp;lt;table&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td class=&amp;quot;b1&amp;quot;&amp;gt;none&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b2&amp;quot;&amp;gt;hidden&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b3&amp;quot;&amp;gt;dotted&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b4&amp;quot;&amp;gt;dashed&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td class=&amp;quot;b5&amp;quot;&amp;gt;solid&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b6&amp;quot;&amp;gt;double&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b7&amp;quot;&amp;gt;groove&amp;lt;/td&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>00040.【CSS】演示了border-width的使用</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00040.css%E6%BC%94%E7%A4%BA%E4%BA%86border-width%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00040.css%E6%BC%94%E7%A4%BA%E4%BA%86border-width%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div&amp;gt; &amp;lt;p id=&amp;quot;sval&amp;quot;&amp;gt; one value: 6px wide border on all 4 sides&amp;lt;/p&amp;gt; &amp;lt;p id=&amp;quot;bival&amp;quot;&amp;gt; two different values: 2px wide top and bottom border, 10px wide right and left border&amp;lt;/p&amp;gt; &amp;lt;p id=&amp;quot;treval&amp;quot;&amp;gt; three different values: 0.3em top, 9px bottom, and zero width right and left&amp;lt;/p&amp;gt; &amp;lt;p id=&amp;quot;fourval&amp;quot;&amp;gt; four different values: &amp;quot;thin&amp;quot; top, &amp;quot;medium&amp;quot; right, &amp;quot;thick&amp;quot; bottom, and 1em right&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup&amp;gt; &amp;lt;/script&amp;gt; &amp;lt;style scoped&amp;gt; #sval { border: 6px</description>
+      </item>
+      
+      <item>
+        <title>00041.【CSS】边关相关的简单案例2</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00041.css%E8%BE%B9%E5%85%B3%E7%9B%B8%E5%85%B3%E7%9A%84%E7%AE%80%E5%8D%95%E6%A1%88%E4%BE%8B2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00041.css%E8%BE%B9%E5%85%B3%E7%9B%B8%E5%85%B3%E7%9A%84%E7%AE%80%E5%8D%95%E6%A1%88%E4%BE%8B2/</guid>
+        <description>&amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;a&amp;quot;&amp;gt; &amp;lt;div&amp;gt;Element 1&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;Element 2&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;b&amp;quot;&amp;gt; &amp;lt;table&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td class=&amp;quot;b1&amp;quot;&amp;gt;none&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b2&amp;quot;&amp;gt;hidden&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b3&amp;quot;&amp;gt;dotted&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b4&amp;quot;&amp;gt;dashed&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td class=&amp;quot;b5&amp;quot;&amp;gt;solid&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b6&amp;quot;&amp;gt;double&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b7&amp;quot;&amp;gt;groove&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b8&amp;quot;&amp;gt;ridge&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td class=&amp;quot;b9&amp;quot;&amp;gt;inset&amp;lt;/td&amp;gt; &amp;lt;td class=&amp;quot;b10&amp;quot;&amp;gt;outset&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;c&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;mybox&amp;quot;&amp;gt; &amp;lt;p&amp;gt;This is a box with a border around it. Note which side of the box is &amp;lt;span class=&amp;quot;redtext&amp;quot;&amp;gt;red&amp;lt;/span&amp;gt;.&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;d&amp;quot;&amp;gt; This box has a border</description>
+      </item>
+      
+      <item>
+        <title>00042.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00042.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00042.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00043.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00043.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00043.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00044.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00044.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00044.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00045.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00045.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00045.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00046.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00046.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00046.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00047.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00047.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00047.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00048.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00048.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00048.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00049.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00049.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00049.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00050.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00050.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00050.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00051.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00051.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00051.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00052.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00052.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00052.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00053.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00053.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00053.css/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>00054.【CSS】</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00054.css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/%E4%B8%80%E4%B8%87%E4%B8%AAhtmlcssjsts%E6%A1%88%E4%BE%8B/00054.css/</guid>
+        <description></description>
       </item>
       
       <item>
@@ -474,6 +699,15 @@
       </item>
       
       <item>
+        <title>01.用Vite初始化一个简单的项目</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/01.%E7%94%A8vite%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%A1%B9%E7%9B%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/01.%E7%94%A8vite%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%A1%B9%E7%9B%AE/</guid>
+        <description>执行如下指令（我为项目取名为gym-frontend）： npm init vite@latest 根据提示，进入gym-frontend目录，执行npm install。 使用We</description>
+      </item>
+      
+      <item>
         <title>01.配置MyBatis-Plus测试环境</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/mybatis-mybatis-plus/%E9%9B%86%E6%88%90mybatis-plus%E5%88%B0springboot%E5%8F%8A%E5%AF%B9idea%E7%9A%84%E9%85%8D%E7%BD%AE/01.%E9%85%8D%E7%BD%AEmybatis-plus%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -546,6 +780,15 @@
       </item>
       
       <item>
+        <title>02.【作废】Vite项目配置eslint</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/02.%E4%BD%9C%E5%BA%9Fvite%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AEeslint/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/02.%E4%BD%9C%E5%BA%9Fvite%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AEeslint/</guid>
+        <description>暂时研究这个东西的配置了，浪费了大量的实践，收益很小。而且我前端项目经验不足，即使掌握了eslint，也不清楚具体要配置哪些规则。 寻找了一圈</description>
+      </item>
+      
+      <item>
         <title>02.关于Headless Service的一些实验（废弃）</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/headlessservice/02.%E5%85%B3%E4%BA%8Eheadless-service%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AE%9E%E9%AA%8C%E5%BA%9F%E5%BC%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -609,6 +852,15 @@
       </item>
       
       <item>
+        <title>03.配置Vite监听端口</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/03.%E9%85%8D%E7%BD%AEvite%E7%9B%91%E5%90%AC%E7%AB%AF%E5%8F%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/03.%E9%85%8D%E7%BD%AEvite%E7%9B%91%E5%90%AC%E7%AB%AF%E5%8F%A3/</guid>
+        <description>修改vite.config.js配置文件，添加如下配置： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 import {defineConfig} from &amp;#39;vite&amp;#39; import vue from &amp;#39;@vitejs/plugin-vue&amp;#39; export default defineConfig({ plugins: [vue()], // 新增的内容 server: { host: &amp;#39;0.0.0.0&amp;#39;, port: 8080, open: true,</description>
+      </item>
+      
+      <item>
         <title>04.Hash相关命令</title>
         <link>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/redis/%E7%AC%94%E8%AE%B0/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04.hash%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -624,6 +876,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/04.k8s%E4%B8%AD%E7%9A%84names%E5%92%8Cuids/</guid>
         <description>Names 可以通过namespace + name唯一性确定一个RESTFul对象，例如： /api/v1/namespaces/{namespace}/pods/{name} 同一个名称空间下，同一类型的对象，可以通过name唯一性确定</description>
+      </item>
+      
+      <item>
+        <title>04.配置别名</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/04.%E9%85%8D%E7%BD%AE%E5%88%AB%E5%90%8D/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/04.%E9%85%8D%E7%BD%AE%E5%88%AB%E5%90%8D/</guid>
+        <description>别名可以在项目中使用@符号来表示路径，而不需要各种点点点，可读性会更好。 安装必要的包（我对这个包还不是很理解）： npm install @types/node --save-dev 修改vite.con</description>
       </item>
       
       <item>
@@ -654,6 +915,24 @@
       </item>
       
       <item>
+        <title>05.配置vue-router</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/05.%E9%85%8D%E7%BD%AEvue-router/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/05.%E9%85%8D%E7%BD%AEvue-router/</guid>
+        <description>安装路由包 npm install vue-router@4 src目录下新建router文件夹，router目录下新建index.ts文件，用如下内容天成index.ts： 1 2 3 4 5 6</description>
+      </item>
+      
+      <item>
+        <title>06.增加ElementPlus组件库</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/06.%E5%A2%9E%E5%8A%A0elementplus%E7%BB%84%E4%BB%B6%E5%BA%93/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/06.%E5%A2%9E%E5%8A%A0elementplus%E7%BB%84%E4%BB%B6%E5%BA%93/</guid>
+        <description>安装如下包： npm install element-plus --save npm install @element-plus/icons-vue 修改main.ts为如下内容： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 import {createApp} from &amp;#39;vue&amp;#39; import &amp;#39;@/style.css&amp;#39; import App from &amp;#39;@/App.vue&amp;#39; import router from &amp;#34;@/router&amp;#34;; // 新增内容</description>
+      </item>
+      
+      <item>
         <title>06.安装RocketMQ（待完成）</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/06.%E5%AE%89%E8%A3%85rocketmq%E5%BE%85%E5%AE%8C%E6%88%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -681,6 +960,15 @@
       </item>
       
       <item>
+        <title>07.配置pinia</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/07.%E9%85%8D%E7%BD%AEpinia/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/07.%E9%85%8D%E7%BD%AEpinia/</guid>
+        <description>安装相关包 npm install pinia 配置main.ts，新增如下内容 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 import {createApp} from &amp;#39;vue&amp;#39; import &amp;#39;@/style.css&amp;#39; import App from &amp;#39;@/App.vue&amp;#39; import router from &amp;#34;@/router&amp;#34;; import ElementPlus from &amp;#39;element-plus&amp;#39; import &amp;#39;element-plus/dist/index.css&amp;#39; import</description>
+      </item>
+      
+      <item>
         <title>08.安装RabbitMQ（待完成）</title>
         <link>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/helm/%E6%96%B9%E6%A1%88/08.%E5%AE%89%E8%A3%85rabbitmq%E5%BE%85%E5%AE%8C%E6%88%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -696,6 +984,15 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/kubernetes/%E7%AC%94%E8%AE%B0/kubernetes%E6%95%99%E7%A8%8B/08.%E7%90%86%E8%A7%A3%E5%AD%97%E6%AE%B5%E9%80%89%E6%8B%A9%E5%99%A8/</guid>
         <description>语法如下： kubectl get pods --field-selector status.phase==Running 字段选择器本质上是一个filter，默认情况下，没有添加selector/filter时，代表着指定资源类型的所有对象被</description>
+      </item>
+      
+      <item>
+        <title>08.配置scss</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/08.%E9%85%8D%E7%BD%AEscss/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/08.%E9%85%8D%E7%BD%AEscss/</guid>
+        <description>应该用这个 使用如下代码，增加对scss支持。 npm add -D sass</description>
       </item>
       
       <item>
@@ -5731,10 +6028,10 @@
       
       <item>
         <title>两种初始化Vue项目的方式</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/%E4%B8%A4%E7%A7%8D%E5%88%9D%E5%A7%8B%E5%8C%96vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%96%B9%E5%BC%8F/</link>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E4%B8%A4%E7%A7%8D%E5%88%9D%E5%A7%8B%E5%8C%96vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%96%B9%E5%BC%8F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/%E4%B8%A4%E7%A7%8D%E5%88%9D%E5%A7%8B%E5%8C%96vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%96%B9%E5%BC%8F/</guid>
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vue/%E4%B8%A4%E7%A7%8D%E5%88%9D%E5%A7%8B%E5%8C%96vue%E9%A1%B9%E7%9B%AE%E7%9A%84%E6%96%B9%E5%BC%8F/</guid>
         <description>目前我接触了两种初始化Vue项目的方式，一种是通过vite-create工具直接初始化一个vite项目，第二种是使用vue-create工具</description>
       </item>
       
@@ -8058,15 +8355,6 @@
         
         <guid>http://junjie2018.github.io/notes/%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/python/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E7%90%86%E8%A7%A3%E8%B4%AA%E5%A9%AA%E4%B8%8E%E9%9D%9E%E8%B4%AA%E5%A9%AA/</guid>
         <description>如下代码，期待匹配的数字1234567，实际匹配的是数字7 1 2 3 4 # 输出：7 print(re.match(r&amp;#39;^He.*(\d+).*Demo$&amp;#39;, &amp;#39;Hello 1234567 World_This is Regex Demo&amp;#39;).group(1)) 在贪婪匹配下，.*或匹配尽可能多的字符。正则表达式</description>
-      </item>
-      
-      <item>
-        <title>用vite初始化一个项目</title>
-        <link>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/%E7%94%A8vite%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://junjie2018.github.io/notes/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/vue/%E7%94%A8vite%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE/</guid>
-        <description>初始化项目 执行如下指令（我为项目取名为gym-frontend）： npm init vite@latest 根据提示，进入gym-frontend目录，执行npm install</description>
       </item>
       
       <item>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vite on 小桀的笔记本</title>
+    <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/</link>
+    <description>Recent content in Vite on 小桀的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01.用Vite初始化一个简单的项目</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/01.%E7%94%A8vite%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%A1%B9%E7%9B%AE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/01.%E7%94%A8vite%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%A1%B9%E7%9B%AE/</guid>
+        <description>执行如下指令（我为项目取名为gym-frontend）： npm init vite@latest 根据提示，进入gym-frontend目录，执行npm install。 使用We</description>
+      </item>
+      
+      <item>
+        <title>02.【作废】Vite项目配置eslint</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/02.%E4%BD%9C%E5%BA%9Fvite%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AEeslint/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/02.%E4%BD%9C%E5%BA%9Fvite%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AEeslint/</guid>
+        <description>暂时研究这个东西的配置了，浪费了大量的实践，收益很小。而且我前端项目经验不足，即使掌握了eslint，也不清楚具体要配置哪些规则。 寻找了一圈</description>
+      </item>
+      
+      <item>
+        <title>03.配置Vite监听端口</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/03.%E9%85%8D%E7%BD%AEvite%E7%9B%91%E5%90%AC%E7%AB%AF%E5%8F%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/03.%E9%85%8D%E7%BD%AEvite%E7%9B%91%E5%90%AC%E7%AB%AF%E5%8F%A3/</guid>
+        <description>修改vite.config.js配置文件，添加如下配置： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 import {defineConfig} from &amp;#39;vite&amp;#39; import vue from &amp;#39;@vitejs/plugin-vue&amp;#39; export default defineConfig({ plugins: [vue()], // 新增的内容 server: { host: &amp;#39;0.0.0.0&amp;#39;, port: 8080, open: true,</description>
+      </item>
+      
+      <item>
+        <title>04.配置别名</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/04.%E9%85%8D%E7%BD%AE%E5%88%AB%E5%90%8D/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/04.%E9%85%8D%E7%BD%AE%E5%88%AB%E5%90%8D/</guid>
+        <description>别名可以在项目中使用@符号来表示路径，而不需要各种点点点，可读性会更好。 安装必要的包（我对这个包还不是很理解）： npm install @types/node --save-dev 修改vite.con</description>
+      </item>
+      
+      <item>
+        <title>05.配置vue-router</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/05.%E9%85%8D%E7%BD%AEvue-router/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/05.%E9%85%8D%E7%BD%AEvue-router/</guid>
+        <description>安装路由包 npm install vue-router@4 src目录下新建router文件夹，router目录下新建index.ts文件，用如下内容天成index.ts： 1 2 3 4 5 6</description>
+      </item>
+      
+      <item>
+        <title>06.增加ElementPlus组件库</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/06.%E5%A2%9E%E5%8A%A0elementplus%E7%BB%84%E4%BB%B6%E5%BA%93/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/06.%E5%A2%9E%E5%8A%A0elementplus%E7%BB%84%E4%BB%B6%E5%BA%93/</guid>
+        <description>安装如下包： npm install element-plus --save npm install @element-plus/icons-vue 修改main.ts为如下内容： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 import {createApp} from &amp;#39;vue&amp;#39; import &amp;#39;@/style.css&amp;#39; import App from &amp;#39;@/App.vue&amp;#39; import router from &amp;#34;@/router&amp;#34;; // 新增内容</description>
+      </item>
+      
+      <item>
+        <title>07.配置pinia</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/07.%E9%85%8D%E7%BD%AEpinia/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/07.%E9%85%8D%E7%BD%AEpinia/</guid>
+        <description>安装相关包 npm install pinia 配置main.ts，新增如下内容 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 import {createApp} from &amp;#39;vue&amp;#39; import &amp;#39;@/style.css&amp;#39; import App from &amp;#39;@/App.vue&amp;#39; import router from &amp;#34;@/router&amp;#34;; import ElementPlus from &amp;#39;element-plus&amp;#39; import &amp;#39;element-plus/dist/index.css&amp;#39; import</description>
+      </item>
+      
+      <item>
+        <title>08.配置scss</title>
+        <link>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/08.%E9%85%8D%E7%BD%AEscss/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://junjie2018.github.io/notes/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/vite/08.%E9%85%8D%E7%BD%AEscss/</guid>
+        <description>应该用这个 使用如下代码，增加对scss支持。 npm add -D sass</description>
+      </item>
+      
+    
+  </channel>
+</rss>
